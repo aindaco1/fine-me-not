@@ -1,0 +1,23 @@
+{
+  "research_date": "2026-09-14",
+  "official_register_rows": 70,
+  "by_jurisdiction": {
+    "Albuquerque": 40,
+    "Bernalillo County": 27,
+    "Rio Rancho": 3
+  },
+  "county_status_counts": {
+    "installed": 18,
+    "pending_approval": 6,
+    "mobile_site": 3
+  },
+  "osm_candidate_nodes": 67,
+  "osm_bbox_west_south_east_north": [
+    -107.25,
+    34.4,
+    -105.85,
+    35.65
+  ],
+  "release_ready": false,
+  "mobile_warning_scope": "approved_as_possible_speed_camera_geometry_review_required"
+}

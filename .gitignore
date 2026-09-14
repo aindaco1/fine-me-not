@@ -1,0 +1,16 @@
+# Build outputs and local credentials
+.build/
+DerivedData/
+*.xcarchive/
+*.ipa
+*.dSYM/
+*.xcresult/
+xcuserdata/
+.env
+.env.*
+*.p8
+*.p12
+*.mobileprovision
+.DS_Store
+work/
+.xcodebuildmcp/
