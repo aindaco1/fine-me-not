@@ -3,7 +3,7 @@
 - App: Fine Me Not
 - Bundle: `xyz.dustwave.fine-me-not`
 - Owner/team: Volver Health LLC (`PWT3Q52LZ2`), explicitly selected by the project owner
-- Version: 0.1.0 (1)
+- Version: 0.1.0 (2)
 - Distribution minimum: iOS 27.0
 - Source: https://github.com/aindaco1/fine-me-not
 - Support / privacy: https://aindaco1.github.io/fine-me-not/
@@ -27,7 +27,7 @@ Do not use the simulator deployment override for a TestFlight archive. Increment
 
 ## App Store Connect
 
-Create or select the app record for the exact bundle ID under Volver Health LLC. Upload a signed App Store Connect distribution with symbols. Confirm Apple has processed the build, export compliance is resolved, and the build is assigned to an internal test group that contains the owner's Apple account. A successful archive or upload alone is not TestFlight delivery. External public beta testing requires Apple's beta review; the first test is internal on the owner's phone.
+Create or select the app record for the exact bundle ID under Volver Health LLC. Upload a signed App Store Connect distribution with symbols. Confirm Apple has processed the build, export compliance is resolved, and the build is assigned to a test group containing the owner-requested tester. Use internal testing if that tester is already an eligible App Store Connect user; otherwise use external testing and complete Apple’s beta review. Do not grant an App Store Connect role solely to bypass beta review. A successful archive or upload alone is not TestFlight delivery.
 
 Only standard HTTPS is used. `ITSAppUsesNonExemptEncryption=false`. No account is needed to review the app. Privacy answers should describe no developer collection of location or other app data, with the public hosting provider connection-log caveat in the privacy policy. Confirm answers against the final binary before submission.
 
@@ -53,6 +53,8 @@ The app's only background purpose is user-enabled camera proximity warnings. Cor
 
 ## Release evidence — September 14, 2026
 
-Xcode confirmed **0.1.0 (1) uploaded** to App Store Connect under Volver Health LLC. Source/build commit: `bd8f705`; bundled snapshot: `2026-09-14-0f9b8c9a0cd0-9632f4ed`, 1,756 warning records. A newer weekly-source check has since refreshed server provenance without changing camera records.
+Xcode confirmed **0.1.0 (2) uploaded successfully** to App Store Connect under Volver Health LLC at 22:56 UTC. Apple reported that the uploaded package was processing. Source/build commit: `7cabd13`; bundled snapshot: `2026-09-14-0f9b8c9a0cd0-43142730`, 1,756 warning records. Build 2 adds offline OpenStreetMap attribution. The previous build, 0.1.0 (1), also uploaded successfully.
+
+[Build 2 CI](https://github.com/aindaco1/fine-me-not/actions/runs/34906072688) passed. Tester assignment remains pending an authenticated App Store Connect web session; no invitation or device installation has been confirmed. The requested tester’s email is retained in the private task handoff, not in this public repository.
 
 The archive and exported distribution signed successfully using Xcode’s saved team account. The final archive passed the complete bundle check with MinimumOSVersion 27.0, version 0.1.0, the siren, database, icon, privacy manifest and expected background modes. Xcode’s upload confirmation is not confirmation of TestFlight processing, tester assignment or device installation. Those must be checked in App Store Connect before marking release delivery complete.
