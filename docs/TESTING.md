@@ -22,6 +22,10 @@ Development compatibility build: iPhone 16 Pro Max simulator on iOS 18, built wi
 - Final directional simulation while locked: eastbound Gibson encounter refreshed at 22:44:45 UTC; westbound stayed armed with its older 22:41:04 UTC timestamp. The correction warns only for the inferred travel direction.
 - Fresh-source workflow run `34905568952` downloaded the speed and enforcement inputs; an alias-source HTTP 504 retained the last good aliases. The combined dataset stayed at 1,756 records and deployment succeeded. This exercised the real failure-retention path, not just fixtures.
 
+## TestFlight installation
+
+On September 14, 2026 at approximately 23:06 UTC, App Store Connect showed build 0.1.0 (2) Testing in the First Drive internal group and the requested tester’s device as **Installed 0.1.0 (2), iPhone 16 Pro Max, iOS 27.0**. The first-drive instructions were saved in TestFlight. This confirms Apple’s installation record; the behavior checks below remain pending.
+
 ## Physical TestFlight acceptance — pending
 
 Use a passenger or a controlled stationary setup for observation; do not interact with the phone while driving. Record app build, iOS build, hardware, start/end time, connection, state and outcome. No route history needs to be uploaded.

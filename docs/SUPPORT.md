@@ -6,7 +6,7 @@ Fine Me Not 0.1 targets **iOS 27.0 and later**. The first physical acceptance de
 
 | Environment | Status |
 | --- | --- |
-| iOS 27 on iPhone 16 Pro Max | Intended first TestFlight device; physical driving and audio acceptance pending |
+| iOS 27 on iPhone 16 Pro Max | TestFlight reports build 0.1.0 (2) installed; physical driving and audio acceptance pending |
 | Other iOS 27 compatible iPhones below | Eligible by OS and hardware; not individually tested |
 | iOS 28 and future releases | Not yet verified; no forward-compatibility promise |
 | iOS 26 and earlier | Not supported by the distribution build |

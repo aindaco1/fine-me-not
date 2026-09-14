@@ -48,13 +48,15 @@ The app's only background purpose is user-enabled camera proximity warnings. Cor
 1. Source tests and full bundle checks pass.
 2. Signed archive passes export and App Store validation.
 3. Apple finishes processing; build is available to the owner in TestFlight.
-4. Owner confirms installation on iPhone 16 Pro Max / iOS 27.
+4. TestFlight reports installation on iPhone 16 Pro Max / iOS 27; owner verifies the app opens and permissions work.
 5. Physical audio/background tests pass before claims of supported behavior or a public App Store release.
 
 ## Release evidence — September 14, 2026
 
 Xcode confirmed **0.1.0 (2) uploaded successfully** to App Store Connect under Volver Health LLC at 22:56 UTC. Apple reported that the uploaded package was processing. Source/build commit: `7cabd13`; bundled snapshot: `2026-09-14-0f9b8c9a0cd0-43142730`, 1,756 warning records. Build 2 adds offline OpenStreetMap attribution. The previous build, 0.1.0 (1), also uploaded successfully.
 
-[Build 2 CI](https://github.com/aindaco1/fine-me-not/actions/runs/34906072688) passed. Tester assignment remains pending an authenticated App Store Connect web session; no invitation or device installation has been confirmed. The requested tester’s email is retained in the private task handoff, not in this public repository.
+[Build 2 CI](https://github.com/aindaco1/fine-me-not/actions/runs/34906072688) passed. At approximately 23:06 UTC, App Store Connect showed build **0.1.0 (2)** as **Testing** in the **First Drive** internal group, with the owner-requested tester assigned. The tester was already an eligible team member; no App Store Connect role was added. TestFlight then reported **Installed 0.1.0 (2)** on **iPhone 16 Pro Max / iOS 27.0**. The tester’s email is omitted from this public repository.
 
-The archive and exported distribution signed successfully using Xcode’s saved team account. The final archive passed the complete bundle check with MinimumOSVersion 27.0, version 0.1.0, the siren, database, icon, privacy manifest and expected background modes. Xcode’s upload confirmation is not confirmation of TestFlight processing, tester assignment or device installation. Those must be checked in App Store Connect before marking release delivery complete.
+The build’s What to Test instructions were saved in TestFlight, covering permissions, audio routes, screen-locked and overnight behavior, direction/repeat filtering, offline operation and database downloads. The group uses manual build assignment; future uploads must be added after validation. This is an internal beta, not a public App Store release.
+
+The archive and exported distribution signed successfully using Xcode’s saved team account. The final archive passed the complete bundle check with MinimumOSVersion 27.0, version 0.1.0, the siren, database, icon, privacy manifest and expected background modes. Processing, tester assignment and the reported device installation were subsequently verified in App Store Connect. Physical background reliability, audio audibility and battery acceptance remain pending; installation alone does not establish those behaviors.

@@ -4,7 +4,7 @@
 
 Free, open-source camera warnings for iPhone. One switch, one brief siren. No maps, ads, subscriptions, accounts or trip history.
 
-Fine Me Not targets **iOS 27+** and is being prepared for TestFlight on iPhone 16 Pro Max. It automatically monitors after one-time opt-in, including permitted background operation. It never promises uninterrupted execution in every iPhone state. See the physical acceptance checklist before relying on it.
+Fine Me Not targets **iOS 27+** and is available in the owner’s internal TestFlight group; Apple reports build 0.1.0 (2) installed on iPhone 16 Pro Max. It automatically monitors after one-time opt-in, including permitted background operation. It never promises uninterrupted execution in every iPhone state. See the physical acceptance checklist before relying on it.
 
 - [Supported iOS versions and iPhones](docs/SUPPORT.md)
 - [Data coverage and reconciliation](docs/DATA.md)
