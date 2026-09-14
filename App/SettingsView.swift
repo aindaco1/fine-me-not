@@ -65,7 +65,7 @@ struct SettingsView: View {
                             if let snapshot = services.store.snapshot {
                                 Text("\(snapshot.cameras.count.formatted()) warning locations")
                                     .font(.system(.body, design: .monospaced))
-                                Text("Updated \(snapshot.generatedAt.formatted(date: .abbreviated, time: .omitted))")
+                                Text("Published \(snapshot.generatedAt.formatted(date: .abbreviated, time: .omitted))")
                                     .font(.footnote).foregroundStyle(accent)
                                 Text(snapshot.coverage).font(.footnote).foregroundStyle(accent)
                             } else { Text("No camera database available").font(.footnote) }

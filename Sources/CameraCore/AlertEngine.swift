@@ -30,6 +30,8 @@ public struct AlertEngine: Sendable {
     public private(set) var encounters: [String: Encounter]
     private var previous: LocationFix?
     private var lastMovingAt: Date?
+    private var courseAnchor: LocationFix?
+    private var derivedCourse: (bearing: Double, at: Date)?
     public init(encounters: [String: Encounter] = [:]) { self.encounters = encounters }
 
     public mutating func evaluate(_ fix: LocationFix, index: CameraIndex, now: Date) -> [CameraWarning] {
@@ -47,7 +49,7 @@ public struct AlertEngine: Sendable {
         guard moving else { return [] }
         let speed = fix.speed.isFinite ? max(0, fix.speed) : 0
         let lead = min(600, max(150, speed * 15))
-        let course = fix.course.flatMap { $0.isFinite && (0..<360).contains($0) ? $0 : nil }
+        let course = travelCourse(for: fix)
         var warnings: [CameraWarning] = []
         for camera in index.nearby(fix.coordinate) {
             if let end = camera.validUntil, now >= end { continue }
@@ -73,5 +75,23 @@ public struct AlertEngine: Sendable {
         // restarting the process does not repeat a warning.
         encounters = encounters.filter { now.timeIntervalSince($0.value.lastAlert) < 30 * 86400 }
         return warnings.sorted { $0.distance < $1.distance }
+    }
+
+    private mutating func travelCourse(for fix: LocationFix) -> Double? {
+        if let course = fix.course, course.isFinite, (0..<360).contains(course) {
+            courseAnchor = fix; derivedCourse = nil
+            return course
+        }
+        // Some location sources supply usable positions without course accuracy.
+        // Accumulate enough displacement to exceed GPS uncertainty before inferring travel.
+        if let anchor = courseAnchor, fix.timestamp.timeIntervalSince(anchor.timestamp) <= 15 {
+            let distance = Geometry.distance(anchor.coordinate, fix.coordinate)
+            if distance >= max(20, anchor.accuracy + fix.accuracy) * 1.5 {
+                derivedCourse = (Geometry.bearing(from: anchor.coordinate, to: fix.coordinate), fix.timestamp)
+                courseAnchor = fix
+            }
+        } else { courseAnchor = fix; derivedCourse = nil }
+        guard let derivedCourse, fix.timestamp.timeIntervalSince(derivedCourse.at) <= 5 else { return nil }
+        return derivedCourse.bearing
     }
 }

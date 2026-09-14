@@ -1,0 +1,3368 @@
+{
+  "source": "OpenStreetMap API v0.6; road geometry only",
+  "checkedAt": "2026-09-14T22:39:00Z",
+  "license": "ODbL-1.0",
+  "ways": [
+    {
+      "id": 171271556,
+      "tags": {
+        "alt_name": "Rio Rancho Boulevard",
+        "highway": "primary",
+        "lanes": "4",
+        "maxspeed": "45 mph",
+        "name": "Pat D'Arco Highway",
+        "name_1": "Rio Rancho Boulevard Northeast",
+        "name_2": "Rio Rancho Drive Northeast",
+        "oneway": "yes",
+        "ref": "NM 528",
+        "source:maxspeed": "survey",
+        "surface": "asphalt"
+      },
+      "nodes": [
+        140821362,
+        143694568
+      ],
+      "geometry": [
+        {
+          "lat": 35.2176987,
+          "lon": -106.6623481
+        },
+        {
+          "lat": 35.2178382,
+          "lon": -106.6623054
+        }
+      ]
+    },
+    {
+      "id": 171273462,
+      "tags": {
+        "alt_name": "Rio Rancho Boulevard",
+        "highway": "primary",
+        "lanes": "4",
+        "maxspeed": "45 mph",
+        "name": "Pat D'Arco Highway",
+        "oneway": "yes",
+        "ref": "NM 528",
+        "source:maxspeed": "survey",
+        "surface": "asphalt"
+      },
+      "nodes": [
+        475060929,
+        12626257446,
+        1823328589,
+        13961393681,
+        1823328585,
+        1823328620,
+        13961393680,
+        1823328588
+      ],
+      "geometry": [
+        {
+          "lat": 35.2176877,
+          "lon": -106.6626201
+        },
+        {
+          "lat": 35.2175778,
+          "lon": -106.6626492
+        },
+        {
+          "lat": 35.216434,
+          "lon": -106.6629518
+        },
+        {
+          "lat": 35.2160935,
+          "lon": -106.6630107
+        },
+        {
+          "lat": 35.2155461,
+          "lon": -106.6631055
+        },
+        {
+          "lat": 35.2149322,
+          "lon": -106.6631044
+        },
+        {
+          "lat": 35.2147142,
+          "lon": -106.6630764
+        },
+        {
+          "lat": 35.2145713,
+          "lon": -106.6630581
+        }
+      ]
+    },
+    {
+      "id": 171273467,
+      "tags": {
+        "cycleway:both": "no",
+        "highway": "primary",
+        "maxspeed": "45 mph",
+        "name": "New Mexico State Road 528",
+        "oneway": "yes",
+        "ref": "NM 528",
+        "sidewalk:both": "no"
+      },
+      "nodes": [
+        1823328532,
+        4459264899,
+        4459264902,
+        1823460154,
+        4459264907,
+        4459264908,
+        1823328607,
+        4459264917,
+        4459264925,
+        4459264933,
+        4459264939,
+        4459264943,
+        1823328570,
+        4459264950,
+        4459264953,
+        4459264962,
+        4459264981,
+        1823460022,
+        1823328572,
+        1823328562
+      ],
+      "geometry": [
+        {
+          "lat": 35.2112833,
+          "lon": -106.6559296
+        },
+        {
+          "lat": 35.2112869,
+          "lon": -106.6561971
+        },
+        {
+          "lat": 35.211291,
+          "lon": -106.6564673
+        },
+        {
+          "lat": 35.2112993,
+          "lon": -106.656867
+        },
+        {
+          "lat": 35.2113277,
+          "lon": -106.6584649
+        },
+        {
+          "lat": 35.2113317,
+          "lon": -106.658598
+        },
+        {
+          "lat": 35.2113387,
+          "lon": -106.6587345
+        },
+        {
+          "lat": 35.2113517,
+          "lon": -106.6588702
+        },
+        {
+          "lat": 35.2113691,
+          "lon": -106.6590027
+        },
+        {
+          "lat": 35.2113906,
+          "lon": -106.6591359
+        },
+        {
+          "lat": 35.2114159,
+          "lon": -106.6592669
+        },
+        {
+          "lat": 35.2114481,
+          "lon": -106.6593959
+        },
+        {
+          "lat": 35.211484,
+          "lon": -106.6595222
+        },
+        {
+          "lat": 35.2115257,
+          "lon": -106.6596481
+        },
+        {
+          "lat": 35.2115715,
+          "lon": -106.6597704
+        },
+        {
+          "lat": 35.211621,
+          "lon": -106.6598935
+        },
+        {
+          "lat": 35.211672,
+          "lon": -106.6600128
+        },
+        {
+          "lat": 35.2117221,
+          "lon": -106.6601239
+        },
+        {
+          "lat": 35.2118604,
+          "lon": -106.6603593
+        },
+        {
+          "lat": 35.2124576,
+          "lon": -106.6614282
+        }
+      ]
+    },
+    {
+      "id": 171273473,
+      "tags": {
+        "highway": "primary",
+        "maxspeed": "45 mph",
+        "name": "New Mexico State Road 528",
+        "oneway": "yes",
+        "ref": "NM 528",
+        "sidewalk:both": "no",
+        "source:maxspeed": "survey"
+      },
+      "nodes": [
+        1823328588,
+        2207587673,
+        1823328524,
+        1823328565,
+        1823328627,
+        4459265049,
+        1823328567,
+        1823328564,
+        4459264946,
+        4459264938,
+        4459264923,
+        4459264906,
+        4459264898,
+        1823328626,
+        4459264887,
+        4459264881,
+        4459264872,
+        4459264866,
+        4459264863,
+        4459264858,
+        4459264853,
+        1823328536,
+        1823328549,
+        1823388208
+      ],
+      "geometry": [
+        {
+          "lat": 35.2145713,
+          "lon": -106.6630581
+        },
+        {
+          "lat": 35.2142727,
+          "lon": -106.6630332
+        },
+        {
+          "lat": 35.2133155,
+          "lon": -106.6628055
+        },
+        {
+          "lat": 35.2128334,
+          "lon": -106.6626553
+        },
+        {
+          "lat": 35.2122346,
+          "lon": -106.6621685
+        },
+        {
+          "lat": 35.2119946,
+          "lon": -106.6619095
+        },
+        {
+          "lat": 35.2117678,
+          "lon": -106.6616166
+        },
+        {
+          "lat": 35.2115163,
+          "lon": -106.6611764
+        },
+        {
+          "lat": 35.2114633,
+          "lon": -106.6610636
+        },
+        {
+          "lat": 35.2114145,
+          "lon": -106.6609489
+        },
+        {
+          "lat": 35.2113662,
+          "lon": -106.6608237
+        },
+        {
+          "lat": 35.2113235,
+          "lon": -106.6607013
+        },
+        {
+          "lat": 35.2112851,
+          "lon": -106.6605756
+        },
+        {
+          "lat": 35.2112515,
+          "lon": -106.6604496
+        },
+        {
+          "lat": 35.2112217,
+          "lon": -106.6603213
+        },
+        {
+          "lat": 35.2111952,
+          "lon": -106.6601893
+        },
+        {
+          "lat": 35.2111732,
+          "lon": -106.6600484
+        },
+        {
+          "lat": 35.2111584,
+          "lon": -106.6599183
+        },
+        {
+          "lat": 35.2111485,
+          "lon": -106.6597929
+        },
+        {
+          "lat": 35.2111403,
+          "lon": -106.6596668
+        },
+        {
+          "lat": 35.2111335,
+          "lon": -106.6595335
+        },
+        {
+          "lat": 35.2111323,
+          "lon": -106.6594004
+        },
+        {
+          "lat": 35.2111542,
+          "lon": -106.6585944
+        },
+        {
+          "lat": 35.2111819,
+          "lon": -106.6576527
+        }
+      ]
+    },
+    {
+      "id": 219937691,
+      "tags": {
+        "alt_name": "Rio Rancho Boulevard",
+        "cycleway:both": "no",
+        "highway": "primary",
+        "lanes": "4",
+        "maxspeed": "45 mph",
+        "name": "Pat D'Arco Highway",
+        "oneway": "yes",
+        "ref": "NM 528",
+        "source:maxspeed": "survey",
+        "surface": "asphalt"
+      },
+      "nodes": [
+        2207587767,
+        1823328613,
+        2207587940,
+        1823328610,
+        2207587657,
+        1823328631,
+        1823328548,
+        1823328580,
+        12626257447,
+        140821362
+      ],
+      "geometry": [
+        {
+          "lat": 35.2128668,
+          "lon": -106.6619053
+        },
+        {
+          "lat": 35.2132028,
+          "lon": -106.6621757
+        },
+        {
+          "lat": 35.2135922,
+          "lon": -106.6624155
+        },
+        {
+          "lat": 35.2140619,
+          "lon": -106.6626657
+        },
+        {
+          "lat": 35.2145493,
+          "lon": -106.6628177
+        },
+        {
+          "lat": 35.214944,
+          "lon": -106.6628765
+        },
+        {
+          "lat": 35.2155139,
+          "lon": -106.6628885
+        },
+        {
+          "lat": 35.2163731,
+          "lon": -106.6627243
+        },
+        {
+          "lat": 35.2175771,
+          "lon": -106.6623826
+        },
+        {
+          "lat": 35.2176987,
+          "lon": -106.6623481
+        }
+      ]
+    },
+    {
+      "id": 548487280,
+      "tags": {
+        "alt_name": "Rio Rancho Boulevard",
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "45 mph",
+        "name": "Pat D'Arco Highway",
+        "oneway": "yes",
+        "ref": "NM 528",
+        "source:maxspeed": "survey",
+        "surface": "asphalt"
+      },
+      "nodes": [
+        474876537,
+        12242322869,
+        3575069207,
+        2207587798,
+        4562892679,
+        12242322850,
+        474876539,
+        12242322841,
+        3455128340,
+        4562892671
+      ],
+      "geometry": [
+        {
+          "lat": 35.2368256,
+          "lon": -106.6572411
+        },
+        {
+          "lat": 35.2367025,
+          "lon": -106.6572756
+        },
+        {
+          "lat": 35.2355317,
+          "lon": -106.657604
+        },
+        {
+          "lat": 35.2354779,
+          "lon": -106.657619
+        },
+        {
+          "lat": 35.2352176,
+          "lon": -106.6576917
+        },
+        {
+          "lat": 35.2340926,
+          "lon": -106.6580061
+        },
+        {
+          "lat": 35.2339413,
+          "lon": -106.6580484
+        },
+        {
+          "lat": 35.2338164,
+          "lon": -106.6580831
+        },
+        {
+          "lat": 35.2329362,
+          "lon": -106.6583279
+        },
+        {
+          "lat": 35.2325398,
+          "lon": -106.6584383
+        }
+      ]
+    },
+    {
+      "id": 551708760,
+      "tags": {
+        "alt_name": "Rio Rancho Boulevard",
+        "highway": "primary",
+        "lanes": "4",
+        "maxspeed": "45 mph",
+        "name": "Pat D'Arco Highway",
+        "oneway": "yes",
+        "ref": "NM 528",
+        "source:maxspeed": "survey",
+        "surface": "asphalt"
+      },
+      "nodes": [
+        481478458,
+        475060929
+      ],
+      "geometry": [
+        {
+          "lat": 35.2178497,
+          "lon": -106.6625784
+        },
+        {
+          "lat": 35.2176877,
+          "lon": -106.6626201
+        }
+      ]
+    },
+    {
+      "id": 551708764,
+      "tags": {
+        "alt_name": "Rio Rancho Boulevard",
+        "cycleway:left": "no",
+        "cycleway:right": "lane",
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "45 mph",
+        "name": "Pat D'Arco Highway",
+        "name_1": "Rio Rancho Boulevard Northeast",
+        "name_2": "Rio Rancho Drive Northeast",
+        "oneway": "yes",
+        "ref": "NM 528",
+        "source:maxspeed": "survey",
+        "surface": "asphalt"
+      },
+      "nodes": [
+        5731302674,
+        10567757645,
+        4489368515,
+        4562892675,
+        4489368562,
+        12242322839,
+        143694539,
+        12242322848,
+        2207587836,
+        4562892683,
+        7622308076,
+        13343722661
+      ],
+      "geometry": [
+        {
+          "lat": 35.2319037,
+          "lon": -106.6583697
+        },
+        {
+          "lat": 35.2319896,
+          "lon": -106.6583451
+        },
+        {
+          "lat": 35.2326658,
+          "lon": -106.6581577
+        },
+        {
+          "lat": 35.2327592,
+          "lon": -106.6581319
+        },
+        {
+          "lat": 35.2329638,
+          "lon": -106.6580753
+        },
+        {
+          "lat": 35.2337653,
+          "lon": -106.657852
+        },
+        {
+          "lat": 35.2338997,
+          "lon": -106.6578146
+        },
+        {
+          "lat": 35.2340717,
+          "lon": -106.657769
+        },
+        {
+          "lat": 35.234833,
+          "lon": -106.6575671
+        },
+        {
+          "lat": 35.2357084,
+          "lon": -106.6573177
+        },
+        {
+          "lat": 35.235764,
+          "lon": -106.6573019
+        },
+        {
+          "lat": 35.2359503,
+          "lon": -106.6572488
+        }
+      ]
+    },
+    {
+      "id": 551708766,
+      "tags": {
+        "alt_name": "Rio Rancho Boulevard",
+        "highway": "primary",
+        "lanes": "4",
+        "maxspeed": "45 mph",
+        "name": "Pat D'Arco Highway",
+        "oneway": "yes",
+        "ref": "NM 528",
+        "source:maxspeed": "survey",
+        "surface": "asphalt"
+      },
+      "nodes": [
+        143754866,
+        12242172130,
+        481478501,
+        2028827694,
+        13961393682,
+        2028827682,
+        13105385173,
+        12242254876,
+        481478458
+      ],
+      "geometry": [
+        {
+          "lat": 35.224901,
+          "lon": -106.6605715
+        },
+        {
+          "lat": 35.2247668,
+          "lon": -106.6606104
+        },
+        {
+          "lat": 35.2227328,
+          "lon": -106.6611991
+        },
+        {
+          "lat": 35.2216037,
+          "lon": -106.6615187
+        },
+        {
+          "lat": 35.2196392,
+          "lon": -106.6620748
+        },
+        {
+          "lat": 35.2195964,
+          "lon": -106.6620869
+        },
+        {
+          "lat": 35.2189752,
+          "lon": -106.6622617
+        },
+        {
+          "lat": 35.2179718,
+          "lon": -106.662544
+        },
+        {
+          "lat": 35.2178497,
+          "lon": -106.6625784
+        }
+      ]
+    },
+    {
+      "id": 825065458,
+      "tags": {
+        "highway": "primary",
+        "maxspeed": "45 mph",
+        "name": "New Mexico State Road 528",
+        "oneway": "yes",
+        "ref": "NM 528",
+        "sidewalk:both": "no",
+        "source:maxspeed": "survey"
+      },
+      "nodes": [
+        1823388208,
+        4459264876,
+        4459264878,
+        4459264880,
+        4459264879,
+        4459264874,
+        1823328619,
+        1823388212
+      ],
+      "geometry": [
+        {
+          "lat": 35.2111819,
+          "lon": -106.6576527
+        },
+        {
+          "lat": 35.2111852,
+          "lon": -106.6575224
+        },
+        {
+          "lat": 35.2111879,
+          "lon": -106.6573937
+        },
+        {
+          "lat": 35.2111901,
+          "lon": -106.6572555
+        },
+        {
+          "lat": 35.2111901,
+          "lon": -106.657124
+        },
+        {
+          "lat": 35.211181,
+          "lon": -106.6564176
+        },
+        {
+          "lat": 35.2111734,
+          "lon": -106.6558733
+        },
+        {
+          "lat": 35.2111712,
+          "lon": -106.6557526
+        }
+      ]
+    },
+    {
+      "id": 906957470,
+      "tags": {
+        "alt_name": "Rio Rancho Boulevard",
+        "cycleway:left": "no",
+        "cycleway:right": "lane",
+        "highway": "primary",
+        "lanes": "4",
+        "maxspeed": "45 mph",
+        "name": "Pat D'Arco Highway",
+        "name_1": "Rio Rancho Boulevard Northeast",
+        "name_2": "Rio Rancho Drive Northeast",
+        "oneway": "yes",
+        "ref": "NM 528",
+        "source:maxspeed": "survey",
+        "surface": "asphalt"
+      },
+      "nodes": [
+        481478496,
+        12242172124,
+        13105385152,
+        9239386994,
+        4562892665,
+        481478493,
+        9980577583
+      ],
+      "geometry": [
+        {
+          "lat": 35.2249424,
+          "lon": -106.6602769
+        },
+        {
+          "lat": 35.2250233,
+          "lon": -106.6602546
+        },
+        {
+          "lat": 35.225609,
+          "lon": -106.6600935
+        },
+        {
+          "lat": 35.2256842,
+          "lon": -106.6600729
+        },
+        {
+          "lat": 35.2278797,
+          "lon": -106.6594724
+        },
+        {
+          "lat": 35.2286755,
+          "lon": -106.6592544
+        },
+        {
+          "lat": 35.2301298,
+          "lon": -106.658857
+        }
+      ]
+    },
+    {
+      "id": 1089553205,
+      "tags": {
+        "alt_name": "Rio Rancho Boulevard",
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "45 mph",
+        "name": "Pat D'Arco Highway",
+        "oneway": "yes",
+        "placement": "transition",
+        "ref": "NM 528",
+        "source:maxspeed": "survey",
+        "surface": "asphalt"
+      },
+      "nodes": [
+        9980577582,
+        5731302684
+      ],
+      "geometry": [
+        {
+          "lat": 35.2305918,
+          "lon": -106.6589923
+        },
+        {
+          "lat": 35.2303474,
+          "lon": -106.6590956
+        }
+      ]
+    },
+    {
+      "id": 1089553206,
+      "tags": {
+        "alt_name": "Rio Rancho Boulevard",
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "45 mph",
+        "name": "Pat D'Arco Highway",
+        "oneway": "yes",
+        "ref": "NM 528",
+        "source:maxspeed": "survey",
+        "surface": "asphalt"
+      },
+      "nodes": [
+        4562892671,
+        3455128337
+      ],
+      "geometry": [
+        {
+          "lat": 35.2325398,
+          "lon": -106.6584383
+        },
+        {
+          "lat": 35.2319931,
+          "lon": -106.6585905
+        }
+      ]
+    },
+    {
+      "id": 1089553207,
+      "tags": {
+        "alt_name": "Rio Rancho Boulevard",
+        "highway": "primary",
+        "lanes": "4",
+        "maxspeed": "45 mph",
+        "name": "Pat D'Arco Highway",
+        "oneway": "yes",
+        "placement": "middle_of:2",
+        "ref": "NM 528",
+        "source:maxspeed": "survey",
+        "surface": "asphalt",
+        "turn:lanes": "|||right"
+      },
+      "nodes": [
+        3455128337,
+        12242308470,
+        9980577586,
+        12242182468,
+        474876540
+      ],
+      "geometry": [
+        {
+          "lat": 35.2319931,
+          "lon": -106.6585905
+        },
+        {
+          "lat": 35.2318501,
+          "lon": -106.6586282
+        },
+        {
+          "lat": 35.2315261,
+          "lon": -106.6587137
+        },
+        {
+          "lat": 35.2314818,
+          "lon": -106.6587285
+        },
+        {
+          "lat": 35.2313228,
+          "lon": -106.6587818
+        }
+      ]
+    },
+    {
+      "id": 1089553208,
+      "tags": {
+        "alt_name": "Rio Rancho Boulevard",
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "45 mph",
+        "name": "Pat D'Arco Highway",
+        "oneway": "yes",
+        "ref": "NM 528",
+        "source:maxspeed": "survey",
+        "surface": "asphalt"
+      },
+      "nodes": [
+        474876540,
+        12242182462,
+        9980577582
+      ],
+      "geometry": [
+        {
+          "lat": 35.2313228,
+          "lon": -106.6587818
+        },
+        {
+          "lat": 35.2312265,
+          "lon": -106.6588095
+        },
+        {
+          "lat": 35.2305918,
+          "lon": -106.6589923
+        }
+      ]
+    },
+    {
+      "id": 1089553209,
+      "tags": {
+        "alt_name": "Rio Rancho Boulevard",
+        "highway": "primary",
+        "lanes": "4",
+        "maxspeed": "45 mph",
+        "name": "Pat D'Arco Highway",
+        "oneway": "yes",
+        "ref": "NM 528",
+        "source:maxspeed": "survey",
+        "surface": "asphalt"
+      },
+      "nodes": [
+        5731302684,
+        4357772920,
+        9239387073,
+        13105385153,
+        12242172125,
+        5899583618,
+        143754866
+      ],
+      "geometry": [
+        {
+          "lat": 35.2303474,
+          "lon": -106.6590956
+        },
+        {
+          "lat": 35.2279218,
+          "lon": -106.659727
+        },
+        {
+          "lat": 35.2257276,
+          "lon": -106.6603362
+        },
+        {
+          "lat": 35.2256354,
+          "lon": -106.6603618
+        },
+        {
+          "lat": 35.2250597,
+          "lon": -106.6605216
+        },
+        {
+          "lat": 35.2249863,
+          "lon": -106.660542
+        },
+        {
+          "lat": 35.224901,
+          "lon": -106.6605715
+        }
+      ]
+    },
+    {
+      "id": 1089553210,
+      "tags": {
+        "alt_name": "Rio Rancho Boulevard",
+        "cycleway:left": "no",
+        "cycleway:right": "lane",
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "45 mph",
+        "name": "Pat D'Arco Highway",
+        "name_1": "Rio Rancho Boulevard Northeast",
+        "name_2": "Rio Rancho Drive Northeast",
+        "oneway": "yes",
+        "placement": "transition",
+        "ref": "NM 528",
+        "source:maxspeed": "survey",
+        "surface": "asphalt"
+      },
+      "nodes": [
+        143694542,
+        12242182466,
+        5731302674
+      ],
+      "geometry": [
+        {
+          "lat": 35.2313731,
+          "lon": -106.6585172
+        },
+        {
+          "lat": 35.2314728,
+          "lon": -106.6584895
+        },
+        {
+          "lat": 35.2319037,
+          "lon": -106.6583697
+        }
+      ]
+    },
+    {
+      "id": 1089553211,
+      "tags": {
+        "alt_name": "Rio Rancho Boulevard",
+        "cycleway:left": "no",
+        "cycleway:right": "lane",
+        "highway": "primary",
+        "lanes": "4",
+        "maxspeed": "45 mph",
+        "name": "Pat D'Arco Highway",
+        "name_1": "Rio Rancho Boulevard Northeast",
+        "name_2": "Rio Rancho Drive Northeast",
+        "oneway": "yes",
+        "ref": "NM 528",
+        "source:maxspeed": "survey",
+        "surface": "asphalt",
+        "turn:lanes": "|||right"
+      },
+      "nodes": [
+        9980577583,
+        9980577587,
+        12242182460,
+        143694542
+      ],
+      "geometry": [
+        {
+          "lat": 35.2301298,
+          "lon": -106.658857
+        },
+        {
+          "lat": 35.2311679,
+          "lon": -106.6585733
+        },
+        {
+          "lat": 35.2312019,
+          "lon": -106.658564
+        },
+        {
+          "lat": 35.2313731,
+          "lon": -106.6585172
+        }
+      ]
+    },
+    {
+      "id": 1369013378,
+      "tags": {
+        "alt_name": "Rio Rancho Boulevard",
+        "cycleway:left": "no",
+        "cycleway:right": "lane",
+        "highway": "primary",
+        "lanes": "4",
+        "maxspeed": "45 mph",
+        "name": "Pat D'Arco Highway",
+        "name_1": "Rio Rancho Boulevard Northeast",
+        "name_2": "Rio Rancho Drive Northeast",
+        "oneway": "yes",
+        "ref": "NM 528",
+        "source:maxspeed": "survey",
+        "surface": "asphalt"
+      },
+      "nodes": [
+        143694568,
+        12242254875,
+        9239387072,
+        2028827671,
+        481478502,
+        481478499,
+        4562892661,
+        12242172129,
+        481478497,
+        481478496
+      ],
+      "geometry": [
+        {
+          "lat": 35.2178382,
+          "lon": -106.6623054
+        },
+        {
+          "lat": 35.2179668,
+          "lon": -106.6622686
+        },
+        {
+          "lat": 35.21892,
+          "lon": -106.6619958
+        },
+        {
+          "lat": 35.2203888,
+          "lon": -106.6615754
+        },
+        {
+          "lat": 35.2215083,
+          "lon": -106.6612551
+        },
+        {
+          "lat": 35.2216307,
+          "lon": -106.6612203
+        },
+        {
+          "lat": 35.2236162,
+          "lon": -106.6606547
+        },
+        {
+          "lat": 35.2247135,
+          "lon": -106.6603421
+        },
+        {
+          "lat": 35.2248047,
+          "lon": -106.6603161
+        },
+        {
+          "lat": 35.2249424,
+          "lon": -106.6602769
+        }
+      ]
+    },
+    {
+      "id": 1408730095,
+      "tags": {
+        "alt_name": "Rio Rancho Boulevard",
+        "cycleway:both": "no",
+        "highway": "primary",
+        "lanes": "5",
+        "maxspeed": "45 mph",
+        "name": "Pat D'Arco Highway",
+        "oneway": "yes",
+        "ref": "NM 528",
+        "source:maxspeed": "survey",
+        "surface": "asphalt",
+        "turn:lanes": "none|none|none|none|merge_to_left"
+      },
+      "nodes": [
+        1823328562,
+        2207587767
+      ],
+      "geometry": [
+        {
+          "lat": 35.2124576,
+          "lon": -106.6614282
+        },
+        {
+          "lat": 35.2128668,
+          "lon": -106.6619053
+        }
+      ]
+    },
+    {
+      "id": 1455048385,
+      "tags": {
+        "alt_name": "Rio Rancho Boulevard",
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "45 mph",
+        "name": "Pat D'Arco Highway",
+        "oneway": "yes",
+        "ref": "NM 528",
+        "source:maxspeed": "survey",
+        "surface": "asphalt"
+      },
+      "nodes": [
+        474876534,
+        4562892686,
+        13343722660
+      ],
+      "geometry": [
+        {
+          "lat": 35.2386986,
+          "lon": -106.6566906
+        },
+        {
+          "lat": 35.2380532,
+          "lon": -106.6568803
+        },
+        {
+          "lat": 35.2376323,
+          "lon": -106.657004
+        }
+      ]
+    },
+    {
+      "id": 1455048386,
+      "tags": {
+        "alt_name": "Rio Rancho Boulevard",
+        "highway": "primary",
+        "lanes": "4",
+        "maxspeed": "45 mph",
+        "name": "Pat D'Arco Highway",
+        "oneway": "yes",
+        "ref": "NM 528",
+        "source:maxspeed": "survey",
+        "surface": "asphalt",
+        "turn:lanes:forward": "left|||"
+      },
+      "nodes": [
+        13343722660,
+        13343722663,
+        12242322876,
+        474876537
+      ],
+      "geometry": [
+        {
+          "lat": 35.2376323,
+          "lon": -106.657004
+        },
+        {
+          "lat": 35.236972,
+          "lon": -106.657198
+        },
+        {
+          "lat": 35.2369429,
+          "lon": -106.6572066
+        },
+        {
+          "lat": 35.2368256,
+          "lon": -106.6572411
+        }
+      ]
+    },
+    {
+      "id": 1455048387,
+      "tags": {
+        "alt_name": "Rio Rancho Boulevard",
+        "cycleway:left": "no",
+        "cycleway:right": "lane",
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "45 mph",
+        "name": "Pat D'Arco Highway",
+        "name_1": "Rio Rancho Boulevard Northeast",
+        "name_2": "Rio Rancho Drive Northeast",
+        "oneway": "yes",
+        "ref": "NM 528",
+        "source:maxspeed": "survey",
+        "surface": "asphalt"
+      },
+      "nodes": [
+        143694536,
+        12242322874,
+        2207587763,
+        143694534,
+        7190133356
+      ],
+      "geometry": [
+        {
+          "lat": 35.2367871,
+          "lon": -106.6570104
+        },
+        {
+          "lat": 35.2368983,
+          "lon": -106.6569785
+        },
+        {
+          "lat": 35.2376497,
+          "lon": -106.6567629
+        },
+        {
+          "lat": 35.2387462,
+          "lon": -106.6564304
+        },
+        {
+          "lat": 35.2395877,
+          "lon": -106.6562103
+        }
+      ]
+    },
+    {
+      "id": 1455048388,
+      "tags": {
+        "alt_name": "Rio Rancho Boulevard",
+        "cycleway:left": "no",
+        "cycleway:right": "lane",
+        "highway": "primary",
+        "lanes": "4",
+        "maxspeed": "45 mph",
+        "name": "Pat D'Arco Highway",
+        "name_1": "Rio Rancho Boulevard Northeast",
+        "name_2": "Rio Rancho Drive Northeast",
+        "oneway": "yes",
+        "ref": "NM 528",
+        "source:maxspeed": "survey",
+        "surface": "asphalt",
+        "turn:lanes": "left|||"
+      },
+      "nodes": [
+        13343722661,
+        13343722662
+      ],
+      "geometry": [
+        {
+          "lat": 35.2359503,
+          "lon": -106.6572488
+        },
+        {
+          "lat": 35.2361617,
+          "lon": -106.6571886
+        }
+      ]
+    },
+    {
+      "id": 1455048389,
+      "tags": {
+        "alt_name": "Rio Rancho Boulevard",
+        "cycleway:left": "no",
+        "cycleway:right": "lane",
+        "highway": "primary",
+        "lanes": "5",
+        "maxspeed": "45 mph",
+        "name": "Pat D'Arco Highway",
+        "name_1": "Rio Rancho Boulevard Northeast",
+        "name_2": "Rio Rancho Drive Northeast",
+        "oneway": "yes",
+        "ref": "NM 528",
+        "source:maxspeed": "survey",
+        "surface": "asphalt",
+        "turn:lanes": "left||||right"
+      },
+      "nodes": [
+        13343722662,
+        13343722664,
+        12242322867,
+        143694536
+      ],
+      "geometry": [
+        {
+          "lat": 35.2361617,
+          "lon": -106.6571886
+        },
+        {
+          "lat": 35.2366289,
+          "lon": -106.6570555
+        },
+        {
+          "lat": 35.236657,
+          "lon": -106.6570475
+        },
+        {
+          "lat": 35.2367871,
+          "lon": -106.6570104
+        }
+      ]
+    },
+    {
+      "id": 105203423,
+      "tags": {
+        "alt_name": "Rio Rancho Boulevard",
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "50 mph",
+        "name": "Pat D'Arco Highway",
+        "oneway": "yes",
+        "rcn_ref": "5",
+        "ref": "NM 528",
+        "source:maxspeed": "survey",
+        "surface": "asphalt"
+      },
+      "nodes": [
+        483796094,
+        483775139,
+        9239386903,
+        483775142,
+        483775147
+      ],
+      "geometry": [
+        {
+          "lat": 35.2735008,
+          "lon": -106.6196108
+        },
+        {
+          "lat": 35.2697636,
+          "lon": -106.6235851
+        },
+        {
+          "lat": 35.2689027,
+          "lon": -106.624525
+        },
+        {
+          "lat": 35.267423,
+          "lon": -106.6261172
+        },
+        {
+          "lat": 35.2660787,
+          "lon": -106.6276984
+        }
+      ]
+    },
+    {
+      "id": 133136623,
+      "tags": {
+        "alt_name": "Rio Rancho Boulevard",
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "50 mph",
+        "name": "Pat D'Arco Highway",
+        "name_1": "Rio Rancho Boulevard Northeast",
+        "name_2": "Rio Rancho Drive Northeast",
+        "oneway": "yes",
+        "rcn_ref": "5",
+        "ref": "NM 528",
+        "source:maxspeed": "survey",
+        "surface": "asphalt"
+      },
+      "nodes": [
+        143790139,
+        475383542,
+        483796117,
+        9494124619,
+        143710669
+      ],
+      "geometry": [
+        {
+          "lat": 35.2696538,
+          "lon": -106.6234806
+        },
+        {
+          "lat": 35.272483,
+          "lon": -106.6205016
+        },
+        {
+          "lat": 35.2734175,
+          "lon": -106.6195029
+        },
+        {
+          "lat": 35.275317,
+          "lon": -106.6174721
+        },
+        {
+          "lat": 35.275392,
+          "lon": -106.6173927
+        }
+      ]
+    },
+    {
+      "id": 133136633,
+      "tags": {
+        "alt_name": "Rio Rancho Boulevard Southeast",
+        "highway": "primary",
+        "lanes": "4",
+        "maxspeed": "45 mph",
+        "name": "Pat D'Arco Highway",
+        "name_1": "Rio Rancho Boulevard Southeast",
+        "oneway": "yes",
+        "ref": "NM 528",
+        "sidewalk:left": "no",
+        "sidewalk:right": "separate",
+        "source:maxspeed": "survey",
+        "surface": "asphalt"
+      },
+      "nodes": [
+        483775147,
+        474876493,
+        2407413528,
+        7469317258,
+        474876503,
+        7469317253,
+        474876505,
+        7469317276,
+        12951019496,
+        13105388688,
+        13105387990,
+        7594815770,
+        477453088,
+        474876506
+      ],
+      "geometry": [
+        {
+          "lat": 35.2660787,
+          "lon": -106.6276984
+        },
+        {
+          "lat": 35.2660005,
+          "lon": -106.6278012
+        },
+        {
+          "lat": 35.2659506,
+          "lon": -106.6278631
+        },
+        {
+          "lat": 35.2652512,
+          "lon": -106.6288818
+        },
+        {
+          "lat": 35.2649611,
+          "lon": -106.6293439
+        },
+        {
+          "lat": 35.2643801,
+          "lon": -106.6302891
+        },
+        {
+          "lat": 35.2637703,
+          "lon": -106.6312585
+        },
+        {
+          "lat": 35.2630182,
+          "lon": -106.6324591
+        },
+        {
+          "lat": 35.2620232,
+          "lon": -106.6341183
+        },
+        {
+          "lat": 35.2618097,
+          "lon": -106.6344743
+        },
+        {
+          "lat": 35.2616842,
+          "lon": -106.6346836
+        },
+        {
+          "lat": 35.2616294,
+          "lon": -106.634775
+        },
+        {
+          "lat": 35.2605013,
+          "lon": -106.636582
+        },
+        {
+          "lat": 35.2599952,
+          "lon": -106.6373827
+        }
+      ]
+    },
+    {
+      "id": 548487274,
+      "tags": {
+        "alt_name": "Rio Rancho Boulevard",
+        "cycleway:left": "no",
+        "cycleway:right": "lane",
+        "highway": "primary",
+        "lanes": "4",
+        "maxspeed": "45 mph",
+        "name": "Pat D'Arco Highway",
+        "name_1": "Rio Rancho Boulevard Northeast",
+        "name_2": "Rio Rancho Drive Northeast",
+        "oneway": "yes",
+        "ref": "NM 528",
+        "source:maxspeed": "survey",
+        "surface": "asphalt"
+      },
+      "nodes": [
+        143694531,
+        5773024338,
+        1773755754,
+        2058669249,
+        143694521,
+        12898277711,
+        143694515,
+        143694511,
+        143694503,
+        4489370957,
+        143694501,
+        143694496,
+        9239387098,
+        143694493,
+        482601817,
+        143694490,
+        4489371224,
+        9239387080,
+        143694482,
+        143694480,
+        5731304608,
+        143694478,
+        143694469,
+        143694466,
+        13031222409,
+        143690364,
+        13031222407,
+        143694460,
+        143694450,
+        143694448,
+        143714641,
+        9239386928,
+        143790132
+      ],
+      "geometry": [
+        {
+          "lat": 35.2411958,
+          "lon": -106.6557678
+        },
+        {
+          "lat": 35.2413241,
+          "lon": -106.655735
+        },
+        {
+          "lat": 35.2414008,
+          "lon": -106.6557154
+        },
+        {
+          "lat": 35.2419494,
+          "lon": -106.6555551
+        },
+        {
+          "lat": 35.2437085,
+          "lon": -106.6551066
+        },
+        {
+          "lat": 35.2438773,
+          "lon": -106.6550595
+        },
+        {
+          "lat": 35.2446601,
+          "lon": -106.6548413
+        },
+        {
+          "lat": 35.245385,
+          "lon": -106.6545874
+        },
+        {
+          "lat": 35.2461292,
+          "lon": -106.6542444
+        },
+        {
+          "lat": 35.2465833,
+          "lon": -106.6540092
+        },
+        {
+          "lat": 35.2468876,
+          "lon": -106.6538642
+        },
+        {
+          "lat": 35.2476643,
+          "lon": -106.6534112
+        },
+        {
+          "lat": 35.2482123,
+          "lon": -106.6530493
+        },
+        {
+          "lat": 35.2484006,
+          "lon": -106.6529253
+        },
+        {
+          "lat": 35.2485043,
+          "lon": -106.6528558
+        },
+        {
+          "lat": 35.2490241,
+          "lon": -106.6524849
+        },
+        {
+          "lat": 35.2493667,
+          "lon": -106.6522425
+        },
+        {
+          "lat": 35.249443,
+          "lon": -106.6521816
+        },
+        {
+          "lat": 35.2496965,
+          "lon": -106.6519813
+        },
+        {
+          "lat": 35.250376,
+          "lon": -106.6513937
+        },
+        {
+          "lat": 35.2504422,
+          "lon": -106.6513226
+        },
+        {
+          "lat": 35.2510505,
+          "lon": -106.6506698
+        },
+        {
+          "lat": 35.251724,
+          "lon": -106.6499254
+        },
+        {
+          "lat": 35.252425,
+          "lon": -106.648968
+        },
+        {
+          "lat": 35.2531297,
+          "lon": -106.6479201
+        },
+        {
+          "lat": 35.2532156,
+          "lon": -106.6477924
+        },
+        {
+          "lat": 35.2532935,
+          "lon": -106.6476676
+        },
+        {
+          "lat": 35.2539525,
+          "lon": -106.6466122
+        },
+        {
+          "lat": 35.2559491,
+          "lon": -106.6434212
+        },
+        {
+          "lat": 35.2571265,
+          "lon": -106.6416016
+        },
+        {
+          "lat": 35.2577508,
+          "lon": -106.6406026
+        },
+        {
+          "lat": 35.2594215,
+          "lon": -106.6379161
+        },
+        {
+          "lat": 35.2598436,
+          "lon": -106.637244
+        }
+      ]
+    },
+    {
+      "id": 1092577764,
+      "tags": {
+        "alt_name": "Rio Rancho Boulevard",
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "50 mph",
+        "name": "Pat D'Arco Highway",
+        "oneway": "yes",
+        "rcn_ref": "5",
+        "ref": "NM 528",
+        "source:maxspeed": "survey",
+        "surface": "asphalt"
+      },
+      "nodes": [
+        474783909,
+        9494124618,
+        10276722911,
+        483796094
+      ],
+      "geometry": [
+        {
+          "lat": 35.2754833,
+          "lon": -106.6174954
+        },
+        {
+          "lat": 35.2753976,
+          "lon": -106.6175864
+        },
+        {
+          "lat": 35.2742571,
+          "lon": -106.618803
+        },
+        {
+          "lat": 35.2735008,
+          "lon": -106.6196108
+        }
+      ]
+    },
+    {
+      "id": 1374011940,
+      "tags": {
+        "alt_name": "Rio Rancho Boulevard",
+        "highway": "primary",
+        "lanes": "4",
+        "maxspeed": "45 mph",
+        "name": "Pat D'Arco Highway",
+        "name_1": "Rio Rancho Boulevard Southeast",
+        "oneway": "yes",
+        "ref": "NM 528",
+        "source:maxspeed": "survey",
+        "surface": "asphalt"
+      },
+      "nodes": [
+        474876509,
+        12951019482,
+        4489372785,
+        13031222408,
+        474876510,
+        13031222410,
+        10276722861,
+        474876512,
+        7046772947,
+        5731304614,
+        7046772955,
+        5517681266,
+        474876515,
+        474876517
+      ],
+      "geometry": [
+        {
+          "lat": 35.2559359,
+          "lon": -106.6438254
+        },
+        {
+          "lat": 35.2552998,
+          "lon": -106.6448067
+        },
+        {
+          "lat": 35.2543756,
+          "lon": -106.6463202
+        },
+        {
+          "lat": 35.2534344,
+          "lon": -106.6478042
+        },
+        {
+          "lat": 35.2533567,
+          "lon": -106.6479266
+        },
+        {
+          "lat": 35.2532707,
+          "lon": -106.6480555
+        },
+        {
+          "lat": 35.2530307,
+          "lon": -106.6484151
+        },
+        {
+          "lat": 35.2524037,
+          "lon": -106.6492544
+        },
+        {
+          "lat": 35.2523019,
+          "lon": -106.6493887
+        },
+        {
+          "lat": 35.2522388,
+          "lon": -106.6494721
+        },
+        {
+          "lat": 35.2521734,
+          "lon": -106.6495584
+        },
+        {
+          "lat": 35.2520177,
+          "lon": -106.6497639
+        },
+        {
+          "lat": 35.2518809,
+          "lon": -106.6499444
+        },
+        {
+          "lat": 35.25104,
+          "lon": -106.6509154
+        }
+      ]
+    },
+    {
+      "id": 1374011942,
+      "tags": {
+        "alt_name": "Rio Rancho Boulevard Southeast",
+        "highway": "primary",
+        "lanes": "4",
+        "maxspeed": "45 mph",
+        "name": "Pat D'Arco Highway",
+        "name_1": "Rio Rancho Boulevard Northeast",
+        "name_2": "Rio Rancho Drive Northeast",
+        "oneway": "yes",
+        "ref": "NM 528",
+        "source:maxspeed": "survey",
+        "surface": "asphalt"
+      },
+      "nodes": [
+        143790132,
+        477453090,
+        12951019490,
+        143770131,
+        143777018,
+        4562892989,
+        477452723,
+        143714675,
+        2407413529,
+        143732851,
+        483775331
+      ],
+      "geometry": [
+        {
+          "lat": 35.2598436,
+          "lon": -106.637244
+        },
+        {
+          "lat": 35.2603449,
+          "lon": -106.636434
+        },
+        {
+          "lat": 35.2612105,
+          "lon": -106.6350359
+        },
+        {
+          "lat": 35.2628793,
+          "lon": -106.6323261
+        },
+        {
+          "lat": 35.2643732,
+          "lon": -106.6299543
+        },
+        {
+          "lat": 35.2648861,
+          "lon": -106.6291756
+        },
+        {
+          "lat": 35.2652845,
+          "lon": -106.6285709
+        },
+        {
+          "lat": 35.2655332,
+          "lon": -106.6281734
+        },
+        {
+          "lat": 35.2658255,
+          "lon": -106.6277166
+        },
+        {
+          "lat": 35.2658635,
+          "lon": -106.6276633
+        },
+        {
+          "lat": 35.2659366,
+          "lon": -106.6275591
+        }
+      ]
+    },
+    {
+      "id": 1423485568,
+      "tags": {
+        "alt_name": "Rio Rancho Boulevard",
+        "highway": "primary",
+        "lanes": "4",
+        "maxspeed": "55 mph",
+        "name": "Pat D'Arco Highway",
+        "name_1": "Rio Rancho Drive Northeast",
+        "old_ref": "NM 46",
+        "oneway": "yes",
+        "rcn_ref": "5",
+        "ref": "NM 528",
+        "surface": "asphalt"
+      },
+      "nodes": [
+        143710669,
+        9494104611,
+        7594188125,
+        7594188124,
+        4562897106,
+        143790152,
+        9239386873,
+        9494104568,
+        13083810442
+      ],
+      "geometry": [
+        {
+          "lat": 35.275392,
+          "lon": -106.6173927
+        },
+        {
+          "lat": 35.2754973,
+          "lon": -106.6172763
+        },
+        {
+          "lat": 35.2757913,
+          "lon": -106.6169537
+        },
+        {
+          "lat": 35.2761925,
+          "lon": -106.6165126
+        },
+        {
+          "lat": 35.2767984,
+          "lon": -106.6158466
+        },
+        {
+          "lat": 35.2781247,
+          "lon": -106.6143886
+        },
+        {
+          "lat": 35.2796512,
+          "lon": -106.6127789
+        },
+        {
+          "lat": 35.2800648,
+          "lon": -106.6123422
+        },
+        {
+          "lat": 35.2814648,
+          "lon": -106.6108745
+        }
+      ]
+    },
+    {
+      "id": 1428019684,
+      "tags": {
+        "alt_name": "Rio Rancho Boulevard",
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "55 mph",
+        "name": "Pat D'Arco Highway",
+        "old_ref": "NM 46",
+        "oneway": "yes",
+        "rcn_ref": "5",
+        "ref": "NM 528",
+        "surface": "asphalt"
+      },
+      "nodes": [
+        474783861,
+        474783991,
+        9494104569,
+        4562897107,
+        9239386874,
+        474783993,
+        4562897102,
+        9494104610,
+        474783909
+      ],
+      "geometry": [
+        {
+          "lat": 35.2827175,
+          "lon": -106.6097373
+        },
+        {
+          "lat": 35.2802127,
+          "lon": -106.6124574
+        },
+        {
+          "lat": 35.2801297,
+          "lon": -106.6125425
+        },
+        {
+          "lat": 35.2797607,
+          "lon": -106.6129234
+        },
+        {
+          "lat": 35.2797329,
+          "lon": -106.6129517
+        },
+        {
+          "lat": 35.2782228,
+          "lon": -106.6145088
+        },
+        {
+          "lat": 35.2775438,
+          "lon": -106.6152491
+        },
+        {
+          "lat": 35.2755766,
+          "lon": -106.6173933
+        },
+        {
+          "lat": 35.2754833,
+          "lon": -106.6174954
+        }
+      ]
+    },
+    {
+      "id": 1428210739,
+      "tags": {
+        "alt_name": "Rio Rancho Boulevard",
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "50 mph",
+        "name": "Pat D'Arco Highway",
+        "name_1": "Rio Rancho Boulevard Northeast",
+        "name_2": "Rio Rancho Drive Northeast",
+        "oneway": "yes",
+        "rcn_ref": "5",
+        "ref": "NM 528",
+        "source:maxspeed": "survey",
+        "surface": "asphalt"
+      },
+      "nodes": [
+        483775331,
+        12948785479,
+        143717117,
+        13130289221
+      ],
+      "geometry": [
+        {
+          "lat": 35.2659366,
+          "lon": -106.6275591
+        },
+        {
+          "lat": 35.2665744,
+          "lon": -106.6267517
+        },
+        {
+          "lat": 35.2672711,
+          "lon": -106.6259677
+        },
+        {
+          "lat": 35.2684306,
+          "lon": -106.6247925
+        }
+      ]
+    },
+    {
+      "id": 1428210740,
+      "tags": {
+        "alt_name": "Rio Rancho Boulevard",
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "50 mph",
+        "name": "Pat D'Arco Highway",
+        "name_1": "Rio Rancho Boulevard Northeast",
+        "name_2": "Rio Rancho Drive Northeast",
+        "oneway": "yes",
+        "rcn_ref": "5",
+        "ref": "NM 528",
+        "source:maxspeed": "survey",
+        "surface": "asphalt",
+        "turn:lanes": "left||"
+      },
+      "nodes": [
+        13130289221,
+        4562897094,
+        9239386904,
+        4562897101,
+        143790139
+      ],
+      "geometry": [
+        {
+          "lat": 35.2684306,
+          "lon": -106.6247925
+        },
+        {
+          "lat": 35.2687139,
+          "lon": -106.6245053
+        },
+        {
+          "lat": 35.2688156,
+          "lon": -106.6243945
+        },
+        {
+          "lat": 35.2695061,
+          "lon": -106.6236446
+        },
+        {
+          "lat": 35.2696538,
+          "lon": -106.6234806
+        }
+      ]
+    },
+    {
+      "id": 1490473210,
+      "tags": {
+        "alt_name": "Rio Rancho Boulevard",
+        "highway": "primary",
+        "lanes": "4",
+        "maxspeed": "45 mph",
+        "name": "Pat D'Arco Highway",
+        "name_1": "Rio Rancho Boulevard Southeast",
+        "oneway": "yes",
+        "ref": "NM 528",
+        "source:maxspeed": "survey",
+        "surface": "asphalt"
+      },
+      "nodes": [
+        474876506,
+        9239386929,
+        12951019484,
+        474876508,
+        12951019483,
+        13660786530
+      ],
+      "geometry": [
+        {
+          "lat": 35.2599952,
+          "lon": -106.6373827
+        },
+        {
+          "lat": 35.2595749,
+          "lon": -106.6380554
+        },
+        {
+          "lat": 35.2588285,
+          "lon": -106.6392369
+        },
+        {
+          "lat": 35.2579055,
+          "lon": -106.6407336
+        },
+        {
+          "lat": 35.257411,
+          "lon": -106.6414932
+        },
+        {
+          "lat": 35.2566234,
+          "lon": -106.6427385
+        }
+      ]
+    },
+    {
+      "id": 1490473211,
+      "tags": {
+        "alt_name": "Rio Rancho Boulevard",
+        "highway": "primary",
+        "lanes": "4",
+        "maxspeed": "45 mph",
+        "name": "Pat D'Arco Highway",
+        "name_1": "Rio Rancho Boulevard Southeast",
+        "oneway": "yes",
+        "ref": "NM 528",
+        "source:maxspeed": "survey",
+        "surface": "asphalt",
+        "turn:lanes": "none|none|none|right"
+      },
+      "nodes": [
+        13660786530,
+        474876509
+      ],
+      "geometry": [
+        {
+          "lat": 35.2566234,
+          "lon": -106.6427385
+        },
+        {
+          "lat": 35.2559359,
+          "lon": -106.6438254
+        }
+      ]
+    },
+    {
+      "id": 170969050,
+      "tags": {
+        "cycleway:both": "no",
+        "highway": "primary",
+        "name": "Alameda Boulevard Northwest",
+        "oneway": "yes",
+        "ref": "NM 528",
+        "tiger:cfcc": "A31",
+        "tiger:county": "Bernalillo, NM",
+        "tiger:name_base": "Alameda",
+        "tiger:name_base_1": "State Highway 528",
+        "tiger:name_direction_suffix": "NW",
+        "tiger:name_type": "Blvd"
+      },
+      "nodes": [
+        141019927,
+        4459263899,
+        4459263953,
+        4459264263,
+        4459264305,
+        4459264339,
+        1823405035,
+        141019931,
+        4459264448,
+        141019934,
+        4459264533,
+        4459264610,
+        4459264595,
+        141019938,
+        4459264657,
+        4459264680,
+        141019940,
+        4459264713,
+        4560883561,
+        1823522244,
+        4459264747,
+        4459264768
+      ],
+      "geometry": [
+        {
+          "lat": 35.2083281,
+          "lon": -106.6521072
+        },
+        {
+          "lat": 35.2088923,
+          "lon": -106.6523354
+        },
+        {
+          "lat": 35.2090588,
+          "lon": -106.6524015
+        },
+        {
+          "lat": 35.2093725,
+          "lon": -106.6525356
+        },
+        {
+          "lat": 35.2094571,
+          "lon": -106.6525726
+        },
+        {
+          "lat": 35.209536,
+          "lon": -106.6526088
+        },
+        {
+          "lat": 35.2096102,
+          "lon": -106.652645
+        },
+        {
+          "lat": 35.2098732,
+          "lon": -106.6528049
+        },
+        {
+          "lat": 35.209877,
+          "lon": -106.6528075
+        },
+        {
+          "lat": 35.2100668,
+          "lon": -106.6529358
+        },
+        {
+          "lat": 35.2101585,
+          "lon": -106.6530101
+        },
+        {
+          "lat": 35.2103163,
+          "lon": -106.6531409
+        },
+        {
+          "lat": 35.2103389,
+          "lon": -106.6531685
+        },
+        {
+          "lat": 35.2104276,
+          "lon": -106.6532591
+        },
+        {
+          "lat": 35.2105088,
+          "lon": -106.6533469
+        },
+        {
+          "lat": 35.2105713,
+          "lon": -106.653421
+        },
+        {
+          "lat": 35.2106287,
+          "lon": -106.6534967
+        },
+        {
+          "lat": 35.2106774,
+          "lon": -106.6535647
+        },
+        {
+          "lat": 35.2107138,
+          "lon": -106.6536216
+        },
+        {
+          "lat": 35.2107217,
+          "lon": -106.653634
+        },
+        {
+          "lat": 35.21077,
+          "lon": -106.653718
+        },
+        {
+          "lat": 35.2108127,
+          "lon": -106.6537947
+        }
+      ]
+    },
+    {
+      "id": 171274819,
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "40 mph",
+        "name": "New Mexico State Road 528 Northwest",
+        "oneway": "yes",
+        "ref": "NM 528",
+        "sidewalk:left": "no",
+        "sidewalk:right": "separate"
+      },
+      "nodes": [
+        1823349380,
+        4459264871,
+        4459264869,
+        4459264865,
+        1823388226,
+        4459264857,
+        4459264851,
+        4459264846,
+        1823349385,
+        4459264833,
+        4459264825,
+        4459264820,
+        4459264812,
+        1823349436,
+        4459264780,
+        1823349393,
+        4459264739,
+        4459264716,
+        1823522333,
+        4459264682,
+        1823349410,
+        4459264646,
+        1823349381,
+        4459264609,
+        4459264582,
+        4459264548,
+        4459264522,
+        1823349409,
+        4459264471,
+        4459264436,
+        1823349434,
+        4459264376,
+        1823404963,
+        4459264315,
+        4459264282,
+        4459264248,
+        1823349379,
+        13457425715
+      ],
+      "geometry": [
+        {
+          "lat": 35.21117,
+          "lon": -106.6556805
+        },
+        {
+          "lat": 35.211168,
+          "lon": -106.6555989
+        },
+        {
+          "lat": 35.2111634,
+          "lon": -106.6554848
+        },
+        {
+          "lat": 35.2111579,
+          "lon": -106.6553829
+        },
+        {
+          "lat": 35.2111501,
+          "lon": -106.6552827
+        },
+        {
+          "lat": 35.2111375,
+          "lon": -106.6551777
+        },
+        {
+          "lat": 35.2111216,
+          "lon": -106.6550718
+        },
+        {
+          "lat": 35.2111046,
+          "lon": -106.6549747
+        },
+        {
+          "lat": 35.2110847,
+          "lon": -106.6548732
+        },
+        {
+          "lat": 35.2110557,
+          "lon": -106.6547457
+        },
+        {
+          "lat": 35.2110215,
+          "lon": -106.6546173
+        },
+        {
+          "lat": 35.2109837,
+          "lon": -106.6544939
+        },
+        {
+          "lat": 35.2109417,
+          "lon": -106.6543688
+        },
+        {
+          "lat": 35.2108974,
+          "lon": -106.654249
+        },
+        {
+          "lat": 35.2108465,
+          "lon": -106.6541279
+        },
+        {
+          "lat": 35.2107927,
+          "lon": -106.6540101
+        },
+        {
+          "lat": 35.2107365,
+          "lon": -106.6538979
+        },
+        {
+          "lat": 35.2106809,
+          "lon": -106.6537947
+        },
+        {
+          "lat": 35.2106415,
+          "lon": -106.6537273
+        },
+        {
+          "lat": 35.2105754,
+          "lon": -106.6536213
+        },
+        {
+          "lat": 35.2105279,
+          "lon": -106.6535556
+        },
+        {
+          "lat": 35.2104765,
+          "lon": -106.6534882
+        },
+        {
+          "lat": 35.2104304,
+          "lon": -106.653433
+        },
+        {
+          "lat": 35.2103839,
+          "lon": -106.6533818
+        },
+        {
+          "lat": 35.2103031,
+          "lon": -106.6532983
+        },
+        {
+          "lat": 35.2102164,
+          "lon": -106.6532132
+        },
+        {
+          "lat": 35.2101288,
+          "lon": -106.6531354
+        },
+        {
+          "lat": 35.2100354,
+          "lon": -106.6530595
+        },
+        {
+          "lat": 35.2099376,
+          "lon": -106.6529862
+        },
+        {
+          "lat": 35.209847,
+          "lon": -106.6529255
+        },
+        {
+          "lat": 35.2097501,
+          "lon": -106.6528664
+        },
+        {
+          "lat": 35.2096716,
+          "lon": -106.6528189
+        },
+        {
+          "lat": 35.2095491,
+          "lon": -106.652749
+        },
+        {
+          "lat": 35.2094802,
+          "lon": -106.6527144
+        },
+        {
+          "lat": 35.2094131,
+          "lon": -106.6526836
+        },
+        {
+          "lat": 35.2093233,
+          "lon": -106.652644
+        },
+        {
+          "lat": 35.2091908,
+          "lon": -106.6525911
+        },
+        {
+          "lat": 35.2084238,
+          "lon": -106.6522824
+        }
+      ]
+    },
+    {
+      "id": 1524400524,
+      "tags": {
+        "cycleway:both": "no",
+        "highway": "primary",
+        "name": "Alameda Boulevard Northwest",
+        "oneway": "yes",
+        "ref": "NM 528",
+        "sidewalk:both": "no",
+        "tiger:cfcc": "A31",
+        "tiger:county": "Bernalillo, NM",
+        "tiger:name_base": "Alameda",
+        "tiger:name_base_1": "State Highway 528",
+        "tiger:name_direction_suffix": "NW",
+        "tiger:name_type": "Blvd"
+      },
+      "nodes": [
+        4459264768,
+        141019942,
+        4459264801,
+        4459264815,
+        141019946,
+        4459264830,
+        4459264842,
+        4459264852,
+        4459264867,
+        141019949,
+        4459264890,
+        4459264892,
+        4459264894,
+        4459264895,
+        4459264896,
+        4459264897,
+        140968176,
+        1823388338,
+        1823328532
+      ],
+      "geometry": [
+        {
+          "lat": 35.2108127,
+          "lon": -106.6537947
+        },
+        {
+          "lat": 35.2108562,
+          "lon": -106.6538786
+        },
+        {
+          "lat": 35.2109069,
+          "lon": -106.6539881
+        },
+        {
+          "lat": 35.2109582,
+          "lon": -106.6541062
+        },
+        {
+          "lat": 35.2110075,
+          "lon": -106.6542298
+        },
+        {
+          "lat": 35.2110525,
+          "lon": -106.6543532
+        },
+        {
+          "lat": 35.2110919,
+          "lon": -106.6544789
+        },
+        {
+          "lat": 35.2111161,
+          "lon": -106.6545574
+        },
+        {
+          "lat": 35.2111585,
+          "lon": -106.6547186
+        },
+        {
+          "lat": 35.2111859,
+          "lon": -106.6548368
+        },
+        {
+          "lat": 35.2112444,
+          "lon": -106.6551705
+        },
+        {
+          "lat": 35.211255,
+          "lon": -106.6552549
+        },
+        {
+          "lat": 35.211263,
+          "lon": -106.6553364
+        },
+        {
+          "lat": 35.2112683,
+          "lon": -106.6554112
+        },
+        {
+          "lat": 35.2112733,
+          "lon": -106.6554937
+        },
+        {
+          "lat": 35.2112769,
+          "lon": -106.6555823
+        },
+        {
+          "lat": 35.2112784,
+          "lon": -106.6556505
+        },
+        {
+          "lat": 35.2112798,
+          "lon": -106.6557327
+        },
+        {
+          "lat": 35.2112833,
+          "lon": -106.6559296
+        }
+      ]
+    },
+    {
+      "id": 574917079,
+      "tags": {
+        "alt_name": "Rio Rancho Boulevard",
+        "highway": "primary",
+        "lanes": "4",
+        "maxspeed": "45 mph",
+        "name": "Pat D'Arco Highway",
+        "oneway": "yes",
+        "ref": "NM 528",
+        "source:maxspeed": "survey",
+        "surface": "asphalt"
+      },
+      "nodes": [
+        474876517,
+        474876519,
+        1829156631,
+        1829156623,
+        9239387081,
+        474876521,
+        482602006
+      ],
+      "geometry": [
+        {
+          "lat": 35.25104,
+          "lon": -106.6509154
+        },
+        {
+          "lat": 35.2505032,
+          "lon": -106.651423
+        },
+        {
+          "lat": 35.2498877,
+          "lon": -106.6519808
+        },
+        {
+          "lat": 35.2495523,
+          "lon": -106.6522715
+        },
+        {
+          "lat": 35.2494869,
+          "lon": -106.6523275
+        },
+        {
+          "lat": 35.2494447,
+          "lon": -106.6523647
+        },
+        {
+          "lat": 35.2485511,
+          "lon": -106.6530104
+        }
+      ]
+    },
+    {
+      "id": 1370427962,
+      "tags": {
+        "alt_name": "Rio Rancho Boulevard",
+        "highway": "primary",
+        "lanes": "4",
+        "maxspeed": "45 mph",
+        "name": "Pat D'Arco Highway",
+        "oneway": "yes",
+        "ref": "NM 528",
+        "source:maxspeed": "survey",
+        "surface": "asphalt"
+      },
+      "nodes": [
+        474876531,
+        478429628
+      ],
+      "geometry": [
+        {
+          "lat": 35.2412351,
+          "lon": -106.655968
+        },
+        {
+          "lat": 35.241131,
+          "lon": -106.6560015
+        }
+      ]
+    },
+    {
+      "id": 1370427963,
+      "tags": {
+        "alt_name": "Rio Rancho Boulevard",
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "45 mph",
+        "name": "Pat D'Arco Highway",
+        "name_1": "Rio Rancho Boulevard Northeast",
+        "name_2": "Rio Rancho Drive Northeast",
+        "oneway": "yes",
+        "ref": "NM 528",
+        "source:maxspeed": "survey",
+        "surface": "asphalt"
+      },
+      "nodes": [
+        478429521,
+        143694531
+      ],
+      "geometry": [
+        {
+          "lat": 35.241092,
+          "lon": -106.6557992
+        },
+        {
+          "lat": 35.2411958,
+          "lon": -106.6557678
+        }
+      ]
+    },
+    {
+      "id": 1396848770,
+      "tags": {
+        "alt_name": "Rio Rancho Boulevard",
+        "highway": "primary",
+        "lanes": "5",
+        "maxspeed": "45 mph",
+        "name": "Pat D'Arco Highway",
+        "name_1": "Rio Rancho Boulevard Northeast",
+        "name_2": "Rio Rancho Drive Northeast",
+        "oneway": "yes",
+        "ref": "NM 528",
+        "source:maxspeed": "survey",
+        "surface": "asphalt",
+        "turn:lanes": "left|left|||"
+      },
+      "nodes": [
+        2058669157,
+        12242308000,
+        478429521
+      ],
+      "geometry": [
+        {
+          "lat": 35.2400296,
+          "lon": -106.6560919
+        },
+        {
+          "lat": 35.2409901,
+          "lon": -106.6558275
+        },
+        {
+          "lat": 35.241092,
+          "lon": -106.6557992
+        }
+      ]
+    },
+    {
+      "id": 1396848771,
+      "tags": {
+        "alt_name": "Rio Rancho Boulevard",
+        "highway": "primary",
+        "lanes": "5",
+        "maxspeed": "45 mph",
+        "name": "Pat D'Arco Highway",
+        "name_1": "Rio Rancho Boulevard Northeast",
+        "name_2": "Rio Rancho Drive Northeast",
+        "oneway": "yes",
+        "ref": "NM 528",
+        "source:maxspeed": "survey",
+        "surface": "asphalt",
+        "turn:lanes": "left|left|||"
+      },
+      "nodes": [
+        7190133356,
+        9239387079,
+        2058669157
+      ],
+      "geometry": [
+        {
+          "lat": 35.2395877,
+          "lon": -106.6562103
+        },
+        {
+          "lat": 35.2396886,
+          "lon": -106.6561835
+        },
+        {
+          "lat": 35.2400296,
+          "lon": -106.6560919
+        }
+      ]
+    },
+    {
+      "id": 1421486301,
+      "tags": {
+        "alt_name": "Rio Rancho Boulevard",
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "45 mph",
+        "name": "Pat D'Arco Highway",
+        "oneway": "yes",
+        "ref": "NM 528",
+        "source:maxspeed": "survey",
+        "surface": "asphalt"
+      },
+      "nodes": [
+        478429628,
+        12242411701,
+        7477624793,
+        9239387078,
+        7477624797,
+        2207587651,
+        13063022240
+      ],
+      "geometry": [
+        {
+          "lat": 35.241131,
+          "lon": -106.6560015
+        },
+        {
+          "lat": 35.2410202,
+          "lon": -106.6560329
+        },
+        {
+          "lat": 35.2403375,
+          "lon": -106.6562263
+        },
+        {
+          "lat": 35.239712,
+          "lon": -106.6564029
+        },
+        {
+          "lat": 35.2396656,
+          "lon": -106.6564166
+        },
+        {
+          "lat": 35.2394261,
+          "lon": -106.6564845
+        },
+        {
+          "lat": 35.2393289,
+          "lon": -106.656512
+        }
+      ]
+    },
+    {
+      "id": 1421486302,
+      "tags": {
+        "alt_name": "Rio Rancho Boulevard",
+        "highway": "primary",
+        "lanes": "4",
+        "maxspeed": "45 mph",
+        "name": "Pat D'Arco Highway",
+        "oneway": "yes",
+        "ref": "NM 528",
+        "source:maxspeed": "survey",
+        "surface": "asphalt",
+        "turn:lanes": "|||right"
+      },
+      "nodes": [
+        13063022240,
+        474876534
+      ],
+      "geometry": [
+        {
+          "lat": 35.2393289,
+          "lon": -106.656512
+        },
+        {
+          "lat": 35.2386986,
+          "lon": -106.6566906
+        }
+      ]
+    },
+    {
+      "id": 1461933257,
+      "tags": {
+        "alt_name": "Rio Rancho Boulevard",
+        "highway": "primary",
+        "lanes": "4",
+        "maxspeed": "45 mph",
+        "name": "Pat D'Arco Highway",
+        "oneway": "yes",
+        "ref": "NM 528",
+        "source:maxspeed": "survey",
+        "surface": "asphalt"
+      },
+      "nodes": [
+        474876522,
+        9239387099,
+        474876523,
+        474876524,
+        474876526,
+        2207587757,
+        474876528,
+        12898277712,
+        474876530,
+        481709540,
+        481709088,
+        5731303800,
+        1773755647,
+        5773034809,
+        474876531
+      ],
+      "geometry": [
+        {
+          "lat": 35.2484674,
+          "lon": -106.6530685
+        },
+        {
+          "lat": 35.2482654,
+          "lon": -106.6532034
+        },
+        {
+          "lat": 35.2479166,
+          "lon": -106.6534376
+        },
+        {
+          "lat": 35.2469703,
+          "lon": -106.6539869
+        },
+        {
+          "lat": 35.2459115,
+          "lon": -106.654528
+        },
+        {
+          "lat": 35.2454688,
+          "lon": -106.6547332
+        },
+        {
+          "lat": 35.2447475,
+          "lon": -106.6549913
+        },
+        {
+          "lat": 35.2439099,
+          "lon": -106.6552139
+        },
+        {
+          "lat": 35.2437703,
+          "lon": -106.655251
+        },
+        {
+          "lat": 35.2437088,
+          "lon": -106.6552619
+        },
+        {
+          "lat": 35.2435567,
+          "lon": -106.6553362
+        },
+        {
+          "lat": 35.2420916,
+          "lon": -106.6557337
+        },
+        {
+          "lat": 35.2414633,
+          "lon": -106.6559042
+        },
+        {
+          "lat": 35.2413584,
+          "lon": -106.6559335
+        },
+        {
+          "lat": 35.2412351,
+          "lon": -106.655968
+        }
+      ]
+    },
+    {
+      "id": 1461933258,
+      "tags": {
+        "alt_name": "Rio Rancho Boulevard",
+        "highway": "primary",
+        "lanes": "4",
+        "maxspeed": "45 mph",
+        "name": "Pat D'Arco Highway",
+        "oneway": "yes",
+        "ref": "NM 528",
+        "source:maxspeed": "survey",
+        "surface": "asphalt"
+      },
+      "nodes": [
+        482602006,
+        474876522
+      ],
+      "geometry": [
+        {
+          "lat": 35.2485511,
+          "lon": -106.6530104
+        },
+        {
+          "lat": 35.2484674,
+          "lon": -106.6530685
+        }
+      ]
+    },
+    {
+      "id": 105203432,
+      "tags": {
+        "alt_name": "Rio Rancho Boulevard",
+        "highway": "primary",
+        "lanes": "4",
+        "maxspeed": "55 mph",
+        "name": "Pat D'Arco Highway",
+        "name_1": "Rio Rancho Drive Northeast",
+        "old_ref": "NM 46",
+        "oneway": "yes",
+        "rcn_ref": "5",
+        "ref": "NM 528",
+        "surface": "asphalt"
+      },
+      "nodes": [
+        143790122,
+        143763631,
+        10880675280,
+        9239386875,
+        474783923,
+        143714175,
+        3139544898,
+        474790585,
+        143778942,
+        474789781,
+        143790173,
+        9239386878,
+        3139544904,
+        5788100910,
+        143790188,
+        9754135498,
+        13900485282,
+        10783394995,
+        2348728739,
+        483548979,
+        143729252,
+        474799693,
+        143790201,
+        9239386879,
+        143790203,
+        143790204
+      ],
+      "geometry": [
+        {
+          "lat": 35.2826447,
+          "lon": -106.6096374
+        },
+        {
+          "lat": 35.2846408,
+          "lon": -106.607505
+        },
+        {
+          "lat": 35.2875788,
+          "lon": -106.6043259
+        },
+        {
+          "lat": 35.2905825,
+          "lon": -106.6011313
+        },
+        {
+          "lat": 35.2914932,
+          "lon": -106.6001682
+        },
+        {
+          "lat": 35.2915836,
+          "lon": -106.6000718
+        },
+        {
+          "lat": 35.2938249,
+          "lon": -106.5976775
+        },
+        {
+          "lat": 35.2965339,
+          "lon": -106.5947825
+        },
+        {
+          "lat": 35.2966093,
+          "lon": -106.5947135
+        },
+        {
+          "lat": 35.2988578,
+          "lon": -106.5922919
+        },
+        {
+          "lat": 35.2989674,
+          "lon": -106.5921756
+        },
+        {
+          "lat": 35.3015023,
+          "lon": -106.5894748
+        },
+        {
+          "lat": 35.3015922,
+          "lon": -106.5893798
+        },
+        {
+          "lat": 35.3061964,
+          "lon": -106.5844705
+        },
+        {
+          "lat": 35.306294,
+          "lon": -106.5843665
+        },
+        {
+          "lat": 35.3063618,
+          "lon": -106.5842933
+        },
+        {
+          "lat": 35.3071227,
+          "lon": -106.5834802
+        },
+        {
+          "lat": 35.3091932,
+          "lon": -106.5812677
+        },
+        {
+          "lat": 35.3092434,
+          "lon": -106.5812142
+        },
+        {
+          "lat": 35.3107495,
+          "lon": -106.5796019
+        },
+        {
+          "lat": 35.3111948,
+          "lon": -106.5791489
+        },
+        {
+          "lat": 35.3115657,
+          "lon": -106.5788172
+        },
+        {
+          "lat": 35.3121943,
+          "lon": -106.5782776
+        },
+        {
+          "lat": 35.3124984,
+          "lon": -106.5780483
+        },
+        {
+          "lat": 35.3125493,
+          "lon": -106.5780108
+        },
+        {
+          "lat": 35.3126936,
+          "lon": -106.5779046
+        }
+      ]
+    },
+    {
+      "id": 1374696140,
+      "tags": {
+        "alt_name": "Rio Rancho Boulevard",
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "55 mph",
+        "name": "Pat D'Arco Highway",
+        "old_ref": "NM 46",
+        "oneway": "yes",
+        "rcn_ref": "5",
+        "ref": "NM 528",
+        "surface": "asphalt"
+      },
+      "nodes": [
+        474783929,
+        3139544899,
+        474783987,
+        9239386876,
+        474783989,
+        11629815658,
+        13128401670
+      ],
+      "geometry": [
+        {
+          "lat": 35.2966428,
+          "lon": -106.5948577
+        },
+        {
+          "lat": 35.2938945,
+          "lon": -106.5977847
+        },
+        {
+          "lat": 35.2916122,
+          "lon": -106.6002383
+        },
+        {
+          "lat": 35.2906735,
+          "lon": -106.6012459
+        },
+        {
+          "lat": 35.2876745,
+          "lon": -106.6044666
+        },
+        {
+          "lat": 35.2860211,
+          "lon": -106.6062219
+        },
+        {
+          "lat": 35.283906,
+          "lon": -106.6084726
+        }
+      ]
+    },
+    {
+      "id": 1423485569,
+      "tags": {
+        "alt_name": "Rio Rancho Boulevard",
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "55 mph",
+        "name": "Pat D'Arco Highway",
+        "name_1": "Rio Rancho Drive Northeast",
+        "old_ref": "NM 46",
+        "oneway": "yes",
+        "rcn_ref": "5",
+        "ref": "NM 528",
+        "surface": "asphalt",
+        "turn:lanes": "left|none|none"
+      },
+      "nodes": [
+        13083810442,
+        13083810443
+      ],
+      "geometry": [
+        {
+          "lat": 35.2814648,
+          "lon": -106.6108745
+        },
+        {
+          "lat": 35.2821596,
+          "lon": -106.610146
+        }
+      ]
+    },
+    {
+      "id": 1423485570,
+      "tags": {
+        "alt_name": "Rio Rancho Boulevard",
+        "highway": "primary",
+        "lanes": "4",
+        "maxspeed": "55 mph",
+        "name": "Pat D'Arco Highway",
+        "name_1": "Rio Rancho Drive Northeast",
+        "old_ref": "NM 46",
+        "oneway": "yes",
+        "rcn_ref": "5",
+        "ref": "NM 528",
+        "surface": "asphalt",
+        "turn:lanes": "left|none|none|right"
+      },
+      "nodes": [
+        13083810443,
+        143790122
+      ],
+      "geometry": [
+        {
+          "lat": 35.2821596,
+          "lon": -106.610146
+        },
+        {
+          "lat": 35.2826447,
+          "lon": -106.6096374
+        }
+      ]
+    },
+    {
+      "id": 1428019685,
+      "tags": {
+        "alt_name": "Rio Rancho Boulevard",
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "55 mph",
+        "name": "Pat D'Arco Highway",
+        "old_ref": "NM 46",
+        "oneway": "yes",
+        "rcn_ref": "5",
+        "ref": "NM 528",
+        "surface": "asphalt",
+        "turn:lanes": "left||"
+      },
+      "nodes": [
+        13128401670,
+        13128401671
+      ],
+      "geometry": [
+        {
+          "lat": 35.283906,
+          "lon": -106.6084726
+        },
+        {
+          "lat": 35.2834618,
+          "lon": -106.6089453
+        }
+      ]
+    },
+    {
+      "id": 1428019686,
+      "tags": {
+        "alt_name": "Rio Rancho Boulevard",
+        "highway": "primary",
+        "lanes": "4",
+        "maxspeed": "55 mph",
+        "name": "Pat D'Arco Highway",
+        "old_ref": "NM 46",
+        "oneway": "yes",
+        "rcn_ref": "5",
+        "ref": "NM 528",
+        "surface": "asphalt",
+        "turn:lanes": "left|none|none|right"
+      },
+      "nodes": [
+        13128401671,
+        474783861
+      ],
+      "geometry": [
+        {
+          "lat": 35.2834618,
+          "lon": -106.6089453
+        },
+        {
+          "lat": 35.2827175,
+          "lon": -106.6097373
+        }
+      ]
+    }
+  ]
+}

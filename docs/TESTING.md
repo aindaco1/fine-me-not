@@ -15,7 +15,10 @@ Development compatibility build: iPhone 16 Pro Max simulator on iOS 18, built wi
 - App starts with a real offline database and all resources.
 - Settings screen readable with the intended midnight-blue design.
 - Test warning starts the 1.8-second siren and returns to ready state.
-- Permission flow, update success/failure, background simulation and accessibility checks: record results as completed below.
+- Notification and location permission prompts passed; While Using correctly reports that Always access is needed. App-specific Settings link opens the correct settings.
+- Always permission granted in the simulator: simulated Gibson Boulevard driving generated a lock-screen camera notification and persisted the encounter while the app was backgrounded. This proves the simulated delivery path, not real-device scheduling, audibility, or CarPlay.
+- The simulator did not provide usable course accuracy; this exposed opposite-direction ambiguity. The engine now derives travel direction from sufficient accurate displacement, covered by a regression test.
+- Database public HTTPS/manifest/checksum verified; app update and final direction simulation are checked during packaging.
 
 ## Physical TestFlight acceptance — pending
 

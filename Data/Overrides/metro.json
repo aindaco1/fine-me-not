@@ -20,7 +20,7 @@
       "url": "https://www.bernco.gov/public-works/automated-photo-speed-enforcement/",
       "license": "Source-linked location facts",
       "checkedAt": "2026-09-14T21:00:00Z",
-      "status": "Installed and mobile locations inventoried; geometry review pending."
+      "status": "Golf Course (both directions) and Bridge WB desk-matched to mapped camera points. Other installed and mobile sites remain in geometry review; pending sites excluded."
     },
     {
       "id": "rr",
@@ -28,7 +28,7 @@
       "url": "https://rrnm.gov/1584/STOP-Safe-Traffic-Operations-Program",
       "license": "Source-linked location facts",
       "checkedAt": "2026-09-14T21:00:00Z",
-      "status": "Mobile deployments; presence is not live-confirmed. Geometry review pending."
+      "status": "All 3 published NM 528 mobile corridors desk-matched to road geometry. Local-road mobile deployments are not comprehensively mapped."
     }
   ],
   "cameras": [
@@ -430,6 +430,529 @@
       "replaces": [
         "osm-node-14079677763"
       ]
+    },
+    {
+      "id": "rr-nm528-iris-idalia",
+      "siteID": "rr-nm528-iris-idalia",
+      "label": "NM 528 \u00b7 Iris Road to Idalia Road",
+      "kind": "possibleSpeed",
+      "geometry": [
+        {
+          "latitude": 35.2875788,
+          "longitude": -106.6043259
+        },
+        {
+          "latitude": 35.2905825,
+          "longitude": -106.6011313
+        },
+        {
+          "latitude": 35.2914932,
+          "longitude": -106.6001682
+        },
+        {
+          "latitude": 35.2915836,
+          "longitude": -106.6000718
+        },
+        {
+          "latitude": 35.2938249,
+          "longitude": -106.5976775
+        },
+        {
+          "latitude": 35.2965339,
+          "longitude": -106.5947825
+        },
+        {
+          "latitude": 35.2966093,
+          "longitude": -106.5947135
+        },
+        {
+          "latitude": 35.2988578,
+          "longitude": -106.5922919
+        },
+        {
+          "latitude": 35.2989674,
+          "longitude": -106.5921756
+        },
+        {
+          "latitude": 35.3015023,
+          "longitude": -106.5894748
+        },
+        {
+          "latitude": 35.3015922,
+          "longitude": -106.5893798
+        },
+        {
+          "latitude": 35.3061964,
+          "longitude": -106.5844705
+        }
+      ],
+      "sourceIDs": [
+        "https://rrnm.gov/1584/STOP-Safe-Traffic-Operations-Program",
+        "osm/way/105203432",
+        "osm/node/10880675280",
+        "osm/node/5788100910"
+      ],
+      "evidence": "Published mobile deployment corridor, desk-matched 2026-09-14. Geometry follows the mapped NM 528 carriageway between OSM nodes shared with the named cross streets. Both directions may encounter mobile equipment; presence is not live-confirmed. Opposite carriageway is within the warning distance; not a fictitious device coordinate."
+    },
+    {
+      "id": "rr-nm528-westside-19th",
+      "siteID": "rr-nm528-westside-19th",
+      "label": "NM 528 \u00b7 Westside Boulevard to 19th Avenue SE",
+      "kind": "possibleSpeed",
+      "geometry": [
+        {
+          "latitude": 35.224901,
+          "longitude": -106.6605715
+        },
+        {
+          "latitude": 35.2247668,
+          "longitude": -106.6606104
+        },
+        {
+          "latitude": 35.2227328,
+          "longitude": -106.6611991
+        },
+        {
+          "latitude": 35.2216037,
+          "longitude": -106.6615187
+        },
+        {
+          "latitude": 35.2196392,
+          "longitude": -106.6620748
+        },
+        {
+          "latitude": 35.2195964,
+          "longitude": -106.6620869
+        },
+        {
+          "latitude": 35.2189752,
+          "longitude": -106.6622617
+        },
+        {
+          "latitude": 35.2179718,
+          "longitude": -106.662544
+        },
+        {
+          "latitude": 35.2178497,
+          "longitude": -106.6625784
+        }
+      ],
+      "sourceIDs": [
+        "https://rrnm.gov/1584/STOP-Safe-Traffic-Operations-Program",
+        "osm/way/551708766",
+        "osm/node/481478458",
+        "osm/node/143754866"
+      ],
+      "evidence": "Published mobile deployment corridor, desk-matched 2026-09-14. Geometry follows the mapped NM 528 carriageway between OSM nodes shared with the named cross streets. Both directions may encounter mobile equipment; presence is not live-confirmed. Opposite carriageway is within the warning distance; not a fictitious device coordinate."
+    },
+    {
+      "id": "rr-nm528-sara-zenith",
+      "siteID": "rr-nm528-sara-zenith",
+      "label": "NM 528 \u00b7 Sara Road to Zenith Court",
+      "kind": "possibleSpeed",
+      "geometry": [
+        {
+          "latitude": 35.2313731,
+          "longitude": -106.6585172
+        },
+        {
+          "latitude": 35.2314728,
+          "longitude": -106.6584895
+        },
+        {
+          "latitude": 35.2319037,
+          "longitude": -106.6583697
+        },
+        {
+          "latitude": 35.2319896,
+          "longitude": -106.6583451
+        },
+        {
+          "latitude": 35.2326658,
+          "longitude": -106.6581577
+        },
+        {
+          "latitude": 35.2327592,
+          "longitude": -106.6581319
+        },
+        {
+          "latitude": 35.2329638,
+          "longitude": -106.6580753
+        },
+        {
+          "latitude": 35.2337653,
+          "longitude": -106.657852
+        },
+        {
+          "latitude": 35.2338997,
+          "longitude": -106.6578146
+        },
+        {
+          "latitude": 35.2340717,
+          "longitude": -106.657769
+        },
+        {
+          "latitude": 35.234833,
+          "longitude": -106.6575671
+        },
+        {
+          "latitude": 35.2357084,
+          "longitude": -106.6573177
+        },
+        {
+          "latitude": 35.235764,
+          "longitude": -106.6573019
+        },
+        {
+          "latitude": 35.2359503,
+          "longitude": -106.6572488
+        },
+        {
+          "latitude": 35.2361617,
+          "longitude": -106.6571886
+        },
+        {
+          "latitude": 35.2366289,
+          "longitude": -106.6570555
+        },
+        {
+          "latitude": 35.236657,
+          "longitude": -106.6570475
+        },
+        {
+          "latitude": 35.2367871,
+          "longitude": -106.6570104
+        },
+        {
+          "latitude": 35.2368983,
+          "longitude": -106.6569785
+        },
+        {
+          "latitude": 35.2376497,
+          "longitude": -106.6567629
+        },
+        {
+          "latitude": 35.2387462,
+          "longitude": -106.6564304
+        },
+        {
+          "latitude": 35.2395877,
+          "longitude": -106.6562103
+        },
+        {
+          "latitude": 35.2396886,
+          "longitude": -106.6561835
+        },
+        {
+          "latitude": 35.2400296,
+          "longitude": -106.6560919
+        },
+        {
+          "latitude": 35.2409901,
+          "longitude": -106.6558275
+        },
+        {
+          "latitude": 35.241092,
+          "longitude": -106.6557992
+        },
+        {
+          "latitude": 35.2411958,
+          "longitude": -106.6557678
+        },
+        {
+          "latitude": 35.2413241,
+          "longitude": -106.655735
+        },
+        {
+          "latitude": 35.2414008,
+          "longitude": -106.6557154
+        },
+        {
+          "latitude": 35.2419494,
+          "longitude": -106.6555551
+        },
+        {
+          "latitude": 35.2437085,
+          "longitude": -106.6551066
+        },
+        {
+          "latitude": 35.2438773,
+          "longitude": -106.6550595
+        },
+        {
+          "latitude": 35.2446601,
+          "longitude": -106.6548413
+        },
+        {
+          "latitude": 35.245385,
+          "longitude": -106.6545874
+        },
+        {
+          "latitude": 35.2461292,
+          "longitude": -106.6542444
+        },
+        {
+          "latitude": 35.2465833,
+          "longitude": -106.6540092
+        },
+        {
+          "latitude": 35.2468876,
+          "longitude": -106.6538642
+        },
+        {
+          "latitude": 35.2476643,
+          "longitude": -106.6534112
+        },
+        {
+          "latitude": 35.2482123,
+          "longitude": -106.6530493
+        },
+        {
+          "latitude": 35.2484006,
+          "longitude": -106.6529253
+        },
+        {
+          "latitude": 35.2485043,
+          "longitude": -106.6528558
+        },
+        {
+          "latitude": 35.2490241,
+          "longitude": -106.6524849
+        },
+        {
+          "latitude": 35.2493667,
+          "longitude": -106.6522425
+        },
+        {
+          "latitude": 35.249443,
+          "longitude": -106.6521816
+        },
+        {
+          "latitude": 35.2496965,
+          "longitude": -106.6519813
+        },
+        {
+          "latitude": 35.250376,
+          "longitude": -106.6513937
+        },
+        {
+          "latitude": 35.2504422,
+          "longitude": -106.6513226
+        },
+        {
+          "latitude": 35.2510505,
+          "longitude": -106.6506698
+        },
+        {
+          "latitude": 35.251724,
+          "longitude": -106.6499254
+        },
+        {
+          "latitude": 35.252425,
+          "longitude": -106.648968
+        },
+        {
+          "latitude": 35.2531297,
+          "longitude": -106.6479201
+        },
+        {
+          "latitude": 35.2532156,
+          "longitude": -106.6477924
+        },
+        {
+          "latitude": 35.2532935,
+          "longitude": -106.6476676
+        },
+        {
+          "latitude": 35.2539525,
+          "longitude": -106.6466122
+        },
+        {
+          "latitude": 35.2559491,
+          "longitude": -106.6434212
+        },
+        {
+          "latitude": 35.2571265,
+          "longitude": -106.6416016
+        },
+        {
+          "latitude": 35.2577508,
+          "longitude": -106.6406026
+        },
+        {
+          "latitude": 35.2594215,
+          "longitude": -106.6379161
+        },
+        {
+          "latitude": 35.2598436,
+          "longitude": -106.637244
+        },
+        {
+          "latitude": 35.2603449,
+          "longitude": -106.636434
+        },
+        {
+          "latitude": 35.2612105,
+          "longitude": -106.6350359
+        },
+        {
+          "latitude": 35.2628793,
+          "longitude": -106.6323261
+        },
+        {
+          "latitude": 35.2643732,
+          "longitude": -106.6299543
+        },
+        {
+          "latitude": 35.2648861,
+          "longitude": -106.6291756
+        },
+        {
+          "latitude": 35.2652845,
+          "longitude": -106.6285709
+        },
+        {
+          "latitude": 35.2655332,
+          "longitude": -106.6281734
+        },
+        {
+          "latitude": 35.2658255,
+          "longitude": -106.6277166
+        },
+        {
+          "latitude": 35.2658635,
+          "longitude": -106.6276633
+        },
+        {
+          "latitude": 35.2659366,
+          "longitude": -106.6275591
+        },
+        {
+          "latitude": 35.2665744,
+          "longitude": -106.6267517
+        },
+        {
+          "latitude": 35.2672711,
+          "longitude": -106.6259677
+        },
+        {
+          "latitude": 35.2684306,
+          "longitude": -106.6247925
+        },
+        {
+          "latitude": 35.2687139,
+          "longitude": -106.6245053
+        },
+        {
+          "latitude": 35.2688156,
+          "longitude": -106.6243945
+        },
+        {
+          "latitude": 35.2695061,
+          "longitude": -106.6236446
+        },
+        {
+          "latitude": 35.2696538,
+          "longitude": -106.6234806
+        },
+        {
+          "latitude": 35.272483,
+          "longitude": -106.6205016
+        },
+        {
+          "latitude": 35.2734175,
+          "longitude": -106.6195029
+        },
+        {
+          "latitude": 35.275317,
+          "longitude": -106.6174721
+        },
+        {
+          "latitude": 35.275392,
+          "longitude": -106.6173927
+        },
+        {
+          "latitude": 35.2754973,
+          "longitude": -106.6172763
+        },
+        {
+          "latitude": 35.2757913,
+          "longitude": -106.6169537
+        },
+        {
+          "latitude": 35.2761925,
+          "longitude": -106.6165126
+        },
+        {
+          "latitude": 35.2767984,
+          "longitude": -106.6158466
+        },
+        {
+          "latitude": 35.2781247,
+          "longitude": -106.6143886
+        }
+      ],
+      "sourceIDs": [
+        "https://rrnm.gov/1584/STOP-Safe-Traffic-Operations-Program",
+        "osm/way/133136623",
+        "osm/way/548487274",
+        "osm/way/551708764",
+        "osm/way/1089553210",
+        "osm/way/1370427963",
+        "osm/way/1374011942",
+        "osm/way/1396848770",
+        "osm/way/1396848771",
+        "osm/way/1423485568",
+        "osm/way/1428210739",
+        "osm/way/1428210740",
+        "osm/way/1455048387",
+        "osm/way/1455048388",
+        "osm/way/1455048389",
+        "osm/node/143694542",
+        "osm/node/143790152"
+      ],
+      "evidence": "Published mobile deployment corridor, desk-matched 2026-09-14. Continuous directed NM 528 road chain from its Sara Road junction to its Zenith Court junction, traced from OSM road geometry. Both directions may encounter mobile equipment; no live presence confirmation or field test."
+    },
+    {
+      "id": "bernco-golf-course-congress-sutton",
+      "siteID": "bernco-golf-course-congress-sutton",
+      "label": "Golf Course \u00b7 Congress Avenue to Sutton Place",
+      "kind": "speed",
+      "geometry": [
+        {
+          "latitude": 35.1939793,
+          "longitude": -106.6797423
+        }
+      ],
+      "sourceIDs": [
+        "osm/node/12087940066",
+        "https://www.bernco.gov/public-works/automated-photo-speed-enforcement/"
+      ],
+      "evidence": "Desk reconciliation 2026-09-14: county installed-site list and OSM mapped speed-camera point agree on the named road segment. Golf Course is listed for both travel directions; Bridge record is westbound only. Fixed classification follows the installed-site section separate from mobile deployments. Not field-tested.",
+      "replaces": [
+        "osm-node-12087940066"
+      ]
+    },
+    {
+      "id": "bernco-bridge-old-coors-atrisco-wb",
+      "siteID": "bernco-bridge-old-coors-atrisco",
+      "label": "Bridge \u00b7 Old Coors to Atrisco \u00b7 WB",
+      "kind": "speed",
+      "geometry": [
+        {
+          "latitude": 35.0670176,
+          "longitude": -106.6957764
+        }
+      ],
+      "sourceIDs": [
+        "osm/node/12861865379",
+        "https://www.bernco.gov/public-works/automated-photo-speed-enforcement/"
+      ],
+      "evidence": "Desk reconciliation 2026-09-14: county installed-site list and OSM mapped speed-camera point agree on the named road segment. Golf Course is listed for both travel directions; Bridge record is westbound only. Fixed classification follows the installed-site section separate from mobile deployments. Not field-tested.",
+      "replaces": [
+        "osm-node-12861865379"
+      ],
+      "travelBearing": 270
     }
   ],
   "tombstones": {}

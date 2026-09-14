@@ -56,5 +56,8 @@ class PublisherTests(unittest.TestCase):
             manifest=p.read(root/'Data/Published/manifest.json')
             raw=(root/'Data/Published'/manifest['file']).read_bytes()
             self.assertEqual(hashlib.sha256(raw).hexdigest(),manifest['sha256'])
+            failed=p.publish(root,NOW+dt.timedelta(days=7),[{'source':'speed','status':'retained'}])
+            self.assertEqual(first,failed)
+            self.assertEqual(manifest,p.read(root/'Data/Published/manifest.json'))
 
 if __name__ == '__main__': unittest.main()

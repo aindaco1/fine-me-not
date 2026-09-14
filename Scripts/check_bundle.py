@@ -9,7 +9,10 @@ assert info['CFBundleIdentifier']=='xyz.dustwave.fine-me-not'
 assert set(info['UIBackgroundModes'])=={'audio','location','fetch'}
 assert info['NSLocationRequireExplicitServiceSession'] is True
 assert info['CFBundleIcons']['CFBundlePrimaryIcon']['CFBundleIconName']=='AppIcon'
-if '--release' in sys.argv: assert info['MinimumOSVersion']=='27.0'
+if '--release' in sys.argv:
+    assert info['MinimumOSVersion']=='27.0'
+    assert info['CFBundleShortVersionString']=='0.1.0'
+    assert int(info['CFBundleVersion']) >= 1
 with wave.open(str(app/'siren.wav')) as sound:
     assert 1 <= sound.getnframes()/sound.getframerate() <= 2
 snapshot=json.loads((app/'cameras.json').read_text())

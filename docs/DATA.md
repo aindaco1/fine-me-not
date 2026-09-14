@@ -15,7 +15,7 @@ The app code, original icon and original siren use MIT. The combined distributed
 
 The broad review box is 34.85–35.40 N and 106.85–106.40 W; it is a review region, not a municipal boundary. Raw metro records are quarantined unless explicitly reconciled. `Data/Overrides/metro.json` is the accepted identity/geometry register. Each accepted record includes its evidence, upstream references and mapped geometry. Desk reconciliation is not a survey or road test.
 
-The city has 19 accepted fixed-camera approaches in the first snapshot. Remaining city approaches, county sites and Rio Rancho corridors are tracked separately as geometry work proceeds. `Data/Review/publisher-report.json` provides the exact current counts and unresolved candidates. Do not describe the beta as complete Albuquerque metro coverage. Generic OSM records outside the metro are not individually corroborated against government sources.
+The city has 19 accepted fixed-camera approaches in the first snapshot. The supplement also includes Golf Course (both directions), Bridge WB in Bernalillo County, and all three published Rio Rancho NM 528 mobile corridors. Other city/county approaches and Rio Rancho local-road deployments remain in review. `Data/Review/publisher-report.json` provides the exact current counts and unresolved candidates. Do not describe the beta as complete Albuquerque metro coverage. Generic OSM records outside the metro are not individually corroborated against government sources.
 
 ## Reconciliation
 

@@ -1,12 +1,13 @@
 {
   "counts": {
+    "possibleSpeed": 3,
     "redLight": 393,
-    "speed": 1134,
+    "speed": 1136,
     "speedAndRedLight": 224
   },
   "fetches": [],
-  "generatedAt": "2026-09-14T22:31:44Z",
-  "records": 1751,
+  "generatedAt": "2026-09-14T22:39:40Z",
+  "records": 1756,
   "review": [
     {
       "id": "osm-relation-545916",

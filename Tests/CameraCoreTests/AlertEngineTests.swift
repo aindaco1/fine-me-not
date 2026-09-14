@@ -78,3 +78,25 @@ private func fix(_ latitude: Double, lon: Double = -106, seconds: Double = 0, co
     #expect(!UpdateSchedule.isDue(generatedAt: monday, now: monday))
     #expect(UpdateSchedule.isDue(generatedAt: monday.addingTimeInterval(-1), now: monday))
 }
+
+@Test func infersTravelDirectionWhenCourseAccuracyIsUnavailable() {
+    var engine = AlertEngine()
+    let index = CameraIndex(cameras: [camera(), camera("opposite", bearing: 180)])
+    #expect(engine.evaluate(fix(35, course: nil), index: index, now: start).isEmpty)
+    let warnings = engine.evaluate(fix(35.0005, seconds: 3, course: nil), index: index, now: start.addingTimeInterval(3))
+    #expect(warnings.map(\.camera.id) == ["abq-1"])
+}
+
+@Test func publishedSnapshotDecodesAndIndexesEveryMetroCorridor() throws {
+    let root = URL(fileURLWithPath: #filePath).deletingLastPathComponent().deletingLastPathComponent().deletingLastPathComponent()
+    let snapshot = try CameraSnapshot.decode(Data(contentsOf: root.appending(path: "Data/Published/cameras.json")))
+    try snapshot.validate()
+    let index = CameraIndex(cameras: snapshot.cameras)
+    let corridors = snapshot.cameras.filter { $0.id.hasPrefix("rr-nm528-") }
+    #expect(corridors.count == 3)
+    for corridor in corridors {
+        #expect(corridor.kind == .possibleSpeed)
+        #expect(corridor.geometry.count > 2)
+        #expect(index.nearby(corridor.geometry[corridor.geometry.count / 2]).contains { $0.id == corridor.id })
+    }
+}

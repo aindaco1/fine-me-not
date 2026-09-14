@@ -231,6 +231,13 @@ def publish(root, now, fetched=None):
     documents = [valid_source(read(root / f'Data/Sources/osm-us-{name}.json')) for name in QUERIES]
     records, issues = osm_records(documents)
     previous = read(root / 'Data/Published/cameras.json', {})
+    if fetched and all(r['status'] != 'downloaded' for r in fetched) and previous.get('cameras'):
+        report = read(root / 'Data/Review/publisher-report.json', {})
+        report.update({'generatedAt': stamp(now), 'fetches': fetched,
+                       'publication': 'All upstream fetches failed; published snapshot left unchanged.'})
+        write(root / 'Data/Review/publisher-report.json', report)
+        print('All upstream fetches failed; keeping the published database and its original date.')
+        return previous
     overrides = read(root / 'Data/Overrides/metro.json', {})
     prior_state = read(root / 'Data/Review/publisher-state.json', {})
     # Only new successful source snapshots count toward consecutive absence.
