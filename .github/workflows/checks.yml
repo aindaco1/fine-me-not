@@ -1,0 +1,30 @@
+name: Build and tests
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  app:
+    name: Core tests and SDK 26 compatibility build
+    runs-on: macos-26
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - name: Toolchain
+        run: xcodebuild -version
+      - name: Core tests
+        run: swift test
+      - name: Build app with installed SDK
+        run: >-
+          xcodebuild -project FineMeNot.xcodeproj -scheme FineMeNot
+          -configuration Debug -destination 'generic/platform=iOS Simulator'
+          IPHONEOS_DEPLOYMENT_TARGET=18.0 CODE_SIGNING_ALLOWED=NO
+          -derivedDataPath build build
+      - name: Upload simulator app
+        uses: actions/upload-artifact@v4
+        with:
+          name: simulator-compatibility-build
+          path: build/Build/Products/Debug-iphonesimulator/FineMeNot.app

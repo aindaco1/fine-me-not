@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		805BDE0157010983D658E015 /* MonitoringController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D4BF80562A1AF4EAB94B80 /* MonitoringController.swift */; };
+		88EB6725C287529773086875 /* FineMeNotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769B1E84C52CF2C03A6B8904 /* FineMeNotApp.swift */; };
+		B6CE31146A9DB712D807D59C /* AlertPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A3B2801432BA9232F9E83E /* AlertPresenter.swift */; };
+		D05BF1093F023B7E7B2CC703 /* CameraCore in Frameworks */ = {isa = PBXBuildFile; productRef = 8CE4B92D3D67881308F0B880 /* CameraCore */; };
+		E3688E6C69A9CD2C8B8CA070 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6D6C1C16AC3E69E9276718 /* SettingsView.swift */; };
+		F1FF10099611FE15F35E05FB /* CameraStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E606E885B4EB83048AE48E /* CameraStore.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		19E606E885B4EB83048AE48E /* CameraStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraStore.swift; sourceTree = "<group>"; };
+		22A3B2801432BA9232F9E83E /* AlertPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertPresenter.swift; sourceTree = "<group>"; };
+		25D4BF80562A1AF4EAB94B80 /* MonitoringController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonitoringController.swift; sourceTree = "<group>"; };
+		4E6D6C1C16AC3E69E9276718 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		769B1E84C52CF2C03A6B8904 /* FineMeNotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FineMeNotApp.swift; sourceTree = "<group>"; };
+		8BFAAEF21C56DFDC051FC509 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		920C004C100C4FEFE806E765 /* fine-me-not */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "fine-me-not"; path = .; sourceTree = SOURCE_ROOT; };
+		B46111783B4D816B8A99A269 /* FineMeNot.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FineMeNot.entitlements; sourceTree = "<group>"; };
+		DA307FC16CA7335FDDA811CE /* FineMeNot.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = FineMeNot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		939FFEC0312FFFE592C651F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D05BF1093F023B7E7B2CC703 /* CameraCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FA55038BE7FA8CE6CCF4AFA = {
+			isa = PBXGroup;
+			children = (
+				AE206C6C2188F398FE9A601F /* App */,
+				C99D78AD14EA3D3BE4CA2673 /* Packages */,
+				B89525318DBFB9697AB819CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE206C6C2188F398FE9A601F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				22A3B2801432BA9232F9E83E /* AlertPresenter.swift */,
+				19E606E885B4EB83048AE48E /* CameraStore.swift */,
+				B46111783B4D816B8A99A269 /* FineMeNot.entitlements */,
+				769B1E84C52CF2C03A6B8904 /* FineMeNotApp.swift */,
+				8BFAAEF21C56DFDC051FC509 /* Info.plist */,
+				25D4BF80562A1AF4EAB94B80 /* MonitoringController.swift */,
+				4E6D6C1C16AC3E69E9276718 /* SettingsView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B89525318DBFB9697AB819CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA307FC16CA7335FDDA811CE /* FineMeNot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C99D78AD14EA3D3BE4CA2673 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				920C004C100C4FEFE806E765 /* fine-me-not */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		018EB2BA0F00A1AE01FBA402 /* FineMeNot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C518BBD1111A240ED9D0410F /* Build configuration list for PBXNativeTarget "FineMeNot" */;
+			buildPhases = (
+				EDB9969AAC884CEB4A293C3F /* Sources */,
+				939FFEC0312FFFE592C651F8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FineMeNot;
+			packageProductDependencies = (
+				8CE4B92D3D67881308F0B880 /* CameraCore */,
+			);
+			productName = FineMeNot;
+			productReference = DA307FC16CA7335FDDA811CE /* FineMeNot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04DFD4D41A572CFF288D2791 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					018EB2BA0F00A1AE01FBA402 = {
+						DevelopmentTeam = PWT3Q52LZ2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3414F28E5A0F6C586ECC7271 /* Build configuration list for PBXProject "FineMeNot" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 7FA55038BE7FA8CE6CCF4AFA;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				BAE280220036C7F87C1A780E /* XCLocalSwiftPackageReference "." */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B89525318DBFB9697AB819CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				018EB2BA0F00A1AE01FBA402 /* FineMeNot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDB9969AAC884CEB4A293C3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6CE31146A9DB712D807D59C /* AlertPresenter.swift in Sources */,
+				F1FF10099611FE15F35E05FB /* CameraStore.swift in Sources */,
+				88EB6725C287529773086875 /* FineMeNotApp.swift in Sources */,
+				805BDE0157010983D658E015 /* MonitoringController.swift in Sources */,
+				E3688E6C69A9CD2C8B8CA070 /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		039B1832EF2D22A6AC7927DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = App/FineMeNot.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.dustwave.fine-me-not";
+				PRODUCT_NAME = FineMeNot;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3A24CDF09C8DB844362B2989 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = PWT3Q52LZ2;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		4E83FB98DABFF40493CCB8E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = App/FineMeNot.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.dustwave.fine-me-not";
+				PRODUCT_NAME = FineMeNot;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		DEF3D73FDD1B045B4F36133D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = PWT3Q52LZ2;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3414F28E5A0F6C586ECC7271 /* Build configuration list for PBXProject "FineMeNot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A24CDF09C8DB844362B2989 /* Debug */,
+				DEF3D73FDD1B045B4F36133D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C518BBD1111A240ED9D0410F /* Build configuration list for PBXNativeTarget "FineMeNot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				039B1832EF2D22A6AC7927DF /* Debug */,
+				4E83FB98DABFF40493CCB8E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		BAE280220036C7F87C1A780E /* XCLocalSwiftPackageReference "." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = .;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8CE4B92D3D67881308F0B880 /* CameraCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CameraCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 04DFD4D41A572CFF288D2791 /* Project object */;
+}
