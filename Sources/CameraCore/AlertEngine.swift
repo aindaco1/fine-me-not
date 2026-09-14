@@ -39,9 +39,8 @@ public struct AlertEngine: Sendable {
         if fix.speed.isFinite && fix.speed >= 2.5 { lastMovingAt = now }
         let moving = lastMovingAt.map { now.timeIntervalSince($0) < 120 } ?? false
         // Rearm even when a site is no longer in the spatial query.
-        let byID = Dictionary(uniqueKeysWithValues: index.cameras.map { ($0.id, $0) })
         for (id, encounter) in encounters where !encounter.armed {
-            guard let camera = byID[id] else { continue }
+            guard let camera = index.camera(id: id) else { continue }
             let d = Geometry.distance(fix.coordinate, Geometry.nearest(to: fix.coordinate, on: camera.geometry))
             if d > 850 && now.timeIntervalSince(encounter.lastAlert) >= 60 { encounters[id]?.armed = true }
         }

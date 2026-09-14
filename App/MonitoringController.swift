@@ -21,6 +21,7 @@ final class MonitoringController: NSObject, CLLocationManagerDelegate {
     private var activitySession: CLBackgroundActivitySession?
     private var updates: Task<Void, Never>?
     private var retry: Task<Void, Never>?
+    private var sessionID = UUID()
     private var engine: AlertEngine
 
     init(store: CameraStore, presenter: AlertPresenter, defaults: UserDefaults = .standard) {
@@ -46,6 +47,8 @@ final class MonitoringController: NSObject, CLLocationManagerDelegate {
     func start() {
         guard enabled, updates == nil else { return }
         retry?.cancel(); retry = nil; failure = nil
+        let sessionID = UUID()
+        self.sessionID = sessionID
         refreshAuthorization()
         guard authorization != .denied && authorization != .restricted else { return }
         // Sessions belong to the feature's lifetime, including permitted
@@ -72,7 +75,7 @@ final class MonitoringController: NSObject, CLLocationManagerDelegate {
             } catch {
                 if !Task.isCancelled { self?.failure = "Location paused. Retrying automatically." }
             }
-            guard let self else { return }
+            guard let self, self.sessionID == sessionID else { return }
             self.updates = nil
             if self.enabled && !Task.isCancelled { self.scheduleRetry() }
         }
@@ -88,6 +91,7 @@ final class MonitoringController: NSObject, CLLocationManagerDelegate {
     }
 
     private func stop() {
+        sessionID = UUID()
         retry?.cancel(); retry = nil
         updates?.cancel(); updates = nil
         manager.stopMonitoringSignificantLocationChanges()

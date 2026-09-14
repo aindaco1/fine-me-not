@@ -22,7 +22,7 @@ struct SettingsView: View {
                 }
                 VStack(spacing: 0) {
                     row {
-                        Toggle("Camera warnings", isOn: Binding(get: { services.monitoring.enabled }, set: services.monitoring.setEnabled))
+                        Toggle("Camera warnings", isOn: Binding(get: { services.monitoring.enabled }, set: { services.monitoring.setEnabled($0) }))
                             .font(.system(.headline, design: .monospaced)).tint(accent)
                             .accessibilityIdentifier("warnings-toggle")
                     }

@@ -42,12 +42,14 @@ public enum Geometry {
 /// A small offline grid. It indexes full corridor bounds, not just endpoints.
 public struct CameraIndex: Sendable {
     public let cameras: [Camera]
+    private let indicesByID: [String: Int]
     private var buckets: [Cell: [Int]] = [:]
     private struct Cell: Hashable, Sendable { let lat: Int; let lon: Int }
     private static let cellSize = 0.05
 
     public init(cameras: [Camera]) {
         self.cameras = cameras
+        self.indicesByID = Dictionary(cameras.enumerated().map { ($0.element.id, $0.offset) }, uniquingKeysWith: { first, _ in first })
         for (index, camera) in cameras.enumerated() where !camera.geometry.isEmpty {
             let lats = camera.geometry.map(\.latitude), lons = camera.geometry.map(\.longitude)
             for lat in Self.cell(lats.min()!)...Self.cell(lats.max()!) {
@@ -58,6 +60,8 @@ public struct CameraIndex: Sendable {
         }
     }
     private static func cell(_ value: Double) -> Int { Int(floor(value / cellSize)) }
+
+    public func camera(id: String) -> Camera? { indicesByID[id].map { cameras[$0] } }
 
     public func nearby(_ coordinate: Coordinate, radius: Double = 1000) -> [Camera] {
         let latDelta = radius / 110_000

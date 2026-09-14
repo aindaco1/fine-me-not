@@ -21,7 +21,7 @@ jobs:
         run: >-
           xcodebuild -project FineMeNot.xcodeproj -scheme FineMeNot
           -configuration Debug -destination 'generic/platform=iOS Simulator'
-          IPHONEOS_DEPLOYMENT_TARGET=18.0 CODE_SIGNING_ALLOWED=NO
+          IPHONEOS_DEPLOYMENT_TARGET=18.0 CODE_SIGNING_ALLOWED=NO ARCHS=arm64 ONLY_ACTIVE_ARCH=YES
           -derivedDataPath build build
       - name: Upload simulator app
         uses: actions/upload-artifact@v4
