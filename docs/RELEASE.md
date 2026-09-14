@@ -50,3 +50,9 @@ The app's only background purpose is user-enabled camera proximity warnings. Cor
 3. Apple finishes processing; build is available to the owner in TestFlight.
 4. Owner confirms installation on iPhone 16 Pro Max / iOS 27.
 5. Physical audio/background tests pass before claims of supported behavior or a public App Store release.
+
+## Release evidence — September 14, 2026
+
+Xcode confirmed **0.1.0 (1) uploaded** to App Store Connect under Volver Health LLC. Source/build commit: `bd8f705`; bundled snapshot: `2026-09-14-0f9b8c9a0cd0-9632f4ed`, 1,756 warning records. A newer weekly-source check has since refreshed server provenance without changing camera records.
+
+The archive and exported distribution signed successfully using Xcode’s saved team account. The final archive passed the complete bundle check with MinimumOSVersion 27.0, version 0.1.0, the siren, database, icon, privacy manifest and expected background modes. Xcode’s upload confirmation is not confirmation of TestFlight processing, tester assignment or device installation. Those must be checked in App Store Connect before marking release delivery complete.
