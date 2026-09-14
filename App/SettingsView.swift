@@ -88,6 +88,8 @@ struct SettingsView: View {
                         .font(.system(.footnote, design: .monospaced))
                     Link("Sources, privacy & support ↗", destination: URL(string: "https://aindaco1.github.io/fine-me-not/")!)
                         .foregroundStyle(accent).font(.footnote)
+                    Text("Camera data © OpenStreetMap contributors · ODbL")
+                        .font(.caption).foregroundStyle(accent)
                     Text("Beta · Camera coverage is incomplete. Location permissions, phone state, and audio volume affect warnings.")
                         .font(.caption).foregroundStyle(accent)
                 }
