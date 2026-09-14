@@ -3,7 +3,7 @@
 - App: Fine Me Not
 - Bundle: `xyz.dustwave.fine-me-not`
 - Owner/team: Volver Health LLC (`PWT3Q52LZ2`), explicitly selected by the project owner
-- Version: 0.1.0 (2)
+- Version: 0.1.0 (3)
 - Distribution minimum: iOS 27.0
 - Source: https://github.com/aindaco1/fine-me-not
 - Support / privacy: https://aindaco1.github.io/fine-me-not/
@@ -60,3 +60,7 @@ Xcode confirmed **0.1.0 (2) uploaded successfully** to App Store Connect under V
 The build’s What to Test instructions were saved in TestFlight, covering permissions, audio routes, screen-locked and overnight behavior, direction/repeat filtering, offline operation and database downloads. The group uses manual build assignment; future uploads must be added after validation. This is an internal beta, not a public App Store release.
 
 The archive and exported distribution signed successfully using Xcode’s saved team account. The final archive passed the complete bundle check with MinimumOSVersion 27.0, version 0.1.0, the siren, database, icon, privacy manifest and expected background modes. Processing, tester assignment and the reported device installation were subsequently verified in App Store Connect. Physical background reliability, audio audibility and battery acceptance remain pending; installation alone does not establish those behaviors.
+
+## Icon update — build 3
+
+Build 0.1.0 (3), source `9d975fd`, replaces the ticket with a speed camera and pale-blue prohibition overlay. The 1024 × 1024 opaque icon was checked on the simulator Home Screen, and the signed archive passed the bundle check. Apple confirmed the upload at 23:21 UTC on September 14, 2026. Apple finished processing and the First Drive group now shows build 0.1.0 (3) as Testing. The icon update notes were saved in TestFlight. [CI](https://github.com/aindaco1/fine-me-not/actions/runs/34908349722) passed. Installation of build 3 on the physical phone has not been checked.
