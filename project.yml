@@ -12,17 +12,15 @@ settings:
     SWIFT_VERSION: "6.0"
     MARKETING_VERSION: "0.1.0"
     CURRENT_PROJECT_VERSION: "1"
-    DEVELOPMENT_TEAM: ""
+    DEVELOPMENT_TEAM: PWT3Q52LZ2
 targets:
   FineMeNot:
     type: application
     platform: iOS
     sources:
       - path: App
-        excludes: [Resources]
-    resources:
-      - path: App/Resources
       - path: Data/Published/cameras.json
+        buildPhase: resources
     dependencies:
       - package: FineMeNotCore
         product: CameraCore

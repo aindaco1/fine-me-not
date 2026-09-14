@@ -1,0 +1,436 @@
+{
+  "reviewBounds": [
+    34.85,
+    -106.85,
+    35.4,
+    -106.4
+  ],
+  "sources": [
+    {
+      "id": "abq",
+      "name": "City of Albuquerque current speed-camera locations",
+      "url": "https://www.cabq.gov/automated-speed-enforcement",
+      "license": "Source-linked location facts; OSM coordinate component under ODbL-1.0",
+      "checkedAt": "2026-09-14T21:00:00Z",
+      "status": "19 of 40 listed approaches desk-matched; remaining locations need geometry review. No road test yet."
+    },
+    {
+      "id": "bernco",
+      "name": "Bernalillo County automated photo speed enforcement",
+      "url": "https://www.bernco.gov/public-works/automated-photo-speed-enforcement/",
+      "license": "Source-linked location facts",
+      "checkedAt": "2026-09-14T21:00:00Z",
+      "status": "Installed and mobile locations inventoried; geometry review pending."
+    },
+    {
+      "id": "rr",
+      "name": "Rio Rancho STOP mobile deployment program",
+      "url": "https://rrnm.gov/1584/STOP-Safe-Traffic-Operations-Program",
+      "license": "Source-linked location facts",
+      "checkedAt": "2026-09-14T21:00:00Z",
+      "status": "Mobile deployments; presence is not live-confirmed. Geometry review pending."
+    }
+  ],
+  "cameras": [
+    {
+      "id": "abq-gibson-carlisle-san-mateo-eb",
+      "siteID": "abq-gibson-carlisle-san-mateo",
+      "label": "Gibson between Carlisle and San Mateo \u00b7 EB",
+      "kind": "speed",
+      "geometry": [
+        {
+          "latitude": 35.0582201,
+          "longitude": -106.5959649
+        }
+      ],
+      "travelBearing": 90,
+      "sourceIDs": [
+        "osm/node/11412742529",
+        "https://www.cabq.gov/automated-speed-enforcement"
+      ],
+      "evidence": "Desk reconciliation 2026-09-14: city current list establishes road and travel direction; OSM mapped device lies on the named road at/within the listed site. Matched against OSM road geometry. Coordinate is mapped, not surveyed or drive-tested. ABQ-01 is a research cross-reference only.",
+      "replaces": [
+        "osm-node-11412742529"
+      ]
+    },
+    {
+      "id": "abq-gibson-carlisle-san-mateo-wb",
+      "siteID": "abq-gibson-carlisle-san-mateo",
+      "label": "Gibson between Carlisle and San Mateo \u00b7 WB",
+      "kind": "speed",
+      "geometry": [
+        {
+          "latitude": 35.0582255,
+          "longitude": -106.5959656
+        }
+      ],
+      "travelBearing": 270,
+      "sourceIDs": [
+        "osm/node/11412742528",
+        "https://www.cabq.gov/automated-speed-enforcement"
+      ],
+      "evidence": "Desk reconciliation 2026-09-14: city current list establishes road and travel direction; OSM mapped device lies on the named road at/within the listed site. Matched against OSM road geometry. Coordinate is mapped, not surveyed or drive-tested. ABQ-02 is a research cross-reference only.",
+      "replaces": [
+        "osm-node-11412742528"
+      ]
+    },
+    {
+      "id": "abq-unser-tower-nb",
+      "siteID": "abq-unser-tower",
+      "label": "Unser at Tower \u00b7 NB",
+      "kind": "speed",
+      "geometry": [
+        {
+          "latitude": 35.0644832,
+          "longitude": -106.7231483
+        }
+      ],
+      "travelBearing": 0,
+      "sourceIDs": [
+        "osm/node/10581469093",
+        "https://www.cabq.gov/automated-speed-enforcement"
+      ],
+      "evidence": "Desk reconciliation 2026-09-14: city current list establishes road and travel direction; OSM mapped device lies on the named road at/within the listed site. Matched against OSM road geometry. Coordinate is mapped, not surveyed or drive-tested. ABQ-03 is a research cross-reference only.",
+      "replaces": [
+        "osm-node-10581469093"
+      ]
+    },
+    {
+      "id": "abq-san-mateo-montgomery-sb",
+      "siteID": "abq-san-mateo-montgomery",
+      "label": "San Mateo just north of Montgomery \u00b7 SB",
+      "kind": "speed",
+      "geometry": [
+        {
+          "latitude": 35.1319856,
+          "longitude": -106.5865396
+        }
+      ],
+      "travelBearing": 180,
+      "sourceIDs": [
+        "osm/node/10581470208",
+        "https://www.cabq.gov/automated-speed-enforcement"
+      ],
+      "evidence": "Desk reconciliation 2026-09-14: city current list establishes road and travel direction; OSM mapped device lies on the named road at/within the listed site. Matched against OSM road geometry. Coordinate is mapped, not surveyed or drive-tested. ABQ-04 is a research cross-reference only.",
+      "replaces": [
+        "osm-node-10581470208"
+      ]
+    },
+    {
+      "id": "abq-lomas-virginia-wb",
+      "siteID": "abq-lomas-virginia",
+      "label": "Lomas at Virginia \u00b7 WB",
+      "kind": "speed",
+      "geometry": [
+        {
+          "latitude": 35.0874976,
+          "longitude": -106.5517732
+        }
+      ],
+      "travelBearing": 270,
+      "sourceIDs": [
+        "osm/node/11412742531",
+        "https://www.cabq.gov/automated-speed-enforcement"
+      ],
+      "evidence": "Desk reconciliation 2026-09-14: city current list establishes road and travel direction; OSM mapped device lies on the named road at/within the listed site. Matched against OSM road geometry. Coordinate is mapped, not surveyed or drive-tested. ABQ-05 is a research cross-reference only.",
+      "replaces": [
+        "osm-node-11412742531"
+      ]
+    },
+    {
+      "id": "abq-unser-flor-del-sol-nb",
+      "siteID": "abq-unser-flor-del-sol",
+      "label": "Unser at Flor Del Sol just north of Dellyne \u00b7 NB",
+      "kind": "speed",
+      "geometry": [
+        {
+          "latitude": 35.1477732,
+          "longitude": -106.7141167
+        }
+      ],
+      "travelBearing": 0,
+      "sourceIDs": [
+        "osm/node/11412742530",
+        "https://www.cabq.gov/automated-speed-enforcement"
+      ],
+      "evidence": "Desk reconciliation 2026-09-14: city current list establishes road and travel direction; OSM mapped device lies on the named road at/within the listed site. Matched against OSM road geometry. Coordinate is mapped, not surveyed or drive-tested. ABQ-06 is a research cross-reference only.",
+      "replaces": [
+        "osm-node-11412742530"
+      ]
+    },
+    {
+      "id": "abq-coal-cornell-eb",
+      "siteID": "abq-coal-cornell",
+      "label": "Coal at Cornell \u00b7 EB",
+      "kind": "speed",
+      "geometry": [
+        {
+          "latitude": 35.075508,
+          "longitude": -106.619485
+        }
+      ],
+      "travelBearing": 90,
+      "sourceIDs": [
+        "osm/node/10581469090",
+        "https://www.cabq.gov/automated-speed-enforcement"
+      ],
+      "evidence": "Desk reconciliation 2026-09-14: city current list establishes road and travel direction; OSM mapped device lies on the named road at/within the listed site. Matched against OSM road geometry. Coordinate is mapped, not surveyed or drive-tested. ABQ-07 is a research cross-reference only.",
+      "replaces": [
+        "osm-node-10581469090"
+      ]
+    },
+    {
+      "id": "abq-central-tingley-new-york-wb",
+      "siteID": "abq-central-tingley-new-york",
+      "label": "Central between Tingley and New York \u00b7 WB",
+      "kind": "speed",
+      "geometry": [
+        {
+          "latitude": 35.0931148,
+          "longitude": -106.6783268
+        }
+      ],
+      "travelBearing": 270,
+      "sourceIDs": [
+        "osm/node/11412742533",
+        "https://www.cabq.gov/automated-speed-enforcement"
+      ],
+      "evidence": "Desk reconciliation 2026-09-14: city current list establishes road and travel direction; OSM mapped device lies on the named road at/within the listed site. Matched against OSM road geometry. Coordinate is mapped, not surveyed or drive-tested. ABQ-08 is a research cross-reference only.",
+      "replaces": [
+        "osm-node-11412742533"
+      ]
+    },
+    {
+      "id": "abq-montgomery-julie-eb",
+      "siteID": "abq-montgomery-julie",
+      "label": "Montgomery and Julie \u00b7 EB",
+      "kind": "speed",
+      "geometry": [
+        {
+          "latitude": 35.1305974,
+          "longitude": -106.5635257
+        }
+      ],
+      "travelBearing": 90,
+      "sourceIDs": [
+        "osm/node/12087956673",
+        "https://www.cabq.gov/automated-speed-enforcement"
+      ],
+      "evidence": "Desk reconciliation 2026-09-14: city current list establishes road and travel direction; OSM mapped device lies on the named road at/within the listed site. Matched against OSM road geometry. Coordinate is mapped, not surveyed or drive-tested. ABQ-10 is a research cross-reference only.",
+      "replaces": [
+        "osm-node-12087956673"
+      ]
+    },
+    {
+      "id": "abq-98th-tower-central-nb",
+      "siteID": "abq-98th-tower-central",
+      "label": "98th between Tower and Central \u00b7 NB",
+      "kind": "speed",
+      "geometry": [
+        {
+          "latitude": 35.0683132,
+          "longitude": -106.7417737
+        }
+      ],
+      "travelBearing": 0,
+      "sourceIDs": [
+        "osm/node/11412742534",
+        "https://www.cabq.gov/automated-speed-enforcement"
+      ],
+      "evidence": "Desk reconciliation 2026-09-14: city current list establishes road and travel direction; OSM mapped device lies on the named road at/within the listed site. Matched against OSM road geometry. Coordinate is mapped, not surveyed or drive-tested. ABQ-11 is a research cross-reference only.",
+      "replaces": [
+        "osm-node-11412742534"
+      ]
+    },
+    {
+      "id": "abq-eubank-central-nb",
+      "siteID": "abq-eubank-central",
+      "label": "Eubank just north of Central \u00b7 NB",
+      "kind": "speed",
+      "geometry": [
+        {
+          "latitude": 35.0749287,
+          "longitude": -106.5322298
+        }
+      ],
+      "travelBearing": 0,
+      "sourceIDs": [
+        "osm/node/12087956672",
+        "https://www.cabq.gov/automated-speed-enforcement"
+      ],
+      "evidence": "Desk reconciliation 2026-09-14: city current list establishes road and travel direction; OSM mapped device lies on the named road at/within the listed site. Matched against OSM road geometry. Coordinate is mapped, not surveyed or drive-tested. ABQ-13 is a research cross-reference only.",
+      "replaces": [
+        "osm-node-12087956672"
+      ]
+    },
+    {
+      "id": "abq-ellison-black-diversion-eb",
+      "siteID": "abq-ellison-black-diversion",
+      "label": "Ellison and Black Diversion Channel Trail crossing \u00b7 EB",
+      "kind": "speed",
+      "geometry": [
+        {
+          "latitude": 35.2059403,
+          "longitude": -106.6674602
+        }
+      ],
+      "travelBearing": 90,
+      "sourceIDs": [
+        "osm/node/12087956671",
+        "https://www.cabq.gov/automated-speed-enforcement"
+      ],
+      "evidence": "Desk reconciliation 2026-09-14: city current list establishes road and travel direction; OSM mapped device lies on the named road at/within the listed site. Matched against OSM road geometry. Coordinate is mapped, not surveyed or drive-tested. ABQ-14 is a research cross-reference only.",
+      "replaces": [
+        "osm-node-12087956671"
+      ]
+    },
+    {
+      "id": "abq-lomas-third-eb",
+      "siteID": "abq-lomas-third",
+      "label": "Lomas near Third Street \u00b7 EB",
+      "kind": "speed",
+      "geometry": [
+        {
+          "latitude": 35.0908541,
+          "longitude": -106.6487332
+        }
+      ],
+      "travelBearing": 90,
+      "sourceIDs": [
+        "osm/node/12087956670",
+        "https://www.cabq.gov/automated-speed-enforcement"
+      ],
+      "evidence": "Desk reconciliation 2026-09-14: city current list establishes road and travel direction; OSM mapped device lies on the named road at/within the listed site. Matched against OSM road geometry. Coordinate is mapped, not surveyed or drive-tested. ABQ-15 is a research cross-reference only.",
+      "replaces": [
+        "osm-node-12087956670"
+      ]
+    },
+    {
+      "id": "abq-wyoming-academy-nb",
+      "siteID": "abq-wyoming-academy",
+      "label": "Wyoming and just north of Academy \u00b7 NB",
+      "kind": "speed",
+      "geometry": [
+        {
+          "latitude": 35.1471086,
+          "longitude": -106.5542724
+        }
+      ],
+      "travelBearing": 0,
+      "sourceIDs": [
+        "osm/node/11518221727",
+        "https://www.cabq.gov/automated-speed-enforcement"
+      ],
+      "evidence": "Desk reconciliation 2026-09-14: city current list establishes road and travel direction; OSM mapped device lies on the named road at/within the listed site. Matched against OSM road geometry. Coordinate is mapped, not surveyed or drive-tested. ABQ-16 is a research cross-reference only.",
+      "replaces": [
+        "osm-node-11518221727"
+      ]
+    },
+    {
+      "id": "abq-coors-montano-paseo-nb",
+      "siteID": "abq-coors-montano-paseo",
+      "label": "Coors between Montano and Paseo del Norte \u00b7 NB",
+      "kind": "speed",
+      "geometry": [
+        {
+          "latitude": 35.1682595,
+          "longitude": -106.6754783
+        }
+      ],
+      "travelBearing": 0,
+      "sourceIDs": [
+        "osm/node/12087956669",
+        "https://www.cabq.gov/automated-speed-enforcement"
+      ],
+      "evidence": "Desk reconciliation 2026-09-14: city current list establishes road and travel direction; OSM mapped device lies on the named road at/within the listed site. Matched against OSM road geometry. Coordinate is mapped, not surveyed or drive-tested. ABQ-17 is a research cross-reference only.",
+      "replaces": [
+        "osm-node-12087956669"
+      ]
+    },
+    {
+      "id": "abq-coors-bypass-ellison-sb",
+      "siteID": "abq-coors-bypass-ellison",
+      "label": "Coors Bypass just south of Ellison \u00b7 SB",
+      "kind": "speed",
+      "geometry": [
+        {
+          "latitude": 35.2038492,
+          "longitude": -106.6598281
+        }
+      ],
+      "travelBearing": 180,
+      "sourceIDs": [
+        "osm/node/12087940068",
+        "https://www.cabq.gov/automated-speed-enforcement"
+      ],
+      "evidence": "Desk reconciliation 2026-09-14: city current list establishes road and travel direction; OSM mapped device lies on the named road at/within the listed site. Matched against OSM road geometry. Coordinate is mapped, not surveyed or drive-tested. ABQ-18 is a research cross-reference only.",
+      "replaces": [
+        "osm-node-12087940068"
+      ]
+    },
+    {
+      "id": "abq-paseo-louisiana-wb",
+      "siteID": "abq-paseo-louisiana",
+      "label": "Paseo del Norte west of Louisiana \u00b7 WB",
+      "kind": "speed",
+      "geometry": [
+        {
+          "latitude": 35.1746303,
+          "longitude": -106.5696659
+        }
+      ],
+      "travelBearing": 270,
+      "sourceIDs": [
+        "osm/node/11785891511",
+        "https://www.cabq.gov/automated-speed-enforcement"
+      ],
+      "evidence": "Desk reconciliation 2026-09-14: city current list establishes road and travel direction; OSM mapped device lies on the named road at/within the listed site. Matched against OSM road geometry. Coordinate is mapped, not surveyed or drive-tested. ABQ-19 is a research cross-reference only.",
+      "replaces": [
+        "osm-node-11785891511"
+      ]
+    },
+    {
+      "id": "abq-broadway-iron-sb",
+      "siteID": "abq-broadway-iron",
+      "label": "Broadway just north of Iron \u00b7 SB",
+      "kind": "speed",
+      "geometry": [
+        {
+          "latitude": 35.0791312,
+          "longitude": -106.6456839
+        }
+      ],
+      "travelBearing": 180,
+      "sourceIDs": [
+        "osm/node/12087940067",
+        "https://www.cabq.gov/automated-speed-enforcement"
+      ],
+      "evidence": "Desk reconciliation 2026-09-14: city current list establishes road and travel direction; OSM mapped device lies on the named road at/within the listed site. Matched against OSM road geometry. Coordinate is mapped, not surveyed or drive-tested. ABQ-20 is a research cross-reference only.",
+      "replaces": [
+        "osm-node-12087940067"
+      ]
+    },
+    {
+      "id": "abq-paseo-barstow-wb",
+      "siteID": "abq-paseo-barstow",
+      "label": "Paseo del Norte west of Barstow \u00b7 WB",
+      "kind": "speed",
+      "geometry": [
+        {
+          "latitude": 35.1747749,
+          "longitude": -106.5337798
+        }
+      ],
+      "travelBearing": 270,
+      "sourceIDs": [
+        "osm/node/14079677763",
+        "https://www.cabq.gov/automated-speed-enforcement"
+      ],
+      "evidence": "Desk reconciliation 2026-09-14: city current list establishes road and travel direction; OSM mapped device lies on the named road at/within the listed site. Matched against OSM road geometry. Coordinate is mapped, not surveyed or drive-tested. ABQ-36 is a research cross-reference only.",
+      "replaces": [
+        "osm-node-14079677763"
+      ]
+    }
+  ],
+  "tombstones": {}
+}

@@ -1,0 +1,2140 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-09-14T21:15:34Z",
+    "timestamp_areas_base": "2026-09-14T02:10:25Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 38765335,
+  "lat": 45.4340620,
+  "lon": -122.7649472,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals",
+    "traffic_signals": "signal"
+  }
+},
+{
+  "type": "node",
+  "id": 38775170,
+  "lat": 45.4398787,
+  "lon": -122.7513596,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals"
+  }
+},
+{
+  "type": "node",
+  "id": 53125843,
+  "lat": 47.3869145,
+  "lon": -122.1867930,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals",
+    "traffic_signals": "traffic_lights",
+    "traffic_signals:direction": "both"
+  }
+},
+{
+  "type": "node",
+  "id": 88515432,
+  "lat": 39.5362194,
+  "lon": -104.8729020,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals"
+  }
+},
+{
+  "type": "node",
+  "id": 89858852,
+  "lat": 36.6829841,
+  "lon": -121.6210220,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals"
+  }
+},
+{
+  "type": "node",
+  "id": 89898468,
+  "lat": 36.7216337,
+  "lon": -121.6561800,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals"
+  }
+},
+{
+  "type": "node",
+  "id": 89898488,
+  "lat": 36.6993177,
+  "lon": -121.6520280,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals"
+  }
+},
+{
+  "type": "node",
+  "id": 89972018,
+  "lat": 36.6980309,
+  "lon": -121.6681810,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals",
+    "traffic_signals": "signal"
+  }
+},
+{
+  "type": "node",
+  "id": 89997403,
+  "lat": 36.6978918,
+  "lon": -121.6682440,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals",
+    "traffic_signals": "signal"
+  }
+},
+{
+  "type": "node",
+  "id": 97781656,
+  "lat": 28.0691347,
+  "lon": -82.4261754,
+  "tags": {
+    "camera:type": "fixed",
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals"
+  }
+},
+{
+  "type": "node",
+  "id": 110600448,
+  "lat": 21.3020351,
+  "lon": -157.8502384,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals"
+  }
+},
+{
+  "type": "node",
+  "id": 110713330,
+  "lat": 47.1423230,
+  "lon": -122.5039670,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals",
+    "traffic_signals": "traffic_lights"
+  }
+},
+{
+  "type": "node",
+  "id": 131648974,
+  "lat": 42.5777222,
+  "lon": -114.4603543,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals",
+    "traffic_signals": "traffic_lights"
+  }
+},
+{
+  "type": "node",
+  "id": 176077084,
+  "lat": 39.7289370,
+  "lon": -104.9905857,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals"
+  }
+},
+{
+  "type": "node",
+  "id": 176110439,
+  "lat": 39.7256409,
+  "lon": -104.9862190,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals"
+  }
+},
+{
+  "type": "node",
+  "id": 176190348,
+  "lat": 39.6238352,
+  "lon": -104.9041000,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals",
+    "traffic_signals": "traffic_lights"
+  }
+},
+{
+  "type": "node",
+  "id": 176196343,
+  "lat": 39.6094970,
+  "lon": -104.9041550,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals",
+    "traffic_signals": "traffic_lights"
+  }
+},
+{
+  "type": "node",
+  "id": 176228701,
+  "lat": 39.5950005,
+  "lon": -104.8889830,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals",
+    "traffic_signals": "traffic_lights"
+  }
+},
+{
+  "type": "node",
+  "id": 191002016,
+  "lat": 39.0192339,
+  "lon": -94.5547627,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals",
+    "traffic_signals": "signal"
+  }
+},
+{
+  "type": "node",
+  "id": 202639902,
+  "lat": 36.5451111,
+  "lon": -82.6546056,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals",
+    "traffic_signals": "signal"
+  }
+},
+{
+  "type": "node",
+  "id": 202698258,
+  "lat": 36.5452388,
+  "lon": -82.6546923,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals",
+    "traffic_signals": "signal"
+  }
+},
+{
+  "type": "node",
+  "id": 203706149,
+  "lat": 36.4898805,
+  "lon": -82.5060077,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals",
+    "traffic_signals": "signal"
+  }
+},
+{
+  "type": "node",
+  "id": 203706191,
+  "lat": 36.4849789,
+  "lon": -82.5034564,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals"
+  }
+},
+{
+  "type": "node",
+  "id": 220823186,
+  "lat": 36.8210807,
+  "lon": -76.4238157,
+  "tags": {
+    "enforcement": "red_light_camera"
+  }
+},
+{
+  "type": "node",
+  "id": 220933115,
+  "lat": 36.8240897,
+  "lon": -76.4092080,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals",
+    "traffic_signals": "signal",
+    "traffic_signals:direction": "forward"
+  }
+},
+{
+  "type": "node",
+  "id": 221097927,
+  "lat": 37.1885593,
+  "lon": -77.3704810,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals",
+    "traffic_signals": "signal"
+  }
+},
+{
+  "type": "node",
+  "id": 221097931,
+  "lat": 37.1886563,
+  "lon": -77.3705590,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals",
+    "traffic_signals": "signal"
+  }
+},
+{
+  "type": "node",
+  "id": 254221437,
+  "lat": 40.9274427,
+  "lon": -73.8838477,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals",
+    "traffic_signals": "signal"
+  }
+},
+{
+  "type": "node",
+  "id": 254849104,
+  "lat": 40.9699792,
+  "lon": -73.8715589,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals",
+    "traffic_signals": "signal"
+  }
+},
+{
+  "type": "node",
+  "id": 256997765,
+  "lat": 39.7673877,
+  "lon": -104.9025420,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals"
+  }
+},
+{
+  "type": "node",
+  "id": 261467964,
+  "lat": 40.7063350,
+  "lon": -73.6612360,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals",
+    "traffic_signals": "signal"
+  }
+},
+{
+  "type": "node",
+  "id": 365779832,
+  "lat": 28.0543533,
+  "lon": -82.4260220,
+  "tags": {
+    "camera:type": "fixed",
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals"
+  }
+},
+{
+  "type": "node",
+  "id": 373469001,
+  "lat": 28.0545490,
+  "lon": -82.4261993,
+  "tags": {
+    "camera:type": "fixed",
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals"
+  }
+},
+{
+  "type": "node",
+  "id": 373485638,
+  "lat": 28.0545479,
+  "lon": -82.4260167,
+  "tags": {
+    "camera:type": "fixed",
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals"
+  }
+},
+{
+  "type": "node",
+  "id": 373489124,
+  "lat": 28.0691336,
+  "lon": -82.4259636,
+  "tags": {
+    "camera:type": "fixed",
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals"
+  }
+},
+{
+  "type": "node",
+  "id": 373489181,
+  "lat": 28.0692609,
+  "lon": -82.4259607,
+  "tags": {
+    "camera:type": "fixed",
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals"
+  }
+},
+{
+  "type": "node",
+  "id": 439422827,
+  "lat": 39.0264989,
+  "lon": -94.5542778,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals",
+    "traffic_signals": "signal"
+  }
+},
+{
+  "type": "node",
+  "id": 559892858,
+  "lat": 39.5362287,
+  "lon": -104.8730890,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals"
+  }
+},
+{
+  "type": "node",
+  "id": 567264153,
+  "lat": 39.6240061,
+  "lon": -104.9039710,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals",
+    "traffic_signals": "traffic_lights"
+  }
+},
+{
+  "type": "node",
+  "id": 568027645,
+  "lat": 39.6094966,
+  "lon": -104.9039930,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals",
+    "traffic_signals": "traffic_lights"
+  }
+},
+{
+  "type": "node",
+  "id": 568027650,
+  "lat": 39.6096161,
+  "lon": -104.9039920,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals",
+    "traffic_signals": "traffic_lights"
+  }
+},
+{
+  "type": "node",
+  "id": 568027750,
+  "lat": 39.6096159,
+  "lon": -104.9041510,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals",
+    "traffic_signals": "traffic_lights"
+  }
+},
+{
+  "type": "node",
+  "id": 582769443,
+  "lat": 39.5948593,
+  "lon": -104.8889940,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals",
+    "traffic_signals": "traffic_lights"
+  }
+},
+{
+  "type": "node",
+  "id": 737090333,
+  "lat": 39.5363866,
+  "lon": -104.8730790,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals"
+  }
+},
+{
+  "type": "node",
+  "id": 737093600,
+  "lat": 39.5363860,
+  "lon": -104.8728860,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals"
+  }
+},
+{
+  "type": "node",
+  "id": 835117732,
+  "lat": 45.4045485,
+  "lon": -122.7969744,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals"
+  }
+},
+{
+  "type": "node",
+  "id": 921045078,
+  "lat": 28.0543520,
+  "lon": -82.4262104,
+  "tags": {
+    "camera:type": "fixed",
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals"
+  }
+},
+{
+  "type": "node",
+  "id": 1491988351,
+  "lat": 28.0327937,
+  "lon": -82.4512153,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals"
+  }
+},
+{
+  "type": "node",
+  "id": 1524600875,
+  "lat": 35.1231026,
+  "lon": -85.2394996,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals",
+    "traffic_signals": "signal"
+  }
+},
+{
+  "type": "node",
+  "id": 1603574320,
+  "lat": 28.0329301,
+  "lon": -82.4511917,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals"
+  }
+},
+{
+  "type": "node",
+  "id": 1648532988,
+  "lat": 28.0329356,
+  "lon": -82.4513401,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals"
+  }
+},
+{
+  "type": "node",
+  "id": 1648533011,
+  "lat": 28.0327999,
+  "lon": -82.4513567,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals"
+  }
+},
+{
+  "type": "node",
+  "id": 1701842429,
+  "lat": 45.4338985,
+  "lon": -122.7649786,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals",
+    "traffic_signals": "signal"
+  }
+},
+{
+  "type": "node",
+  "id": 1701842430,
+  "lat": 45.4339365,
+  "lon": -122.7648736,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals",
+    "traffic_signals": "signal"
+  }
+},
+{
+  "type": "node",
+  "id": 2106403547,
+  "lat": 45.4044666,
+  "lon": -122.7966789,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals"
+  }
+},
+{
+  "type": "node",
+  "id": 2402075839,
+  "lat": 36.3023208,
+  "lon": -82.3813813,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals",
+    "traffic_signals": "signal"
+  }
+},
+{
+  "type": "node",
+  "id": 2402075854,
+  "lat": 36.3022387,
+  "lon": -82.3814983,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals",
+    "traffic_signals": "signal"
+  }
+},
+{
+  "type": "node",
+  "id": 3121545423,
+  "lat": 36.8212669,
+  "lon": -76.4238767,
+  "tags": {
+    "enforcement": "red_light_camera"
+  }
+},
+{
+  "type": "node",
+  "id": 3121545452,
+  "lat": 36.8244305,
+  "lon": -76.4090664,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals",
+    "traffic_signals": "signal",
+    "traffic_signals:direction": "forward"
+  }
+},
+{
+  "type": "node",
+  "id": 3123370932,
+  "lat": 36.7445105,
+  "lon": -76.2214953,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals",
+    "traffic_signals": "signal",
+    "traffic_signals:direction": "forward"
+  }
+},
+{
+  "type": "node",
+  "id": 3125073436,
+  "lat": 36.7445097,
+  "lon": -76.2210649,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals",
+    "traffic_signals": "signal",
+    "traffic_signals:direction": "forward"
+  }
+},
+{
+  "type": "node",
+  "id": 3125097443,
+  "lat": 36.7441566,
+  "lon": -76.2214351,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals",
+    "traffic_signals": "signal",
+    "traffic_signals:direction": "forward"
+  }
+},
+{
+  "type": "node",
+  "id": 3125097493,
+  "lat": 36.7441885,
+  "lon": -76.2210707,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals",
+    "traffic_signals": "signal",
+    "traffic_signals:direction": "forward"
+  }
+},
+{
+  "type": "node",
+  "id": 3662431491,
+  "lat": 36.8655406,
+  "lon": -76.4223783,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals",
+    "traffic_signals": "signal",
+    "traffic_signals:direction": "forward"
+  }
+},
+{
+  "type": "node",
+  "id": 3662431495,
+  "lat": 36.8654445,
+  "lon": -76.4220891,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals",
+    "traffic_signals": "signal",
+    "traffic_signals:direction": "forward"
+  }
+},
+{
+  "type": "node",
+  "id": 3662431496,
+  "lat": 36.8653190,
+  "lon": -76.4224920,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals",
+    "traffic_signals": "signal",
+    "traffic_signals:direction": "forward"
+  }
+},
+{
+  "type": "node",
+  "id": 4575057222,
+  "lat": 39.7258526,
+  "lon": -105.0001553,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals",
+    "traffic_signals": "traffic_lights",
+    "traffic_signals:direction": "forward"
+  }
+},
+{
+  "type": "node",
+  "id": 4666462947,
+  "lat": 39.6240176,
+  "lon": -104.9040960,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals",
+    "traffic_signals": "traffic_lights"
+  }
+},
+{
+  "type": "node",
+  "id": 4666462974,
+  "lat": 39.6238246,
+  "lon": -104.9039760,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals",
+    "traffic_signals": "traffic_lights"
+  }
+},
+{
+  "type": "node",
+  "id": 4791953884,
+  "lat": 40.1290117,
+  "lon": -74.8342967,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals",
+    "traffic_signals": "traffic_lights",
+    "traffic_signals:direction": "forward"
+  }
+},
+{
+  "type": "node",
+  "id": 4791953885,
+  "lat": 40.1286228,
+  "lon": -74.8344947,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals",
+    "traffic_signals": "traffic_lights",
+    "traffic_signals:direction": "forward"
+  }
+},
+{
+  "type": "node",
+  "id": 5162207603,
+  "lat": 36.7216507,
+  "lon": -121.6563100,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals"
+  }
+},
+{
+  "type": "node",
+  "id": 5162217487,
+  "lat": 36.7214913,
+  "lon": -121.6561520,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals"
+  }
+},
+{
+  "type": "node",
+  "id": 5162217619,
+  "lat": 36.6993296,
+  "lon": -121.6518390,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals"
+  }
+},
+{
+  "type": "node",
+  "id": 5162217632,
+  "lat": 36.6980210,
+  "lon": -121.6680070,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals",
+    "traffic_signals": "signal"
+  }
+},
+{
+  "type": "node",
+  "id": 5162217895,
+  "lat": 36.7215104,
+  "lon": -121.6562980,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals"
+  }
+},
+{
+  "type": "node",
+  "id": 5162280157,
+  "lat": 36.6830459,
+  "lon": -121.6209040,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals"
+  }
+},
+{
+  "type": "node",
+  "id": 5162280159,
+  "lat": 36.6829182,
+  "lon": -121.6208740,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals"
+  }
+},
+{
+  "type": "node",
+  "id": 5830417613,
+  "lat": 41.8745620,
+  "lon": -87.9616826,
+  "tags": {
+    "camera:mount": "pole",
+    "camera:type": "fixed",
+    "enforcement": "red_light_camera",
+    "man_made": "surveillance",
+    "surveillance": "public",
+    "surveillance:type": "camera",
+    "surveillance:zone": "traffic"
+  }
+},
+{
+  "type": "node",
+  "id": 6038256167,
+  "lat": 38.6784387,
+  "lon": -121.2715344,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera"
+  }
+},
+{
+  "type": "node",
+  "id": 6038256168,
+  "lat": 38.6812113,
+  "lon": -121.3333267,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera"
+  }
+},
+{
+  "type": "node",
+  "id": 6782183547,
+  "lat": 34.1394438,
+  "lon": -118.6012410,
+  "tags": {
+    "direction": "270",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera"
+  }
+},
+{
+  "type": "node",
+  "id": 6795138684,
+  "lat": 42.1099077,
+  "lon": -87.9269528,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera",
+    "name": "Red Light Camera"
+  }
+},
+{
+  "type": "node",
+  "id": 7059416850,
+  "lat": 36.8244778,
+  "lon": -76.4093637,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals",
+    "traffic_signals": "signal",
+    "traffic_signals:direction": "forward"
+  }
+},
+{
+  "type": "node",
+  "id": 7113063539,
+  "lat": 36.6978721,
+  "lon": -121.6680380,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals",
+    "traffic_signals": "signal"
+  }
+},
+{
+  "type": "node",
+  "id": 8396925328,
+  "lat": 28.0692636,
+  "lon": -82.4261708,
+  "tags": {
+    "camera:type": "fixed",
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals"
+  }
+},
+{
+  "type": "node",
+  "id": 8446876046,
+  "lat": 42.0226154,
+  "lon": -87.9592379,
+  "tags": {
+    "camera:type": "fixed",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera",
+    "traffic_signals": "right turn"
+  }
+},
+{
+  "type": "node",
+  "id": 8449738201,
+  "lat": 38.9530131,
+  "lon": -76.9404158,
+  "tags": {
+    "description": "Very sensitive Red Light camera that will take a picture if you cross the white line on red.",
+    "direction": "340",
+    "enforcement": "red_light_camera",
+    "source": "local knowledge"
+  }
+},
+{
+  "type": "node",
+  "id": 8487188967,
+  "lat": 42.0187360,
+  "lon": -88.2028790,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera"
+  }
+},
+{
+  "type": "node",
+  "id": 8487188968,
+  "lat": 42.0192445,
+  "lon": -88.2024541,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera"
+  }
+},
+{
+  "type": "node",
+  "id": 8487188969,
+  "lat": 42.0196558,
+  "lon": -88.2032191,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera"
+  }
+},
+{
+  "type": "node",
+  "id": 8487188970,
+  "lat": 42.0192301,
+  "lon": -88.2038714,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera"
+  }
+},
+{
+  "type": "node",
+  "id": 8663220174,
+  "lat": 42.0403951,
+  "lon": -87.7989458,
+  "tags": {
+    "devices": "3",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera",
+    "restriction": "no_right_turn_on_red",
+    "surveillance": "red_light"
+  }
+},
+{
+  "type": "node",
+  "id": 9139023297,
+  "lat": 42.0101791,
+  "lon": -87.9446334,
+  "tags": {
+    "camera:type": "fixed",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera",
+    "traffic_signals": "right turn"
+  }
+},
+{
+  "type": "node",
+  "id": 9139039911,
+  "lat": 42.0216631,
+  "lon": -87.9595937,
+  "tags": {
+    "camera:type": "fixed",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera",
+    "traffic_signals": "right turn"
+  }
+},
+{
+  "type": "node",
+  "id": 9139039912,
+  "lat": 42.0228578,
+  "lon": -87.9601355,
+  "tags": {
+    "camera:type": "fixed",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera",
+    "traffic_signals": "right turn"
+  }
+},
+{
+  "type": "node",
+  "id": 9197396120,
+  "lat": 41.9977164,
+  "lon": -87.8842374,
+  "tags": {
+    "camera:type": "fixed",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera",
+    "traffic_signals": "right turn"
+  }
+},
+{
+  "type": "node",
+  "id": 9197405292,
+  "lat": 41.8630953,
+  "lon": -87.8831196,
+  "tags": {
+    "camera:type": "fixed",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera",
+    "traffic_signals": "right turn"
+  }
+},
+{
+  "type": "node",
+  "id": 9197405293,
+  "lat": 41.8627653,
+  "lon": -87.8822254,
+  "tags": {
+    "camera:type": "fixed",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera",
+    "traffic_signals": "right turn"
+  }
+},
+{
+  "type": "node",
+  "id": 9197436419,
+  "lat": 41.8490424,
+  "lon": -87.8816840,
+  "tags": {
+    "camera:type": "fixed",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera",
+    "traffic_signals": "right turn"
+  }
+},
+{
+  "type": "node",
+  "id": 9239853255,
+  "lat": 36.6991803,
+  "lon": -121.6514856,
+  "tags": {
+    "description": "Red Light Camera",
+    "direction": "300",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera",
+    "name": "Red Light Camera"
+  }
+},
+{
+  "type": "node",
+  "id": 9239853256,
+  "lat": 36.6997631,
+  "lon": -121.6522020,
+  "tags": {
+    "description": "Red Light Camera",
+    "direction": "160",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera",
+    "name": "Red Light Camera"
+  }
+},
+{
+  "type": "node",
+  "id": 9239853257,
+  "lat": 36.6990863,
+  "lon": -121.6520678,
+  "tags": {
+    "description": "Red Light Camera",
+    "direction": "20",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera",
+    "name": "Red Light Camera"
+  }
+},
+{
+  "type": "node",
+  "id": 9239854532,
+  "lat": 36.7219437,
+  "lon": -121.6564254,
+  "tags": {
+    "description": "Red Light Camera",
+    "direction": "160",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera",
+    "name": "Red Light Camera"
+  }
+},
+{
+  "type": "node",
+  "id": 9239854533,
+  "lat": 36.7213388,
+  "lon": -121.6563695,
+  "tags": {
+    "description": "Red Light Camera",
+    "direction": "20",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera",
+    "name": "Red Light Camera"
+  }
+},
+{
+  "type": "node",
+  "id": 9239854534,
+  "lat": 36.7213232,
+  "lon": -121.6557137,
+  "tags": {
+    "description": "Red Light Camera",
+    "direction": "310",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera",
+    "name": "Red Light Camera"
+  }
+},
+{
+  "type": "node",
+  "id": 9239884261,
+  "lat": 36.6976620,
+  "lon": -121.6683276,
+  "tags": {
+    "description": "Red Light Camera",
+    "direction": "20",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera",
+    "name": "Red Light Camera"
+  }
+},
+{
+  "type": "node",
+  "id": 9239884262,
+  "lat": 36.6977846,
+  "lon": -121.6677726,
+  "tags": {
+    "description": "Red Light Camera",
+    "direction": "300",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera",
+    "name": "Red Light Camera"
+  }
+},
+{
+  "type": "node",
+  "id": 9239884263,
+  "lat": 36.6984553,
+  "lon": -121.6681478,
+  "tags": {
+    "description": "Red Light Camera",
+    "direction": "170",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera",
+    "name": "Red Light Camera"
+  }
+},
+{
+  "type": "node",
+  "id": 9239890199,
+  "lat": 36.6830352,
+  "lon": -121.6205852,
+  "tags": {
+    "description": "Red Light Camera",
+    "direction": "260",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera",
+    "name": "Red Light Camera"
+  }
+},
+{
+  "type": "node",
+  "id": 9239890200,
+  "lat": 36.6832704,
+  "lon": -121.6213369,
+  "tags": {
+    "description": "Red Light Camera",
+    "direction": "130",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera",
+    "name": "Red Light Camera"
+  }
+},
+{
+  "type": "node",
+  "id": 9239890201,
+  "lat": 36.6827332,
+  "lon": -121.6208867,
+  "tags": {
+    "description": "Red Light Camera",
+    "direction": "355",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera",
+    "name": "Red Light Camera"
+  }
+},
+{
+  "type": "node",
+  "id": 9440293033,
+  "lat": 36.8242310,
+  "lon": -76.4094229,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals",
+    "traffic_signals": "signal",
+    "traffic_signals:direction": "forward"
+  }
+},
+{
+  "type": "node",
+  "id": 9456938678,
+  "lat": 39.5949832,
+  "lon": -104.8888360,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals",
+    "traffic_signals": "traffic_lights"
+  }
+},
+{
+  "type": "node",
+  "id": 9456938679,
+  "lat": 39.5948354,
+  "lon": -104.8888460,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals",
+    "traffic_signals": "traffic_lights"
+  }
+},
+{
+  "type": "node",
+  "id": 9590500053,
+  "lat": 41.7962953,
+  "lon": -71.3984386,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera"
+  }
+},
+{
+  "type": "node",
+  "id": 9590500054,
+  "lat": 41.7952048,
+  "lon": -71.3980536,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera"
+  }
+},
+{
+  "type": "node",
+  "id": 9910506147,
+  "lat": 47.5000418,
+  "lon": -122.2021963,
+  "tags": {
+    "direction": "-135",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera"
+  }
+},
+{
+  "type": "node",
+  "id": 10767099841,
+  "lat": 28.6270997,
+  "lon": -81.3634328,
+  "tags": {
+    "direction": "0",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera",
+    "maxspeed": "40 mph"
+  }
+},
+{
+  "type": "node",
+  "id": 10767103294,
+  "lat": 28.6345020,
+  "lon": -81.3655967,
+  "tags": {
+    "direction": "0",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera",
+    "maxspeed": "35 mph"
+  }
+},
+{
+  "type": "node",
+  "id": 10767103295,
+  "lat": 28.6352276,
+  "lon": -81.3657308,
+  "tags": {
+    "direction": "180",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera",
+    "maxspeed": "35 mph"
+  }
+},
+{
+  "type": "node",
+  "id": 10789332362,
+  "lat": 42.1096267,
+  "lon": -87.9272606,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera",
+    "name": "Red Light Camera"
+  }
+},
+{
+  "type": "node",
+  "id": 11432978633,
+  "lat": 33.9498008,
+  "lon": -83.4102337,
+  "tags": {
+    "enforcement": "red_light_camera"
+  }
+},
+{
+  "type": "node",
+  "id": 11432978634,
+  "lat": 33.9500412,
+  "lon": -83.4092122,
+  "tags": {
+    "enforcement": "red_light_camera"
+  }
+},
+{
+  "type": "node",
+  "id": 11616997357,
+  "lat": 33.9500826,
+  "lon": -83.4096251,
+  "tags": {
+    "enforcement": "red_light_camera"
+  }
+},
+{
+  "type": "node",
+  "id": 11616997359,
+  "lat": 33.9493285,
+  "lon": -83.4094427,
+  "tags": {
+    "enforcement": "red_light_camera"
+  }
+},
+{
+  "type": "node",
+  "id": 12541080615,
+  "lat": 38.9050281,
+  "lon": -77.0699453,
+  "tags": {
+    "direction": "260",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera"
+  }
+},
+{
+  "type": "node",
+  "id": 12543182328,
+  "lat": 38.9610399,
+  "lon": -77.0733835,
+  "tags": {
+    "direction": "330",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera"
+  }
+},
+{
+  "type": "node",
+  "id": 12543186481,
+  "lat": 38.9172464,
+  "lon": -77.0319531,
+  "tags": {
+    "direction": "170",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera"
+  }
+},
+{
+  "type": "node",
+  "id": 12543192693,
+  "lat": 38.9496630,
+  "lon": -77.0801867,
+  "tags": {
+    "direction": "335",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera"
+  }
+},
+{
+  "type": "node",
+  "id": 12578244897,
+  "lat": 38.8875681,
+  "lon": -77.0154926,
+  "tags": {
+    "direction": "90",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera"
+  }
+},
+{
+  "type": "node",
+  "id": 12578244898,
+  "lat": 38.8857171,
+  "lon": -77.0318013,
+  "tags": {
+    "direction": "0",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera"
+  }
+},
+{
+  "type": "node",
+  "id": 12578244899,
+  "lat": 38.8921722,
+  "lon": -77.0334463,
+  "tags": {
+    "direction": "270",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera"
+  }
+},
+{
+  "type": "node",
+  "id": 12578244900,
+  "lat": 38.8918741,
+  "lon": -77.0279300,
+  "tags": {
+    "direction": "0",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera"
+  }
+},
+{
+  "type": "node",
+  "id": 12578282472,
+  "lat": 38.8846684,
+  "lon": -77.0879191,
+  "tags": {
+    "direction": "90",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera"
+  }
+},
+{
+  "type": "node",
+  "id": 12578282473,
+  "lat": 38.8846538,
+  "lon": -77.0876217,
+  "tags": {
+    "direction": "265",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera"
+  }
+},
+{
+  "type": "node",
+  "id": 12578282474,
+  "lat": 38.8961336,
+  "lon": -77.0982163,
+  "tags": {
+    "direction": "275",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera"
+  }
+},
+{
+  "type": "node",
+  "id": 12578282475,
+  "lat": 38.8960335,
+  "lon": -77.0961571,
+  "tags": {
+    "direction": "225",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera"
+  }
+},
+{
+  "type": "node",
+  "id": 12578282476,
+  "lat": 38.8958096,
+  "lon": -77.0955613,
+  "tags": {
+    "direction": "310",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera"
+  }
+},
+{
+  "type": "node",
+  "id": 12578283045,
+  "lat": 38.9005810,
+  "lon": -77.0091113,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera",
+    "type": "enforcement"
+  }
+},
+{
+  "type": "node",
+  "id": 12578286270,
+  "lat": 38.8798787,
+  "lon": -77.0091644,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera"
+  }
+},
+{
+  "type": "node",
+  "id": 12578289282,
+  "lat": 38.8946849,
+  "lon": -77.0708433,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera"
+  }
+},
+{
+  "type": "node",
+  "id": 12578358414,
+  "lat": 38.9734820,
+  "lon": -77.1224619,
+  "tags": {
+    "direction": "140",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera"
+  }
+},
+{
+  "type": "node",
+  "id": 12578390145,
+  "lat": 38.9836959,
+  "lon": -77.0938191,
+  "tags": {
+    "direction": "335",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera"
+  }
+},
+{
+  "type": "node",
+  "id": 12578392730,
+  "lat": 38.9884483,
+  "lon": -77.0952088,
+  "tags": {
+    "direction": "160",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera"
+  }
+},
+{
+  "type": "node",
+  "id": 12578393032,
+  "lat": 38.9561409,
+  "lon": -77.0705334,
+  "tags": {
+    "direction": "150",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera"
+  }
+},
+{
+  "type": "node",
+  "id": 12578393033,
+  "lat": 38.9547062,
+  "lon": -77.0714461,
+  "tags": {
+    "direction": "40",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera"
+  }
+},
+{
+  "type": "node",
+  "id": 12580341157,
+  "lat": 38.8535689,
+  "lon": -77.0518837,
+  "tags": {
+    "direction": "275",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera"
+  }
+},
+{
+  "type": "node",
+  "id": 12580341158,
+  "lat": 38.8531404,
+  "lon": -77.0523720,
+  "tags": {
+    "direction": "5",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera"
+  }
+},
+{
+  "type": "node",
+  "id": 12580341163,
+  "lat": 38.7987712,
+  "lon": -77.0518729,
+  "tags": {
+    "direction": "205",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera"
+  }
+},
+{
+  "type": "node",
+  "id": 12580341164,
+  "lat": 38.7999701,
+  "lon": -77.0515676,
+  "tags": {
+    "direction": "190",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera"
+  }
+},
+{
+  "type": "node",
+  "id": 12580341165,
+  "lat": 38.7996442,
+  "lon": -77.0513902,
+  "tags": {
+    "direction": "5",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera"
+  }
+},
+{
+  "type": "node",
+  "id": 12580370394,
+  "lat": 38.8849034,
+  "lon": -77.1752071,
+  "tags": {
+    "direction": "135",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera"
+  }
+},
+{
+  "type": "node",
+  "id": 12580370395,
+  "lat": 38.8846153,
+  "lon": -77.1747660,
+  "tags": {
+    "direction": "310",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera"
+  }
+},
+{
+  "type": "node",
+  "id": 12580370396,
+  "lat": 38.8884093,
+  "lon": -77.1609748,
+  "tags": {
+    "direction": "235",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera"
+  }
+},
+{
+  "type": "node",
+  "id": 12580370397,
+  "lat": 38.8882755,
+  "lon": -77.1608364,
+  "tags": {
+    "direction": "45",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera"
+  }
+},
+{
+  "type": "node",
+  "id": 12580437101,
+  "lat": 38.8662913,
+  "lon": -77.1284928,
+  "tags": {
+    "direction": "195",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera"
+  }
+},
+{
+  "type": "node",
+  "id": 12580437106,
+  "lat": 38.8587178,
+  "lon": -77.1015698,
+  "tags": {
+    "direction": "65",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera"
+  }
+},
+{
+  "type": "node",
+  "id": 12580437108,
+  "lat": 38.8611904,
+  "lon": -77.0922032,
+  "tags": {
+    "direction": "65",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera"
+  }
+},
+{
+  "type": "node",
+  "id": 12580437109,
+  "lat": 38.8614116,
+  "lon": -77.0916290,
+  "tags": {
+    "direction": "255",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera"
+  }
+},
+{
+  "type": "node",
+  "id": 12580437110,
+  "lat": 38.8658119,
+  "lon": -77.0746985,
+  "tags": {
+    "direction": "70",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera"
+  }
+},
+{
+  "type": "node",
+  "id": 12580437111,
+  "lat": 38.8660168,
+  "lon": -77.0739702,
+  "tags": {
+    "direction": "250",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera"
+  }
+},
+{
+  "type": "node",
+  "id": 12580454694,
+  "lat": 38.8359666,
+  "lon": -77.0079414,
+  "tags": {
+    "direction": "165",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera"
+  }
+},
+{
+  "type": "node",
+  "id": 12580454699,
+  "lat": 38.8470407,
+  "lon": -76.9804120,
+  "tags": {
+    "direction": "160",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera"
+  }
+},
+{
+  "type": "node",
+  "id": 12580477703,
+  "lat": 38.8534900,
+  "lon": -76.9829533,
+  "tags": {
+    "direction": "235",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera"
+  }
+},
+{
+  "type": "node",
+  "id": 12580477704,
+  "lat": 38.8544982,
+  "lon": -76.9859570,
+  "tags": {
+    "direction": "125",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera"
+  }
+},
+{
+  "type": "node",
+  "id": 12580477706,
+  "lat": 38.8552390,
+  "lon": -76.9961833,
+  "tags": {
+    "direction": "175",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera"
+  }
+},
+{
+  "type": "node",
+  "id": 12580477711,
+  "lat": 38.8777098,
+  "lon": -76.9917705,
+  "tags": {
+    "direction": "90",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera"
+  }
+},
+{
+  "type": "node",
+  "id": 12580477712,
+  "lat": 38.8780791,
+  "lon": -76.9913591,
+  "tags": {
+    "direction": "300",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera"
+  }
+},
+{
+  "type": "node",
+  "id": 12580479020,
+  "lat": 38.9090192,
+  "lon": -77.0046414,
+  "tags": {
+    "direction": "230",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera",
+    "maxspeed": "25"
+  }
+},
+{
+  "type": "node",
+  "id": 12580485901,
+  "lat": 38.9141529,
+  "lon": -77.0190123,
+  "tags": {
+    "direction": "90",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera"
+  }
+},
+{
+  "type": "node",
+  "id": 12708065583,
+  "lat": 37.7349548,
+  "lon": -122.4749728,
+  "tags": {
+    "description": "Red Light Camera",
+    "direction": "200",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera",
+    "maxspeed": "30 mph"
+  }
+},
+{
+  "type": "node",
+  "id": 12708065584,
+  "lat": 37.7343947,
+  "lon": -122.4752620,
+  "tags": {
+    "description": "Red Light Camera",
+    "direction": "20",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera",
+    "maxspeed": "30 mph"
+  }
+},
+{
+  "type": "node",
+  "id": 12751715890,
+  "lat": 41.8742401,
+  "lon": -87.9619353,
+  "tags": {
+    "camera:direction": "90;120",
+    "camera:mount": "pole",
+    "camera:type": "fixed",
+    "enforcement": "red_light_camera",
+    "man_made": "surveillance",
+    "surveillance": "public",
+    "surveillance:type": "camera",
+    "surveillance:zone": "traffic"
+  }
+},
+{
+  "type": "node",
+  "id": 12841028468,
+  "lat": 40.9698960,
+  "lon": -73.8719118,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "highway": "traffic_signals",
+    "traffic_signals": "signal"
+  }
+},
+{
+  "type": "node",
+  "id": 13184825534,
+  "lat": 41.9538672,
+  "lon": -87.8569783,
+  "tags": {
+    "camera:type": "fixed",
+    "direction": "160",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera"
+  }
+},
+{
+  "type": "node",
+  "id": 13322637177,
+  "lat": 28.5974536,
+  "lon": -81.2357726,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "man_made": "surveillance",
+    "surveillance:type": "camera"
+  }
+},
+{
+  "type": "node",
+  "id": 13322718476,
+  "lat": 28.5973369,
+  "lon": -81.2244740,
+  "tags": {
+    "enforcement": "red_light_camera",
+    "man_made": "surveillance",
+    "surveillance:type": "camera"
+  }
+},
+{
+  "type": "node",
+  "id": 13368691601,
+  "lat": 47.7517187,
+  "lon": -122.6453582,
+  "tags": {
+    "camera:mount": "pole",
+    "camera:type": "fixed",
+    "direction": "285",
+    "enforcement": "red_light_camera",
+    "man_made": "surveillance",
+    "operator": "City of Poulsbo",
+    "surveillance": "traffic",
+    "surveillance:type": "camera",
+    "surveillance:zone": "traffic"
+  }
+},
+{
+  "type": "node",
+  "id": 13403760782,
+  "lat": 41.9530781,
+  "lon": -87.8563422,
+  "tags": {
+    "camera:type": "fixed",
+    "direction": "340",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera"
+  }
+},
+{
+  "type": "node",
+  "id": 13403760783,
+  "lat": 41.9534821,
+  "lon": -87.8570594,
+  "tags": {
+    "camera:type": "fixed",
+    "direction": "75",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera"
+  }
+},
+{
+  "type": "node",
+  "id": 13504566376,
+  "lat": 40.1171536,
+  "lon": -74.8813872,
+  "tags": {
+    "direction": "150",
+    "enforcement": "red_light_camera",
+    "man_made": "surveillance",
+    "source": "survey",
+    "surveillance": "red_light",
+    "surveillance:type": "ALPR",
+    "surveillance:zone": "traffic"
+  }
+},
+{
+  "type": "node",
+  "id": 13504566377,
+  "lat": 40.1164223,
+  "lon": -74.8808592,
+  "tags": {
+    "direction": "330",
+    "enforcement": "red_light_camera",
+    "man_made": "surveillance",
+    "source": "survey",
+    "surveillance": "red_light",
+    "surveillance:type": "ALPR",
+    "surveillance:zone": "traffic"
+  }
+},
+{
+  "type": "node",
+  "id": 14049965244,
+  "lat": 38.8818583,
+  "lon": -77.1156510,
+  "tags": {
+    "direction": "forward",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera"
+  }
+},
+{
+  "type": "node",
+  "id": 14049965246,
+  "lat": 38.8821580,
+  "lon": -77.1154972,
+  "tags": {
+    "direction": "forward",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera"
+  }
+},
+{
+  "type": "node",
+  "id": 14049965247,
+  "lat": 38.8820379,
+  "lon": -77.1162607,
+  "tags": {
+    "direction": "forward",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera"
+  }
+},
+{
+  "type": "node",
+  "id": 14049965248,
+  "lat": 38.8823701,
+  "lon": -77.1160770,
+  "tags": {
+    "direction": "forward",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera"
+  }
+},
+{
+  "type": "node",
+  "id": 14049994742,
+  "lat": 38.8853941,
+  "lon": -77.1168794,
+  "tags": {
+    "direction": "forward",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera"
+  }
+},
+{
+  "type": "node",
+  "id": 14049994743,
+  "lat": 38.8852018,
+  "lon": -77.1170045,
+  "tags": {
+    "direction": "forward",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera"
+  }
+},
+{
+  "type": "node",
+  "id": 14049994744,
+  "lat": 38.8856225,
+  "lon": -77.1173596,
+  "tags": {
+    "direction": "forward",
+    "enforcement": "red_light_camera",
+    "highway": "speed_camera"
+  }
+}
+
+  ]
+}

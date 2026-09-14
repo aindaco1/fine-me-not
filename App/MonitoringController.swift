@@ -125,12 +125,14 @@ final class MonitoringController: NSObject, CLLocationManagerDelegate {
                               course: location.courseAccuracy >= 0 && location.courseAccuracy <= 45 ? location.course : nil)
         guard fix.isUsable(at: now), precise else { return }
         failure = nil; lastFixAt = location.timestamp
+        let previousEncounters = engine.encounters
         let warnings = engine.evaluate(fix, index: store.index, now: now)
         if !warnings.isEmpty {
             presenter.present(warnings)
             warningCount += warnings.count
         }
-        if let data = try? JSONEncoder().encode(engine.encounters) { defaults.set(data, forKey: "warnings.encounters") }
+        if previousEncounters != engine.encounters,
+           let data = try? JSONEncoder().encode(engine.encounters) { defaults.set(data, forKey: "warnings.encounters") }
         if store.isDue { Task { await store.refresh() } }
     }
 

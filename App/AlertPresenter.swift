@@ -21,9 +21,11 @@ final class AlertPresenter: NSObject, AVAudioPlayerDelegate {
                      AVAudioSession.mediaServicesWereResetNotification] {
             notificationObservers.append(NotificationCenter.default.addObserver(forName: name, object: nil, queue: .main) { [weak self] notification in
                 let name = notification.name
+                let interrupted = (notification.userInfo?[AVAudioSessionInterruptionTypeKey] as? UInt)
+                    == AVAudioSession.InterruptionType.began.rawValue
                 Task { @MainActor [weak self] in
                     guard let self else { return }
-                    if name != AVAudioSession.routeChangeNotification {
+                    if interrupted || name == AVAudioSession.mediaServicesWereResetNotification {
                         if self.isPlaying { self.audioError = "Warning audio was interrupted." }
                         self.finish()
                     }
@@ -88,12 +90,18 @@ final class AlertPresenter: NSObject, AVAudioPlayerDelegate {
     }
 
     nonisolated func audioPlayerDidFinishPlaying(_ player: AVAudioPlayer, successfully flag: Bool) {
+        let identifier = ObjectIdentifier(player)
         Task { @MainActor [weak self] in
-            if !flag { self?.audioError = "Warning audio did not finish." }
-            self?.finish()
+            guard let self, let current = self.player, ObjectIdentifier(current) == identifier else { return }
+            if !flag { self.audioError = "Warning audio did not finish." }
+            self.finish()
         }
     }
     nonisolated func audioPlayerDecodeErrorDidOccur(_ player: AVAudioPlayer, error: Error?) {
-        Task { @MainActor [weak self] in self?.audioError = "Couldn't decode the warning sound."; self?.finish() }
+        let identifier = ObjectIdentifier(player)
+        Task { @MainActor [weak self] in
+            guard let self, let current = self.player, ObjectIdentifier(current) == identifier else { return }
+            self.audioError = "Couldn't decode the warning sound."; self.finish()
+        }
     }
 }

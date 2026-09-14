@@ -13,11 +13,12 @@ public struct Coordinate: Codable, Hashable, Sendable {
 }
 
 public enum CameraKind: String, Codable, Sendable {
-    case speed, redLight, possibleSpeed
+    case speed, redLight, speedAndRedLight, possibleSpeed
     public var title: String {
         switch self {
         case .speed: "Speed camera"
         case .redLight: "Red-light camera"
+        case .speedAndRedLight: "Speed and red-light camera"
         case .possibleSpeed: "Possible speed camera"
         }
     }

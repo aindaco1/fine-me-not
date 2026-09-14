@@ -42,4 +42,8 @@ Official rows are a factual research transcription with source links. No explici
 
 ## Before use in alerts
 
-Follow the reconciliation rules in the [implementation plan](../camera-alerts-research-and-plan.md): verify fixed device/monitored-lane coordinates or mobile-site/corridor geometry and approach directions; verify current status and eligibility; resolve duplicate evidence without merging distinct approaches; assign stable IDs; preserve field evidence and review dates. Exclude unresolved records from the release snapshot. Keep last good data when a source fails or changes unexpectedly, honoring explicit removals and deployment end dates. The “Possible” label relaxes certainty about mobile-camera presence, not certainty about its documented deployment location.
+Follow the reconciliation rules in the [implementation plan](../../docs/PLAN.md): verify fixed device/monitored-lane coordinates or mobile-site/corridor geometry and approach directions; verify current status and eligibility; resolve duplicate evidence without merging distinct approaches; assign stable IDs; preserve field evidence and review dates. Exclude unresolved records from the release snapshot. Keep last good data when a source fails or changes unexpectedly, honoring explicit removals and deployment end dates. The “Possible” label relaxes certainty about mobile-camera presence, not certainty about its documented deployment location.
+
+## Implementation follow-up
+
+These original research files remain unchanged as evidence of the initial audit. Accepted desk reconciliations now live in `../Overrides/metro.json`; current published counts and outstanding review candidates live in `publisher-report.json`. Acceptance is not field verification.

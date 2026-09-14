@@ -1,0 +1,4541 @@
+{
+  "counts": {
+    "redLight": 393,
+    "speed": 1134,
+    "speedAndRedLight": 224
+  },
+  "fetches": [],
+  "generatedAt": "2026-09-14T22:19:55Z",
+  "records": 1751,
+  "review": [
+    {
+      "id": "osm-relation-545916",
+      "reason": "Unsupported or uncertain relation"
+    },
+    {
+      "id": "osm-node-1809965214",
+      "reason": "Uncertain, removed, or unsupported tags"
+    },
+    {
+      "id": "osm-node-1809965215",
+      "reason": "Uncertain, removed, or unsupported tags"
+    },
+    {
+      "id": "osm-node-6699440600",
+      "reason": "Uncertain, removed, or unsupported tags"
+    },
+    {
+      "id": "osm-node-7273466817",
+      "reason": "Uncertain, removed, or unsupported tags"
+    },
+    {
+      "id": "osm-node-12100984222",
+      "reason": "Uncertain, removed, or unsupported tags"
+    },
+    {
+      "id": "osm-node-12724788084",
+      "reason": "Uncertain, removed, or unsupported tags"
+    },
+    {
+      "id": "osm-node-12724788085",
+      "reason": "Uncertain, removed, or unsupported tags"
+    },
+    {
+      "id": "osm-node-13046406566",
+      "reason": "Uncertain, removed, or unsupported tags"
+    },
+    {
+      "id": "osm-node-13446790721",
+      "reason": "Uncertain, removed, or unsupported tags"
+    },
+    {
+      "id": "osm-node-13448415652",
+      "reason": "Uncertain, removed, or unsupported tags"
+    },
+    {
+      "id": "osm-node-13691575876",
+      "reason": "Uncertain, removed, or unsupported tags"
+    },
+    {
+      "id": "osm-node-10581469087",
+      "reason": "Metro source requires explicit reconciliation"
+    },
+    {
+      "id": "osm-node-10581469088",
+      "reason": "Metro source requires explicit reconciliation"
+    },
+    {
+      "id": "osm-node-10581469089",
+      "reason": "Metro source requires explicit reconciliation"
+    },
+    {
+      "id": "osm-node-10581469090",
+      "reason": "Metro source requires explicit reconciliation"
+    },
+    {
+      "id": "osm-node-10581469093",
+      "reason": "Metro source requires explicit reconciliation"
+    },
+    {
+      "id": "osm-node-10581469096",
+      "reason": "Metro source requires explicit reconciliation"
+    },
+    {
+      "id": "osm-node-10581469097",
+      "reason": "Metro source requires explicit reconciliation"
+    },
+    {
+      "id": "osm-node-10581469098",
+      "reason": "Metro source requires explicit reconciliation"
+    },
+    {
+      "id": "osm-node-10581469099",
+      "reason": "Metro source requires explicit reconciliation"
+    },
+    {
+      "id": "osm-node-10581469103",
+      "reason": "Metro source requires explicit reconciliation"
+    },
+    {
+      "id": "osm-node-10581469104",
+      "reason": "Metro source requires explicit reconciliation"
+    },
+    {
+      "id": "osm-node-10581470205",
+      "reason": "Metro source requires explicit reconciliation"
+    },
+    {
+      "id": "osm-node-10581470206",
+      "reason": "Metro source requires explicit reconciliation"
+    },
+    {
+      "id": "osm-node-10581470207",
+      "reason": "Metro source requires explicit reconciliation"
+    },
+    {
+      "id": "osm-node-10581470208",
+      "reason": "Metro source requires explicit reconciliation"
+    },
+    {
+      "id": "osm-node-10581470209",
+      "reason": "Metro source requires explicit reconciliation"
+    },
+    {
+      "id": "osm-node-10581470210",
+      "reason": "Metro source requires explicit reconciliation"
+    },
+    {
+      "id": "osm-node-10847186464",
+      "reason": "Metro source requires explicit reconciliation"
+    },
+    {
+      "id": "osm-node-10847186484",
+      "reason": "Metro source requires explicit reconciliation"
+    },
+    {
+      "id": "osm-node-10847186485",
+      "reason": "Metro source requires explicit reconciliation"
+    },
+    {
+      "id": "osm-node-10847186486",
+      "reason": "Metro source requires explicit reconciliation"
+    },
+    {
+      "id": "osm-node-11412742528",
+      "reason": "Metro source requires explicit reconciliation"
+    },
+    {
+      "id": "osm-node-11412742529",
+      "reason": "Metro source requires explicit reconciliation"
+    },
+    {
+      "id": "osm-node-11412742530",
+      "reason": "Metro source requires explicit reconciliation"
+    },
+    {
+      "id": "osm-node-11412742531",
+      "reason": "Metro source requires explicit reconciliation"
+    },
+    {
+      "id": "osm-node-11412742532",
+      "reason": "Metro source requires explicit reconciliation"
+    },
+    {
+      "id": "osm-node-11412742533",
+      "reason": "Metro source requires explicit reconciliation"
+    },
+    {
+      "id": "osm-node-11412742534",
+      "reason": "Metro source requires explicit reconciliation"
+    },
+    {
+      "id": "osm-node-11518221727",
+      "reason": "Metro source requires explicit reconciliation"
+    },
+    {
+      "id": "osm-node-11785891511",
+      "reason": "Metro source requires explicit reconciliation"
+    },
+    {
+      "id": "osm-node-12087940066",
+      "reason": "Metro source requires explicit reconciliation"
+    },
+    {
+      "id": "osm-node-12087940067",
+      "reason": "Metro source requires explicit reconciliation"
+    },
+    {
+      "id": "osm-node-12087940068",
+      "reason": "Metro source requires explicit reconciliation"
+    },
+    {
+      "id": "osm-node-12087956669",
+      "reason": "Metro source requires explicit reconciliation"
+    },
+    {
+      "id": "osm-node-12087956670",
+      "reason": "Metro source requires explicit reconciliation"
+    },
+    {
+      "id": "osm-node-12087956671",
+      "reason": "Metro source requires explicit reconciliation"
+    },
+    {
+      "id": "osm-node-12087956672",
+      "reason": "Metro source requires explicit reconciliation"
+    },
+    {
+      "id": "osm-node-12087956673",
+      "reason": "Metro source requires explicit reconciliation"
+    },
+    {
+      "id": "osm-node-12240158163",
+      "reason": "Metro source requires explicit reconciliation"
+    },
+    {
+      "id": "osm-node-12310625751",
+      "reason": "Metro source requires explicit reconciliation"
+    },
+    {
+      "id": "osm-node-12718015934",
+      "reason": "Metro source requires explicit reconciliation"
+    },
+    {
+      "id": "osm-node-12718015935",
+      "reason": "Metro source requires explicit reconciliation"
+    },
+    {
+      "id": "osm-node-12861865379",
+      "reason": "Metro source requires explicit reconciliation"
+    },
+    {
+      "id": "osm-node-13105388207",
+      "reason": "Metro source requires explicit reconciliation"
+    },
+    {
+      "id": "osm-node-13105388208",
+      "reason": "Metro source requires explicit reconciliation"
+    },
+    {
+      "id": "osm-node-13380469273",
+      "reason": "Metro source requires explicit reconciliation"
+    },
+    {
+      "id": "osm-node-13380469274",
+      "reason": "Metro source requires explicit reconciliation"
+    },
+    {
+      "id": "osm-node-13380469275",
+      "reason": "Metro source requires explicit reconciliation"
+    },
+    {
+      "id": "osm-node-13380469276",
+      "reason": "Metro source requires explicit reconciliation"
+    },
+    {
+      "id": "osm-node-13380469277",
+      "reason": "Metro source requires explicit reconciliation"
+    },
+    {
+      "id": "osm-node-13380469278",
+      "reason": "Metro source requires explicit reconciliation"
+    },
+    {
+      "id": "osm-node-13380469279",
+      "reason": "Metro source requires explicit reconciliation"
+    },
+    {
+      "id": "osm-node-13380469280",
+      "reason": "Metro source requires explicit reconciliation"
+    },
+    {
+      "id": "osm-node-13380490909",
+      "reason": "Metro source requires explicit reconciliation"
+    },
+    {
+      "id": "osm-node-13380490911",
+      "reason": "Metro source requires explicit reconciliation"
+    },
+    {
+      "id": "osm-node-13380490912",
+      "reason": "Metro source requires explicit reconciliation"
+    },
+    {
+      "id": "osm-node-13380490924",
+      "reason": "Metro source requires explicit reconciliation"
+    },
+    {
+      "id": "osm-node-13380490925",
+      "reason": "Metro source requires explicit reconciliation"
+    },
+    {
+      "id": "osm-node-13380490952",
+      "reason": "Metro source requires explicit reconciliation"
+    },
+    {
+      "id": "osm-node-13380490954",
+      "reason": "Metro source requires explicit reconciliation"
+    },
+    {
+      "id": "osm-node-13538504540",
+      "reason": "Metro source requires explicit reconciliation"
+    },
+    {
+      "id": "osm-node-13715218470",
+      "reason": "Metro source requires explicit reconciliation"
+    },
+    {
+      "id": "osm-node-13921481508",
+      "reason": "Metro source requires explicit reconciliation"
+    },
+    {
+      "id": "osm-node-14079677763",
+      "reason": "Metro source requires explicit reconciliation"
+    },
+    {
+      "id": "abq-gibson-carlisle-san-mateo-wb",
+      "near": "abq-gibson-carlisle-san-mateo-eb",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-100599122",
+      "near": "osm-node-100599120",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-10111586385",
+      "near": "osm-node-10111577780",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-10111592437",
+      "near": "osm-node-10111577780",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-10111592437",
+      "near": "osm-node-10111586385",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-10111596312",
+      "near": "osm-node-10111577780",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-10111596312",
+      "near": "osm-node-10111586385",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-10111596312",
+      "near": "osm-node-10111592437",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-10231227739",
+      "near": "osm-node-10231227738",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-10679459226",
+      "near": "osm-node-10679459225",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-10728698335",
+      "near": "osm-node-10728698334",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-10767103295",
+      "near": "osm-node-10767103294",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-10778829417",
+      "near": "osm-node-10111596312",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-10778829417",
+      "near": "osm-node-10111577780",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-10778829417",
+      "near": "osm-node-10111586385",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-10778829514",
+      "near": "osm-node-10778829513",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-10778829515",
+      "near": "osm-node-10778829513",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-10778829515",
+      "near": "osm-node-10778829514",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-10778829516",
+      "near": "osm-node-10778829513",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-10778829516",
+      "near": "osm-node-10778829514",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-10778829516",
+      "near": "osm-node-10778829515",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-10778860102",
+      "near": "osm-node-10778860101",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-10778872905",
+      "near": "osm-node-10778860101",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-10778872906",
+      "near": "osm-node-10778860101",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-10778872906",
+      "near": "osm-node-10778872905",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-10778872906",
+      "near": "osm-node-10778860102",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-10778872910",
+      "near": "osm-node-10778872909",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-10778872911",
+      "near": "osm-node-10778872909",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-10778872911",
+      "near": "osm-node-10778872910",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-10778872913",
+      "near": "osm-node-10778872909",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-10778872913",
+      "near": "osm-node-10778872910",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-10778872913",
+      "near": "osm-node-10778872911",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-10778872914",
+      "near": "osm-node-10778872909",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-10778872914",
+      "near": "osm-node-10778872910",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-10778872914",
+      "near": "osm-node-10778872911",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-10778872914",
+      "near": "osm-node-10778872913",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-10778872915",
+      "near": "osm-node-10778872909",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-10778872915",
+      "near": "osm-node-10778872910",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-10778872915",
+      "near": "osm-node-10778872913",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-10778872915",
+      "near": "osm-node-10778872914",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-10778872917",
+      "near": "osm-node-10778872916",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-10778872918",
+      "near": "osm-node-10778872917",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-10778872919",
+      "near": "osm-node-10778872916",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-10778872919",
+      "near": "osm-node-10778872917",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-10778872919",
+      "near": "osm-node-10778872918",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-11214137474",
+      "near": "osm-node-11214137473",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-11374686922",
+      "near": "osm-node-11374686921",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-11432978634",
+      "near": "osm-node-11432978633",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-11593802745",
+      "near": "osm-node-11593802744",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-11593802746",
+      "near": "osm-node-11593802745",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-11593802746",
+      "near": "osm-node-11593802744",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-11616997357",
+      "near": "osm-node-11432978633",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-11616997357",
+      "near": "osm-node-11432978634",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-11616997359",
+      "near": "osm-node-11432978633",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-11616997359",
+      "near": "osm-node-11432978634",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-11616997359",
+      "near": "osm-node-11616997357",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-11639996474",
+      "near": "osm-node-11639996473",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-1178810211",
+      "near": "osm-node-1178810210",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-1178810213",
+      "near": "osm-node-1178810210",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-1178810213",
+      "near": "osm-node-1178810211",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-1178810216",
+      "near": "osm-node-1178810210",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-1178810216",
+      "near": "osm-node-1178810211",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-1178810216",
+      "near": "osm-node-1178810213",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-11822765807",
+      "near": "osm-node-11822765806",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-11828328869",
+      "near": "osm-node-11828313868",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-11845767203",
+      "near": "osm-node-11845767202",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-11965933165",
+      "near": "osm-node-11965933164",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-11965970367",
+      "near": "osm-node-11965970366",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-11965971170",
+      "near": "osm-node-11965971169",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-11982372597",
+      "near": "osm-node-11982372596",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-11982372609",
+      "near": "osm-node-11982372607",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-11982372610",
+      "near": "osm-node-11982372609",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-11982372610",
+      "near": "osm-node-11982372607",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-11982372613",
+      "near": "osm-node-11982372611",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-120290872",
+      "near": "osm-node-120290860",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12038492105",
+      "near": "osm-node-12038492104",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12038544195",
+      "near": "osm-node-12038544194",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12067305537",
+      "near": "osm-node-12067253043",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12089593114",
+      "near": "osm-node-12089593112",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12151988565",
+      "near": "osm-node-12151988564",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12161122947",
+      "near": "osm-node-12161063179",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12236500844",
+      "near": "osm-node-11375606367",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12239484718",
+      "near": "osm-node-12239484717",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12254052801",
+      "near": "osm-node-12253993478",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12254061804",
+      "near": "osm-node-12253993478",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12254061804",
+      "near": "osm-node-12254052801",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12254061818",
+      "near": "osm-node-12253993478",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12254061818",
+      "near": "osm-node-12254061804",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12254061818",
+      "near": "osm-node-12254052801",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12351621541",
+      "near": "osm-node-12351621540",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12351711699",
+      "near": "osm-node-12351711698",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12430149070",
+      "near": "osm-node-12430149007",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12541137859",
+      "near": "osm-node-12541124481",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12543182328",
+      "near": "osm-node-11216880705",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12578244899",
+      "near": "osm-node-12543203130",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12578244900",
+      "near": "osm-node-12543206049",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12578282473",
+      "near": "osm-node-12578282472",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12578282476",
+      "near": "osm-node-12578282475",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12578283030",
+      "near": "osm-node-12578283029",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12578283033",
+      "near": "osm-node-12578283032",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12578283036",
+      "near": "osm-node-12578283035",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12578283042",
+      "near": "osm-node-12578283041",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12578286269",
+      "near": "osm-node-12578286268",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12578383385",
+      "near": "osm-node-12578383384",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12578393033",
+      "near": "osm-node-12543201738",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12580341158",
+      "near": "osm-node-12580341157",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12580341159",
+      "near": "osm-node-12580341158",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12580341159",
+      "near": "osm-node-12580341157",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12580341165",
+      "near": "osm-node-12580341164",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12580370395",
+      "near": "osm-node-12580370394",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12580370397",
+      "near": "osm-node-12580370396",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12580433291",
+      "near": "osm-node-12543172689",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12580433292",
+      "near": "osm-node-12543172689",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12580433292",
+      "near": "osm-node-12580433291",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12580437109",
+      "near": "osm-node-12580437108",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12580437111",
+      "near": "osm-node-12580437110",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12580439688",
+      "near": "osm-node-12580439687",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12580439698",
+      "near": "osm-node-12580439697",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12580439700",
+      "near": "osm-node-12580439699",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12580477707",
+      "near": "osm-node-12580477706",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12580477712",
+      "near": "osm-node-12580477711",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12580477714",
+      "near": "osm-node-12580477713",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12580479018",
+      "near": "osm-node-12580479017",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12580485628",
+      "near": "osm-node-12580485627",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12580485630",
+      "near": "osm-node-12543165381",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12580485901",
+      "near": "osm-node-12580439700",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12580485902",
+      "near": "osm-node-12580485901",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12585505520",
+      "near": "osm-node-12585505519",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12611341047",
+      "near": "osm-node-12611341045",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12611341049",
+      "near": "osm-node-12611341047",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12611341051",
+      "near": "osm-node-12611341045",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12611341051",
+      "near": "osm-node-12611341049",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12655229824",
+      "near": "osm-node-110713330",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12655232815",
+      "near": "osm-node-110713330",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12662810737",
+      "near": "osm-node-12662810736",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12708065584",
+      "near": "osm-node-12708065583",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12753155347",
+      "near": "osm-node-12753155346",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12753155348",
+      "near": "osm-node-12753155346",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12753155348",
+      "near": "osm-node-12753155347",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12753155349",
+      "near": "osm-node-12753155346",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12753155349",
+      "near": "osm-node-12753155347",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12753155349",
+      "near": "osm-node-12753155348",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12755488433",
+      "near": "osm-node-12748825103",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12798563199",
+      "near": "osm-node-12798563198",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12798563200",
+      "near": "osm-node-12798563198",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12798563200",
+      "near": "osm-node-12798563199",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12798623901",
+      "near": "osm-node-12798563198",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12798623901",
+      "near": "osm-node-12798563199",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12798623901",
+      "near": "osm-node-12798563200",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12798966182",
+      "near": "osm-node-12798966181",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12810139408",
+      "near": "osm-node-12810033766",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12854462344",
+      "near": "osm-node-12854462343",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12874172396",
+      "near": "osm-node-10098451891",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12874178065",
+      "near": "osm-node-12874178064",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12889680096",
+      "near": "osm-node-12889680095",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12907909633",
+      "near": "osm-node-12907909632",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12994642635",
+      "near": "osm-node-12994642634",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-12994642637",
+      "near": "osm-node-12994642636",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13025363821",
+      "near": "osm-node-13025363820",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13046845828",
+      "near": "osm-node-13046845806",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13069359410",
+      "near": "osm-node-13069345090",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13077363795",
+      "near": "osm-node-13077363794",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13078236469",
+      "near": "osm-node-13078236468",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13078236471",
+      "near": "osm-node-13078236470",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13078493824",
+      "near": "osm-node-13078493823",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13078874581",
+      "near": "osm-node-13078874580",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13095145503",
+      "near": "osm-node-13095145502",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13095145504",
+      "near": "osm-node-13095145502",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13095145504",
+      "near": "osm-node-13095145503",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13095145505",
+      "near": "osm-node-13095145502",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13095145505",
+      "near": "osm-node-13095145503",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13095145505",
+      "near": "osm-node-13095145504",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13095149969",
+      "near": "osm-node-13095149968",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13099795798",
+      "near": "osm-node-13099795797",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13100662887",
+      "near": "osm-node-13100662886",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13109356654",
+      "near": "osm-node-13109356653",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13109356655",
+      "near": "osm-node-13109356653",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13109356655",
+      "near": "osm-node-13109356654",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13109356656",
+      "near": "osm-node-13109356653",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13109356656",
+      "near": "osm-node-13109356654",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13109356656",
+      "near": "osm-node-13109356655",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13120487969",
+      "near": "osm-node-13120487967",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13123847053",
+      "near": "osm-node-13123847052",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13123847054",
+      "near": "osm-node-13123847052",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13123847054",
+      "near": "osm-node-13123847053",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13123847055",
+      "near": "osm-node-13123847052",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13123847055",
+      "near": "osm-node-13123847053",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13123847055",
+      "near": "osm-node-13123847054",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13158685385",
+      "near": "osm-node-13158685384",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13158685386",
+      "near": "osm-node-13158685385",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13158685386",
+      "near": "osm-node-13158685384",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13158685387",
+      "near": "osm-node-13158685385",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13158685387",
+      "near": "osm-node-13158685386",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13158685387",
+      "near": "osm-node-13158685384",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13199198578",
+      "near": "osm-node-13199198577",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13199198579",
+      "near": "osm-node-13199198577",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13199198579",
+      "near": "osm-node-13199198578",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13199198580",
+      "near": "osm-node-13199198577",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13199198580",
+      "near": "osm-node-13199198578",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13199198580",
+      "near": "osm-node-13199198579",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13199458690",
+      "near": "osm-node-13199458689",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13199458691",
+      "near": "osm-node-13199458689",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13199458691",
+      "near": "osm-node-13199458690",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13199458692",
+      "near": "osm-node-13199458689",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13199458692",
+      "near": "osm-node-13199458690",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13199458692",
+      "near": "osm-node-13199458691",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13204211152",
+      "near": "osm-node-13204211151",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13204211154",
+      "near": "osm-node-13204211153",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13226557618",
+      "near": "osm-node-13095149967",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13226557619",
+      "near": "osm-node-13095149967",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13226557619",
+      "near": "osm-node-13226557618",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13226557620",
+      "near": "osm-node-13095149967",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13226557620",
+      "near": "osm-node-13226557618",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13226557620",
+      "near": "osm-node-13226557619",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13228333083",
+      "near": "osm-node-13228333082",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13228333084",
+      "near": "osm-node-13228333082",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13228333084",
+      "near": "osm-node-13228333083",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13228333085",
+      "near": "osm-node-13228333082",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13228333085",
+      "near": "osm-node-13228333084",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13228333085",
+      "near": "osm-node-13228333083",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13244535643",
+      "near": "osm-node-13228568577",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13244535644",
+      "near": "osm-node-13228568577",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13244535644",
+      "near": "osm-node-13244535643",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13256701160",
+      "near": "osm-node-13256701159",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13261873895",
+      "near": "osm-node-13261860600",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13261879869",
+      "near": "osm-node-13261860600",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13261879869",
+      "near": "osm-node-13261873895",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13261889615",
+      "near": "osm-node-13261879869",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13261889615",
+      "near": "osm-node-13261860600",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13261889615",
+      "near": "osm-node-13261873895",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13274406486",
+      "near": "osm-node-13274406485",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13274406487",
+      "near": "osm-node-13274406485",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13274406487",
+      "near": "osm-node-13274406486",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13274406488",
+      "near": "osm-node-13274406485",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13274406488",
+      "near": "osm-node-13274406486",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13274406488",
+      "near": "osm-node-13274406487",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13274528520",
+      "near": "osm-node-13274525839",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13289573561",
+      "near": "osm-node-13289573560",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13326961604",
+      "near": "osm-node-13326945578",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13329371484",
+      "near": "osm-node-13329371483",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13329371485",
+      "near": "osm-node-13329371483",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13329371485",
+      "near": "osm-node-13329371484",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13329371486",
+      "near": "osm-node-13329371484",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13329371486",
+      "near": "osm-node-13329371485",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13329371487",
+      "near": "osm-node-13329371486",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13329371487",
+      "near": "osm-node-13329371483",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13329371487",
+      "near": "osm-node-13329371484",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13329371487",
+      "near": "osm-node-13329371485",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13352015185",
+      "near": "osm-node-13352015184",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13376246170",
+      "near": "osm-node-13376216986",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13403760783",
+      "near": "osm-node-13184825534",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13403760783",
+      "near": "osm-node-13403760782",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13431067538",
+      "near": "osm-node-13431067537",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13431067539",
+      "near": "osm-node-13431067537",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13431067539",
+      "near": "osm-node-13431067538",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13431067540",
+      "near": "osm-node-13431067537",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13431067540",
+      "near": "osm-node-13431067538",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13431067540",
+      "near": "osm-node-13431067539",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13462812053",
+      "near": "osm-node-13462812052",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13467827899",
+      "near": "osm-node-13467827898",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13482445400",
+      "near": "osm-node-13482445399",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13504566377",
+      "near": "osm-node-13504566376",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13517790870",
+      "near": "osm-node-13095149968",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13517790870",
+      "near": "osm-node-13095149969",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13608486607",
+      "near": "osm-node-13608486606",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13608511917",
+      "near": "osm-node-13608511916",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13608511923",
+      "near": "osm-node-13608511922",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13608658965",
+      "near": "osm-node-13608658964",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13660309774",
+      "near": "osm-node-13660309773",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13660335868",
+      "near": "osm-node-13660335867",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13660441733",
+      "near": "osm-node-13660441732",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13662392865",
+      "near": "osm-node-13662392864",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13662422538",
+      "near": "osm-node-13662422537",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13662924573",
+      "near": "osm-node-13662924572",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13662924575",
+      "near": "osm-node-13662924574",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13662942986",
+      "near": "osm-node-13662942985",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13662975824",
+      "near": "osm-node-11664972751",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13663003278",
+      "near": "osm-node-13663003277",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13663008050",
+      "near": "osm-node-13663008049",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13663009972",
+      "near": "osm-node-13663009971",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13663023585",
+      "near": "osm-node-13663023584",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13663046699",
+      "near": "osm-node-13663046698",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13663065426",
+      "near": "osm-node-13663065425",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13673213797",
+      "near": "osm-node-13673213796",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13723895812",
+      "near": "osm-node-13095149967",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13723895812",
+      "near": "osm-node-13226557618",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13723895812",
+      "near": "osm-node-13226557619",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13723895812",
+      "near": "osm-node-13226557620",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13723895813",
+      "near": "osm-node-13095149967",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13723895813",
+      "near": "osm-node-13226557618",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13723895813",
+      "near": "osm-node-13226557619",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13723895813",
+      "near": "osm-node-13226557620",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13723895813",
+      "near": "osm-node-13723895812",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13726188373",
+      "near": "osm-node-13289786875",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13728159165",
+      "near": "osm-node-13289786875",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13728159165",
+      "near": "osm-node-13726188373",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13734792092",
+      "near": "osm-node-13289786875",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13734792092",
+      "near": "osm-node-13726188373",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13734792092",
+      "near": "osm-node-13728159165",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13734792347",
+      "near": "osm-node-13728204912",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13735246068",
+      "near": "osm-node-13735246067",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13735246069",
+      "near": "osm-node-13735246067",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13735246069",
+      "near": "osm-node-13735246068",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13735246070",
+      "near": "osm-node-13735246067",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13735246070",
+      "near": "osm-node-13735246068",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13735246070",
+      "near": "osm-node-13735246069",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13751451045",
+      "near": "osm-node-13094871976",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13765063877",
+      "near": "osm-node-13765060909",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13788372548",
+      "near": "osm-node-13289786875",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13788372548",
+      "near": "osm-node-13726188373",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13788372548",
+      "near": "osm-node-13728159165",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13788372548",
+      "near": "osm-node-13734792092",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13807262591",
+      "near": "osm-node-13807262590",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13814964847",
+      "near": "osm-node-13814934411",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13879608844",
+      "near": "osm-node-13879608843",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13884884832",
+      "near": "osm-node-13884884831",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13897654329",
+      "near": "osm-node-13897654328",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13897654330",
+      "near": "osm-node-13897654329",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13897654330",
+      "near": "osm-node-13897654328",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13897654331",
+      "near": "osm-node-13897654329",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13897654331",
+      "near": "osm-node-13897654328",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13897654331",
+      "near": "osm-node-13897654330",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13911338129",
+      "near": "osm-node-13911338128",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13918363903",
+      "near": "osm-node-13918363902",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13918363904",
+      "near": "osm-node-13918363902",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13918363904",
+      "near": "osm-node-13918363903",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13918363905",
+      "near": "osm-node-13918363902",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13918363905",
+      "near": "osm-node-13918363903",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13918363905",
+      "near": "osm-node-13918363904",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13932051063",
+      "near": "osm-node-13932051062",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13932051064",
+      "near": "osm-node-13932051062",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13932051064",
+      "near": "osm-node-13932051063",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13932051065",
+      "near": "osm-node-13932051062",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13932051065",
+      "near": "osm-node-13932051063",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13932051065",
+      "near": "osm-node-13932051064",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13936843543",
+      "near": "osm-node-13936843541",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13937103646",
+      "near": "osm-node-13937103645",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13954378940",
+      "near": "osm-node-13954378939",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13987181788",
+      "near": "osm-node-13987181787",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13987181789",
+      "near": "osm-node-13987181787",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13987181789",
+      "near": "osm-node-13987181788",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13987181790",
+      "near": "osm-node-13987181787",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13987181790",
+      "near": "osm-node-13987181788",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13987181790",
+      "near": "osm-node-13987181789",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13987181791",
+      "near": "osm-node-13987181787",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13987181791",
+      "near": "osm-node-13987181788",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13987181791",
+      "near": "osm-node-13987181789",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13987181791",
+      "near": "osm-node-13987181790",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-13989408740",
+      "near": "osm-node-13989408739",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-14001659104",
+      "near": "osm-node-14001659103",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-14002470251",
+      "near": "osm-node-14002470250",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-14003859960",
+      "near": "osm-node-14003859959",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-14004659757",
+      "near": "osm-node-14004522446",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-14007262976",
+      "near": "osm-node-14007178129",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-14038414711",
+      "near": "osm-node-14038414709",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-14049965246",
+      "near": "osm-node-14049965244",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-14049965247",
+      "near": "osm-node-14049965244",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-14049965247",
+      "near": "osm-node-14049965246",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-14049965248",
+      "near": "osm-node-14049965244",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-14049965248",
+      "near": "osm-node-14049965247",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-14049965248",
+      "near": "osm-node-14049965246",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-14049994743",
+      "near": "osm-node-14049994742",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-14049994744",
+      "near": "osm-node-14049994742",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-14049994744",
+      "near": "osm-node-14049994743",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-14096144201",
+      "near": "osm-node-14096143602",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-14097743236",
+      "near": "osm-node-14097739867",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-14097745648",
+      "near": "osm-node-14097722467",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-14104252481",
+      "near": "osm-node-14104250960",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-14104642361",
+      "near": "osm-node-14104642360",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-14122941845",
+      "near": "osm-node-14122941844",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-14129918582",
+      "near": "osm-node-14129918579",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-14157697255",
+      "near": "osm-node-14144711404",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-14158473862",
+      "near": "osm-node-14158473861",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-14158473863",
+      "near": "osm-node-14158473862",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-14158473863",
+      "near": "osm-node-14158473861",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-14163353987",
+      "near": "osm-node-14163353986",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-1603574320",
+      "near": "osm-node-1491988351",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-1648532988",
+      "near": "osm-node-1491988351",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-1648532988",
+      "near": "osm-node-1603574320",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-1648533011",
+      "near": "osm-node-1491988351",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-1648533011",
+      "near": "osm-node-1603574320",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-1648533011",
+      "near": "osm-node-1648532988",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-1701842429",
+      "near": "osm-node-10778860101",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-1701842429",
+      "near": "osm-node-10778872905",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-1701842429",
+      "near": "osm-node-10778860102",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-1701842429",
+      "near": "osm-node-10778872906",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-1701842430",
+      "near": "osm-node-10778860101",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-1701842430",
+      "near": "osm-node-10778872905",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-1701842430",
+      "near": "osm-node-1701842429",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-1701842430",
+      "near": "osm-node-10778860102",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-1701842430",
+      "near": "osm-node-10778872906",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-176466822",
+      "near": "osm-node-176466619",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-1809965212",
+      "near": "osm-node-1809965211",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-1809965213",
+      "near": "osm-node-1809965211",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-1809965213",
+      "near": "osm-node-1809965212",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-1809965216",
+      "near": "osm-node-1809965211",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-1809965216",
+      "near": "osm-node-1809965212",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-1809965216",
+      "near": "osm-node-1809965213",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-1810331011",
+      "near": "osm-node-1810331008",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-1810331013",
+      "near": "osm-node-1810331008",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-1810331013",
+      "near": "osm-node-1810331011",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-1810331016",
+      "near": "osm-node-1810331008",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-1810331016",
+      "near": "osm-node-1810331011",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-1810331016",
+      "near": "osm-node-1810331013",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-1818387266",
+      "near": "osm-node-1818387265",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-1818387280",
+      "near": "osm-node-1818387265",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-1818387280",
+      "near": "osm-node-1818387266",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-1983879023",
+      "near": "osm-node-1983879016",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-202698258",
+      "near": "osm-node-202639902",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-2106403547",
+      "near": "osm-node-10778872909",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-2106403547",
+      "near": "osm-node-10778872910",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-2106403547",
+      "near": "osm-node-10778872911",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-2106403547",
+      "near": "osm-node-10778872913",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-2106403547",
+      "near": "osm-node-10778872914",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-2106403547",
+      "near": "osm-node-10778872915",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-2115082753",
+      "near": "osm-node-101065031",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-212852468",
+      "near": "osm-node-14163353986",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-212852468",
+      "near": "osm-node-14163353987",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-212947741",
+      "near": "osm-node-14003859959",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-212947741",
+      "near": "osm-node-14003859960",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-2195188812",
+      "near": "osm-node-2195188800",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-2195233074",
+      "near": "osm-node-2195233059",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-2195233078",
+      "near": "osm-node-2195233059",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-2195233078",
+      "near": "osm-node-2195233074",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-2197750960",
+      "near": "osm-node-2197750955",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-221097931",
+      "near": "osm-node-221097927",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-2235521337",
+      "near": "osm-node-2235521336",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-2235521339",
+      "near": "osm-node-2235521336",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-2235521339",
+      "near": "osm-node-2235521337",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-2402075854",
+      "near": "osm-node-2402075839",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-249835910",
+      "near": "osm-node-249835909",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-249835944",
+      "near": "osm-node-249835909",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-249835944",
+      "near": "osm-node-249835910",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-249835945",
+      "near": "osm-node-249767496",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-249835946",
+      "near": "osm-node-249835945",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-249835946",
+      "near": "osm-node-249767496",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-254849104",
+      "near": "osm-node-12841028468",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-2617826278",
+      "near": "osm-node-2617826267",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-26915737",
+      "near": "osm-node-2195188800",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-26915737",
+      "near": "osm-node-2195188812",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-2876762603",
+      "near": "osm-node-2876762602",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-2876762701",
+      "near": "osm-node-2876762601",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-2876763205",
+      "near": "osm-node-2876763204",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-2876763801",
+      "near": "osm-node-2876763303",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-2913809771",
+      "near": "osm-node-2913809770",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-298224389",
+      "near": "osm-node-2417487738",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-3113137171",
+      "near": "osm-node-3113137142",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-3121545423",
+      "near": "osm-node-220823186",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-3121545452",
+      "near": "osm-node-220933115",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-3125073436",
+      "near": "osm-node-3123370932",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-3125097443",
+      "near": "osm-node-3123370932",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-3125097443",
+      "near": "osm-node-3125073436",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-3125097493",
+      "near": "osm-node-3123370932",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-3125097493",
+      "near": "osm-node-3125073436",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-3125097493",
+      "near": "osm-node-3125097443",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-322536198",
+      "near": "osm-node-229794071",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-3233767896",
+      "near": "osm-node-3233767895",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-3324621608",
+      "near": "osm-node-14112650211",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-3324621613",
+      "near": "osm-node-14112650211",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-3324621613",
+      "near": "osm-node-3324621608",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-3337997172",
+      "near": "osm-node-176448893",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-3662431495",
+      "near": "osm-node-3662431491",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-3662431496",
+      "near": "osm-node-3662431491",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-3662431496",
+      "near": "osm-node-3662431495",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-3709879840",
+      "near": "osm-node-292436772",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-3709897173",
+      "near": "osm-node-12578358414",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-3709897174",
+      "near": "osm-node-12578358414",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-3709897174",
+      "near": "osm-node-3709897173",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-373469001",
+      "near": "osm-node-365779832",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-373485638",
+      "near": "osm-node-365779832",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-373485638",
+      "near": "osm-node-373469001",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-373489181",
+      "near": "osm-node-373489124",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-38765335",
+      "near": "osm-node-10778860101",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-38765335",
+      "near": "osm-node-10778872905",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-38765335",
+      "near": "osm-node-1701842429",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-38765335",
+      "near": "osm-node-1701842430",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-38765335",
+      "near": "osm-node-10778860102",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-38765335",
+      "near": "osm-node-10778872906",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-38775170",
+      "near": "osm-node-10778872916",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-38775170",
+      "near": "osm-node-10778872917",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-38775170",
+      "near": "osm-node-10778872919",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-38775170",
+      "near": "osm-node-10778872918",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-3987164713",
+      "near": "osm-node-10294314095",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-40309821",
+      "near": "osm-node-13329371487",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-40309821",
+      "near": "osm-node-13329371486",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-40309821",
+      "near": "osm-node-13329371483",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-40309821",
+      "near": "osm-node-13329371484",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-40309821",
+      "near": "osm-node-13329371485",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-409219979",
+      "near": "osm-node-40410711",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-4164015752",
+      "near": "osm-node-4164015751",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-4164015754",
+      "near": "osm-node-4164015751",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-4164015754",
+      "near": "osm-node-4164015752",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-4164015758",
+      "near": "osm-node-4164015751",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-4164015758",
+      "near": "osm-node-4164015752",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-4164015758",
+      "near": "osm-node-4164015754",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-4164015759",
+      "near": "osm-node-4164015751",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-4164015759",
+      "near": "osm-node-4164015752",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-4164015759",
+      "near": "osm-node-4164015754",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-4164015759",
+      "near": "osm-node-4164015758",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-4164015760",
+      "near": "osm-node-4164015751",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-4164015760",
+      "near": "osm-node-4164015752",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-4164015760",
+      "near": "osm-node-4164015754",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-4164015760",
+      "near": "osm-node-4164015758",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-4164015760",
+      "near": "osm-node-4164015759",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-4215665527",
+      "near": "osm-node-10911890468",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-4259934209",
+      "near": "osm-node-1818387265",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-4259934209",
+      "near": "osm-node-1818387266",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-4259934209",
+      "near": "osm-node-1818387280",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-4279694580",
+      "near": "osm-node-4279694579",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-4279694582",
+      "near": "osm-node-4279694579",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-4279694582",
+      "near": "osm-node-4279694580",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-4279694583",
+      "near": "osm-node-4279694579",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-4279694583",
+      "near": "osm-node-4279694580",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-4279694583",
+      "near": "osm-node-4279694582",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-428694259",
+      "near": "osm-node-13025363820",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-428694259",
+      "near": "osm-node-13025363821",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-456466038",
+      "near": "osm-node-3113137142",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-456466038",
+      "near": "osm-node-3113137171",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-4585118442",
+      "near": "osm-node-4585118441",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-4585118443",
+      "near": "osm-node-4585118441",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-4585118443",
+      "near": "osm-node-4585118442",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-4585118444",
+      "near": "osm-node-4585118441",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-4585118444",
+      "near": "osm-node-4585118442",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-4585118444",
+      "near": "osm-node-4585118443",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-4586422330",
+      "near": "osm-node-4586422329",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-4586422331",
+      "near": "osm-node-4586422329",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-4586422331",
+      "near": "osm-node-4586422330",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-4586422332",
+      "near": "osm-node-4586422331",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-4586422332",
+      "near": "osm-node-4586422329",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-4586422332",
+      "near": "osm-node-4586422330",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-4666462947",
+      "near": "osm-node-176190348",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-4666462974",
+      "near": "osm-node-176190348",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-4666462974",
+      "near": "osm-node-4666462947",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-471265871",
+      "near": "osm-node-471265870",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-474253400",
+      "near": "osm-node-474252411",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-474843654",
+      "near": "osm-node-474843652",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-474860127",
+      "near": "osm-node-474860115",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-4791953885",
+      "near": "osm-node-4791953884",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-4959048437",
+      "near": "osm-node-2876762607",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-4959048438",
+      "near": "osm-node-2876762607",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-4959048438",
+      "near": "osm-node-4959048437",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-497092336",
+      "near": "osm-node-497090997",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-4985700799",
+      "near": "osm-node-4985640964",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-499719039",
+      "near": "osm-node-499719038",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-499719341",
+      "near": "osm-node-499719038",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-499719341",
+      "near": "osm-node-499719039",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-499719343",
+      "near": "osm-node-499719038",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-499719343",
+      "near": "osm-node-499719039",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-499719343",
+      "near": "osm-node-499719341",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-504925676",
+      "near": "osm-node-2783785199",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-506815022",
+      "near": "osm-node-506815016",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-506815453",
+      "near": "osm-node-504925676",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-506815453",
+      "near": "osm-node-2783785199",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-506838865",
+      "near": "osm-node-2195188800",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-506838865",
+      "near": "osm-node-2195188812",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-506838865",
+      "near": "osm-node-26915737",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-506838897",
+      "near": "osm-node-26771586",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-5162217487",
+      "near": "osm-node-5162207603",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-5162217895",
+      "near": "osm-node-5162207603",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-5162217895",
+      "near": "osm-node-5162217487",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-5162280159",
+      "near": "osm-node-5162280157",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-5176497673",
+      "near": "osm-node-5176497672",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-53056597",
+      "near": "osm-node-53028199",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-53064352",
+      "near": "osm-node-416337293",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-550894228",
+      "near": "osm-node-26771586",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-550894228",
+      "near": "osm-node-506838897",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-550894621",
+      "near": "osm-node-26771586",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-550894621",
+      "near": "osm-node-506838897",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-550894621",
+      "near": "osm-node-550894228",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-551108003",
+      "near": "osm-node-551107993",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-5526569214",
+      "near": "osm-node-5526569213",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-5526569218",
+      "near": "osm-node-5526569213",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-5526569218",
+      "near": "osm-node-5526569214",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-5590539721",
+      "near": "osm-node-261118663",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-5590539722",
+      "near": "osm-node-261118663",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-5590539722",
+      "near": "osm-node-5590539721",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-560642947",
+      "near": "osm-node-560642946",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-560642950",
+      "near": "osm-node-560642946",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-560642950",
+      "near": "osm-node-560642947",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-560642951",
+      "near": "osm-node-560642946",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-560642951",
+      "near": "osm-node-560642947",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-560642951",
+      "near": "osm-node-560642950",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-560643227",
+      "near": "osm-node-10767103294",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-560643227",
+      "near": "osm-node-10767103295",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-561195059",
+      "near": "osm-node-561195052",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-565301965",
+      "near": "osm-node-565301847",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-565988002",
+      "near": "osm-node-2197750955",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-565988002",
+      "near": "osm-node-2197750960",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-565988050",
+      "near": "osm-node-2197750955",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-565988050",
+      "near": "osm-node-2197750960",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-565988050",
+      "near": "osm-node-565988002",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-567264153",
+      "near": "osm-node-176190348",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-567264153",
+      "near": "osm-node-4666462974",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-567264153",
+      "near": "osm-node-4666462947",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-568027645",
+      "near": "osm-node-176196343",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-568027650",
+      "near": "osm-node-176196343",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-568027650",
+      "near": "osm-node-568027645",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-568027750",
+      "near": "osm-node-176196343",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-568027750",
+      "near": "osm-node-568027645",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-568027750",
+      "near": "osm-node-568027650",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-5794885526",
+      "near": "osm-node-5794885491",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-5794885653",
+      "near": "osm-node-5794885491",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-5794885653",
+      "near": "osm-node-5794885526",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-5794885692",
+      "near": "osm-node-5794885491",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-5794885692",
+      "near": "osm-node-5794885526",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-5794885692",
+      "near": "osm-node-5794885653",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-582769443",
+      "near": "osm-node-176228701",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-582915319",
+      "near": "osm-node-582915312",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-5830417613",
+      "near": "osm-node-12751715890",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-5887407563",
+      "near": "osm-node-506814631",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-599872212",
+      "near": "osm-node-10767099841",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-599872213",
+      "near": "osm-node-10767099841",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-599872213",
+      "near": "osm-node-599872212",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-599872216",
+      "near": "osm-node-10767099841",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-599872216",
+      "near": "osm-node-599872212",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-599872216",
+      "near": "osm-node-599872213",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-599872217",
+      "near": "osm-node-10767099841",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-599872217",
+      "near": "osm-node-599872212",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-599872217",
+      "near": "osm-node-599872213",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-599872217",
+      "near": "osm-node-599872216",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-6028551290",
+      "near": "osm-node-6028551289",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-6037869036",
+      "near": "osm-node-6037869035",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-6037869037",
+      "near": "osm-node-6037869035",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-6037869037",
+      "near": "osm-node-6037869036",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-6037869038",
+      "near": "osm-node-6037869035",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-6037869038",
+      "near": "osm-node-6037869036",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-6037869038",
+      "near": "osm-node-6037869037",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-6037869039",
+      "near": "osm-node-6037869035",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-6037869039",
+      "near": "osm-node-6037869036",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-6037869039",
+      "near": "osm-node-6037869037",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-6037869039",
+      "near": "osm-node-6037869038",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-6037869040",
+      "near": "osm-node-6037869035",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-6037869040",
+      "near": "osm-node-6037869036",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-6037869040",
+      "near": "osm-node-6037869037",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-6037869040",
+      "near": "osm-node-6037869038",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-6037869040",
+      "near": "osm-node-6037869039",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-6237189803",
+      "near": "osm-node-6237189551",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-6237190254",
+      "near": "osm-node-6237189803",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-6237190254",
+      "near": "osm-node-6237189551",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-6296204128",
+      "near": "osm-node-6296204127",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-6361216532",
+      "near": "osm-node-2720568009",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-6361216533",
+      "near": "osm-node-2720568009",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-6361216533",
+      "near": "osm-node-6361216532",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-6361216534",
+      "near": "osm-node-2720568009",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-6361216534",
+      "near": "osm-node-6361216532",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-6361216534",
+      "near": "osm-node-6361216533",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-6795138684",
+      "near": "osm-node-10789332362",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-7059416850",
+      "near": "osm-node-220933115",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-7059416850",
+      "near": "osm-node-3121545452",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-7113063539",
+      "near": "osm-node-5162217632",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-7125332344",
+      "near": "osm-node-7125332314",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-7246198560",
+      "near": "osm-node-11965896329",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-7256449944",
+      "near": "osm-node-7256449942",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-737090333",
+      "near": "osm-node-559892858",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-737093600",
+      "near": "osm-node-559892858",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-737093600",
+      "near": "osm-node-737090333",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-7519938997",
+      "near": "osm-node-7519938996",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-7529907293",
+      "near": "osm-node-7529907196",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-7571869144",
+      "near": "osm-node-7571869143",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-7848337908",
+      "near": "osm-node-7848337907",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-7940362153",
+      "near": "osm-node-7940362152",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-7949295856",
+      "near": "osm-node-7949295855",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-7949295857",
+      "near": "osm-node-7949295855",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-7949295857",
+      "near": "osm-node-7949295856",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-7949295858",
+      "near": "osm-node-7949295855",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-7949295858",
+      "near": "osm-node-7949295857",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-7949295858",
+      "near": "osm-node-7949295856",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-7967671463",
+      "near": "osm-node-7967671462",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-8023991516",
+      "near": "osm-node-5076522476",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-8026555662",
+      "near": "osm-node-8026555661",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-8026555663",
+      "near": "osm-node-8026555661",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-8026555663",
+      "near": "osm-node-8026555662",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-8026555664",
+      "near": "osm-node-8026555661",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-8026555664",
+      "near": "osm-node-8026555662",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-8026555664",
+      "near": "osm-node-8026555663",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-804632051",
+      "near": "osm-node-49390063",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-8091261742",
+      "near": "osm-node-8091261741",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-8110710263",
+      "near": "osm-node-12301115764",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-8272811845",
+      "near": "osm-node-10836208501",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-8288667203",
+      "near": "osm-node-8288667202",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-832288982",
+      "near": "osm-node-2876762605",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-835117732",
+      "near": "osm-node-10778872909",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-835117732",
+      "near": "osm-node-10778872910",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-835117732",
+      "near": "osm-node-10778872911",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-835117732",
+      "near": "osm-node-10778872913",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-835117732",
+      "near": "osm-node-10778872914",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-835117732",
+      "near": "osm-node-10778872915",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-835117732",
+      "near": "osm-node-2106403547",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-8396925328",
+      "near": "osm-node-373489124",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-8396925328",
+      "near": "osm-node-373489181",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-8487188967",
+      "near": "osm-node-261154699",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-8487188968",
+      "near": "osm-node-261154699",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-8487188968",
+      "near": "osm-node-8487188967",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-8487188969",
+      "near": "osm-node-261154699",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-8487188969",
+      "near": "osm-node-8487188968",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-8487188970",
+      "near": "osm-node-261154699",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-8487188970",
+      "near": "osm-node-8487188967",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-8487188970",
+      "near": "osm-node-8487188969",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-8734396777",
+      "near": "osm-node-8734396776",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-8843530756",
+      "near": "osm-node-233855827",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-8843530757",
+      "near": "osm-node-233855827",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-8843530757",
+      "near": "osm-node-8843530756",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-8843530758",
+      "near": "osm-node-233855827",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-8843530758",
+      "near": "osm-node-8843530756",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-8843530758",
+      "near": "osm-node-8843530757",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-88515432",
+      "near": "osm-node-559892858",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-88515432",
+      "near": "osm-node-737090333",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-88515432",
+      "near": "osm-node-737093600",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-8855668698",
+      "near": "osm-node-8855668697",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-89858852",
+      "near": "osm-node-5162280157",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-89858852",
+      "near": "osm-node-5162280159",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-89898468",
+      "near": "osm-node-5162207603",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-89898468",
+      "near": "osm-node-5162217487",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-89898468",
+      "near": "osm-node-5162217895",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-89898488",
+      "near": "osm-node-5162217619",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-89972018",
+      "near": "osm-node-7113063539",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-89972018",
+      "near": "osm-node-5162217632",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-89997403",
+      "near": "osm-node-7113063539",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-89997403",
+      "near": "osm-node-5162217632",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-89997403",
+      "near": "osm-node-89972018",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9139039912",
+      "near": "osm-node-8446876046",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9197405293",
+      "near": "osm-node-9197405292",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9198766038",
+      "near": "osm-node-40352236",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9198766039",
+      "near": "osm-node-40352236",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9198766039",
+      "near": "osm-node-9198766038",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9198766040",
+      "near": "osm-node-40352236",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9198766040",
+      "near": "osm-node-9198766038",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9198766040",
+      "near": "osm-node-9198766039",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9198785257",
+      "near": "osm-node-338839042",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9198788212",
+      "near": "osm-node-9198788211",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9198788213",
+      "near": "osm-node-9198788211",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9198788213",
+      "near": "osm-node-9198788212",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9198788214",
+      "near": "osm-node-9198788211",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9198788214",
+      "near": "osm-node-9198788212",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9198788214",
+      "near": "osm-node-9198788213",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9198852375",
+      "near": "osm-node-40333544",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9198852376",
+      "near": "osm-node-9198852375",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9198852376",
+      "near": "osm-node-40333544",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9198852377",
+      "near": "osm-node-9198852375",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9198852377",
+      "near": "osm-node-40333544",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9198852377",
+      "near": "osm-node-9198852376",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9203278387",
+      "near": "osm-node-40410711",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9203278387",
+      "near": "osm-node-409219979",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9203278388",
+      "near": "osm-node-40410711",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9203278388",
+      "near": "osm-node-409219979",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9203278388",
+      "near": "osm-node-9203278387",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9203278389",
+      "near": "osm-node-40410711",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9203278389",
+      "near": "osm-node-409219979",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9203278389",
+      "near": "osm-node-9203278387",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9203278389",
+      "near": "osm-node-9203278388",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9209053274",
+      "near": "osm-node-13329371487",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9209053274",
+      "near": "osm-node-13329371486",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9209053274",
+      "near": "osm-node-13329371484",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9209053274",
+      "near": "osm-node-13329371485",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9209053274",
+      "near": "osm-node-40309821",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-921045078",
+      "near": "osm-node-365779832",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-921045078",
+      "near": "osm-node-373469001",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-921045078",
+      "near": "osm-node-373485638",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9239853255",
+      "near": "osm-node-89898488",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9239853255",
+      "near": "osm-node-5162217619",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9239853256",
+      "near": "osm-node-89898488",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9239853256",
+      "near": "osm-node-5162217619",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9239853256",
+      "near": "osm-node-9239853255",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9239853257",
+      "near": "osm-node-89898488",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9239853257",
+      "near": "osm-node-9239853256",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9239853257",
+      "near": "osm-node-5162217619",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9239853257",
+      "near": "osm-node-9239853255",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9239854532",
+      "near": "osm-node-5162207603",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9239854532",
+      "near": "osm-node-5162217487",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9239854532",
+      "near": "osm-node-5162217895",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9239854532",
+      "near": "osm-node-89898468",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9239854533",
+      "near": "osm-node-5162207603",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9239854533",
+      "near": "osm-node-5162217487",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9239854533",
+      "near": "osm-node-5162217895",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9239854533",
+      "near": "osm-node-89898468",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9239854533",
+      "near": "osm-node-9239854532",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9239854534",
+      "near": "osm-node-5162207603",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9239854534",
+      "near": "osm-node-5162217487",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9239854534",
+      "near": "osm-node-5162217895",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9239854534",
+      "near": "osm-node-89898468",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9239854534",
+      "near": "osm-node-9239854532",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9239854534",
+      "near": "osm-node-9239854533",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9239884261",
+      "near": "osm-node-7113063539",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9239884261",
+      "near": "osm-node-89997403",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9239884261",
+      "near": "osm-node-5162217632",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9239884261",
+      "near": "osm-node-89972018",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9239884262",
+      "near": "osm-node-7113063539",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9239884262",
+      "near": "osm-node-89997403",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9239884262",
+      "near": "osm-node-9239884261",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9239884262",
+      "near": "osm-node-5162217632",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9239884262",
+      "near": "osm-node-89972018",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9239884263",
+      "near": "osm-node-7113063539",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9239884263",
+      "near": "osm-node-89997403",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9239884263",
+      "near": "osm-node-9239884261",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9239884263",
+      "near": "osm-node-9239884262",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9239884263",
+      "near": "osm-node-5162217632",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9239884263",
+      "near": "osm-node-89972018",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9239890199",
+      "near": "osm-node-5162280157",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9239890199",
+      "near": "osm-node-5162280159",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9239890199",
+      "near": "osm-node-89858852",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9239890200",
+      "near": "osm-node-5162280157",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9239890200",
+      "near": "osm-node-5162280159",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9239890200",
+      "near": "osm-node-89858852",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9239890200",
+      "near": "osm-node-9239890199",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9239890201",
+      "near": "osm-node-5162280157",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9239890201",
+      "near": "osm-node-5162280159",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9239890201",
+      "near": "osm-node-89858852",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9239890201",
+      "near": "osm-node-9239890199",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9239890201",
+      "near": "osm-node-9239890200",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9440293033",
+      "near": "osm-node-220933115",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9440293033",
+      "near": "osm-node-3121545452",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9440293033",
+      "near": "osm-node-7059416850",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9456938678",
+      "near": "osm-node-176228701",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9456938678",
+      "near": "osm-node-582769443",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9456938679",
+      "near": "osm-node-176228701",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9456938679",
+      "near": "osm-node-582769443",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9456938679",
+      "near": "osm-node-9456938678",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9499886310",
+      "near": "osm-node-1710884424",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9499886311",
+      "near": "osm-node-9499886310",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9499886311",
+      "near": "osm-node-1710884424",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9525935583",
+      "near": "osm-node-9525935582",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9525944609",
+      "near": "osm-node-9525944607",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9590413220",
+      "near": "osm-node-9590413219",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9631646492",
+      "near": "osm-node-13849043545",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9681269303",
+      "near": "osm-node-12552537895",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-97531039",
+      "near": "osm-node-97531037",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-97781656",
+      "near": "osm-node-8396925328",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-97781656",
+      "near": "osm-node-373489124",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-97781656",
+      "near": "osm-node-373489181",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-98877511",
+      "near": "osm-node-1710884424",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-98877511",
+      "near": "osm-node-9499886311",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9912878863",
+      "near": "osm-node-9912878862",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-99472396",
+      "near": "osm-node-599373625",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-99484482",
+      "near": "osm-node-2195233059",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-99484482",
+      "near": "osm-node-2195233074",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-99484482",
+      "near": "osm-node-2195233078",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9949363814",
+      "near": "osm-node-10226431676",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-9949363815",
+      "near": "osm-node-9949363814",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-99515720",
+      "near": "osm-node-10767103294",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-99515720",
+      "near": "osm-node-10767103295",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-99515720",
+      "near": "osm-node-560643227",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-99516951",
+      "near": "osm-node-249835909",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-99516951",
+      "near": "osm-node-249835910",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-99516951",
+      "near": "osm-node-249835944",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-99529248",
+      "near": "osm-node-600218952",
+      "reason": "Nearby records; no automatic proximity merge"
+    }
+  ]
+}

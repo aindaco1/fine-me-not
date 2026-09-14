@@ -21,7 +21,7 @@ public struct CameraWarning: Sendable {
     public let distance: Double
 }
 
-public struct Encounter: Codable, Sendable {
+public struct Encounter: Codable, Sendable, Equatable {
     public var lastAlert: Date
     public var armed: Bool
 }
@@ -45,7 +45,8 @@ public struct AlertEngine: Sendable {
             if d > 850 && now.timeIntervalSince(encounter.lastAlert) >= 60 { encounters[id]?.armed = true }
         }
         guard moving else { return [] }
-        let lead = min(600, max(150, max(0, fix.speed) * 15))
+        let speed = fix.speed.isFinite ? max(0, fix.speed) : 0
+        let lead = min(600, max(150, speed * 15))
         let course = fix.course.flatMap { $0.isFinite && (0..<360).contains($0) ? $0 : nil }
         var warnings: [CameraWarning] = []
         for camera in index.nearby(fix.coordinate) {
