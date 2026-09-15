@@ -11,7 +11,11 @@
       "id": "agency-arlington-acsp001",
       "kind": "speed",
       "label": "602 S CARLIN SPRINGS RD · SB · Campbell Elementary",
+      "locationKey": "602 S CARLIN SPRINGS RD",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S CARLIN SPRINGS RD"
+      ],
       "siteID": "agency-arlington-acsp001",
       "sourceIDs": [
         "agency/arlington/ACSP001"
@@ -36,7 +40,11 @@
       "id": "agency-arlington-acsp002",
       "kind": "speed",
       "label": "400 N GEORGE MASON DR · SB · Barrett Elementary",
+      "locationKey": "400 N GEORGE MASON DR",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N GEORGE MASON DR"
+      ],
       "siteID": "agency-arlington-acsp002",
       "sourceIDs": [
         "agency/arlington/ACSP002"
@@ -61,7 +69,11 @@
       "id": "agency-arlington-acsp003",
       "kind": "speed",
       "label": "4476 WASHINGTON BLVD · EB · Washington-Liberty High School",
+      "locationKey": "4476 WASHINGTON BLVD",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "WASHINGTON BLVD"
+      ],
       "siteID": "agency-arlington-acsp003",
       "sourceIDs": [
         "agency/arlington/ACSP003"
@@ -86,7 +98,11 @@
       "id": "agency-arlington-acsp004",
       "kind": "speed",
       "label": "10 S CARLIN SPRINGS RD · SB · Carlin Springs ES / Kenmore MS",
+      "locationKey": "10 S CARLIN SPRINGS RD",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S CARLIN SPRINGS RD"
+      ],
       "siteID": "agency-arlington-acsp004",
       "sourceIDs": [
         "agency/arlington/ACSP004"
@@ -111,7 +127,11 @@
       "id": "agency-arlington-acsp005",
       "kind": "speed",
       "label": "1911 S GEORGE MASON DR · SB · Calremont ES / Wakefield HS",
+      "locationKey": "1911 S GEORGE MASON DR",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S GEORGE MASON DR"
+      ],
       "siteID": "agency-arlington-acsp005",
       "sourceIDs": [
         "agency/arlington/ACSP005"
@@ -136,7 +156,11 @@
       "id": "agency-arlington-acsp007",
       "kind": "speed",
       "label": "1262 S GEORGE MASON DR · SB · Randolph Elementary",
+      "locationKey": "1262 S GEORGE MASON DR",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S GEORGE MASON DR"
+      ],
       "siteID": "agency-arlington-acsp007",
       "sourceIDs": [
         "agency/arlington/ACSP007"
@@ -161,7 +185,11 @@
       "id": "agency-arlington-acsp009",
       "kind": "speed",
       "label": "5801 WILSON BLVD · WB · Ashlawn Elementary",
+      "locationKey": "5801 WILSON BLVD",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "WILSON BLVD"
+      ],
       "siteID": "agency-arlington-acsp009",
       "sourceIDs": [
         "agency/arlington/ACSP009"
@@ -186,7 +214,11 @@
       "id": "agency-arlington-acsp010",
       "kind": "speed",
       "label": "1994 S GEORGE MASON DR · NB · Claremont ES / Wakefield HS",
+      "locationKey": "1994 S GEORGE MASON DR",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S GEORGE MASON DR"
+      ],
       "siteID": "agency-arlington-acsp010",
       "sourceIDs": [
         "agency/arlington/ACSP010"
@@ -211,7 +243,11 @@
       "id": "agency-arlington-acsp011",
       "kind": "speed",
       "label": "700 N GEORGE MASON DR · NB · Escuela Key",
+      "locationKey": "700 N GEORGE MASON DR",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N GEORGE MASON DR"
+      ],
       "siteID": "agency-arlington-acsp011",
       "sourceIDs": [
         "agency/arlington/ACSP011"
@@ -236,7 +272,11 @@
       "id": "agency-arlington-acsp014",
       "kind": "speed",
       "label": "2621 S ARLINGTON RIDGE RD · SB · Gunston MS",
+      "locationKey": "2621 S ARLINGTON RIDGE RD",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S ARLINGTON RIDGE RD"
+      ],
       "siteID": "agency-arlington-acsp014",
       "sourceIDs": [
         "agency/arlington/ACSP014"
@@ -261,7 +301,11 @@
       "id": "agency-arlington-acsp015",
       "kind": "speed",
       "label": "5900 WILLIAMSBURG BLVD · EB · Williamsburg MS / Discovery ES",
+      "locationKey": "5900 WILLIAMSBURG BLVD",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "WILLIAMSBURG BLVD"
+      ],
       "siteID": "agency-arlington-acsp015",
       "sourceIDs": [
         "agency/arlington/ACSP015"
@@ -286,7 +330,11 @@
       "id": "agency-arlington-acsp016",
       "kind": "speed",
       "label": "1047 MCKINLEY RD · SB · Arlington Traditional ES",
+      "locationKey": "1047 MCKINLEY RD",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "MCKINLEY RD"
+      ],
       "siteID": "agency-arlington-acsp016",
       "sourceIDs": [
         "agency/arlington/ACSP016"
@@ -311,7 +359,11 @@
       "id": "agency-arlington-acsp017",
       "kind": "speed",
       "label": "5800 LITTLE FALLS RD · WB · Nottingham ES",
+      "locationKey": "5800 LITTLE FALLS RD",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "LITTLE FALLS RD"
+      ],
       "siteID": "agency-arlington-acsp017",
       "sourceIDs": [
         "agency/arlington/ACSP017"
@@ -336,7 +388,11 @@
       "id": "agency-arlington-acsp018",
       "kind": "speed",
       "label": "1600 N VEITCH ST · NB · Innovation ES",
+      "locationKey": "1600 N VEITCH ST",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N VEITCH ST"
+      ],
       "siteID": "agency-arlington-acsp018",
       "sourceIDs": [
         "agency/arlington/ACSP018"
@@ -361,7 +417,11 @@
       "id": "agency-arlington-acsp019",
       "kind": "speed",
       "label": "3370 2nd ST S · EB · Thomas Jefferson MS / Fleet ES",
+      "locationKey": "3370 2nd ST S",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "2nd ST S"
+      ],
       "siteID": "agency-arlington-acsp019",
       "sourceIDs": [
         "agency/arlington/ACSP019"
@@ -386,7 +446,11 @@
       "id": "agency-arlington-acsp021",
       "kind": "speed",
       "label": "1125 PATRICK HENRY DR · NB · Swanson MS / Cardinal ES",
+      "locationKey": "1125 PATRICK HENRY DR",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "PATRICK HENRY DR"
+      ],
       "siteID": "agency-arlington-acsp021",
       "sourceIDs": [
         "agency/arlington/ACSP021"
@@ -411,7 +475,11 @@
       "id": "agency-arlington-acsp025",
       "kind": "speed",
       "label": "1308 S GEORGE MASON DR · NB · Randolph ES",
+      "locationKey": "1308 S GEORGE MASON DR",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S GEORGE MASON DR"
+      ],
       "siteID": "agency-arlington-acsp025",
       "sourceIDs": [
         "agency/arlington/ACSP025"
@@ -436,7 +504,11 @@
       "id": "agency-arlington-acsp026",
       "kind": "speed",
       "label": "1001 N GEORGE MASON DR · SB · Escuela Key ES",
+      "locationKey": "1001 N GEORGE MASON DR",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N GEORGE MASON DR"
+      ],
       "siteID": "agency-arlington-acsp026",
       "sourceIDs": [
         "agency/arlington/ACSP026"
@@ -461,7 +533,11 @@
       "id": "agency-arlington-acsp027",
       "kind": "speed",
       "label": "737 S CARLIN SPRINGS RD · NB · Campbell ES",
+      "locationKey": "737 S CARLIN SPRINGS RD",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S CARLIN SPRINGS RD"
+      ],
       "siteID": "agency-arlington-acsp027",
       "sourceIDs": [
         "agency/arlington/ACSP027"
@@ -486,7 +562,11 @@
       "id": "agency-arlington-acsp028",
       "kind": "speed",
       "label": "4329 LORCOM LN · EB · Dorothy Hamm MS",
+      "locationKey": "4329 LORCOM LN",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "LORCOM LN"
+      ],
       "siteID": "agency-arlington-acsp028",
       "sourceIDs": [
         "agency/arlington/ACSP028"
@@ -511,7 +591,11 @@
       "id": "agency-arlington-acsp029",
       "kind": "speed",
       "label": "6002 WILSON BLVD · EB · Ashlawn ES",
+      "locationKey": "6002 WILSON BLVD",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "WILSON BLVD"
+      ],
       "siteID": "agency-arlington-acsp029",
       "sourceIDs": [
         "agency/arlington/ACSP029"
@@ -536,7 +620,11 @@
       "id": "agency-arlington-acsp030",
       "kind": "speed",
       "label": "1423 N QUINCY ST · SB · Washington-Liberty HS",
+      "locationKey": "1423 N QUINCY ST",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N QUINCY ST"
+      ],
       "siteID": "agency-arlington-acsp030",
       "sourceIDs": [
         "agency/arlington/ACSP030"
@@ -561,7 +649,11 @@
       "id": "agency-arlington-acsp031",
       "kind": "speed",
       "label": "1535 WILSON BLVD · WB · H-B Woodlan/Shriver Programs",
+      "locationKey": "1535 WILSON BLVD",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "WILSON BLVD"
+      ],
       "siteID": "agency-arlington-acsp031",
       "sourceIDs": [
         "agency/arlington/ACSP031"
@@ -586,7 +678,11 @@
       "id": "agency-arlington-acsp032",
       "kind": "speed",
       "label": "5100 WILLIAMSBURG BLVD · WB · Discover ES / Williamsburg MS",
+      "locationKey": "5100 WILLIAMSBURG BLVD",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "WILLIAMSBURG BLVD"
+      ],
       "siteID": "agency-arlington-acsp032",
       "sourceIDs": [
         "agency/arlington/ACSP032"
@@ -611,7 +707,11 @@
       "id": "agency-arlington-acsp033",
       "kind": "speed",
       "label": "2616 MILITARY RD · SB · Taylor ES",
+      "locationKey": "2616 MILITARY RD",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "MILITARY RD"
+      ],
       "siteID": "agency-arlington-acsp033",
       "sourceIDs": [
         "agency/arlington/ACSP033"
@@ -636,7 +736,11 @@
       "id": "agency-arlington-acsp034",
       "kind": "speed",
       "label": "4781 WILLIAMSBURG BLVD · NB · Jamestown Elementary School",
+      "locationKey": "4781 WILLIAMSBURG BLVD",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "WILLIAMSBURG BLVD"
+      ],
       "siteID": "agency-arlington-acsp034",
       "sourceIDs": [
         "agency/arlington/ACSP034"
@@ -661,7 +765,11 @@
       "id": "agency-arlington-acsp035",
       "kind": "speed",
       "label": "5119 YORKTOWN BLVD · WB · Yorktown HS",
+      "locationKey": "5119 YORKTOWN BLVD",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "YORKTOWN BLVD"
+      ],
       "siteID": "agency-arlington-acsp035",
       "sourceIDs": [
         "agency/arlington/ACSP035"
@@ -686,7 +794,11 @@
       "id": "agency-arlington-acsp036",
       "kind": "speed",
       "label": "1610 KIRKWOOD RD · SB · Arlington Science Focus ES",
+      "locationKey": "1610 KIRKWOOD RD",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "KIRKWOOD RD"
+      ],
       "siteID": "agency-arlington-acsp036",
       "sourceIDs": [
         "agency/arlington/ACSP036"
@@ -711,7 +823,11 @@
       "id": "agency-arlington-acsp038",
       "kind": "speed",
       "label": "301 N GEORGE MASON DR · NB · Barret ES",
+      "locationKey": "301 N GEORGE MASON DR",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N GEORGE MASON DR"
+      ],
       "siteID": "agency-arlington-acsp038",
       "sourceIDs": [
         "agency/arlington/ACSP038"
@@ -736,7 +852,11 @@
       "id": "agency-arlington-acsp039",
       "kind": "speed",
       "label": "2500 MILITARY RD · NB · Taylor ES",
+      "locationKey": "2500 MILITARY RD",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "MILITARY RD"
+      ],
       "siteID": "agency-arlington-acsp039",
       "sourceIDs": [
         "agency/arlington/ACSP039"
@@ -761,7 +881,11 @@
       "id": "agency-arlington-acsp041",
       "kind": "speed",
       "label": "3200 2nd ST S · WB · Alice Fleet ES / Thomas Jefferson MS",
+      "locationKey": "3200 2nd ST S",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "2nd ST S"
+      ],
       "siteID": "agency-arlington-acsp041",
       "sourceIDs": [
         "agency/arlington/ACSP041"
@@ -786,7 +910,11 @@
       "id": "agency-arlington-acsp044",
       "kind": "speed",
       "label": "6000 LITTLE FALLS RD · EB · Nottingham ES",
+      "locationKey": "6000 LITTLE FALLS RD",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "LITTLE FALLS RD"
+      ],
       "siteID": "agency-arlington-acsp044",
       "sourceIDs": [
         "agency/arlington/ACSP044"
@@ -801,7 +929,7 @@
       "travelBearing": 90
     }
   ],
-  "checkedAt": "2026-09-15T02:09:42Z",
+  "checkedAt": "2026-09-15T03:56:21Z",
   "excluded": [
     {
       "reason": "Not active / retired",

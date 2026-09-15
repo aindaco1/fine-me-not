@@ -11,7 +11,11 @@
       "id": "agency-dc-ate-0008",
       "kind": "possibleSpeed",
       "label": "100 BLK MICHIGAN AVE NW E/B",
+      "locationKey": "100 BLK MICHIGAN AVE NW E/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK MICHIGAN AVE NW E/B"
+      ],
       "siteID": "agency-dc-ate-0008",
       "sourceIDs": [
         "agency/dc/ATE 0008"
@@ -36,7 +40,11 @@
       "id": "agency-dc-ate-0012",
       "kind": "speed",
       "label": "1000 BLK U ST NW E/B",
+      "locationKey": "1000 BLK U ST NW E/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK U ST NW E/B"
+      ],
       "siteID": "agency-dc-ate-0012",
       "sourceIDs": [
         "agency/dc/ATE 0012"
@@ -61,7 +69,11 @@
       "id": "agency-dc-ate-0022",
       "kind": "speed",
       "label": "1100 BLK NORTH CAPITOL ST NE N/B",
+      "locationKey": "1100 BLK NORTH CAPITOL ST NE N/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK NORTH CAPITOL ST NE N/B"
+      ],
       "siteID": "agency-dc-ate-0022",
       "sourceIDs": [
         "agency/dc/ATE 0022"
@@ -86,6 +98,7 @@
       "id": "agency-dc-ate-0034",
       "kind": "redLight",
       "label": "12TH ST N/B @ CONSTITUTION AVE NW",
+      "locationKey": "12TH ST N/B @ CONSTITUTION AVE NW",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-dc-ate-0034",
       "sourceIDs": [
@@ -111,7 +124,11 @@
       "id": "agency-dc-ate-0037",
       "kind": "possibleSpeed",
       "label": "1300 BLK 9TH ST NW S/B",
+      "locationKey": "1300 BLK 9TH ST NW S/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK 9TH ST NW S/B"
+      ],
       "siteID": "agency-dc-ate-0037",
       "sourceIDs": [
         "agency/dc/ATE 0037"
@@ -136,7 +153,11 @@
       "id": "agency-dc-ate-0038",
       "kind": "possibleSpeed",
       "label": "1300 BLK EASTERN AVE NE NW/B",
+      "locationKey": "1300 BLK EASTERN AVE NE NW/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK EASTERN AVE NE NW/B"
+      ],
       "siteID": "agency-dc-ate-0038",
       "sourceIDs": [
         "agency/dc/ATE 0038"
@@ -161,7 +182,11 @@
       "id": "agency-dc-ate-0040",
       "kind": "possibleSpeed",
       "label": "1300 BLK H ST NE E/B",
+      "locationKey": "1300 BLK H ST NE E/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK H ST NE E/B"
+      ],
       "siteID": "agency-dc-ate-0040",
       "sourceIDs": [
         "agency/dc/ATE 0040"
@@ -186,7 +211,11 @@
       "id": "agency-dc-ate-0042",
       "kind": "speed",
       "label": "1300 BLK MISSOURI AVE NW E/B",
+      "locationKey": "1300 BLK MISSOURI AVE NW E/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK MISSOURI AVE NW E/B"
+      ],
       "siteID": "agency-dc-ate-0042",
       "sourceIDs": [
         "agency/dc/ATE 0042"
@@ -211,7 +240,11 @@
       "id": "agency-dc-ate-0044",
       "kind": "speed",
       "label": "1300 BLK RHODE ISLAND AVE NE E/B",
+      "locationKey": "1300 BLK RHODE ISLAND AVE NE E/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK RHODE ISLAND AVE NE E/B"
+      ],
       "siteID": "agency-dc-ate-0044",
       "sourceIDs": [
         "agency/dc/ATE 0044"
@@ -236,7 +269,11 @@
       "id": "agency-dc-ate-0045",
       "kind": "speed",
       "label": "1300 BLK RHODE ISLAND AVE NE W/B",
+      "locationKey": "1300 BLK RHODE ISLAND AVE NE W/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK RHODE ISLAND AVE NE W/B"
+      ],
       "siteID": "agency-dc-ate-0045",
       "sourceIDs": [
         "agency/dc/ATE 0045"
@@ -261,7 +298,11 @@
       "id": "agency-dc-ate-0054",
       "kind": "possibleSpeed",
       "label": "1400 BLK BLADENSBURG RD NE S/B",
+      "locationKey": "1400 BLK BLADENSBURG RD NE S/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK BLADENSBURG RD NE S/B"
+      ],
       "siteID": "agency-dc-ate-0054",
       "sourceIDs": [
         "agency/dc/ATE 0054"
@@ -286,7 +327,11 @@
       "id": "agency-dc-ate-0057",
       "kind": "possibleSpeed",
       "label": "1400 BLK KENILWORTH AVE NE S/B",
+      "locationKey": "1400 BLK KENILWORTH AVE NE S/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK KENILWORTH AVE NE S/B"
+      ],
       "siteID": "agency-dc-ate-0057",
       "sourceIDs": [
         "agency/dc/ATE 0057"
@@ -311,7 +356,11 @@
       "id": "agency-dc-ate-0064",
       "kind": "possibleSpeed",
       "label": "1400 BLK SOUTHERN AVE SE SW/B",
+      "locationKey": "1400 BLK SOUTHERN AVE SE SW/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK SOUTHERN AVE SE SW/B"
+      ],
       "siteID": "agency-dc-ate-0064",
       "sourceIDs": [
         "agency/dc/ATE 0064"
@@ -336,7 +385,11 @@
       "id": "agency-dc-ate-0065",
       "kind": "speed",
       "label": "1400 BLK U ST NW E/B",
+      "locationKey": "1400 BLK U ST NW E/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK U ST NW E/B"
+      ],
       "siteID": "agency-dc-ate-0065",
       "sourceIDs": [
         "agency/dc/ATE 0065"
@@ -361,7 +414,11 @@
       "id": "agency-dc-ate-0079",
       "kind": "speed",
       "label": "1500 BLK U ST NW E/B",
+      "locationKey": "1500 BLK U ST NW E/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK U ST NW E/B"
+      ],
       "siteID": "agency-dc-ate-0079",
       "sourceIDs": [
         "agency/dc/ATE 0079"
@@ -386,7 +443,11 @@
       "id": "agency-dc-ate-0082",
       "kind": "possibleSpeed",
       "label": "1600 BLK BENNING RD NE W/B",
+      "locationKey": "1600 BLK BENNING RD NE W/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK BENNING RD NE W/B"
+      ],
       "siteID": "agency-dc-ate-0082",
       "sourceIDs": [
         "agency/dc/ATE 0082"
@@ -411,7 +472,11 @@
       "id": "agency-dc-ate-0083",
       "kind": "possibleSpeed",
       "label": "1600 BLK MICHIGAN AVE NE W/B",
+      "locationKey": "1600 BLK MICHIGAN AVE NE W/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK MICHIGAN AVE NE W/B"
+      ],
       "siteID": "agency-dc-ate-0083",
       "sourceIDs": [
         "agency/dc/ATE 0083"
@@ -436,6 +501,7 @@
       "id": "agency-dc-ate-0087",
       "kind": "redLight",
       "label": "16TH ST N/B @ OAK ST NW",
+      "locationKey": "16TH ST N/B @ OAK ST NW",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-dc-ate-0087",
       "sourceIDs": [
@@ -461,6 +527,7 @@
       "id": "agency-dc-ate-0089",
       "kind": "possibleSpeed",
       "label": "16TH ST S/B @ COLORADO AVE NW",
+      "locationKey": "16TH ST S/B @ COLORADO AVE NW",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-dc-ate-0089",
       "sourceIDs": [
@@ -486,7 +553,11 @@
       "id": "agency-dc-ate-0094",
       "kind": "possibleSpeed",
       "label": "1700 BLK N CAPITOL ST NE N/B",
+      "locationKey": "1700 BLK N CAPITOL ST NE N/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK N CAPITOL ST NE N/B"
+      ],
       "siteID": "agency-dc-ate-0094",
       "sourceIDs": [
         "agency/dc/ATE 0094"
@@ -511,7 +582,11 @@
       "id": "agency-dc-ate-0100",
       "kind": "possibleSpeed",
       "label": "1800 BLK CONNECTICUT AVE NW S/B ",
+      "locationKey": "1800 BLK CONNECTICUT AVE NW S/B ",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK CONNECTICUT AVE NW S/B "
+      ],
       "siteID": "agency-dc-ate-0100",
       "sourceIDs": [
         "agency/dc/ATE 0100"
@@ -536,7 +611,11 @@
       "id": "agency-dc-ate-0106",
       "kind": "possibleSpeed",
       "label": "1900 BLK BRANCH AVE SE N/B",
+      "locationKey": "1900 BLK BRANCH AVE SE N/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK BRANCH AVE SE N/B"
+      ],
       "siteID": "agency-dc-ate-0106",
       "sourceIDs": [
         "agency/dc/ATE 0106"
@@ -561,7 +640,11 @@
       "id": "agency-dc-ate-0111",
       "kind": "possibleSpeed",
       "label": "1900 BLK INDEPENDENCE AVE SE E/B",
+      "locationKey": "1900 BLK INDEPENDENCE AVE SE E/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK INDEPENDENCE AVE SE E/B"
+      ],
       "siteID": "agency-dc-ate-0111",
       "sourceIDs": [
         "agency/dc/ATE 0111"
@@ -586,7 +669,11 @@
       "id": "agency-dc-ate-0113",
       "kind": "possibleSpeed",
       "label": "1900 BLK SOUTHERN AVE SE NE/B",
+      "locationKey": "1900 BLK SOUTHERN AVE SE NE/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK SOUTHERN AVE SE NE/B"
+      ],
       "siteID": "agency-dc-ate-0113",
       "sourceIDs": [
         "agency/dc/ATE 0113"
@@ -611,7 +698,11 @@
       "id": "agency-dc-ate-0121",
       "kind": "possibleSpeed",
       "label": "200 BLK H ST NE E/B",
+      "locationKey": "200 BLK H ST NE E/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK H ST NE E/B"
+      ],
       "siteID": "agency-dc-ate-0121",
       "sourceIDs": [
         "agency/dc/ATE 0121"
@@ -636,7 +727,11 @@
       "id": "agency-dc-ate-0124",
       "kind": "possibleSpeed",
       "label": "200 BLK NEW YORK AVE NW E/B",
+      "locationKey": "200 BLK NEW YORK AVE NW E/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK NEW YORK AVE NW E/B"
+      ],
       "siteID": "agency-dc-ate-0124",
       "sourceIDs": [
         "agency/dc/ATE 0124"
@@ -661,7 +756,11 @@
       "id": "agency-dc-ate-0125",
       "kind": "speed",
       "label": "200 BLK RHODE ISLAND AVE NW E/B",
+      "locationKey": "200 BLK RHODE ISLAND AVE NW E/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK RHODE ISLAND AVE NW E/B"
+      ],
       "siteID": "agency-dc-ate-0125",
       "sourceIDs": [
         "agency/dc/ATE 0125"
@@ -686,7 +785,11 @@
       "id": "agency-dc-ate-0126",
       "kind": "speed",
       "label": "200 BLK RHODE ISLAND AVE NW W/B",
+      "locationKey": "200 BLK RHODE ISLAND AVE NW W/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK RHODE ISLAND AVE NW W/B"
+      ],
       "siteID": "agency-dc-ate-0126",
       "sourceIDs": [
         "agency/dc/ATE 0126"
@@ -711,7 +814,11 @@
       "id": "agency-dc-ate-0127",
       "kind": "possibleSpeed",
       "label": "200 BLK RIGGS RD NE E/B",
+      "locationKey": "200 BLK RIGGS RD NE E/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK RIGGS RD NE E/B"
+      ],
       "siteID": "agency-dc-ate-0127",
       "sourceIDs": [
         "agency/dc/ATE 0127"
@@ -736,7 +843,11 @@
       "id": "agency-dc-ate-0129",
       "kind": "possibleSpeed",
       "label": "2000 BLK BRANCH AVE SE S/B",
+      "locationKey": "2000 BLK BRANCH AVE SE S/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK BRANCH AVE SE S/B"
+      ],
       "siteID": "agency-dc-ate-0129",
       "sourceIDs": [
         "agency/dc/ATE 0129"
@@ -761,7 +872,11 @@
       "id": "agency-dc-ate-0137",
       "kind": "possibleSpeed",
       "label": "2200 BLK BRANCH AVE SE N/B",
+      "locationKey": "2200 BLK BRANCH AVE SE N/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK BRANCH AVE SE N/B"
+      ],
       "siteID": "agency-dc-ate-0137",
       "sourceIDs": [
         "agency/dc/ATE 0137"
@@ -786,7 +901,11 @@
       "id": "agency-dc-ate-0138",
       "kind": "possibleSpeed",
       "label": "2200 BLK BRANCH AVE SE S/B",
+      "locationKey": "2200 BLK BRANCH AVE SE S/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK BRANCH AVE SE S/B"
+      ],
       "siteID": "agency-dc-ate-0138",
       "sourceIDs": [
         "agency/dc/ATE 0138"
@@ -811,7 +930,11 @@
       "id": "agency-dc-ate-0140",
       "kind": "possibleSpeed",
       "label": "2200 BLK GEORGIA AVE NW S/B",
+      "locationKey": "2200 BLK GEORGIA AVE NW S/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK GEORGIA AVE NW S/B"
+      ],
       "siteID": "agency-dc-ate-0140",
       "sourceIDs": [
         "agency/dc/ATE 0140"
@@ -836,7 +959,11 @@
       "id": "agency-dc-ate-0141",
       "kind": "possibleSpeed",
       "label": "2200 BLK IRVING ST SE W/B",
+      "locationKey": "2200 BLK IRVING ST SE W/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK IRVING ST SE W/B"
+      ],
       "siteID": "agency-dc-ate-0141",
       "sourceIDs": [
         "agency/dc/ATE 0141"
@@ -861,7 +988,11 @@
       "id": "agency-dc-ate-0142",
       "kind": "possibleSpeed",
       "label": "2200 BLK K ST NW W/B",
+      "locationKey": "2200 BLK K ST NW W/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK K ST NW W/B"
+      ],
       "siteID": "agency-dc-ate-0142",
       "sourceIDs": [
         "agency/dc/ATE 0142"
@@ -886,7 +1017,11 @@
       "id": "agency-dc-ate-0144",
       "kind": "possibleSpeed",
       "label": "2200 BLK SOUTH DAKOTA AVE NE SE/B",
+      "locationKey": "2200 BLK SOUTH DAKOTA AVE NE SE/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK SOUTH DAKOTA AVE NE SE/B"
+      ],
       "siteID": "agency-dc-ate-0144",
       "sourceIDs": [
         "agency/dc/ATE 0144"
@@ -911,7 +1046,11 @@
       "id": "agency-dc-ate-0145",
       "kind": "possibleSpeed",
       "label": "2200 BLK K ST NW E/B",
+      "locationKey": "2200 BLK K ST NW E/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK K ST NW E/B"
+      ],
       "siteID": "agency-dc-ate-0145",
       "sourceIDs": [
         "agency/dc/ATE 0145"
@@ -936,7 +1075,11 @@
       "id": "agency-dc-ate-0147",
       "kind": "possibleSpeed",
       "label": "2300 BLK ALABAMA AVE SE NE/B",
+      "locationKey": "2300 BLK ALABAMA AVE SE NE/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK ALABAMA AVE SE NE/B"
+      ],
       "siteID": "agency-dc-ate-0147",
       "sourceIDs": [
         "agency/dc/ATE 0147"
@@ -961,7 +1104,11 @@
       "id": "agency-dc-ate-0148",
       "kind": "possibleSpeed",
       "label": "2300 BLK ALABAMA AVE SE SW/B",
+      "locationKey": "2300 BLK ALABAMA AVE SE SW/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK ALABAMA AVE SE SW/B"
+      ],
       "siteID": "agency-dc-ate-0148",
       "sourceIDs": [
         "agency/dc/ATE 0148"
@@ -986,7 +1133,11 @@
       "id": "agency-dc-ate-0150",
       "kind": "possibleSpeed",
       "label": "2300 BLK MARION BARRY AVE SE NW/B",
+      "locationKey": "2300 BLK MARION BARRY AVE SE NW/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK MARION BARRY AVE SE NW/B"
+      ],
       "siteID": "agency-dc-ate-0150",
       "sourceIDs": [
         "agency/dc/ATE 0150"
@@ -1011,7 +1162,11 @@
       "id": "agency-dc-ate-0155",
       "kind": "speed",
       "label": "2400 BLK BENNING RD NE NW/B",
+      "locationKey": "2400 BLK BENNING RD NE NW/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK BENNING RD NE NW/B"
+      ],
       "siteID": "agency-dc-ate-0155",
       "sourceIDs": [
         "agency/dc/ATE 0155"
@@ -1036,7 +1191,11 @@
       "id": "agency-dc-ate-0158",
       "kind": "speed",
       "label": "2400 BLK WISCONSIN AVE NW N/B",
+      "locationKey": "2400 BLK WISCONSIN AVE NW N/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK WISCONSIN AVE NW N/B"
+      ],
       "siteID": "agency-dc-ate-0158",
       "sourceIDs": [
         "agency/dc/ATE 0158"
@@ -1061,7 +1220,11 @@
       "id": "agency-dc-ate-0159",
       "kind": "speed",
       "label": "2400 BLK WISCONSIN AVE NW S/B",
+      "locationKey": "2400 BLK WISCONSIN AVE NW S/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK WISCONSIN AVE NW S/B"
+      ],
       "siteID": "agency-dc-ate-0159",
       "sourceIDs": [
         "agency/dc/ATE 0159"
@@ -1086,7 +1249,11 @@
       "id": "agency-dc-ate-0160",
       "kind": "speed",
       "label": "2500 BLK BENNING RD NE SE/B",
+      "locationKey": "2500 BLK BENNING RD NE SE/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK BENNING RD NE SE/B"
+      ],
       "siteID": "agency-dc-ate-0160",
       "sourceIDs": [
         "agency/dc/ATE 0160"
@@ -1111,7 +1278,11 @@
       "id": "agency-dc-ate-0161",
       "kind": "speed",
       "label": "2500 BLK FIRTH STERLING AVE SE W/B",
+      "locationKey": "2500 BLK FIRTH STERLING AVE SE W/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK FIRTH STERLING AVE SE W/B"
+      ],
       "siteID": "agency-dc-ate-0161",
       "sourceIDs": [
         "agency/dc/ATE 0161"
@@ -1136,7 +1307,11 @@
       "id": "agency-dc-ate-0162",
       "kind": "possibleSpeed",
       "label": "2500 BLK GEORGIA AVE NW S/B",
+      "locationKey": "2500 BLK GEORGIA AVE NW S/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK GEORGIA AVE NW S/B"
+      ],
       "siteID": "agency-dc-ate-0162",
       "sourceIDs": [
         "agency/dc/ATE 0162"
@@ -1161,7 +1336,11 @@
       "id": "agency-dc-ate-0164",
       "kind": "possibleSpeed",
       "label": "2500 BLK MARTIN LUTHER KING AVE SE n/b",
+      "locationKey": "2500 BLK MARTIN LUTHER KING AVE SE n/b",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK MARTIN LUTHER KING AVE SE n/b"
+      ],
       "siteID": "agency-dc-ate-0164",
       "sourceIDs": [
         "agency/dc/ATE 0164"
@@ -1186,7 +1365,11 @@
       "id": "agency-dc-ate-0166",
       "kind": "possibleSpeed",
       "label": "2500 BLK NORTH CAPITOL ST NE N/B",
+      "locationKey": "2500 BLK NORTH CAPITOL ST NE N/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK NORTH CAPITOL ST NE N/B"
+      ],
       "siteID": "agency-dc-ate-0166",
       "sourceIDs": [
         "agency/dc/ATE 0166"
@@ -1211,7 +1394,11 @@
       "id": "agency-dc-ate-0168",
       "kind": "possibleSpeed",
       "label": "2500 BLK SHERIDAN ROAD SE N/B",
+      "locationKey": "2500 BLK SHERIDAN ROAD SE N/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK SHERIDAN ROAD SE N/B"
+      ],
       "siteID": "agency-dc-ate-0168",
       "sourceIDs": [
         "agency/dc/ATE 0168"
@@ -1236,7 +1423,11 @@
       "id": "agency-dc-ate-0170",
       "kind": "speed",
       "label": "2500 BLK SOUTHERN AVE SE NE/B",
+      "locationKey": "2500 BLK SOUTHERN AVE SE NE/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK SOUTHERN AVE SE NE/B"
+      ],
       "siteID": "agency-dc-ate-0170",
       "sourceIDs": [
         "agency/dc/ATE 0170"
@@ -1261,7 +1452,11 @@
       "id": "agency-dc-ate-0171",
       "kind": "possibleSpeed",
       "label": "2600 BLK GEORGIA AVE NW N/B",
+      "locationKey": "2600 BLK GEORGIA AVE NW N/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK GEORGIA AVE NW N/B"
+      ],
       "siteID": "agency-dc-ate-0171",
       "sourceIDs": [
         "agency/dc/ATE 0171"
@@ -1286,7 +1481,11 @@
       "id": "agency-dc-ate-0173",
       "kind": "possibleSpeed",
       "label": "2600 BLK LINCOLN RD NE N/B",
+      "locationKey": "2600 BLK LINCOLN RD NE N/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK LINCOLN RD NE N/B"
+      ],
       "siteID": "agency-dc-ate-0173",
       "sourceIDs": [
         "agency/dc/ATE 0173"
@@ -1311,7 +1510,11 @@
       "id": "agency-dc-ate-0175",
       "kind": "possibleSpeed",
       "label": "2600 BLK WISCONSIN AVE NW N/B",
+      "locationKey": "2600 BLK WISCONSIN AVE NW N/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK WISCONSIN AVE NW N/B"
+      ],
       "siteID": "agency-dc-ate-0175",
       "sourceIDs": [
         "agency/dc/ATE 0175"
@@ -1336,7 +1539,11 @@
       "id": "agency-dc-ate-0176",
       "kind": "possibleSpeed",
       "label": "2600 BLK WISCONSIN AVE NW S/B",
+      "locationKey": "2600 BLK WISCONSIN AVE NW S/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK WISCONSIN AVE NW S/B"
+      ],
       "siteID": "agency-dc-ate-0176",
       "sourceIDs": [
         "agency/dc/ATE 0176"
@@ -1361,7 +1568,11 @@
       "id": "agency-dc-ate-0183",
       "kind": "possibleSpeed",
       "label": "2800 BLK N CAPITOL ST NW S/B",
+      "locationKey": "2800 BLK N CAPITOL ST NW S/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK N CAPITOL ST NW S/B"
+      ],
       "siteID": "agency-dc-ate-0183",
       "sourceIDs": [
         "agency/dc/ATE 0183"
@@ -1386,7 +1597,11 @@
       "id": "agency-dc-ate-0186",
       "kind": "possibleSpeed",
       "label": "2900 BLK ARIZONA AVE NW S/B",
+      "locationKey": "2900 BLK ARIZONA AVE NW S/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK ARIZONA AVE NW S/B"
+      ],
       "siteID": "agency-dc-ate-0186",
       "sourceIDs": [
         "agency/dc/ATE 0186"
@@ -1411,7 +1626,11 @@
       "id": "agency-dc-ate-0187",
       "kind": "possibleSpeed",
       "label": "2900 BLK MILITARY RD NW E/B",
+      "locationKey": "2900 BLK MILITARY RD NW E/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK MILITARY RD NW E/B"
+      ],
       "siteID": "agency-dc-ate-0187",
       "sourceIDs": [
         "agency/dc/ATE 0187"
@@ -1436,7 +1655,11 @@
       "id": "agency-dc-ate-0193",
       "kind": "speed",
       "label": "300 BLK NEW YORK AVE NW W/B",
+      "locationKey": "300 BLK NEW YORK AVE NW W/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK NEW YORK AVE NW W/B"
+      ],
       "siteID": "agency-dc-ate-0193",
       "sourceIDs": [
         "agency/dc/ATE 0193"
@@ -1461,7 +1684,11 @@
       "id": "agency-dc-ate-0199",
       "kind": "possibleSpeed",
       "label": "3000 BLK N CAPITOL ST NW S/B",
+      "locationKey": "3000 BLK N CAPITOL ST NW S/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK N CAPITOL ST NW S/B"
+      ],
       "siteID": "agency-dc-ate-0199",
       "sourceIDs": [
         "agency/dc/ATE 0199"
@@ -1486,7 +1713,11 @@
       "id": "agency-dc-ate-0200",
       "kind": "possibleSpeed",
       "label": "3000 BLK PENNSYLVANIA AVE SE NW/B",
+      "locationKey": "3000 BLK PENNSYLVANIA AVE SE NW/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK PENNSYLVANIA AVE SE NW/B"
+      ],
       "siteID": "agency-dc-ate-0200",
       "sourceIDs": [
         "agency/dc/ATE 0200"
@@ -1511,7 +1742,11 @@
       "id": "agency-dc-ate-0204",
       "kind": "possibleSpeed",
       "label": "3100 BLK ALABAMA AVE SE NE/B",
+      "locationKey": "3100 BLK ALABAMA AVE SE NE/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK ALABAMA AVE SE NE/B"
+      ],
       "siteID": "agency-dc-ate-0204",
       "sourceIDs": [
         "agency/dc/ATE 0204"
@@ -1536,7 +1771,11 @@
       "id": "agency-dc-ate-0206",
       "kind": "possibleSpeed",
       "label": "3100 BLK S DAKOTA AVE NE SE/B",
+      "locationKey": "3100 BLK S DAKOTA AVE NE SE/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK S DAKOTA AVE NE SE/B"
+      ],
       "siteID": "agency-dc-ate-0206",
       "sourceIDs": [
         "agency/dc/ATE 0206"
@@ -1561,7 +1800,11 @@
       "id": "agency-dc-ate-0207",
       "kind": "possibleSpeed",
       "label": "3200 BLK ALABAMA AVE SE W/B",
+      "locationKey": "3200 BLK ALABAMA AVE SE W/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK ALABAMA AVE SE W/B"
+      ],
       "siteID": "agency-dc-ate-0207",
       "sourceIDs": [
         "agency/dc/ATE 0207"
@@ -1586,7 +1829,11 @@
       "id": "agency-dc-ate-0208",
       "kind": "possibleSpeed",
       "label": "3200 BLK FORT LINCOLN DRIVE NE S/B",
+      "locationKey": "3200 BLK FORT LINCOLN DRIVE NE S/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK FORT LINCOLN DRIVE NE S/B"
+      ],
       "siteID": "agency-dc-ate-0208",
       "sourceIDs": [
         "agency/dc/ATE 0208"
@@ -1611,7 +1858,11 @@
       "id": "agency-dc-ate-0209",
       "kind": "possibleSpeed",
       "label": "3300 BLK CONNECTICUT AVE NW S/B",
+      "locationKey": "3300 BLK CONNECTICUT AVE NW S/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK CONNECTICUT AVE NW S/B"
+      ],
       "siteID": "agency-dc-ate-0209",
       "sourceIDs": [
         "agency/dc/ATE 0209"
@@ -1636,7 +1887,11 @@
       "id": "agency-dc-ate-0211",
       "kind": "speed",
       "label": "3300 BLK MINNESOTA AVE SE S/B",
+      "locationKey": "3300 BLK MINNESOTA AVE SE S/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK MINNESOTA AVE SE S/B"
+      ],
       "siteID": "agency-dc-ate-0211",
       "sourceIDs": [
         "agency/dc/ATE 0211"
@@ -1661,7 +1916,11 @@
       "id": "agency-dc-ate-0212",
       "kind": "possibleSpeed",
       "label": "3300 BLK NEW YORK AVE NE E/B",
+      "locationKey": "3300 BLK NEW YORK AVE NE E/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK NEW YORK AVE NE E/B"
+      ],
       "siteID": "agency-dc-ate-0212",
       "sourceIDs": [
         "agency/dc/ATE 0212"
@@ -1686,7 +1945,11 @@
       "id": "agency-dc-ate-0217",
       "kind": "possibleSpeed",
       "label": "3400 BLK MLK JR. AVE SE SW/B",
+      "locationKey": "3400 BLK MLK JR. AVE SE SW/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK MLK JR. AVE SE SW/B"
+      ],
       "siteID": "agency-dc-ate-0217",
       "sourceIDs": [
         "agency/dc/ATE 0217"
@@ -1711,7 +1974,11 @@
       "id": "agency-dc-ate-0218",
       "kind": "possibleSpeed",
       "label": "3400 BLK WHEELER ROAD SE S/B",
+      "locationKey": "3400 BLK WHEELER ROAD SE S/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK WHEELER ROAD SE S/B"
+      ],
       "siteID": "agency-dc-ate-0218",
       "sourceIDs": [
         "agency/dc/ATE 0218"
@@ -1736,7 +2003,11 @@
       "id": "agency-dc-ate-0222",
       "kind": "speed",
       "label": "3500 BLK MINNESOTA AVE SE N/B",
+      "locationKey": "3500 BLK MINNESOTA AVE SE N/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK MINNESOTA AVE SE N/B"
+      ],
       "siteID": "agency-dc-ate-0222",
       "sourceIDs": [
         "agency/dc/ATE 0222"
@@ -1761,7 +2032,11 @@
       "id": "agency-dc-ate-0238",
       "kind": "possibleSpeed",
       "label": "3700 BLK MINNESOTA AVE NE NE/B",
+      "locationKey": "3700 BLK MINNESOTA AVE NE NE/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK MINNESOTA AVE NE NE/B"
+      ],
       "siteID": "agency-dc-ate-0238",
       "sourceIDs": [
         "agency/dc/ATE 0238"
@@ -1786,7 +2061,11 @@
       "id": "agency-dc-ate-0240",
       "kind": "possibleSpeed",
       "label": "3700 BLK S DAKOTA AVE NE SE/B",
+      "locationKey": "3700 BLK S DAKOTA AVE NE SE/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK S DAKOTA AVE NE SE/B"
+      ],
       "siteID": "agency-dc-ate-0240",
       "sourceIDs": [
         "agency/dc/ATE 0240"
@@ -1811,7 +2090,11 @@
       "id": "agency-dc-ate-0241",
       "kind": "possibleSpeed",
       "label": "3700 BLK SOUTHERN AVE SE SW/B",
+      "locationKey": "3700 BLK SOUTHERN AVE SE SW/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK SOUTHERN AVE SE SW/B"
+      ],
       "siteID": "agency-dc-ate-0241",
       "sourceIDs": [
         "agency/dc/ATE 0241"
@@ -1836,7 +2119,11 @@
       "id": "agency-dc-ate-0247",
       "kind": "possibleSpeed",
       "label": "3900 BLK E CAPITOL ST SE E/B",
+      "locationKey": "3900 BLK E CAPITOL ST SE E/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK E CAPITOL ST SE E/B"
+      ],
       "siteID": "agency-dc-ate-0247",
       "sourceIDs": [
         "agency/dc/ATE 0247"
@@ -1861,7 +2148,11 @@
       "id": "agency-dc-ate-0248",
       "kind": "speed",
       "label": "3900 BLK GEORGIA AVE NW S/B",
+      "locationKey": "3900 BLK GEORGIA AVE NW S/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK GEORGIA AVE NW S/B"
+      ],
       "siteID": "agency-dc-ate-0248",
       "sourceIDs": [
         "agency/dc/ATE 0248"
@@ -1886,7 +2177,11 @@
       "id": "agency-dc-ate-0253",
       "kind": "possibleSpeed",
       "label": "3900 BLK SOUTHERN AVE SE NE/B",
+      "locationKey": "3900 BLK SOUTHERN AVE SE NE/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK SOUTHERN AVE SE NE/B"
+      ],
       "siteID": "agency-dc-ate-0253",
       "sourceIDs": [
         "agency/dc/ATE 0253"
@@ -1911,6 +2206,7 @@
       "id": "agency-dc-ate-0256",
       "kind": "possibleSpeed",
       "label": "3RD ST TUNNEL NW N/B BY MA AVE",
+      "locationKey": "3RD ST TUNNEL NW N/B BY MA AVE",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-dc-ate-0256",
       "sourceIDs": [
@@ -1936,6 +2232,7 @@
       "id": "agency-dc-ate-0257",
       "kind": "possibleSpeed",
       "label": "3RD ST TUNNEL NW S/B BY 3RD ST",
+      "locationKey": "3RD ST TUNNEL NW S/B BY 3RD ST",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-dc-ate-0257",
       "sourceIDs": [
@@ -1961,7 +2258,11 @@
       "id": "agency-dc-ate-0260",
       "kind": "possibleSpeed",
       "label": "400 BLK RHODE ISLAND AVE NW E/B",
+      "locationKey": "400 BLK RHODE ISLAND AVE NW E/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK RHODE ISLAND AVE NW E/B"
+      ],
       "siteID": "agency-dc-ate-0260",
       "sourceIDs": [
         "agency/dc/ATE 0260"
@@ -1986,7 +2287,11 @@
       "id": "agency-dc-ate-0264",
       "kind": "possibleSpeed",
       "label": "4000 BLK EAST CAPITOL ST NE W/B",
+      "locationKey": "4000 BLK EAST CAPITOL ST NE W/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK EAST CAPITOL ST NE W/B"
+      ],
       "siteID": "agency-dc-ate-0264",
       "sourceIDs": [
         "agency/dc/ATE 0264"
@@ -2011,7 +2316,11 @@
       "id": "agency-dc-ate-0278",
       "kind": "possibleSpeed",
       "label": "4200 BLK SOUTHERN AVE SE NE/B",
+      "locationKey": "4200 BLK SOUTHERN AVE SE NE/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK SOUTHERN AVE SE NE/B"
+      ],
       "siteID": "agency-dc-ate-0278",
       "sourceIDs": [
         "agency/dc/ATE 0278"
@@ -2036,7 +2345,11 @@
       "id": "agency-dc-ate-0283",
       "kind": "possibleSpeed",
       "label": "4300 BLK RESERVOIR RD NW E/B",
+      "locationKey": "4300 BLK RESERVOIR RD NW E/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK RESERVOIR RD NW E/B"
+      ],
       "siteID": "agency-dc-ate-0283",
       "sourceIDs": [
         "agency/dc/ATE 0283"
@@ -2061,7 +2374,11 @@
       "id": "agency-dc-ate-0284",
       "kind": "possibleSpeed",
       "label": "4300 BLK SOUTH CAPITOL ST SW S/B",
+      "locationKey": "4300 BLK SOUTH CAPITOL ST SW S/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK SOUTH CAPITOL ST SW S/B"
+      ],
       "siteID": "agency-dc-ate-0284",
       "sourceIDs": [
         "agency/dc/ATE 0284"
@@ -2086,7 +2403,11 @@
       "id": "agency-dc-ate-0285",
       "kind": "possibleSpeed",
       "label": "4300 BLK TEXAS AVE SE S/B",
+      "locationKey": "4300 BLK TEXAS AVE SE S/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK TEXAS AVE SE S/B"
+      ],
       "siteID": "agency-dc-ate-0285",
       "sourceIDs": [
         "agency/dc/ATE 0285"
@@ -2111,7 +2432,11 @@
       "id": "agency-dc-ate-0290",
       "kind": "possibleSpeed",
       "label": "4400 BLK TEXAS AVE SE N/B",
+      "locationKey": "4400 BLK TEXAS AVE SE N/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK TEXAS AVE SE N/B"
+      ],
       "siteID": "agency-dc-ate-0290",
       "sourceIDs": [
         "agency/dc/ATE 0290"
@@ -2136,7 +2461,11 @@
       "id": "agency-dc-ate-0291",
       "kind": "speed",
       "label": "4500 BLK BENNING RD SE SE/B",
+      "locationKey": "4500 BLK BENNING RD SE SE/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK BENNING RD SE SE/B"
+      ],
       "siteID": "agency-dc-ate-0291",
       "sourceIDs": [
         "agency/dc/ATE 0291"
@@ -2161,7 +2490,11 @@
       "id": "agency-dc-ate-0297",
       "kind": "possibleSpeed",
       "label": "4600 BLK MASSACHUSETTS AVE NW NW/B",
+      "locationKey": "4600 BLK MASSACHUSETTS AVE NW NW/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK MASSACHUSETTS AVE NW NW/B"
+      ],
       "siteID": "agency-dc-ate-0297",
       "sourceIDs": [
         "agency/dc/ATE 0297"
@@ -2186,7 +2519,11 @@
       "id": "agency-dc-ate-0300",
       "kind": "speed",
       "label": "4600 BLK TEXAS AVE SE N/B",
+      "locationKey": "4600 BLK TEXAS AVE SE N/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK TEXAS AVE SE N/B"
+      ],
       "siteID": "agency-dc-ate-0300",
       "sourceIDs": [
         "agency/dc/ATE 0300"
@@ -2211,7 +2548,11 @@
       "id": "agency-dc-ate-0303",
       "kind": "possibleSpeed",
       "label": "4700 blk MacArthur Blvd NW s/b ",
+      "locationKey": "4700 blk MacArthur Blvd NW s/b ",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "blk MacArthur Blvd NW s/b "
+      ],
       "siteID": "agency-dc-ate-0303",
       "sourceIDs": [
         "agency/dc/ATE 0303"
@@ -2236,7 +2577,11 @@
       "id": "agency-dc-ate-0304",
       "kind": "possibleSpeed",
       "label": "4700 BLK RESERVOIR RD NW SE/B",
+      "locationKey": "4700 BLK RESERVOIR RD NW SE/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK RESERVOIR RD NW SE/B"
+      ],
       "siteID": "agency-dc-ate-0304",
       "sourceIDs": [
         "agency/dc/ATE 0304"
@@ -2261,7 +2606,11 @@
       "id": "agency-dc-ate-0308",
       "kind": "speed",
       "label": "4800 BLK BENNING RD SE NW/B",
+      "locationKey": "4800 BLK BENNING RD SE NW/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK BENNING RD SE NW/B"
+      ],
       "siteID": "agency-dc-ate-0308",
       "sourceIDs": [
         "agency/dc/ATE 0308"
@@ -2286,7 +2635,11 @@
       "id": "agency-dc-ate-0309",
       "kind": "speed",
       "label": "4800 BLK BENNING RD SE SE/B",
+      "locationKey": "4800 BLK BENNING RD SE SE/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK BENNING RD SE SE/B"
+      ],
       "siteID": "agency-dc-ate-0309",
       "sourceIDs": [
         "agency/dc/ATE 0309"
@@ -2311,7 +2664,11 @@
       "id": "agency-dc-ate-0311",
       "kind": "possibleSpeed",
       "label": "4800 BLK CONNECTICUT AVE NW S/B",
+      "locationKey": "4800 BLK CONNECTICUT AVE NW S/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK CONNECTICUT AVE NW S/B"
+      ],
       "siteID": "agency-dc-ate-0311",
       "sourceIDs": [
         "agency/dc/ATE 0311"
@@ -2336,7 +2693,11 @@
       "id": "agency-dc-ate-0313",
       "kind": "possibleSpeed",
       "label": "4800 BLK S DAKOTA AVE NE NW/B",
+      "locationKey": "4800 BLK S DAKOTA AVE NE NW/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK S DAKOTA AVE NE NW/B"
+      ],
       "siteID": "agency-dc-ate-0313",
       "sourceIDs": [
         "agency/dc/ATE 0313"
@@ -2361,7 +2722,11 @@
       "id": "agency-dc-ate-0317",
       "kind": "possibleSpeed",
       "label": "4900 BLK 16TH ST NW N/B",
+      "locationKey": "4900 BLK 16TH ST NW N/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK 16TH ST NW N/B"
+      ],
       "siteID": "agency-dc-ate-0317",
       "sourceIDs": [
         "agency/dc/ATE 0317"
@@ -2386,7 +2751,11 @@
       "id": "agency-dc-ate-0320",
       "kind": "speed",
       "label": "4900 BLK GEORGIA AVE NW S/B",
+      "locationKey": "4900 BLK GEORGIA AVE NW S/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK GEORGIA AVE NW S/B"
+      ],
       "siteID": "agency-dc-ate-0320",
       "sourceIDs": [
         "agency/dc/ATE 0320"
@@ -2411,7 +2780,11 @@
       "id": "agency-dc-ate-0326",
       "kind": "possibleSpeed",
       "label": "5000 BLK SHERIFF ROAD NE W/B",
+      "locationKey": "5000 BLK SHERIFF ROAD NE W/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK SHERIFF ROAD NE W/B"
+      ],
       "siteID": "agency-dc-ate-0326",
       "sourceIDs": [
         "agency/dc/ATE 0326"
@@ -2436,7 +2809,11 @@
       "id": "agency-dc-ate-0327",
       "kind": "possibleSpeed",
       "label": "5000 BLK SOUTHERN AVE SE SW/B",
+      "locationKey": "5000 BLK SOUTHERN AVE SE SW/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK SOUTHERN AVE SE SW/B"
+      ],
       "siteID": "agency-dc-ate-0327",
       "sourceIDs": [
         "agency/dc/ATE 0327"
@@ -2461,7 +2838,11 @@
       "id": "agency-dc-ate-0329",
       "kind": "possibleSpeed",
       "label": "5100 BLK LOUGHBORO RD NW W/B",
+      "locationKey": "5100 BLK LOUGHBORO RD NW W/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK LOUGHBORO RD NW W/B"
+      ],
       "siteID": "agency-dc-ate-0329",
       "sourceIDs": [
         "agency/dc/ATE 0329"
@@ -2486,7 +2867,11 @@
       "id": "agency-dc-ate-0330",
       "kind": "speed",
       "label": "5100 BLK SOUTHERN AVE SE NE/B",
+      "locationKey": "5100 BLK SOUTHERN AVE SE NE/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK SOUTHERN AVE SE NE/B"
+      ],
       "siteID": "agency-dc-ate-0330",
       "sourceIDs": [
         "agency/dc/ATE 0330"
@@ -2511,7 +2896,11 @@
       "id": "agency-dc-ate-0333",
       "kind": "possibleSpeed",
       "label": "5300 BLK EASTERN AVE NE SE/B",
+      "locationKey": "5300 BLK EASTERN AVE NE SE/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK EASTERN AVE NE SE/B"
+      ],
       "siteID": "agency-dc-ate-0333",
       "sourceIDs": [
         "agency/dc/ATE 0333"
@@ -2536,7 +2925,11 @@
       "id": "agency-dc-ate-0335",
       "kind": "speed",
       "label": "5400 BLK S DAKOTA AVE NE NW/B",
+      "locationKey": "5400 BLK S DAKOTA AVE NE NW/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK S DAKOTA AVE NE NW/B"
+      ],
       "siteID": "agency-dc-ate-0335",
       "sourceIDs": [
         "agency/dc/ATE 0335"
@@ -2561,7 +2954,11 @@
       "id": "agency-dc-ate-0336",
       "kind": "possibleSpeed",
       "label": "5500 BLK CONNECTICUT AVE NW S/B",
+      "locationKey": "5500 BLK CONNECTICUT AVE NW S/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK CONNECTICUT AVE NW S/B"
+      ],
       "siteID": "agency-dc-ate-0336",
       "sourceIDs": [
         "agency/dc/ATE 0336"
@@ -2586,7 +2983,11 @@
       "id": "agency-dc-ate-0337",
       "kind": "possibleSpeed",
       "label": "5500 BLK E CAPITOL ST SE E/B",
+      "locationKey": "5500 BLK E CAPITOL ST SE E/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK E CAPITOL ST SE E/B"
+      ],
       "siteID": "agency-dc-ate-0337",
       "sourceIDs": [
         "agency/dc/ATE 0337"
@@ -2611,7 +3012,11 @@
       "id": "agency-dc-ate-0338",
       "kind": "possibleSpeed",
       "label": "5500 BLK NORTH CAPITOL ST NW S/B",
+      "locationKey": "5500 BLK NORTH CAPITOL ST NW S/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK NORTH CAPITOL ST NW S/B"
+      ],
       "siteID": "agency-dc-ate-0338",
       "sourceIDs": [
         "agency/dc/ATE 0338"
@@ -2636,7 +3041,11 @@
       "id": "agency-dc-ate-0340",
       "kind": "speed",
       "label": "5600 BLK EAST CAPITOL ST NE W/B",
+      "locationKey": "5600 BLK EAST CAPITOL ST NE W/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK EAST CAPITOL ST NE W/B"
+      ],
       "siteID": "agency-dc-ate-0340",
       "sourceIDs": [
         "agency/dc/ATE 0340"
@@ -2661,7 +3070,11 @@
       "id": "agency-dc-ate-0341",
       "kind": "speed",
       "label": "5700 BLK GEORGIA AVE NW S/B",
+      "locationKey": "5700 BLK GEORGIA AVE NW S/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK GEORGIA AVE NW S/B"
+      ],
       "siteID": "agency-dc-ate-0341",
       "sourceIDs": [
         "agency/dc/ATE 0341"
@@ -2686,7 +3099,11 @@
       "id": "agency-dc-ate-0343",
       "kind": "possibleSpeed",
       "label": "5700 BLK MACARTHUR BLVD NW N/B",
+      "locationKey": "5700 BLK MACARTHUR BLVD NW N/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK MACARTHUR BLVD NW N/B"
+      ],
       "siteID": "agency-dc-ate-0343",
       "sourceIDs": [
         "agency/dc/ATE 0343"
@@ -2711,7 +3128,11 @@
       "id": "agency-dc-ate-0345",
       "kind": "possibleSpeed",
       "label": "5800 BLK NEW HAMPSHIRE AVE NE SW/B",
+      "locationKey": "5800 BLK NEW HAMPSHIRE AVE NE SW/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK NEW HAMPSHIRE AVE NE SW/B"
+      ],
       "siteID": "agency-dc-ate-0345",
       "sourceIDs": [
         "agency/dc/ATE 0345"
@@ -2736,7 +3157,11 @@
       "id": "agency-dc-ate-0352",
       "kind": "possibleSpeed",
       "label": "600 BLK KENILWORTH AVE NE S/B",
+      "locationKey": "600 BLK KENILWORTH AVE NE S/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK KENILWORTH AVE NE S/B"
+      ],
       "siteID": "agency-dc-ate-0352",
       "sourceIDs": [
         "agency/dc/ATE 0352"
@@ -2761,7 +3186,11 @@
       "id": "agency-dc-ate-0356",
       "kind": "possibleSpeed",
       "label": "600 BLK MISSOURI AVE NW SE/B",
+      "locationKey": "600 BLK MISSOURI AVE NW SE/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK MISSOURI AVE NW SE/B"
+      ],
       "siteID": "agency-dc-ate-0356",
       "sourceIDs": [
         "agency/dc/ATE 0356"
@@ -2786,7 +3215,11 @@
       "id": "agency-dc-ate-0357",
       "kind": "possibleSpeed",
       "label": "600 BLK NEW YORK AVE NE E/B",
+      "locationKey": "600 BLK NEW YORK AVE NE E/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK NEW YORK AVE NE E/B"
+      ],
       "siteID": "agency-dc-ate-0357",
       "sourceIDs": [
         "agency/dc/ATE 0357"
@@ -2811,7 +3244,11 @@
       "id": "agency-dc-ate-0358",
       "kind": "speed",
       "label": "600 BLK NEW YORK AVE NW E/B",
+      "locationKey": "600 BLK NEW YORK AVE NW E/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK NEW YORK AVE NW E/B"
+      ],
       "siteID": "agency-dc-ate-0358",
       "sourceIDs": [
         "agency/dc/ATE 0358"
@@ -2836,7 +3273,11 @@
       "id": "agency-dc-ate-0359",
       "kind": "speed",
       "label": "600 BLK NEW YORK AVE NW W/B",
+      "locationKey": "600 BLK NEW YORK AVE NW W/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK NEW YORK AVE NW W/B"
+      ],
       "siteID": "agency-dc-ate-0359",
       "sourceIDs": [
         "agency/dc/ATE 0359"
@@ -2861,7 +3302,11 @@
       "id": "agency-dc-ate-0360",
       "kind": "speed",
       "label": "600 BLK NEW YORK AVE NE W/B",
+      "locationKey": "600 BLK NEW YORK AVE NE W/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK NEW YORK AVE NE W/B"
+      ],
       "siteID": "agency-dc-ate-0360",
       "sourceIDs": [
         "agency/dc/ATE 0360"
@@ -2886,7 +3331,11 @@
       "id": "agency-dc-ate-0363",
       "kind": "speed",
       "label": "600 BLK SOUTHERN AVE SE NE/B",
+      "locationKey": "600 BLK SOUTHERN AVE SE NE/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK SOUTHERN AVE SE NE/B"
+      ],
       "siteID": "agency-dc-ate-0363",
       "sourceIDs": [
         "agency/dc/ATE 0363"
@@ -2911,7 +3360,11 @@
       "id": "agency-dc-ate-0364",
       "kind": "speed",
       "label": "6000 BLK GEORGIA AVE NW N/B",
+      "locationKey": "6000 BLK GEORGIA AVE NW N/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK GEORGIA AVE NW N/B"
+      ],
       "siteID": "agency-dc-ate-0364",
       "sourceIDs": [
         "agency/dc/ATE 0364"
@@ -2936,7 +3389,11 @@
       "id": "agency-dc-ate-0365",
       "kind": "speed",
       "label": "6000 BLK GEORGIA AVE NW S/B",
+      "locationKey": "6000 BLK GEORGIA AVE NW S/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK GEORGIA AVE NW S/B"
+      ],
       "siteID": "agency-dc-ate-0365",
       "sourceIDs": [
         "agency/dc/ATE 0365"
@@ -2961,7 +3418,11 @@
       "id": "agency-dc-ate-0369",
       "kind": "possibleSpeed",
       "label": "6600 BLK BLAIR RD NW S/B",
+      "locationKey": "6600 BLK BLAIR RD NW S/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK BLAIR RD NW S/B"
+      ],
       "siteID": "agency-dc-ate-0369",
       "sourceIDs": [
         "agency/dc/ATE 0369"
@@ -2986,7 +3447,11 @@
       "id": "agency-dc-ate-0375",
       "kind": "possibleSpeed",
       "label": "700 BLK N CAPITOL ST NE N/B",
+      "locationKey": "700 BLK N CAPITOL ST NE N/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK N CAPITOL ST NE N/B"
+      ],
       "siteID": "agency-dc-ate-0375",
       "sourceIDs": [
         "agency/dc/ATE 0375"
@@ -3011,7 +3476,11 @@
       "id": "agency-dc-ate-0381",
       "kind": "possibleSpeed",
       "label": "800 BLK EASTERN AVE NE E/B",
+      "locationKey": "800 BLK EASTERN AVE NE E/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK EASTERN AVE NE E/B"
+      ],
       "siteID": "agency-dc-ate-0381",
       "sourceIDs": [
         "agency/dc/ATE 0381"
@@ -3036,7 +3505,11 @@
       "id": "agency-dc-ate-0383",
       "kind": "possibleSpeed",
       "label": "800 BLK RIDGE RD  SE NW/B",
+      "locationKey": "800 BLK RIDGE RD  SE NW/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK RIDGE RD  SE NW/B"
+      ],
       "siteID": "agency-dc-ate-0383",
       "sourceIDs": [
         "agency/dc/ATE 0383"
@@ -3061,6 +3534,7 @@
       "id": "agency-dc-ate-0403",
       "kind": "redLight",
       "label": "CONNECTICUT AVE N/B @ CALVERT ST NW",
+      "locationKey": "CONNECTICUT AVE N/B @ CALVERT ST NW",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-dc-ate-0403",
       "sourceIDs": [
@@ -3086,6 +3560,7 @@
       "id": "agency-dc-ate-0406",
       "kind": "redLight",
       "label": "CONNECTICUT AVE S/B @ NEBRASKA AVE NW",
+      "locationKey": "CONNECTICUT AVE S/B @ NEBRASKA AVE NW",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-dc-ate-0406",
       "sourceIDs": [
@@ -3111,6 +3586,7 @@
       "id": "agency-dc-ate-0408",
       "kind": "redLight",
       "label": "CONSTITUTION AVE W/B @ 15TH ST NW",
+      "locationKey": "CONSTITUTION AVE W/B @ 15TH ST NW",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-dc-ate-0408",
       "sourceIDs": [
@@ -3136,6 +3612,7 @@
       "id": "agency-dc-ate-0413",
       "kind": "possibleSpeed",
       "label": "DC295 .7 MILES S/O EASTERN AVE NE S/b",
+      "locationKey": "DC295 .7 MILES S/O EASTERN AVE NE S/b",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-dc-ate-0413",
       "sourceIDs": [
@@ -3161,6 +3638,7 @@
       "id": "agency-dc-ate-0416",
       "kind": "possibleSpeed",
       "label": "DC295 NE AT BENNING RD EXIT N/B",
+      "locationKey": "DC295 NE AT BENNING RD EXIT N/B",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-dc-ate-0416",
       "sourceIDs": [
@@ -3186,6 +3664,7 @@
       "id": "agency-dc-ate-0418",
       "kind": "possibleSpeed",
       "label": "DC295 SW 0.05 MILE S/O EXIT 1 N/B",
+      "locationKey": "DC295 SW 0.05 MILE S/O EXIT 1 N/B",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-dc-ate-0418",
       "sourceIDs": [
@@ -3211,6 +3690,7 @@
       "id": "agency-dc-ate-0444",
       "kind": "redLight",
       "label": "I-695 OFF RAMP E/B @ 11TH ST SE",
+      "locationKey": "I-695 OFF RAMP E/B @ 11TH ST SE",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-dc-ate-0444",
       "sourceIDs": [
@@ -3236,6 +3716,7 @@
       "id": "agency-dc-ate-0447",
       "kind": "redLight",
       "label": "INDEPENDENCE AVE E/B @ 3RD ST SW",
+      "locationKey": "INDEPENDENCE AVE E/B @ 3RD ST SW",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-dc-ate-0447",
       "sourceIDs": [
@@ -3261,6 +3742,7 @@
       "id": "agency-dc-ate-0456",
       "kind": "redLight",
       "label": "M ST W/B @ WHITEHURST FRWY NW",
+      "locationKey": "M ST W/B @ WHITEHURST FRWY NW",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-dc-ate-0456",
       "sourceIDs": [
@@ -3286,6 +3768,7 @@
       "id": "agency-dc-ate-0462",
       "kind": "possibleSpeed",
       "label": "MILITARY RD W/B @ 14TH ST NW",
+      "locationKey": "MILITARY RD W/B @ 14TH ST NW",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-dc-ate-0462",
       "sourceIDs": [
@@ -3311,6 +3794,7 @@
       "id": "agency-dc-ate-0472",
       "kind": "redLight",
       "label": "N CAPITOL ST S/B @ H ST NW",
+      "locationKey": "N CAPITOL ST S/B @ H ST NW",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-dc-ate-0472",
       "sourceIDs": [
@@ -3336,6 +3820,7 @@
       "id": "agency-dc-ate-0478",
       "kind": "possibleSpeed",
       "label": "NEW YORK AVE SW/B @ N CAPITOL ST NE",
+      "locationKey": "NEW YORK AVE SW/B @ N CAPITOL ST NE",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-dc-ate-0478",
       "sourceIDs": [
@@ -3361,6 +3846,7 @@
       "id": "agency-dc-ate-0479",
       "kind": "redLight",
       "label": "NEW YORK AVE W/B @ FLORIDA AVE NE",
+      "locationKey": "NEW YORK AVE W/B @ FLORIDA AVE NE",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-dc-ate-0479",
       "sourceIDs": [
@@ -3386,6 +3872,7 @@
       "id": "agency-dc-ate-0484",
       "kind": "redLight",
       "label": "NEW YORK AVE W/B @ 4TH ST NW",
+      "locationKey": "NEW YORK AVE W/B @ 4TH ST NW",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-dc-ate-0484",
       "sourceIDs": [
@@ -3411,6 +3898,7 @@
       "id": "agency-dc-ate-0485",
       "kind": "redLight",
       "label": "NY AVE W/B @ BLADENSBURG RD NE",
+      "locationKey": "NY AVE W/B @ BLADENSBURG RD NE",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-dc-ate-0485",
       "sourceIDs": [
@@ -3436,6 +3924,7 @@
       "id": "agency-dc-ate-0490",
       "kind": "redLight",
       "label": "PENNSYLVANIA E/B @ SOUTHERN AVE SE",
+      "locationKey": "PENNSYLVANIA E/B @ SOUTHERN AVE SE",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-dc-ate-0490",
       "sourceIDs": [
@@ -3461,6 +3950,7 @@
       "id": "agency-dc-ate-0492",
       "kind": "possibleSpeed",
       "label": "POTOMAC RIVER FWY NW/B @ 25TH ST NW",
+      "locationKey": "POTOMAC RIVER FWY NW/B @ 25TH ST NW",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-dc-ate-0492",
       "sourceIDs": [
@@ -3486,6 +3976,7 @@
       "id": "agency-dc-ate-0498",
       "kind": "redLight",
       "label": "S CAPITOL RAMP S/B BEFORE I ST SW",
+      "locationKey": "S CAPITOL RAMP S/B BEFORE I ST SW",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-dc-ate-0498",
       "sourceIDs": [
@@ -3511,6 +4002,7 @@
       "id": "agency-dc-ate-0508",
       "kind": "possibleSpeed",
       "label": "SUITLAND PKWY W/B @ STANTON RD SE",
+      "locationKey": "SUITLAND PKWY W/B @ STANTON RD SE",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-dc-ate-0508",
       "sourceIDs": [
@@ -3536,6 +4028,7 @@
       "id": "agency-dc-ate-0512",
       "kind": "possibleSpeed",
       "label": "UNIT BLK FLORIDA AVE NE NW/B",
+      "locationKey": "UNIT BLK FLORIDA AVE NE NW/B",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-dc-ate-0512",
       "sourceIDs": [
@@ -3561,6 +4054,7 @@
       "id": "agency-dc-ate-0513",
       "kind": "possibleSpeed",
       "label": "UNIT BLK FLORIDA AVE NW SE/B",
+      "locationKey": "UNIT BLK FLORIDA AVE NW SE/B",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-dc-ate-0513",
       "sourceIDs": [
@@ -3586,6 +4080,7 @@
       "id": "agency-dc-ate-0516",
       "kind": "possibleSpeed",
       "label": "UNIT BLK RIGGS RD NE NE/B",
+      "locationKey": "UNIT BLK RIGGS RD NE NE/B",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-dc-ate-0516",
       "sourceIDs": [
@@ -3611,7 +4106,11 @@
       "id": "agency-dc-ate-0522",
       "kind": "speed",
       "label": "3600 BLK 34TH ST NW S/B",
+      "locationKey": "3600 BLK 34TH ST NW S/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK 34TH ST NW S/B"
+      ],
       "siteID": "agency-dc-ate-0522",
       "sourceIDs": [
         "agency/dc/ATE 0522"
@@ -3636,7 +4135,11 @@
       "id": "agency-dc-ate-0523",
       "kind": "speed",
       "label": "5600 BLK NORTH CAPITOL ST NE N/B",
+      "locationKey": "5600 BLK NORTH CAPITOL ST NE N/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK NORTH CAPITOL ST NE N/B"
+      ],
       "siteID": "agency-dc-ate-0523",
       "sourceIDs": [
         "agency/dc/ATE 0523"
@@ -3661,7 +4164,11 @@
       "id": "agency-dc-ate-0524",
       "kind": "speed",
       "label": "1500 BLK RHODE ISLAND AVE NE NE/B",
+      "locationKey": "1500 BLK RHODE ISLAND AVE NE NE/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK RHODE ISLAND AVE NE NE/B"
+      ],
       "siteID": "agency-dc-ate-0524",
       "sourceIDs": [
         "agency/dc/ATE 0524"
@@ -3686,7 +4193,11 @@
       "id": "agency-dc-ate-0525",
       "kind": "speed",
       "label": "5100 BLK S DAKOTA AVE NE SE/B",
+      "locationKey": "5100 BLK S DAKOTA AVE NE SE/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK S DAKOTA AVE NE SE/B"
+      ],
       "siteID": "agency-dc-ate-0525",
       "sourceIDs": [
         "agency/dc/ATE 0525"
@@ -3711,7 +4222,11 @@
       "id": "agency-dc-ate-0526",
       "kind": "possibleSpeed",
       "label": "1000 BLK NEW JERSEY AVE NW N/B",
+      "locationKey": "1000 BLK NEW JERSEY AVE NW N/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK NEW JERSEY AVE NW N/B"
+      ],
       "siteID": "agency-dc-ate-0526",
       "sourceIDs": [
         "agency/dc/ATE 0526"
@@ -3736,7 +4251,11 @@
       "id": "agency-dc-ate-0527",
       "kind": "possibleSpeed",
       "label": "1000 BLK EASTERN AVE NE SE/B",
+      "locationKey": "1000 BLK EASTERN AVE NE SE/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK EASTERN AVE NE SE/B"
+      ],
       "siteID": "agency-dc-ate-0527",
       "sourceIDs": [
         "agency/dc/ATE 0527"
@@ -3761,7 +4280,11 @@
       "id": "agency-dc-ate-0528",
       "kind": "speed",
       "label": "1200 BLK BRANCH AVE SE N/B",
+      "locationKey": "1200 BLK BRANCH AVE SE N/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK BRANCH AVE SE N/B"
+      ],
       "siteID": "agency-dc-ate-0528",
       "sourceIDs": [
         "agency/dc/ATE 0528"
@@ -3786,7 +4309,11 @@
       "id": "agency-dc-ate-0530",
       "kind": "possibleSpeed",
       "label": "1600 BLK EASTERN AVE NE NW/B",
+      "locationKey": "1600 BLK EASTERN AVE NE NW/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK EASTERN AVE NE NW/B"
+      ],
       "siteID": "agency-dc-ate-0530",
       "sourceIDs": [
         "agency/dc/ATE 0530"
@@ -3811,7 +4338,11 @@
       "id": "agency-dc-ate-0531",
       "kind": "possibleSpeed",
       "label": "1600 BLK EASTERN AVE NE SE/B",
+      "locationKey": "1600 BLK EASTERN AVE NE SE/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK EASTERN AVE NE SE/B"
+      ],
       "siteID": "agency-dc-ate-0531",
       "sourceIDs": [
         "agency/dc/ATE 0531"
@@ -3836,7 +4367,11 @@
       "id": "agency-dc-ate-0532",
       "kind": "speed",
       "label": "2500 BLK PENNSYLVANIA AVE SE SE/B",
+      "locationKey": "2500 BLK PENNSYLVANIA AVE SE SE/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK PENNSYLVANIA AVE SE SE/B"
+      ],
       "siteID": "agency-dc-ate-0532",
       "sourceIDs": [
         "agency/dc/ATE 0532"
@@ -3861,7 +4396,11 @@
       "id": "agency-dc-ate-0536",
       "kind": "speed",
       "label": "3900 BLK MINNESOTA AVE NE SW/B",
+      "locationKey": "3900 BLK MINNESOTA AVE NE SW/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK MINNESOTA AVE NE SW/B"
+      ],
       "siteID": "agency-dc-ate-0536",
       "sourceIDs": [
         "agency/dc/ATE 0536"
@@ -3886,7 +4425,11 @@
       "id": "agency-dc-ate-0538",
       "kind": "speed",
       "label": "4100 BLK MINNESOTA AVE NE NE/B",
+      "locationKey": "4100 BLK MINNESOTA AVE NE NE/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK MINNESOTA AVE NE NE/B"
+      ],
       "siteID": "agency-dc-ate-0538",
       "sourceIDs": [
         "agency/dc/ATE 0538"
@@ -3911,7 +4454,11 @@
       "id": "agency-dc-ate-0539",
       "kind": "speed",
       "label": "4100 BLK MINNESOTA AVE NE SW/B",
+      "locationKey": "4100 BLK MINNESOTA AVE NE SW/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK MINNESOTA AVE NE SW/B"
+      ],
       "siteID": "agency-dc-ate-0539",
       "sourceIDs": [
         "agency/dc/ATE 0539"
@@ -3936,7 +4483,11 @@
       "id": "agency-dc-ate-0541",
       "kind": "possibleSpeed",
       "label": "4500 BLK SOUTH CAPITOL ST SE N/B",
+      "locationKey": "4500 BLK SOUTH CAPITOL ST SE N/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK SOUTH CAPITOL ST SE N/B"
+      ],
       "siteID": "agency-dc-ate-0541",
       "sourceIDs": [
         "agency/dc/ATE 0541"
@@ -3961,7 +4512,11 @@
       "id": "agency-dc-ate-0542",
       "kind": "possibleSpeed",
       "label": "4600 BLK SOUTH CAPITOL ST SW S/B",
+      "locationKey": "4600 BLK SOUTH CAPITOL ST SW S/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK SOUTH CAPITOL ST SW S/B"
+      ],
       "siteID": "agency-dc-ate-0542",
       "sourceIDs": [
         "agency/dc/ATE 0542"
@@ -3986,7 +4541,11 @@
       "id": "agency-dc-ate-0545",
       "kind": "speed",
       "label": "5900 BLK SOUTHERN AVE SE NE/B",
+      "locationKey": "5900 BLK SOUTHERN AVE SE NE/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK SOUTHERN AVE SE NE/B"
+      ],
       "siteID": "agency-dc-ate-0545",
       "sourceIDs": [
         "agency/dc/ATE 0545"
@@ -4011,7 +4570,11 @@
       "id": "agency-dc-ate-0547",
       "kind": "possibleSpeed",
       "label": "2300 BLK M ST NW W/B",
+      "locationKey": "2300 BLK M ST NW W/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK M ST NW W/B"
+      ],
       "siteID": "agency-dc-ate-0547",
       "sourceIDs": [
         "agency/dc/ATE 0547"
@@ -4036,7 +4599,11 @@
       "id": "agency-dc-ate-0548",
       "kind": "speed",
       "label": "1700 BLK RHODE ISLAND AVE NW W/B",
+      "locationKey": "1700 BLK RHODE ISLAND AVE NW W/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK RHODE ISLAND AVE NW W/B"
+      ],
       "siteID": "agency-dc-ate-0548",
       "sourceIDs": [
         "agency/dc/ATE 0548"
@@ -4061,7 +4628,11 @@
       "id": "agency-dc-ate-0549",
       "kind": "speed",
       "label": "800 BLK BLADENSBURG RD NE N/B",
+      "locationKey": "800 BLK BLADENSBURG RD NE N/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK BLADENSBURG RD NE N/B"
+      ],
       "siteID": "agency-dc-ate-0549",
       "sourceIDs": [
         "agency/dc/ATE 0549"
@@ -4086,7 +4657,11 @@
       "id": "agency-dc-ate-0551",
       "kind": "speed",
       "label": "2700 BLK BLADENSBURG RD NE N/B",
+      "locationKey": "2700 BLK BLADENSBURG RD NE N/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK BLADENSBURG RD NE N/B"
+      ],
       "siteID": "agency-dc-ate-0551",
       "sourceIDs": [
         "agency/dc/ATE 0551"
@@ -4111,7 +4686,11 @@
       "id": "agency-dc-ate-0552",
       "kind": "speed",
       "label": "2700 BLK BLADENSBURG RD NE S/B",
+      "locationKey": "2700 BLK BLADENSBURG RD NE S/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK BLADENSBURG RD NE S/B"
+      ],
       "siteID": "agency-dc-ate-0552",
       "sourceIDs": [
         "agency/dc/ATE 0552"
@@ -4136,7 +4715,11 @@
       "id": "agency-dc-ate-0553",
       "kind": "speed",
       "label": "1500 BLK NEW YORK AVE NE NE/B",
+      "locationKey": "1500 BLK NEW YORK AVE NE NE/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK NEW YORK AVE NE NE/B"
+      ],
       "siteID": "agency-dc-ate-0553",
       "sourceIDs": [
         "agency/dc/ATE 0553"
@@ -4161,7 +4744,11 @@
       "id": "agency-dc-ate-0554",
       "kind": "speed",
       "label": "1500 BLK NEW YORK AVE NE SW/B",
+      "locationKey": "1500 BLK NEW YORK AVE NE SW/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK NEW YORK AVE NE SW/B"
+      ],
       "siteID": "agency-dc-ate-0554",
       "sourceIDs": [
         "agency/dc/ATE 0554"
@@ -4186,6 +4773,7 @@
       "id": "agency-dc-ate-0555",
       "kind": "redLight",
       "label": "MT. OLIVET RD SE/B @ W. VIRGINIA AVE NE",
+      "locationKey": "MT. OLIVET RD SE/B @ W. VIRGINIA AVE NE",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-dc-ate-0555",
       "sourceIDs": [
@@ -4211,7 +4799,11 @@
       "id": "agency-dc-ate-0556",
       "kind": "speed",
       "label": "1600 BLK RHODE ISLAND AVE NE SW/B",
+      "locationKey": "1600 BLK RHODE ISLAND AVE NE SW/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK RHODE ISLAND AVE NE SW/B"
+      ],
       "siteID": "agency-dc-ate-0556",
       "sourceIDs": [
         "agency/dc/ATE 0556"
@@ -4236,7 +4828,11 @@
       "id": "agency-dc-ate-0558",
       "kind": "possibleSpeed",
       "label": "2500 BLK PENNSYLVANIA AVE SE NW/B",
+      "locationKey": "2500 BLK PENNSYLVANIA AVE SE NW/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK PENNSYLVANIA AVE SE NW/B"
+      ],
       "siteID": "agency-dc-ate-0558",
       "sourceIDs": [
         "agency/dc/ATE 0558"
@@ -4261,7 +4857,11 @@
       "id": "agency-dc-ate-0559",
       "kind": "possibleSpeed",
       "label": "3300 BLK MINNESOTA AVE SE N/B",
+      "locationKey": "3300 BLK MINNESOTA AVE SE N/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK MINNESOTA AVE SE N/B"
+      ],
       "siteID": "agency-dc-ate-0559",
       "sourceIDs": [
         "agency/dc/ATE 0559"
@@ -4286,7 +4886,11 @@
       "id": "agency-dc-ate-0560",
       "kind": "possibleSpeed",
       "label": "1400 BLK MORRIS RD SE SE/B",
+      "locationKey": "1400 BLK MORRIS RD SE SE/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK MORRIS RD SE SE/B"
+      ],
       "siteID": "agency-dc-ate-0560",
       "sourceIDs": [
         "agency/dc/ATE 0560"
@@ -4311,6 +4915,7 @@
       "id": "agency-dc-ate-0561",
       "kind": "possibleSpeed",
       "label": "UNIT BLK H ST NW W/B",
+      "locationKey": "UNIT BLK H ST NW W/B",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-dc-ate-0561",
       "sourceIDs": [
@@ -4336,7 +4941,11 @@
       "id": "agency-dc-ate-0576",
       "kind": "possibleSpeed",
       "label": "2400 BLK 14TH ST NW N/B",
+      "locationKey": "2400 BLK 14TH ST NW N/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK 14TH ST NW N/B"
+      ],
       "siteID": "agency-dc-ate-0576",
       "sourceIDs": [
         "agency/dc/ATE 0576"
@@ -4361,7 +4970,11 @@
       "id": "agency-dc-ate-0578",
       "kind": "possibleSpeed",
       "label": "1800 BLK 14TH ST NW N/B",
+      "locationKey": "1800 BLK 14TH ST NW N/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK 14TH ST NW N/B"
+      ],
       "siteID": "agency-dc-ate-0578",
       "sourceIDs": [
         "agency/dc/ATE 0578"
@@ -4386,7 +4999,11 @@
       "id": "agency-dc-ate-0579",
       "kind": "possibleSpeed",
       "label": "1800 BLK 14TH ST NW S/B",
+      "locationKey": "1800 BLK 14TH ST NW S/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK 14TH ST NW S/B"
+      ],
       "siteID": "agency-dc-ate-0579",
       "sourceIDs": [
         "agency/dc/ATE 0579"
@@ -4411,7 +5028,11 @@
       "id": "agency-dc-ate-0580",
       "kind": "possibleSpeed",
       "label": "1500 BLK 7TH ST NW N/B",
+      "locationKey": "1500 BLK 7TH ST NW N/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK 7TH ST NW N/B"
+      ],
       "siteID": "agency-dc-ate-0580",
       "sourceIDs": [
         "agency/dc/ATE 0580"
@@ -4436,7 +5057,11 @@
       "id": "agency-dc-ate-0581",
       "kind": "possibleSpeed",
       "label": "1500 BLK 7TH ST NW S/B",
+      "locationKey": "1500 BLK 7TH ST NW S/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK 7TH ST NW S/B"
+      ],
       "siteID": "agency-dc-ate-0581",
       "sourceIDs": [
         "agency/dc/ATE 0581"
@@ -4461,7 +5086,11 @@
       "id": "agency-dc-ate-0582",
       "kind": "possibleSpeed",
       "label": "6200 BLK WESTERN AVE NW NE/B",
+      "locationKey": "6200 BLK WESTERN AVE NW NE/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK WESTERN AVE NW NE/B"
+      ],
       "siteID": "agency-dc-ate-0582",
       "sourceIDs": [
         "agency/dc/ATE 0582"
@@ -4486,7 +5115,11 @@
       "id": "agency-dc-ate-0584",
       "kind": "possibleSpeed",
       "label": "3700 BLK ALABAMA AVE SE SW/B",
+      "locationKey": "3700 BLK ALABAMA AVE SE SW/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK ALABAMA AVE SE SW/B"
+      ],
       "siteID": "agency-dc-ate-0584",
       "sourceIDs": [
         "agency/dc/ATE 0584"
@@ -4511,6 +5144,7 @@
       "id": "agency-dc-ate-0585",
       "kind": "redLight",
       "label": "CONNECTICUT AVE S/B @ FLORIDA AVE NW",
+      "locationKey": "CONNECTICUT AVE S/B @ FLORIDA AVE NW",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-dc-ate-0585",
       "sourceIDs": [
@@ -4536,6 +5170,7 @@
       "id": "agency-dc-ate-0586",
       "kind": "redLight",
       "label": "BLADENSBURG RD S/B @ 17TH ST NE",
+      "locationKey": "BLADENSBURG RD S/B @ 17TH ST NE",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-dc-ate-0586",
       "sourceIDs": [
@@ -4561,6 +5196,7 @@
       "id": "agency-dc-ate-0588",
       "kind": "redLight",
       "label": "SOUTHEAST BLVD W/B @ 11TH ST SE",
+      "locationKey": "SOUTHEAST BLVD W/B @ 11TH ST SE",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-dc-ate-0588",
       "sourceIDs": [
@@ -4586,7 +5222,11 @@
       "id": "agency-dc-ate-0589",
       "kind": "possibleSpeed",
       "label": "500 BLK MASSACHUSETTS AVE NW E/B",
+      "locationKey": "500 BLK MASSACHUSETTS AVE NW E/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK MASSACHUSETTS AVE NW E/B"
+      ],
       "siteID": "agency-dc-ate-0589",
       "sourceIDs": [
         "agency/dc/ATE 0589"
@@ -4611,7 +5251,11 @@
       "id": "agency-dc-ate-0590",
       "kind": "possibleSpeed",
       "label": "5400 BLK GEORGIA AVE NW N/B",
+      "locationKey": "5400 BLK GEORGIA AVE NW N/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK GEORGIA AVE NW N/B"
+      ],
       "siteID": "agency-dc-ate-0590",
       "sourceIDs": [
         "agency/dc/ATE 0590"
@@ -4636,6 +5280,7 @@
       "id": "agency-dc-ate-0591",
       "kind": "redLight",
       "label": "16TH ST S/B @ COLORADO AVE NW",
+      "locationKey": "16TH ST S/B @ COLORADO AVE NW",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-dc-ate-0591",
       "sourceIDs": [
@@ -4661,6 +5306,7 @@
       "id": "agency-dc-ate-0592",
       "kind": "redLight",
       "label": "MILITARY RD W/B @ 14TH ST NW",
+      "locationKey": "MILITARY RD W/B @ 14TH ST NW",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-dc-ate-0592",
       "sourceIDs": [
@@ -4686,6 +5332,7 @@
       "id": "agency-dc-ate-0593",
       "kind": "redLight",
       "label": "NEW YORK AVE SW/B @ N CAPITOL ST NE",
+      "locationKey": "NEW YORK AVE SW/B @ N CAPITOL ST NE",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-dc-ate-0593",
       "sourceIDs": [
@@ -4711,6 +5358,7 @@
       "id": "agency-dc-ate-0594",
       "kind": "redLight",
       "label": "SUITLAND PKWY W/B @ STANTON RD SE",
+      "locationKey": "SUITLAND PKWY W/B @ STANTON RD SE",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-dc-ate-0594",
       "sourceIDs": [
@@ -4736,6 +5384,7 @@
       "id": "agency-dc-ate-0595",
       "kind": "redLight",
       "label": "14TH ST N/B @ K ST NW",
+      "locationKey": "14TH ST N/B @ K ST NW",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-dc-ate-0595",
       "sourceIDs": [
@@ -4761,6 +5410,7 @@
       "id": "agency-dc-ate-0596",
       "kind": "redLight",
       "label": "14TH ST S/B @ U ST NW",
+      "locationKey": "14TH ST S/B @ U ST NW",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-dc-ate-0596",
       "sourceIDs": [
@@ -4786,6 +5436,7 @@
       "id": "agency-dc-ate-0597",
       "kind": "redLight",
       "label": "BLADENSBURG RD N/B @ NY AVE NE",
+      "locationKey": "BLADENSBURG RD N/B @ NY AVE NE",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-dc-ate-0597",
       "sourceIDs": [
@@ -4811,6 +5462,7 @@
       "id": "agency-dc-ate-0598",
       "kind": "redLight",
       "label": "BRANCH AVE N/B @ ALABAMA AVE SE",
+      "locationKey": "BRANCH AVE N/B @ ALABAMA AVE SE",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-dc-ate-0598",
       "sourceIDs": [
@@ -4836,6 +5488,7 @@
       "id": "agency-dc-ate-0599",
       "kind": "redLight",
       "label": "CONNECTICUT AVE N/B @ MILITARY NW",
+      "locationKey": "CONNECTICUT AVE N/B @ MILITARY NW",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-dc-ate-0599",
       "sourceIDs": [
@@ -4861,6 +5514,7 @@
       "id": "agency-dc-ate-0600",
       "kind": "redLight",
       "label": "CONNECTICUT AVE S/B @ PORTER ST NW",
+      "locationKey": "CONNECTICUT AVE S/B @ PORTER ST NW",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-dc-ate-0600",
       "sourceIDs": [
@@ -4886,6 +5540,7 @@
       "id": "agency-dc-ate-0601",
       "kind": "redLight",
       "label": "E CAPITOL ST E/B @ TEXAS AVE SE",
+      "locationKey": "E CAPITOL ST E/B @ TEXAS AVE SE",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-dc-ate-0601",
       "sourceIDs": [
@@ -4911,6 +5566,7 @@
       "id": "agency-dc-ate-0602",
       "kind": "redLight",
       "label": "E CAPITOL ST W/B @ BENNING RD NE",
+      "locationKey": "E CAPITOL ST W/B @ BENNING RD NE",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-dc-ate-0602",
       "sourceIDs": [
@@ -4936,6 +5592,7 @@
       "id": "agency-dc-ate-0603",
       "kind": "redLight",
       "label": "GEORGIA AVE S/B @ MISSOURI AVE NW",
+      "locationKey": "GEORGIA AVE S/B @ MISSOURI AVE NW",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-dc-ate-0603",
       "sourceIDs": [
@@ -4961,6 +5618,7 @@
       "id": "agency-dc-ate-0604",
       "kind": "redLight",
       "label": "K ST W/B @ 25TH ST NW",
+      "locationKey": "K ST W/B @ 25TH ST NW",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-dc-ate-0604",
       "sourceIDs": [
@@ -4986,6 +5644,7 @@
       "id": "agency-dc-ate-0605",
       "kind": "redLight",
       "label": "N CAPITOL ST N/B @ HAREWOOD RD NE",
+      "locationKey": "N CAPITOL ST N/B @ HAREWOOD RD NE",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-dc-ate-0605",
       "sourceIDs": [
@@ -5011,6 +5670,7 @@
       "id": "agency-dc-ate-0606",
       "kind": "redLight",
       "label": "N CAPITOL ST N/B @ RIGGS RD NE",
+      "locationKey": "N CAPITOL ST N/B @ RIGGS RD NE",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-dc-ate-0606",
       "sourceIDs": [
@@ -5036,6 +5696,7 @@
       "id": "agency-dc-ate-0607",
       "kind": "redLight",
       "label": "N CAPITOL ST S/B @ GALLATIN ST NW",
+      "locationKey": "N CAPITOL ST S/B @ GALLATIN ST NW",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-dc-ate-0607",
       "sourceIDs": [
@@ -5061,6 +5722,7 @@
       "id": "agency-dc-ate-0608",
       "kind": "redLight",
       "label": "NEBRASKA AVE NE/B @ FESSENDEN ST NW",
+      "locationKey": "NEBRASKA AVE NE/B @ FESSENDEN ST NW",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-dc-ate-0608",
       "sourceIDs": [
@@ -5086,6 +5748,7 @@
       "id": "agency-dc-ate-0609",
       "kind": "redLight",
       "label": "NY AVE E/B @ BLADENSBURG RD NE",
+      "locationKey": "NY AVE E/B @ BLADENSBURG RD NE",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-dc-ate-0609",
       "sourceIDs": [
@@ -5111,6 +5774,7 @@
       "id": "agency-dc-ate-0700",
       "kind": "redLight",
       "label": "PENNSYLVANIA AVE W/B @ MINNESOTA SE",
+      "locationKey": "PENNSYLVANIA AVE W/B @ MINNESOTA SE",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-dc-ate-0700",
       "sourceIDs": [
@@ -5136,6 +5800,7 @@
       "id": "agency-dc-ate-0701",
       "kind": "redLight",
       "label": "RHODE ISLAND AVE SW/B @ REED ST NE",
+      "locationKey": "RHODE ISLAND AVE SW/B @ REED ST NE",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-dc-ate-0701",
       "sourceIDs": [
@@ -5161,6 +5826,7 @@
       "id": "agency-dc-ate-0703",
       "kind": "redLight",
       "label": "WISCONSIN AVE N/B @ BRANDYWINE NW",
+      "locationKey": "WISCONSIN AVE N/B @ BRANDYWINE NW",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-dc-ate-0703",
       "sourceIDs": [
@@ -5186,7 +5852,11 @@
       "id": "agency-dc-ate-0704",
       "kind": "possibleSpeed",
       "label": "1400 BLK BLADENSBURG RD NE N/B",
+      "locationKey": "1400 BLK BLADENSBURG RD NE N/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK BLADENSBURG RD NE N/B"
+      ],
       "siteID": "agency-dc-ate-0704",
       "sourceIDs": [
         "agency/dc/ATE 0704"
@@ -5211,7 +5881,11 @@
       "id": "agency-dc-ate-0705",
       "kind": "possibleSpeed",
       "label": "1100 BLK BLADENSBURG RD NE NE/B",
+      "locationKey": "1100 BLK BLADENSBURG RD NE NE/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK BLADENSBURG RD NE NE/B"
+      ],
       "siteID": "agency-dc-ate-0705",
       "sourceIDs": [
         "agency/dc/ATE 0705"
@@ -5236,7 +5910,11 @@
       "id": "agency-dc-ate-0706",
       "kind": "possibleSpeed",
       "label": "1100 BLK BLADENSBURG RD NE SW/B",
+      "locationKey": "1100 BLK BLADENSBURG RD NE SW/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK BLADENSBURG RD NE SW/B"
+      ],
       "siteID": "agency-dc-ate-0706",
       "sourceIDs": [
         "agency/dc/ATE 0706"
@@ -5261,7 +5939,11 @@
       "id": "agency-dc-ate-0707",
       "kind": "possibleSpeed",
       "label": "3600 BLK ALABAMA AVE SE NE/B",
+      "locationKey": "3600 BLK ALABAMA AVE SE NE/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK ALABAMA AVE SE NE/B"
+      ],
       "siteID": "agency-dc-ate-0707",
       "sourceIDs": [
         "agency/dc/ATE 0707"
@@ -5286,6 +5968,7 @@
       "id": "agency-dc-ate-0757",
       "kind": "redLight",
       "label": "K ST E/B @ 27TH ST NW",
+      "locationKey": "K ST E/B @ 27TH ST NW",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-dc-ate-0757",
       "sourceIDs": [
@@ -5311,6 +5994,7 @@
       "id": "agency-dc-ate-0784",
       "kind": "redLight",
       "label": "16TH ST S/B @ IRVING ST NW",
+      "locationKey": "16TH ST S/B @ IRVING ST NW",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-dc-ate-0784",
       "sourceIDs": [
@@ -5336,7 +6020,11 @@
       "id": "agency-dc-ate-0785",
       "kind": "possibleSpeed",
       "label": "4200 BLK SOUTHERN AVE SE SW/B",
+      "locationKey": "4200 BLK SOUTHERN AVE SE SW/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK SOUTHERN AVE SE SW/B"
+      ],
       "siteID": "agency-dc-ate-0785",
       "sourceIDs": [
         "agency/dc/ATE 0785"
@@ -5361,6 +6049,7 @@
       "id": "agency-dc-ate-0787",
       "kind": "redLight",
       "label": "14TH ST N/B @ C ST SW",
+      "locationKey": "14TH ST N/B @ C ST SW",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-dc-ate-0787",
       "sourceIDs": [
@@ -5386,6 +6075,7 @@
       "id": "agency-dc-ate-0804",
       "kind": "redLight",
       "label": "Benning Rd e/b @ 34 St NE",
+      "locationKey": "Benning Rd e/b @ 34 St NE",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-dc-ate-0804",
       "sourceIDs": [
@@ -5411,6 +6101,7 @@
       "id": "agency-dc-ate-0805",
       "kind": "redLight",
       "label": "Minnesota Ave ne/b @ Benning Rd NE",
+      "locationKey": "Minnesota Ave ne/b @ Benning Rd NE",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-dc-ate-0805",
       "sourceIDs": [
@@ -5436,6 +6127,7 @@
       "id": "agency-dc-ate-0806",
       "kind": "redLight",
       "label": "Park Pl s/b @ Irving St NW",
+      "locationKey": "Park Pl s/b @ Irving St NW",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-dc-ate-0806",
       "sourceIDs": [
@@ -5461,7 +6153,11 @@
       "id": "agency-dc-ate-0807",
       "kind": "possibleSpeed",
       "label": "3000 blk Wisconsin Ave NW n/b",
+      "locationKey": "3000 blk Wisconsin Ave NW n/b",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "blk Wisconsin Ave NW n/b"
+      ],
       "siteID": "agency-dc-ate-0807",
       "sourceIDs": [
         "agency/dc/ATE 0807"
@@ -5486,7 +6182,11 @@
       "id": "agency-dc-ate-0808",
       "kind": "possibleSpeed",
       "label": "5000 blk E Capitol St NE w/b",
+      "locationKey": "5000 blk E Capitol St NE w/b",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "blk E Capitol St NE w/b"
+      ],
       "siteID": "agency-dc-ate-0808",
       "sourceIDs": [
         "agency/dc/ATE 0808"
@@ -5511,7 +6211,11 @@
       "id": "agency-dc-ate-0809",
       "kind": "possibleSpeed",
       "label": "100 blk Rhode Island Ave NE ne/b",
+      "locationKey": "100 blk Rhode Island Ave NE ne/b",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "blk Rhode Island Ave NE ne/b"
+      ],
       "siteID": "agency-dc-ate-0809",
       "sourceIDs": [
         "agency/dc/ATE 0809"
@@ -5536,6 +6240,7 @@
       "id": "agency-dc-ate-0813",
       "kind": "redLight",
       "label": "M St w/b @ Wisconsin Ave NW",
+      "locationKey": "M St w/b @ Wisconsin Ave NW",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-dc-ate-0813",
       "sourceIDs": [
@@ -5561,6 +6266,7 @@
       "id": "agency-dc-ate-0814",
       "kind": "redLight",
       "label": "Rhode Island Ave ne/b @ Montana Ave NE",
+      "locationKey": "Rhode Island Ave ne/b @ Montana Ave NE",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-dc-ate-0814",
       "sourceIDs": [
@@ -5586,7 +6292,11 @@
       "id": "agency-dc-ate-0815",
       "kind": "possibleSpeed",
       "label": "2600 BLK MLK JR AVE SE S/B",
+      "locationKey": "2600 BLK MLK JR AVE SE S/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK MLK JR AVE SE S/B"
+      ],
       "siteID": "agency-dc-ate-0815",
       "sourceIDs": [
         "agency/dc/ATE 0815"
@@ -5611,7 +6321,11 @@
       "id": "agency-dc-ate-0816",
       "kind": "possibleSpeed",
       "label": "2700 BLK MLK JR AVE SE N/B",
+      "locationKey": "2700 BLK MLK JR AVE SE N/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK MLK JR AVE SE N/B"
+      ],
       "siteID": "agency-dc-ate-0816",
       "sourceIDs": [
         "agency/dc/ATE 0816"
@@ -5636,6 +6350,7 @@
       "id": "agency-dc-ate-0817",
       "kind": "redLight",
       "label": "S Capitol St SW/B @ MLK Jr Ave SE",
+      "locationKey": "S Capitol St SW/B @ MLK Jr Ave SE",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-dc-ate-0817",
       "sourceIDs": [
@@ -5661,6 +6376,7 @@
       "id": "agency-dc-ate-0818",
       "kind": "redLight",
       "label": "Massachusetts Ave e/b @ 9th St NW",
+      "locationKey": "Massachusetts Ave e/b @ 9th St NW",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-dc-ate-0818",
       "sourceIDs": [
@@ -5686,6 +6402,7 @@
       "id": "agency-dc-ate-0819",
       "kind": "redLight",
       "label": "Bladensburg Rd s/b @ NY Ave NE",
+      "locationKey": "Bladensburg Rd s/b @ NY Ave NE",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-dc-ate-0819",
       "sourceIDs": [
@@ -5711,6 +6428,7 @@
       "id": "agency-dc-ate-0820",
       "kind": "redLight",
       "label": "Southern Ave ne/b @ Wheeler Rd SE",
+      "locationKey": "Southern Ave ne/b @ Wheeler Rd SE",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-dc-ate-0820",
       "sourceIDs": [
@@ -5736,6 +6454,7 @@
       "id": "agency-dc-ate-0821",
       "kind": "redLight",
       "label": "Stanton Rd s/b @ Alabama Ave SE",
+      "locationKey": "Stanton Rd s/b @ Alabama Ave SE",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-dc-ate-0821",
       "sourceIDs": [
@@ -5761,6 +6480,7 @@
       "id": "agency-dc-ate-0822",
       "kind": "redLight",
       "label": "RI Ave e/b @ N Capitol St NW",
+      "locationKey": "RI Ave e/b @ N Capitol St NW",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-dc-ate-0822",
       "sourceIDs": [
@@ -5786,7 +6506,11 @@
       "id": "agency-dc-ate-0823",
       "kind": "possibleSpeed",
       "label": "3800 blk Eastern Ave NE se/b",
+      "locationKey": "3800 blk Eastern Ave NE se/b",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "blk Eastern Ave NE se/b"
+      ],
       "siteID": "agency-dc-ate-0823",
       "sourceIDs": [
         "agency/dc/ATE 0823"
@@ -5811,7 +6535,11 @@
       "id": "agency-dc-ate-0824",
       "kind": "possibleSpeed",
       "label": "3800 blk Eastern Ave NE nw/b",
+      "locationKey": "3800 blk Eastern Ave NE nw/b",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "blk Eastern Ave NE nw/b"
+      ],
       "siteID": "agency-dc-ate-0824",
       "sourceIDs": [
         "agency/dc/ATE 0824"
@@ -5836,7 +6564,11 @@
       "id": "agency-dc-ate-0826",
       "kind": "possibleSpeed",
       "label": "5100 blk 11Th St SE se/b",
+      "locationKey": "5100 blk 11Th St SE se/b",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "blk 11Th St SE se/b"
+      ],
       "siteID": "agency-dc-ate-0826",
       "sourceIDs": [
         "agency/dc/ATE 0826"
@@ -5861,7 +6593,11 @@
       "id": "agency-dc-ate-0827",
       "kind": "possibleSpeed",
       "label": "1700 blk Montana  Ave NE nw/b",
+      "locationKey": "1700 blk Montana  Ave NE nw/b",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "blk Montana  Ave NE nw/b"
+      ],
       "siteID": "agency-dc-ate-0827",
       "sourceIDs": [
         "agency/dc/ATE 0827"
@@ -5886,7 +6622,11 @@
       "id": "agency-dc-ate-0828",
       "kind": "possibleSpeed",
       "label": "1100 blk  Brentwood  Rd NE n/b",
+      "locationKey": "1100 blk  Brentwood  Rd NE n/b",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "blk  Brentwood  Rd NE n/b"
+      ],
       "siteID": "agency-dc-ate-0828",
       "sourceIDs": [
         "agency/dc/ATE 0828"
@@ -5911,7 +6651,11 @@
       "id": "agency-dc-ate-0829",
       "kind": "possibleSpeed",
       "label": "5300 blk Nebraska  Ave NW sw/b",
+      "locationKey": "5300 blk Nebraska  Ave NW sw/b",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "blk Nebraska  Ave NW sw/b"
+      ],
       "siteID": "agency-dc-ate-0829",
       "sourceIDs": [
         "agency/dc/ATE 0829"
@@ -5936,7 +6680,11 @@
       "id": "agency-dc-ate-0831",
       "kind": "possibleSpeed",
       "label": "4600 blk Connecticut Ave NW n/b",
+      "locationKey": "4600 blk Connecticut Ave NW n/b",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "blk Connecticut Ave NW n/b"
+      ],
       "siteID": "agency-dc-ate-0831",
       "sourceIDs": [
         "agency/dc/ATE 0831"
@@ -5961,7 +6709,11 @@
       "id": "agency-dc-ate-0832",
       "kind": "possibleSpeed",
       "label": "4600 blk Connecticut Ave NW s/b",
+      "locationKey": "4600 blk Connecticut Ave NW s/b",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "blk Connecticut Ave NW s/b"
+      ],
       "siteID": "agency-dc-ate-0832",
       "sourceIDs": [
         "agency/dc/ATE 0832"
@@ -5986,7 +6738,11 @@
       "id": "agency-dc-ate-0833",
       "kind": "possibleSpeed",
       "label": "5500 blk S Dakota Ave NE se/b",
+      "locationKey": "5500 blk S Dakota Ave NE se/b",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "blk S Dakota Ave NE se/b"
+      ],
       "siteID": "agency-dc-ate-0833",
       "sourceIDs": [
         "agency/dc/ATE 0833"
@@ -6011,7 +6767,11 @@
       "id": "agency-dc-ate-0834",
       "kind": "possibleSpeed",
       "label": "4500 blk Texas Ave SE s/b",
+      "locationKey": "4500 blk Texas Ave SE s/b",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "blk Texas Ave SE s/b"
+      ],
       "siteID": "agency-dc-ate-0834",
       "sourceIDs": [
         "agency/dc/ATE 0834"
@@ -6036,7 +6796,11 @@
       "id": "agency-dc-ate-0835",
       "kind": "possibleSpeed",
       "label": "4000 blk MLK Jr Ave SW sw/b",
+      "locationKey": "4000 blk MLK Jr Ave SW sw/b",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "blk MLK Jr Ave SW sw/b"
+      ],
       "siteID": "agency-dc-ate-0835",
       "sourceIDs": [
         "agency/dc/ATE 0835"
@@ -6061,7 +6825,11 @@
       "id": "agency-dc-ate-0836",
       "kind": "possibleSpeed",
       "label": "1200 blk New Jersey Ave NW s/b",
+      "locationKey": "1200 blk New Jersey Ave NW s/b",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "blk New Jersey Ave NW s/b"
+      ],
       "siteID": "agency-dc-ate-0836",
       "sourceIDs": [
         "agency/dc/ATE 0836"
@@ -6086,7 +6854,11 @@
       "id": "agency-dc-ate-0837",
       "kind": "possibleSpeed",
       "label": "7200 blk Piney Branch Rd NW sw/b",
+      "locationKey": "7200 blk Piney Branch Rd NW sw/b",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "blk Piney Branch Rd NW sw/b"
+      ],
       "siteID": "agency-dc-ate-0837",
       "sourceIDs": [
         "agency/dc/ATE 0837"
@@ -6111,7 +6883,11 @@
       "id": "agency-dc-ate-0838",
       "kind": "possibleSpeed",
       "label": "3600 blk Fort Lincoln Dr NE sw/b",
+      "locationKey": "3600 blk Fort Lincoln Dr NE sw/b",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "blk Fort Lincoln Dr NE sw/b"
+      ],
       "siteID": "agency-dc-ate-0838",
       "sourceIDs": [
         "agency/dc/ATE 0838"
@@ -6136,7 +6912,11 @@
       "id": "agency-dc-ate-0839",
       "kind": "possibleSpeed",
       "label": "700 blk Ridge Rd SE se/b",
+      "locationKey": "700 blk Ridge Rd SE se/b",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "blk Ridge Rd SE se/b"
+      ],
       "siteID": "agency-dc-ate-0839",
       "sourceIDs": [
         "agency/dc/ATE 0839"
@@ -6161,7 +6941,11 @@
       "id": "agency-dc-ate-0840",
       "kind": "possibleSpeed",
       "label": "1600 blk Monroe St NE w/b",
+      "locationKey": "1600 blk Monroe St NE w/b",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "blk Monroe St NE w/b"
+      ],
       "siteID": "agency-dc-ate-0840",
       "sourceIDs": [
         "agency/dc/ATE 0840"
@@ -6186,7 +6970,11 @@
       "id": "agency-dc-ate-0841",
       "kind": "possibleSpeed",
       "label": "1300 blk Pennsylvania Ave SE e/b (WZ)",
+      "locationKey": "1300 blk Pennsylvania Ave SE e/b (WZ)",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "blk Pennsylvania Ave SE e/b (WZ)"
+      ],
       "siteID": "agency-dc-ate-0841",
       "sourceIDs": [
         "agency/dc/ATE 0841"
@@ -6211,7 +6999,11 @@
       "id": "agency-dc-ate-0842",
       "kind": "possibleSpeed",
       "label": "1300 blk Pennsylvania Ave SE w/b (WZ)",
+      "locationKey": "1300 blk Pennsylvania Ave SE w/b (WZ)",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "blk Pennsylvania Ave SE w/b (WZ)"
+      ],
       "siteID": "agency-dc-ate-0842",
       "sourceIDs": [
         "agency/dc/ATE 0842"
@@ -6236,7 +7028,11 @@
       "id": "agency-dc-ate-0843",
       "kind": "possibleSpeed",
       "label": "600 blk Ridge Rd SE nw/b",
+      "locationKey": "600 blk Ridge Rd SE nw/b",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "blk Ridge Rd SE nw/b"
+      ],
       "siteID": "agency-dc-ate-0843",
       "sourceIDs": [
         "agency/dc/ATE 0843"
@@ -6261,7 +7057,11 @@
       "id": "agency-dc-ate-0844",
       "kind": "possibleSpeed",
       "label": "1300 blk H St NE w/b",
+      "locationKey": "1300 blk H St NE w/b",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "blk H St NE w/b"
+      ],
       "siteID": "agency-dc-ate-0844",
       "sourceIDs": [
         "agency/dc/ATE 0844"
@@ -6286,6 +7086,7 @@
       "id": "agency-dc-ate-0845",
       "kind": "redLight",
       "label": "Rhode Island Ave sw/b @ N Capitol St NE",
+      "locationKey": "Rhode Island Ave sw/b @ N Capitol St NE",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-dc-ate-0845",
       "sourceIDs": [
@@ -6311,7 +7112,11 @@
       "id": "agency-dc-ate-0846",
       "kind": "possibleSpeed",
       "label": "700 BLK ALLEN Y LEW PL NW E/B",
+      "locationKey": "700 BLK ALLEN Y LEW PL NW E/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK ALLEN Y LEW PL NW E/B"
+      ],
       "siteID": "agency-dc-ate-0846",
       "sourceIDs": [
         "agency/dc/ATE 0846"
@@ -6336,7 +7141,11 @@
       "id": "agency-dc-ate-0847",
       "kind": "possibleSpeed",
       "label": "1000 BLK 7TH St NW S/B",
+      "locationKey": "1000 BLK 7TH St NW S/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK 7TH St NW S/B"
+      ],
       "siteID": "agency-dc-ate-0847",
       "sourceIDs": [
         "agency/dc/ATE 0847"
@@ -6361,7 +7170,11 @@
       "id": "agency-dc-ate-0848",
       "kind": "possibleSpeed",
       "label": "1900 BLK NEW YORK AVE NE E/B",
+      "locationKey": "1900 BLK NEW YORK AVE NE E/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK NEW YORK AVE NE E/B"
+      ],
       "siteID": "agency-dc-ate-0848",
       "sourceIDs": [
         "agency/dc/ATE 0848"
@@ -6386,7 +7199,11 @@
       "id": "agency-dc-ate-0849",
       "kind": "possibleSpeed",
       "label": "1800 BLK NEW YORK AVE NE W/B",
+      "locationKey": "1800 BLK NEW YORK AVE NE W/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK NEW YORK AVE NE W/B"
+      ],
       "siteID": "agency-dc-ate-0849",
       "sourceIDs": [
         "agency/dc/ATE 0849"
@@ -6411,7 +7228,11 @@
       "id": "agency-dc-ate-0850",
       "kind": "possibleSpeed",
       "label": "3200 BLK WISCONSIN AVE NW N/B",
+      "locationKey": "3200 BLK WISCONSIN AVE NW N/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK WISCONSIN AVE NW N/B"
+      ],
       "siteID": "agency-dc-ate-0850",
       "sourceIDs": [
         "agency/dc/ATE 0850"
@@ -6436,7 +7257,11 @@
       "id": "agency-dc-ate-0851",
       "kind": "possibleSpeed",
       "label": "3300 BLK WISCONSIN AVE NW S/B",
+      "locationKey": "3300 BLK WISCONSIN AVE NW S/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK WISCONSIN AVE NW S/B"
+      ],
       "siteID": "agency-dc-ate-0851",
       "sourceIDs": [
         "agency/dc/ATE 0851"
@@ -6461,7 +7286,11 @@
       "id": "agency-dc-ate-0852",
       "kind": "possibleSpeed",
       "label": "4100 BLK WISCONSIN AVE NW S/B",
+      "locationKey": "4100 BLK WISCONSIN AVE NW S/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK WISCONSIN AVE NW S/B"
+      ],
       "siteID": "agency-dc-ate-0852",
       "sourceIDs": [
         "agency/dc/ATE 0852"
@@ -6486,7 +7315,11 @@
       "id": "agency-dc-ate-0853",
       "kind": "possibleSpeed",
       "label": "4500 BLK E CAPITOL ST NE W/B",
+      "locationKey": "4500 BLK E CAPITOL ST NE W/B",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "BLK E CAPITOL ST NE W/B"
+      ],
       "siteID": "agency-dc-ate-0853",
       "sourceIDs": [
         "agency/dc/ATE 0853"
@@ -6511,7 +7344,11 @@
       "id": "agency-dc-ate-0854",
       "kind": "possibleSpeed",
       "label": "400 blk Southern Ave SE sw/b",
+      "locationKey": "400 blk Southern Ave SE sw/b",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "blk Southern Ave SE sw/b"
+      ],
       "siteID": "agency-dc-ate-0854",
       "sourceIDs": [
         "agency/dc/ATE 0854"
@@ -6536,6 +7373,7 @@
       "id": "agency-dc-ate-0860",
       "kind": "redLight",
       "label": "New York Ave e/b @ Florida Ave NE",
+      "locationKey": "New York Ave e/b @ Florida Ave NE",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-dc-ate-0860",
       "sourceIDs": [
@@ -6561,7 +7399,11 @@
       "id": "agency-dc-ate-0863",
       "kind": "possibleSpeed",
       "label": "3400 blk Benning Rd NE e/b",
+      "locationKey": "3400 blk Benning Rd NE e/b",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "blk Benning Rd NE e/b"
+      ],
       "siteID": "agency-dc-ate-0863",
       "sourceIDs": [
         "agency/dc/ATE 0863"
@@ -6586,7 +7428,11 @@
       "id": "agency-dc-ate-0865",
       "kind": "possibleSpeed",
       "label": "300 blk Florida Ave NE w/b",
+      "locationKey": "300 blk Florida Ave NE w/b",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "blk Florida Ave NE w/b"
+      ],
       "siteID": "agency-dc-ate-0865",
       "sourceIDs": [
         "agency/dc/ATE 0865"
@@ -6611,7 +7457,11 @@
       "id": "agency-dc-ate-0869",
       "kind": "possibleSpeed",
       "label": "800 blk H St NE w/b",
+      "locationKey": "800 blk H St NE w/b",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "blk H St NE w/b"
+      ],
       "siteID": "agency-dc-ate-0869",
       "sourceIDs": [
         "agency/dc/ATE 0869"
@@ -6636,7 +7486,11 @@
       "id": "agency-dc-ate-0870",
       "kind": "possibleSpeed",
       "label": "2800 blk Sherman Ave NW s/b",
+      "locationKey": "2800 blk Sherman Ave NW s/b",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "blk Sherman Ave NW s/b"
+      ],
       "siteID": "agency-dc-ate-0870",
       "sourceIDs": [
         "agency/dc/ATE 0870"
@@ -6661,7 +7515,11 @@
       "id": "agency-dc-ate-0874",
       "kind": "possibleSpeed",
       "label": "4200 blk Reno Rd NW se/b",
+      "locationKey": "4200 blk Reno Rd NW se/b",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "blk Reno Rd NW se/b"
+      ],
       "siteID": "agency-dc-ate-0874",
       "sourceIDs": [
         "agency/dc/ATE 0874"
@@ -6686,7 +7544,11 @@
       "id": "agency-dc-ate-0883",
       "kind": "possibleSpeed",
       "label": "2000 blk 14th St NW s/b",
+      "locationKey": "2000 blk 14th St NW s/b",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "blk 14th St NW s/b"
+      ],
       "siteID": "agency-dc-ate-0883",
       "sourceIDs": [
         "agency/dc/ATE 0883"
@@ -6701,7 +7563,7 @@
       "travelBearing": 180
     }
   ],
-  "checkedAt": "2026-09-15T02:09:42Z",
+  "checkedAt": "2026-09-15T03:56:21Z",
   "excluded": [
     {
       "reason": "Not speed/red-light enforcement",

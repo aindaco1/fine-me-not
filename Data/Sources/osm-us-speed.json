@@ -1359,8 +1359,8 @@
     },
     {
       "id": 2876764211,
-      "lat": 39.3226255,
-      "lon": -76.6668316,
+      "lat": 39.3226847,
+      "lon": -76.666792,
       "tags": {
         "highway": "speed_camera",
         "note": "Speed camera measuring traffic in eastbound direction at intersection of LIBERTY HEIGHTS AVE & N DUKELAND ST",
@@ -14765,7 +14765,7 @@
   "osm3s": {
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
     "timestamp_areas_base": "2026-09-14T12:17:00Z",
-    "timestamp_osm_base": "2026-09-15T02:07:20Z"
+    "timestamp_osm_base": "2026-09-15T03:54:20Z"
   },
   "version": 0.6
 }

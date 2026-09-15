@@ -11,6 +11,7 @@
       "id": "agency-seattle-se01",
       "kind": "redLight",
       "label": "EB Denny Way @ Fairview Ave",
+      "locationKey": "EB Denny Way @ Fairview Ave",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-se01",
       "sourceIDs": [
@@ -29,6 +30,7 @@
       "id": "agency-seattle-se02",
       "kind": "redLight",
       "label": "WB Denny Way @ Fairview Ave",
+      "locationKey": "WB Denny Way @ Fairview Ave",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-se02",
       "sourceIDs": [
@@ -47,6 +49,7 @@
       "id": "agency-seattle-se03",
       "kind": "redLight",
       "label": "NB Rainier Ave S @ S Orcas St",
+      "locationKey": "NB Rainier Ave S @ S Orcas St",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-se03",
       "sourceIDs": [
@@ -65,6 +68,7 @@
       "id": "agency-seattle-se04",
       "kind": "redLight",
       "label": "EB NE 45th St @ Roosevelt Way NE",
+      "locationKey": "EB NE 45th St @ Roosevelt Way NE",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-se04",
       "sourceIDs": [
@@ -83,6 +87,7 @@
       "id": "agency-seattle-se05",
       "kind": "redLight",
       "label": "SB Rainier Ave S @ S Orcas St",
+      "locationKey": "SB Rainier Ave S @ S Orcas St",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-se05",
       "sourceIDs": [
@@ -101,6 +106,7 @@
       "id": "agency-seattle-se06",
       "kind": "redLight",
       "label": "EB Spring St @ 5th Ave",
+      "locationKey": "EB Spring St @ 5th Ave",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-se06",
       "sourceIDs": [
@@ -119,6 +125,7 @@
       "id": "agency-seattle-se07",
       "kind": "redLight",
       "label": "NB 9th Ave @ James St",
+      "locationKey": "NB 9th Ave @ James St",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-se07",
       "sourceIDs": [
@@ -137,6 +144,7 @@
       "id": "agency-seattle-se08",
       "kind": "redLight",
       "label": "NB Broadway E @ E Olive Way",
+      "locationKey": "NB Broadway E @ E Olive Way",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-se08",
       "sourceIDs": [
@@ -155,6 +163,7 @@
       "id": "agency-seattle-se14",
       "kind": "redLight",
       "label": "EB S Cloverdale St @ 14th Ave S",
+      "locationKey": "EB S Cloverdale St @ 14th Ave S",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-se14",
       "sourceIDs": [
@@ -173,6 +182,7 @@
       "id": "agency-seattle-se15",
       "kind": "redLight",
       "label": "NB Rainier Ave S @ S Massachusetts St",
+      "locationKey": "NB Rainier Ave S @ S Massachusetts St",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-se15",
       "sourceIDs": [
@@ -191,6 +201,7 @@
       "id": "agency-seattle-se16",
       "kind": "redLight",
       "label": "EB NW Market St @ 15th Ave NW",
+      "locationKey": "EB NW Market St @ 15th Ave NW",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-se16",
       "sourceIDs": [
@@ -209,6 +220,7 @@
       "id": "agency-seattle-se17",
       "kind": "redLight",
       "label": "WB NW Market St @ 15th Ave NW",
+      "locationKey": "WB NW Market St @ 15th Ave NW",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-se17",
       "sourceIDs": [
@@ -227,6 +239,7 @@
       "id": "agency-seattle-se18",
       "kind": "redLight",
       "label": "EB E Olive Way @ Broadway E",
+      "locationKey": "EB E Olive Way @ Broadway E",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-se18",
       "sourceIDs": [
@@ -245,6 +258,7 @@
       "id": "agency-seattle-se19",
       "kind": "redLight",
       "label": "SB 15th Ave NW @ NW 80th St",
+      "locationKey": "SB 15th Ave NW @ NW 80th St",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-se19",
       "sourceIDs": [
@@ -263,6 +277,7 @@
       "id": "agency-seattle-se21",
       "kind": "redLight",
       "label": "SB 23rd Ave E @ E John St",
+      "locationKey": "SB 23rd Ave E @ E John St",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-se21",
       "sourceIDs": [
@@ -281,6 +296,7 @@
       "id": "agency-seattle-se22",
       "kind": "redLight",
       "label": "SB 35th Ave SW @ SW Thistle St",
+      "locationKey": "SB 35th Ave SW @ SW Thistle St",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-se22",
       "sourceIDs": [
@@ -299,6 +315,7 @@
       "id": "agency-seattle-se24",
       "kind": "redLight",
       "label": "SB 6th Ave @ James St",
+      "locationKey": "SB 6th Ave @ James St",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-se24",
       "sourceIDs": [
@@ -317,6 +334,7 @@
       "id": "agency-seattle-se25",
       "kind": "redLight",
       "label": "NB Aurora Ave N @ N 85th St",
+      "locationKey": "NB Aurora Ave N @ N 85th St",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-se25",
       "sourceIDs": [
@@ -335,6 +353,7 @@
       "id": "agency-seattle-se26",
       "kind": "redLight",
       "label": "SB Boren Ave @ James St",
+      "locationKey": "SB Boren Ave @ James St",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-se26",
       "sourceIDs": [
@@ -353,6 +372,7 @@
       "id": "agency-seattle-se27",
       "kind": "redLight",
       "label": "EB NE 80th St @ 5th Ave NE",
+      "locationKey": "EB NE 80th St @ 5th Ave NE",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-se27",
       "sourceIDs": [
@@ -371,6 +391,7 @@
       "id": "agency-seattle-se28",
       "kind": "redLight",
       "label": "WB S Mcclellan St @ M L King Jr Way S",
+      "locationKey": "WB S Mcclellan St @ M L King Jr Way S",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-se28",
       "sourceIDs": [
@@ -389,6 +410,7 @@
       "id": "agency-seattle-se29",
       "kind": "redLight",
       "label": "SB Stone Way N @ N 40th St",
+      "locationKey": "SB Stone Way N @ N 40th St",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-se29",
       "sourceIDs": [
@@ -407,6 +429,7 @@
       "id": "agency-seattle-se30",
       "kind": "redLight",
       "label": "WB SW Avalon Way @ 35th Ave SW",
+      "locationKey": "WB SW Avalon Way @ 35th Ave SW",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-se30",
       "sourceIDs": [
@@ -425,6 +448,7 @@
       "id": "agency-seattle-se31",
       "kind": "redLight",
       "label": "NB M L King Jr Way S @ S Mcclellan St",
+      "locationKey": "NB M L King Jr Way S @ S Mcclellan St",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-se31",
       "sourceIDs": [
@@ -443,6 +467,7 @@
       "id": "agency-seattle-se32",
       "kind": "redLight",
       "label": "SB M L King Jr Way S @ S Mcclellan St",
+      "locationKey": "SB M L King Jr Way S @ S Mcclellan St",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-se32",
       "sourceIDs": [
@@ -461,6 +486,7 @@
       "id": "agency-seattle-se33",
       "kind": "redLight",
       "label": "NB M L King Jr Way S @ S Othello St",
+      "locationKey": "NB M L King Jr Way S @ S Othello St",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-se33",
       "sourceIDs": [
@@ -479,6 +505,7 @@
       "id": "agency-seattle-se35",
       "kind": "redLight",
       "label": "WB S Othello St @ M L King Jr Way S",
+      "locationKey": "WB S Othello St @ M L King Jr Way S",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-se35",
       "sourceIDs": [
@@ -497,6 +524,7 @@
       "id": "agency-seattle-se36",
       "kind": "redLight",
       "label": "NB Boren Ave @ Pike St",
+      "locationKey": "NB Boren Ave @ Pike St",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-se36",
       "sourceIDs": [
@@ -515,6 +543,7 @@
       "id": "agency-seattle-se40",
       "kind": "redLight",
       "label": "NB 6th Ave @ University St",
+      "locationKey": "NB 6th Ave @ University St",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-se40",
       "sourceIDs": [
@@ -533,6 +562,7 @@
       "id": "agency-seattle-se42",
       "kind": "redLight",
       "label": "NB 11th Ave NE @ NE 45th St",
+      "locationKey": "NB 11th Ave NE @ NE 45th St",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-se42",
       "sourceIDs": [
@@ -551,6 +581,7 @@
       "id": "agency-seattle-se43",
       "kind": "speed",
       "label": "NB 5th Ave NE @ Olympic View Elementary",
+      "locationKey": "NB 5th Ave NE @ Olympic View Elementary",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-se43",
       "sourceIDs": [
@@ -569,6 +600,7 @@
       "id": "agency-seattle-se44",
       "kind": "speed",
       "label": "SB 5th Ave NE @ Olympic View Elementary",
+      "locationKey": "SB 5th Ave NE @ Olympic View Elementary",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-se44",
       "sourceIDs": [
@@ -587,6 +619,7 @@
       "id": "agency-seattle-se45",
       "kind": "speed",
       "label": "NB Fauntleroy Way SW @ Gatewood Elementary",
+      "locationKey": "NB Fauntleroy Way SW @ Gatewood Elementary",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-se45",
       "sourceIDs": [
@@ -605,6 +638,7 @@
       "id": "agency-seattle-se46",
       "kind": "speed",
       "label": "SB Fauntleroy Way SW @ Gatewood Elementary",
+      "locationKey": "SB Fauntleroy Way SW @ Gatewood Elementary",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-se46",
       "sourceIDs": [
@@ -623,6 +657,7 @@
       "id": "agency-seattle-se47",
       "kind": "speed",
       "label": "NB Greenwood Ave N @ Broadview-Thomson K-8",
+      "locationKey": "NB Greenwood Ave N @ Broadview-Thomson K-8",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-se47",
       "sourceIDs": [
@@ -641,6 +676,7 @@
       "id": "agency-seattle-se48",
       "kind": "speed",
       "label": "SB Greenwood Ave N @ Broadview-Thomson K-8",
+      "locationKey": "SB Greenwood Ave N @ Broadview-Thomson K-8",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-se48",
       "sourceIDs": [
@@ -659,6 +695,7 @@
       "id": "agency-seattle-se49",
       "kind": "speed",
       "label": "NB M L King Jr Way S @ Thurgood Marshall Elementary",
+      "locationKey": "NB M L King Jr Way S @ Thurgood Marshall Elementary",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-se49",
       "sourceIDs": [
@@ -677,6 +714,7 @@
       "id": "agency-seattle-se50",
       "kind": "speed",
       "label": "SB M L King Jr Way S @ Thurgood Marshall Elementary",
+      "locationKey": "SB M L King Jr Way S @ Thurgood Marshall Elementary",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-se50",
       "sourceIDs": [
@@ -695,6 +733,7 @@
       "id": "agency-seattle-se51",
       "kind": "speed",
       "label": "EB SW Roxbury St @ Holy Family Elementary",
+      "locationKey": "EB SW Roxbury St @ Holy Family Elementary",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-se51",
       "sourceIDs": [
@@ -713,6 +752,7 @@
       "id": "agency-seattle-se52",
       "kind": "speed",
       "label": "WB SW Roxbury St @ Holy Family Elementary",
+      "locationKey": "WB SW Roxbury St @ Holy Family Elementary",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-se52",
       "sourceIDs": [
@@ -731,6 +771,7 @@
       "id": "agency-seattle-se57",
       "kind": "speed",
       "label": "EB S Orcas St @ Dearborn Park Elementary",
+      "locationKey": "EB S Orcas St @ Dearborn Park Elementary",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-se57",
       "sourceIDs": [
@@ -749,6 +790,7 @@
       "id": "agency-seattle-se58",
       "kind": "speed",
       "label": "WB S Orcas St @ Dearborn Park Elementary",
+      "locationKey": "WB S Orcas St @ Dearborn Park Elementary",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-se58",
       "sourceIDs": [
@@ -767,6 +809,7 @@
       "id": "agency-seattle-se59",
       "kind": "speed",
       "label": "WB E Yesler Way @ Bailey Gatzert Elementary",
+      "locationKey": "WB E Yesler Way @ Bailey Gatzert Elementary",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-se59",
       "sourceIDs": [
@@ -785,6 +828,7 @@
       "id": "agency-seattle-se60",
       "kind": "speed",
       "label": "EB NE 75th St @ Eckstein School",
+      "locationKey": "EB NE 75th St @ Eckstein School",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-se60",
       "sourceIDs": [
@@ -803,6 +847,7 @@
       "id": "agency-seattle-se61",
       "kind": "speed",
       "label": "WB NE 75th St @ Eckstein School",
+      "locationKey": "WB NE 75th St @ Eckstein School",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-se61",
       "sourceIDs": [
@@ -821,6 +866,7 @@
       "id": "agency-seattle-se62",
       "kind": "speed",
       "label": "NB Delridge Way SW @ STEM at Boren",
+      "locationKey": "NB Delridge Way SW @ STEM at Boren",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-se62",
       "sourceIDs": [
@@ -839,6 +885,7 @@
       "id": "agency-seattle-se63",
       "kind": "speed",
       "label": "SB Delridge Way SW @ STEM at Boren",
+      "locationKey": "SB Delridge Way SW @ STEM at Boren",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-se63",
       "sourceIDs": [
@@ -857,6 +904,7 @@
       "id": "agency-seattle-se64",
       "kind": "speed",
       "label": "NB 24th Ave E @ Montlake Elementary",
+      "locationKey": "NB 24th Ave E @ Montlake Elementary",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-se64",
       "sourceIDs": [
@@ -875,6 +923,7 @@
       "id": "agency-seattle-se65",
       "kind": "speed",
       "label": "SB 24th Ave E @ Montlake Elementary",
+      "locationKey": "SB 24th Ave E @ Montlake Elementary",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-se65",
       "sourceIDs": [
@@ -893,6 +942,7 @@
       "id": "agency-seattle-se67",
       "kind": "speed",
       "label": "WB S Columbian Way @ Mercer Middle School",
+      "locationKey": "WB S Columbian Way @ Mercer Middle School",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-se67",
       "sourceIDs": [
@@ -911,6 +961,7 @@
       "id": "agency-seattle-se69",
       "kind": "speed",
       "label": "SB 1st Ave NE @ Northgate Elementary",
+      "locationKey": "SB 1st Ave NE @ Northgate Elementary",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-se69",
       "sourceIDs": [
@@ -929,6 +980,7 @@
       "id": "agency-seattle-se70",
       "kind": "speed",
       "label": "NB Boren Ave S @ Bailey Gatzert Elementary",
+      "locationKey": "NB Boren Ave S @ Bailey Gatzert Elementary",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-se70",
       "sourceIDs": [
@@ -947,6 +999,7 @@
       "id": "agency-seattle-se71",
       "kind": "speed",
       "label": "SB Boren Ave @ Bailey Gatzert Elementary",
+      "locationKey": "SB Boren Ave @ Bailey Gatzert Elementary",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-se71",
       "sourceIDs": [
@@ -965,6 +1018,7 @@
       "id": "agency-seattle-se73",
       "kind": "speed",
       "label": "NB Beacon Ave S @ Rainier View Elementary",
+      "locationKey": "NB Beacon Ave S @ Rainier View Elementary",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-se73",
       "sourceIDs": [
@@ -983,6 +1037,7 @@
       "id": "agency-seattle-se74",
       "kind": "speed",
       "label": "SB Beacon Ave S @ Rainier View Elementary",
+      "locationKey": "SB Beacon Ave S @ Rainier View Elementary",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-se74",
       "sourceIDs": [
@@ -1001,6 +1056,7 @@
       "id": "agency-seattle-se75",
       "kind": "speed",
       "label": "SB 15th Ave S @ Mercer Middle School",
+      "locationKey": "SB 15th Ave S @ Mercer Middle School",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-se75",
       "sourceIDs": [
@@ -1019,6 +1075,7 @@
       "id": "agency-seattle-se76",
       "kind": "speed",
       "label": "NB Rainier Ave S @ South Shore K-8 School",
+      "locationKey": "NB Rainier Ave S @ South Shore K-8 School",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-se76",
       "sourceIDs": [
@@ -1037,6 +1094,7 @@
       "id": "agency-seattle-se77",
       "kind": "speed",
       "label": "SB Rainier Ave S @ South Shore K-8 School",
+      "locationKey": "SB Rainier Ave S @ South Shore K-8 School",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-se77",
       "sourceIDs": [
@@ -1055,6 +1113,7 @@
       "id": "agency-seattle-se79",
       "kind": "speed",
       "label": "NB 35th Ave SW @ Our Lady of Guadalupe School",
+      "locationKey": "NB 35th Ave SW @ Our Lady of Guadalupe School",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-se79",
       "sourceIDs": [
@@ -1073,6 +1132,7 @@
       "id": "agency-seattle-se80",
       "kind": "speed",
       "label": "SB 35th Ave SW @ Our Lady of Guadalupe School",
+      "locationKey": "SB 35th Ave SW @ Our Lady of Guadalupe School",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-se80",
       "sourceIDs": [
@@ -1091,6 +1151,7 @@
       "id": "agency-seattle-se81",
       "kind": "speed",
       "label": "NB Fauntleroy Way SW @ Fairmount Park Elementary School",
+      "locationKey": "NB Fauntleroy Way SW @ Fairmount Park Elementary School",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-se81",
       "sourceIDs": [
@@ -1109,6 +1170,7 @@
       "id": "agency-seattle-se82",
       "kind": "speed",
       "label": "SB Fauntleroy Way SW @ Fairmount Park Elementary School",
+      "locationKey": "SB Fauntleroy Way SW @ Fairmount Park Elementary School",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-se82",
       "sourceIDs": [
@@ -1127,6 +1189,7 @@
       "id": "agency-seattle-se83",
       "kind": "speed",
       "label": "NB 23rd Ave @ Garfield High School",
+      "locationKey": "NB 23rd Ave @ Garfield High School",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-se83",
       "sourceIDs": [
@@ -1145,6 +1208,7 @@
       "id": "agency-seattle-se84",
       "kind": "speed",
       "label": "EB NW 80 St @ Whittier Elementary School",
+      "locationKey": "EB NW 80 St @ Whittier Elementary School",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-se84",
       "sourceIDs": [
@@ -1163,6 +1227,7 @@
       "id": "agency-seattle-se85",
       "kind": "speed",
       "label": "WB NW 80 St @ Whittier Elementary School",
+      "locationKey": "WB NW 80 St @ Whittier Elementary School",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-se85",
       "sourceIDs": [
@@ -1181,6 +1246,7 @@
       "id": "agency-seattle-seaf086",
       "kind": "speed",
       "label": "Rainier Valley Leadership Academy",
+      "locationKey": "Rainier Valley Leadership Academy",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-seaf086",
       "sourceIDs": [
@@ -1198,6 +1264,7 @@
       "id": "agency-seattle-seaf087",
       "kind": "speed",
       "label": "Rainier Valley Leadership Academy",
+      "locationKey": "Rainier Valley Leadership Academy",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-seaf087",
       "sourceIDs": [
@@ -1215,6 +1282,7 @@
       "id": "agency-seattle-seaf088",
       "kind": "speed",
       "label": "Tops K-8",
+      "locationKey": "Tops K-8",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-seaf088",
       "sourceIDs": [
@@ -1232,6 +1300,7 @@
       "id": "agency-seattle-seaf089",
       "kind": "speed",
       "label": "Tops K-8",
+      "locationKey": "Tops K-8",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-seaf089",
       "sourceIDs": [
@@ -1249,6 +1318,7 @@
       "id": "agency-seattle-seaf090",
       "kind": "speed",
       "label": "Hamilton Middle ",
+      "locationKey": "Hamilton Middle ",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-seaf090",
       "sourceIDs": [
@@ -1266,6 +1336,7 @@
       "id": "agency-seattle-seaf091",
       "kind": "speed",
       "label": "Hamilton Middle ",
+      "locationKey": "Hamilton Middle ",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-seaf091",
       "sourceIDs": [
@@ -1283,6 +1354,7 @@
       "id": "agency-seattle-seaf092",
       "kind": "speed",
       "label": "Hazel Wolf K-8 ESTEM School",
+      "locationKey": "Hazel Wolf K-8 ESTEM School",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-seaf092",
       "sourceIDs": [
@@ -1300,6 +1372,7 @@
       "id": "agency-seattle-seaf093",
       "kind": "speed",
       "label": "Hazel Wolf K-8 ESTEM School",
+      "locationKey": "Hazel Wolf K-8 ESTEM School",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-seaf093",
       "sourceIDs": [
@@ -1317,6 +1390,7 @@
       "id": "agency-seattle-seaf094",
       "kind": "speed",
       "label": "Nathan Hale High",
+      "locationKey": "Nathan Hale High",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-seaf094",
       "sourceIDs": [
@@ -1334,6 +1408,7 @@
       "id": "agency-seattle-seaf095",
       "kind": "speed",
       "label": "Nathan Hale High",
+      "locationKey": "Nathan Hale High",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-seaf095",
       "sourceIDs": [
@@ -1351,6 +1426,7 @@
       "id": "agency-seattle-seaf096",
       "kind": "speed",
       "label": "West Seattle High ",
+      "locationKey": "West Seattle High ",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-seaf096",
       "sourceIDs": [
@@ -1368,6 +1444,7 @@
       "id": "agency-seattle-seaf097",
       "kind": "speed",
       "label": "West Seattle High",
+      "locationKey": "West Seattle High",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-seaf097",
       "sourceIDs": [
@@ -1385,6 +1462,7 @@
       "id": "agency-seattle-seaf098",
       "kind": "speed",
       "label": "Bertschi School",
+      "locationKey": "Bertschi School",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-seaf098",
       "sourceIDs": [
@@ -1402,6 +1480,7 @@
       "id": "agency-seattle-seaf099",
       "kind": "speed",
       "label": "Bertschi School",
+      "locationKey": "Bertschi School",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-seaf099",
       "sourceIDs": [
@@ -1419,6 +1498,7 @@
       "id": "agency-seattle-seaf102",
       "kind": "speed",
       "label": "Our Lady of the Lake School",
+      "locationKey": "Our Lady of the Lake School",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-seaf102",
       "sourceIDs": [
@@ -1436,6 +1516,7 @@
       "id": "agency-seattle-seaf103",
       "kind": "speed",
       "label": "Our Lady of the Lake School",
+      "locationKey": "Our Lady of the Lake School",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-seaf103",
       "sourceIDs": [
@@ -1453,6 +1534,7 @@
       "id": "agency-seattle-seaf104",
       "kind": "speed",
       "label": "Bryant Elementary",
+      "locationKey": "Bryant Elementary",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-seaf104",
       "sourceIDs": [
@@ -1470,6 +1552,7 @@
       "id": "agency-seattle-seaf105",
       "kind": "speed",
       "label": "Bryant Elementary",
+      "locationKey": "Bryant Elementary",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-seaf105",
       "sourceIDs": [
@@ -1487,6 +1570,7 @@
       "id": "agency-seattle-seaf106",
       "kind": "speed",
       "label": "Greenwood Elementary",
+      "locationKey": "Greenwood Elementary",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-seaf106",
       "sourceIDs": [
@@ -1504,6 +1588,7 @@
       "id": "agency-seattle-seaf107",
       "kind": "speed",
       "label": "Greenwood Elementary",
+      "locationKey": "Greenwood Elementary",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-seaf107",
       "sourceIDs": [
@@ -1521,6 +1606,7 @@
       "id": "agency-seattle-seaf108",
       "kind": "speed",
       "label": "Alki Elementary",
+      "locationKey": "Alki Elementary",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-seaf108",
       "sourceIDs": [
@@ -1538,6 +1624,7 @@
       "id": "agency-seattle-seaf109",
       "kind": "speed",
       "label": "Alki Elementary",
+      "locationKey": "Alki Elementary",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-seaf109",
       "sourceIDs": [
@@ -1555,6 +1642,7 @@
       "id": "agency-seattle-seaf110",
       "kind": "speed",
       "label": "BF Day Elementary",
+      "locationKey": "BF Day Elementary",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-seaf110",
       "sourceIDs": [
@@ -1572,6 +1660,7 @@
       "id": "agency-seattle-seaf111",
       "kind": "speed",
       "label": "BF Day Elementary",
+      "locationKey": "BF Day Elementary",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-seaf111",
       "sourceIDs": [
@@ -1589,6 +1678,7 @@
       "id": "agency-seattle-seaf112",
       "kind": "speed",
       "label": "John Rogers Elementary",
+      "locationKey": "John Rogers Elementary",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-seaf112",
       "sourceIDs": [
@@ -1606,6 +1696,7 @@
       "id": "agency-seattle-seaf113",
       "kind": "speed",
       "label": "John Rogers Elementary",
+      "locationKey": "John Rogers Elementary",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-seaf113",
       "sourceIDs": [
@@ -1623,6 +1714,7 @@
       "id": "agency-seattle-seaf114",
       "kind": "speed",
       "label": "View Ridge Elementary",
+      "locationKey": "View Ridge Elementary",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-seaf114",
       "sourceIDs": [
@@ -1640,6 +1732,7 @@
       "id": "agency-seattle-seaf115",
       "kind": "speed",
       "label": "View Ridge Elementary",
+      "locationKey": "View Ridge Elementary",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-seaf115",
       "sourceIDs": [
@@ -1657,6 +1750,7 @@
       "id": "agency-seattle-seaf116",
       "kind": "speed",
       "label": "View Ridge Elementary",
+      "locationKey": "View Ridge Elementary",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-seaf116",
       "sourceIDs": [
@@ -1674,6 +1768,7 @@
       "id": "agency-seattle-seaf117",
       "kind": "speed",
       "label": "View Ridge Elementary",
+      "locationKey": "View Ridge Elementary",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-seaf117",
       "sourceIDs": [
@@ -1691,6 +1786,7 @@
       "id": "agency-seattle-seaf118",
       "kind": "speed",
       "label": "Viewlands Elementary",
+      "locationKey": "Viewlands Elementary",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-seaf118",
       "sourceIDs": [
@@ -1708,6 +1804,7 @@
       "id": "agency-seattle-seaf119",
       "kind": "speed",
       "label": "Viewlands Elementary",
+      "locationKey": "Viewlands Elementary",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-seaf119",
       "sourceIDs": [
@@ -1725,6 +1822,7 @@
       "id": "agency-seattle-seaf120",
       "kind": "speed",
       "label": "West Woodland Elementary",
+      "locationKey": "West Woodland Elementary",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-seaf120",
       "sourceIDs": [
@@ -1742,6 +1840,7 @@
       "id": "agency-seattle-seaf121",
       "kind": "speed",
       "label": "West Woodland Elementary",
+      "locationKey": "West Woodland Elementary",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-seaf121",
       "sourceIDs": [
@@ -1759,6 +1858,7 @@
       "id": "agency-seattle-seaf122",
       "kind": "speed",
       "label": "West Woodland Elementary",
+      "locationKey": "West Woodland Elementary",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-seattle-seaf122",
       "sourceIDs": [
@@ -1766,7 +1866,7 @@
       ]
     }
   ],
-  "checkedAt": "2026-09-15T02:09:42Z",
+  "checkedAt": "2026-09-15T03:56:21Z",
   "excluded": [
     {
       "reason": "Not speed/red-light enforcement",

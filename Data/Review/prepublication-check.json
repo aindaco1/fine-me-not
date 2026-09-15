@@ -1,21 +1,21 @@
 {
-  "agencyAndPageChecksAt": "2026-09-15T02:09:42Z",
-  "completedAt": "2026-09-15T02:09:57Z",
+  "agencyAndPageChecksAt": "2026-09-15T03:56:21Z",
+  "completedAt": "2026-09-15T03:56:39Z",
   "osmFetches": [
     {
-      "checkedAt": "2026-09-15T02:09:28Z",
+      "checkedAt": "2026-09-15T03:55:59Z",
       "source": "speed",
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-09-15T02:09:35Z",
+      "checkedAt": "2026-09-15T03:56:06Z",
       "source": "enforcement",
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-09-15T02:09:42Z",
+      "error": "HTTP Error 429: Too Many Requests",
       "source": "aliases",
-      "status": "downloaded"
+      "status": "retained"
     }
   ],
   "reviewRequired": [

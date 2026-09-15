@@ -1,8 +1,8 @@
 # Weekly camera maintenance
 
-Generated 2026-09-15T03:55:24Z
+Generated 2026-09-15T03:56:39Z
 
-38 registered sources checked; 2 evidence-based identity matches; 230 unresolved findings.
+38 registered sources checked; 2 evidence-based identity matches; 216 unresolved findings.
 
 New unambiguous agency records and validated coordinate estimates are staged automatically. Ambiguous identities, source removals, changed page layouts, and failed checks retain previous coverage and remain in this queue until reviewed.
 
@@ -47,26 +47,17 @@ New unambiguous agency records and validated coordinate estimates are staged aut
 | agency-chicago-speed-chi233-0 | Nearby accepted record; identity/approach review required |
 | agency-chicago-speed-chi245-0 | Nearby accepted record; identity/approach review required |
 | agency-chicago-speed-chi245-180 | Nearby accepted record; identity/approach review required |
-| agency-chicago-red-1601-w-lawrence-ave-90 | Nearby accepted record; identity/approach review required |
 | agency-chicago-red-2140-s-western-ave-180 | Nearby accepted record; identity/approach review required |
 | agency-chicago-red-2380-w-montrose-ave-270 | Nearby accepted record; identity/approach review required |
 | agency-chicago-red-2404-n-ashland-ave-180 | Nearby accepted record; identity/approach review required |
-| agency-chicago-red-2408-n-cicero-ave-180 | Nearby accepted record; identity/approach review required |
-| agency-chicago-red-2409-w-55th-st-90 | Nearby accepted record; identity/approach review required |
 | agency-chicago-red-2415-w-addison-st-90 | Nearby accepted record; identity/approach review required |
 | agency-chicago-red-2782-w-irving-park-rd-270 | Nearby accepted record; identity/approach review required |
-| agency-chicago-red-2810-n-pulaski-rd-180 | Nearby accepted record; identity/approach review required |
-| agency-chicago-red-311-s-michigan-ave-0 | Nearby accepted record; identity/approach review required |
 | agency-chicago-red-3209-w-55th-st-90 | Nearby accepted record; identity/approach review required |
 | agency-chicago-red-3563-n-western-ave-0 | Nearby accepted record; identity/approach review required |
 | agency-chicago-red-3577-n-austin-ave-0 | Nearby accepted record; identity/approach review required |
-| agency-chicago-red-3946-w-55th-st-270 | Nearby accepted record; identity/approach review required |
-| agency-chicago-red-3946-w-roosevelt-rd-270 | Nearby accepted record; identity/approach review required |
 | agency-chicago-red-3947-n-austin-ave-0 | Nearby accepted record; identity/approach review required |
 | agency-chicago-red-3960-w-79th-st-270 | Nearby accepted record; identity/approach review required |
-| agency-chicago-red-3970-w-foster-ave-270 | Nearby accepted record; identity/approach review required |
 | agency-chicago-red-4011-w-chicago-ave-90 | Nearby accepted record; identity/approach review required |
-| agency-chicago-red-4011-w-diversey-ave-90 | Nearby accepted record; identity/approach review required |
 | agency-chicago-red-4353-n-western-ave-0 | Nearby accepted record; identity/approach review required |
 | agency-chicago-red-466-n-central-ave-180 | Nearby accepted record; identity/approach review required |
 | agency-chicago-red-4750-w-peterson-ave-270 | Nearby accepted record; identity/approach review required |
@@ -74,18 +65,13 @@ New unambiguous agency records and validated coordinate estimates are staged aut
 | agency-chicago-red-4810-n-cicero-ave-180 | Nearby accepted record; identity/approach review required |
 | agency-chicago-red-489-n-columbus-dr-0 | Nearby accepted record; identity/approach review required |
 | agency-chicago-red-498-n-columbus-dr-180 | Nearby accepted record; identity/approach review required |
-| agency-chicago-red-5450-s-pulaski-rd-180 | Nearby accepted record; identity/approach review required |
 | agency-chicago-red-5452-s-kedzie-ave-180 | Nearby accepted record; identity/approach review required |
 | agency-chicago-red-5615-w-lake-st-90 | Nearby accepted record; identity/approach review required |
-| agency-chicago-red-5921-n-clark-st-0 | Nearby accepted record; identity/approach review required |
 | agency-chicago-red-6001-w-addison-st-90 | Nearby accepted record; identity/approach review required |
 | agency-chicago-red-6009-w-irving-park-rd-90 | Nearby accepted record; identity/approach review required |
-| agency-chicago-red-7050-s-cottage-grove-ave-180 | Nearby accepted record; identity/approach review required |
-| agency-chicago-red-73-e-jackson-blvd-90 | Nearby accepted record; identity/approach review required |
 | agency-chicago-red-7427-w-touhy-ave-90 | Nearby accepted record; identity/approach review required |
 | agency-chicago-red-7890-s-pulaski-rd-180 | Nearby accepted record; identity/approach review required |
 | agency-chicago-red-810-n-pulaski-rd-180 | Nearby accepted record; identity/approach review required |
-| agency-chicago-red-855-w-87th-st-90 | Nearby accepted record; identity/approach review required |
 | agency-dc-ate-0012 | Nearby accepted record; identity/approach review required |
 | agency-dc-ate-0022 | Nearby accepted record; identity/approach review required |
 | agency-dc-ate-0034 | Nearby accepted record; identity/approach review required |

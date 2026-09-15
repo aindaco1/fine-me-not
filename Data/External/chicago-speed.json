@@ -11,7 +11,11 @@
       "id": "agency-chicago-speed-chi003-270",
       "kind": "speed",
       "label": "4124 W Foster Ave · WB",
+      "locationKey": "4124 W Foster Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Foster Ave"
+      ],
       "siteID": "agency-chicago-speed-chi003-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI003-270"
@@ -29,7 +33,11 @@
       "id": "agency-chicago-speed-chi003-90",
       "kind": "speed",
       "label": "4124 W Foster Ave · EB",
+      "locationKey": "4124 W Foster Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Foster Ave"
+      ],
       "siteID": "agency-chicago-speed-chi003-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI003-90"
@@ -47,7 +55,11 @@
       "id": "agency-chicago-speed-chi004-0",
       "kind": "speed",
       "label": "5120 N Pulaski Rd · NB",
+      "locationKey": "5120 N Pulaski Rd",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N Pulaski Rd"
+      ],
       "siteID": "agency-chicago-speed-chi004-0",
       "sourceIDs": [
         "agency/chicago-speed/CHI004-0"
@@ -65,7 +77,11 @@
       "id": "agency-chicago-speed-chi004-180",
       "kind": "speed",
       "label": "5120 N Pulaski Rd · SB",
+      "locationKey": "5120 N Pulaski Rd",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N Pulaski Rd"
+      ],
       "siteID": "agency-chicago-speed-chi004-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI004-180"
@@ -83,7 +99,11 @@
       "id": "agency-chicago-speed-chi005-270",
       "kind": "speed",
       "label": "2080 W Pershing Rd · WB",
+      "locationKey": "2080 W Pershing Rd",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Pershing Rd"
+      ],
       "siteID": "agency-chicago-speed-chi005-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI005-270"
@@ -101,7 +121,11 @@
       "id": "agency-chicago-speed-chi005-90",
       "kind": "speed",
       "label": "2080 W Pershing Rd · EB",
+      "locationKey": "2080 W Pershing Rd",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Pershing Rd"
+      ],
       "siteID": "agency-chicago-speed-chi005-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI005-90"
@@ -119,7 +143,11 @@
       "id": "agency-chicago-speed-chi008-270",
       "kind": "speed",
       "label": "3655 W Jackson Blvd · WB",
+      "locationKey": "3655 W Jackson Blvd",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Jackson Blvd"
+      ],
       "siteID": "agency-chicago-speed-chi008-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI008-270"
@@ -137,7 +165,11 @@
       "id": "agency-chicago-speed-chi008-90",
       "kind": "speed",
       "label": "3655 W Jackson Blvd · EB",
+      "locationKey": "3655 W Jackson Blvd",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Jackson Blvd"
+      ],
       "siteID": "agency-chicago-speed-chi008-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI008-90"
@@ -155,7 +187,11 @@
       "id": "agency-chicago-speed-chi009-270",
       "kind": "speed",
       "label": "3646 W Madison St · WB",
+      "locationKey": "3646 W Madison St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Madison St"
+      ],
       "siteID": "agency-chicago-speed-chi009-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI009-270"
@@ -173,7 +209,11 @@
       "id": "agency-chicago-speed-chi009-90",
       "kind": "speed",
       "label": "3646 W Madison St · EB",
+      "locationKey": "3646 W Madison St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Madison St"
+      ],
       "siteID": "agency-chicago-speed-chi009-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI009-90"
@@ -191,7 +231,11 @@
       "id": "agency-chicago-speed-chi010-0",
       "kind": "speed",
       "label": "1111 N Humboldt Blvd · NB",
+      "locationKey": "1111 N Humboldt Blvd",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N Humboldt Blvd"
+      ],
       "siteID": "agency-chicago-speed-chi010-0",
       "sourceIDs": [
         "agency/chicago-speed/CHI010-0"
@@ -209,7 +253,11 @@
       "id": "agency-chicago-speed-chi010-180",
       "kind": "speed",
       "label": "1111 N Humboldt Blvd · SB",
+      "locationKey": "1111 N Humboldt Blvd",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N Humboldt Blvd"
+      ],
       "siteID": "agency-chicago-speed-chi010-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI010-180"
@@ -227,7 +275,11 @@
       "id": "agency-chicago-speed-chi011-270",
       "kind": "speed",
       "label": "3100 W Augusta Blvd · WB",
+      "locationKey": "3100 W Augusta Blvd",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Augusta Blvd"
+      ],
       "siteID": "agency-chicago-speed-chi011-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI011-270"
@@ -245,7 +297,11 @@
       "id": "agency-chicago-speed-chi011-90",
       "kind": "speed",
       "label": "3100 W Augusta Blvd · EB",
+      "locationKey": "3100 W Augusta Blvd",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Augusta Blvd"
+      ],
       "siteID": "agency-chicago-speed-chi011-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI011-90"
@@ -263,7 +319,11 @@
       "id": "agency-chicago-speed-chi013-0",
       "kind": "speed",
       "label": "5330 S Cottage Grove Ave · NB",
+      "locationKey": "5330 S Cottage Grove Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S Cottage Grove Ave"
+      ],
       "siteID": "agency-chicago-speed-chi013-0",
       "sourceIDs": [
         "agency/chicago-speed/CHI013-0"
@@ -281,7 +341,11 @@
       "id": "agency-chicago-speed-chi013-180",
       "kind": "speed",
       "label": "5330 S Cottage Grove Ave · SB",
+      "locationKey": "5330 S Cottage Grove Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S Cottage Grove Ave"
+      ],
       "siteID": "agency-chicago-speed-chi013-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI013-180"
@@ -299,7 +363,11 @@
       "id": "agency-chicago-speed-chi014-0",
       "kind": "speed",
       "label": "6909 S Kedzie Ave · NB",
+      "locationKey": "6909 S Kedzie Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S Kedzie Ave"
+      ],
       "siteID": "agency-chicago-speed-chi014-0",
       "sourceIDs": [
         "agency/chicago-speed/CHI014-0"
@@ -317,7 +385,11 @@
       "id": "agency-chicago-speed-chi015-270",
       "kind": "speed",
       "label": "3450 W 71st St · WB",
+      "locationKey": "3450 W 71st St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W 71st St"
+      ],
       "siteID": "agency-chicago-speed-chi015-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI015-270"
@@ -335,7 +407,11 @@
       "id": "agency-chicago-speed-chi015-90",
       "kind": "speed",
       "label": "3450 W 71st St · EB",
+      "locationKey": "3450 W 71st St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W 71st St"
+      ],
       "siteID": "agency-chicago-speed-chi015-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI015-90"
@@ -353,7 +429,11 @@
       "id": "agency-chicago-speed-chi018-180",
       "kind": "speed",
       "label": "6818 S Kedzie Ave · SB",
+      "locationKey": "6818 S Kedzie Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S Kedzie Ave"
+      ],
       "siteID": "agency-chicago-speed-chi018-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI018-180"
@@ -371,7 +451,11 @@
       "id": "agency-chicago-speed-chi019-90",
       "kind": "speed",
       "label": "2917 W Roosevelt Rd · EB",
+      "locationKey": "2917 W Roosevelt Rd",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Roosevelt Rd"
+      ],
       "siteID": "agency-chicago-speed-chi019-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI019-90"
@@ -389,7 +473,11 @@
       "id": "agency-chicago-speed-chi020-270",
       "kind": "speed",
       "label": "2912 W Roosevelt Rd · WB",
+      "locationKey": "2912 W Roosevelt Rd",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Roosevelt Rd"
+      ],
       "siteID": "agency-chicago-speed-chi020-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI020-270"
@@ -407,7 +495,11 @@
       "id": "agency-chicago-speed-chi021-270",
       "kind": "speed",
       "label": "2900 W Ogden  Ave · WB",
+      "locationKey": "2900 W Ogden  Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Ogden  Ave"
+      ],
       "siteID": "agency-chicago-speed-chi021-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI021-270"
@@ -425,7 +517,11 @@
       "id": "agency-chicago-speed-chi021-90",
       "kind": "speed",
       "label": "2900 W Ogden  Ave · EB",
+      "locationKey": "2900 W Ogden  Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Ogden  Ave"
+      ],
       "siteID": "agency-chicago-speed-chi021-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI021-90"
@@ -443,7 +539,11 @@
       "id": "agency-chicago-speed-chi022-0",
       "kind": "speed",
       "label": "11153 S Vincennes Ave · NB",
+      "locationKey": "11153 S Vincennes Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S Vincennes Ave"
+      ],
       "siteID": "agency-chicago-speed-chi022-0",
       "sourceIDs": [
         "agency/chicago-speed/CHI022-0"
@@ -461,7 +561,11 @@
       "id": "agency-chicago-speed-chi022-180",
       "kind": "speed",
       "label": "11153 S Vincennes Ave · SB",
+      "locationKey": "11153 S Vincennes Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S Vincennes Ave"
+      ],
       "siteID": "agency-chicago-speed-chi022-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI022-180"
@@ -479,7 +583,11 @@
       "id": "agency-chicago-speed-chi024-270",
       "kind": "speed",
       "label": "3137 W Peterson Ave · WB",
+      "locationKey": "3137 W Peterson Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Peterson Ave"
+      ],
       "siteID": "agency-chicago-speed-chi024-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI024-270"
@@ -497,7 +605,11 @@
       "id": "agency-chicago-speed-chi024-90",
       "kind": "speed",
       "label": "3137 W Peterson Ave · EB",
+      "locationKey": "3137 W Peterson Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Peterson Ave"
+      ],
       "siteID": "agency-chicago-speed-chi024-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI024-90"
@@ -515,7 +627,11 @@
       "id": "agency-chicago-speed-chi025-270",
       "kind": "speed",
       "label": "3034 W Foster Ave · WB",
+      "locationKey": "3034 W Foster Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Foster Ave"
+      ],
       "siteID": "agency-chicago-speed-chi025-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI025-270"
@@ -533,7 +649,11 @@
       "id": "agency-chicago-speed-chi025-90",
       "kind": "speed",
       "label": "3034 W Foster Ave · EB",
+      "locationKey": "3034 W Foster Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Foster Ave"
+      ],
       "siteID": "agency-chicago-speed-chi025-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI025-90"
@@ -551,7 +671,11 @@
       "id": "agency-chicago-speed-chi026-0",
       "kind": "speed",
       "label": "3521 N Western Ave · NB",
+      "locationKey": "3521 N Western Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N Western Ave"
+      ],
       "siteID": "agency-chicago-speed-chi026-0",
       "sourceIDs": [
         "agency/chicago-speed/CHI026-0"
@@ -569,7 +693,11 @@
       "id": "agency-chicago-speed-chi027-180",
       "kind": "speed",
       "label": "3534 N Western Ave · SB",
+      "locationKey": "3534 N Western Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N Western Ave"
+      ],
       "siteID": "agency-chicago-speed-chi027-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI027-180"
@@ -587,7 +715,11 @@
       "id": "agency-chicago-speed-chi028-270",
       "kind": "speed",
       "label": "2549 W Addison St · WB",
+      "locationKey": "2549 W Addison St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Addison St"
+      ],
       "siteID": "agency-chicago-speed-chi028-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI028-270"
@@ -605,7 +737,11 @@
       "id": "agency-chicago-speed-chi028-90",
       "kind": "speed",
       "label": "2549 W Addison St · EB",
+      "locationKey": "2549 W Addison St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Addison St"
+      ],
       "siteID": "agency-chicago-speed-chi028-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI028-90"
@@ -623,7 +759,11 @@
       "id": "agency-chicago-speed-chi029-270",
       "kind": "speed",
       "label": "536 E Morgan Dr · WB",
+      "locationKey": "536 E Morgan Dr",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "E Morgan Dr"
+      ],
       "siteID": "agency-chicago-speed-chi029-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI029-270"
@@ -641,7 +781,11 @@
       "id": "agency-chicago-speed-chi029-90",
       "kind": "speed",
       "label": "536 E Morgan Dr · EB",
+      "locationKey": "536 E Morgan Dr",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "E Morgan Dr"
+      ],
       "siteID": "agency-chicago-speed-chi029-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI029-90"
@@ -659,7 +803,11 @@
       "id": "agency-chicago-speed-chi030-0",
       "kind": "speed",
       "label": "4929 S Pulaski Rd · NB",
+      "locationKey": "4929 S Pulaski Rd",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S Pulaski Rd"
+      ],
       "siteID": "agency-chicago-speed-chi030-0",
       "sourceIDs": [
         "agency/chicago-speed/CHI030-0"
@@ -677,7 +825,11 @@
       "id": "agency-chicago-speed-chi031-180",
       "kind": "speed",
       "label": "5030 S Pulaski Rd · SB",
+      "locationKey": "5030 S Pulaski Rd",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S Pulaski Rd"
+      ],
       "siteID": "agency-chicago-speed-chi031-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI031-180"
@@ -695,7 +847,11 @@
       "id": "agency-chicago-speed-chi032-270",
       "kind": "speed",
       "label": "4925 S Archer Ave · WB",
+      "locationKey": "4925 S Archer Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S Archer Ave"
+      ],
       "siteID": "agency-chicago-speed-chi032-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI032-270"
@@ -713,7 +869,11 @@
       "id": "agency-chicago-speed-chi032-90",
       "kind": "speed",
       "label": "4925 S Archer Ave · EB",
+      "locationKey": "4925 S Archer Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S Archer Ave"
+      ],
       "siteID": "agency-chicago-speed-chi032-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI032-90"
@@ -731,7 +891,11 @@
       "id": "agency-chicago-speed-chi033-0",
       "kind": "speed",
       "label": "629 S State St · NB",
+      "locationKey": "629 S State St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S State St"
+      ],
       "siteID": "agency-chicago-speed-chi033-0",
       "sourceIDs": [
         "agency/chicago-speed/CHI033-0"
@@ -749,7 +913,11 @@
       "id": "agency-chicago-speed-chi034-180",
       "kind": "speed",
       "label": "630 S State St · SB",
+      "locationKey": "630 S State St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S State St"
+      ],
       "siteID": "agency-chicago-speed-chi034-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI034-180"
@@ -767,7 +935,11 @@
       "id": "agency-chicago-speed-chi035-90",
       "kind": "speed",
       "label": "57 E 95th St · EB",
+      "locationKey": "57 E 95th St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "E 95th St"
+      ],
       "siteID": "agency-chicago-speed-chi035-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI035-90"
@@ -785,7 +957,11 @@
       "id": "agency-chicago-speed-chi036-270",
       "kind": "speed",
       "label": "62 E 95th St · WB",
+      "locationKey": "62 E 95th St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "E 95th St"
+      ],
       "siteID": "agency-chicago-speed-chi036-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI036-270"
@@ -803,7 +979,11 @@
       "id": "agency-chicago-speed-chi039-90",
       "kind": "speed",
       "label": "6247 W Fullerton Ave · EB",
+      "locationKey": "6247 W Fullerton Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Fullerton Ave"
+      ],
       "siteID": "agency-chicago-speed-chi039-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI039-90"
@@ -821,7 +1001,11 @@
       "id": "agency-chicago-speed-chi040-270",
       "kind": "speed",
       "label": "6250 W Fullerton Ave · WB",
+      "locationKey": "6250 W Fullerton Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Fullerton Ave"
+      ],
       "siteID": "agency-chicago-speed-chi040-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI040-270"
@@ -839,7 +1023,11 @@
       "id": "agency-chicago-speed-chi041-90",
       "kind": "speed",
       "label": "5509 W Fullerton Ave · EB",
+      "locationKey": "5509 W Fullerton Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Fullerton Ave"
+      ],
       "siteID": "agency-chicago-speed-chi041-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI041-90"
@@ -857,7 +1045,11 @@
       "id": "agency-chicago-speed-chi042-270",
       "kind": "speed",
       "label": "5446 W Fullerton Ave · WB",
+      "locationKey": "5446 W Fullerton Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Fullerton Ave"
+      ],
       "siteID": "agency-chicago-speed-chi042-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI042-270"
@@ -875,7 +1067,11 @@
       "id": "agency-chicago-speed-chi043-270",
       "kind": "speed",
       "label": "5440 W Grand Ave · WB",
+      "locationKey": "5440 W Grand Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Grand Ave"
+      ],
       "siteID": "agency-chicago-speed-chi043-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI043-270"
@@ -893,7 +1089,11 @@
       "id": "agency-chicago-speed-chi043-90",
       "kind": "speed",
       "label": "5440 W Grand Ave · EB",
+      "locationKey": "5440 W Grand Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Grand Ave"
+      ],
       "siteID": "agency-chicago-speed-chi043-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI043-90"
@@ -911,7 +1111,11 @@
       "id": "agency-chicago-speed-chi044-270",
       "kind": "speed",
       "label": "4843 W Fullerton Ave · WB",
+      "locationKey": "4843 W Fullerton Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Fullerton Ave"
+      ],
       "siteID": "agency-chicago-speed-chi044-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI044-270"
@@ -929,7 +1133,11 @@
       "id": "agency-chicago-speed-chi044-90",
       "kind": "speed",
       "label": "4843 W Fullerton Ave · EB",
+      "locationKey": "4843 W Fullerton Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Fullerton Ave"
+      ],
       "siteID": "agency-chicago-speed-chi044-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI044-90"
@@ -947,7 +1155,11 @@
       "id": "agency-chicago-speed-chi045-270",
       "kind": "speed",
       "label": "445 W 127th St · WB",
+      "locationKey": "445 W 127th St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W 127th St"
+      ],
       "siteID": "agency-chicago-speed-chi045-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI045-270"
@@ -965,7 +1177,11 @@
       "id": "agency-chicago-speed-chi045-90",
       "kind": "speed",
       "label": "445 W 127th St · EB",
+      "locationKey": "445 W 127th St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W 127th St"
+      ],
       "siteID": "agency-chicago-speed-chi045-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI045-90"
@@ -983,7 +1199,11 @@
       "id": "agency-chicago-speed-chi048-270",
       "kind": "speed",
       "label": "3843 W 111th St · WB",
+      "locationKey": "3843 W 111th St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W 111th St"
+      ],
       "siteID": "agency-chicago-speed-chi048-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI048-270"
@@ -1001,7 +1221,11 @@
       "id": "agency-chicago-speed-chi048-90",
       "kind": "speed",
       "label": "3843 W 111th St · EB",
+      "locationKey": "3843 W 111th St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W 111th St"
+      ],
       "siteID": "agency-chicago-speed-chi048-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI048-90"
@@ -1019,7 +1243,11 @@
       "id": "agency-chicago-speed-chi049-0",
       "kind": "speed",
       "label": "4123 N Central Ave · NB",
+      "locationKey": "4123 N Central Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N Central Ave"
+      ],
       "siteID": "agency-chicago-speed-chi049-0",
       "sourceIDs": [
         "agency/chicago-speed/CHI049-0"
@@ -1037,7 +1265,11 @@
       "id": "agency-chicago-speed-chi049-180",
       "kind": "speed",
       "label": "4123 N Central Ave · SB",
+      "locationKey": "4123 N Central Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N Central Ave"
+      ],
       "siteID": "agency-chicago-speed-chi049-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI049-180"
@@ -1055,7 +1287,11 @@
       "id": "agency-chicago-speed-chi050-270",
       "kind": "speed",
       "label": "5454 W Irving Park · WB",
+      "locationKey": "5454 W Irving Park",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Irving Park"
+      ],
       "siteID": "agency-chicago-speed-chi050-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI050-270"
@@ -1073,7 +1309,11 @@
       "id": "agency-chicago-speed-chi050-90",
       "kind": "speed",
       "label": "5454 W Irving Park · EB",
+      "locationKey": "5454 W Irving Park",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Irving Park"
+      ],
       "siteID": "agency-chicago-speed-chi050-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI050-90"
@@ -1091,7 +1331,11 @@
       "id": "agency-chicago-speed-chi051-0",
       "kind": "speed",
       "label": "6523 N Western Ave · NB",
+      "locationKey": "6523 N Western Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N Western Ave"
+      ],
       "siteID": "agency-chicago-speed-chi051-0",
       "sourceIDs": [
         "agency/chicago-speed/CHI051-0"
@@ -1109,7 +1353,11 @@
       "id": "agency-chicago-speed-chi051-180",
       "kind": "speed",
       "label": "6523 N Western Ave · SB",
+      "locationKey": "6523 N Western Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N Western Ave"
+      ],
       "siteID": "agency-chicago-speed-chi051-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI051-180"
@@ -1127,7 +1375,11 @@
       "id": "agency-chicago-speed-chi055-0",
       "kind": "speed",
       "label": "4433 N Western Ave · NB",
+      "locationKey": "4433 N Western Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N Western Ave"
+      ],
       "siteID": "agency-chicago-speed-chi055-0",
       "sourceIDs": [
         "agency/chicago-speed/CHI055-0"
@@ -1145,7 +1397,11 @@
       "id": "agency-chicago-speed-chi056-0",
       "kind": "speed",
       "label": "4432 N Lincoln Ave · NB",
+      "locationKey": "4432 N Lincoln Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N Lincoln Ave"
+      ],
       "siteID": "agency-chicago-speed-chi056-0",
       "sourceIDs": [
         "agency/chicago-speed/CHI056-0"
@@ -1163,7 +1419,11 @@
       "id": "agency-chicago-speed-chi056-180",
       "kind": "speed",
       "label": "4432 N Lincoln Ave · SB",
+      "locationKey": "4432 N Lincoln Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N Lincoln Ave"
+      ],
       "siteID": "agency-chicago-speed-chi056-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI056-180"
@@ -1181,7 +1441,11 @@
       "id": "agency-chicago-speed-chi057-0",
       "kind": "speed",
       "label": "515 S Central Ave · NB",
+      "locationKey": "515 S Central Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S Central Ave"
+      ],
       "siteID": "agency-chicago-speed-chi057-0",
       "sourceIDs": [
         "agency/chicago-speed/CHI057-0"
@@ -1199,7 +1463,11 @@
       "id": "agency-chicago-speed-chi057-180",
       "kind": "speed",
       "label": "515 S Central Ave · SB",
+      "locationKey": "515 S Central Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S Central Ave"
+      ],
       "siteID": "agency-chicago-speed-chi057-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI057-180"
@@ -1217,7 +1485,11 @@
       "id": "agency-chicago-speed-chi058-270",
       "kind": "speed",
       "label": "5816 W Jackson Blvd · WB",
+      "locationKey": "5816 W Jackson Blvd",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Jackson Blvd"
+      ],
       "siteID": "agency-chicago-speed-chi058-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI058-270"
@@ -1235,7 +1507,11 @@
       "id": "agency-chicago-speed-chi058-90",
       "kind": "speed",
       "label": "5816 W Jackson Blvd · EB",
+      "locationKey": "5816 W Jackson Blvd",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Jackson Blvd"
+      ],
       "siteID": "agency-chicago-speed-chi058-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI058-90"
@@ -1253,7 +1529,11 @@
       "id": "agency-chicago-speed-chi063-0",
       "kind": "speed",
       "label": "7518 S Vincennes Ave · NB",
+      "locationKey": "7518 S Vincennes Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S Vincennes Ave"
+      ],
       "siteID": "agency-chicago-speed-chi063-0",
       "sourceIDs": [
         "agency/chicago-speed/CHI063-0"
@@ -1271,7 +1551,11 @@
       "id": "agency-chicago-speed-chi063-180",
       "kind": "speed",
       "label": "7518 S Vincennes Ave · SB",
+      "locationKey": "7518 S Vincennes Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S Vincennes Ave"
+      ],
       "siteID": "agency-chicago-speed-chi063-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI063-180"
@@ -1289,7 +1573,11 @@
       "id": "agency-chicago-speed-chi064-0",
       "kind": "speed",
       "label": "7739 S Western Ave · NB",
+      "locationKey": "7739 S Western Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S Western Ave"
+      ],
       "siteID": "agency-chicago-speed-chi064-0",
       "sourceIDs": [
         "agency/chicago-speed/CHI064-0"
@@ -1307,7 +1595,11 @@
       "id": "agency-chicago-speed-chi064-180",
       "kind": "speed",
       "label": "7739 S Western Ave · SB",
+      "locationKey": "7739 S Western Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S Western Ave"
+      ],
       "siteID": "agency-chicago-speed-chi064-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI064-180"
@@ -1325,7 +1617,11 @@
       "id": "agency-chicago-speed-chi067-270",
       "kind": "speed",
       "label": "2550 W 79th St · WB",
+      "locationKey": "2550 W 79th St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W 79th St"
+      ],
       "siteID": "agency-chicago-speed-chi067-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI067-270"
@@ -1343,7 +1639,11 @@
       "id": "agency-chicago-speed-chi068-0",
       "kind": "speed",
       "label": "5529 S Western Ave · NB",
+      "locationKey": "5529 S Western Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S Western Ave"
+      ],
       "siteID": "agency-chicago-speed-chi068-0",
       "sourceIDs": [
         "agency/chicago-speed/CHI068-0"
@@ -1361,7 +1661,11 @@
       "id": "agency-chicago-speed-chi069-180",
       "kind": "speed",
       "label": "5520 S Western Ave · SB",
+      "locationKey": "5520 S Western Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S Western Ave"
+      ],
       "siteID": "agency-chicago-speed-chi069-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI069-180"
@@ -1379,7 +1683,11 @@
       "id": "agency-chicago-speed-chi070-270",
       "kind": "speed",
       "label": "2513 W 55th St · WB",
+      "locationKey": "2513 W 55th St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W 55th St"
+      ],
       "siteID": "agency-chicago-speed-chi070-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI070-270"
@@ -1397,7 +1705,11 @@
       "id": "agency-chicago-speed-chi070-90",
       "kind": "speed",
       "label": "2513 W 55th St · EB",
+      "locationKey": "2513 W 55th St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W 55th St"
+      ],
       "siteID": "agency-chicago-speed-chi070-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI070-90"
@@ -1415,7 +1727,11 @@
       "id": "agency-chicago-speed-chi071-0",
       "kind": "speed",
       "label": "7833 S Pulaski Rd · NB",
+      "locationKey": "7833 S Pulaski Rd",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S Pulaski Rd"
+      ],
       "siteID": "agency-chicago-speed-chi071-0",
       "sourceIDs": [
         "agency/chicago-speed/CHI071-0"
@@ -1433,7 +1749,11 @@
       "id": "agency-chicago-speed-chi072-180",
       "kind": "speed",
       "label": "7826 S Pulaski Rd · SB",
+      "locationKey": "7826 S Pulaski Rd",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S Pulaski Rd"
+      ],
       "siteID": "agency-chicago-speed-chi072-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI072-180"
@@ -1451,7 +1771,11 @@
       "id": "agency-chicago-speed-chi073-90",
       "kind": "speed",
       "label": "3851 W 79th St · EB",
+      "locationKey": "3851 W 79th St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W 79th St"
+      ],
       "siteID": "agency-chicago-speed-chi073-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI073-90"
@@ -1469,7 +1793,11 @@
       "id": "agency-chicago-speed-chi074-270",
       "kind": "speed",
       "label": "3832 W 79th St · WB",
+      "locationKey": "3832 W 79th St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W 79th St"
+      ],
       "siteID": "agency-chicago-speed-chi074-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI074-270"
@@ -1487,7 +1815,11 @@
       "id": "agency-chicago-speed-chi077-270",
       "kind": "speed",
       "label": "115 N Ogden Ave · WB",
+      "locationKey": "115 N Ogden Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N Ogden Ave"
+      ],
       "siteID": "agency-chicago-speed-chi077-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI077-270"
@@ -1505,7 +1837,11 @@
       "id": "agency-chicago-speed-chi077-90",
       "kind": "speed",
       "label": "115 N Ogden Ave · EB",
+      "locationKey": "115 N Ogden Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N Ogden Ave"
+      ],
       "siteID": "agency-chicago-speed-chi077-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI077-90"
@@ -1523,7 +1859,11 @@
       "id": "agency-chicago-speed-chi078-270",
       "kind": "speed",
       "label": "2721 W Montrose Ave · WB",
+      "locationKey": "2721 W Montrose Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Montrose Ave"
+      ],
       "siteID": "agency-chicago-speed-chi078-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI078-270"
@@ -1541,7 +1881,11 @@
       "id": "agency-chicago-speed-chi078-90",
       "kind": "speed",
       "label": "2721 W Montrose Ave · EB",
+      "locationKey": "2721 W Montrose Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Montrose Ave"
+      ],
       "siteID": "agency-chicago-speed-chi078-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI078-90"
@@ -1559,7 +1903,11 @@
       "id": "agency-chicago-speed-chi079-90",
       "kind": "speed",
       "label": "2705 W Irving Park Ave · EB",
+      "locationKey": "2705 W Irving Park Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Irving Park Ave"
+      ],
       "siteID": "agency-chicago-speed-chi079-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI079-90"
@@ -1577,7 +1925,11 @@
       "id": "agency-chicago-speed-chi080-270",
       "kind": "speed",
       "label": "2712 W Irving Park Ave · WB",
+      "locationKey": "2712 W Irving Park Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Irving Park Ave"
+      ],
       "siteID": "agency-chicago-speed-chi080-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI080-270"
@@ -1595,7 +1947,11 @@
       "id": "agency-chicago-speed-chi083-270",
       "kind": "speed",
       "label": "6226 W Irving Park Rd · WB",
+      "locationKey": "6226 W Irving Park Rd",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Irving Park Rd"
+      ],
       "siteID": "agency-chicago-speed-chi083-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI083-270"
@@ -1613,7 +1969,11 @@
       "id": "agency-chicago-speed-chi083-90",
       "kind": "speed",
       "label": "6226 W Irving Park Rd · EB",
+      "locationKey": "6226 W Irving Park Rd",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Irving Park Rd"
+      ],
       "siteID": "agency-chicago-speed-chi083-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI083-90"
@@ -1631,7 +1991,11 @@
       "id": "agency-chicago-speed-chi086-270",
       "kind": "speed",
       "label": "4620 W Belmont Ave · WB",
+      "locationKey": "4620 W Belmont Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Belmont Ave"
+      ],
       "siteID": "agency-chicago-speed-chi086-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI086-270"
@@ -1649,7 +2013,11 @@
       "id": "agency-chicago-speed-chi086-90",
       "kind": "speed",
       "label": "4620 W Belmont Ave · EB",
+      "locationKey": "4620 W Belmont Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Belmont Ave"
+      ],
       "siteID": "agency-chicago-speed-chi086-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI086-90"
@@ -1667,7 +2035,11 @@
       "id": "agency-chicago-speed-chi087-0",
       "kind": "speed",
       "label": "3230 N Milwaukee Ave · NB",
+      "locationKey": "3230 N Milwaukee Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N Milwaukee Ave"
+      ],
       "siteID": "agency-chicago-speed-chi087-0",
       "sourceIDs": [
         "agency/chicago-speed/CHI087-0"
@@ -1685,7 +2057,11 @@
       "id": "agency-chicago-speed-chi087-180",
       "kind": "speed",
       "label": "3230 N Milwaukee Ave · SB",
+      "locationKey": "3230 N Milwaukee Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N Milwaukee Ave"
+      ],
       "siteID": "agency-chicago-speed-chi087-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI087-180"
@@ -1703,7 +2079,11 @@
       "id": "agency-chicago-speed-chi088-90",
       "kind": "speed",
       "label": "3809 W Belmont Ave · EB",
+      "locationKey": "3809 W Belmont Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Belmont Ave"
+      ],
       "siteID": "agency-chicago-speed-chi088-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI088-90"
@@ -1721,7 +2101,11 @@
       "id": "agency-chicago-speed-chi089-270",
       "kind": "speed",
       "label": "3810 W Belmont Ave · WB",
+      "locationKey": "3810 W Belmont Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Belmont Ave"
+      ],
       "siteID": "agency-chicago-speed-chi089-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI089-270"
@@ -1739,7 +2123,11 @@
       "id": "agency-chicago-speed-chi090-0",
       "kind": "speed",
       "label": "2448 Clybourn Ave · NB",
+      "locationKey": "2448 Clybourn Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "Clybourn Ave"
+      ],
       "siteID": "agency-chicago-speed-chi090-0",
       "sourceIDs": [
         "agency/chicago-speed/CHI090-0"
@@ -1757,7 +2145,11 @@
       "id": "agency-chicago-speed-chi090-180",
       "kind": "speed",
       "label": "2448 Clybourn Ave · SB",
+      "locationKey": "2448 Clybourn Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "Clybourn Ave"
+      ],
       "siteID": "agency-chicago-speed-chi090-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI090-180"
@@ -1775,7 +2167,11 @@
       "id": "agency-chicago-speed-chi091-0",
       "kind": "speed",
       "label": "2443 N Ashland · NB",
+      "locationKey": "2443 N Ashland",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N Ashland"
+      ],
       "siteID": "agency-chicago-speed-chi091-0",
       "sourceIDs": [
         "agency/chicago-speed/CHI091-0"
@@ -1793,7 +2189,11 @@
       "id": "agency-chicago-speed-chi092-180",
       "kind": "speed",
       "label": "2432 N Ashland Ave · SB",
+      "locationKey": "2432 N Ashland Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N Ashland Ave"
+      ],
       "siteID": "agency-chicago-speed-chi092-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI092-180"
@@ -1811,7 +2211,11 @@
       "id": "agency-chicago-speed-chi093-0",
       "kind": "speed",
       "label": "5885 N Ridge Ave · NB",
+      "locationKey": "5885 N Ridge Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N Ridge Ave"
+      ],
       "siteID": "agency-chicago-speed-chi093-0",
       "sourceIDs": [
         "agency/chicago-speed/CHI093-0"
@@ -1829,7 +2233,11 @@
       "id": "agency-chicago-speed-chi093-180",
       "kind": "speed",
       "label": "5885 N Ridge Ave · SB",
+      "locationKey": "5885 N Ridge Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N Ridge Ave"
+      ],
       "siteID": "agency-chicago-speed-chi093-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI093-180"
@@ -1847,7 +2255,11 @@
       "id": "agency-chicago-speed-chi094-180",
       "kind": "speed",
       "label": "4436 N Western Ave · SB",
+      "locationKey": "4436 N Western Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N Western Ave"
+      ],
       "siteID": "agency-chicago-speed-chi094-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI094-180"
@@ -1865,7 +2277,11 @@
       "id": "agency-chicago-speed-chi095-270",
       "kind": "speed",
       "label": "1142 W Irving Park Rd · WB",
+      "locationKey": "1142 W Irving Park Rd",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Irving Park Rd"
+      ],
       "siteID": "agency-chicago-speed-chi095-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI095-270"
@@ -1883,7 +2299,11 @@
       "id": "agency-chicago-speed-chi095-90",
       "kind": "speed",
       "label": "1142 W Irving Park Rd · EB",
+      "locationKey": "1142 W Irving Park Rd",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Irving Park Rd"
+      ],
       "siteID": "agency-chicago-speed-chi095-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI095-90"
@@ -1901,7 +2321,11 @@
       "id": "agency-chicago-speed-chi096-0",
       "kind": "speed",
       "label": "4429 N Broadway Ave · NB",
+      "locationKey": "4429 N Broadway Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N Broadway Ave"
+      ],
       "siteID": "agency-chicago-speed-chi096-0",
       "sourceIDs": [
         "agency/chicago-speed/CHI096-0"
@@ -1919,7 +2343,11 @@
       "id": "agency-chicago-speed-chi097-180",
       "kind": "speed",
       "label": "4446 N Broadway Ave · SB",
+      "locationKey": "4446 N Broadway Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N Broadway Ave"
+      ],
       "siteID": "agency-chicago-speed-chi097-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI097-180"
@@ -1937,7 +2365,11 @@
       "id": "agency-chicago-speed-chi098-90",
       "kind": "speed",
       "label": "2445 W 51st St · EB",
+      "locationKey": "2445 W 51st St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W 51st St"
+      ],
       "siteID": "agency-chicago-speed-chi098-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI098-90"
@@ -1955,7 +2387,11 @@
       "id": "agency-chicago-speed-chi099-270",
       "kind": "speed",
       "label": "2440 W 51st St · WB",
+      "locationKey": "2440 W 51st St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W 51st St"
+      ],
       "siteID": "agency-chicago-speed-chi099-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI099-270"
@@ -1973,7 +2409,11 @@
       "id": "agency-chicago-speed-chi102-270",
       "kind": "speed",
       "label": "5471 W Higgins Rd · WB",
+      "locationKey": "5471 W Higgins Rd",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Higgins Rd"
+      ],
       "siteID": "agency-chicago-speed-chi102-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI102-270"
@@ -1991,7 +2431,11 @@
       "id": "agency-chicago-speed-chi102-90",
       "kind": "speed",
       "label": "5471 W Higgins Rd · EB",
+      "locationKey": "5471 W Higgins Rd",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Higgins Rd"
+      ],
       "siteID": "agency-chicago-speed-chi102-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI102-90"
@@ -2009,7 +2453,11 @@
       "id": "agency-chicago-speed-chi103-270",
       "kind": "speed",
       "label": "5432 W Lawrence Ave · WB",
+      "locationKey": "5432 W Lawrence Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Lawrence Ave"
+      ],
       "siteID": "agency-chicago-speed-chi103-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI103-270"
@@ -2027,7 +2475,11 @@
       "id": "agency-chicago-speed-chi103-90",
       "kind": "speed",
       "label": "5432 W Lawrence Ave · EB",
+      "locationKey": "5432 W Lawrence Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Lawrence Ave"
+      ],
       "siteID": "agency-chicago-speed-chi103-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI103-90"
@@ -2045,7 +2497,11 @@
       "id": "agency-chicago-speed-chi104-0",
       "kind": "speed",
       "label": "3115 N Narragansett Ave · NB",
+      "locationKey": "3115 N Narragansett Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N Narragansett Ave"
+      ],
       "siteID": "agency-chicago-speed-chi104-0",
       "sourceIDs": [
         "agency/chicago-speed/CHI104-0"
@@ -2063,7 +2519,11 @@
       "id": "agency-chicago-speed-chi105-270",
       "kind": "speed",
       "label": "6443 W Belmont Ave · WB",
+      "locationKey": "6443 W Belmont Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Belmont Ave"
+      ],
       "siteID": "agency-chicago-speed-chi105-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI105-270"
@@ -2081,7 +2541,11 @@
       "id": "agency-chicago-speed-chi105-90",
       "kind": "speed",
       "label": "6443 W Belmont Ave · EB",
+      "locationKey": "6443 W Belmont Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Belmont Ave"
+      ],
       "siteID": "agency-chicago-speed-chi105-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI105-90"
@@ -2099,7 +2563,11 @@
       "id": "agency-chicago-speed-chi107-90",
       "kind": "speed",
       "label": "4041 W Chicago Ave · EB",
+      "locationKey": "4041 W Chicago Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Chicago Ave"
+      ],
       "siteID": "agency-chicago-speed-chi107-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI107-90"
@@ -2117,7 +2585,11 @@
       "id": "agency-chicago-speed-chi108-270",
       "kind": "speed",
       "label": "4040 W Chicago Ave · WB",
+      "locationKey": "4040 W Chicago Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Chicago Ave"
+      ],
       "siteID": "agency-chicago-speed-chi108-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI108-270"
@@ -2135,7 +2607,11 @@
       "id": "agency-chicago-speed-chi109-0",
       "kind": "speed",
       "label": "732 N Pulaski Rd · NB",
+      "locationKey": "732 N Pulaski Rd",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N Pulaski Rd"
+      ],
       "siteID": "agency-chicago-speed-chi109-0",
       "sourceIDs": [
         "agency/chicago-speed/CHI109-0"
@@ -2153,7 +2629,11 @@
       "id": "agency-chicago-speed-chi109-180",
       "kind": "speed",
       "label": "732 N Pulaski Rd · SB",
+      "locationKey": "732 N Pulaski Rd",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N Pulaski Rd"
+      ],
       "siteID": "agency-chicago-speed-chi109-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI109-180"
@@ -2171,7 +2651,11 @@
       "id": "agency-chicago-speed-chi112-0",
       "kind": "speed",
       "label": "1635 N Ashland Ave · NB",
+      "locationKey": "1635 N Ashland Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N Ashland Ave"
+      ],
       "siteID": "agency-chicago-speed-chi112-0",
       "sourceIDs": [
         "agency/chicago-speed/CHI112-0"
@@ -2189,7 +2673,11 @@
       "id": "agency-chicago-speed-chi113-180",
       "kind": "speed",
       "label": "1638 N Ashland Ave · SB",
+      "locationKey": "1638 N Ashland Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N Ashland Ave"
+      ],
       "siteID": "agency-chicago-speed-chi113-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI113-180"
@@ -2207,7 +2695,11 @@
       "id": "agency-chicago-speed-chi114-0",
       "kind": "speed",
       "label": "6125 N Cicero Ave · NB",
+      "locationKey": "6125 N Cicero Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N Cicero Ave"
+      ],
       "siteID": "agency-chicago-speed-chi114-0",
       "sourceIDs": [
         "agency/chicago-speed/CHI114-0"
@@ -2225,7 +2717,11 @@
       "id": "agency-chicago-speed-chi114-180",
       "kind": "speed",
       "label": "6125 N Cicero Ave · SB",
+      "locationKey": "6125 N Cicero Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N Cicero Ave"
+      ],
       "siteID": "agency-chicago-speed-chi114-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI114-180"
@@ -2243,7 +2739,11 @@
       "id": "agency-chicago-speed-chi115-90",
       "kind": "speed",
       "label": "4707 W Peterson Ave · EB",
+      "locationKey": "4707 W Peterson Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Peterson Ave"
+      ],
       "siteID": "agency-chicago-speed-chi115-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI115-90"
@@ -2261,7 +2761,11 @@
       "id": "agency-chicago-speed-chi116-270",
       "kind": "speed",
       "label": "4674 W Peterson Ave · WB",
+      "locationKey": "4674 W Peterson Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Peterson Ave"
+      ],
       "siteID": "agency-chicago-speed-chi116-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI116-270"
@@ -2279,7 +2783,11 @@
       "id": "agency-chicago-speed-chi117-0",
       "kind": "speed",
       "label": "2928 S Halsted St · NB",
+      "locationKey": "2928 S Halsted St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S Halsted St"
+      ],
       "siteID": "agency-chicago-speed-chi117-0",
       "sourceIDs": [
         "agency/chicago-speed/CHI117-0"
@@ -2297,7 +2805,11 @@
       "id": "agency-chicago-speed-chi117-180",
       "kind": "speed",
       "label": "2928 S Halsted St · SB",
+      "locationKey": "2928 S Halsted St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S Halsted St"
+      ],
       "siteID": "agency-chicago-speed-chi117-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI117-180"
@@ -2315,7 +2827,11 @@
       "id": "agency-chicago-speed-chi119-270",
       "kind": "speed",
       "label": "1334 W Garfield Blvd · WB",
+      "locationKey": "1334 W Garfield Blvd",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Garfield Blvd"
+      ],
       "siteID": "agency-chicago-speed-chi119-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI119-270"
@@ -2333,7 +2849,11 @@
       "id": "agency-chicago-speed-chi120-135",
       "kind": "speed",
       "label": "10318 S Indianapolis Ave · SEB",
+      "locationKey": "10318 S Indianapolis Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S Indianapolis Ave"
+      ],
       "siteID": "agency-chicago-speed-chi120-135",
       "sourceIDs": [
         "agency/chicago-speed/CHI120-135"
@@ -2351,7 +2871,11 @@
       "id": "agency-chicago-speed-chi120-315",
       "kind": "speed",
       "label": "10318 S Indianapolis Ave · NWB",
+      "locationKey": "10318 S Indianapolis Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S Indianapolis Ave"
+      ],
       "siteID": "agency-chicago-speed-chi120-315",
       "sourceIDs": [
         "agency/chicago-speed/CHI120-315"
@@ -2369,7 +2893,11 @@
       "id": "agency-chicago-speed-chi121-90",
       "kind": "speed",
       "label": "1315 W Garfield Blvd · EB",
+      "locationKey": "1315 W Garfield Blvd",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Garfield Blvd"
+      ],
       "siteID": "agency-chicago-speed-chi121-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI121-90"
@@ -2387,7 +2915,11 @@
       "id": "agency-chicago-speed-chi122-270",
       "kind": "speed",
       "label": "3047 W Jackson Blvd · WB",
+      "locationKey": "3047 W Jackson Blvd",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Jackson Blvd"
+      ],
       "siteID": "agency-chicago-speed-chi122-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI122-270"
@@ -2405,7 +2937,11 @@
       "id": "agency-chicago-speed-chi122-90",
       "kind": "speed",
       "label": "3047 W Jackson Blvd · EB",
+      "locationKey": "3047 W Jackson Blvd",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Jackson Blvd"
+      ],
       "siteID": "agency-chicago-speed-chi122-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI122-90"
@@ -2423,7 +2959,11 @@
       "id": "agency-chicago-speed-chi123-0",
       "kind": "speed",
       "label": "324 S Kedzie Ave · NB",
+      "locationKey": "324 S Kedzie Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S Kedzie Ave"
+      ],
       "siteID": "agency-chicago-speed-chi123-0",
       "sourceIDs": [
         "agency/chicago-speed/CHI123-0"
@@ -2441,7 +2981,11 @@
       "id": "agency-chicago-speed-chi123-180",
       "kind": "speed",
       "label": "324 S Kedzie Ave · SB",
+      "locationKey": "324 S Kedzie Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S Kedzie Ave"
+      ],
       "siteID": "agency-chicago-speed-chi123-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI123-180"
@@ -2459,7 +3003,11 @@
       "id": "agency-chicago-speed-chi124-0",
       "kind": "speed",
       "label": "449 N Columbus Dr · NB",
+      "locationKey": "449 N Columbus Dr",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N Columbus Dr"
+      ],
       "siteID": "agency-chicago-speed-chi124-0",
       "sourceIDs": [
         "agency/chicago-speed/CHI124-0"
@@ -2477,7 +3025,11 @@
       "id": "agency-chicago-speed-chi125-180",
       "kind": "speed",
       "label": "450 N Columbus Dr · SB",
+      "locationKey": "450 N Columbus Dr",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N Columbus Dr"
+      ],
       "siteID": "agency-chicago-speed-chi125-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI125-180"
@@ -2495,7 +3047,11 @@
       "id": "agency-chicago-speed-chi126-90",
       "kind": "speed",
       "label": "324 E Illinois St · EB",
+      "locationKey": "324 E Illinois St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "E Illinois St"
+      ],
       "siteID": "agency-chicago-speed-chi126-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI126-90"
@@ -2513,7 +3069,11 @@
       "id": "agency-chicago-speed-chi127-0",
       "kind": "speed",
       "label": "1229 N Western Ave · NB",
+      "locationKey": "1229 N Western Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N Western Ave"
+      ],
       "siteID": "agency-chicago-speed-chi127-0",
       "sourceIDs": [
         "agency/chicago-speed/CHI127-0"
@@ -2531,7 +3091,11 @@
       "id": "agency-chicago-speed-chi128-180",
       "kind": "speed",
       "label": "1226 S Western Ave · SB",
+      "locationKey": "1226 S Western Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S Western Ave"
+      ],
       "siteID": "agency-chicago-speed-chi128-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI128-180"
@@ -2549,7 +3113,11 @@
       "id": "agency-chicago-speed-chi129-270",
       "kind": "speed",
       "label": "2329 W Division St · WB",
+      "locationKey": "2329 W Division St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Division St"
+      ],
       "siteID": "agency-chicago-speed-chi129-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI129-270"
@@ -2567,7 +3135,11 @@
       "id": "agency-chicago-speed-chi129-90",
       "kind": "speed",
       "label": "2329 W Division St · EB",
+      "locationKey": "2329 W Division St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Division St"
+      ],
       "siteID": "agency-chicago-speed-chi129-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI129-90"
@@ -2585,7 +3157,11 @@
       "id": "agency-chicago-speed-chi132-180",
       "kind": "speed",
       "label": "3116 N Narragansett Ave · SB",
+      "locationKey": "3116 N Narragansett Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N Narragansett Ave"
+      ],
       "siteID": "agency-chicago-speed-chi132-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI132-180"
@@ -2603,7 +3179,11 @@
       "id": "agency-chicago-speed-chi133-90",
       "kind": "speed",
       "label": "19 E Chicago Ave · EB",
+      "locationKey": "19 E Chicago Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "E Chicago Ave"
+      ],
       "siteID": "agency-chicago-speed-chi133-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI133-90"
@@ -2621,7 +3201,11 @@
       "id": "agency-chicago-speed-chi134-0",
       "kind": "speed",
       "label": "2115 S Western Ave · NB",
+      "locationKey": "2115 S Western Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S Western Ave"
+      ],
       "siteID": "agency-chicago-speed-chi134-0",
       "sourceIDs": [
         "agency/chicago-speed/CHI134-0"
@@ -2639,7 +3223,11 @@
       "id": "agency-chicago-speed-chi135-180",
       "kind": "speed",
       "label": "2108 S Western Ave · SB",
+      "locationKey": "2108 S Western Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S Western Ave"
+      ],
       "siteID": "agency-chicago-speed-chi135-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI135-180"
@@ -2657,7 +3245,11 @@
       "id": "agency-chicago-speed-chi136-270",
       "kind": "speed",
       "label": "346 W 76th St · WB",
+      "locationKey": "346 W 76th St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W 76th St"
+      ],
       "siteID": "agency-chicago-speed-chi136-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI136-270"
@@ -2675,7 +3267,11 @@
       "id": "agency-chicago-speed-chi137-90",
       "kind": "speed",
       "label": "341 W 76th St · EB",
+      "locationKey": "341 W 76th St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W 76th St"
+      ],
       "siteID": "agency-chicago-speed-chi137-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI137-90"
@@ -2693,7 +3289,11 @@
       "id": "agency-chicago-speed-chi138-270",
       "kind": "speed",
       "label": "1901 E 75th St · WB",
+      "locationKey": "1901 E 75th St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "E 75th St"
+      ],
       "siteID": "agency-chicago-speed-chi138-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI138-270"
@@ -2711,7 +3311,11 @@
       "id": "agency-chicago-speed-chi138-90",
       "kind": "speed",
       "label": "1901 E 75th St · EB",
+      "locationKey": "1901 E 75th St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "E 75th St"
+      ],
       "siteID": "agency-chicago-speed-chi138-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI138-90"
@@ -2729,7 +3333,11 @@
       "id": "agency-chicago-speed-chi139-270",
       "kind": "speed",
       "label": "14 W Chicago Ave · WB",
+      "locationKey": "14 W Chicago Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Chicago Ave"
+      ],
       "siteID": "agency-chicago-speed-chi139-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI139-270"
@@ -2747,7 +3355,11 @@
       "id": "agency-chicago-speed-chi140-90",
       "kind": "speed",
       "label": "3535 E 95th St · EB",
+      "locationKey": "3535 E 95th St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "E 95th St"
+      ],
       "siteID": "agency-chicago-speed-chi140-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI140-90"
@@ -2765,7 +3377,11 @@
       "id": "agency-chicago-speed-chi141-270",
       "kind": "speed",
       "label": "3542 E 95th St · WB",
+      "locationKey": "3542 E 95th St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "E 95th St"
+      ],
       "siteID": "agency-chicago-speed-chi141-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI141-270"
@@ -2783,7 +3399,11 @@
       "id": "agency-chicago-speed-chi142-0",
       "kind": "speed",
       "label": "9618 S. Ewing · NB",
+      "locationKey": "9618 S. Ewing",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S. Ewing"
+      ],
       "siteID": "agency-chicago-speed-chi142-0",
       "sourceIDs": [
         "agency/chicago-speed/CHI142-0"
@@ -2801,7 +3421,11 @@
       "id": "agency-chicago-speed-chi142-180",
       "kind": "speed",
       "label": "9618 S. Ewing · SB",
+      "locationKey": "9618 S. Ewing",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S. Ewing"
+      ],
       "siteID": "agency-chicago-speed-chi142-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI142-180"
@@ -2819,7 +3443,11 @@
       "id": "agency-chicago-speed-chi145-270",
       "kind": "speed",
       "label": "2109 E 87th St · WB",
+      "locationKey": "2109 E 87th St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "E 87th St"
+      ],
       "siteID": "agency-chicago-speed-chi145-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI145-270"
@@ -2837,7 +3465,11 @@
       "id": "agency-chicago-speed-chi145-90",
       "kind": "speed",
       "label": "2109 E 87th St · EB",
+      "locationKey": "2109 E 87th St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "E 87th St"
+      ],
       "siteID": "agency-chicago-speed-chi145-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI145-90"
@@ -2855,7 +3487,11 @@
       "id": "agency-chicago-speed-chi146-270",
       "kind": "speed",
       "label": "215 E 63rd St · WB",
+      "locationKey": "215 E 63rd St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "E 63rd St"
+      ],
       "siteID": "agency-chicago-speed-chi146-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI146-270"
@@ -2873,7 +3509,11 @@
       "id": "agency-chicago-speed-chi146-90",
       "kind": "speed",
       "label": "215 E 63rd St · EB",
+      "locationKey": "215 E 63rd St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "E 63rd St"
+      ],
       "siteID": "agency-chicago-speed-chi146-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI146-90"
@@ -2891,7 +3531,11 @@
       "id": "agency-chicago-speed-chi148-0",
       "kind": "speed",
       "label": "6330 S Dr Martin Luther King Jr Dr · NB",
+      "locationKey": "6330 S Dr Martin Luther King Jr Dr",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S Dr Martin Luther King Jr Dr"
+      ],
       "siteID": "agency-chicago-speed-chi148-0",
       "sourceIDs": [
         "agency/chicago-speed/CHI148-0"
@@ -2909,7 +3553,11 @@
       "id": "agency-chicago-speed-chi148-180",
       "kind": "speed",
       "label": "6330 S Dr Martin Luther King Jr Dr · SB",
+      "locationKey": "6330 S Dr Martin Luther King Jr Dr",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S Dr Martin Luther King Jr Dr"
+      ],
       "siteID": "agency-chicago-speed-chi148-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI148-180"
@@ -2927,7 +3575,11 @@
       "id": "agency-chicago-speed-chi149-0",
       "kind": "speed",
       "label": "4909 N Cicero Ave · NB",
+      "locationKey": "4909 N Cicero Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N Cicero Ave"
+      ],
       "siteID": "agency-chicago-speed-chi149-0",
       "sourceIDs": [
         "agency/chicago-speed/CHI149-0"
@@ -2945,7 +3597,11 @@
       "id": "agency-chicago-speed-chi149-180",
       "kind": "speed",
       "label": "4909 N Cicero Ave · SB",
+      "locationKey": "4909 N Cicero Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N Cicero Ave"
+      ],
       "siteID": "agency-chicago-speed-chi149-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI149-180"
@@ -2963,7 +3619,11 @@
       "id": "agency-chicago-speed-chi157-0",
       "kind": "speed",
       "label": "1754 N Pulaski Rd · NB",
+      "locationKey": "1754 N Pulaski Rd",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N Pulaski Rd"
+      ],
       "siteID": "agency-chicago-speed-chi157-0",
       "sourceIDs": [
         "agency/chicago-speed/CHI157-0"
@@ -2981,7 +3641,11 @@
       "id": "agency-chicago-speed-chi157-180",
       "kind": "speed",
       "label": "1754 N Pulaski Rd · SB",
+      "locationKey": "1754 N Pulaski Rd",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N Pulaski Rd"
+      ],
       "siteID": "agency-chicago-speed-chi157-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI157-180"
@@ -2999,7 +3663,11 @@
       "id": "agency-chicago-speed-chi158-270",
       "kind": "speed",
       "label": "6510 W Bryn Mawr Ave · WB",
+      "locationKey": "6510 W Bryn Mawr Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Bryn Mawr Ave"
+      ],
       "siteID": "agency-chicago-speed-chi158-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI158-270"
@@ -3017,7 +3685,11 @@
       "id": "agency-chicago-speed-chi159-90",
       "kind": "speed",
       "label": "4053 W North Ave · EB",
+      "locationKey": "4053 W North Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W North Ave"
+      ],
       "siteID": "agency-chicago-speed-chi159-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI159-90"
@@ -3035,7 +3707,11 @@
       "id": "agency-chicago-speed-chi161-270",
       "kind": "speed",
       "label": "4042 W North Ave · WB",
+      "locationKey": "4042 W North Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W North Ave"
+      ],
       "siteID": "agency-chicago-speed-chi161-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI161-270"
@@ -3053,7 +3729,11 @@
       "id": "agency-chicago-speed-chi162-0",
       "kind": "speed",
       "label": "1117 S Pulaski Rd · NB",
+      "locationKey": "1117 S Pulaski Rd",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S Pulaski Rd"
+      ],
       "siteID": "agency-chicago-speed-chi162-0",
       "sourceIDs": [
         "agency/chicago-speed/CHI162-0"
@@ -3071,7 +3751,11 @@
       "id": "agency-chicago-speed-chi163-180",
       "kind": "speed",
       "label": "1110 S Pulaski Rd · SB",
+      "locationKey": "1110 S Pulaski Rd",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S Pulaski Rd"
+      ],
       "siteID": "agency-chicago-speed-chi163-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI163-180"
@@ -3089,7 +3773,11 @@
       "id": "agency-chicago-speed-chi164-0",
       "kind": "speed",
       "label": "5532 S Kedzie Ave · NB",
+      "locationKey": "5532 S Kedzie Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S Kedzie Ave"
+      ],
       "siteID": "agency-chicago-speed-chi164-0",
       "sourceIDs": [
         "agency/chicago-speed/CHI164-0"
@@ -3107,7 +3795,11 @@
       "id": "agency-chicago-speed-chi164-180",
       "kind": "speed",
       "label": "5532 S Kedzie Ave · SB",
+      "locationKey": "5532 S Kedzie Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S Kedzie Ave"
+      ],
       "siteID": "agency-chicago-speed-chi164-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI164-180"
@@ -3125,7 +3817,11 @@
       "id": "agency-chicago-speed-chi166-90",
       "kind": "speed",
       "label": "3217 W 55th St · EB",
+      "locationKey": "3217 W 55th St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W 55th St"
+      ],
       "siteID": "agency-chicago-speed-chi166-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI166-90"
@@ -3143,7 +3839,11 @@
       "id": "agency-chicago-speed-chi167-270",
       "kind": "speed",
       "label": "3212 W 55th St · WB",
+      "locationKey": "3212 W 55th St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W 55th St"
+      ],
       "siteID": "agency-chicago-speed-chi167-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI167-270"
@@ -3161,7 +3861,11 @@
       "id": "agency-chicago-speed-chi168-0",
       "kind": "speed",
       "label": "8345 S Ashland Ave · NB",
+      "locationKey": "8345 S Ashland Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S Ashland Ave"
+      ],
       "siteID": "agency-chicago-speed-chi168-0",
       "sourceIDs": [
         "agency/chicago-speed/CHI168-0"
@@ -3179,7 +3883,11 @@
       "id": "agency-chicago-speed-chi169-180",
       "kind": "speed",
       "label": "8318 S Ashland Ave · SB",
+      "locationKey": "8318 S Ashland Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S Ashland Ave"
+      ],
       "siteID": "agency-chicago-speed-chi169-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI169-180"
@@ -3197,7 +3905,11 @@
       "id": "agency-chicago-speed-chi170-270",
       "kind": "speed",
       "label": "1507 W 83rd St · WB",
+      "locationKey": "1507 W 83rd St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W 83rd St"
+      ],
       "siteID": "agency-chicago-speed-chi170-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI170-270"
@@ -3215,7 +3927,11 @@
       "id": "agency-chicago-speed-chi170-90",
       "kind": "speed",
       "label": "1507 W 83rd St · EB",
+      "locationKey": "1507 W 83rd St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W 83rd St"
+      ],
       "siteID": "agency-chicago-speed-chi170-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI170-90"
@@ -3233,7 +3949,11 @@
       "id": "agency-chicago-speed-chi171-0",
       "kind": "speed",
       "label": "3111 N Ashland Ave · NB",
+      "locationKey": "3111 N Ashland Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N Ashland Ave"
+      ],
       "siteID": "agency-chicago-speed-chi171-0",
       "sourceIDs": [
         "agency/chicago-speed/CHI171-0"
@@ -3251,7 +3971,11 @@
       "id": "agency-chicago-speed-chi172-180",
       "kind": "speed",
       "label": "3130 N Ashland Ave · SB",
+      "locationKey": "3130 N Ashland Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N Ashland Ave"
+      ],
       "siteID": "agency-chicago-speed-chi172-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI172-180"
@@ -3269,7 +3993,11 @@
       "id": "agency-chicago-speed-chi173-0",
       "kind": "speed",
       "label": "5006 S Western Blvd · NB",
+      "locationKey": "5006 S Western Blvd",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S Western Blvd"
+      ],
       "siteID": "agency-chicago-speed-chi173-0",
       "sourceIDs": [
         "agency/chicago-speed/CHI173-0"
@@ -3287,7 +4015,11 @@
       "id": "agency-chicago-speed-chi173-180",
       "kind": "speed",
       "label": "5006 S Western Blvd · SB",
+      "locationKey": "5006 S Western Blvd",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S Western Blvd"
+      ],
       "siteID": "agency-chicago-speed-chi173-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI173-180"
@@ -3305,7 +4037,11 @@
       "id": "agency-chicago-speed-chi174-270",
       "kind": "speed",
       "label": "8020 W Forest Preserve Ave · WB",
+      "locationKey": "8020 W Forest Preserve Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Forest Preserve Ave"
+      ],
       "siteID": "agency-chicago-speed-chi174-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI174-270"
@@ -3323,7 +4059,11 @@
       "id": "agency-chicago-speed-chi174-90",
       "kind": "speed",
       "label": "8020 W Forest Preserve Ave · EB",
+      "locationKey": "8020 W Forest Preserve Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Forest Preserve Ave"
+      ],
       "siteID": "agency-chicago-speed-chi174-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI174-90"
@@ -3341,7 +4081,11 @@
       "id": "agency-chicago-speed-chi175-90",
       "kind": "speed",
       "label": "8043 W Addison St · EB",
+      "locationKey": "8043 W Addison St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Addison St"
+      ],
       "siteID": "agency-chicago-speed-chi175-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI175-90"
@@ -3359,7 +4103,11 @@
       "id": "agency-chicago-speed-chi176-270",
       "kind": "speed",
       "label": "8006 W Addison St · WB",
+      "locationKey": "8006 W Addison St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Addison St"
+      ],
       "siteID": "agency-chicago-speed-chi176-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI176-270"
@@ -3377,7 +4125,11 @@
       "id": "agency-chicago-speed-chi177-270",
       "kind": "speed",
       "label": "3911 W Diversey Ave · WB",
+      "locationKey": "3911 W Diversey Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Diversey Ave"
+      ],
       "siteID": "agency-chicago-speed-chi177-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI177-270"
@@ -3395,7 +4147,11 @@
       "id": "agency-chicago-speed-chi177-90",
       "kind": "speed",
       "label": "3911 W Diversey Ave · EB",
+      "locationKey": "3911 W Diversey Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Diversey Ave"
+      ],
       "siteID": "agency-chicago-speed-chi177-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI177-90"
@@ -3413,7 +4169,11 @@
       "id": "agency-chicago-speed-chi178-90",
       "kind": "speed",
       "label": "4319 W 47th St · EB",
+      "locationKey": "4319 W 47th St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W 47th St"
+      ],
       "siteID": "agency-chicago-speed-chi178-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI178-90"
@@ -3431,7 +4191,11 @@
       "id": "agency-chicago-speed-chi179-270",
       "kind": "speed",
       "label": "4246 W 47th St · WB",
+      "locationKey": "4246 W 47th St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W 47th St"
+      ],
       "siteID": "agency-chicago-speed-chi179-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI179-270"
@@ -3449,7 +4213,11 @@
       "id": "agency-chicago-speed-chi180-0",
       "kind": "speed",
       "label": "7157 S South Chicago Ave · NB",
+      "locationKey": "7157 S South Chicago Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S South Chicago Ave"
+      ],
       "siteID": "agency-chicago-speed-chi180-0",
       "sourceIDs": [
         "agency/chicago-speed/CHI180-0"
@@ -3467,7 +4235,11 @@
       "id": "agency-chicago-speed-chi181-270",
       "kind": "speed",
       "label": "819 E 71st St · WB",
+      "locationKey": "819 E 71st St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "E 71st St"
+      ],
       "siteID": "agency-chicago-speed-chi181-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI181-270"
@@ -3485,7 +4257,11 @@
       "id": "agency-chicago-speed-chi181-90",
       "kind": "speed",
       "label": "819 E 71st St · EB",
+      "locationKey": "819 E 71st St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "E 71st St"
+      ],
       "siteID": "agency-chicago-speed-chi181-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI181-90"
@@ -3503,7 +4279,11 @@
       "id": "agency-chicago-speed-chi182-90",
       "kind": "speed",
       "label": "1455 W Division St · EB",
+      "locationKey": "1455 W Division St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Division St"
+      ],
       "siteID": "agency-chicago-speed-chi182-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI182-90"
@@ -3521,7 +4301,11 @@
       "id": "agency-chicago-speed-chi183-270",
       "kind": "speed",
       "label": "1444 W Division St · WB",
+      "locationKey": "1444 W Division St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Division St"
+      ],
       "siteID": "agency-chicago-speed-chi183-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI183-270"
@@ -3539,7 +4323,11 @@
       "id": "agency-chicago-speed-chi184-180",
       "kind": "speed",
       "label": "7122 S South Chicago Ave · SB",
+      "locationKey": "7122 S South Chicago Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S South Chicago Ave"
+      ],
       "siteID": "agency-chicago-speed-chi184-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI184-180"
@@ -3557,7 +4345,11 @@
       "id": "agency-chicago-speed-chi185-270",
       "kind": "speed",
       "label": "1306 W 76th St · WB",
+      "locationKey": "1306 W 76th St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W 76th St"
+      ],
       "siteID": "agency-chicago-speed-chi185-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI185-270"
@@ -3575,7 +4367,11 @@
       "id": "agency-chicago-speed-chi185-90",
       "kind": "speed",
       "label": "1306 W 76th St · EB",
+      "locationKey": "1306 W 76th St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W 76th St"
+      ],
       "siteID": "agency-chicago-speed-chi185-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI185-90"
@@ -3593,7 +4389,11 @@
       "id": "agency-chicago-speed-chi186-270",
       "kind": "speed",
       "label": "2638 W Fullerton Ave · WB",
+      "locationKey": "2638 W Fullerton Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Fullerton Ave"
+      ],
       "siteID": "agency-chicago-speed-chi186-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI186-270"
@@ -3611,7 +4411,11 @@
       "id": "agency-chicago-speed-chi186-90",
       "kind": "speed",
       "label": "2638 W Fullerton Ave · EB",
+      "locationKey": "2638 W Fullerton Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Fullerton Ave"
+      ],
       "siteID": "agency-chicago-speed-chi186-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI186-90"
@@ -3629,7 +4433,11 @@
       "id": "agency-chicago-speed-chi187-0",
       "kind": "speed",
       "label": "1817 N Clark St · NB",
+      "locationKey": "1817 N Clark St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N Clark St"
+      ],
       "siteID": "agency-chicago-speed-chi187-0",
       "sourceIDs": [
         "agency/chicago-speed/CHI187-0"
@@ -3647,7 +4455,11 @@
       "id": "agency-chicago-speed-chi187-180",
       "kind": "speed",
       "label": "1817 N Clark St · SB",
+      "locationKey": "1817 N Clark St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N Clark St"
+      ],
       "siteID": "agency-chicago-speed-chi187-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI187-180"
@@ -3665,7 +4477,11 @@
       "id": "agency-chicago-speed-chi188-270",
       "kind": "speed",
       "label": "6935 W Addison St · WB",
+      "locationKey": "6935 W Addison St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Addison St"
+      ],
       "siteID": "agency-chicago-speed-chi188-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI188-270"
@@ -3683,7 +4499,11 @@
       "id": "agency-chicago-speed-chi188-90",
       "kind": "speed",
       "label": "6935 W Addison St · EB",
+      "locationKey": "6935 W Addison St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Addison St"
+      ],
       "siteID": "agency-chicago-speed-chi188-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI188-90"
@@ -3701,7 +4521,11 @@
       "id": "agency-chicago-speed-chi189-180",
       "kind": "speed",
       "label": "901 N Clark St · SB",
+      "locationKey": "901 N Clark St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N Clark St"
+      ],
       "siteID": "agency-chicago-speed-chi189-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI189-180"
@@ -3719,7 +4543,11 @@
       "id": "agency-chicago-speed-chi190-0",
       "kind": "speed",
       "label": "3601 N Milwaukee Ave · NB",
+      "locationKey": "3601 N Milwaukee Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N Milwaukee Ave"
+      ],
       "siteID": "agency-chicago-speed-chi190-0",
       "sourceIDs": [
         "agency/chicago-speed/CHI190-0"
@@ -3737,7 +4565,11 @@
       "id": "agency-chicago-speed-chi190-180",
       "kind": "speed",
       "label": "3601 N Milwaukee Ave · SB",
+      "locationKey": "3601 N Milwaukee Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N Milwaukee Ave"
+      ],
       "siteID": "agency-chicago-speed-chi190-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI190-180"
@@ -3755,7 +4587,11 @@
       "id": "agency-chicago-speed-chi191-270",
       "kind": "speed",
       "label": "4949 W Lawrence Ave · WB",
+      "locationKey": "4949 W Lawrence Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Lawrence Ave"
+      ],
       "siteID": "agency-chicago-speed-chi191-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI191-270"
@@ -3773,7 +4609,11 @@
       "id": "agency-chicago-speed-chi191-90",
       "kind": "speed",
       "label": "4949 W Lawrence Ave · EB",
+      "locationKey": "4949 W Lawrence Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Lawrence Ave"
+      ],
       "siteID": "agency-chicago-speed-chi191-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI191-90"
@@ -3791,7 +4631,11 @@
       "id": "agency-chicago-speed-chi192-270",
       "kind": "speed",
       "label": "6020 W Foster Ave · WB",
+      "locationKey": "6020 W Foster Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Foster Ave"
+      ],
       "siteID": "agency-chicago-speed-chi192-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI192-270"
@@ -3809,7 +4653,11 @@
       "id": "agency-chicago-speed-chi192-90",
       "kind": "speed",
       "label": "6020 W Foster Ave · EB",
+      "locationKey": "6020 W Foster Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Foster Ave"
+      ],
       "siteID": "agency-chicago-speed-chi192-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI192-90"
@@ -3827,7 +4675,11 @@
       "id": "agency-chicago-speed-chi193-270",
       "kind": "speed",
       "label": "7508 W Touhy Ave · WB",
+      "locationKey": "7508 W Touhy Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Touhy Ave"
+      ],
       "siteID": "agency-chicago-speed-chi193-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI193-270"
@@ -3845,7 +4697,11 @@
       "id": "agency-chicago-speed-chi193-90",
       "kind": "speed",
       "label": "7508 W Touhy Ave · EB",
+      "locationKey": "7508 W Touhy Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Touhy Ave"
+      ],
       "siteID": "agency-chicago-speed-chi193-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI193-90"
@@ -3863,7 +4719,11 @@
       "id": "agency-chicago-speed-chi194-270",
       "kind": "speed",
       "label": "4516 W Marquette Rd · WB",
+      "locationKey": "4516 W Marquette Rd",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Marquette Rd"
+      ],
       "siteID": "agency-chicago-speed-chi194-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI194-270"
@@ -3881,7 +4741,11 @@
       "id": "agency-chicago-speed-chi194-90",
       "kind": "speed",
       "label": "4516 W Marquette Rd · EB",
+      "locationKey": "4516 W Marquette Rd",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Marquette Rd"
+      ],
       "siteID": "agency-chicago-speed-chi194-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI194-90"
@@ -3899,7 +4763,11 @@
       "id": "agency-chicago-speed-chi195-270",
       "kind": "speed",
       "label": "3314 W 16th St · WB",
+      "locationKey": "3314 W 16th St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W 16th St"
+      ],
       "siteID": "agency-chicago-speed-chi195-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI195-270"
@@ -3917,7 +4785,11 @@
       "id": "agency-chicago-speed-chi195-90",
       "kind": "speed",
       "label": "3314 W 16th St · EB",
+      "locationKey": "3314 W 16th St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W 16th St"
+      ],
       "siteID": "agency-chicago-speed-chi195-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI195-90"
@@ -3935,7 +4807,11 @@
       "id": "agency-chicago-speed-chi196-0",
       "kind": "speed",
       "label": "3536 S Wallace St · NB",
+      "locationKey": "3536 S Wallace St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S Wallace St"
+      ],
       "siteID": "agency-chicago-speed-chi196-0",
       "sourceIDs": [
         "agency/chicago-speed/CHI196-0"
@@ -3953,7 +4829,11 @@
       "id": "agency-chicago-speed-chi196-180",
       "kind": "speed",
       "label": "3536 S Wallace St · SB",
+      "locationKey": "3536 S Wallace St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S Wallace St"
+      ],
       "siteID": "agency-chicago-speed-chi196-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI196-180"
@@ -3971,7 +4851,11 @@
       "id": "agency-chicago-speed-chi197-270",
       "kind": "speed",
       "label": "1215 E 83RD ST · WB",
+      "locationKey": "1215 E 83RD ST",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "E 83RD ST"
+      ],
       "siteID": "agency-chicago-speed-chi197-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI197-270"
@@ -3989,7 +4873,11 @@
       "id": "agency-chicago-speed-chi197-90",
       "kind": "speed",
       "label": "1215 E 83RD ST · EB",
+      "locationKey": "1215 E 83RD ST",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "E 83RD ST"
+      ],
       "siteID": "agency-chicago-speed-chi197-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI197-90"
@@ -4007,7 +4895,11 @@
       "id": "agency-chicago-speed-chi198-0",
       "kind": "speed",
       "label": "2223 N Kedzie Blvd · NB",
+      "locationKey": "2223 N Kedzie Blvd",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N Kedzie Blvd"
+      ],
       "siteID": "agency-chicago-speed-chi198-0",
       "sourceIDs": [
         "agency/chicago-speed/CHI198-0"
@@ -4025,7 +4917,11 @@
       "id": "agency-chicago-speed-chi198-180",
       "kind": "speed",
       "label": "2223 N Kedzie Blvd · SB",
+      "locationKey": "2223 N Kedzie Blvd",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N Kedzie Blvd"
+      ],
       "siteID": "agency-chicago-speed-chi198-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI198-180"
@@ -4043,7 +4939,11 @@
       "id": "agency-chicago-speed-chi199-270",
       "kind": "speed",
       "label": "4350 W 79th St · WB",
+      "locationKey": "4350 W 79th St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W 79th St"
+      ],
       "siteID": "agency-chicago-speed-chi199-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI199-270"
@@ -4061,7 +4961,11 @@
       "id": "agency-chicago-speed-chi201-270",
       "kind": "speed",
       "label": "2501 W Irving Park Rd · WB",
+      "locationKey": "2501 W Irving Park Rd",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Irving Park Rd"
+      ],
       "siteID": "agency-chicago-speed-chi201-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI201-270"
@@ -4079,7 +4983,11 @@
       "id": "agency-chicago-speed-chi201-90",
       "kind": "speed",
       "label": "2501 W Irving Park Rd · EB",
+      "locationKey": "2501 W Irving Park Rd",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Irving Park Rd"
+      ],
       "siteID": "agency-chicago-speed-chi201-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI201-90"
@@ -4097,7 +5005,11 @@
       "id": "agency-chicago-speed-chi202-0",
       "kind": "speed",
       "label": "5433 S Pulaski Ave · NB",
+      "locationKey": "5433 S Pulaski Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S Pulaski Ave"
+      ],
       "siteID": "agency-chicago-speed-chi202-0",
       "sourceIDs": [
         "agency/chicago-speed/CHI202-0"
@@ -4115,7 +5027,11 @@
       "id": "agency-chicago-speed-chi203-180",
       "kind": "speed",
       "label": "5428 S Pulaski S Rd · SB",
+      "locationKey": "5428 S Pulaski S Rd",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S Pulaski S Rd"
+      ],
       "siteID": "agency-chicago-speed-chi203-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI203-180"
@@ -4133,7 +5049,11 @@
       "id": "agency-chicago-speed-chi204-270",
       "kind": "speed",
       "label": "655 W. Root St. · WB",
+      "locationKey": "655 W. Root St.",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W. Root St."
+      ],
       "siteID": "agency-chicago-speed-chi204-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI204-270"
@@ -4151,7 +5071,11 @@
       "id": "agency-chicago-speed-chi204-90",
       "kind": "speed",
       "label": "655 W. Root St. · EB",
+      "locationKey": "655 W. Root St.",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W. Root St."
+      ],
       "siteID": "agency-chicago-speed-chi204-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI204-90"
@@ -4169,7 +5093,11 @@
       "id": "agency-chicago-speed-chi205-0",
       "kind": "speed",
       "label": "10540 S Western Ave · NB",
+      "locationKey": "10540 S Western Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S Western Ave"
+      ],
       "siteID": "agency-chicago-speed-chi205-0",
       "sourceIDs": [
         "agency/chicago-speed/CHI205-0"
@@ -4187,7 +5115,11 @@
       "id": "agency-chicago-speed-chi205-180",
       "kind": "speed",
       "label": "10540 S Western Ave · SB",
+      "locationKey": "10540 S Western Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S Western Ave"
+      ],
       "siteID": "agency-chicago-speed-chi205-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI205-180"
@@ -4205,7 +5137,11 @@
       "id": "agency-chicago-speed-chi206-270",
       "kind": "speed",
       "label": "1732 W 99th St · WB",
+      "locationKey": "1732 W 99th St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W 99th St"
+      ],
       "siteID": "agency-chicago-speed-chi206-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI206-270"
@@ -4223,7 +5159,11 @@
       "id": "agency-chicago-speed-chi206-90",
       "kind": "speed",
       "label": "1732 W 99th St · EB",
+      "locationKey": "1732 W 99th St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W 99th St"
+      ],
       "siteID": "agency-chicago-speed-chi206-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI206-90"
@@ -4241,7 +5181,11 @@
       "id": "agency-chicago-speed-chi207-270",
       "kind": "speed",
       "label": "2700 W 103rd St · WB",
+      "locationKey": "2700 W 103rd St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W 103rd St"
+      ],
       "siteID": "agency-chicago-speed-chi207-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI207-270"
@@ -4259,7 +5203,11 @@
       "id": "agency-chicago-speed-chi207-90",
       "kind": "speed",
       "label": "2700 W 103rd St · EB",
+      "locationKey": "2700 W 103rd St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W 103rd St"
+      ],
       "siteID": "agency-chicago-speed-chi207-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI207-90"
@@ -4277,7 +5225,11 @@
       "id": "agency-chicago-speed-chi208-270",
       "kind": "speed",
       "label": "1455 W Grand Ave · WB",
+      "locationKey": "1455 W Grand Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Grand Ave"
+      ],
       "siteID": "agency-chicago-speed-chi208-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI208-270"
@@ -4295,7 +5247,11 @@
       "id": "agency-chicago-speed-chi208-90",
       "kind": "speed",
       "label": "1455 W Grand Ave · EB",
+      "locationKey": "1455 W Grand Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Grand Ave"
+      ],
       "siteID": "agency-chicago-speed-chi208-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI208-90"
@@ -4313,7 +5269,11 @@
       "id": "agency-chicago-speed-chi209-0",
       "kind": "speed",
       "label": "4716 N Ashland · NB",
+      "locationKey": "4716 N Ashland",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N Ashland"
+      ],
       "siteID": "agency-chicago-speed-chi209-0",
       "sourceIDs": [
         "agency/chicago-speed/CHI209-0"
@@ -4331,7 +5291,11 @@
       "id": "agency-chicago-speed-chi209-180",
       "kind": "speed",
       "label": "4716 N Ashland · SB",
+      "locationKey": "4716 N Ashland",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N Ashland"
+      ],
       "siteID": "agency-chicago-speed-chi209-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI209-180"
@@ -4349,7 +5313,11 @@
       "id": "agency-chicago-speed-chi210-270",
       "kind": "speed",
       "label": "2310 E 103rd St · WB",
+      "locationKey": "2310 E 103rd St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "E 103rd St"
+      ],
       "siteID": "agency-chicago-speed-chi210-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI210-270"
@@ -4367,7 +5335,11 @@
       "id": "agency-chicago-speed-chi210-90",
       "kind": "speed",
       "label": "2310 E 103rd St · EB",
+      "locationKey": "2310 E 103rd St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "E 103rd St"
+      ],
       "siteID": "agency-chicago-speed-chi210-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI210-90"
@@ -4385,7 +5357,11 @@
       "id": "agency-chicago-speed-chi211-270",
       "kind": "speed",
       "label": "2740 S Archer Ave · WB",
+      "locationKey": "2740 S Archer Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S Archer Ave"
+      ],
       "siteID": "agency-chicago-speed-chi211-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI211-270"
@@ -4403,7 +5379,11 @@
       "id": "agency-chicago-speed-chi211-90",
       "kind": "speed",
       "label": "2740 S Archer Ave · EB",
+      "locationKey": "2740 S Archer Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S Archer Ave"
+      ],
       "siteID": "agency-chicago-speed-chi211-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI211-90"
@@ -4421,7 +5401,11 @@
       "id": "agency-chicago-speed-chi212-0",
       "kind": "speed",
       "label": "8740 S Vincennes St · NB",
+      "locationKey": "8740 S Vincennes St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S Vincennes St"
+      ],
       "siteID": "agency-chicago-speed-chi212-0",
       "sourceIDs": [
         "agency/chicago-speed/CHI212-0"
@@ -4439,7 +5423,11 @@
       "id": "agency-chicago-speed-chi212-180",
       "kind": "speed",
       "label": "8740 S Vincennes St · SB",
+      "locationKey": "8740 S Vincennes St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S Vincennes St"
+      ],
       "siteID": "agency-chicago-speed-chi212-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI212-180"
@@ -4457,7 +5445,11 @@
       "id": "agency-chicago-speed-chi213-0",
       "kind": "speed",
       "label": "4118 N Ashland Ave · NB",
+      "locationKey": "4118 N Ashland Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N Ashland Ave"
+      ],
       "siteID": "agency-chicago-speed-chi213-0",
       "sourceIDs": [
         "agency/chicago-speed/CHI213-0"
@@ -4475,7 +5467,11 @@
       "id": "agency-chicago-speed-chi213-180",
       "kind": "speed",
       "label": "4118 N Ashland Ave · SB",
+      "locationKey": "4118 N Ashland Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N Ashland Ave"
+      ],
       "siteID": "agency-chicago-speed-chi213-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI213-180"
@@ -4493,7 +5489,11 @@
       "id": "agency-chicago-speed-chi214-270",
       "kind": "speed",
       "label": "3510 W 55th St · WB",
+      "locationKey": "3510 W 55th St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W 55th St"
+      ],
       "siteID": "agency-chicago-speed-chi214-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI214-270"
@@ -4511,7 +5511,11 @@
       "id": "agency-chicago-speed-chi214-90",
       "kind": "speed",
       "label": "3510 W 55th St · EB",
+      "locationKey": "3510 W 55th St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W 55th St"
+      ],
       "siteID": "agency-chicago-speed-chi214-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI214-90"
@@ -4529,7 +5533,11 @@
       "id": "agency-chicago-speed-chi215-0",
       "kind": "speed",
       "label": "7115 N Sheridan Rd · NB",
+      "locationKey": "7115 N Sheridan Rd",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N Sheridan Rd"
+      ],
       "siteID": "agency-chicago-speed-chi215-0",
       "sourceIDs": [
         "agency/chicago-speed/CHI215-0"
@@ -4547,7 +5555,11 @@
       "id": "agency-chicago-speed-chi215-180",
       "kind": "speed",
       "label": "7115 N Sheridan Rd · SB",
+      "locationKey": "7115 N Sheridan Rd",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N Sheridan Rd"
+      ],
       "siteID": "agency-chicago-speed-chi215-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI215-180"
@@ -4565,7 +5577,11 @@
       "id": "agency-chicago-speed-chi216-270",
       "kind": "speed",
       "label": "2716 W Logan Blvd · WB",
+      "locationKey": "2716 W Logan Blvd",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Logan Blvd"
+      ],
       "siteID": "agency-chicago-speed-chi216-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI216-270"
@@ -4583,7 +5599,11 @@
       "id": "agency-chicago-speed-chi216-90",
       "kind": "speed",
       "label": "2716 W Logan Blvd · EB",
+      "locationKey": "2716 W Logan Blvd",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Logan Blvd"
+      ],
       "siteID": "agency-chicago-speed-chi216-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI216-90"
@@ -4601,7 +5621,11 @@
       "id": "agency-chicago-speed-chi217-0",
       "kind": "speed",
       "label": "6151 N Sheridan Rd · NB",
+      "locationKey": "6151 N Sheridan Rd",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N Sheridan Rd"
+      ],
       "siteID": "agency-chicago-speed-chi217-0",
       "sourceIDs": [
         "agency/chicago-speed/CHI217-0"
@@ -4619,7 +5643,11 @@
       "id": "agency-chicago-speed-chi217-180",
       "kind": "speed",
       "label": "6151 N Sheridan Rd · SB",
+      "locationKey": "6151 N Sheridan Rd",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N Sheridan Rd"
+      ],
       "siteID": "agency-chicago-speed-chi217-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI217-180"
@@ -4637,7 +5665,11 @@
       "id": "agency-chicago-speed-chi218-90",
       "kind": "speed",
       "label": "1341 W Jackson Blvd · EB",
+      "locationKey": "1341 W Jackson Blvd",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Jackson Blvd"
+      ],
       "siteID": "agency-chicago-speed-chi218-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI218-90"
@@ -4655,7 +5687,11 @@
       "id": "agency-chicago-speed-chi219-0",
       "kind": "speed",
       "label": "3665 N Austin Ave · NB",
+      "locationKey": "3665 N Austin Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N Austin Ave"
+      ],
       "siteID": "agency-chicago-speed-chi219-0",
       "sourceIDs": [
         "agency/chicago-speed/CHI219-0"
@@ -4673,7 +5709,11 @@
       "id": "agency-chicago-speed-chi219-180",
       "kind": "speed",
       "label": "3665 N Austin Ave · SB",
+      "locationKey": "3665 N Austin Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N Austin Ave"
+      ],
       "siteID": "agency-chicago-speed-chi219-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI219-180"
@@ -4691,7 +5731,11 @@
       "id": "agency-chicago-speed-chi220-0",
       "kind": "speed",
       "label": "5059 N Damen Ave · NB",
+      "locationKey": "5059 N Damen Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N Damen Ave"
+      ],
       "siteID": "agency-chicago-speed-chi220-0",
       "sourceIDs": [
         "agency/chicago-speed/CHI220-0"
@@ -4709,7 +5753,11 @@
       "id": "agency-chicago-speed-chi220-180",
       "kind": "speed",
       "label": "5059 N Damen Ave · SB",
+      "locationKey": "5059 N Damen Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N Damen Ave"
+      ],
       "siteID": "agency-chicago-speed-chi220-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI220-180"
@@ -4727,7 +5775,11 @@
       "id": "agency-chicago-speed-chi221-270",
       "kind": "speed",
       "label": "6824 W Foster Ave · WB",
+      "locationKey": "6824 W Foster Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Foster Ave"
+      ],
       "siteID": "agency-chicago-speed-chi221-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI221-270"
@@ -4745,7 +5797,11 @@
       "id": "agency-chicago-speed-chi221-90",
       "kind": "speed",
       "label": "6824 W Foster Ave · EB",
+      "locationKey": "6824 W Foster Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Foster Ave"
+      ],
       "siteID": "agency-chicago-speed-chi221-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI221-90"
@@ -4763,7 +5819,11 @@
       "id": "agency-chicago-speed-chi222-270",
       "kind": "speed",
       "label": "220 W Fullerton Ave · WB",
+      "locationKey": "220 W Fullerton Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Fullerton Ave"
+      ],
       "siteID": "agency-chicago-speed-chi222-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI222-270"
@@ -4781,7 +5841,11 @@
       "id": "agency-chicago-speed-chi222-90",
       "kind": "speed",
       "label": "220 W Fullerton Ave · EB",
+      "locationKey": "220 W Fullerton Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Fullerton Ave"
+      ],
       "siteID": "agency-chicago-speed-chi222-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI222-90"
@@ -4799,7 +5863,11 @@
       "id": "agency-chicago-speed-chi223-0",
       "kind": "speed",
       "label": "5432 N Central Ave · NB",
+      "locationKey": "5432 N Central Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N Central Ave"
+      ],
       "siteID": "agency-chicago-speed-chi223-0",
       "sourceIDs": [
         "agency/chicago-speed/CHI223-0"
@@ -4817,7 +5885,11 @@
       "id": "agency-chicago-speed-chi223-180",
       "kind": "speed",
       "label": "5432 N Central Ave · SB",
+      "locationKey": "5432 N Central Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N Central Ave"
+      ],
       "siteID": "agency-chicago-speed-chi223-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI223-180"
@@ -4835,7 +5907,11 @@
       "id": "agency-chicago-speed-chi224-0",
       "kind": "speed",
       "label": "5857 N Broadway · NB",
+      "locationKey": "5857 N Broadway",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N Broadway"
+      ],
       "siteID": "agency-chicago-speed-chi224-0",
       "sourceIDs": [
         "agency/chicago-speed/CHI224-0"
@@ -4853,7 +5929,11 @@
       "id": "agency-chicago-speed-chi224-180",
       "kind": "speed",
       "label": "5857 N Broadway · SB",
+      "locationKey": "5857 N Broadway",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N Broadway"
+      ],
       "siteID": "agency-chicago-speed-chi224-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI224-180"
@@ -4871,7 +5951,11 @@
       "id": "agency-chicago-speed-chi225-270",
       "kind": "speed",
       "label": "2650 W Peterson Ave · WB",
+      "locationKey": "2650 W Peterson Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Peterson Ave"
+      ],
       "siteID": "agency-chicago-speed-chi225-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI225-270"
@@ -4889,7 +5973,11 @@
       "id": "agency-chicago-speed-chi225-90",
       "kind": "speed",
       "label": "2650 W Peterson Ave · EB",
+      "locationKey": "2650 W Peterson Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Peterson Ave"
+      ],
       "siteID": "agency-chicago-speed-chi225-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI225-90"
@@ -4907,7 +5995,11 @@
       "id": "agency-chicago-speed-chi226-0",
       "kind": "speed",
       "label": "6616 N Central Ave · NB",
+      "locationKey": "6616 N Central Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N Central Ave"
+      ],
       "siteID": "agency-chicago-speed-chi226-0",
       "sourceIDs": [
         "agency/chicago-speed/CHI226-0"
@@ -4925,7 +6017,11 @@
       "id": "agency-chicago-speed-chi226-180",
       "kind": "speed",
       "label": "6616 N Central Ave · SB",
+      "locationKey": "6616 N Central Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N Central Ave"
+      ],
       "siteID": "agency-chicago-speed-chi226-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI226-180"
@@ -4943,7 +6039,11 @@
       "id": "agency-chicago-speed-chi227-270",
       "kind": "speed",
       "label": "441 E 71st St · WB",
+      "locationKey": "441 E 71st St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "E 71st St"
+      ],
       "siteID": "agency-chicago-speed-chi227-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI227-270"
@@ -4961,7 +6061,11 @@
       "id": "agency-chicago-speed-chi227-90",
       "kind": "speed",
       "label": "441 E 71st St · EB",
+      "locationKey": "441 E 71st St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "E 71st St"
+      ],
       "siteID": "agency-chicago-speed-chi227-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI227-90"
@@ -4979,7 +6083,11 @@
       "id": "agency-chicago-speed-chi228-0",
       "kind": "speed",
       "label": "8590 S Martin Luther King Dr · NB",
+      "locationKey": "8590 S Martin Luther King Dr",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S Martin Luther King Dr"
+      ],
       "siteID": "agency-chicago-speed-chi228-0",
       "sourceIDs": [
         "agency/chicago-speed/CHI228-0"
@@ -4997,7 +6105,11 @@
       "id": "agency-chicago-speed-chi228-180",
       "kind": "speed",
       "label": "8590 S Martin Luther King Dr · SB",
+      "locationKey": "8590 S Martin Luther King Dr",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S Martin Luther King Dr"
+      ],
       "siteID": "agency-chicago-speed-chi228-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI228-180"
@@ -5015,7 +6127,11 @@
       "id": "agency-chicago-speed-chi229-0",
       "kind": "speed",
       "label": "7732 S Cottage Grove Ave · NB",
+      "locationKey": "7732 S Cottage Grove Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S Cottage Grove Ave"
+      ],
       "siteID": "agency-chicago-speed-chi229-0",
       "sourceIDs": [
         "agency/chicago-speed/CHI229-0"
@@ -5033,7 +6149,11 @@
       "id": "agency-chicago-speed-chi229-180",
       "kind": "speed",
       "label": "7732 S Cottage Grove Ave · SB",
+      "locationKey": "7732 S Cottage Grove Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S Cottage Grove Ave"
+      ],
       "siteID": "agency-chicago-speed-chi229-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI229-180"
@@ -5051,7 +6171,11 @@
       "id": "agency-chicago-speed-chi230-0",
       "kind": "speed",
       "label": "3358 S Ashland Ave · NB",
+      "locationKey": "3358 S Ashland Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S Ashland Ave"
+      ],
       "siteID": "agency-chicago-speed-chi230-0",
       "sourceIDs": [
         "agency/chicago-speed/CHI230-0"
@@ -5069,7 +6193,11 @@
       "id": "agency-chicago-speed-chi230-180",
       "kind": "speed",
       "label": "3358 S Ashland Ave · SB",
+      "locationKey": "3358 S Ashland Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S Ashland Ave"
+      ],
       "siteID": "agency-chicago-speed-chi230-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI230-180"
@@ -5087,7 +6215,11 @@
       "id": "agency-chicago-speed-chi231-270",
       "kind": "speed",
       "label": "614 W 47th Street · WB",
+      "locationKey": "614 W 47th Street",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W 47th Street"
+      ],
       "siteID": "agency-chicago-speed-chi231-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI231-270"
@@ -5105,7 +6237,11 @@
       "id": "agency-chicago-speed-chi231-90",
       "kind": "speed",
       "label": "614 W 47th Street · EB",
+      "locationKey": "614 W 47th Street",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W 47th Street"
+      ],
       "siteID": "agency-chicago-speed-chi231-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI231-90"
@@ -5123,7 +6259,11 @@
       "id": "agency-chicago-speed-chi232-270",
       "kind": "speed",
       "label": "49 W 85th St · WB",
+      "locationKey": "49 W 85th St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W 85th St"
+      ],
       "siteID": "agency-chicago-speed-chi232-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI232-270"
@@ -5141,7 +6281,11 @@
       "id": "agency-chicago-speed-chi232-90",
       "kind": "speed",
       "label": "49 W 85th St · EB",
+      "locationKey": "49 W 85th St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W 85th St"
+      ],
       "siteID": "agency-chicago-speed-chi232-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI232-90"
@@ -5159,7 +6303,11 @@
       "id": "agency-chicago-speed-chi233-0",
       "kind": "speed",
       "label": "1635 N LaSalle · NB",
+      "locationKey": "1635 N LaSalle",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N LaSalle"
+      ],
       "siteID": "agency-chicago-speed-chi233-0",
       "sourceIDs": [
         "agency/chicago-speed/CHI233-0"
@@ -5177,7 +6325,11 @@
       "id": "agency-chicago-speed-chi234-0",
       "kind": "speed",
       "label": "5941 N Nagle · NB",
+      "locationKey": "5941 N Nagle",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N Nagle"
+      ],
       "siteID": "agency-chicago-speed-chi234-0",
       "sourceIDs": [
         "agency/chicago-speed/CHI234-0"
@@ -5195,7 +6347,11 @@
       "id": "agency-chicago-speed-chi234-180",
       "kind": "speed",
       "label": "5941 N Nagle · SB",
+      "locationKey": "5941 N Nagle",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N Nagle"
+      ],
       "siteID": "agency-chicago-speed-chi234-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI234-180"
@@ -5213,7 +6369,11 @@
       "id": "agency-chicago-speed-chi236-270",
       "kind": "speed",
       "label": "1477 W. Cermak Rd · WB",
+      "locationKey": "1477 W. Cermak Rd",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W. Cermak Rd"
+      ],
       "siteID": "agency-chicago-speed-chi236-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI236-270"
@@ -5231,7 +6391,11 @@
       "id": "agency-chicago-speed-chi236-90",
       "kind": "speed",
       "label": "1477 W. Cermak Rd · EB",
+      "locationKey": "1477 W. Cermak Rd",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W. Cermak Rd"
+      ],
       "siteID": "agency-chicago-speed-chi236-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI236-90"
@@ -5249,7 +6413,11 @@
       "id": "agency-chicago-speed-chi237-0",
       "kind": "speed",
       "label": "812 S Racine Ave · NB",
+      "locationKey": "812 S Racine Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S Racine Ave"
+      ],
       "siteID": "agency-chicago-speed-chi237-0",
       "sourceIDs": [
         "agency/chicago-speed/CHI237-0"
@@ -5267,7 +6435,11 @@
       "id": "agency-chicago-speed-chi237-180",
       "kind": "speed",
       "label": "812 S Racine Ave · SB",
+      "locationKey": "812 S Racine Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S Racine Ave"
+      ],
       "siteID": "agency-chicago-speed-chi237-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI237-180"
@@ -5285,7 +6457,11 @@
       "id": "agency-chicago-speed-chi238-180",
       "kind": "speed",
       "label": "147 S Desplaines St · SB",
+      "locationKey": "147 S Desplaines St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S Desplaines St"
+      ],
       "siteID": "agency-chicago-speed-chi238-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI238-180"
@@ -5303,7 +6479,11 @@
       "id": "agency-chicago-speed-chi239-0",
       "kind": "speed",
       "label": "216 S Jefferson St · NB",
+      "locationKey": "216 S Jefferson St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S Jefferson St"
+      ],
       "siteID": "agency-chicago-speed-chi239-0",
       "sourceIDs": [
         "agency/chicago-speed/CHI239-0"
@@ -5321,7 +6501,11 @@
       "id": "agency-chicago-speed-chi241-270",
       "kind": "speed",
       "label": "2948 W 47th St · WB",
+      "locationKey": "2948 W 47th St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W 47th St"
+      ],
       "siteID": "agency-chicago-speed-chi241-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI241-270"
@@ -5339,7 +6523,11 @@
       "id": "agency-chicago-speed-chi241-90",
       "kind": "speed",
       "label": "2948 W 47th St · EB",
+      "locationKey": "2948 W 47th St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W 47th St"
+      ],
       "siteID": "agency-chicago-speed-chi241-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI241-90"
@@ -5357,7 +6545,11 @@
       "id": "agency-chicago-speed-chi242-0",
       "kind": "speed",
       "label": "6201 S Pulaski Rd · NB",
+      "locationKey": "6201 S Pulaski Rd",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S Pulaski Rd"
+      ],
       "siteID": "agency-chicago-speed-chi242-0",
       "sourceIDs": [
         "agency/chicago-speed/CHI242-0"
@@ -5375,7 +6567,11 @@
       "id": "agency-chicago-speed-chi243-180",
       "kind": "speed",
       "label": "8550 S Lafayette Ave · SB",
+      "locationKey": "8550 S Lafayette Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S Lafayette Ave"
+      ],
       "siteID": "agency-chicago-speed-chi243-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI243-180"
@@ -5393,7 +6589,11 @@
       "id": "agency-chicago-speed-chi244-180",
       "kind": "speed",
       "label": "6198 S Pulaski Rd · SB",
+      "locationKey": "6198 S Pulaski Rd",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S Pulaski Rd"
+      ],
       "siteID": "agency-chicago-speed-chi244-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI244-180"
@@ -5411,7 +6611,11 @@
       "id": "agency-chicago-speed-chi245-0",
       "kind": "speed",
       "label": "3624 S Western Ave · NB",
+      "locationKey": "3624 S Western Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S Western Ave"
+      ],
       "siteID": "agency-chicago-speed-chi245-0",
       "sourceIDs": [
         "agency/chicago-speed/CHI245-0"
@@ -5429,7 +6633,11 @@
       "id": "agency-chicago-speed-chi245-180",
       "kind": "speed",
       "label": "3624 S Western Ave · SB",
+      "locationKey": "3624 S Western Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S Western Ave"
+      ],
       "siteID": "agency-chicago-speed-chi245-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI245-180"
@@ -5447,7 +6655,11 @@
       "id": "agency-chicago-speed-chi246-0",
       "kind": "speed",
       "label": "2718 S Kedzie Ave · NB",
+      "locationKey": "2718 S Kedzie Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S Kedzie Ave"
+      ],
       "siteID": "agency-chicago-speed-chi246-0",
       "sourceIDs": [
         "agency/chicago-speed/CHI246-0"
@@ -5465,7 +6677,11 @@
       "id": "agency-chicago-speed-chi246-180",
       "kind": "speed",
       "label": "2718 S Kedzie Ave · SB",
+      "locationKey": "2718 S Kedzie Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S Kedzie Ave"
+      ],
       "siteID": "agency-chicago-speed-chi246-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI246-180"
@@ -5483,7 +6699,11 @@
       "id": "agency-chicago-speed-chi247-270",
       "kind": "speed",
       "label": "4298 W 59th St · WB",
+      "locationKey": "4298 W 59th St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W 59th St"
+      ],
       "siteID": "agency-chicago-speed-chi247-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI247-270"
@@ -5501,7 +6721,11 @@
       "id": "agency-chicago-speed-chi247-90",
       "kind": "speed",
       "label": "4298 W 59th St · EB",
+      "locationKey": "4298 W 59th St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W 59th St"
+      ],
       "siteID": "agency-chicago-speed-chi247-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI247-90"
@@ -5519,7 +6743,11 @@
       "id": "agency-chicago-speed-chi248-0",
       "kind": "speed",
       "label": "385 Michigan Ave · NB",
+      "locationKey": "385 Michigan Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "Michigan Ave"
+      ],
       "siteID": "agency-chicago-speed-chi248-0",
       "sourceIDs": [
         "agency/chicago-speed/CHI248-0"
@@ -5537,7 +6765,11 @@
       "id": "agency-chicago-speed-chi249-270",
       "kind": "speed",
       "label": "851 W 103rd St · WB",
+      "locationKey": "851 W 103rd St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W 103rd St"
+      ],
       "siteID": "agency-chicago-speed-chi249-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI249-270"
@@ -5555,7 +6787,11 @@
       "id": "agency-chicago-speed-chi249-90",
       "kind": "speed",
       "label": "851 W 103rd St · EB",
+      "locationKey": "851 W 103rd St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W 103rd St"
+      ],
       "siteID": "agency-chicago-speed-chi249-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI249-90"
@@ -5573,7 +6809,11 @@
       "id": "agency-chicago-speed-chi250-180",
       "kind": "speed",
       "label": "200 S Michigan Ave · SB",
+      "locationKey": "200 S Michigan Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S Michigan Ave"
+      ],
       "siteID": "agency-chicago-speed-chi250-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI250-180"
@@ -5591,7 +6831,11 @@
       "id": "agency-chicago-speed-chi251-270",
       "kind": "speed",
       "label": "451 E Grand Ave · WB",
+      "locationKey": "451 E Grand Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "E Grand Ave"
+      ],
       "siteID": "agency-chicago-speed-chi251-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI251-270"
@@ -5609,7 +6853,11 @@
       "id": "agency-chicago-speed-chi252-0",
       "kind": "speed",
       "label": "2711 N Pulaski · NB",
+      "locationKey": "2711 N Pulaski",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N Pulaski"
+      ],
       "siteID": "agency-chicago-speed-chi252-0",
       "sourceIDs": [
         "agency/chicago-speed/CHI252-0"
@@ -5627,7 +6875,11 @@
       "id": "agency-chicago-speed-chi252-180",
       "kind": "speed",
       "label": "2711 N Pulaski · SB",
+      "locationKey": "2711 N Pulaski",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N Pulaski"
+      ],
       "siteID": "agency-chicago-speed-chi252-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI252-180"
@@ -5645,7 +6897,11 @@
       "id": "agency-chicago-speed-chi254-270",
       "kind": "speed",
       "label": "5050 W Fullerton Ave · WB",
+      "locationKey": "5050 W Fullerton Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Fullerton Ave"
+      ],
       "siteID": "agency-chicago-speed-chi254-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI254-270"
@@ -5663,7 +6919,11 @@
       "id": "agency-chicago-speed-chi254-90",
       "kind": "speed",
       "label": "5050 W Fullerton Ave · EB",
+      "locationKey": "5050 W Fullerton Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Fullerton Ave"
+      ],
       "siteID": "agency-chicago-speed-chi254-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI254-90"
@@ -5681,7 +6941,11 @@
       "id": "agency-chicago-speed-chi255-0",
       "kind": "speed",
       "label": "2622 N. Laramie Ave · NB",
+      "locationKey": "2622 N. Laramie Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N. Laramie Ave"
+      ],
       "siteID": "agency-chicago-speed-chi255-0",
       "sourceIDs": [
         "agency/chicago-speed/CHI255-0"
@@ -5699,7 +6963,11 @@
       "id": "agency-chicago-speed-chi255-180",
       "kind": "speed",
       "label": "2622 N. Laramie Ave · SB",
+      "locationKey": "2622 N. Laramie Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N. Laramie Ave"
+      ],
       "siteID": "agency-chicago-speed-chi255-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI255-180"
@@ -5717,7 +6985,11 @@
       "id": "agency-chicago-speed-chi256-270",
       "kind": "speed",
       "label": "4424 W Diversey Ave · WB",
+      "locationKey": "4424 W Diversey Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Diversey Ave"
+      ],
       "siteID": "agency-chicago-speed-chi256-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI256-270"
@@ -5735,7 +7007,11 @@
       "id": "agency-chicago-speed-chi256-90",
       "kind": "speed",
       "label": "4424 W Diversey Ave · EB",
+      "locationKey": "4424 W Diversey Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W Diversey Ave"
+      ],
       "siteID": "agency-chicago-speed-chi256-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI256-90"
@@ -5753,7 +7029,11 @@
       "id": "agency-chicago-speed-chi257-0",
       "kind": "speed",
       "label": "8134 S Yates Blvd · NB",
+      "locationKey": "8134 S Yates Blvd",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S Yates Blvd"
+      ],
       "siteID": "agency-chicago-speed-chi257-0",
       "sourceIDs": [
         "agency/chicago-speed/CHI257-0"
@@ -5771,7 +7051,11 @@
       "id": "agency-chicago-speed-chi257-180",
       "kind": "speed",
       "label": "8134 S Yates Blvd · SB",
+      "locationKey": "8134 S Yates Blvd",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "S Yates Blvd"
+      ],
       "siteID": "agency-chicago-speed-chi257-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI257-180"
@@ -5789,7 +7073,11 @@
       "id": "agency-chicago-speed-chi258-270",
       "kind": "speed",
       "label": "504 W 69th Ave · WB",
+      "locationKey": "504 W 69th Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W 69th Ave"
+      ],
       "siteID": "agency-chicago-speed-chi258-270",
       "sourceIDs": [
         "agency/chicago-speed/CHI258-270"
@@ -5807,7 +7095,11 @@
       "id": "agency-chicago-speed-chi258-90",
       "kind": "speed",
       "label": "504 W 69th Ave · EB",
+      "locationKey": "504 W 69th Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W 69th Ave"
+      ],
       "siteID": "agency-chicago-speed-chi258-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI258-90"
@@ -5825,7 +7117,11 @@
       "id": "agency-chicago-speed-chi259-90",
       "kind": "speed",
       "label": "4451 W 79th St · EB",
+      "locationKey": "4451 W 79th St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "W 79th St"
+      ],
       "siteID": "agency-chicago-speed-chi259-90",
       "sourceIDs": [
         "agency/chicago-speed/CHI259-90"
@@ -5843,7 +7139,11 @@
       "id": "agency-chicago-speed-chi260-0",
       "kind": "speed",
       "label": "3446 N Cicero Ave · NB",
+      "locationKey": "3446 N Cicero Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N Cicero Ave"
+      ],
       "siteID": "agency-chicago-speed-chi260-0",
       "sourceIDs": [
         "agency/chicago-speed/CHI260-0"
@@ -5861,7 +7161,11 @@
       "id": "agency-chicago-speed-chi260-180",
       "kind": "speed",
       "label": "3446 N Cicero Ave · SB",
+      "locationKey": "3446 N Cicero Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "N Cicero Ave"
+      ],
       "siteID": "agency-chicago-speed-chi260-180",
       "sourceIDs": [
         "agency/chicago-speed/CHI260-180"
@@ -5869,7 +7173,7 @@
       "travelBearing": 180
     }
   ],
-  "checkedAt": "2026-09-15T02:09:42Z",
+  "checkedAt": "2026-09-15T03:56:21Z",
   "excluded": [],
   "id": "chicago-speed",
   "rowCount": 209,

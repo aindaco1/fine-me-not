@@ -11,7 +11,11 @@
       "id": "agency-tacoma-watcfs01",
       "kind": "speed",
       "label": "2990 Block of Bay St (SR167) · Northbound",
+      "locationKey": "2990 Block of Bay St (SR167)",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "Block of Bay St (SR167)"
+      ],
       "siteID": "agency-tacoma-watcfs01",
       "sourceIDs": [
         "agency/tacoma/WATCFS01"
@@ -36,6 +40,7 @@
       "id": "agency-tacoma-watcrl01",
       "kind": "redLight",
       "label": "E 38th St at Mckinley Ave · Eastbound",
+      "locationKey": "E 38th St at Mckinley Ave",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-tacoma-watcrl01",
       "sourceIDs": [
@@ -54,6 +59,7 @@
       "id": "agency-tacoma-watcrl02",
       "kind": "redLight",
       "label": "S 56th St at S Oakes St · Eastbound",
+      "locationKey": "S 56th St at S Oakes St",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-tacoma-watcrl02",
       "sourceIDs": [
@@ -72,6 +78,7 @@
       "id": "agency-tacoma-watcrl03",
       "kind": "redLight",
       "label": "S 56th St at S Tacoma Way · Westbound",
+      "locationKey": "S 56th St at S Tacoma Way",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-tacoma-watcrl03",
       "sourceIDs": [
@@ -90,6 +97,7 @@
       "id": "agency-tacoma-watcrl04",
       "kind": "redLight",
       "label": "S 74th St at S Tacoma Way · Eastbound",
+      "locationKey": "S 74th St at S Tacoma Way",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-tacoma-watcrl04",
       "sourceIDs": [
@@ -108,6 +116,7 @@
       "id": "agency-tacoma-watcrl05",
       "kind": "redLight",
       "label": "S Tacoma Way at S 74th St · Southbound",
+      "locationKey": "S Tacoma Way at S 74th St",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-tacoma-watcrl05",
       "sourceIDs": [
@@ -126,6 +135,7 @@
       "id": "agency-tacoma-watcrl06",
       "kind": "redLight",
       "label": "S Hosmer St at S 84th St · Northbound",
+      "locationKey": "S Hosmer St at S 84th St",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-tacoma-watcrl06",
       "sourceIDs": [
@@ -144,6 +154,7 @@
       "id": "agency-tacoma-watcrl07",
       "kind": "redLight",
       "label": "Pacific Ave at S 72nd St · Southbound",
+      "locationKey": "Pacific Ave at S 72nd St",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-tacoma-watcrl07",
       "sourceIDs": [
@@ -162,6 +173,7 @@
       "id": "agency-tacoma-watcrl08",
       "kind": "redLight",
       "label": "Pacific Ave at S 72nd St · Northbound",
+      "locationKey": "Pacific Ave at S 72nd St",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-tacoma-watcrl08",
       "sourceIDs": [
@@ -180,6 +192,7 @@
       "id": "agency-tacoma-watcrl09",
       "kind": "redLight",
       "label": "N Pearl St at N 26th St · Southbound",
+      "locationKey": "N Pearl St at N 26th St",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-tacoma-watcrl09",
       "sourceIDs": [
@@ -198,7 +211,11 @@
       "id": "agency-tacoma-watcsz03",
       "kind": "speed",
       "label": "5200 Block of Pacific Ave · Northbound",
+      "locationKey": "5200 Block of Pacific Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "Block of Pacific Ave"
+      ],
       "siteID": "agency-tacoma-watcsz03",
       "sourceIDs": [
         "agency/tacoma/WATCSZ03"
@@ -216,7 +233,11 @@
       "id": "agency-tacoma-watcsz04",
       "kind": "speed",
       "label": "5500 Block of Pacific Ave · Southbound",
+      "locationKey": "5500 Block of Pacific Ave",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "Block of Pacific Ave"
+      ],
       "siteID": "agency-tacoma-watcsz04",
       "sourceIDs": [
         "agency/tacoma/WATCSZ04"
@@ -234,7 +255,11 @@
       "id": "agency-tacoma-watcsz05",
       "kind": "speed",
       "label": "5100 Block of N 26th St · Eastbound",
+      "locationKey": "5100 Block of N 26th St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "Block of N 26th St"
+      ],
       "siteID": "agency-tacoma-watcsz05",
       "sourceIDs": [
         "agency/tacoma/WATCSZ05"
@@ -252,7 +277,11 @@
       "id": "agency-tacoma-watcsz06",
       "kind": "speed",
       "label": "5100 Block of N 26th St · Westbound",
+      "locationKey": "5100 Block of N 26th St",
       "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "Block of N 26th St"
+      ],
       "siteID": "agency-tacoma-watcsz06",
       "sourceIDs": [
         "agency/tacoma/WATCSZ06"
@@ -260,7 +289,7 @@
       "travelBearing": 270
     }
   ],
-  "checkedAt": "2026-09-15T02:09:42Z",
+  "checkedAt": "2026-09-15T03:56:21Z",
   "excluded": [
     {
       "reason": "Unidentified point; operational identity needs review",
