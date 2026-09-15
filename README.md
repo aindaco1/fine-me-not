@@ -8,6 +8,8 @@ Fine Me Not targets **iOS 27+** and is available in the owner’s internal TestF
 
 - [Supported iOS versions and iPhones](docs/SUPPORT.md)
 - [Data coverage and reconciliation](docs/DATA.md)
+- [Census metro coverage and weekly source checks](docs/METRO-COVERAGE.md)
+- [Optional speed-check feasibility](docs/SPEED-CHECK.md)
 - [Build and TestFlight release](docs/RELEASE.md)
 - [Tests and physical acceptance](docs/TESTING.md)
 - [Research and implementation plan](docs/PLAN.md)
@@ -31,7 +33,7 @@ A retained Core Location service session and background activity session receive
 
 ## Weekly database
 
-The publisher is scheduled for Monday at 12:00 a.m. `America/Denver` (Sunday night), including daylight saving. GitHub and iOS can delay execution/download. Invalid data retains the last good snapshot. National OSM data and a reviewed Albuquerque metro supplement are bundled for offline use. Coverage is incomplete; all published camera records include provenance.
+Upstream source checks run Sunday at 9 p.m. Denver time, with a Codex review at 10 p.m. The publisher is scheduled for Monday at 12:00 a.m. `America/Denver` (Sunday night), including daylight saving. GitHub and iOS can delay execution/download. Invalid data retains the last good snapshot. The live database combines national OSM data, reviewed Albuquerque metro locations and agency feeds. The installed app can download the expansion through Update now and cache it for offline use; the build 5 bundled fallback retains its release-time data. Coverage is incomplete; all published camera records include provenance.
 
 ## License
 

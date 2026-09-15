@@ -157,12 +157,12 @@ private func fix(_ latitude: Double, lon: Double = -106, seconds: Double = 0, co
     }
 }
 
-@Test func everyCityWarningAreaAlertsOnceAndRejectsOppositeTravel() throws {
+@Test func everyReviewedWarningAreaAlertsOnceAndRejectsOppositeTravel() throws {
     let root = URL(fileURLWithPath: #filePath).deletingLastPathComponent().deletingLastPathComponent().deletingLastPathComponent()
     let snapshot = try CameraSnapshot.decode(Data(contentsOf: root.appending(path: "Data/Published/cameras.json")))
     let index = CameraIndex(cameras: snapshot.cameras)
-    let areas = snapshot.cameras.filter { $0.id.hasPrefix("abq-") && $0.kind == .possibleSpeed }
-    #expect(areas.count == 21)
+    let areas = snapshot.cameras.filter { ($0.id.hasPrefix("abq-") || $0.id.hasPrefix("bernco-")) && $0.kind == .possibleSpeed && $0.geometry.count > 1 }
+    #expect(areas.count == 29) // 20 city areas plus nine newly reviewed county segments.
     for area in areas {
         let heading = try #require(area.travelBearing)
         // Review geometries may be stored in either order. Follow monitored travel.
@@ -187,4 +187,22 @@ private func fix(_ latitude: Double, lon: Double = -106, seconds: Double = 0, co
         }
         #expect(matches == [area.id], "Area should warn once: \(area.id)")
     }
+}
+
+@Test func reconciledEubankPointWarnsWithoutReportedSpeed() throws {
+    let root = URL(fileURLWithPath: #filePath).deletingLastPathComponent().deletingLastPathComponent().deletingLastPathComponent()
+    let snapshot = try CameraSnapshot.decode(Data(contentsOf: root.appending(path: "Data/Published/cameras.json")))
+    let camera = try #require(snapshot.cameras.first { $0.id == "abq-eubank-sierra-vista-possible-sb" })
+    #expect(camera.kind == .speed)
+    #expect(camera.geometry.count == 1)
+    let index = CameraIndex(cameras: [camera])
+    var engine = AlertEngine()
+    var warned: [String] = []
+    for second in 0..<60 {
+        let at = start.addingTimeInterval(Double(second))
+        let update = fix(35.132 - 0.00018 * Double(second), lon: -106.53343,
+                         seconds: Double(second), course: nil, speed: -1)
+        warned += engine.evaluate(update, index: index, now: at).map(\.camera.id)
+    }
+    #expect(warned == [camera.id])
 }

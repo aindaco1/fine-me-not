@@ -1,0 +1,305 @@
+{
+  "cameras": [
+    {
+      "evidence": "Tacoma automated enforcement: published coordinates, not independently surveyed. Source: https://www.arcgis.com/home/item.html?id=ed8eb6a8c87643faa3ea1c6864301c05",
+      "geometry": [
+        {
+          "latitude": 47.23830700009371,
+          "longitude": -122.3975579999985
+        }
+      ],
+      "id": "agency-tacoma-watcfs01",
+      "kind": "speed",
+      "label": "2990 Block of Bay St (SR167) · Northbound",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-tacoma-watcfs01",
+      "sourceIDs": [
+        "agency/tacoma/WATCFS01"
+      ],
+      "speedLimitCandidate": {
+        "conditional": false,
+        "sourceID": "agency/tacoma/WATCFS01",
+        "suppressionApproved": false,
+        "unit": "mph",
+        "value": 35.0
+      },
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Tacoma automated enforcement: published coordinates, not independently surveyed. Source: https://www.arcgis.com/home/item.html?id=ed8eb6a8c87643faa3ea1c6864301c05",
+      "geometry": [
+        {
+          "latitude": 47.22307199991728,
+          "longitude": -122.42136099964497
+        }
+      ],
+      "id": "agency-tacoma-watcrl01",
+      "kind": "redLight",
+      "label": "E 38th St at Mckinley Ave · Eastbound",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-tacoma-watcrl01",
+      "sourceIDs": [
+        "agency/tacoma/WATCRL01"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Tacoma automated enforcement: published coordinates, not independently surveyed. Source: https://www.arcgis.com/home/item.html?id=ed8eb6a8c87643faa3ea1c6864301c05",
+      "geometry": [
+        {
+          "latitude": 47.206365999697724,
+          "longitude": -122.47271500027203
+        }
+      ],
+      "id": "agency-tacoma-watcrl02",
+      "kind": "redLight",
+      "label": "S 56th St at S Oakes St · Eastbound",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-tacoma-watcrl02",
+      "sourceIDs": [
+        "agency/tacoma/WATCRL02"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Tacoma automated enforcement: published coordinates, not independently surveyed. Source: https://www.arcgis.com/home/item.html?id=ed8eb6a8c87643faa3ea1c6864301c05",
+      "geometry": [
+        {
+          "latitude": 47.2062629997137,
+          "longitude": -122.48317899980793
+        }
+      ],
+      "id": "agency-tacoma-watcrl03",
+      "kind": "redLight",
+      "label": "S 56th St at S Tacoma Way · Westbound",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-tacoma-watcrl03",
+      "sourceIDs": [
+        "agency/tacoma/WATCRL03"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Tacoma automated enforcement: published coordinates, not independently surveyed. Source: https://www.arcgis.com/home/item.html?id=ed8eb6a8c87643faa3ea1c6864301c05",
+      "geometry": [
+        {
+          "latitude": 47.19017500025272,
+          "longitude": -122.4838800001399
+        }
+      ],
+      "id": "agency-tacoma-watcrl04",
+      "kind": "redLight",
+      "label": "S 74th St at S Tacoma Way · Eastbound",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-tacoma-watcrl04",
+      "sourceIDs": [
+        "agency/tacoma/WATCRL04"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Tacoma automated enforcement: published coordinates, not independently surveyed. Source: https://www.arcgis.com/home/item.html?id=ed8eb6a8c87643faa3ea1c6864301c05",
+      "geometry": [
+        {
+          "latitude": 47.19054999996352,
+          "longitude": -122.48383999995696
+        }
+      ],
+      "id": "agency-tacoma-watcrl05",
+      "kind": "redLight",
+      "label": "S Tacoma Way at S 74th St · Southbound",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-tacoma-watcrl05",
+      "sourceIDs": [
+        "agency/tacoma/WATCRL05"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Tacoma automated enforcement: published coordinates, not independently surveyed. Source: https://www.arcgis.com/home/item.html?id=ed8eb6a8c87643faa3ea1c6864301c05",
+      "geometry": [
+        {
+          "latitude": 47.18072100024166,
+          "longitude": -122.46308699988897
+        }
+      ],
+      "id": "agency-tacoma-watcrl06",
+      "kind": "redLight",
+      "label": "S Hosmer St at S 84th St · Northbound",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-tacoma-watcrl06",
+      "sourceIDs": [
+        "agency/tacoma/WATCRL06"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Tacoma automated enforcement: published coordinates, not independently surveyed. Source: https://www.arcgis.com/home/item.html?id=ed8eb6a8c87643faa3ea1c6864301c05",
+      "geometry": [
+        {
+          "latitude": 47.1921139999078,
+          "longitude": -122.4341199997974
+        }
+      ],
+      "id": "agency-tacoma-watcrl07",
+      "kind": "redLight",
+      "label": "Pacific Ave at S 72nd St · Southbound",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-tacoma-watcrl07",
+      "sourceIDs": [
+        "agency/tacoma/WATCRL07"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Tacoma automated enforcement: published coordinates, not independently surveyed. Source: https://www.arcgis.com/home/item.html?id=ed8eb6a8c87643faa3ea1c6864301c05",
+      "geometry": [
+        {
+          "latitude": 47.19156200009126,
+          "longitude": -122.433958000314
+        }
+      ],
+      "id": "agency-tacoma-watcrl08",
+      "kind": "redLight",
+      "label": "Pacific Ave at S 72nd St · Northbound",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-tacoma-watcrl08",
+      "sourceIDs": [
+        "agency/tacoma/WATCRL08"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Tacoma automated enforcement: published coordinates, not independently surveyed. Source: https://www.arcgis.com/home/item.html?id=ed8eb6a8c87643faa3ea1c6864301c05",
+      "geometry": [
+        {
+          "latitude": 47.27185799974682,
+          "longitude": -122.51598899987148
+        }
+      ],
+      "id": "agency-tacoma-watcrl09",
+      "kind": "redLight",
+      "label": "N Pearl St at N 26th St · Southbound",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-tacoma-watcrl09",
+      "sourceIDs": [
+        "agency/tacoma/WATCRL09"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Tacoma automated enforcement: published coordinates, not independently surveyed. Source: https://www.arcgis.com/home/item.html?id=ed8eb6a8c87643faa3ea1c6864301c05",
+      "geometry": [
+        {
+          "latitude": 47.20959200015627,
+          "longitude": -122.43386799990233
+        }
+      ],
+      "id": "agency-tacoma-watcsz03",
+      "kind": "speed",
+      "label": "5200 Block of Pacific Ave · Northbound",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-tacoma-watcsz03",
+      "sourceIDs": [
+        "agency/tacoma/WATCSZ03"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Tacoma automated enforcement: published coordinates, not independently surveyed. Source: https://www.arcgis.com/home/item.html?id=ed8eb6a8c87643faa3ea1c6864301c05",
+      "geometry": [
+        {
+          "latitude": 47.21065900027245,
+          "longitude": -122.43410300007896
+        }
+      ],
+      "id": "agency-tacoma-watcsz04",
+      "kind": "speed",
+      "label": "5500 Block of Pacific Ave · Southbound",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-tacoma-watcsz04",
+      "sourceIDs": [
+        "agency/tacoma/WATCSZ04"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Tacoma automated enforcement: published coordinates, not independently surveyed. Source: https://www.arcgis.com/home/item.html?id=ed8eb6a8c87643faa3ea1c6864301c05",
+      "geometry": [
+        {
+          "latitude": 47.27096299984462,
+          "longitude": -122.50682800036697
+        }
+      ],
+      "id": "agency-tacoma-watcsz05",
+      "kind": "speed",
+      "label": "5100 Block of N 26th St · Eastbound",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-tacoma-watcsz05",
+      "sourceIDs": [
+        "agency/tacoma/WATCSZ05"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Tacoma automated enforcement: published coordinates, not independently surveyed. Source: https://www.arcgis.com/home/item.html?id=ed8eb6a8c87643faa3ea1c6864301c05",
+      "geometry": [
+        {
+          "latitude": 47.27112000015866,
+          "longitude": -122.50473799978987
+        }
+      ],
+      "id": "agency-tacoma-watcsz06",
+      "kind": "speed",
+      "label": "5100 Block of N 26th St · Westbound",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-tacoma-watcsz06",
+      "sourceIDs": [
+        "agency/tacoma/WATCSZ06"
+      ],
+      "travelBearing": 270
+    }
+  ],
+  "checkedAt": "2026-09-15T02:05:42Z",
+  "excluded": [
+    {
+      "reason": "Unidentified point; operational identity needs review",
+      "sourceRecord": "15"
+    },
+    {
+      "reason": "Unidentified point; operational identity needs review",
+      "sourceRecord": "16"
+    },
+    {
+      "reason": "Unidentified point; operational identity needs review",
+      "sourceRecord": "17"
+    },
+    {
+      "reason": "Unidentified point; operational identity needs review",
+      "sourceRecord": "18"
+    },
+    {
+      "reason": "Unidentified point; operational identity needs review",
+      "sourceRecord": "19"
+    },
+    {
+      "reason": "Unidentified point; operational identity needs review",
+      "sourceRecord": "20"
+    },
+    {
+      "reason": "Unidentified point; operational identity needs review",
+      "sourceRecord": "21"
+    },
+    {
+      "reason": "Unidentified point; operational identity needs review",
+      "sourceRecord": "22"
+    },
+    {
+      "reason": "Unidentified point; operational identity needs review",
+      "sourceRecord": "23"
+    }
+  ],
+  "id": "tacoma",
+  "rowCount": 23,
+  "url": "https://services3.arcgis.com/SCwJH1pD8WSn5T5y/arcgis/rest/services/AutomatedEnforcementLocations_Tacoma/FeatureServer/0"
+}

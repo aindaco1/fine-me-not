@@ -1,0 +1,804 @@
+{
+  "cameras": [
+    {
+      "evidence": "San Francisco speed cameras: published coordinates, not independently surveyed. Source: https://www.sfmta.com/projects/speed-safety-cameras",
+      "geometry": [
+        {
+          "latitude": 37.771724274200515,
+          "longitude": -122.50293014263696
+        }
+      ],
+      "id": "agency-sf-1",
+      "kind": "speed",
+      "label": "Fulton St from 42nd Ave to 43rd Ave",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-sf-1",
+      "sourceIDs": [
+        "agency/sf/1"
+      ],
+      "speedLimitCandidate": {
+        "conditional": false,
+        "sourceID": "agency/sf/1",
+        "suppressionApproved": false,
+        "unit": "mph",
+        "value": 25.0
+      }
+    },
+    {
+      "evidence": "San Francisco speed cameras: published coordinates, not independently surveyed. Source: https://www.sfmta.com/projects/speed-safety-cameras",
+      "geometry": [
+        {
+          "latitude": 37.797629000395574,
+          "longitude": -122.40933099982364
+        }
+      ],
+      "id": "agency-sf-10",
+      "kind": "speed",
+      "label": "Broadway from Powell St to Stockton St",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-sf-10",
+      "sourceIDs": [
+        "agency/sf/10"
+      ],
+      "speedLimitCandidate": {
+        "conditional": false,
+        "sourceID": "agency/sf/10",
+        "suppressionApproved": false,
+        "unit": "mph",
+        "value": 20.0
+      }
+    },
+    {
+      "evidence": "San Francisco speed cameras: published coordinates, not independently surveyed. Source: https://www.sfmta.com/projects/speed-safety-cameras",
+      "geometry": [
+        {
+          "latitude": 37.80102799959898,
+          "longitude": -122.39953199973434
+        }
+      ],
+      "id": "agency-sf-11",
+      "kind": "speed",
+      "label": "Embarcadero from Green St to Battery St",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-sf-11",
+      "sourceIDs": [
+        "agency/sf/11"
+      ],
+      "speedLimitCandidate": {
+        "conditional": false,
+        "sourceID": "agency/sf/11",
+        "suppressionApproved": false,
+        "unit": "mph",
+        "value": 30.0
+      }
+    },
+    {
+      "evidence": "San Francisco speed cameras: published coordinates, not independently surveyed. Source: https://www.sfmta.com/projects/speed-safety-cameras",
+      "geometry": [
+        {
+          "latitude": 37.77687099982755,
+          "longitude": -122.413766999698
+        }
+      ],
+      "id": "agency-sf-12",
+      "kind": "speed",
+      "label": "Mission St from 8th St to 9th St",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-sf-12",
+      "sourceIDs": [
+        "agency/sf/12"
+      ],
+      "speedLimitCandidate": {
+        "conditional": false,
+        "sourceID": "agency/sf/12",
+        "suppressionApproved": false,
+        "unit": "mph",
+        "value": 20.0
+      }
+    },
+    {
+      "evidence": "San Francisco speed cameras: published coordinates, not independently surveyed. Source: https://www.sfmta.com/projects/speed-safety-cameras",
+      "geometry": [
+        {
+          "latitude": 37.77213500041665,
+          "longitude": -122.41215000041848
+        }
+      ],
+      "id": "agency-sf-13",
+      "kind": "speed",
+      "label": "10th St from Harrison St to Folsom St",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-sf-13",
+      "sourceIDs": [
+        "agency/sf/13"
+      ],
+      "speedLimitCandidate": {
+        "conditional": false,
+        "sourceID": "agency/sf/13",
+        "suppressionApproved": false,
+        "unit": "mph",
+        "value": 25.0
+      }
+    },
+    {
+      "evidence": "San Francisco speed cameras: published coordinates, not independently surveyed. Source: https://www.sfmta.com/projects/speed-safety-cameras",
+      "geometry": [
+        {
+          "latitude": 37.771856000430844,
+          "longitude": -122.40941000056016
+        }
+      ],
+      "id": "agency-sf-14",
+      "kind": "speed",
+      "label": "9th St from Bryant St to Harrison St",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-sf-14",
+      "sourceIDs": [
+        "agency/sf/14"
+      ],
+      "speedLimitCandidate": {
+        "conditional": false,
+        "sourceID": "agency/sf/14",
+        "suppressionApproved": false,
+        "unit": "mph",
+        "value": 25.0
+      }
+    },
+    {
+      "evidence": "San Francisco speed cameras: published coordinates, not independently surveyed. Source: https://www.sfmta.com/projects/speed-safety-cameras",
+      "geometry": [
+        {
+          "latitude": 37.77603199963029,
+          "longitude": -122.40711800006814
+        }
+      ],
+      "id": "agency-sf-15",
+      "kind": "speed",
+      "label": "7th St from Harrison St to Folsom St",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-sf-15",
+      "sourceIDs": [
+        "agency/sf/15"
+      ],
+      "speedLimitCandidate": {
+        "conditional": false,
+        "sourceID": "agency/sf/15",
+        "suppressionApproved": false,
+        "unit": "mph",
+        "value": 25.0
+      }
+    },
+    {
+      "evidence": "San Francisco speed cameras: published coordinates, not independently surveyed. Source: https://www.sfmta.com/projects/speed-safety-cameras",
+      "geometry": [
+        {
+          "latitude": 37.77980500022172,
+          "longitude": -122.40070699945835
+        }
+      ],
+      "id": "agency-sf-16",
+      "kind": "speed",
+      "label": "Harrison St from 4th St to 5th St",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-sf-16",
+      "sourceIDs": [
+        "agency/sf/16"
+      ],
+      "speedLimitCandidate": {
+        "conditional": false,
+        "sourceID": "agency/sf/16",
+        "suppressionApproved": false,
+        "unit": "mph",
+        "value": 25.0
+      }
+    },
+    {
+      "evidence": "San Francisco speed cameras: published coordinates, not independently surveyed. Source: https://www.sfmta.com/projects/speed-safety-cameras",
+      "geometry": [
+        {
+          "latitude": 37.78228299993292,
+          "longitude": -122.39482199945485
+        }
+      ],
+      "id": "agency-sf-17",
+      "kind": "speed",
+      "label": "Bryant St from 2nd St to 3rd St",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-sf-17",
+      "sourceIDs": [
+        "agency/sf/17"
+      ],
+      "speedLimitCandidate": {
+        "conditional": false,
+        "sourceID": "agency/sf/17",
+        "suppressionApproved": false,
+        "unit": "mph",
+        "value": 25.0
+      }
+    },
+    {
+      "evidence": "San Francisco speed cameras: published coordinates, not independently surveyed. Source: https://www.sfmta.com/projects/speed-safety-cameras",
+      "geometry": [
+        {
+          "latitude": 37.77550700012829,
+          "longitude": -122.39519900048269
+        }
+      ],
+      "id": "agency-sf-18",
+      "kind": "speed",
+      "label": "King St (EB only) from 4th St to 5th St",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-sf-18",
+      "sourceIDs": [
+        "agency/sf/18"
+      ],
+      "speedLimitCandidate": {
+        "conditional": false,
+        "sourceID": "agency/sf/18",
+        "suppressionApproved": false,
+        "unit": "mph",
+        "value": 30.0
+      },
+      "travelBearing": 90
+    },
+    {
+      "evidence": "San Francisco speed cameras: published coordinates, not independently surveyed. Source: https://www.sfmta.com/projects/speed-safety-cameras",
+      "geometry": [
+        {
+          "latitude": 37.76109344875446,
+          "longitude": -122.44113564124626
+        }
+      ],
+      "id": "agency-sf-19",
+      "kind": "speed",
+      "label": "Market St from Danvers St to Douglass St",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-sf-19",
+      "sourceIDs": [
+        "agency/sf/19"
+      ],
+      "speedLimitCandidate": {
+        "conditional": false,
+        "sourceID": "agency/sf/19",
+        "suppressionApproved": false,
+        "unit": "mph",
+        "value": 30.0
+      }
+    },
+    {
+      "evidence": "San Francisco speed cameras: published coordinates, not independently surveyed. Source: https://www.sfmta.com/projects/speed-safety-cameras",
+      "geometry": [
+        {
+          "latitude": 37.76503899974915,
+          "longitude": -122.48671500023546
+        }
+      ],
+      "id": "agency-sf-2",
+      "kind": "speed",
+      "label": "Lincoln Way from 27th Ave to 28th Ave",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-sf-2",
+      "sourceIDs": [
+        "agency/sf/2"
+      ],
+      "speedLimitCandidate": {
+        "conditional": false,
+        "sourceID": "agency/sf/2",
+        "suppressionApproved": false,
+        "unit": "mph",
+        "value": 30.0
+      }
+    },
+    {
+      "evidence": "San Francisco speed cameras: published coordinates, not independently surveyed. Source: https://www.sfmta.com/projects/speed-safety-cameras",
+      "geometry": [
+        {
+          "latitude": 37.759417999668734,
+          "longitude": -122.42360099986526
+        }
+      ],
+      "id": "agency-sf-20",
+      "kind": "speed",
+      "label": "Guerrero St from 19th St to 20th St",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-sf-20",
+      "sourceIDs": [
+        "agency/sf/20"
+      ],
+      "speedLimitCandidate": {
+        "conditional": false,
+        "sourceID": "agency/sf/20",
+        "suppressionApproved": false,
+        "unit": "mph",
+        "value": 25.0
+      }
+    },
+    {
+      "evidence": "San Francisco speed cameras: published coordinates, not independently surveyed. Source: https://www.sfmta.com/projects/speed-safety-cameras",
+      "geometry": [
+        {
+          "latitude": 37.76560999990271,
+          "longitude": -122.40906400002015
+        }
+      ],
+      "id": "agency-sf-21",
+      "kind": "speed",
+      "label": "16th St from Bryant St to Potrero Ave",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-sf-21",
+      "sourceIDs": [
+        "agency/sf/21"
+      ],
+      "speedLimitCandidate": {
+        "conditional": false,
+        "sourceID": "agency/sf/21",
+        "suppressionApproved": false,
+        "unit": "mph",
+        "value": 25.0
+      }
+    },
+    {
+      "evidence": "San Francisco speed cameras: published coordinates, not independently surveyed. Source: https://www.sfmta.com/projects/speed-safety-cameras",
+      "geometry": [
+        {
+          "latitude": 37.742683445983076,
+          "longitude": -122.42313261332797
+        }
+      ],
+      "id": "agency-sf-22",
+      "kind": "speed",
+      "label": "San Jose Ave from 29th St to 30th St",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-sf-22",
+      "sourceIDs": [
+        "agency/sf/22"
+      ],
+      "speedLimitCandidate": {
+        "conditional": false,
+        "sourceID": "agency/sf/22",
+        "suppressionApproved": false,
+        "unit": "mph",
+        "value": 25.0
+      }
+    },
+    {
+      "evidence": "San Francisco speed cameras: published coordinates, not independently surveyed. Source: https://www.sfmta.com/projects/speed-safety-cameras",
+      "geometry": [
+        {
+          "latitude": 37.74829019223016,
+          "longitude": -122.4122773582369
+        }
+      ],
+      "id": "agency-sf-23",
+      "kind": "speed",
+      "label": "Cesar Chavez St from Folsom St to Harrison St",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-sf-23",
+      "sourceIDs": [
+        "agency/sf/23"
+      ],
+      "speedLimitCandidate": {
+        "conditional": false,
+        "sourceID": "agency/sf/23",
+        "suppressionApproved": false,
+        "unit": "mph",
+        "value": 25.0
+      }
+    },
+    {
+      "evidence": "San Francisco speed cameras: published coordinates, not independently surveyed. Source: https://www.sfmta.com/projects/speed-safety-cameras",
+      "geometry": [
+        {
+          "latitude": 37.750166848171666,
+          "longitude": -122.38945185757287
+        }
+      ],
+      "id": "agency-sf-24",
+      "kind": "speed",
+      "label": "Cesar Chavez St from Indiana St to Tennessee St",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-sf-24",
+      "sourceIDs": [
+        "agency/sf/24"
+      ],
+      "speedLimitCandidate": {
+        "conditional": false,
+        "sourceID": "agency/sf/24",
+        "suppressionApproved": false,
+        "unit": "mph",
+        "value": 30.0
+      }
+    },
+    {
+      "evidence": "San Francisco speed cameras: published coordinates, not independently surveyed. Source: https://www.sfmta.com/projects/speed-safety-cameras",
+      "geometry": [
+        {
+          "latitude": 37.71979423914006,
+          "longitude": -122.39681753002982
+        }
+      ],
+      "id": "agency-sf-25",
+      "kind": "speed",
+      "label": "3rd St (NB only) from Key Ave to Jamestown Ave",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-sf-25",
+      "sourceIDs": [
+        "agency/sf/25"
+      ],
+      "speedLimitCandidate": {
+        "conditional": false,
+        "sourceID": "agency/sf/25",
+        "suppressionApproved": false,
+        "unit": "mph",
+        "value": 25.0
+      },
+      "travelBearing": 0
+    },
+    {
+      "evidence": "San Francisco speed cameras: published coordinates, not independently surveyed. Source: https://www.sfmta.com/projects/speed-safety-cameras",
+      "geometry": [
+        {
+          "latitude": 37.71404828152403,
+          "longitude": -122.39984159492413
+        }
+      ],
+      "id": "agency-sf-26",
+      "kind": "speed",
+      "label": "Bayshore Blvd (SB only) from 101 off-ramp to Tunnel Ave",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-sf-26",
+      "sourceIDs": [
+        "agency/sf/26"
+      ],
+      "speedLimitCandidate": {
+        "conditional": false,
+        "sourceID": "agency/sf/26",
+        "suppressionApproved": false,
+        "unit": "mph",
+        "value": 30.0
+      },
+      "travelBearing": 180
+    },
+    {
+      "evidence": "San Francisco speed cameras: published coordinates, not independently surveyed. Source: https://www.sfmta.com/projects/speed-safety-cameras",
+      "geometry": [
+        {
+          "latitude": 37.71191099987849,
+          "longitude": -122.42873200056633
+        }
+      ],
+      "id": "agency-sf-27",
+      "kind": "speed",
+      "label": "Geneva Ave from Prague St to Brookdale Ave",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-sf-27",
+      "sourceIDs": [
+        "agency/sf/27"
+      ],
+      "speedLimitCandidate": {
+        "conditional": false,
+        "sourceID": "agency/sf/27",
+        "suppressionApproved": false,
+        "unit": "mph",
+        "value": 30.0
+      }
+    },
+    {
+      "evidence": "San Francisco speed cameras: published coordinates, not independently surveyed. Source: https://www.sfmta.com/projects/speed-safety-cameras",
+      "geometry": [
+        {
+          "latitude": 37.71382023519327,
+          "longitude": -122.44345411077731
+        }
+      ],
+      "id": "agency-sf-28",
+      "kind": "speed",
+      "label": "Mission St from Ottawa Ave to Allison St",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-sf-28",
+      "sourceIDs": [
+        "agency/sf/28"
+      ],
+      "speedLimitCandidate": {
+        "conditional": false,
+        "sourceID": "agency/sf/28",
+        "suppressionApproved": false,
+        "unit": "mph",
+        "value": 20.0
+      }
+    },
+    {
+      "evidence": "San Francisco speed cameras: published coordinates, not independently surveyed. Source: https://www.sfmta.com/projects/speed-safety-cameras",
+      "geometry": [
+        {
+          "latitude": 37.71330299960507,
+          "longitude": -122.45022100056084
+        }
+      ],
+      "id": "agency-sf-29",
+      "kind": "speed",
+      "label": "Alemany Blvd from Farragut Ave to Naglee Ave",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-sf-29",
+      "sourceIDs": [
+        "agency/sf/29"
+      ],
+      "speedLimitCandidate": {
+        "conditional": false,
+        "sourceID": "agency/sf/29",
+        "suppressionApproved": false,
+        "unit": "mph",
+        "value": 30.0
+      }
+    },
+    {
+      "evidence": "San Francisco speed cameras: published coordinates, not independently surveyed. Source: https://www.sfmta.com/projects/speed-safety-cameras",
+      "geometry": [
+        {
+          "latitude": 37.78095569985489,
+          "longitude": -122.46589829980444
+        }
+      ],
+      "id": "agency-sf-3",
+      "kind": "speed",
+      "label": "Geary Blvd from 7th Ave to 8th Ave",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-sf-3",
+      "sourceIDs": [
+        "agency/sf/3"
+      ],
+      "speedLimitCandidate": {
+        "conditional": false,
+        "sourceID": "agency/sf/3",
+        "suppressionApproved": false,
+        "unit": "mph",
+        "value": 25.0
+      }
+    },
+    {
+      "evidence": "San Francisco speed cameras: published coordinates, not independently surveyed. Source: https://www.sfmta.com/projects/speed-safety-cameras",
+      "geometry": [
+        {
+          "latitude": 37.72296906903797,
+          "longitude": -122.45072139588271
+        }
+      ],
+      "id": "agency-sf-30",
+      "kind": "speed",
+      "label": "Ocean Ave from Frida Kahlo Way to Howth St",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-sf-30",
+      "sourceIDs": [
+        "agency/sf/30"
+      ],
+      "speedLimitCandidate": {
+        "conditional": false,
+        "sourceID": "agency/sf/30",
+        "suppressionApproved": false,
+        "unit": "mph",
+        "value": 25.0
+      }
+    },
+    {
+      "evidence": "San Francisco speed cameras: published coordinates, not independently surveyed. Source: https://www.sfmta.com/projects/speed-safety-cameras",
+      "geometry": [
+        {
+          "latitude": 37.72507800017844,
+          "longitude": -122.4428499997646
+        }
+      ],
+      "id": "agency-sf-31",
+      "kind": "speed",
+      "label": "San Jose Ave from Santa Ynez Ave to Ocean Ave",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-sf-31",
+      "sourceIDs": [
+        "agency/sf/31"
+      ],
+      "speedLimitCandidate": {
+        "conditional": false,
+        "sourceID": "agency/sf/31",
+        "suppressionApproved": false,
+        "unit": "mph",
+        "value": 25.0
+      }
+    },
+    {
+      "evidence": "San Francisco speed cameras: published coordinates, not independently surveyed. Source: https://www.sfmta.com/projects/speed-safety-cameras",
+      "geometry": [
+        {
+          "latitude": 37.731476000200786,
+          "longitude": -122.44378999989956
+        }
+      ],
+      "id": "agency-sf-32",
+      "kind": "speed",
+      "label": "Monterey Blvd from Edna St to Congo St",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-sf-32",
+      "sourceIDs": [
+        "agency/sf/32"
+      ],
+      "speedLimitCandidate": {
+        "conditional": false,
+        "sourceID": "agency/sf/32",
+        "suppressionApproved": false,
+        "unit": "mph",
+        "value": 25.0
+      }
+    },
+    {
+      "evidence": "San Francisco speed cameras: published coordinates, not independently surveyed. Source: https://www.sfmta.com/projects/speed-safety-cameras",
+      "geometry": [
+        {
+          "latitude": 37.73394391291073,
+          "longitude": -122.49814754485975
+        }
+      ],
+      "id": "agency-sf-33",
+      "kind": "speed",
+      "label": "Sloat Blvd from 41st Ave to Skyline Blvd",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-sf-33",
+      "sourceIDs": [
+        "agency/sf/33"
+      ],
+      "speedLimitCandidate": {
+        "conditional": false,
+        "sourceID": "agency/sf/33",
+        "suppressionApproved": false,
+        "unit": "mph",
+        "value": 30.0
+      }
+    },
+    {
+      "evidence": "San Francisco speed cameras: published coordinates, not independently surveyed. Source: https://www.sfmta.com/projects/speed-safety-cameras",
+      "geometry": [
+        {
+          "latitude": 37.77435099984385,
+          "longitude": -122.45897700041661
+        }
+      ],
+      "id": "agency-sf-4",
+      "kind": "speed",
+      "label": "Fulton St from 2nd Ave to Arguello Blvd",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-sf-4",
+      "sourceIDs": [
+        "agency/sf/4"
+      ],
+      "speedLimitCandidate": {
+        "conditional": false,
+        "sourceID": "agency/sf/4",
+        "suppressionApproved": false,
+        "unit": "mph",
+        "value": 25.0
+      }
+    },
+    {
+      "evidence": "San Francisco speed cameras: published coordinates, not independently surveyed. Source: https://www.sfmta.com/projects/speed-safety-cameras",
+      "geometry": [
+        {
+          "latitude": 37.784756867551174,
+          "longitude": -122.42984389949379
+        }
+      ],
+      "id": "agency-sf-5",
+      "kind": "speed",
+      "label": "Geary Blvd from Webster St to Buchanan St",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-sf-5",
+      "sourceIDs": [
+        "agency/sf/5"
+      ],
+      "speedLimitCandidate": {
+        "conditional": false,
+        "sourceID": "agency/sf/5",
+        "suppressionApproved": false,
+        "unit": "mph",
+        "value": 30.0
+      }
+    },
+    {
+      "evidence": "San Francisco speed cameras: published coordinates, not independently surveyed. Source: https://www.sfmta.com/projects/speed-safety-cameras",
+      "geometry": [
+        {
+          "latitude": 37.78204799980651,
+          "longitude": -122.41954400023499
+        }
+      ],
+      "id": "agency-sf-6",
+      "kind": "speed",
+      "label": "Turk St from Van Ness Ave to Polk St",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-sf-6",
+      "sourceIDs": [
+        "agency/sf/6"
+      ],
+      "speedLimitCandidate": {
+        "conditional": false,
+        "sourceID": "agency/sf/6",
+        "suppressionApproved": false,
+        "unit": "mph",
+        "value": 20.0
+      }
+    },
+    {
+      "evidence": "San Francisco speed cameras: published coordinates, not independently surveyed. Source: https://www.sfmta.com/projects/speed-safety-cameras",
+      "geometry": [
+        {
+          "latitude": 37.803807999949015,
+          "longitude": -122.42856499993636
+        }
+      ],
+      "id": "agency-sf-7",
+      "kind": "speed",
+      "label": "Bay St from Octavia St to Gough St",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-sf-7",
+      "sourceIDs": [
+        "agency/sf/7"
+      ],
+      "speedLimitCandidate": {
+        "conditional": false,
+        "sourceID": "agency/sf/7",
+        "suppressionApproved": false,
+        "unit": "mph",
+        "value": 25.0
+      }
+    },
+    {
+      "evidence": "San Francisco speed cameras: published coordinates, not independently surveyed. Source: https://www.sfmta.com/projects/speed-safety-cameras",
+      "geometry": [
+        {
+          "latitude": 37.79786799998982,
+          "longitude": -122.42564599949941
+        }
+      ],
+      "id": "agency-sf-8",
+      "kind": "speed",
+      "label": "Franklin St from Union St to Green St",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-sf-8",
+      "sourceIDs": [
+        "agency/sf/8"
+      ],
+      "speedLimitCandidate": {
+        "conditional": false,
+        "sourceID": "agency/sf/8",
+        "suppressionApproved": false,
+        "unit": "mph",
+        "value": 25.0
+      }
+    },
+    {
+      "evidence": "San Francisco speed cameras: published coordinates, not independently surveyed. Source: https://www.sfmta.com/projects/speed-safety-cameras",
+      "geometry": [
+        {
+          "latitude": 37.80233700018829,
+          "longitude": -122.41321800038595
+        }
+      ],
+      "id": "agency-sf-9",
+      "kind": "speed",
+      "label": "Columbus Ave from Lombard St to Greenwich St",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-sf-9",
+      "sourceIDs": [
+        "agency/sf/9"
+      ],
+      "speedLimitCandidate": {
+        "conditional": false,
+        "sourceID": "agency/sf/9",
+        "suppressionApproved": false,
+        "unit": "mph",
+        "value": 20.0
+      }
+    }
+  ],
+  "checkedAt": "2026-09-15T02:05:42Z",
+  "excluded": [],
+  "id": "sf",
+  "rowCount": 33,
+  "url": "https://services.arcgis.com/Zs2aNLFN00jrS4gG/arcgis/rest/services/Proposed_Automated_Speed_Enforcement_Locations_WFL1/FeatureServer/0"
+}

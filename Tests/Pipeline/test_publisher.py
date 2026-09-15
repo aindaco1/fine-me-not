@@ -1,3 +1,6 @@
+import sys
+import pathlib
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[2] / 'Scripts'))
 import csv, math, copy, datetime as dt, hashlib, importlib.util, json, pathlib, tempfile, unittest
 spec = importlib.util.spec_from_file_location('publisher', pathlib.Path(__file__).resolve().parents[2] / 'Scripts/publish_cameras.py')
 p = importlib.util.module_from_spec(spec); spec.loader.exec_module(p)
@@ -77,6 +80,9 @@ class PublisherTests(unittest.TestCase):
             t = max(0, min(1, -(ax*dx+ay*dy)/length2)) if length2 else 0
             return math.hypot(ax+t*dx, ay+t*dy) < .25
         for area in review['areas']:
+            if accepted[area['id']].get('positionPrecision') == 'reviewed-osm-device':
+                self.assertTrue(any(item['acceptedID'] == area['id'] for item in p.read(root/'Data/Review/metro-point-reconciliation.json')['points']))
+                continue
             self.assertEqual(accepted[area['id']]['geometry'], area['geometry'])
             edges = [(elements[('node', a)], elements[('node', b)]) for wid in area['wayIDs']
                      for a, b in zip(elements[('way', wid)]['nodes'], elements[('way', wid)]['nodes'][1:])]

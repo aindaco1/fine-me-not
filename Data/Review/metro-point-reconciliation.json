@@ -1,0 +1,2029 @@
+{
+  "limitations": "Mapped positions are not surveyed. Rio Rancho points are possible rotating deployments; county source freshness remains its original verification date when fetches fail.",
+  "points": [
+    {
+      "acceptedID": "rr-deployment-13380469273",
+      "decision": "Desk reconciliation 2026-09-14: OSM mapped point matches its named local road and cross street. Rio Rancho describes ten rotating local-road units but does not publish their exact live positions. This is a community-mapped possible deployment site, not an agency-confirmed current location or a permanent camera. OSM ref supplies an approach where explicit; direction=forward is not interpreted as a bearing.",
+      "node": {
+        "id": 13380469273,
+        "lat": 35.2300461,
+        "lon": -106.6771429,
+        "tags": {
+          "direction": "both",
+          "highway": "speed_camera",
+          "maxspeed": "40 mph",
+          "ref": "Golf Course @ 16th"
+        },
+        "type": "node"
+      },
+      "reviewedAt": "2026-09-14",
+      "road": {
+        "bounds": {
+          "maxlat": 35.2338569,
+          "maxlon": -106.6771417,
+          "minlat": 35.2284671,
+          "minlon": -106.6771499
+        },
+        "geometry": [
+          {
+            "lat": 35.2338569,
+            "lon": -106.6771499
+          },
+          {
+            "lat": 35.2337506,
+            "lon": -106.6771482
+          },
+          {
+            "lat": 35.23234,
+            "lon": -106.6771473
+          },
+          {
+            "lat": 35.2318308,
+            "lon": -106.677147
+          },
+          {
+            "lat": 35.2303651,
+            "lon": -106.677146
+          },
+          {
+            "lat": 35.2300461,
+            "lon": -106.6771429
+          },
+          {
+            "lat": 35.2299232,
+            "lon": -106.6771417
+          },
+          {
+            "lat": 35.2296656,
+            "lon": -106.6771419
+          },
+          {
+            "lat": 35.2284671,
+            "lon": -106.6771426
+          }
+        ],
+        "id": 703200155,
+        "nodes": [
+          143712041,
+          7623249008,
+          13380491063,
+          13380491058,
+          12949195740,
+          13380469273,
+          143766510,
+          13380491056,
+          596739915
+        ],
+        "tags": {
+          "cycleway": "lane",
+          "highway": "secondary",
+          "maxspeed": "40 mph",
+          "name": "Golf Course Road Southeast",
+          "source:cycleway": "Mapbox Satellite imagery",
+          "tiger:cfcc": "A41",
+          "tiger:county": "Sandoval, NM",
+          "tiger:name_base": "Golf Course",
+          "tiger:name_direction_suffix": "SE",
+          "tiger:name_type": "Rd",
+          "tiger:reviewed": "no"
+        },
+        "type": "way"
+      }
+    },
+    {
+      "acceptedID": "rr-deployment-13380469274",
+      "decision": "Desk reconciliation 2026-09-14: OSM mapped point matches its named local road and cross street. Rio Rancho describes ten rotating local-road units but does not publish their exact live positions. This is a community-mapped possible deployment site, not an agency-confirmed current location or a permanent camera. OSM ref supplies an approach where explicit; direction=forward is not interpreted as a bearing.",
+      "node": {
+        "id": 13380469274,
+        "lat": 35.2869236,
+        "lon": -106.6569774,
+        "tags": {
+          "direction": "both",
+          "highway": "speed_camera",
+          "maxspeed": "45 mph",
+          "ref": "Idalia @ Loma Colorado"
+        },
+        "type": "node"
+      },
+      "reviewedAt": "2026-09-14",
+      "road": {
+        "bounds": {
+          "maxlat": 35.2970864,
+          "maxlon": -106.6356002,
+          "minlat": 35.27732,
+          "minlon": -106.6769916
+        },
+        "geometry": [
+          {
+            "lat": 35.27732,
+            "lon": -106.6769916
+          },
+          {
+            "lat": 35.2787576,
+            "lon": -106.6739785
+          },
+          {
+            "lat": 35.2824796,
+            "lon": -106.6661556
+          },
+          {
+            "lat": 35.2834984,
+            "lon": -106.6640419
+          },
+          {
+            "lat": 35.2835073,
+            "lon": -106.6640232
+          },
+          {
+            "lat": 35.2868827,
+            "lon": -106.6570649
+          },
+          {
+            "lat": 35.2869153,
+            "lon": -106.6569952
+          },
+          {
+            "lat": 35.2869236,
+            "lon": -106.6569774
+          },
+          {
+            "lat": 35.2885456,
+            "lon": -106.6535101
+          },
+          {
+            "lat": 35.2887323,
+            "lon": -106.6530956
+          },
+          {
+            "lat": 35.2897445,
+            "lon": -106.650957
+          },
+          {
+            "lat": 35.2905752,
+            "lon": -106.6492352
+          },
+          {
+            "lat": 35.2914691,
+            "lon": -106.6473454
+          },
+          {
+            "lat": 35.2922219,
+            "lon": -106.6457715
+          },
+          {
+            "lat": 35.2946542,
+            "lon": -106.6406778
+          },
+          {
+            "lat": 35.2956111,
+            "lon": -106.6386774
+          },
+          {
+            "lat": 35.2960484,
+            "lon": -106.6377805
+          },
+          {
+            "lat": 35.2970864,
+            "lon": -106.6356002
+          }
+        ],
+        "id": 40117510,
+        "nodes": [
+          143690491,
+          7601171649,
+          9039040274,
+          7605018760,
+          143690504,
+          143690507,
+          13396943429,
+          13380469274,
+          143690510,
+          9787422164,
+          143690516,
+          143690519,
+          143587534,
+          143690522,
+          143690524,
+          143690526,
+          143690528,
+          143690530
+        ],
+        "tags": {
+          "highway": "tertiary",
+          "lanes": "2",
+          "maxspeed": "45 mph",
+          "name": "Idalia Road Northeast",
+          "surface": "asphalt",
+          "tiger:cfcc": "A41",
+          "tiger:county": "Sandoval, NM",
+          "tiger:name_base": "Idalia",
+          "tiger:name_direction_suffix": "NE",
+          "tiger:name_type": "Rd",
+          "tiger:reviewed": "no"
+        },
+        "type": "way"
+      }
+    },
+    {
+      "acceptedID": "rr-deployment-13380469275",
+      "decision": "Desk reconciliation 2026-09-14: OSM mapped point matches its named local road and cross street. Rio Rancho describes ten rotating local-road units but does not publish their exact live positions. This is a community-mapped possible deployment site, not an agency-confirmed current location or a permanent camera. OSM ref supplies an approach where explicit; direction=forward is not interpreted as a bearing.",
+      "node": {
+        "id": 13380469275,
+        "lat": 35.286773,
+        "lon": -106.6179939,
+        "tags": {
+          "direction": "both",
+          "highway": "speed_camera",
+          "maxspeed": "30 mph",
+          "ref": "Kim @ Saratoga"
+        },
+        "type": "node"
+      },
+      "reviewedAt": "2026-09-14",
+      "road": {
+        "bounds": {
+          "maxlat": 35.2922219,
+          "maxlon": -106.6097373,
+          "minlat": 35.2827175,
+          "minlon": -106.6457715
+        },
+        "geometry": [
+          {
+            "lat": 35.2922219,
+            "lon": -106.6457715
+          },
+          {
+            "lat": 35.2913793,
+            "lon": -106.6451834
+          },
+          {
+            "lat": 35.2907832,
+            "lon": -106.6447476
+          },
+          {
+            "lat": 35.2907689,
+            "lon": -106.6447371
+          },
+          {
+            "lat": 35.289722,
+            "lon": -106.6439501
+          },
+          {
+            "lat": 35.2894278,
+            "lon": -106.6434555
+          },
+          {
+            "lat": 35.2889553,
+            "lon": -106.6426208
+          },
+          {
+            "lat": 35.2888217,
+            "lon": -106.6420334
+          },
+          {
+            "lat": 35.2887079,
+            "lon": -106.6410533
+          },
+          {
+            "lat": 35.2887263,
+            "lon": -106.6390363
+          },
+          {
+            "lat": 35.2887263,
+            "lon": -106.6370552
+          },
+          {
+            "lat": 35.2887098,
+            "lon": -106.6357029
+          },
+          {
+            "lat": 35.2887018,
+            "lon": -106.6350505
+          },
+          {
+            "lat": 35.2887197,
+            "lon": -106.6330689
+          },
+          {
+            "lat": 35.2887101,
+            "lon": -106.6311485
+          },
+          {
+            "lat": 35.2887285,
+            "lon": -106.6290998
+          },
+          {
+            "lat": 35.2887263,
+            "lon": -106.62885
+          },
+          {
+            "lat": 35.2887048,
+            "lon": -106.6263865
+          },
+          {
+            "lat": 35.2887259,
+            "lon": -106.6254718
+          },
+          {
+            "lat": 35.2887105,
+            "lon": -106.6244451
+          },
+          {
+            "lat": 35.2887229,
+            "lon": -106.6231344
+          },
+          {
+            "lat": 35.28871,
+            "lon": -106.6230159
+          },
+          {
+            "lat": 35.288668,
+            "lon": -106.622631
+          },
+          {
+            "lat": 35.288532,
+            "lon": -106.622109
+          },
+          {
+            "lat": 35.2884157,
+            "lon": -106.6217412
+          },
+          {
+            "lat": 35.2877742,
+            "lon": -106.62025
+          },
+          {
+            "lat": 35.2873085,
+            "lon": -106.6191631
+          },
+          {
+            "lat": 35.2870073,
+            "lon": -106.6184603
+          },
+          {
+            "lat": 35.2868118,
+            "lon": -106.6180837
+          },
+          {
+            "lat": 35.286773,
+            "lon": -106.6179939
+          },
+          {
+            "lat": 35.2857494,
+            "lon": -106.6156237
+          },
+          {
+            "lat": 35.2850943,
+            "lon": -106.6141573
+          },
+          {
+            "lat": 35.284475,
+            "lon": -106.6127203
+          },
+          {
+            "lat": 35.2843697,
+            "lon": -106.612476
+          },
+          {
+            "lat": 35.284048,
+            "lon": -106.611729
+          },
+          {
+            "lat": 35.2837316,
+            "lon": -106.6111434
+          },
+          {
+            "lat": 35.2833883,
+            "lon": -106.6106838
+          },
+          {
+            "lat": 35.2827175,
+            "lon": -106.6097373
+          }
+        ],
+        "id": 513584115,
+        "nodes": [
+          143690522,
+          143813959,
+          7609005754,
+          143587374,
+          143813962,
+          143802716,
+          143813965,
+          1373307515,
+          143762219,
+          143783565,
+          143762278,
+          9090090302,
+          143805932,
+          143813970,
+          143720196,
+          143743398,
+          7599902473,
+          143791658,
+          143763897,
+          143813977,
+          143813980,
+          7625672584,
+          143813984,
+          143813987,
+          143813990,
+          143763936,
+          7624807238,
+          7624807230,
+          143814006,
+          13380469275,
+          143814011,
+          143795462,
+          8717453573,
+          8717453576,
+          143814016,
+          143814022,
+          143742584,
+          474783861
+        ],
+        "tags": {
+          "highway": "tertiary",
+          "lanes": "2",
+          "maxspeed": "30 mph",
+          "maxspeed:backward": "30 mph",
+          "name": "Kim Road Northeast",
+          "surface": "asphalt",
+          "tiger:cfcc": "A41",
+          "tiger:county": "Sandoval, NM",
+          "tiger:name_base": "Kim",
+          "tiger:name_direction_suffix": "NE",
+          "tiger:name_type": "Rd",
+          "tiger:reviewed": "no"
+        },
+        "type": "way"
+      }
+    },
+    {
+      "acceptedID": "rr-deployment-13380469276",
+      "decision": "Desk reconciliation 2026-09-14: OSM mapped point matches its named local road and cross street. Rio Rancho describes ten rotating local-road units but does not publish their exact live positions. This is a community-mapped possible deployment site, not an agency-confirmed current location or a permanent camera. OSM ref supplies an approach where explicit; direction=forward is not interpreted as a bearing.",
+      "node": {
+        "id": 13380469276,
+        "lat": 35.2506104,
+        "lon": -106.6770459,
+        "tags": {
+          "direction": "forward",
+          "highway": "speed_camera",
+          "maxspeed": "30 mph",
+          "ref": "Broodmoor SB @ Nicklaus"
+        },
+        "type": "node"
+      },
+      "reviewedAt": "2026-09-14",
+      "road": {
+        "bounds": {
+          "maxlat": 35.2584693,
+          "maxlon": -106.6769351,
+          "minlat": 35.250552,
+          "minlon": -106.6770646
+        },
+        "geometry": [
+          {
+            "lat": 35.2584693,
+            "lon": -106.6770126
+          },
+          {
+            "lat": 35.2583705,
+            "lon": -106.6770407
+          },
+          {
+            "lat": 35.2583055,
+            "lon": -106.6770592
+          },
+          {
+            "lat": 35.2575584,
+            "lon": -106.6770619
+          },
+          {
+            "lat": 35.256311,
+            "lon": -106.6770593
+          },
+          {
+            "lat": 35.2558754,
+            "lon": -106.6770592
+          },
+          {
+            "lat": 35.2555595,
+            "lon": -106.6770592
+          },
+          {
+            "lat": 35.255041,
+            "lon": -106.6770589
+          },
+          {
+            "lat": 35.2542121,
+            "lon": -106.6770646
+          },
+          {
+            "lat": 35.253385,
+            "lon": -106.6770566
+          },
+          {
+            "lat": 35.2525582,
+            "lon": -106.6770593
+          },
+          {
+            "lat": 35.2521472,
+            "lon": -106.6770592
+          },
+          {
+            "lat": 35.2518964,
+            "lon": -106.6770646
+          },
+          {
+            "lat": 35.2517796,
+            "lon": -106.6770457
+          },
+          {
+            "lat": 35.251446,
+            "lon": -106.6769846
+          },
+          {
+            "lat": 35.2512771,
+            "lon": -106.6769459
+          },
+          {
+            "lat": 35.2511471,
+            "lon": -106.6769351
+          },
+          {
+            "lat": 35.250984,
+            "lon": -106.6769405
+          },
+          {
+            "lat": 35.2506104,
+            "lon": -106.6770459
+          },
+          {
+            "lat": 35.250552,
+            "lon": -106.6770624
+          }
+        ],
+        "id": 611265340,
+        "nodes": [
+          143692561,
+          9787346413,
+          5787682743,
+          5787682744,
+          5787682745,
+          5787683466,
+          5787682746,
+          5787682747,
+          5787682748,
+          5787682749,
+          5787682750,
+          5787682751,
+          5787682752,
+          5787683453,
+          5787683454,
+          5787683455,
+          5787683456,
+          5787683457,
+          13380469276,
+          5787683458
+        ],
+        "tags": {
+          "highway": "tertiary",
+          "maxspeed": "30 mph",
+          "maxweight:hgv": "10000 lbs",
+          "name": "Broadmoor Boulevard Southeast",
+          "oneway": "yes"
+        },
+        "type": "way"
+      }
+    },
+    {
+      "acceptedID": "rr-deployment-13380469277",
+      "decision": "Desk reconciliation 2026-09-14: OSM mapped point matches its named local road and cross street. Rio Rancho describes ten rotating local-road units but does not publish their exact live positions. This is a community-mapped possible deployment site, not an agency-confirmed current location or a permanent camera. OSM ref supplies an approach where explicit; direction=forward is not interpreted as a bearing.",
+      "node": {
+        "id": 13380469277,
+        "lat": 35.2675925,
+        "lon": -106.6435,
+        "tags": {
+          "direction": "both",
+          "highway": "speed_camera",
+          "maxspeed": "30 mph",
+          "ref": "Rockaway @ Pyrite"
+        },
+        "type": "node"
+      },
+      "reviewedAt": "2026-09-14",
+      "road": {
+        "bounds": {
+          "maxlat": 35.2676368,
+          "maxlon": -106.6396466,
+          "minlat": 35.2642087,
+          "minlon": -106.6435566
+        },
+        "geometry": [
+          {
+            "lat": 35.2676368,
+            "lon": -106.6435566
+          },
+          {
+            "lat": 35.2675925,
+            "lon": -106.6435
+          },
+          {
+            "lat": 35.2675273,
+            "lon": -106.6434168
+          },
+          {
+            "lat": 35.2665971,
+            "lon": -106.6422293
+          },
+          {
+            "lat": 35.2650632,
+            "lon": -106.6402285
+          },
+          {
+            "lat": 35.2648508,
+            "lon": -106.6399749
+          },
+          {
+            "lat": 35.2645595,
+            "lon": -106.6397667
+          },
+          {
+            "lat": 35.2643897,
+            "lon": -106.6396911
+          },
+          {
+            "lat": 35.2642087,
+            "lon": -106.6396466
+          }
+        ],
+        "id": 1047533108,
+        "nodes": [
+          143784578,
+          13380469277,
+          13380469284,
+          143794741,
+          143825974,
+          143822158,
+          483371431,
+          8439642779,
+          143810817
+        ],
+        "tags": {
+          "cycleway": "lane",
+          "highway": "tertiary",
+          "lane_markings": "yes",
+          "maxspeed": "30 mph",
+          "maxweight:hgv": "5 st",
+          "name": "Rockaway Boulevard Northeast",
+          "surface": "asphalt",
+          "tiger:cfcc": "A41",
+          "tiger:county": "Sandoval, NM",
+          "tiger:name_base": "Rockaway",
+          "tiger:name_direction_suffix": "NE",
+          "tiger:name_type": "Blvd"
+        },
+        "type": "way"
+      }
+    },
+    {
+      "acceptedID": "rr-deployment-13380469278",
+      "decision": "Desk reconciliation 2026-09-14: OSM mapped point matches its named local road and cross street. Rio Rancho describes ten rotating local-road units but does not publish their exact live positions. This is a community-mapped possible deployment site, not an agency-confirmed current location or a permanent camera. OSM ref supplies an approach where explicit; direction=forward is not interpreted as a bearing.",
+      "node": {
+        "id": 13380469278,
+        "lat": 35.3069325,
+        "lon": -106.6969369,
+        "tags": {
+          "direction": "forward",
+          "highway": "speed_camera",
+          "maxspeed": "45 mph",
+          "ref": "Unser SB @ PdV"
+        },
+        "type": "node"
+      },
+      "reviewedAt": "2026-09-14",
+      "road": {
+        "bounds": {
+          "maxlat": 35.310114,
+          "maxlon": -106.696882,
+          "minlat": 35.3068346,
+          "minlon": -106.6969431
+        },
+        "geometry": [
+          {
+            "lat": 35.310114,
+            "lon": -106.6969055
+          },
+          {
+            "lat": 35.308785,
+            "lon": -106.6968915
+          },
+          {
+            "lat": 35.3084179,
+            "lon": -106.696882
+          },
+          {
+            "lat": 35.307259,
+            "lon": -106.6969204
+          },
+          {
+            "lat": 35.3071222,
+            "lon": -106.6969249
+          },
+          {
+            "lat": 35.3069325,
+            "lon": -106.6969369
+          },
+          {
+            "lat": 35.3068346,
+            "lon": -106.6969431
+          }
+        ],
+        "id": 460416338,
+        "nodes": [
+          143699290,
+          4560868766,
+          143699288,
+          13380469281,
+          484074808,
+          13380469278,
+          1194411371
+        ],
+        "tags": {
+          "cycleway:left": "no",
+          "cycleway:right": "lane",
+          "highway": "secondary",
+          "maxspeed": "45 mph",
+          "name": "Unser Boulevard Northeast",
+          "name_1": "20th Street Northeast",
+          "oneway": "yes",
+          "tiger:cfcc": "A41",
+          "tiger:county": "Sandoval, NM",
+          "tiger:name_base": "Unser",
+          "tiger:name_base_1": "20th",
+          "tiger:name_direction_suffix": "NE",
+          "tiger:name_direction_suffix_1": "NE",
+          "tiger:name_type": "Blvd",
+          "tiger:name_type_1": "St",
+          "tiger:reviewed": "no"
+        },
+        "type": "way"
+      }
+    },
+    {
+      "acceptedID": "rr-deployment-13380469280",
+      "decision": "Desk reconciliation 2026-09-14: OSM mapped point matches its named local road and cross street. Rio Rancho describes ten rotating local-road units but does not publish their exact live positions. This is a community-mapped possible deployment site, not an agency-confirmed current location or a permanent camera. OSM ref supplies an approach where explicit; direction=forward is not interpreted as a bearing.",
+      "node": {
+        "id": 13380469280,
+        "lat": 35.306903,
+        "lon": -106.6966779,
+        "tags": {
+          "direction": "forward",
+          "highway": "speed_camera",
+          "maxspeed": "45 mph",
+          "ref": "Unser NB @ PdV"
+        },
+        "type": "node"
+      },
+      "reviewedAt": "2026-09-14",
+      "road": {
+        "bounds": {
+          "maxlat": 35.3101145,
+          "maxlon": -106.6966328,
+          "minlat": 35.3066919,
+          "minlon": -106.6966876
+        },
+        "geometry": [
+          {
+            "lat": 35.3066919,
+            "lon": -106.6966876
+          },
+          {
+            "lat": 35.3068192,
+            "lon": -106.696681
+          },
+          {
+            "lat": 35.306903,
+            "lon": -106.6966779
+          },
+          {
+            "lat": 35.3081096,
+            "lon": -106.6966333
+          },
+          {
+            "lat": 35.3084236,
+            "lon": -106.6966472
+          },
+          {
+            "lat": 35.3087231,
+            "lon": -106.6966446
+          },
+          {
+            "lat": 35.3101145,
+            "lon": -106.6966328
+          }
+        ],
+        "id": 460416749,
+        "nodes": [
+          4560864963,
+          4560871085,
+          13380469280,
+          4560864969,
+          4560864970,
+          4602218950,
+          4560864971
+        ],
+        "tags": {
+          "cycleway:left": "no",
+          "cycleway:right": "lane",
+          "highway": "secondary",
+          "maxspeed": "45 mph",
+          "name": "Unser Boulevard Northeast",
+          "oneway": "yes"
+        },
+        "type": "way"
+      }
+    },
+    {
+      "acceptedID": "rr-deployment-13380490909",
+      "decision": "Desk reconciliation 2026-09-14: OSM mapped point matches its named local road and cross street. Rio Rancho describes ten rotating local-road units but does not publish their exact live positions. This is a community-mapped possible deployment site, not an agency-confirmed current location or a permanent camera. OSM ref supplies an approach where explicit; direction=forward is not interpreted as a bearing.",
+      "node": {
+        "id": 13380490909,
+        "lat": 35.2506114,
+        "lon": -106.6769657,
+        "tags": {
+          "direction": "forward",
+          "highway": "speed_camera",
+          "maxspeed": "30 mph",
+          "ref": "Broodmoor NB @ Nicklaus"
+        },
+        "type": "node"
+      },
+      "reviewedAt": "2026-09-14",
+      "road": {
+        "bounds": {
+          "maxlat": 35.2584693,
+          "maxlon": -106.6768497,
+          "minlat": 35.2505413,
+          "minlon": -106.6770126
+        },
+        "geometry": [
+          {
+            "lat": 35.2505413,
+            "lon": -106.6769862
+          },
+          {
+            "lat": 35.2506114,
+            "lon": -106.6769657
+          },
+          {
+            "lat": 35.2509261,
+            "lon": -106.6768735
+          },
+          {
+            "lat": 35.2511712,
+            "lon": -106.6768497
+          },
+          {
+            "lat": 35.2514613,
+            "lon": -106.6769013
+          },
+          {
+            "lat": 35.2517491,
+            "lon": -106.6769699
+          },
+          {
+            "lat": 35.2521476,
+            "lon": -106.6769796
+          },
+          {
+            "lat": 35.2525588,
+            "lon": -106.6769899
+          },
+          {
+            "lat": 35.2533854,
+            "lon": -106.6769819
+          },
+          {
+            "lat": 35.2542122,
+            "lon": -106.6769738
+          },
+          {
+            "lat": 35.2550395,
+            "lon": -106.6769765
+          },
+          {
+            "lat": 35.2558781,
+            "lon": -106.6769715
+          },
+          {
+            "lat": 35.2563094,
+            "lon": -106.6769696
+          },
+          {
+            "lat": 35.256975,
+            "lon": -106.6769746
+          },
+          {
+            "lat": 35.258297,
+            "lon": -106.6769643
+          },
+          {
+            "lat": 35.2583596,
+            "lon": -106.6769819
+          },
+          {
+            "lat": 35.2584693,
+            "lon": -106.6770126
+          }
+        ],
+        "id": 611265339,
+        "nodes": [
+          143706815,
+          13380490909,
+          481334118,
+          481334112,
+          143820596,
+          481334109,
+          143820582,
+          143721758,
+          143725967,
+          143803774,
+          143831260,
+          143696108,
+          143725842,
+          5787682737,
+          5787682736,
+          9787346414,
+          143692561
+        ],
+        "tags": {
+          "highway": "tertiary",
+          "maxspeed": "30 mph",
+          "maxweight:hgv": "10000 lbs",
+          "name": "Broadmoor Boulevard Southeast",
+          "oneway": "yes",
+          "tiger:cfcc": "A41",
+          "tiger:county": "Sandoval, NM",
+          "tiger:name_base": "Broadmoor",
+          "tiger:name_direction_suffix": "SE",
+          "tiger:name_type": "Dr",
+          "tiger:reviewed": "no"
+        },
+        "type": "way"
+      }
+    },
+    {
+      "acceptedID": "rr-deployment-13380490911",
+      "decision": "Desk reconciliation 2026-09-14: OSM mapped point matches its named local road and cross street. Rio Rancho describes ten rotating local-road units but does not publish their exact live positions. This is a community-mapped possible deployment site, not an agency-confirmed current location or a permanent camera. OSM ref supplies an approach where explicit; direction=forward is not interpreted as a bearing.",
+      "node": {
+        "id": 13380490911,
+        "lat": 35.256699,
+        "lon": -106.6968954,
+        "tags": {
+          "direction": "forward",
+          "highway": "speed_camera",
+          "maxspeed": "40 mph",
+          "ref": "Unser SB @ 2nd"
+        },
+        "type": "node"
+      },
+      "reviewedAt": "2026-09-14",
+      "road": {
+        "bounds": {
+          "maxlat": 35.2630456,
+          "maxlon": -106.6968914,
+          "minlat": 35.2451566,
+          "minlon": -106.6969161
+        },
+        "geometry": [
+          {
+            "lat": 35.2630456,
+            "lon": -106.6968914
+          },
+          {
+            "lat": 35.2618354,
+            "lon": -106.696894
+          },
+          {
+            "lat": 35.261669,
+            "lon": -106.6968943
+          },
+          {
+            "lat": 35.2604058,
+            "lon": -106.6968974
+          },
+          {
+            "lat": 35.2589522,
+            "lon": -106.6968961
+          },
+          {
+            "lat": 35.257032,
+            "lon": -106.6968956
+          },
+          {
+            "lat": 35.256699,
+            "lon": -106.6968954
+          },
+          {
+            "lat": 35.2566131,
+            "lon": -106.6968954
+          },
+          {
+            "lat": 35.2529789,
+            "lon": -106.696904
+          },
+          {
+            "lat": 35.2519593,
+            "lon": -106.6969064
+          },
+          {
+            "lat": 35.2504085,
+            "lon": -106.69691
+          },
+          {
+            "lat": 35.248986,
+            "lon": -106.69691
+          },
+          {
+            "lat": 35.2482358,
+            "lon": -106.6969104
+          },
+          {
+            "lat": 35.2479458,
+            "lon": -106.6969106
+          },
+          {
+            "lat": 35.247787,
+            "lon": -106.6969107
+          },
+          {
+            "lat": 35.2452653,
+            "lon": -106.6969159
+          },
+          {
+            "lat": 35.2451566,
+            "lon": -106.6969161
+          }
+        ],
+        "id": 39612246,
+        "nodes": [
+          11251685943,
+          10921530145,
+          10921530136,
+          482799416,
+          11202193634,
+          2034270000,
+          13380490911,
+          475078121,
+          7609506766,
+          7609506741,
+          475078110,
+          9797521686,
+          474864506,
+          12241894950,
+          10759065600,
+          8464687205,
+          1955335432
+        ],
+        "tags": {
+          "highway": "primary",
+          "lanes": "2",
+          "maxspeed": "40 mph",
+          "name": "Unser Boulevard Southeast",
+          "oneway": "yes"
+        },
+        "type": "way"
+      }
+    },
+    {
+      "acceptedID": "rr-deployment-13380490912",
+      "decision": "Desk reconciliation 2026-09-14: OSM mapped point matches its named local road and cross street. Rio Rancho describes ten rotating local-road units but does not publish their exact live positions. This is a community-mapped possible deployment site, not an agency-confirmed current location or a permanent camera. OSM ref supplies an approach where explicit; direction=forward is not interpreted as a bearing.",
+      "node": {
+        "id": 13380490912,
+        "lat": 35.256708,
+        "lon": -106.6967666,
+        "tags": {
+          "direction": "forward",
+          "highway": "speed_camera",
+          "maxspeed": "40 mph",
+          "ref": "Unser NB @ 2nd"
+        },
+        "type": "node"
+      },
+      "reviewedAt": "2026-09-14",
+      "road": {
+        "bounds": {
+          "maxlat": 35.2630415,
+          "maxlon": -106.6967621,
+          "minlat": 35.2451549,
+          "minlon": -106.6967909
+        },
+        "geometry": [
+          {
+            "lat": 35.2451549,
+            "lon": -106.6967771
+          },
+          {
+            "lat": 35.245262,
+            "lon": -106.6967776
+          },
+          {
+            "lat": 35.2477861,
+            "lon": -106.6967889
+          },
+          {
+            "lat": 35.2479455,
+            "lon": -106.6967896
+          },
+          {
+            "lat": 35.2482364,
+            "lon": -106.6967909
+          },
+          {
+            "lat": 35.2490863,
+            "lon": -106.6967849
+          },
+          {
+            "lat": 35.2504094,
+            "lon": -106.6967774
+          },
+          {
+            "lat": 35.2566159,
+            "lon": -106.6967668
+          },
+          {
+            "lat": 35.256708,
+            "lon": -106.6967666
+          },
+          {
+            "lat": 35.2570329,
+            "lon": -106.6967661
+          },
+          {
+            "lat": 35.2604063,
+            "lon": -106.6967672
+          },
+          {
+            "lat": 35.2627597,
+            "lon": -106.6967626
+          },
+          {
+            "lat": 35.2630415,
+            "lon": -106.6967621
+          }
+        ],
+        "id": 547165240,
+        "nodes": [
+          143711910,
+          8464687206,
+          12241894951,
+          12241894949,
+          143765406,
+          9797521685,
+          143773477,
+          2034270044,
+          13380490912,
+          143699158,
+          143699160,
+          13961415040,
+          11251685942
+        ],
+        "tags": {
+          "highway": "primary",
+          "lanes": "2",
+          "maxspeed": "40 mph",
+          "name": "Unser Boulevard Southeast",
+          "name_1": "Unser Boulevard Southeast",
+          "name_2": "20th Street Southeast",
+          "name_3": "20th Street Northeast",
+          "oneway": "yes",
+          "tiger:cfcc": "A41",
+          "tiger:county": "Sandoval, NM",
+          "tiger:name_base": "20th;Unser;Unser;Unser",
+          "tiger:name_base_1": "Unser;20th;20th;20th",
+          "tiger:name_direction_suffix": "SE;NE;NE",
+          "tiger:name_direction_suffix_1": "SE;NE;NE",
+          "tiger:name_type": "St;Blvd;Blvd;Blvd",
+          "tiger:name_type_1": "Blvd;St;St;St",
+          "tiger:reviewed": "no"
+        },
+        "type": "way"
+      }
+    },
+    {
+      "acceptedID": "rr-deployment-13380490924",
+      "decision": "Desk reconciliation 2026-09-14: OSM mapped point matches its named local road and cross street. Rio Rancho describes ten rotating local-road units but does not publish their exact live positions. This is a community-mapped possible deployment site, not an agency-confirmed current location or a permanent camera. OSM ref supplies an approach where explicit; direction=forward is not interpreted as a bearing.",
+      "node": {
+        "id": 13380490924,
+        "lat": 35.2635409,
+        "lon": -106.6771018,
+        "tags": {
+          "direction": "forward",
+          "highway": "speed_camera",
+          "maxspeed": "30 mph",
+          "ref": "Broodmoor SB @ Loma Colorado"
+        },
+        "type": "node"
+      },
+      "reviewedAt": "2026-09-14",
+      "road": {
+        "bounds": {
+          "maxlat": 35.2742898,
+          "maxlon": -106.6770692,
+          "minlat": 35.2632639,
+          "minlon": -106.6771032
+        },
+        "geometry": [
+          {
+            "lat": 35.2742898,
+            "lon": -106.6770692
+          },
+          {
+            "lat": 35.2742014,
+            "lon": -106.67707
+          },
+          {
+            "lat": 35.273404,
+            "lon": -106.6770774
+          },
+          {
+            "lat": 35.2723729,
+            "lon": -106.6770809
+          },
+          {
+            "lat": 35.2710425,
+            "lon": -106.677086
+          },
+          {
+            "lat": 35.2699818,
+            "lon": -106.6770812
+          },
+          {
+            "lat": 35.269389,
+            "lon": -106.6770785
+          },
+          {
+            "lat": 35.2677504,
+            "lon": -106.6771027
+          },
+          {
+            "lat": 35.2655097,
+            "lon": -106.6770819
+          },
+          {
+            "lat": 35.2635409,
+            "lon": -106.6771018
+          },
+          {
+            "lat": 35.2634745,
+            "lon": -106.6771025
+          },
+          {
+            "lat": 35.263404,
+            "lon": -106.6771032
+          },
+          {
+            "lat": 35.2632639,
+            "lon": -106.6771032
+          }
+        ],
+        "id": 40117398,
+        "nodes": [
+          5787693161,
+          9787346370,
+          143698954,
+          8335319374,
+          143787107,
+          11999966242,
+          143797277,
+          2039567102,
+          482806464,
+          13380490924,
+          13380490927,
+          143783861,
+          482806398
+        ],
+        "tags": {
+          "highway": "tertiary",
+          "maxspeed": "35 mph",
+          "name": "Broadmoor Boulevard Northeast",
+          "oneway": "yes",
+          "tiger:cfcc": "A41",
+          "tiger:county": "Sandoval, NM",
+          "tiger:name_base": "Broadmoor",
+          "tiger:name_type": "Dr",
+          "tiger:reviewed": "no"
+        },
+        "type": "way"
+      }
+    },
+    {
+      "acceptedID": "rr-deployment-13380490925",
+      "decision": "Desk reconciliation 2026-09-14: OSM mapped point matches its named local road and cross street. Rio Rancho describes ten rotating local-road units but does not publish their exact live positions. This is a community-mapped possible deployment site, not an agency-confirmed current location or a permanent camera. OSM ref supplies an approach where explicit; direction=forward is not interpreted as a bearing.",
+      "node": {
+        "id": 13380490925,
+        "lat": 35.2635477,
+        "lon": -106.6769406,
+        "tags": {
+          "direction": "forward",
+          "highway": "speed_camera",
+          "maxspeed": "30 mph",
+          "ref": "Broodmoor NB @ Loma Colorado"
+        },
+        "type": "node"
+      },
+      "reviewedAt": "2026-09-14",
+      "road": {
+        "bounds": {
+          "maxlat": 35.2742899,
+          "maxlon": -106.676912,
+          "minlat": 35.2633929,
+          "minlon": -106.6769598
+        },
+        "geometry": [
+          {
+            "lat": 35.2633929,
+            "lon": -106.6769391
+          },
+          {
+            "lat": 35.2634586,
+            "lon": -106.6769397
+          },
+          {
+            "lat": 35.2635477,
+            "lon": -106.6769406
+          },
+          {
+            "lat": 35.2655121,
+            "lon": -106.6769598
+          },
+          {
+            "lat": 35.2677475,
+            "lon": -106.6769541
+          },
+          {
+            "lat": 35.2693891,
+            "lon": -106.6769499
+          },
+          {
+            "lat": 35.2710425,
+            "lon": -106.6769315
+          },
+          {
+            "lat": 35.2742224,
+            "lon": -106.6769124
+          },
+          {
+            "lat": 35.2742899,
+            "lon": -106.676912
+          }
+        ],
+        "id": 40117375,
+        "nodes": [
+          482806395,
+          13380490926,
+          13380490925,
+          482806396,
+          3870411006,
+          5415695923,
+          482806672,
+          9787346369,
+          5787693162
+        ],
+        "tags": {
+          "highway": "tertiary",
+          "maxspeed": "35 mph",
+          "name": "Broadmoor Boulevard Northeast",
+          "oneway": "yes"
+        },
+        "type": "way"
+      }
+    },
+    {
+      "acceptedID": "rr-deployment-13380490952",
+      "decision": "Desk reconciliation 2026-09-14: OSM mapped point matches its named local road and cross street. Rio Rancho describes ten rotating local-road units but does not publish their exact live positions. This is a community-mapped possible deployment site, not an agency-confirmed current location or a permanent camera. OSM ref supplies an approach where explicit; direction=forward is not interpreted as a bearing.",
+      "node": {
+        "id": 13380490952,
+        "lat": 35.3151091,
+        "lon": -106.6989068,
+        "tags": {
+          "direction": "forward",
+          "highway": "speed_camera",
+          "maxspeed": "35 mph",
+          "ref": "King WB @ Lake Valley (Unser)"
+        },
+        "type": "node"
+      },
+      "reviewedAt": "2026-09-14",
+      "road": {
+        "bounds": {
+          "maxlat": 35.3151367,
+          "maxlon": -106.6969339,
+          "minlat": 35.3151009,
+          "minlon": -106.699633
+        },
+        "geometry": [
+          {
+            "lat": 35.3151367,
+            "lon": -106.6969339
+          },
+          {
+            "lat": 35.3151276,
+            "lon": -106.6970721
+          },
+          {
+            "lat": 35.3151185,
+            "lon": -106.6975397
+          },
+          {
+            "lat": 35.3151108,
+            "lon": -106.6986391
+          },
+          {
+            "lat": 35.3151091,
+            "lon": -106.6989068
+          },
+          {
+            "lat": 35.3151077,
+            "lon": -106.6991257
+          },
+          {
+            "lat": 35.3151009,
+            "lon": -106.699633
+          }
+        ],
+        "id": 575353668,
+        "nodes": [
+          4562639346,
+          4562639345,
+          4562639347,
+          13380490929,
+          13380490952,
+          4653594613,
+          489790594
+        ],
+        "tags": {
+          "cycleway:left": "no",
+          "cycleway:right": "lane",
+          "highway": "tertiary",
+          "maxspeed": "35 mph",
+          "name": "King Boulevard Northeast",
+          "oneway": "yes",
+          "tiger:cfcc": "A41",
+          "tiger:county": "Sandoval, NM",
+          "tiger:name_base": "King",
+          "tiger:name_direction_suffix": "NE",
+          "tiger:name_type": "Blvd",
+          "tiger:reviewed": "no"
+        },
+        "type": "way"
+      }
+    },
+    {
+      "acceptedID": "rr-deployment-13380490954",
+      "decision": "Desk reconciliation 2026-09-14: OSM mapped point matches its named local road and cross street. Rio Rancho describes ten rotating local-road units but does not publish their exact live positions. This is a community-mapped possible deployment site, not an agency-confirmed current location or a permanent camera. OSM ref supplies an approach where explicit; direction=forward is not interpreted as a bearing.",
+      "node": {
+        "id": 13380490954,
+        "lat": 35.3149947,
+        "lon": -106.6989046,
+        "tags": {
+          "direction": "forward",
+          "highway": "speed_camera",
+          "maxspeed": "35 mph",
+          "ref": "King EB @ Lake Valley (Unser)"
+        },
+        "type": "node"
+      },
+      "reviewedAt": "2026-09-14",
+      "road": {
+        "bounds": {
+          "maxlat": 35.3150448,
+          "maxlon": -106.6969335,
+          "minlat": 35.3149887,
+          "minlon": -106.6996072
+        },
+        "geometry": [
+          {
+            "lat": 35.3149887,
+            "lon": -106.6996072
+          },
+          {
+            "lat": 35.3149922,
+            "lon": -106.6991241
+          },
+          {
+            "lat": 35.3149947,
+            "lon": -106.6989046
+          },
+          {
+            "lat": 35.3150012,
+            "lon": -106.6983561
+          },
+          {
+            "lat": 35.3150041,
+            "lon": -106.6978924
+          },
+          {
+            "lat": 35.3150036,
+            "lon": -106.6975707
+          },
+          {
+            "lat": 35.3150174,
+            "lon": -106.6970709
+          },
+          {
+            "lat": 35.3150448,
+            "lon": -106.6969335
+          }
+        ],
+        "id": 14590260,
+        "nodes": [
+          13380490941,
+          143700826,
+          13380490954,
+          13380490930,
+          4562639349,
+          4744950587,
+          4560867770,
+          143699299
+        ],
+        "tags": {
+          "cycleway:left": "no",
+          "cycleway:right": "lane",
+          "highway": "tertiary",
+          "maxspeed": "35 mph",
+          "name": "King Boulevard Northeast",
+          "oneway": "yes",
+          "tiger:cfcc": "A41",
+          "tiger:county": "Sandoval, NM",
+          "tiger:name_base": "King",
+          "tiger:name_direction_suffix": "NE",
+          "tiger:name_type": "Blvd",
+          "tiger:reviewed": "no"
+        },
+        "type": "way"
+      }
+    },
+    {
+      "acceptedID": "bernco-paradise-radcliffe-wb",
+      "decision": "Desk reconciliation 2026-09-14: county lists both monitored directions at Paradise/Radcliffe. OSM mapped camera is on Paradise, approximately 93 m from Radcliffe. County page does not confirm hardware mobility, so retain Possible speed camera classification. Position mapped, not surveyed; current equipment presence not independently verified.",
+      "node": {
+        "id": 13538504540,
+        "lat": 35.192354,
+        "lon": -106.6916402,
+        "tags": {
+          "highway": "speed_camera",
+          "maxspeed": "35 mph"
+        },
+        "type": "node"
+      },
+      "reviewedAt": "2026-09-14",
+      "road": {
+        "bounds": {
+          "maxlat": 35.1968811,
+          "maxlon": -106.6853325,
+          "minlat": 35.1904856,
+          "minlon": -106.7006728
+        },
+        "geometry": [
+          {
+            "lat": 35.1968811,
+            "lon": -106.7006728
+          },
+          {
+            "lat": 35.1968515,
+            "lon": -106.6999593
+          },
+          {
+            "lat": 35.1968258,
+            "lon": -106.6997073
+          },
+          {
+            "lat": 35.1967435,
+            "lon": -106.6990916
+          },
+          {
+            "lat": 35.1966469,
+            "lon": -106.6985458
+          },
+          {
+            "lat": 35.1963735,
+            "lon": -106.6976271
+          },
+          {
+            "lat": 35.1961833,
+            "lon": -106.6971793
+          },
+          {
+            "lat": 35.1960738,
+            "lon": -106.696956
+          },
+          {
+            "lat": 35.1959001,
+            "lon": -106.696629
+          },
+          {
+            "lat": 35.1957001,
+            "lon": -106.6963155
+          },
+          {
+            "lat": 35.1954932,
+            "lon": -106.6960199
+          },
+          {
+            "lat": 35.1952944,
+            "lon": -106.6957566
+          },
+          {
+            "lat": 35.1945678,
+            "lon": -106.694841
+          },
+          {
+            "lat": 35.1939872,
+            "lon": -106.6940105
+          },
+          {
+            "lat": 35.1933708,
+            "lon": -106.6932008
+          },
+          {
+            "lat": 35.1928312,
+            "lon": -106.6924765
+          },
+          {
+            "lat": 35.1924378,
+            "lon": -106.6918036
+          },
+          {
+            "lat": 35.1923744,
+            "lon": -106.6916835
+          },
+          {
+            "lat": 35.192354,
+            "lon": -106.6916402
+          },
+          {
+            "lat": 35.1921764,
+            "lon": -106.6912602
+          },
+          {
+            "lat": 35.1919852,
+            "lon": -106.6907868
+          },
+          {
+            "lat": 35.1918462,
+            "lon": -106.6902846
+          },
+          {
+            "lat": 35.1917424,
+            "lon": -106.6897915
+          },
+          {
+            "lat": 35.1916184,
+            "lon": -106.6888821
+          },
+          {
+            "lat": 35.1914551,
+            "lon": -106.6877862
+          },
+          {
+            "lat": 35.1913455,
+            "lon": -106.6873352
+          },
+          {
+            "lat": 35.1912252,
+            "lon": -106.6869326
+          },
+          {
+            "lat": 35.1910893,
+            "lon": -106.686546
+          },
+          {
+            "lat": 35.1908929,
+            "lon": -106.6861004
+          },
+          {
+            "lat": 35.1906555,
+            "lon": -106.6856318
+          },
+          {
+            "lat": 35.1904856,
+            "lon": -106.6853325
+          }
+        ],
+        "id": 171976697,
+        "nodes": [
+          1829355596,
+          140974904,
+          12202327666,
+          12202327667,
+          140974907,
+          140974910,
+          541340598,
+          140974913,
+          12202343774,
+          140974915,
+          140974918,
+          140974921,
+          140974924,
+          140974927,
+          140858362,
+          140974929,
+          140740760,
+          140974932,
+          13538504540,
+          12202383509,
+          140974935,
+          12202383510,
+          140974938,
+          140962281,
+          140973740,
+          6603020718,
+          6603020738,
+          140974941,
+          6603020610,
+          6603020580,
+          140974944
+        ],
+        "tags": {
+          "cycleway": "lane",
+          "highway": "tertiary",
+          "maxspeed": "35 mph",
+          "name": "Paradise Boulevard Northwest",
+          "oneway": "no",
+          "source:cycleway": "Mapbox Satellite imagery",
+          "surface": "asphalt",
+          "tiger:cfcc": "A41",
+          "tiger:county": "Bernalillo, NM",
+          "tiger:name_base": "Paradise",
+          "tiger:name_direction_suffix": "NW",
+          "tiger:name_type": "Blvd",
+          "tiger:reviewed": "no"
+        },
+        "type": "way"
+      }
+    },
+    {
+      "acceptedID": "bernco-tramway-terrace-san-rafael-nb",
+      "decision": "Desk reconciliation 2026-09-14: county lists northbound Tramway between Tramway Terrace and San Rafael. OSM device lies 5.8 m from the northbound carriageway within that segment. Camera-facing OSM direction 330 is not used as vehicle direction. Hardware mobility is not confirmed; possible camera, mapped position, not surveyed or drive-tested.",
+      "node": {
+        "id": 13715218470,
+        "lat": 35.1665643,
+        "lon": -106.4961197,
+        "tags": {
+          "direction": "330",
+          "highway": "speed_camera",
+          "surveillance": "outdoor",
+          "surveillance:zone": "traffic"
+        },
+        "type": "node"
+      },
+      "reviewedAt": "2026-09-14",
+      "road": {
+        "bounds": {
+          "maxlat": 35.1713935,
+          "maxlon": -106.4961822,
+          "minlat": 35.1586504,
+          "minlon": -106.4970568
+        },
+        "geometry": [
+          {
+            "lat": 35.1586504,
+            "lon": -106.4970568
+          },
+          {
+            "lat": 35.1588934,
+            "lon": -106.4969849
+          },
+          {
+            "lat": 35.1590855,
+            "lon": -106.4969128
+          },
+          {
+            "lat": 35.1592633,
+            "lon": -106.4968416
+          },
+          {
+            "lat": 35.1596021,
+            "lon": -106.4967422
+          },
+          {
+            "lat": 35.1599258,
+            "lon": -106.4966203
+          },
+          {
+            "lat": 35.1604839,
+            "lon": -106.4964514
+          },
+          {
+            "lat": 35.1610621,
+            "lon": -106.4963001
+          },
+          {
+            "lat": 35.1612064,
+            "lon": -106.496263
+          },
+          {
+            "lat": 35.1618917,
+            "lon": -106.4961892
+          },
+          {
+            "lat": 35.1626007,
+            "lon": -106.4961872
+          },
+          {
+            "lat": 35.1641439,
+            "lon": -106.4961822
+          },
+          {
+            "lat": 35.1641619,
+            "lon": -106.4961822
+          },
+          {
+            "lat": 35.1642263,
+            "lon": -106.4961822
+          },
+          {
+            "lat": 35.168788,
+            "lon": -106.4961841
+          },
+          {
+            "lat": 35.1713935,
+            "lon": -106.4962173
+          }
+        ],
+        "id": 174010863,
+        "nodes": [
+          1798733358,
+          1798733300,
+          1798733336,
+          1798733350,
+          1798733348,
+          1798733238,
+          1798733278,
+          1798733301,
+          1798733299,
+          1798733329,
+          1798733331,
+          1798842529,
+          1798733307,
+          12911960937,
+          1798842547,
+          1798733337
+        ],
+        "tags": {
+          "highway": "primary",
+          "lanes": "2",
+          "maxspeed": "50 mph",
+          "maxweight:hgv": "3 st",
+          "name": "Tramway Boulevard Northeast",
+          "oneway": "yes",
+          "ref": "NM 556",
+          "source:maxspeed": "survey",
+          "surface": "asphalt",
+          "tiger:cfcc": "A31"
+        },
+        "type": "way"
+      }
+    },
+    {
+      "acceptedID": "abq-eubank-sierra-vista-possible-sb",
+      "decision": "Desk reconciliation 2026-09-14: city list and Eubank/Sierra Vista test certificate establish this southbound installation. OSM device node lies 6.7 m from the southbound Eubank carriageway, 23 m south of Sierra Vista Court. Replaces the previous approximate area under the same app ID. Mapped position, not surveyed or drive-tested.",
+      "node": {
+        "id": 13921481508,
+        "lat": 35.1283166,
+        "lon": -106.5335065,
+        "tags": {
+          "highway": "speed_camera",
+          "image": "http://web.archive.org/web/20260630155202/https://streetcomplete.app/p/350847.jpg",
+          "maxspeed": "40 mph"
+        },
+        "type": "node"
+      },
+      "reviewedAt": "2026-09-14",
+      "road": {
+        "bounds": {
+          "maxlat": 35.1305899,
+          "maxlon": -106.5334033,
+          "minlat": 35.1234599,
+          "minlon": -106.5334471
+        },
+        "geometry": [
+          {
+            "lat": 35.1305899,
+            "lon": -106.5334471
+          },
+          {
+            "lat": 35.1305152,
+            "lon": -106.533446
+          },
+          {
+            "lat": 35.1297779,
+            "lon": -106.5334365
+          },
+          {
+            "lat": 35.1294612,
+            "lon": -106.5334333
+          },
+          {
+            "lat": 35.1289822,
+            "lon": -106.5334275
+          },
+          {
+            "lat": 35.1288379,
+            "lon": -106.5334325
+          },
+          {
+            "lat": 35.1285204,
+            "lon": -106.5334341
+          },
+          {
+            "lat": 35.1282606,
+            "lon": -106.5334325
+          },
+          {
+            "lat": 35.1280448,
+            "lon": -106.5334312
+          },
+          {
+            "lat": 35.1278419,
+            "lon": -106.5334302
+          },
+          {
+            "lat": 35.1271586,
+            "lon": -106.5334263
+          },
+          {
+            "lat": 35.1270309,
+            "lon": -106.5334256
+          },
+          {
+            "lat": 35.1269539,
+            "lon": -106.5334249
+          },
+          {
+            "lat": 35.1263467,
+            "lon": -106.5334242
+          },
+          {
+            "lat": 35.1257441,
+            "lon": -106.533418
+          },
+          {
+            "lat": 35.1252353,
+            "lon": -106.5334132
+          },
+          {
+            "lat": 35.1241407,
+            "lon": -106.5334033
+          },
+          {
+            "lat": 35.1235284,
+            "lon": -106.533406
+          },
+          {
+            "lat": 35.1234599,
+            "lon": -106.5334075
+          }
+        ],
+        "id": 1478493562,
+        "nodes": [
+          1799682887,
+          10929292246,
+          7043529419,
+          7043529415,
+          1822360295,
+          7043529442,
+          141015622,
+          14048565122,
+          10586138113,
+          4332073174,
+          4332073131,
+          140852043,
+          10929305090,
+          141015630,
+          10929305042,
+          140842129,
+          141015633,
+          10073961653,
+          141015639
+        ],
+        "tags": {
+          "highway": "secondary",
+          "lanes": "3",
+          "maxspeed": "40 mph",
+          "name": "Eubank Boulevard Northeast",
+          "oneway": "yes",
+          "sidewalk:left": "no",
+          "sidewalk:right": "separate",
+          "source:maxspeed": "survey",
+          "surface": "asphalt"
+        },
+        "type": "way"
+      }
+    }
+  ],
+  "reviewedAt": "2026-09-14"
+}

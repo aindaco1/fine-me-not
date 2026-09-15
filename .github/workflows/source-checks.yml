@@ -1,0 +1,37 @@
+name: Check camera sources before weekly publication
+on:
+  schedule:
+    - cron: '0 21 * * 0'
+      timezone: America/Denver
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: camera-database-publication
+  cancel-in-progress: false
+jobs:
+  sources:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Validate pipeline
+        run: python3 -m unittest discover -s Tests/Pipeline -v
+      - name: Query OSM, agency feeds, and watched pages
+        run: python3 Scripts/refresh_sources.py
+      - name: Save staged sources and review findings
+        run: |
+          git config user.name 'fine-me-not source checker'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add Data/Sources Data/External Data/Watch Data/Review
+          if ! git diff --cached --quiet; then
+            git commit -m 'Check camera sources before weekly publication'
+            git push
+          fi
+      - name: Summarize changes and failures
+        run: cat Data/Review/source-watch.md >> "$GITHUB_STEP_SUMMARY"

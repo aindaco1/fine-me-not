@@ -1,0 +1,1831 @@
+{
+  "cameras": [
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.618517,
+          "longitude": -122.334255
+        }
+      ],
+      "id": "agency-seattle-se01",
+      "kind": "redLight",
+      "label": "EB Denny Way @ Fairview Ave",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-se01",
+      "sourceIDs": [
+        "agency/seattle/SE01"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.618517,
+          "longitude": -122.334255
+        }
+      ],
+      "id": "agency-seattle-se02",
+      "kind": "redLight",
+      "label": "WB Denny Way @ Fairview Ave",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-se02",
+      "sourceIDs": [
+        "agency/seattle/SE02"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.551176,
+          "longitude": -122.277664
+        }
+      ],
+      "id": "agency-seattle-se03",
+      "kind": "redLight",
+      "label": "NB Rainier Ave S @ S Orcas St",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-se03",
+      "sourceIDs": [
+        "agency/seattle/SE03"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.661285,
+          "longitude": -122.317958
+        }
+      ],
+      "id": "agency-seattle-se04",
+      "kind": "redLight",
+      "label": "EB NE 45th St @ Roosevelt Way NE",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-se04",
+      "sourceIDs": [
+        "agency/seattle/SE04"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.551176,
+          "longitude": -122.277664
+        }
+      ],
+      "id": "agency-seattle-se05",
+      "kind": "redLight",
+      "label": "SB Rainier Ave S @ S Orcas St",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-se05",
+      "sourceIDs": [
+        "agency/seattle/SE05"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.607266,
+          "longitude": -122.332451
+        }
+      ],
+      "id": "agency-seattle-se06",
+      "kind": "redLight",
+      "label": "EB Spring St @ 5th Ave",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-se06",
+      "sourceIDs": [
+        "agency/seattle/SE06"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.605555,
+          "longitude": -122.324749
+        }
+      ],
+      "id": "agency-seattle-se07",
+      "kind": "redLight",
+      "label": "NB 9th Ave @ James St",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-se07",
+      "sourceIDs": [
+        "agency/seattle/SE07"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.619908,
+          "longitude": -122.320873
+        }
+      ],
+      "id": "agency-seattle-se08",
+      "kind": "redLight",
+      "label": "NB Broadway E @ E Olive Way",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-se08",
+      "sourceIDs": [
+        "agency/seattle/SE08"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.526441,
+          "longitude": -122.31491
+        }
+      ],
+      "id": "agency-seattle-se14",
+      "kind": "redLight",
+      "label": "EB S Cloverdale St @ 14th Ave S",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-se14",
+      "sourceIDs": [
+        "agency/seattle/SE14"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.588411,
+          "longitude": -122.305827
+        }
+      ],
+      "id": "agency-seattle-se15",
+      "kind": "redLight",
+      "label": "NB Rainier Ave S @ S Massachusetts St",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-se15",
+      "sourceIDs": [
+        "agency/seattle/SE15"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.668667,
+          "longitude": -122.376214
+        }
+      ],
+      "id": "agency-seattle-se16",
+      "kind": "redLight",
+      "label": "EB NW Market St @ 15th Ave NW",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-se16",
+      "sourceIDs": [
+        "agency/seattle/SE16"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.668667,
+          "longitude": -122.376214
+        }
+      ],
+      "id": "agency-seattle-se17",
+      "kind": "redLight",
+      "label": "WB NW Market St @ 15th Ave NW",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-se17",
+      "sourceIDs": [
+        "agency/seattle/SE17"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.619908,
+          "longitude": -122.320873
+        }
+      ],
+      "id": "agency-seattle-se18",
+      "kind": "redLight",
+      "label": "EB E Olive Way @ Broadway E",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-se18",
+      "sourceIDs": [
+        "agency/seattle/SE18"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.686878,
+          "longitude": -122.376793
+        }
+      ],
+      "id": "agency-seattle-se19",
+      "kind": "redLight",
+      "label": "SB 15th Ave NW @ NW 80th St",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-se19",
+      "sourceIDs": [
+        "agency/seattle/SE19"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.620207,
+          "longitude": -122.3025
+        }
+      ],
+      "id": "agency-seattle-se21",
+      "kind": "redLight",
+      "label": "SB 23rd Ave E @ E John St",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-se21",
+      "sourceIDs": [
+        "agency/seattle/SE21"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.528285,
+          "longitude": -122.376637
+        }
+      ],
+      "id": "agency-seattle-se22",
+      "kind": "redLight",
+      "label": "SB 35th Ave SW @ SW Thistle St",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-se22",
+      "sourceIDs": [
+        "agency/seattle/SE22"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.604161,
+          "longitude": -122.328079
+        }
+      ],
+      "id": "agency-seattle-se24",
+      "kind": "redLight",
+      "label": "SB 6th Ave @ James St",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-se24",
+      "sourceIDs": [
+        "agency/seattle/SE24"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.690563,
+          "longitude": -122.344522
+        }
+      ],
+      "id": "agency-seattle-se25",
+      "kind": "redLight",
+      "label": "NB Aurora Ave N @ N 85th St",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-se25",
+      "sourceIDs": [
+        "agency/seattle/SE25"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.606483,
+          "longitude": -122.32253
+        }
+      ],
+      "id": "agency-seattle-se26",
+      "kind": "redLight",
+      "label": "SB Boren Ave @ James St",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-se26",
+      "sourceIDs": [
+        "agency/seattle/SE26"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.686787,
+          "longitude": -122.322951
+        }
+      ],
+      "id": "agency-seattle-se27",
+      "kind": "redLight",
+      "label": "EB NE 80th St @ 5th Ave NE",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-se27",
+      "sourceIDs": [
+        "agency/seattle/SE27"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.578347,
+          "longitude": -122.296188
+        }
+      ],
+      "id": "agency-seattle-se28",
+      "kind": "redLight",
+      "label": "WB S Mcclellan St @ M L King Jr Way S",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-se28",
+      "sourceIDs": [
+        "agency/seattle/SE28"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.655383,
+          "longitude": -122.342439
+        }
+      ],
+      "id": "agency-seattle-se29",
+      "kind": "redLight",
+      "label": "SB Stone Way N @ N 40th St",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-se29",
+      "sourceIDs": [
+        "agency/seattle/SE29"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.564077,
+          "longitude": -122.376189
+        }
+      ],
+      "id": "agency-seattle-se30",
+      "kind": "redLight",
+      "label": "WB SW Avalon Way @ 35th Ave SW",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-se30",
+      "sourceIDs": [
+        "agency/seattle/SE30"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.578347,
+          "longitude": -122.296188
+        }
+      ],
+      "id": "agency-seattle-se31",
+      "kind": "redLight",
+      "label": "NB M L King Jr Way S @ S Mcclellan St",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-se31",
+      "sourceIDs": [
+        "agency/seattle/SE31"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.578347,
+          "longitude": -122.296188
+        }
+      ],
+      "id": "agency-seattle-se32",
+      "kind": "redLight",
+      "label": "SB M L King Jr Way S @ S Mcclellan St",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-se32",
+      "sourceIDs": [
+        "agency/seattle/SE32"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.537052,
+          "longitude": -122.281104
+        }
+      ],
+      "id": "agency-seattle-se33",
+      "kind": "redLight",
+      "label": "NB M L King Jr Way S @ S Othello St",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-se33",
+      "sourceIDs": [
+        "agency/seattle/SE33"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.537052,
+          "longitude": -122.281104
+        }
+      ],
+      "id": "agency-seattle-se35",
+      "kind": "redLight",
+      "label": "WB S Othello St @ M L King Jr Way S",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-se35",
+      "sourceIDs": [
+        "agency/seattle/SE35"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.613466,
+          "longitude": -122.328913
+        }
+      ],
+      "id": "agency-seattle-se36",
+      "kind": "redLight",
+      "label": "NB Boren Ave @ Pike St",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-se36",
+      "sourceIDs": [
+        "agency/seattle/SE36"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.60916,
+          "longitude": -122.33264
+        }
+      ],
+      "id": "agency-seattle-se40",
+      "kind": "redLight",
+      "label": "NB 6th Ave @ University St",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-se40",
+      "sourceIDs": [
+        "agency/seattle/SE40"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.661292,
+          "longitude": -122.316579
+        }
+      ],
+      "id": "agency-seattle-se42",
+      "kind": "redLight",
+      "label": "NB 11th Ave NE @ NE 45th St",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-se42",
+      "sourceIDs": [
+        "agency/seattle/SE42"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.696627,
+          "longitude": -122.323175
+        }
+      ],
+      "id": "agency-seattle-se43",
+      "kind": "speed",
+      "label": "NB 5th Ave NE @ Olympic View Elementary",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-se43",
+      "sourceIDs": [
+        "agency/seattle/SE43"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.698708,
+          "longitude": -122.323183
+        }
+      ],
+      "id": "agency-seattle-se44",
+      "kind": "speed",
+      "label": "SB 5th Ave NE @ Olympic View Elementary",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-se44",
+      "sourceIDs": [
+        "agency/seattle/SE44"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.539074,
+          "longitude": -122.390847
+        }
+      ],
+      "id": "agency-seattle-se45",
+      "kind": "speed",
+      "label": "NB Fauntleroy Way SW @ Gatewood Elementary",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-se45",
+      "sourceIDs": [
+        "agency/seattle/SE45"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.540722,
+          "longitude": -122.390342
+        }
+      ],
+      "id": "agency-seattle-se46",
+      "kind": "speed",
+      "label": "SB Fauntleroy Way SW @ Gatewood Elementary",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-se46",
+      "sourceIDs": [
+        "agency/seattle/SE46"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.723437,
+          "longitude": -122.35537
+        }
+      ],
+      "id": "agency-seattle-se47",
+      "kind": "speed",
+      "label": "NB Greenwood Ave N @ Broadview-Thomson K-8",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-se47",
+      "sourceIDs": [
+        "agency/seattle/SE47"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.725641,
+          "longitude": -122.355685
+        }
+      ],
+      "id": "agency-seattle-se48",
+      "kind": "speed",
+      "label": "SB Greenwood Ave N @ Broadview-Thomson K-8",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-se48",
+      "sourceIDs": [
+        "agency/seattle/SE48"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.589663,
+          "longitude": -122.297484
+        }
+      ],
+      "id": "agency-seattle-se49",
+      "kind": "speed",
+      "label": "NB M L King Jr Way S @ Thurgood Marshall Elementary",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-se49",
+      "sourceIDs": [
+        "agency/seattle/SE49"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.59298,
+          "longitude": -122.297953
+        }
+      ],
+      "id": "agency-seattle-se50",
+      "kind": "speed",
+      "label": "SB M L King Jr Way S @ Thurgood Marshall Elementary",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-se50",
+      "sourceIDs": [
+        "agency/seattle/SE50"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.517293,
+          "longitude": -122.360667
+        }
+      ],
+      "id": "agency-seattle-se51",
+      "kind": "speed",
+      "label": "EB SW Roxbury St @ Holy Family Elementary",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-se51",
+      "sourceIDs": [
+        "agency/seattle/SE51"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.517436,
+          "longitude": -122.357692
+        }
+      ],
+      "id": "agency-seattle-se52",
+      "kind": "speed",
+      "label": "WB SW Roxbury St @ Holy Family Elementary",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-se52",
+      "sourceIDs": [
+        "agency/seattle/SE52"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.55088,
+          "longitude": -122.298549
+        }
+      ],
+      "id": "agency-seattle-se57",
+      "kind": "speed",
+      "label": "EB S Orcas St @ Dearborn Park Elementary",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-se57",
+      "sourceIDs": [
+        "agency/seattle/SE57"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.550932,
+          "longitude": -122.295669
+        }
+      ],
+      "id": "agency-seattle-se58",
+      "kind": "speed",
+      "label": "WB S Orcas St @ Dearborn Park Elementary",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-se58",
+      "sourceIDs": [
+        "agency/seattle/SE58"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.601744,
+          "longitude": -122.312732
+        }
+      ],
+      "id": "agency-seattle-se59",
+      "kind": "speed",
+      "label": "WB E Yesler Way @ Bailey Gatzert Elementary",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-se59",
+      "sourceIDs": [
+        "agency/seattle/SE59"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.682981,
+          "longitude": -122.296494
+        }
+      ],
+      "id": "agency-seattle-se60",
+      "kind": "speed",
+      "label": "EB NE 75th St @ Eckstein School",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-se60",
+      "sourceIDs": [
+        "agency/seattle/SE60"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.683109,
+          "longitude": -122.292184
+        }
+      ],
+      "id": "agency-seattle-se61",
+      "kind": "speed",
+      "label": "WB NE 75th St @ Eckstein School",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-se61",
+      "sourceIDs": [
+        "agency/seattle/SE61"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.545172,
+          "longitude": -122.361659
+        }
+      ],
+      "id": "agency-seattle-se62",
+      "kind": "speed",
+      "label": "NB Delridge Way SW @ STEM at Boren",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-se62",
+      "sourceIDs": [
+        "agency/seattle/SE62"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.550927,
+          "longitude": -122.363133
+        }
+      ],
+      "id": "agency-seattle-se63",
+      "kind": "speed",
+      "label": "SB Delridge Way SW @ STEM at Boren",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-se63",
+      "sourceIDs": [
+        "agency/seattle/SE63"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.639346,
+          "longitude": -122.301898
+        }
+      ],
+      "id": "agency-seattle-se64",
+      "kind": "speed",
+      "label": "NB 24th Ave E @ Montlake Elementary",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-se64",
+      "sourceIDs": [
+        "agency/seattle/SE64"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.641162,
+          "longitude": -122.302185
+        }
+      ],
+      "id": "agency-seattle-se65",
+      "kind": "speed",
+      "label": "SB 24th Ave E @ Montlake Elementary",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-se65",
+      "sourceIDs": [
+        "agency/seattle/SE65"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.561432,
+          "longitude": -122.309893
+        }
+      ],
+      "id": "agency-seattle-se67",
+      "kind": "speed",
+      "label": "WB S Columbian Way @ Mercer Middle School",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-se67",
+      "sourceIDs": [
+        "agency/seattle/SE67"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.71675,
+          "longitude": -122.328966
+        }
+      ],
+      "id": "agency-seattle-se69",
+      "kind": "speed",
+      "label": "SB 1st Ave NE @ Northgate Elementary",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-se69",
+      "sourceIDs": [
+        "agency/seattle/SE69"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.599855,
+          "longitude": -122.315392
+        }
+      ],
+      "id": "agency-seattle-se70",
+      "kind": "speed",
+      "label": "NB Boren Ave S @ Bailey Gatzert Elementary",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-se70",
+      "sourceIDs": [
+        "agency/seattle/SE70"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.602223,
+          "longitude": -122.31851
+        }
+      ],
+      "id": "agency-seattle-se71",
+      "kind": "speed",
+      "label": "SB Boren Ave @ Bailey Gatzert Elementary",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-se71",
+      "sourceIDs": [
+        "agency/seattle/SE71"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.497589,
+          "longitude": -122.262271
+        }
+      ],
+      "id": "agency-seattle-se73",
+      "kind": "speed",
+      "label": "NB Beacon Ave S @ Rainier View Elementary",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-se73",
+      "sourceIDs": [
+        "agency/seattle/SE73"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.499718,
+          "longitude": -122.266319
+        }
+      ],
+      "id": "agency-seattle-se74",
+      "kind": "speed",
+      "label": "SB Beacon Ave S @ Rainier View Elementary",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-se74",
+      "sourceIDs": [
+        "agency/seattle/SE74"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.565012,
+          "longitude": -122.313617
+        }
+      ],
+      "id": "agency-seattle-se75",
+      "kind": "speed",
+      "label": "SB 15th Ave S @ Mercer Middle School",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-se75",
+      "sourceIDs": [
+        "agency/seattle/SE75"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.52495,
+          "longitude": -122.269911
+        }
+      ],
+      "id": "agency-seattle-se76",
+      "kind": "speed",
+      "label": "NB Rainier Ave S @ South Shore K-8 School",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-se76",
+      "sourceIDs": [
+        "agency/seattle/SE76"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.524238,
+          "longitude": -122.270067
+        }
+      ],
+      "id": "agency-seattle-se77",
+      "kind": "speed",
+      "label": "SB Rainier Ave S @ South Shore K-8 School",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-se77",
+      "sourceIDs": [
+        "agency/seattle/SE77"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.53833,
+          "longitude": -122.376469
+        }
+      ],
+      "id": "agency-seattle-se79",
+      "kind": "speed",
+      "label": "NB 35th Ave SW @ Our Lady of Guadalupe School",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-se79",
+      "sourceIDs": [
+        "agency/seattle/SE79"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.541138,
+          "longitude": -122.376666
+        }
+      ],
+      "id": "agency-seattle-se80",
+      "kind": "speed",
+      "label": "SB 35th Ave SW @ Our Lady of Guadalupe School",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-se80",
+      "sourceIDs": [
+        "agency/seattle/SE80"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.551228,
+          "longitude": -122.381631
+        }
+      ],
+      "id": "agency-seattle-se81",
+      "kind": "speed",
+      "label": "NB Fauntleroy Way SW @ Fairmount Park Elementary School",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-se81",
+      "sourceIDs": [
+        "agency/seattle/SE81"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.552896,
+          "longitude": -122.381761
+        }
+      ],
+      "id": "agency-seattle-se82",
+      "kind": "speed",
+      "label": "SB Fauntleroy Way SW @ Fairmount Park Elementary School",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-se82",
+      "sourceIDs": [
+        "agency/seattle/SE82"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.603617,
+          "longitude": -122.302372
+        }
+      ],
+      "id": "agency-seattle-se83",
+      "kind": "speed",
+      "label": "NB 23rd Ave @ Garfield High School",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-se83",
+      "sourceIDs": [
+        "agency/seattle/SE83"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.686842,
+          "longitude": -122.373979
+        }
+      ],
+      "id": "agency-seattle-se84",
+      "kind": "speed",
+      "label": "EB NW 80 St @ Whittier Elementary School",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-se84",
+      "sourceIDs": [
+        "agency/seattle/SE84"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.686919,
+          "longitude": -122.37157
+        }
+      ],
+      "id": "agency-seattle-se85",
+      "kind": "speed",
+      "label": "WB NW 80 St @ Whittier Elementary School",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-se85",
+      "sourceIDs": [
+        "agency/seattle/SE85"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.547066,
+          "longitude": -122.276601
+        }
+      ],
+      "id": "agency-seattle-seaf086",
+      "kind": "speed",
+      "label": "Rainier Valley Leadership Academy",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-seaf086",
+      "sourceIDs": [
+        "agency/seattle/SEAF086"
+      ]
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.549587,
+          "longitude": -122.277253
+        }
+      ],
+      "id": "agency-seattle-seaf087",
+      "kind": "speed",
+      "label": "Rainier Valley Leadership Academy",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-seaf087",
+      "sourceIDs": [
+        "agency/seattle/SEAF087"
+      ]
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.641869,
+          "longitude": -122.323419
+        }
+      ],
+      "id": "agency-seattle-seaf088",
+      "kind": "speed",
+      "label": "Tops K-8",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-seaf088",
+      "sourceIDs": [
+        "agency/seattle/SEAF088"
+      ]
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.644053,
+          "longitude": -122.323354
+        }
+      ],
+      "id": "agency-seattle-seaf089",
+      "kind": "speed",
+      "label": "Tops K-8",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-seaf089",
+      "sourceIDs": [
+        "agency/seattle/SEAF089"
+      ]
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.65621,
+          "longitude": -122.336166
+        }
+      ],
+      "id": "agency-seattle-seaf090",
+      "kind": "speed",
+      "label": "Hamilton Middle ",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-seaf090",
+      "sourceIDs": [
+        "agency/seattle/SEAF090"
+      ]
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.657595,
+          "longitude": -122.336352
+        }
+      ],
+      "id": "agency-seattle-seaf091",
+      "kind": "speed",
+      "label": "Hamilton Middle ",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-seaf091",
+      "sourceIDs": [
+        "agency/seattle/SEAF091"
+      ]
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.713574,
+          "longitude": -122.317881
+        }
+      ],
+      "id": "agency-seattle-seaf092",
+      "kind": "speed",
+      "label": "Hazel Wolf K-8 ESTEM School",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-seaf092",
+      "sourceIDs": [
+        "agency/seattle/SEAF092"
+      ]
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.714575,
+          "longitude": -122.318086
+        }
+      ],
+      "id": "agency-seattle-seaf093",
+      "kind": "speed",
+      "label": "Hazel Wolf K-8 ESTEM School",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-seaf093",
+      "sourceIDs": [
+        "agency/seattle/SEAF093"
+      ]
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.707245,
+          "longitude": -122.290725
+        }
+      ],
+      "id": "agency-seattle-seaf094",
+      "kind": "speed",
+      "label": "Nathan Hale High",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-seaf094",
+      "sourceIDs": [
+        "agency/seattle/SEAF094"
+      ]
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.709039,
+          "longitude": -122.29088
+        }
+      ],
+      "id": "agency-seattle-seaf095",
+      "kind": "speed",
+      "label": "Nathan Hale High",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-seaf095",
+      "sourceIDs": [
+        "agency/seattle/SEAF095"
+      ]
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.575147,
+          "longitude": -122.386668
+        }
+      ],
+      "id": "agency-seattle-seaf096",
+      "kind": "speed",
+      "label": "West Seattle High ",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-seaf096",
+      "sourceIDs": [
+        "agency/seattle/SEAF096"
+      ]
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.580352,
+          "longitude": -122.386713
+        }
+      ],
+      "id": "agency-seattle-seaf097",
+      "kind": "speed",
+      "label": "West Seattle High",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-seaf097",
+      "sourceIDs": [
+        "agency/seattle/SEAF097"
+      ]
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.637109,
+          "longitude": -122.320001
+        }
+      ],
+      "id": "agency-seattle-seaf098",
+      "kind": "speed",
+      "label": "Bertschi School",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-seaf098",
+      "sourceIDs": [
+        "agency/seattle/SEAF098"
+      ]
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.640041,
+          "longitude": -122.320167
+        }
+      ],
+      "id": "agency-seattle-seaf099",
+      "kind": "speed",
+      "label": "Bertschi School",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-seaf099",
+      "sourceIDs": [
+        "agency/seattle/SEAF099"
+      ]
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.692501,
+          "longitude": -122.290561
+        }
+      ],
+      "id": "agency-seattle-seaf102",
+      "kind": "speed",
+      "label": "Our Lady of the Lake School",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-seaf102",
+      "sourceIDs": [
+        "agency/seattle/SEAF102"
+      ]
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.694428,
+          "longitude": -122.290742
+        }
+      ],
+      "id": "agency-seattle-seaf103",
+      "kind": "speed",
+      "label": "Our Lady of the Lake School",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-seaf103",
+      "sourceIDs": [
+        "agency/seattle/SEAF103"
+      ]
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.671644,
+          "longitude": -122.290161
+        }
+      ],
+      "id": "agency-seattle-seaf104",
+      "kind": "speed",
+      "label": "Bryant Elementary",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-seaf104",
+      "sourceIDs": [
+        "agency/seattle/SEAF104"
+      ]
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.672666,
+          "longitude": -122.290322
+        }
+      ],
+      "id": "agency-seattle-seaf105",
+      "kind": "speed",
+      "label": "Bryant Elementary",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-seaf105",
+      "sourceIDs": [
+        "agency/seattle/SEAF105"
+      ]
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.686605,
+          "longitude": -122.360585
+        }
+      ],
+      "id": "agency-seattle-seaf106",
+      "kind": "speed",
+      "label": "Greenwood Elementary",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-seaf106",
+      "sourceIDs": [
+        "agency/seattle/SEAF106"
+      ]
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.688486,
+          "longitude": -122.360749
+        }
+      ],
+      "id": "agency-seattle-seaf107",
+      "kind": "speed",
+      "label": "Greenwood Elementary",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-seaf107",
+      "sourceIDs": [
+        "agency/seattle/SEAF107"
+      ]
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.575807,
+          "longitude": -122.409142
+        }
+      ],
+      "id": "agency-seattle-seaf108",
+      "kind": "speed",
+      "label": "Alki Elementary",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-seaf108",
+      "sourceIDs": [
+        "agency/seattle/SEAF108"
+      ]
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.576517,
+          "longitude": -122.407263
+        }
+      ],
+      "id": "agency-seattle-seaf109",
+      "kind": "speed",
+      "label": "Alki Elementary",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-seaf109",
+      "sourceIDs": [
+        "agency/seattle/SEAF109"
+      ]
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.65251,
+          "longitude": -122.349833
+        }
+      ],
+      "id": "agency-seattle-seaf110",
+      "kind": "speed",
+      "label": "BF Day Elementary",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-seaf110",
+      "sourceIDs": [
+        "agency/seattle/SEAF110"
+      ]
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.657327,
+          "longitude": -122.350077
+        }
+      ],
+      "id": "agency-seattle-seaf111",
+      "kind": "speed",
+      "label": "BF Day Elementary",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-seaf111",
+      "sourceIDs": [
+        "agency/seattle/SEAF111"
+      ]
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.708307,
+          "longitude": -122.28776
+        }
+      ],
+      "id": "agency-seattle-seaf112",
+      "kind": "speed",
+      "label": "John Rogers Elementary",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-seaf112",
+      "sourceIDs": [
+        "agency/seattle/SEAF112"
+      ]
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.708339,
+          "longitude": -122.283823
+        }
+      ],
+      "id": "agency-seattle-seaf113",
+      "kind": "speed",
+      "label": "John Rogers Elementary",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-seaf113",
+      "sourceIDs": [
+        "agency/seattle/SEAF113"
+      ]
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.679359,
+          "longitude": -122.277729
+        }
+      ],
+      "id": "agency-seattle-seaf114",
+      "kind": "speed",
+      "label": "View Ridge Elementary",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-seaf114",
+      "sourceIDs": [
+        "agency/seattle/SEAF114"
+      ]
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.679457,
+          "longitude": -122.27333
+        }
+      ],
+      "id": "agency-seattle-seaf115",
+      "kind": "speed",
+      "label": "View Ridge Elementary",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-seaf115",
+      "sourceIDs": [
+        "agency/seattle/SEAF115"
+      ]
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.682983,
+          "longitude": -122.277411
+        }
+      ],
+      "id": "agency-seattle-seaf116",
+      "kind": "speed",
+      "label": "View Ridge Elementary",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-seaf116",
+      "sourceIDs": [
+        "agency/seattle/SEAF116"
+      ]
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.683113,
+          "longitude": -122.275706
+        }
+      ],
+      "id": "agency-seattle-seaf117",
+      "kind": "speed",
+      "label": "View Ridge Elementary",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-seaf117",
+      "sourceIDs": [
+        "agency/seattle/SEAF117"
+      ]
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.704008,
+          "longitude": -122.360724
+        }
+      ],
+      "id": "agency-seattle-seaf118",
+      "kind": "speed",
+      "label": "Viewlands Elementary",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-seaf118",
+      "sourceIDs": [
+        "agency/seattle/SEAF118"
+      ]
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.708302,
+          "longitude": -122.360922
+        }
+      ],
+      "id": "agency-seattle-seaf119",
+      "kind": "speed",
+      "label": "Viewlands Elementary",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-seaf119",
+      "sourceIDs": [
+        "agency/seattle/SEAF119"
+      ]
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.669073,
+          "longitude": -122.360741
+        }
+      ],
+      "id": "agency-seattle-seaf120",
+      "kind": "speed",
+      "label": "West Woodland Elementary",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-seaf120",
+      "sourceIDs": [
+        "agency/seattle/SEAF120"
+      ]
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.671803,
+          "longitude": -122.360889
+        }
+      ],
+      "id": "agency-seattle-seaf121",
+      "kind": "speed",
+      "label": "West Woodland Elementary",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-seaf121",
+      "sourceIDs": [
+        "agency/seattle/SEAF121"
+      ]
+    },
+    {
+      "evidence": "Seattle active safety cameras: published coordinates, not independently surveyed. Source: https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active",
+      "geometry": [
+        {
+          "latitude": 47.668762,
+          "longitude": -122.362596
+        }
+      ],
+      "id": "agency-seattle-seaf122",
+      "kind": "speed",
+      "label": "West Woodland Elementary",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-seattle-seaf122",
+      "sourceIDs": [
+        "agency/seattle/SEAF122"
+      ]
+    }
+  ],
+  "checkedAt": "2026-09-15T02:05:42Z",
+  "excluded": [
+    {
+      "reason": "Not speed/red-light enforcement",
+      "sourceRecord": "74"
+    },
+    {
+      "reason": "Not speed/red-light enforcement",
+      "sourceRecord": "75"
+    },
+    {
+      "reason": "Not speed/red-light enforcement",
+      "sourceRecord": "76"
+    },
+    {
+      "reason": "Not speed/red-light enforcement",
+      "sourceRecord": "77"
+    },
+    {
+      "reason": "Not speed/red-light enforcement",
+      "sourceRecord": "78"
+    },
+    {
+      "reason": "Not speed/red-light enforcement",
+      "sourceRecord": "79"
+    },
+    {
+      "reason": "Not speed/red-light enforcement",
+      "sourceRecord": "80"
+    },
+    {
+      "reason": "Not speed/red-light enforcement",
+      "sourceRecord": "81"
+    },
+    {
+      "reason": "Not speed/red-light enforcement",
+      "sourceRecord": "82"
+    },
+    {
+      "reason": "Not speed/red-light enforcement",
+      "sourceRecord": "83"
+    },
+    {
+      "reason": "Not speed/red-light enforcement",
+      "sourceRecord": "84"
+    },
+    {
+      "reason": "Not speed/red-light enforcement",
+      "sourceRecord": "85"
+    },
+    {
+      "reason": "Not speed/red-light enforcement",
+      "sourceRecord": "86"
+    },
+    {
+      "reason": "Not speed/red-light enforcement",
+      "sourceRecord": "87"
+    }
+  ],
+  "id": "seattle",
+  "rowCount": 114,
+  "url": "https://services.arcgis.com/ZOyb2t4B0UYuYNYH/arcgis/rest/services/Automatic_Traffic_Safety_Cameras_(ATSC)_view/FeatureServer/0"
+}

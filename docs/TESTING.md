@@ -85,3 +85,11 @@ The database contains 1,777 records in version `2026-09-14-6466b7b09db1-78026b1a
 After that live download, a southbound Carlisle replay produced exactly the new `abq-carlisle-hilton-delamar-possible-sb` encounter at 01:05:02 UTC on September 15 (September 14 Mountain time). The app recorded **Playback completed**, **background / locked**, speaker output, and 60% media volume. This demonstrates the new data’s full simulated matching/audio path in build 4; physical audibility and actual hardware coordinates remain unverified.
 
 Apple completed build 5 processing and the First Drive group showed **0.1.0 (5), Testing**, with its test instructions saved. Physical installation and the device acceptance matrix remain pending.
+
+## Agency source expansion — September 14, 2026
+
+The live-source pass fetched all three national OSM queries and all eight coordinate adapters. Four page monitors returned HTTP 403; they retained their previous snapshot when one existed and were recorded as review failures. The staged-pass freshness check reused the completed source pass for publication.
+
+Local validation: **28 Python pipeline tests and 16 Swift matcher tests pass**. Coverage includes partial API responses, source-count drops, last-good retention, sticky page changes, map boundaries, unknown/conditional limit candidates, nearby/opposing approaches, explicit identity aliases, moved/renamed agency records, staged refresh age, and Denver daylight-saving offsets. Replay covers 20 city plus nine county road areas and the tightened Eubank point with unavailable reported speed/course. The expanded snapshot decodes through the existing app model.
+
+These changes update data and maintenance tooling. No app runtime code or TestFlight binary was changed. Existing installations receive the new database using Update now or their permitted automatic download; the bundled fallback remains the database from their installed build. Physical audibility and location-delivery acceptance remain separate from these checks. The optional speed-check toggle remains a documented follow-up, not a shipped setting.

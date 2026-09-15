@@ -1,0 +1,27 @@
+{
+  "agencyAndPageChecksAt": "2026-09-15T02:05:42Z",
+  "completedAt": "2026-09-15T02:05:55Z",
+  "osmFetches": [
+    {
+      "checkedAt": "2026-09-15T02:05:19Z",
+      "source": "speed",
+      "status": "downloaded"
+    },
+    {
+      "checkedAt": "2026-09-15T02:05:27Z",
+      "source": "enforcement",
+      "status": "downloaded"
+    },
+    {
+      "checkedAt": "2026-09-15T02:05:42Z",
+      "source": "aliases",
+      "status": "downloaded"
+    }
+  ],
+  "reviewRequired": [
+    "bernco",
+    "nyc",
+    "michigan",
+    "minneapolis"
+  ]
+}

@@ -1,0 +1,5409 @@
+{
+  "cameras": [
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.78008,
+          "longitude": -87.62507
+        }
+      ],
+      "id": "agency-chicago-red-10-e-63rd-st-270",
+      "kind": "redLight",
+      "label": "10 E 63rd St · WB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-10-e-63rd-st-270",
+      "sourceIDs": [
+        "agency/chicago-red/10 E 63rd St-270"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.98548,
+          "longitude": -87.6556
+        }
+      ],
+      "id": "agency-chicago-red-1023-w-hollywood-ave-90",
+      "kind": "redLight",
+      "label": "1023 W Hollywood Ave · EB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-1023-w-hollywood-ave-90",
+      "sourceIDs": [
+        "agency/chicago-red/1023 W Hollywood Ave-90"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.89653,
+          "longitude": -87.63165
+        }
+      ],
+      "id": "agency-chicago-red-105-w-chicago-ave-90",
+      "kind": "redLight",
+      "label": "105 W Chicago Ave · EB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-105-w-chicago-ave-90",
+      "sourceIDs": [
+        "agency/chicago-red/105 W Chicago Ave-90"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.88214,
+          "longitude": -87.74548
+        }
+      ],
+      "id": "agency-chicago-red-108-n-cicero-ave-180",
+      "kind": "redLight",
+      "label": "108 N Cicero Ave · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-108-n-cicero-ave-180",
+      "sourceIDs": [
+        "agency/chicago-red/108 N Cicero Ave-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.8805,
+          "longitude": -87.72058
+        }
+      ],
+      "id": "agency-chicago-red-11-s-hamlin-blvd-0",
+      "kind": "redLight",
+      "label": "11 S Hamlin Blvd · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-11-s-hamlin-blvd-0",
+      "sourceIDs": [
+        "agency/chicago-red/11 S Hamlin Blvd-0"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.69259,
+          "longitude": -87.64254
+        }
+      ],
+      "id": "agency-chicago-red-11074-s-halsted-st-180",
+      "kind": "redLight",
+      "label": "11074 S Halsted St · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-11074-s-halsted-st-180",
+      "sourceIDs": [
+        "agency/chicago-red/11074 S Halsted St-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.90335,
+          "longitude": -87.64794
+        }
+      ],
+      "id": "agency-chicago-red-1139-n-halsted-st-0",
+      "kind": "redLight",
+      "label": "1139 N Halsted St · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-1139-n-halsted-st-0",
+      "sourceIDs": [
+        "agency/chicago-red/1139 N Halsted St-0"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.90241,
+          "longitude": -87.72618
+        }
+      ],
+      "id": "agency-chicago-red-1149-n-pulaski-rd-0",
+      "kind": "redLight",
+      "label": "1149 N Pulaski Rd · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-1149-n-pulaski-rd-0",
+      "sourceIDs": [
+        "agency/chicago-red/1149 N Pulaski Rd-0"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.903,
+          "longitude": -87.6673
+        }
+      ],
+      "id": "agency-chicago-red-1173-n-ashland-ave-0",
+      "kind": "redLight",
+      "label": "1173 N Ashland Ave · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-1173-n-ashland-ave-0",
+      "sourceIDs": [
+        "agency/chicago-red/1173 N Ashland Ave-0"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.67808,
+          "longitude": -87.64207
+        }
+      ],
+      "id": "agency-chicago-red-11884-s-halsted-st-180",
+      "kind": "redLight",
+      "label": "11884 S Halsted St · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-11884-s-halsted-st-180",
+      "sourceIDs": [
+        "agency/chicago-red/11884 S Halsted St-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.75105,
+          "longitude": -87.62419
+        }
+      ],
+      "id": "agency-chicago-red-12-e-79th-st-270",
+      "kind": "redLight",
+      "label": "12 E 79th St · WB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-12-e-79th-st-270",
+      "sourceIDs": [
+        "agency/chicago-red/12 E 79th St-270"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.86587,
+          "longitude": -87.72505
+        }
+      ],
+      "id": "agency-chicago-red-1205-s-pulaski-rd-0",
+      "kind": "redLight",
+      "label": "1205 S Pulaski Rd · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-1205-s-pulaski-rd-0",
+      "sourceIDs": [
+        "agency/chicago-red/1205 S Pulaski Rd-0"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.9029,
+          "longitude": -87.7264
+        }
+      ],
+      "id": "agency-chicago-red-1206-n-pulaski-rd-180",
+      "kind": "redLight",
+      "label": "1206 N Pulaski Rd · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-1206-n-pulaski-rd-180",
+      "sourceIDs": [
+        "agency/chicago-red/1206 N Pulaski Rd-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.99811,
+          "longitude": -87.66102
+        }
+      ],
+      "id": "agency-chicago-red-1209-w-devon-ave-90",
+      "kind": "redLight",
+      "label": "1209 W Devon Ave · EB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-1209-w-devon-ave-90",
+      "sourceIDs": [
+        "agency/chicago-red/1209 W Devon Ave-90"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.97626,
+          "longitude": -87.66032
+        }
+      ],
+      "id": "agency-chicago-red-1211-w-foster-ave-90",
+      "kind": "redLight",
+      "label": "1211 W Foster Ave · EB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-1211-w-foster-ave-90",
+      "sourceIDs": [
+        "agency/chicago-red/1211 W Foster Ave-90"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.8669,
+          "longitude": -87.6391
+        }
+      ],
+      "id": "agency-chicago-red-1215-s-canal-st-0",
+      "kind": "redLight",
+      "label": "1215 S Canal St · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-1215-s-canal-st-0",
+      "sourceIDs": [
+        "agency/chicago-red/1215 S Canal St-0"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.86578,
+          "longitude": -87.73486
+        }
+      ],
+      "id": "agency-chicago-red-1215-s-kostner-ave-0",
+      "kind": "redLight",
+      "label": "1215 S Kostner Ave · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-1215-s-kostner-ave-0",
+      "sourceIDs": [
+        "agency/chicago-red/1215 S Kostner Ave-0"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.8809,
+          "longitude": -87.68628
+        }
+      ],
+      "id": "agency-chicago-red-13-s-western-ave-0",
+      "kind": "redLight",
+      "label": "13 S Western Ave · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-13-s-western-ave-0",
+      "sourceIDs": [
+        "agency/chicago-red/13 S Western Ave-0"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.95431,
+          "longitude": -87.66261
+        }
+      ],
+      "id": "agency-chicago-red-1311-w-irving-park-rd-90",
+      "kind": "redLight",
+      "label": "1311 W Irving Park Rd · EB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-1311-w-irving-park-rd-90",
+      "sourceIDs": [
+        "agency/chicago-red/1311 W Irving Park Rd-90"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.88375,
+          "longitude": -87.7012
+        }
+      ],
+      "id": "agency-chicago-red-133-n-sacramento-blvd-0",
+      "kind": "redLight",
+      "label": "133 N Sacramento Blvd · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-133-n-sacramento-blvd-0",
+      "sourceIDs": [
+        "agency/chicago-red/133 N Sacramento Blvd-0"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.882,
+          "longitude": -87.64748
+        }
+      ],
+      "id": "agency-chicago-red-14-n-halsted-st-180",
+      "kind": "redLight",
+      "label": "14 N Halsted St · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-14-n-halsted-st-180",
+      "sourceIDs": [
+        "agency/chicago-red/14 N Halsted St-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.89335,
+          "longitude": -87.6237
+        }
+      ],
+      "id": "agency-chicago-red-142-e-ontario-st-270",
+      "kind": "redLight",
+      "label": "142 E Ontario St · WB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-142-e-ontario-st-270",
+      "sourceIDs": [
+        "agency/chicago-red/142 E Ontario St-270"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.88913,
+          "longitude": -87.63292
+        }
+      ],
+      "id": "agency-chicago-red-149-w-kinzie-st-90",
+      "kind": "redLight",
+      "label": "149 W Kinzie St · EB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-149-w-kinzie-st-90",
+      "sourceIDs": [
+        "agency/chicago-red/149 W Kinzie St-90"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.765,
+          "longitude": -87.66324
+        }
+      ],
+      "id": "agency-chicago-red-1546-w-71st-st-270",
+      "kind": "redLight",
+      "label": "1546 W 71st St · WB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-1546-w-71st-st-270",
+      "sourceIDs": [
+        "agency/chicago-red/1546 W 71st St-270"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.8816,
+          "longitude": -87.6664
+        }
+      ],
+      "id": "agency-chicago-red-1546-w-madison-st-270",
+      "kind": "redLight",
+      "label": "1546 W Madison St · WB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-1546-w-madison-st-270",
+      "sourceIDs": [
+        "agency/chicago-red/1546 W Madison St-270"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.90999,
+          "longitude": -87.68707
+        }
+      ],
+      "id": "agency-chicago-red-1549-n-western-ave-0",
+      "kind": "redLight",
+      "label": "1549 N Western Ave · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-1549-n-western-ave-0",
+      "sourceIDs": [
+        "agency/chicago-red/1549 N Western Ave-0"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.73593,
+          "longitude": -87.66261
+        }
+      ],
+      "id": "agency-chicago-red-1554-w-87th-st-270",
+      "kind": "redLight",
+      "label": "1554 W 87th St · WB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-1554-w-87th-st-270",
+      "sourceIDs": [
+        "agency/chicago-red/1554 W 87th St-270"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.9106,
+          "longitude": -87.6481
+        }
+      ],
+      "id": "agency-chicago-red-1569-n-halsted-st-0",
+      "kind": "redLight",
+      "label": "1569 N Halsted St · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-1569-n-halsted-st-0",
+      "sourceIDs": [
+        "agency/chicago-red/1569 N Halsted St-0"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.90979,
+          "longitude": -87.7118
+        }
+      ],
+      "id": "agency-chicago-red-1569-n-homan-ave-0",
+      "kind": "redLight",
+      "label": "1569 N Homan Ave · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-1569-n-homan-ave-0",
+      "sourceIDs": [
+        "agency/chicago-red/1569 N Homan Ave-0"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.90955,
+          "longitude": -87.72634
+        }
+      ],
+      "id": "agency-chicago-red-1579-n-pulaski-rd-0",
+      "kind": "redLight",
+      "label": "1579 N Pulaski Rd · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-1579-n-pulaski-rd-0",
+      "sourceIDs": [
+        "agency/chicago-red/1579 N Pulaski Rd-0"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.90954,
+          "longitude": -87.7362
+        }
+      ],
+      "id": "agency-chicago-red-1591-n-kostner-ave-0",
+      "kind": "redLight",
+      "label": "1591 N Kostner Ave · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-1591-n-kostner-ave-0",
+      "sourceIDs": [
+        "agency/chicago-red/1591 N Kostner Ave-0"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.72109,
+          "longitude": -87.66314
+        }
+      ],
+      "id": "agency-chicago-red-1601-w-95th-st-90",
+      "kind": "redLight",
+      "label": "1601 W 95th St · EB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-1601-w-95th-st-90",
+      "sourceIDs": [
+        "agency/chicago-red/1601 W 95th St-90"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.90323,
+          "longitude": -87.66783
+        }
+      ],
+      "id": "agency-chicago-red-1601-w-division-st-90",
+      "kind": "redLight",
+      "label": "1601 W Division St · EB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-1601-w-division-st-90",
+      "sourceIDs": [
+        "agency/chicago-red/1601 W Division St-90"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.96879,
+          "longitude": -87.66987
+        }
+      ],
+      "id": "agency-chicago-red-1601-w-lawrence-ave-90",
+      "kind": "redLight",
+      "label": "1601 W Lawrence Ave · EB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-1601-w-lawrence-ave-90",
+      "sourceIDs": [
+        "agency/chicago-red/1601 W Lawrence Ave-90"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.95419,
+          "longitude": -87.6695
+        }
+      ],
+      "id": "agency-chicago-red-1607-w-irving-park-rd-90",
+      "kind": "redLight",
+      "label": "1607 W Irving Park Rd · EB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-1607-w-irving-park-rd-90",
+      "sourceIDs": [
+        "agency/chicago-red/1607 W Irving Park Rd-90"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.75158,
+          "longitude": -87.58506
+        }
+      ],
+      "id": "agency-chicago-red-1608-e-79th-st-270",
+      "kind": "redLight",
+      "label": "1608 E 79th St · WB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-1608-e-79th-st-270",
+      "sourceIDs": [
+        "agency/chicago-red/1608 E 79th St-270"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.9161,
+          "longitude": -87.6683
+        }
+      ],
+      "id": "agency-chicago-red-1613-w-cortland-st-90",
+      "kind": "redLight",
+      "label": "1613 W Cortland St · EB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-1613-w-cortland-st-90",
+      "sourceIDs": [
+        "agency/chicago-red/1613 W Cortland St-90"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.7945,
+          "longitude": -87.6301
+        }
+      ],
+      "id": "agency-chicago-red-176-w-garfield-blvd-270",
+      "kind": "redLight",
+      "label": "176 W Garfield Blvd · WB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-176-w-garfield-blvd-270",
+      "sourceIDs": [
+        "agency/chicago-red/176 W Garfield Blvd-270"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.91565,
+          "longitude": -87.66769
+        }
+      ],
+      "id": "agency-chicago-red-1891-n-ashland-ave-0",
+      "kind": "redLight",
+      "label": "1891 N Ashland Ave · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-1891-n-ashland-ave-0",
+      "sourceIDs": [
+        "agency/chicago-red/1891 N Ashland Ave-0"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.9166,
+          "longitude": -87.74595
+        }
+      ],
+      "id": "agency-chicago-red-1949-n-cicero-ave-0",
+      "kind": "redLight",
+      "label": "1949 N Cicero Ave · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-1949-n-cicero-ave-0",
+      "sourceIDs": [
+        "agency/chicago-red/1949 N Cicero Ave-0"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.90329,
+          "longitude": -87.67694
+        }
+      ],
+      "id": "agency-chicago-red-1950-w-division-st-270",
+      "kind": "redLight",
+      "label": "1950 W Division St · WB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-1950-w-division-st-270",
+      "sourceIDs": [
+        "agency/chicago-red/1950 W Division St-270"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.72238,
+          "longitude": -87.57577
+        }
+      ],
+      "id": "agency-chicago-red-1951-e-95th-st-90",
+      "kind": "redLight",
+      "label": "1951 E 95th St · EB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-1951-e-95th-st-90",
+      "sourceIDs": [
+        "agency/chicago-red/1951 E 95th St-90"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.93237,
+          "longitude": -87.6777
+        }
+      ],
+      "id": "agency-chicago-red-1966-w-diversey-pkwy-270",
+      "kind": "redLight",
+      "label": "1966 W Diversey Pkwy · WB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-1966-w-diversey-pkwy-270",
+      "sourceIDs": [
+        "agency/chicago-red/1966 W Diversey Pkwy-270"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.90311,
+          "longitude": -87.67764
+        }
+      ],
+      "id": "agency-chicago-red-2005-w-division-st-90",
+      "kind": "redLight",
+      "label": "2005 W Division St · EB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-2005-w-division-st-90",
+      "sourceIDs": [
+        "agency/chicago-red/2005 W Division St-90"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.8855,
+          "longitude": -87.6367
+        }
+      ],
+      "id": "agency-chicago-red-201-n-upper-wacker-dr-0",
+      "kind": "redLight",
+      "label": "201 N Upper Wacker Dr · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-201-n-upper-wacker-dr-0",
+      "sourceIDs": [
+        "agency/chicago-red/201 N Upper Wacker Dr-0"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.9177,
+          "longitude": -87.70714
+        }
+      ],
+      "id": "agency-chicago-red-2010-n-kedzie-ave-180",
+      "kind": "redLight",
+      "label": "2010 N Kedzie Ave · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-2010-n-kedzie-ave-180",
+      "sourceIDs": [
+        "agency/chicago-red/2010 N Kedzie Ave-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.92492,
+          "longitude": -87.67858
+        }
+      ],
+      "id": "agency-chicago-red-2011-w-fullerton-ave-90",
+      "kind": "redLight",
+      "label": "2011 W Fullerton Ave · EB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-2011-w-fullerton-ave-90",
+      "sourceIDs": [
+        "agency/chicago-red/2011 W Fullerton Ave-90"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.8844,
+          "longitude": -87.7014
+        }
+      ],
+      "id": "agency-chicago-red-208-n-sacramento-blvd-180",
+      "kind": "redLight",
+      "label": "208 N Sacramento Blvd · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-208-n-sacramento-blvd-180",
+      "sourceIDs": [
+        "agency/chicago-red/208 N Sacramento Blvd-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.85237,
+          "longitude": -87.6858
+        }
+      ],
+      "id": "agency-chicago-red-2140-s-western-ave-180",
+      "kind": "redLight",
+      "label": "2140 S Western Ave · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-2140-s-western-ave-180",
+      "sourceIDs": [
+        "agency/chicago-red/2140 S Western Ave-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.85195,
+          "longitude": -87.72489
+        }
+      ],
+      "id": "agency-chicago-red-2160-s-pulaski-rd-180",
+      "kind": "redLight",
+      "label": "2160 S Pulaski Rd · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-2160-s-pulaski-rd-180",
+      "sourceIDs": [
+        "agency/chicago-red/2160 S Pulaski Rd-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.99064,
+          "longitude": -87.68892
+        }
+      ],
+      "id": "agency-chicago-red-2340-w-peterson-ave-270",
+      "kind": "redLight",
+      "label": "2340 W Peterson Ave · WB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-2340-w-peterson-ave-270",
+      "sourceIDs": [
+        "agency/chicago-red/2340 W Peterson Ave-270"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.92458,
+          "longitude": -87.6875
+        }
+      ],
+      "id": "agency-chicago-red-2343-n-western-ave-0",
+      "kind": "redLight",
+      "label": "2343 N Western Ave · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-2343-n-western-ave-0",
+      "sourceIDs": [
+        "agency/chicago-red/2343 N Western Ave-0"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.93226,
+          "longitude": -87.68733
+        }
+      ],
+      "id": "agency-chicago-red-2344-w-diversey-ave-270",
+      "kind": "redLight",
+      "label": "2344 W Diversey Ave · WB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-2344-w-diversey-ave-270",
+      "sourceIDs": [
+        "agency/chicago-red/2344 W Diversey Ave-270"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.97598,
+          "longitude": -87.68873
+        }
+      ],
+      "id": "agency-chicago-red-2350-w-foster-ave-270",
+      "kind": "redLight",
+      "label": "2350 W Foster Ave · WB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-2350-w-foster-ave-270",
+      "sourceIDs": [
+        "agency/chicago-red/2350 W Foster Ave-270"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.9253,
+          "longitude": -87.64018
+        }
+      ],
+      "id": "agency-chicago-red-2359-n-clark-st-315",
+      "kind": "redLight",
+      "label": "2359 N Clark St · NWB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-2359-n-clark-st-315",
+      "sourceIDs": [
+        "agency/chicago-red/2359 N Clark St-315"
+      ],
+      "travelBearing": 315
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.87619,
+          "longitude": -87.6858
+        }
+      ],
+      "id": "agency-chicago-red-2360-w-van-buren-st-270",
+      "kind": "redLight",
+      "label": "2360 W Van Buren St · WB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-2360-w-van-buren-st-270",
+      "sourceIDs": [
+        "agency/chicago-red/2360 W Van Buren St-270"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.84804,
+          "longitude": -87.73451
+        }
+      ],
+      "id": "agency-chicago-red-2374-s-kostner-ave-180",
+      "kind": "redLight",
+      "label": "2374 S Kostner Ave · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-2374-s-kostner-ave-180",
+      "sourceIDs": [
+        "agency/chicago-red/2374 S Kostner Ave-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.92486,
+          "longitude": -87.66797
+        }
+      ],
+      "id": "agency-chicago-red-2377-n-ashland-ave-0",
+      "kind": "redLight",
+      "label": "2377 N Ashland Ave · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-2377-n-ashland-ave-0",
+      "sourceIDs": [
+        "agency/chicago-red/2377 N Ashland Ave-0"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.9238,
+          "longitude": -87.75603
+        }
+      ],
+      "id": "agency-chicago-red-2379-n-laramie-ave-0",
+      "kind": "redLight",
+      "label": "2379 N Laramie Ave · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-2379-n-laramie-ave-0",
+      "sourceIDs": [
+        "agency/chicago-red/2379 N Laramie Ave-0"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.77203,
+          "longitude": -87.68299
+        }
+      ],
+      "id": "agency-chicago-red-2380-w-marquette-rd-270",
+      "kind": "redLight",
+      "label": "2380 W Marquette Rd · WB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-2380-w-marquette-rd-270",
+      "sourceIDs": [
+        "agency/chicago-red/2380 W Marquette Rd-270"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.9614,
+          "longitude": -87.68827
+        }
+      ],
+      "id": "agency-chicago-red-2380-w-montrose-ave-270",
+      "kind": "redLight",
+      "label": "2380 W Montrose Ave · WB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-2380-w-montrose-ave-270",
+      "sourceIDs": [
+        "agency/chicago-red/2380 W Montrose Ave-270"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.92417,
+          "longitude": -87.72665
+        }
+      ],
+      "id": "agency-chicago-red-2381-n-pulaski-rd-0",
+      "kind": "redLight",
+      "label": "2381 N Pulaski Rd · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-2381-n-pulaski-rd-0",
+      "sourceIDs": [
+        "agency/chicago-red/2381 N Pulaski Rd-0"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.88125,
+          "longitude": -87.68591
+        }
+      ],
+      "id": "agency-chicago-red-2382-w-madison-st-270",
+      "kind": "redLight",
+      "label": "2382 W Madison St · WB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-2382-w-madison-st-270",
+      "sourceIDs": [
+        "agency/chicago-red/2382 W Madison St-270"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.75022,
+          "longitude": -87.68241
+        }
+      ],
+      "id": "agency-chicago-red-2388-w-79th-st-270",
+      "kind": "redLight",
+      "label": "2388 W 79th St · WB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-2388-w-79th-st-270",
+      "sourceIDs": [
+        "agency/chicago-red/2388 W 79th St-270"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.9251,
+          "longitude": -87.6486
+        }
+      ],
+      "id": "agency-chicago-red-2391-n-halsted-st-0",
+      "kind": "redLight",
+      "label": "2391 N Halsted St · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-2391-n-halsted-st-0",
+      "sourceIDs": [
+        "agency/chicago-red/2391 N Halsted St-0"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.92546,
+          "longitude": -87.66833
+        }
+      ],
+      "id": "agency-chicago-red-2404-n-ashland-ave-180",
+      "kind": "redLight",
+      "label": "2404 N Ashland Ave · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-2404-n-ashland-ave-180",
+      "sourceIDs": [
+        "agency/chicago-red/2404 N Ashland Ave-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.92523,
+          "longitude": -87.68782
+        }
+      ],
+      "id": "agency-chicago-red-2404-n-western-ave-180",
+      "kind": "redLight",
+      "label": "2404 N Western Ave · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-2404-n-western-ave-180",
+      "sourceIDs": [
+        "agency/chicago-red/2404 N Western Ave-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.9258,
+          "longitude": -87.6407
+        }
+      ],
+      "id": "agency-chicago-red-2406-n-clark-st-135",
+      "kind": "redLight",
+      "label": "2406 N Clark St · SEB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-2406-n-clark-st-135",
+      "sourceIDs": [
+        "agency/chicago-red/2406 N Clark St-135"
+      ],
+      "travelBearing": 135
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.92458,
+          "longitude": -87.74647
+        }
+      ],
+      "id": "agency-chicago-red-2408-n-cicero-ave-180",
+      "kind": "redLight",
+      "label": "2408 N Cicero Ave · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-2408-n-cicero-ave-180",
+      "sourceIDs": [
+        "agency/chicago-red/2408 N Cicero Ave-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.79378,
+          "longitude": -87.68451
+        }
+      ],
+      "id": "agency-chicago-red-2409-w-55th-st-90",
+      "kind": "redLight",
+      "label": "2409 W 55th St · EB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-2409-w-55th-st-90",
+      "sourceIDs": [
+        "agency/chicago-red/2409 W 55th St-90"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.89565,
+          "longitude": -87.6873
+        }
+      ],
+      "id": "agency-chicago-red-2409-w-chicago-ave-90",
+      "kind": "redLight",
+      "label": "2409 W Chicago Ave · EB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-2409-w-chicago-ave-90",
+      "sourceIDs": [
+        "agency/chicago-red/2409 W Chicago Ave-90"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.96856,
+          "longitude": -87.68937
+        }
+      ],
+      "id": "agency-chicago-red-2409-w-lawrence-ave-90",
+      "kind": "redLight",
+      "label": "2409 W Lawrence Ave · EB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-2409-w-lawrence-ave-90",
+      "sourceIDs": [
+        "agency/chicago-red/2409 W Lawrence Ave-90"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.9243,
+          "longitude": -87.7661
+        }
+      ],
+      "id": "agency-chicago-red-2410-n-central-ave-180",
+      "kind": "redLight",
+      "label": "2410 N Central Ave · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-2410-n-central-ave-180",
+      "sourceIDs": [
+        "agency/chicago-red/2410 N Central Ave-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.77917,
+          "longitude": -87.68406
+        }
+      ],
+      "id": "agency-chicago-red-2411-w-63rd-st-90",
+      "kind": "redLight",
+      "label": "2411 W 63rd St · EB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-2411-w-63rd-st-90",
+      "sourceIDs": [
+        "agency/chicago-red/2411 W 63rd St-90"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.9102,
+          "longitude": -87.68775
+        }
+      ],
+      "id": "agency-chicago-red-2413-w-north-ave-90",
+      "kind": "redLight",
+      "label": "2413 W North Ave · EB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-2413-w-north-ave-90",
+      "sourceIDs": [
+        "agency/chicago-red/2413 W North Ave-90"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.94665,
+          "longitude": -87.68858
+        }
+      ],
+      "id": "agency-chicago-red-2415-w-addison-st-90",
+      "kind": "redLight",
+      "label": "2415 W Addison St · EB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-2415-w-addison-st-90",
+      "sourceIDs": [
+        "agency/chicago-red/2415 W Addison St-90"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.85195,
+          "longitude": -87.68614
+        }
+      ],
+      "id": "agency-chicago-red-2425-w-cermak-rd-90",
+      "kind": "redLight",
+      "label": "2425 W Cermak Rd · EB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-2425-w-cermak-rd-90",
+      "sourceIDs": [
+        "agency/chicago-red/2425 W Cermak Rd-90"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.9261,
+          "longitude": -87.67801
+        }
+      ],
+      "id": "agency-chicago-red-2446-n-damen-ave-180",
+      "kind": "redLight",
+      "label": "2446 N Damen Ave · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-2446-n-damen-ave-180",
+      "sourceIDs": [
+        "agency/chicago-red/2446 N Damen Ave-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.88157,
+          "longitude": -87.74521
+        }
+      ],
+      "id": "agency-chicago-red-25-n-cicero-ave-0",
+      "kind": "redLight",
+      "label": "25 N Cicero Ave · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-25-n-cicero-ave-0",
+      "sourceIDs": [
+        "agency/chicago-red/25 N Cicero Ave-0"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.84479,
+          "longitude": -87.70516
+        }
+      ],
+      "id": "agency-chicago-red-2552-s-kedzie-ave-180",
+      "kind": "redLight",
+      "label": "2552 S Kedzie Ave · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-2552-s-kedzie-ave-180",
+      "sourceIDs": [
+        "agency/chicago-red/2552 S Kedzie Ave-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.84408,
+          "longitude": -87.70494
+        }
+      ],
+      "id": "agency-chicago-red-2609-s-kedzie-ave-0",
+      "kind": "redLight",
+      "label": "2609 S Kedzie Ave · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-2609-s-kedzie-ave-0",
+      "sourceIDs": [
+        "agency/chicago-red/2609 S Kedzie Ave-0"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.88494,
+          "longitude": -87.72081
+        }
+      ],
+      "id": "agency-chicago-red-269-n-hamlin-ave-0",
+      "kind": "redLight",
+      "label": "269 N Hamlin Ave · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-269-n-hamlin-ave-0",
+      "sourceIDs": [
+        "agency/chicago-red/269 N Hamlin Ave-0"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.93181,
+          "longitude": -87.68775
+        }
+      ],
+      "id": "agency-chicago-red-2743-n-western-ave-0",
+      "kind": "redLight",
+      "label": "2743 N Western Ave · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-2743-n-western-ave-0",
+      "sourceIDs": [
+        "agency/chicago-red/2743 N Western Ave-0"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.93184,
+          "longitude": -87.6975
+        }
+      ],
+      "id": "agency-chicago-red-2755-n-california-ave-0",
+      "kind": "redLight",
+      "label": "2755 N California Ave · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-2755-n-california-ave-0",
+      "sourceIDs": [
+        "agency/chicago-red/2755 N California Ave-0"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.93221,
+          "longitude": -87.69716
+        }
+      ],
+      "id": "agency-chicago-red-2782-w-diversey-ave-270",
+      "kind": "redLight",
+      "label": "2782 W Diversey Ave · WB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-2782-w-diversey-ave-270",
+      "sourceIDs": [
+        "agency/chicago-red/2782 W Diversey Ave-270"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.9541,
+          "longitude": -87.69782
+        }
+      ],
+      "id": "agency-chicago-red-2782-w-irving-park-rd-270",
+      "kind": "redLight",
+      "label": "2782 W Irving Park Rd · WB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-2782-w-irving-park-rd-270",
+      "sourceIDs": [
+        "agency/chicago-red/2782 W Irving Park Rd-270"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.9317,
+          "longitude": -87.7122
+        }
+      ],
+      "id": "agency-chicago-red-2783-n-kimball-ave-0",
+      "kind": "redLight",
+      "label": "2783 N Kimball Ave · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-2783-n-kimball-ave-0",
+      "sourceIDs": [
+        "agency/chicago-red/2783 N Kimball Ave-0"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.93125,
+          "longitude": -87.74643
+        }
+      ],
+      "id": "agency-chicago-red-2785-n-cicero-ave-0",
+      "kind": "redLight",
+      "label": "2785 N Cicero Ave · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-2785-n-cicero-ave-0",
+      "sourceIDs": [
+        "agency/chicago-red/2785 N Cicero Ave-0"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.99032,
+          "longitude": -87.6998
+        }
+      ],
+      "id": "agency-chicago-red-2801-w-peterson-ave-90",
+      "kind": "redLight",
+      "label": "2801 W Peterson Ave · EB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-2801-w-peterson-ave-90",
+      "sourceIDs": [
+        "agency/chicago-red/2801 W Peterson Ave-90"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.99746,
+          "longitude": -87.7
+        }
+      ],
+      "id": "agency-chicago-red-2805-w-devon-ave-90",
+      "kind": "redLight",
+      "label": "2805 W Devon Ave · EB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-2805-w-devon-ave-90",
+      "sourceIDs": [
+        "agency/chicago-red/2805 W Devon Ave-90"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.93157,
+          "longitude": -87.76637
+        }
+      ],
+      "id": "agency-chicago-red-2806-n-central-ave-180",
+      "kind": "redLight",
+      "label": "2806 N Central Ave · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-2806-n-central-ave-180",
+      "sourceIDs": [
+        "agency/chicago-red/2806 N Central Ave-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.95388,
+          "longitude": -87.69863
+        }
+      ],
+      "id": "agency-chicago-red-2807-w-irving-park-rd-90",
+      "kind": "redLight",
+      "label": "2807 W Irving Park Rd · EB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-2807-w-irving-park-rd-90",
+      "sourceIDs": [
+        "agency/chicago-red/2807 W Irving Park Rd-90"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.9321,
+          "longitude": -87.7271
+        }
+      ],
+      "id": "agency-chicago-red-2810-n-pulaski-rd-180",
+      "kind": "redLight",
+      "label": "2810 N Pulaski Rd · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-2810-n-pulaski-rd-180",
+      "sourceIDs": [
+        "agency/chicago-red/2810 N Pulaski Rd-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.93203,
+          "longitude": -87.69798
+        }
+      ],
+      "id": "agency-chicago-red-2811-w-diversey-ave-90",
+      "kind": "redLight",
+      "label": "2811 W Diversey Ave · EB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-2811-w-diversey-ave-90",
+      "sourceIDs": [
+        "agency/chicago-red/2811 W Diversey Ave-90"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.93269,
+          "longitude": -87.6782
+        }
+      ],
+      "id": "agency-chicago-red-2816-n-damen-ave-180",
+      "kind": "redLight",
+      "label": "2816 N Damen Ave · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-2816-n-damen-ave-180",
+      "sourceIDs": [
+        "agency/chicago-red/2816 N Damen Ave-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.8957,
+          "longitude": -87.7018
+        }
+      ],
+      "id": "agency-chicago-red-2980-w-chicago-ave-270",
+      "kind": "redLight",
+      "label": "2980 W Chicago Ave · WB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-2980-w-chicago-ave-270",
+      "sourceIDs": [
+        "agency/chicago-red/2980 W Chicago Ave-270"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.8815,
+          "longitude": -87.64725
+        }
+      ],
+      "id": "agency-chicago-red-3-s-halsted-st-0",
+      "kind": "redLight",
+      "label": "3 S Halsted St · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-3-s-halsted-st-0",
+      "sourceIDs": [
+        "agency/chicago-red/3 S Halsted St-0"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.8855,
+          "longitude": -87.72105
+        }
+      ],
+      "id": "agency-chicago-red-300-n-hamlin-ave-180",
+      "kind": "redLight",
+      "label": "300 N Hamlin Ave · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-300-n-hamlin-ave-180",
+      "sourceIDs": [
+        "agency/chicago-red/300 N Hamlin Ave-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.83753,
+          "longitude": -87.70493
+        }
+      ],
+      "id": "agency-chicago-red-3084-s-kedzie-ave-180",
+      "kind": "redLight",
+      "label": "3084 S Kedzie Ave · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-3084-s-kedzie-ave-180",
+      "sourceIDs": [
+        "agency/chicago-red/3084 S Kedzie Ave-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.73613,
+          "longitude": -87.62585
+        }
+      ],
+      "id": "agency-chicago-red-31-w-87th-st-90",
+      "kind": "redLight",
+      "label": "31 W 87th St · EB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-31-w-87th-st-90",
+      "sourceIDs": [
+        "agency/chicago-red/31 W 87th St-90"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.83813,
+          "longitude": -87.61723
+        }
+      ],
+      "id": "agency-chicago-red-3103-s-martin-luther-king-dr-0",
+      "kind": "redLight",
+      "label": "3103 S Martin Luther King Dr · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-3103-s-martin-luther-king-dr-0",
+      "sourceIDs": [
+        "agency/chicago-red/3103 S Martin Luther King Dr-0"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.87795,
+          "longitude": -87.62412
+        }
+      ],
+      "id": "agency-chicago-red-311-s-michigan-ave-0",
+      "kind": "redLight",
+      "label": "311 S Michigan Ave · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-311-s-michigan-ave-0",
+      "sourceIDs": [
+        "agency/chicago-red/311 S Michigan Ave-0"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.93764,
+          "longitude": -87.80663
+        }
+      ],
+      "id": "agency-chicago-red-3133-n-harlem-ave-0",
+      "kind": "redLight",
+      "label": "3133 N Harlem Ave · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-3133-n-harlem-ave-0",
+      "sourceIDs": [
+        "agency/chicago-red/3133 N Harlem Ave-0"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.91749,
+          "longitude": -87.70657
+        }
+      ],
+      "id": "agency-chicago-red-3134-w-armitage-ave-270",
+      "kind": "redLight",
+      "label": "3134 W Armitage Ave · WB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-3134-w-armitage-ave-270",
+      "sourceIDs": [
+        "agency/chicago-red/3134 W Armitage Ave-270"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.9389,
+          "longitude": -87.70738
+        }
+      ],
+      "id": "agency-chicago-red-3141-n-kedzie-ave-0",
+      "kind": "redLight",
+      "label": "3141 N Kedzie Ave · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-3141-n-kedzie-ave-0",
+      "sourceIDs": [
+        "agency/chicago-red/3141 N Kedzie Ave-0"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.80821,
+          "longitude": -87.70362
+        }
+      ],
+      "id": "agency-chicago-red-3152-w-47th-st-270",
+      "kind": "redLight",
+      "label": "3152 W 47th St · WB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-3152-w-47th-st-270",
+      "sourceIDs": [
+        "agency/chicago-red/3152 W 47th St-270"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.77907,
+          "longitude": -87.70275
+        }
+      ],
+      "id": "agency-chicago-red-3154-w-63rd-st-270",
+      "kind": "redLight",
+      "label": "3154 W 63rd St · WB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-3154-w-63rd-st-270",
+      "sourceIDs": [
+        "agency/chicago-red/3154 W 63rd St-270"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.76449,
+          "longitude": -87.70238
+        }
+      ],
+      "id": "agency-chicago-red-3182-w-71st-st-270",
+      "kind": "redLight",
+      "label": "3182 W 71st St · WB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-3182-w-71st-st-270",
+      "sourceIDs": [
+        "agency/chicago-red/3182 W 71st St-270"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.83732,
+          "longitude": -87.70445
+        }
+      ],
+      "id": "agency-chicago-red-3190-w-31st-st-270",
+      "kind": "redLight",
+      "label": "3190 W 31st St · WB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-3190-w-31st-st-270",
+      "sourceIDs": [
+        "agency/chicago-red/3190 W 31st St-270"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.93924,
+          "longitude": -87.70795
+        }
+      ],
+      "id": "agency-chicago-red-3201-w-belmont-90",
+      "kind": "redLight",
+      "label": "3201 W Belmont · EB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-3201-w-belmont-90",
+      "sourceIDs": [
+        "agency/chicago-red/3201 W Belmont-90"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.93968,
+          "longitude": -87.70779
+        }
+      ],
+      "id": "agency-chicago-red-3202-n-kedzie-ave-180",
+      "kind": "redLight",
+      "label": "3202 N Kedzie Ave · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-3202-n-kedzie-ave-180",
+      "sourceIDs": [
+        "agency/chicago-red/3202 N Kedzie Ave-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.93929,
+          "longitude": -87.7273
+        }
+      ],
+      "id": "agency-chicago-red-3204-n-pulaski-rd-180",
+      "kind": "redLight",
+      "label": "3204 N Pulaski Rd · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-3204-n-pulaski-rd-180",
+      "sourceIDs": [
+        "agency/chicago-red/3204 N Pulaski Rd-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.93886,
+          "longitude": -87.76663
+        }
+      ],
+      "id": "agency-chicago-red-3206-n-central-ave-180",
+      "kind": "redLight",
+      "label": "3206 N Central Ave · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-3206-n-central-ave-180",
+      "sourceIDs": [
+        "agency/chicago-red/3206 N Central Ave-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.79343,
+          "longitude": -87.70393
+        }
+      ],
+      "id": "agency-chicago-red-3209-w-55th-st-90",
+      "kind": "redLight",
+      "label": "3209 W 55th St · EB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-3209-w-55th-st-90",
+      "sourceIDs": [
+        "agency/chicago-red/3209 W 55th St-90"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.9406,
+          "longitude": -87.6391
+        }
+      ],
+      "id": "agency-chicago-red-3210-n-lake-shore-dr-180",
+      "kind": "redLight",
+      "label": "3210 N Lake Shore Dr · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-3210-n-lake-shore-dr-180",
+      "sourceIDs": [
+        "agency/chicago-red/3210 N Lake Shore Dr-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.74968,
+          "longitude": -87.70272
+        }
+      ],
+      "id": "agency-chicago-red-3215-w-79th-st-90",
+      "kind": "redLight",
+      "label": "3215 W 79th St · EB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-3215-w-79th-st-90",
+      "sourceIDs": [
+        "agency/chicago-red/3215 W 79th St-90"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.94653,
+          "longitude": -87.70919
+        }
+      ],
+      "id": "agency-chicago-red-3241-w-addison-st-90",
+      "kind": "redLight",
+      "label": "3241 W Addison St · EB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-3241-w-addison-st-90",
+      "sourceIDs": [
+        "agency/chicago-red/3241 W Addison St-90"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.9319,
+          "longitude": -87.71258
+        }
+      ],
+      "id": "agency-chicago-red-3401-w-diversey-ave-90",
+      "kind": "redLight",
+      "label": "3401 W Diversey Ave · EB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-3401-w-diversey-ave-90",
+      "sourceIDs": [
+        "agency/chicago-red/3401 W Diversey Ave-90"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.90994,
+          "longitude": -87.71234
+        }
+      ],
+      "id": "agency-chicago-red-3409-w-north-ave-90",
+      "kind": "redLight",
+      "label": "3409 W North Ave · EB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-3409-w-north-ave-90",
+      "sourceIDs": [
+        "agency/chicago-red/3409 W North Ave-90"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.8763,
+          "longitude": -87.68649
+        }
+      ],
+      "id": "agency-chicago-red-342-s-western-ave-180",
+      "kind": "redLight",
+      "label": "342 S Western Ave · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-342-s-western-ave-180",
+      "sourceIDs": [
+        "agency/chicago-red/342 S Western Ave-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.83056,
+          "longitude": -87.68517
+        }
+      ],
+      "id": "agency-chicago-red-3452-s-western-ave-180",
+      "kind": "redLight",
+      "label": "3452 S Western Ave · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-3452-s-western-ave-180",
+      "sourceIDs": [
+        "agency/chicago-red/3452 S Western Ave-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.88892,
+          "longitude": -87.63233
+        }
+      ],
+      "id": "agency-chicago-red-349-n-la-salle-dr-0",
+      "kind": "redLight",
+      "label": "349 N La Salle Dr · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-349-n-la-salle-dr-0",
+      "sourceIDs": [
+        "agency/chicago-red/349 N La Salle Dr-0"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.83,
+          "longitude": -87.6849
+        }
+      ],
+      "id": "agency-chicago-red-3517-s-western-ave-0",
+      "kind": "redLight",
+      "label": "3517 S Western Ave · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-3517-s-western-ave-0",
+      "sourceIDs": [
+        "agency/chicago-red/3517 S Western Ave-0"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.94586,
+          "longitude": -87.74691
+        }
+      ],
+      "id": "agency-chicago-red-3541-n-cicero-ave-0",
+      "kind": "redLight",
+      "label": "3541 N Cicero Ave · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-3541-n-cicero-ave-0",
+      "sourceIDs": [
+        "agency/chicago-red/3541 N Cicero Ave-0"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.94499,
+          "longitude": -87.80689
+        }
+      ],
+      "id": "agency-chicago-red-3553-n-harlem-ave-0",
+      "kind": "redLight",
+      "label": "3553 N Harlem Ave · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-3553-n-harlem-ave-0",
+      "sourceIDs": [
+        "agency/chicago-red/3553 N Harlem Ave-0"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.94645,
+          "longitude": -87.68811
+        }
+      ],
+      "id": "agency-chicago-red-3563-n-western-ave-0",
+      "kind": "redLight",
+      "label": "3563 N Western Ave · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-3563-n-western-ave-0",
+      "sourceIDs": [
+        "agency/chicago-red/3563 N Western Ave-0"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.94549,
+          "longitude": -87.77639
+        }
+      ],
+      "id": "agency-chicago-red-3577-n-austin-ave-0",
+      "kind": "redLight",
+      "label": "3577 N Austin Ave · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-3577-n-austin-ave-0",
+      "sourceIDs": [
+        "agency/chicago-red/3577 N Austin Ave-0"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.9461,
+          "longitude": -87.7669
+        }
+      ],
+      "id": "agency-chicago-red-3602-n-central-ave-180",
+      "kind": "redLight",
+      "label": "3602 N Central Ave · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-3602-n-central-ave-180",
+      "sourceIDs": [
+        "agency/chicago-red/3602 N Central Ave-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.94641,
+          "longitude": -87.74721
+        }
+      ],
+      "id": "agency-chicago-red-3608-n-cicero-ave-180",
+      "kind": "redLight",
+      "label": "3608 N Cicero Ave · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-3608-n-cicero-ave-180",
+      "sourceIDs": [
+        "agency/chicago-red/3608 N Cicero Ave-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.9468,
+          "longitude": -87.7093
+        }
+      ],
+      "id": "agency-chicago-red-3616-n-elston-ave-135",
+      "kind": "redLight",
+      "label": "3616 N Elston Ave · SEB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-3616-n-elston-ave-135",
+      "sourceIDs": [
+        "agency/chicago-red/3616 N Elston Ave-135"
+      ],
+      "travelBearing": 135
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.95366,
+          "longitude": -87.71969
+        }
+      ],
+      "id": "agency-chicago-red-3647-w-irving-park-rd-90",
+      "kind": "redLight",
+      "label": "3647 W Irving Park Rd · EB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-3647-w-irving-park-rd-90",
+      "sourceIDs": [
+        "agency/chicago-red/3647 W Irving Park Rd-90"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.83834,
+          "longitude": -87.61787
+        }
+      ],
+      "id": "agency-chicago-red-371-e-31st-st-90",
+      "kind": "redLight",
+      "label": "371 E 31st St · EB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-371-e-31st-st-90",
+      "sourceIDs": [
+        "agency/chicago-red/371 E 31st St-90"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.94012,
+          "longitude": -87.63902
+        }
+      ],
+      "id": "agency-chicago-red-373-w-belmont-ave-90",
+      "kind": "redLight",
+      "label": "373 W Belmont Ave · EB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-373-w-belmont-ave-90",
+      "sourceIDs": [
+        "agency/chicago-red/373 W Belmont Ave-90"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.8861,
+          "longitude": -87.6369
+        }
+      ],
+      "id": "agency-chicago-red-380-w-wacker-dr-180",
+      "kind": "redLight",
+      "label": "380 W Wacker Dr · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-380-w-wacker-dr-180",
+      "sourceIDs": [
+        "agency/chicago-red/380 W Wacker Dr-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.8807,
+          "longitude": -87.72119
+        }
+      ],
+      "id": "agency-chicago-red-3801-w-madison-st-90",
+      "kind": "redLight",
+      "label": "3801 W Madison St · EB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-3801-w-madison-st-90",
+      "sourceIDs": [
+        "agency/chicago-red/3801 W Madison St-90"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.79331,
+          "longitude": -87.72272
+        }
+      ],
+      "id": "agency-chicago-red-3946-w-55th-st-270",
+      "kind": "redLight",
+      "label": "3946 W 55th St · WB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-3946-w-55th-st-270",
+      "sourceIDs": [
+        "agency/chicago-red/3946 W 55th St-270"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.86627,
+          "longitude": -87.72473
+        }
+      ],
+      "id": "agency-chicago-red-3946-w-roosevelt-rd-270",
+      "kind": "redLight",
+      "label": "3946 W Roosevelt Rd · WB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-3946-w-roosevelt-rd-270",
+      "sourceIDs": [
+        "agency/chicago-red/3946 W Roosevelt Rd-270"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.95279,
+          "longitude": -87.77668
+        }
+      ],
+      "id": "agency-chicago-red-3947-n-austin-ave-0",
+      "kind": "redLight",
+      "label": "3947 N Austin Ave · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-3947-n-austin-ave-0",
+      "sourceIDs": [
+        "agency/chicago-red/3947 N Austin Ave-0"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.91002,
+          "longitude": -87.72595
+        }
+      ],
+      "id": "agency-chicago-red-3950-w-north-ave-270",
+      "kind": "redLight",
+      "label": "3950 W North Ave · WB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-3950-w-north-ave-270",
+      "sourceIDs": [
+        "agency/chicago-red/3950 W North Ave-270"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.91726,
+          "longitude": -87.72621
+        }
+      ],
+      "id": "agency-chicago-red-3952-w-armitage-ave-270",
+      "kind": "redLight",
+      "label": "3952 W Armitage Ave · WB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-3952-w-armitage-ave-270",
+      "sourceIDs": [
+        "agency/chicago-red/3952 W Armitage Ave-270"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.95401,
+          "longitude": -87.66889
+        }
+      ],
+      "id": "agency-chicago-red-3953-n-ashland-ave-0",
+      "kind": "redLight",
+      "label": "3953 N Ashland Ave · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-3953-n-ashland-ave-0",
+      "sourceIDs": [
+        "agency/chicago-red/3953 N Ashland Ave-0"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.85172,
+          "longitude": -87.72434
+        }
+      ],
+      "id": "agency-chicago-red-3954-w-cermak-rd-270",
+      "kind": "redLight",
+      "label": "3954 W Cermak Rd · WB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-3954-w-cermak-rd-270",
+      "sourceIDs": [
+        "agency/chicago-red/3954 W Cermak Rd-270"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.74961,
+          "longitude": -87.72139
+        }
+      ],
+      "id": "agency-chicago-red-3960-w-79th-st-270",
+      "kind": "redLight",
+      "label": "3960 W 79th St · WB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-3960-w-79th-st-270",
+      "sourceIDs": [
+        "agency/chicago-red/3960 W 79th St-270"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.95379,
+          "longitude": -87.72723
+        }
+      ],
+      "id": "agency-chicago-red-3960-w-irving-park-rd-270",
+      "kind": "redLight",
+      "label": "3960 W Irving Park Rd · WB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-3960-w-irving-park-rd-270",
+      "sourceIDs": [
+        "agency/chicago-red/3960 W Irving Park Rd-270"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.9541,
+          "longitude": -87.662
+        }
+      ],
+      "id": "agency-chicago-red-3965-n-clark-st-315",
+      "kind": "redLight",
+      "label": "3965 N Clark St · NWB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-3965-n-clark-st-315",
+      "sourceIDs": [
+        "agency/chicago-red/3965 N Clark St-315"
+      ],
+      "travelBearing": 315
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.97562,
+          "longitude": -87.72784
+        }
+      ],
+      "id": "agency-chicago-red-3970-w-foster-ave-270",
+      "kind": "redLight",
+      "label": "3970 W Foster Ave · WB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-3970-w-foster-ave-270",
+      "sourceIDs": [
+        "agency/chicago-red/3970 W Foster Ave-270"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.92461,
+          "longitude": -87.7264
+        }
+      ],
+      "id": "agency-chicago-red-3970-w-fullerton-ave-270",
+      "kind": "redLight",
+      "label": "3970 W Fullerton Ave · WB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-3970-w-fullerton-ave-270",
+      "sourceIDs": [
+        "agency/chicago-red/3970 W Fullerton Ave-270"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.7583,
+          "longitude": -87.6243
+        }
+      ],
+      "id": "agency-chicago-red-4-e-75th-st-270",
+      "kind": "redLight",
+      "label": "4 E 75th St · WB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-4-e-75th-st-270",
+      "sourceIDs": [
+        "agency/chicago-red/4 E 75th St-270"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.93901,
+          "longitude": -87.72757
+        }
+      ],
+      "id": "agency-chicago-red-4001-w-belmont-ave-90",
+      "kind": "redLight",
+      "label": "4001 W Belmont Ave · EB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-4001-w-belmont-ave-90",
+      "sourceIDs": [
+        "agency/chicago-red/4001 W Belmont Ave-90"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.96819,
+          "longitude": -87.72843
+        }
+      ],
+      "id": "agency-chicago-red-4005-w-lawrence-ave-90",
+      "kind": "redLight",
+      "label": "4005 W Lawrence Ave · EB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-4005-w-lawrence-ave-90",
+      "sourceIDs": [
+        "agency/chicago-red/4005 W Lawrence Ave-90"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.91709,
+          "longitude": -87.72694
+        }
+      ],
+      "id": "agency-chicago-red-4007-w-armitage-ave-90",
+      "kind": "redLight",
+      "label": "4007 W Armitage Ave · EB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-4007-w-armitage-ave-90",
+      "sourceIDs": [
+        "agency/chicago-red/4007 W Armitage Ave-90"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.77858,
+          "longitude": -87.72322
+        }
+      ],
+      "id": "agency-chicago-red-4009-w-63rd-st-90",
+      "kind": "redLight",
+      "label": "4009 W 63rd St · EB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-4009-w-63rd-st-90",
+      "sourceIDs": [
+        "agency/chicago-red/4009 W 63rd St-90"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.95356,
+          "longitude": -87.76712
+        }
+      ],
+      "id": "agency-chicago-red-4010-n-central-ave-180",
+      "kind": "redLight",
+      "label": "4010 N Central Ave · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-4010-n-central-ave-180",
+      "sourceIDs": [
+        "agency/chicago-red/4010 N Central Ave-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.95402,
+          "longitude": -87.72774
+        }
+      ],
+      "id": "agency-chicago-red-4010-n-pulaski-rd-180",
+      "kind": "redLight",
+      "label": "4010 N Pulaski Rd · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-4010-n-pulaski-rd-180",
+      "sourceIDs": [
+        "agency/chicago-red/4010 N Pulaski Rd-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.89527,
+          "longitude": -87.72647
+        }
+      ],
+      "id": "agency-chicago-red-4011-w-chicago-ave-90",
+      "kind": "redLight",
+      "label": "4011 W Chicago Ave · EB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-4011-w-chicago-ave-90",
+      "sourceIDs": [
+        "agency/chicago-red/4011 W Chicago Ave-90"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.93171,
+          "longitude": -87.7274
+        }
+      ],
+      "id": "agency-chicago-red-4011-w-diversey-ave-90",
+      "kind": "redLight",
+      "label": "4011 W Diversey Ave · EB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-4011-w-diversey-ave-90",
+      "sourceIDs": [
+        "agency/chicago-red/4011 W Diversey Ave-90"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.954,
+          "longitude": -87.7198
+        }
+      ],
+      "id": "agency-chicago-red-4020-n-elston-ave-135",
+      "kind": "redLight",
+      "label": "4020 N Elston Ave · SEB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-4020-n-elston-ave-135",
+      "sourceIDs": [
+        "agency/chicago-red/4020 N Elston Ave-135"
+      ],
+      "travelBearing": 135
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.81703,
+          "longitude": -87.74361
+        }
+      ],
+      "id": "agency-chicago-red-4174-s-cicero-ave-180",
+      "kind": "redLight",
+      "label": "4174 S Cicero Ave · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-4174-s-cicero-ave-180",
+      "sourceIDs": [
+        "agency/chicago-red/4174 S Cicero Ave-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.8165,
+          "longitude": -87.7432
+        }
+      ],
+      "id": "agency-chicago-red-4213-s-cicero-ave-0",
+      "kind": "redLight",
+      "label": "4213 S Cicero Ave · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-4213-s-cicero-ave-0",
+      "sourceIDs": [
+        "agency/chicago-red/4213 S Cicero Ave-0"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.96106,
+          "longitude": -87.68855
+        }
+      ],
+      "id": "agency-chicago-red-4353-n-western-ave-0",
+      "kind": "redLight",
+      "label": "4353 N Western Ave · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-4353-n-western-ave-0",
+      "sourceIDs": [
+        "agency/chicago-red/4353 N Western Ave-0"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.9604,
+          "longitude": -87.7542
+        }
+      ],
+      "id": "agency-chicago-red-4361-n-milwaukee-ave-315",
+      "kind": "redLight",
+      "label": "4361 N Milwaukee Ave · NWB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-4361-n-milwaukee-ave-315",
+      "sourceIDs": [
+        "agency/chicago-red/4361 N Milwaukee Ave-315"
+      ],
+      "travelBearing": 315
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.84749,
+          "longitude": -87.7348
+        }
+      ],
+      "id": "agency-chicago-red-4401-w-ogden-ave-45",
+      "kind": "redLight",
+      "label": "4401 W Ogden Ave · NEB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-4401-w-ogden-ave-45",
+      "sourceIDs": [
+        "agency/chicago-red/4401 W Ogden Ave-45"
+      ],
+      "travelBearing": 45
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.86595,
+          "longitude": -87.7353
+        }
+      ],
+      "id": "agency-chicago-red-4401-w-roosevelt-rd-90",
+      "kind": "redLight",
+      "label": "4401 W Roosevelt Rd · EB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-4401-w-roosevelt-rd-90",
+      "sourceIDs": [
+        "agency/chicago-red/4401 W Roosevelt Rd-90"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.91009,
+          "longitude": -87.73655
+        }
+      ],
+      "id": "agency-chicago-red-4410-w-grand-ave-135",
+      "kind": "redLight",
+      "label": "4410 W Grand Ave · SEB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-4410-w-grand-ave-135",
+      "sourceIDs": [
+        "agency/chicago-red/4410 W Grand Ave-135"
+      ],
+      "travelBearing": 135
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.90959,
+          "longitude": -87.7366
+        }
+      ],
+      "id": "agency-chicago-red-4413-w-north-ave-90",
+      "kind": "redLight",
+      "label": "4413 W North Ave · EB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-4413-w-north-ave-90",
+      "sourceIDs": [
+        "agency/chicago-red/4413 W North Ave-90"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.96821,
+          "longitude": -87.73975
+        }
+      ],
+      "id": "agency-chicago-red-4440-w-lawrence-ave-270",
+      "kind": "redLight",
+      "label": "4440 W Lawrence Ave · WB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-4440-w-lawrence-ave-270",
+      "sourceIDs": [
+        "agency/chicago-red/4440 W Lawrence Ave-270"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.808,
+          "longitude": -87.74334
+        }
+      ],
+      "id": "agency-chicago-red-4644-s-cicero-ave-180",
+      "kind": "redLight",
+      "label": "4644 S Cicero Ave · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-4644-s-cicero-ave-180",
+      "sourceIDs": [
+        "agency/chicago-red/4644 S Cicero Ave-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.95355,
+          "longitude": -87.74422
+        }
+      ],
+      "id": "agency-chicago-red-4650-w-irving-park-rd-270",
+      "kind": "redLight",
+      "label": "4650 W Irving Park Rd · WB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-4650-w-irving-park-rd-270",
+      "sourceIDs": [
+        "agency/chicago-red/4650 W Irving Park Rd-270"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.95336,
+          "longitude": -87.74506
+        }
+      ],
+      "id": "agency-chicago-red-4653-w-irving-park-rd-90",
+      "kind": "redLight",
+      "label": "4653 W Irving Park Rd · EB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-4653-w-irving-park-rd-90",
+      "sourceIDs": [
+        "agency/chicago-red/4653 W Irving Park Rd-90"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.80873,
+          "longitude": -87.68457
+        }
+      ],
+      "id": "agency-chicago-red-4656-s-western-ave-180",
+      "kind": "redLight",
+      "label": "4656 S Western Ave · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-4656-s-western-ave-180",
+      "sourceIDs": [
+        "agency/chicago-red/4656 S Western Ave-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.888,
+          "longitude": -87.7652
+        }
+      ],
+      "id": "agency-chicago-red-466-n-central-ave-180",
+      "kind": "redLight",
+      "label": "466 N Central Ave · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-466-n-central-ave-180",
+      "sourceIDs": [
+        "agency/chicago-red/466 N Central Ave-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.80813,
+          "longitude": -87.6843
+        }
+      ],
+      "id": "agency-chicago-red-4701-s-western-ave-0",
+      "kind": "redLight",
+      "label": "4701 S Western Ave · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-4701-s-western-ave-0",
+      "sourceIDs": [
+        "agency/chicago-red/4701 S Western Ave-0"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.80782,
+          "longitude": -87.70386
+        }
+      ],
+      "id": "agency-chicago-red-4707-s-kedzie-ave-0",
+      "kind": "redLight",
+      "label": "4707 S Kedzie Ave · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-4707-s-kedzie-ave-0",
+      "sourceIDs": [
+        "agency/chicago-red/4707 S Kedzie Ave-0"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.80774,
+          "longitude": -87.74265
+        }
+      ],
+      "id": "agency-chicago-red-4750-w-47th-st-270",
+      "kind": "redLight",
+      "label": "4750 W 47th St · WB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-4750-w-47th-st-270",
+      "sourceIDs": [
+        "agency/chicago-red/4750 W 47th St-270"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.92438,
+          "longitude": -87.74589
+        }
+      ],
+      "id": "agency-chicago-red-4750-w-fullerton-ave-270",
+      "kind": "redLight",
+      "label": "4750 W Fullerton Ave · WB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-4750-w-fullerton-ave-270",
+      "sourceIDs": [
+        "agency/chicago-red/4750 W Fullerton Ave-270"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.99004,
+          "longitude": -87.74786
+        }
+      ],
+      "id": "agency-chicago-red-4750-w-peterson-ave-270",
+      "kind": "redLight",
+      "label": "4750 W Peterson Ave · WB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-4750-w-peterson-ave-270",
+      "sourceIDs": [
+        "agency/chicago-red/4750 W Peterson Ave-270"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.90976,
+          "longitude": -87.74565
+        }
+      ],
+      "id": "agency-chicago-red-4754-w-north-ave-270",
+      "kind": "redLight",
+      "label": "4754 W North Ave · WB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-4754-w-north-ave-270",
+      "sourceIDs": [
+        "agency/chicago-red/4754 W North Ave-270"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.96769,
+          "longitude": -87.74762
+        }
+      ],
+      "id": "agency-chicago-red-4775-n-cicero-ave-0",
+      "kind": "redLight",
+      "label": "4775 N Cicero Ave · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-4775-n-cicero-ave-0",
+      "sourceIDs": [
+        "agency/chicago-red/4775 N Cicero Ave-0"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.93163,
+          "longitude": -87.74613
+        }
+      ],
+      "id": "agency-chicago-red-4776-w-diversey-ave-270",
+      "kind": "redLight",
+      "label": "4776 W Diversey Ave · WB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-4776-w-diversey-ave-270",
+      "sourceIDs": [
+        "agency/chicago-red/4776 W Diversey Ave-270"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.96791,
+          "longitude": -87.73969
+        }
+      ],
+      "id": "agency-chicago-red-4791-n-elston-ave-315",
+      "kind": "redLight",
+      "label": "4791 N Elston Ave · NWB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-4791-n-elston-ave-315",
+      "sourceIDs": [
+        "agency/chicago-red/4791 N Elston Ave-315"
+      ],
+      "travelBearing": 315
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.90949,
+          "longitude": -87.74658
+        }
+      ],
+      "id": "agency-chicago-red-4801-w-north-ave-90",
+      "kind": "redLight",
+      "label": "4801 W North Ave · EB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-4801-w-north-ave-90",
+      "sourceIDs": [
+        "agency/chicago-red/4801 W North Ave-90"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.96918,
+          "longitude": -87.66959
+        }
+      ],
+      "id": "agency-chicago-red-4804-n-ashland-ave-180",
+      "kind": "redLight",
+      "label": "4804 N Ashland Ave · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-4804-n-ashland-ave-180",
+      "sourceIDs": [
+        "agency/chicago-red/4804 N Ashland Ave-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.96884,
+          "longitude": -87.68908
+        }
+      ],
+      "id": "agency-chicago-red-4804-n-western-ave-180",
+      "kind": "redLight",
+      "label": "4804 N Western Ave · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-4804-n-western-ave-180",
+      "sourceIDs": [
+        "agency/chicago-red/4804 N Western Ave-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.89489,
+          "longitude": -87.74611
+        }
+      ],
+      "id": "agency-chicago-red-4805-w-chicago-ave-90",
+      "kind": "redLight",
+      "label": "4805 W Chicago Ave · EB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-4805-w-chicago-ave-90",
+      "sourceIDs": [
+        "agency/chicago-red/4805 W Chicago Ave-90"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.91684,
+          "longitude": -87.74652
+        }
+      ],
+      "id": "agency-chicago-red-4807-w-armitage-ave-90",
+      "kind": "redLight",
+      "label": "4807 W Armitage Ave · EB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-4807-w-armitage-ave-90",
+      "sourceIDs": [
+        "agency/chicago-red/4807 W Armitage Ave-90"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.87304,
+          "longitude": -87.74544
+        }
+      ],
+      "id": "agency-chicago-red-4809-w-harrison-st-90",
+      "kind": "redLight",
+      "label": "4809 W Harrison St · EB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-4809-w-harrison-st-90",
+      "sourceIDs": [
+        "agency/chicago-red/4809 W Harrison St-90"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.96834,
+          "longitude": -87.74777
+        }
+      ],
+      "id": "agency-chicago-red-4810-n-cicero-ave-180",
+      "kind": "redLight",
+      "label": "4810 N Cicero Ave · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-4810-n-cicero-ave-180",
+      "sourceIDs": [
+        "agency/chicago-red/4810 N Cicero Ave-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.96854,
+          "longitude": -87.72815
+        }
+      ],
+      "id": "agency-chicago-red-4812-n-pulaski-rd-180",
+      "kind": "redLight",
+      "label": "4812 N Pulaski Rd · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-4812-n-pulaski-rd-180",
+      "sourceIDs": [
+        "agency/chicago-red/4812 N Pulaski Rd-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.89078,
+          "longitude": -87.62006
+        }
+      ],
+      "id": "agency-chicago-red-489-n-columbus-dr-0",
+      "kind": "redLight",
+      "label": "489 N Columbus Dr · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-489-n-columbus-dr-0",
+      "sourceIDs": [
+        "agency/chicago-red/489 N Columbus Dr-0"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.89135,
+          "longitude": -87.6204
+        }
+      ],
+      "id": "agency-chicago-red-498-n-columbus-dr-180",
+      "kind": "redLight",
+      "label": "498 N Columbus Dr · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-498-n-columbus-dr-180",
+      "sourceIDs": [
+        "agency/chicago-red/498 N Columbus Dr-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.8019,
+          "longitude": -87.7238
+        }
+      ],
+      "id": "agency-chicago-red-4989-s-archer-ave-45",
+      "kind": "redLight",
+      "label": "4989 S Archer Ave · NEB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-4989-s-archer-ave-45",
+      "sourceIDs": [
+        "agency/chicago-red/4989 S Archer Ave-45"
+      ],
+      "travelBearing": 45
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.8027,
+          "longitude": -87.723
+        }
+      ],
+      "id": "agency-chicago-red-4996-s-archer-ave-225",
+      "kind": "redLight",
+      "label": "4996 S Archer Ave · SWB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-4996-s-archer-ave-225",
+      "sourceIDs": [
+        "agency/chicago-red/4996 S Archer Ave-225"
+      ],
+      "travelBearing": 225
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.88122,
+          "longitude": -87.66663
+        }
+      ],
+      "id": "agency-chicago-red-5-s-ashland-ave-0",
+      "kind": "redLight",
+      "label": "5 S Ashland Ave · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-5-s-ashland-ave-0",
+      "sourceIDs": [
+        "agency/chicago-red/5 S Ashland Ave-0"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.96072,
+          "longitude": -87.75405
+        }
+      ],
+      "id": "agency-chicago-red-5040-w-montrose-ave-270",
+      "kind": "redLight",
+      "label": "5040 W Montrose Ave · WB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-5040-w-montrose-ave-270",
+      "sourceIDs": [
+        "agency/chicago-red/5040 W Montrose Ave-270"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.8735,
+          "longitude": -87.74514
+        }
+      ],
+      "id": "agency-chicago-red-514-s-cicero-ave-180",
+      "kind": "redLight",
+      "label": "514 S Cicero Ave · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-514-s-cicero-ave-180",
+      "sourceIDs": [
+        "agency/chicago-red/514 S Cicero Ave-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.88051,
+          "longitude": -87.7546
+        }
+      ],
+      "id": "agency-chicago-red-5146-w-madison-st-270",
+      "kind": "redLight",
+      "label": "5146 W Madison St · WB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-5146-w-madison-st-270",
+      "sourceIDs": [
+        "agency/chicago-red/5146 W Madison St-270"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.97603,
+          "longitude": -87.65974
+        }
+      ],
+      "id": "agency-chicago-red-5147-n-broadway-st-0",
+      "kind": "redLight",
+      "label": "5147 N Broadway St · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-5147-n-broadway-st-0",
+      "sourceIDs": [
+        "agency/chicago-red/5147 N Broadway St-0"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.95343,
+          "longitude": -87.7567
+        }
+      ],
+      "id": "agency-chicago-red-5148-irving-park-rd-270",
+      "kind": "redLight",
+      "label": "5148 Irving Park Rd · WB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-5148-irving-park-rd-270",
+      "sourceIDs": [
+        "agency/chicago-red/5148 Irving Park Rd-270"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.92425,
+          "longitude": -87.75576
+        }
+      ],
+      "id": "agency-chicago-red-5152-w-fullerton-ave-270",
+      "kind": "redLight",
+      "label": "5152 W Fullerton Ave · WB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-5152-w-fullerton-ave-270",
+      "sourceIDs": [
+        "agency/chicago-red/5152 W Fullerton Ave-270"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.97542,
+          "longitude": -87.78779
+        }
+      ],
+      "id": "agency-chicago-red-5155-n-nagle-ave-0",
+      "kind": "redLight",
+      "label": "5155 N Nagle Ave · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-5155-n-nagle-ave-0",
+      "sourceIDs": [
+        "agency/chicago-red/5155 N Nagle Ave-0"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.88025,
+          "longitude": -87.75546
+        }
+      ],
+      "id": "agency-chicago-red-5201-w-madison-st-90",
+      "kind": "redLight",
+      "label": "5201 W Madison St · EB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-5201-w-madison-st-90",
+      "sourceIDs": [
+        "agency/chicago-red/5201 W Madison St-90"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.97667,
+          "longitude": -87.65508
+        }
+      ],
+      "id": "agency-chicago-red-5204-n-sheridan-rd-180",
+      "kind": "redLight",
+      "label": "5204 N Sheridan Rd · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-5204-n-sheridan-rd-180",
+      "sourceIDs": [
+        "agency/chicago-red/5204 N Sheridan Rd-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.95318,
+          "longitude": -87.75754
+        }
+      ],
+      "id": "agency-chicago-red-5205-w-irving-park-rd-90",
+      "kind": "redLight",
+      "label": "5205 W Irving Park Rd · EB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-5205-w-irving-park-rd-90",
+      "sourceIDs": [
+        "agency/chicago-red/5205 W Irving Park Rd-90"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.97619,
+          "longitude": -87.68933
+        }
+      ],
+      "id": "agency-chicago-red-5206-n-western-ave-180",
+      "kind": "redLight",
+      "label": "5206 N Western Ave · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-5206-n-western-ave-180",
+      "sourceIDs": [
+        "agency/chicago-red/5206 N Western Ave-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.79839,
+          "longitude": -87.74271
+        }
+      ],
+      "id": "agency-chicago-red-5207-s-cicero-ave-0",
+      "kind": "redLight",
+      "label": "5207 S Cicero Ave · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-5207-s-cicero-ave-0",
+      "sourceIDs": [
+        "agency/chicago-red/5207 S Cicero Ave-0"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.9757,
+          "longitude": -87.72835
+        }
+      ],
+      "id": "agency-chicago-red-5210-n-pulaski-rd-180",
+      "kind": "redLight",
+      "label": "5210 N Pulaski Rd · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-5210-n-pulaski-rd-180",
+      "sourceIDs": [
+        "agency/chicago-red/5210 N Pulaski Rd-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.9759,
+          "longitude": -87.7698
+        }
+      ],
+      "id": "agency-chicago-red-5242-n-northwest-hwy-135",
+      "kind": "redLight",
+      "label": "5242 N Northwest Hwy · SEB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-5242-n-northwest-hwy-135",
+      "sourceIDs": [
+        "agency/chicago-red/5242 N Northwest Hwy-135"
+      ],
+      "travelBearing": 135
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.97706,
+          "longitude": -87.7685
+        }
+      ],
+      "id": "agency-chicago-red-5272-n-central-ave-180",
+      "kind": "redLight",
+      "label": "5272 N Central Ave · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-5272-n-central-ave-180",
+      "sourceIDs": [
+        "agency/chicago-red/5272 N Central Ave-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.9767,
+          "longitude": -87.7688
+        }
+      ],
+      "id": "agency-chicago-red-5310-n-milwaukee-ave-135",
+      "kind": "redLight",
+      "label": "5310 N Milwaukee Ave · SEB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-5310-n-milwaukee-ave-135",
+      "sourceIDs": [
+        "agency/chicago-red/5310 N Milwaukee Ave-135"
+      ],
+      "travelBearing": 135
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.7989,
+          "longitude": -87.7424
+        }
+      ],
+      "id": "agency-chicago-red-5356-s-archer-ave-270",
+      "kind": "redLight",
+      "label": "5356 S Archer Ave · WB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-5356-s-archer-ave-270",
+      "sourceIDs": [
+        "agency/chicago-red/5356 S Archer Ave-270"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.7937,
+          "longitude": -87.72334
+        }
+      ],
+      "id": "agency-chicago-red-5450-s-pulaski-rd-180",
+      "kind": "redLight",
+      "label": "5450 S Pulaski Rd · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-5450-s-pulaski-rd-180",
+      "sourceIDs": [
+        "agency/chicago-red/5450 S Pulaski Rd-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.7938,
+          "longitude": -87.70367
+        }
+      ],
+      "id": "agency-chicago-red-5452-s-kedzie-ave-180",
+      "kind": "redLight",
+      "label": "5452 S Kedzie Ave · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-5452-s-kedzie-ave-180",
+      "sourceIDs": [
+        "agency/chicago-red/5452 S Kedzie Ave-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.79419,
+          "longitude": -87.68421
+        }
+      ],
+      "id": "agency-chicago-red-5486-s-western-ave-180",
+      "kind": "redLight",
+      "label": "5486 S Western Ave · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-5486-s-western-ave-180",
+      "sourceIDs": [
+        "agency/chicago-red/5486 S Western Ave-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.79383,
+          "longitude": -87.63034
+        }
+      ],
+      "id": "agency-chicago-red-5523-s-wentworth-ave-0",
+      "kind": "redLight",
+      "label": "5523 S Wentworth Ave · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-5523-s-wentworth-ave-0",
+      "sourceIDs": [
+        "agency/chicago-red/5523 S Wentworth Ave-0"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.93866,
+          "longitude": -87.76606
+        }
+      ],
+      "id": "agency-chicago-red-5550-w-belmont-ave-270",
+      "kind": "redLight",
+      "label": "5550 W Belmont Ave · WB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-5550-w-belmont-ave-270",
+      "sourceIDs": [
+        "agency/chicago-red/5550 W Belmont Ave-270"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.92411,
+          "longitude": -87.76558
+        }
+      ],
+      "id": "agency-chicago-red-5550-w-fullerton-ave-270",
+      "kind": "redLight",
+      "label": "5550 W Fullerton Ave · WB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-5550-w-fullerton-ave-270",
+      "sourceIDs": [
+        "agency/chicago-red/5550 W Fullerton Ave-270"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.93137,
+          "longitude": -87.76588
+        }
+      ],
+      "id": "agency-chicago-red-5564-w-diversey-ave-270",
+      "kind": "redLight",
+      "label": "5564 W Diversey Ave · WB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-5564-w-diversey-ave-270",
+      "sourceIDs": [
+        "agency/chicago-red/5564 W Diversey Ave-270"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.95307,
+          "longitude": -87.76744
+        }
+      ],
+      "id": "agency-chicago-red-5601-w-irving-park-rd-90",
+      "kind": "redLight",
+      "label": "5601 W Irving Park Rd · EB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-5601-w-irving-park-rd-90",
+      "sourceIDs": [
+        "agency/chicago-red/5601 W Irving Park Rd-90"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.89477,
+          "longitude": -87.76575
+        }
+      ],
+      "id": "agency-chicago-red-5607-w-chicago-ave-90",
+      "kind": "redLight",
+      "label": "5607 W Chicago Ave · EB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-5607-w-chicago-ave-90",
+      "sourceIDs": [
+        "agency/chicago-red/5607 W Chicago Ave-90"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.88765,
+          "longitude": -87.76541
+        }
+      ],
+      "id": "agency-chicago-red-5615-w-lake-st-90",
+      "kind": "redLight",
+      "label": "5615 W Lake St · EB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-5615-w-lake-st-90",
+      "sourceIDs": [
+        "agency/chicago-red/5615 W Lake St-90"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.9458,
+          "longitude": -87.76715
+        }
+      ],
+      "id": "agency-chicago-red-5619-w-addison-st-90",
+      "kind": "redLight",
+      "label": "5619 W Addison St · EB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-5619-w-addison-st-90",
+      "sourceIDs": [
+        "agency/chicago-red/5619 W Addison St-90"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.97561,
+          "longitude": -87.76988
+        }
+      ],
+      "id": "agency-chicago-red-5665-w-foster-ave-90",
+      "kind": "redLight",
+      "label": "5665 W Foster Ave · EB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-5665-w-foster-ave-90",
+      "sourceIDs": [
+        "agency/chicago-red/5665 W Foster Ave-90"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.98935,
+          "longitude": -87.66978
+        }
+      ],
+      "id": "agency-chicago-red-5921-n-clark-st-0",
+      "kind": "redLight",
+      "label": "5921 N Clark St · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-5921-n-clark-st-0",
+      "sourceIDs": [
+        "agency/chicago-red/5921 N Clark St-0"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.93123,
+          "longitude": -87.77558
+        }
+      ],
+      "id": "agency-chicago-red-5948-w-diversey-ave-270",
+      "kind": "redLight",
+      "label": "5948 W Diversey Ave · WB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-5948-w-diversey-ave-270",
+      "sourceIDs": [
+        "agency/chicago-red/5948 W Diversey Ave-270"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.9902,
+          "longitude": -87.67021
+        }
+      ],
+      "id": "agency-chicago-red-5970-n-clark-st-180",
+      "kind": "redLight",
+      "label": "5970 N Clark St · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-5970-n-clark-st-180",
+      "sourceIDs": [
+        "agency/chicago-red/5970 N Clark St-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.99013,
+          "longitude": -87.69932
+        }
+      ],
+      "id": "agency-chicago-red-5981-n-california-ave-0",
+      "kind": "redLight",
+      "label": "5981 N California Ave · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-5981-n-california-ave-0",
+      "sourceIDs": [
+        "agency/chicago-red/5981 N California Ave-0"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.9457,
+          "longitude": -87.77687
+        }
+      ],
+      "id": "agency-chicago-red-6001-w-addison-st-90",
+      "kind": "redLight",
+      "label": "6001 W Addison St · EB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-6001-w-addison-st-90",
+      "sourceIDs": [
+        "agency/chicago-red/6001 W Addison St-90"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.93107,
+          "longitude": -87.77635
+        }
+      ],
+      "id": "agency-chicago-red-6003-w-diversey-ave-90",
+      "kind": "redLight",
+      "label": "6003 W Diversey Ave · EB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-6003-w-diversey-ave-90",
+      "sourceIDs": [
+        "agency/chicago-red/6003 W Diversey Ave-90"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.95299,
+          "longitude": -87.77715
+        }
+      ],
+      "id": "agency-chicago-red-6009-w-irving-park-rd-90",
+      "kind": "redLight",
+      "label": "6009 W Irving Park Rd · EB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-6009-w-irving-park-rd-90",
+      "sourceIDs": [
+        "agency/chicago-red/6009 W Irving Park Rd-90"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.99102,
+          "longitude": -87.68986
+        }
+      ],
+      "id": "agency-chicago-red-6016-n-western-ave-180",
+      "kind": "redLight",
+      "label": "6016 N Western Ave · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-6016-n-western-ave-180",
+      "sourceIDs": [
+        "agency/chicago-red/6016 N Western Ave-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.99016,
+          "longitude": -87.74849
+        }
+      ],
+      "id": "agency-chicago-red-6020-n-cicero-ave-180",
+      "kind": "redLight",
+      "label": "6020 N Cicero Ave · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-6020-n-cicero-ave-180",
+      "sourceIDs": [
+        "agency/chicago-red/6020 N Cicero Ave-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.78026,
+          "longitude": -87.6254
+        }
+      ],
+      "id": "agency-chicago-red-6250-s-state-st-180",
+      "kind": "redLight",
+      "label": "6250 S State St · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-6250-s-state-st-180",
+      "sourceIDs": [
+        "agency/chicago-red/6250 S State St-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.77897,
+          "longitude": -87.72294
+        }
+      ],
+      "id": "agency-chicago-red-6254-s-pulaski-rd-180",
+      "kind": "redLight",
+      "label": "6254 S Pulaski Rd · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-6254-s-pulaski-rd-180",
+      "sourceIDs": [
+        "agency/chicago-red/6254 S Pulaski Rd-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.77954,
+          "longitude": -87.67397
+        }
+      ],
+      "id": "agency-chicago-red-6274-s-damen-ave-180",
+      "kind": "redLight",
+      "label": "6274 S Damen Ave · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-6274-s-damen-ave-180",
+      "sourceIDs": [
+        "agency/chicago-red/6274 S Damen Ave-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.89368,
+          "longitude": -87.62433
+        }
+      ],
+      "id": "agency-chicago-red-630-n-michigan-ave-180",
+      "kind": "redLight",
+      "label": "630 N Michigan Ave · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-630-n-michigan-ave-180",
+      "sourceIDs": [
+        "agency/chicago-red/630 N Michigan Ave-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.77893,
+          "longitude": -87.68351
+        }
+      ],
+      "id": "agency-chicago-red-6301-s-western-ave-0",
+      "kind": "redLight",
+      "label": "6301 S Western Ave · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-6301-s-western-ave-0",
+      "sourceIDs": [
+        "agency/chicago-red/6301 S Western Ave-0"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.77903,
+          "longitude": -87.67381
+        }
+      ],
+      "id": "agency-chicago-red-6309-s-damen-ave-0",
+      "kind": "redLight",
+      "label": "6309 S Damen Ave · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-6309-s-damen-ave-0",
+      "sourceIDs": [
+        "agency/chicago-red/6309 S Damen Ave-0"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.77867,
+          "longitude": -87.70302
+        }
+      ],
+      "id": "agency-chicago-red-6313-s-kedzie-ave-0",
+      "kind": "redLight",
+      "label": "6313 S Kedzie Ave · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-6313-s-kedzie-ave-0",
+      "sourceIDs": [
+        "agency/chicago-red/6313 S Kedzie Ave-0"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.95296,
+          "longitude": -87.78619
+        }
+      ],
+      "id": "agency-chicago-red-6350-w-irving-pk-rd-270",
+      "kind": "redLight",
+      "label": "6350 W Irving Pk Rd · WB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-6350-w-irving-pk-rd-270",
+      "sourceIDs": [
+        "agency/chicago-red/6350 W Irving Pk Rd-270"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.9975,
+          "longitude": -87.6897
+        }
+      ],
+      "id": "agency-chicago-red-6355-n-western-ave-0",
+      "kind": "redLight",
+      "label": "6355 N Western Ave · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-6355-n-western-ave-0",
+      "sourceIDs": [
+        "agency/chicago-red/6355 N Western Ave-0"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.9973,
+          "longitude": -87.69954
+        }
+      ],
+      "id": "agency-chicago-red-6377-n-california-ave-0",
+      "kind": "redLight",
+      "label": "6377 N California Ave · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-6377-n-california-ave-0",
+      "sourceIDs": [
+        "agency/chicago-red/6377 N California Ave-0"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.97572,
+          "longitude": -87.78749
+        }
+      ],
+      "id": "agency-chicago-red-6378-w-foster-ave-270",
+      "kind": "redLight",
+      "label": "6378 W Foster Ave · WB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-6378-w-foster-ave-270",
+      "sourceIDs": [
+        "agency/chicago-red/6378 W Foster Ave-270"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.92381,
+          "longitude": -87.78503
+        }
+      ],
+      "id": "agency-chicago-red-6384-w-fullerton-ave-270",
+      "kind": "redLight",
+      "label": "6384 W Fullerton Ave · WB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-6384-w-fullerton-ave-270",
+      "sourceIDs": [
+        "agency/chicago-red/6384 W Fullerton Ave-270"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.99745,
+          "longitude": -87.78737
+        }
+      ],
+      "id": "agency-chicago-red-6396-w-devon-ave-270",
+      "kind": "redLight",
+      "label": "6396 W Devon Ave · WB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-6396-w-devon-ave-270",
+      "sourceIDs": [
+        "agency/chicago-red/6396 W Devon Ave-270"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.92355,
+          "longitude": -87.78583
+        }
+      ],
+      "id": "agency-chicago-red-6401-w-fullerton-ave-90",
+      "kind": "redLight",
+      "label": "6401 W Fullerton Ave · EB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-6401-w-fullerton-ave-90",
+      "sourceIDs": [
+        "agency/chicago-red/6401 W Fullerton Ave-90"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.95289,
+          "longitude": -87.78703
+        }
+      ],
+      "id": "agency-chicago-red-6401-w-irving-pk-rd-90",
+      "kind": "redLight",
+      "label": "6401 W Irving Pk Rd · EB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-6401-w-irving-pk-rd-90",
+      "sourceIDs": [
+        "agency/chicago-red/6401 W Irving Pk Rd-90"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.9985,
+          "longitude": -87.66076
+        }
+      ],
+      "id": "agency-chicago-red-6404-n-sheridan-rd-180",
+      "kind": "redLight",
+      "label": "6404 N Sheridan Rd · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-6404-n-sheridan-rd-180",
+      "sourceIDs": [
+        "agency/chicago-red/6404 N Sheridan Rd-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.99806,
+          "longitude": -87.69007
+        }
+      ],
+      "id": "agency-chicago-red-6408-n-western-ave-180",
+      "kind": "redLight",
+      "label": "6408 N Western Ave · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-6408-n-western-ave-180",
+      "sourceIDs": [
+        "agency/chicago-red/6408 N Western Ave-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.9976,
+          "longitude": -87.7883
+        }
+      ],
+      "id": "agency-chicago-red-6410-n-milwaukee-ave-135",
+      "kind": "redLight",
+      "label": "6410 N Milwaukee Ave · SEB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-6410-n-milwaukee-ave-135",
+      "sourceIDs": [
+        "agency/chicago-red/6410 N Milwaukee Ave-135"
+      ],
+      "travelBearing": 135
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.86737,
+          "longitude": -87.6387
+        }
+      ],
+      "id": "agency-chicago-red-644-roosevelt-rd-270",
+      "kind": "redLight",
+      "label": "644 Roosevelt Rd · WB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-644-roosevelt-rd-270",
+      "sourceIDs": [
+        "agency/chicago-red/644 Roosevelt Rd-270"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.77225,
+          "longitude": -87.68358
+        }
+      ],
+      "id": "agency-chicago-red-6678-s-western-ave-180",
+      "kind": "redLight",
+      "label": "6678 S Western Ave · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-6678-s-western-ave-180",
+      "sourceIDs": [
+        "agency/chicago-red/6678 S Western Ave-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.7731,
+          "longitude": -87.5859
+        }
+      ],
+      "id": "agency-chicago-red-6715-s-cornell-dr-0",
+      "kind": "redLight",
+      "label": "6715 S Cornell Dr · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-6715-s-cornell-dr-0",
+      "sourceIDs": [
+        "agency/chicago-red/6715 S Cornell Dr-0"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.773,
+          "longitude": -87.5862
+        }
+      ],
+      "id": "agency-chicago-red-6717-s-stony-island-ave-0",
+      "kind": "redLight",
+      "label": "6717 S Stony Island Ave · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-6717-s-stony-island-ave-0",
+      "sourceIDs": [
+        "agency/chicago-red/6717 S Stony Island Ave-0"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.7663,
+          "longitude": -87.6057
+        }
+      ],
+      "id": "agency-chicago-red-7050-s-cottage-grove-ave-180",
+      "kind": "redLight",
+      "label": "7050 S Cottage Grove Ave · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-7050-s-cottage-grove-ave-180",
+      "sourceIDs": [
+        "agency/chicago-red/7050 S Cottage Grove Ave-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.76468,
+          "longitude": -87.70296
+        }
+      ],
+      "id": "agency-chicago-red-7070-s-kedzie-ave-180",
+      "kind": "redLight",
+      "label": "7070 S Kedzie Ave · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-7070-s-kedzie-ave-180",
+      "sourceIDs": [
+        "agency/chicago-red/7070 S Kedzie Ave-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.7662,
+          "longitude": -87.6062
+        }
+      ],
+      "id": "agency-chicago-red-7082-s-south-chicago-ave-135",
+      "kind": "redLight",
+      "label": "7082 S South Chicago Ave · SEB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-7082-s-south-chicago-ave-135",
+      "sourceIDs": [
+        "agency/chicago-red/7082 S South Chicago Ave-135"
+      ],
+      "travelBearing": 135
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.76458,
+          "longitude": -87.66362
+        }
+      ],
+      "id": "agency-chicago-red-7101-s-ashland-ave-0",
+      "kind": "redLight",
+      "label": "7101 S Ashland Ave · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-7101-s-ashland-ave-0",
+      "sourceIDs": [
+        "agency/chicago-red/7101 S Ashland Ave-0"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 42.01197,
+          "longitude": -87.69008
+        }
+      ],
+      "id": "agency-chicago-red-7131-n-western-ave-0",
+      "kind": "redLight",
+      "label": "7131 N Western Ave · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-7131-n-western-ave-0",
+      "sourceIDs": [
+        "agency/chicago-red/7131 N Western Ave-0"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.93809,
+          "longitude": -87.80632
+        }
+      ],
+      "id": "agency-chicago-red-7154-w-belmont-ave-270",
+      "kind": "redLight",
+      "label": "7154 W Belmont Ave · WB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-7154-w-belmont-ave-270",
+      "sourceIDs": [
+        "agency/chicago-red/7154 W Belmont Ave-270"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 42.01258,
+          "longitude": -87.69041
+        }
+      ],
+      "id": "agency-chicago-red-7204-n-western-ave-180",
+      "kind": "redLight",
+      "label": "7204 N Western Ave · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-7204-n-western-ave-180",
+      "sourceIDs": [
+        "agency/chicago-red/7204 N Western Ave-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.94518,
+          "longitude": -87.80744
+        }
+      ],
+      "id": "agency-chicago-red-7205-w-addison-st-90",
+      "kind": "redLight",
+      "label": "7205 W Addison St · EB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-7205-w-addison-st-90",
+      "sourceIDs": [
+        "agency/chicago-red/7205 W Addison St-90"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.87823,
+          "longitude": -87.62485
+        }
+      ],
+      "id": "agency-chicago-red-73-e-jackson-blvd-90",
+      "kind": "redLight",
+      "label": "73 E Jackson Blvd · EB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-73-e-jackson-blvd-90",
+      "sourceIDs": [
+        "agency/chicago-red/73 E Jackson Blvd-90"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.8673,
+          "longitude": -87.6464
+        }
+      ],
+      "id": "agency-chicago-red-732-w-roosevelt-rd-270",
+      "kind": "redLight",
+      "label": "732 W Roosevelt Rd · WB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-732-w-roosevelt-rd-270",
+      "sourceIDs": [
+        "agency/chicago-red/732 W Roosevelt Rd-270"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.90375,
+          "longitude": -87.64762
+        }
+      ],
+      "id": "agency-chicago-red-740-w-division-st-270",
+      "kind": "redLight",
+      "label": "740 W Division St · WB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-740-w-division-st-270",
+      "sourceIDs": [
+        "agency/chicago-red/740 W Division St-270"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 42.01165,
+          "longitude": -87.81184
+        }
+      ],
+      "id": "agency-chicago-red-7408-w-touhy-ave-270",
+      "kind": "redLight",
+      "label": "7408 W Touhy Ave · WB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-7408-w-touhy-ave-270",
+      "sourceIDs": [
+        "agency/chicago-red/7408 W Touhy Ave-270"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 42.01149,
+          "longitude": -87.81262
+        }
+      ],
+      "id": "agency-chicago-red-7427-w-touhy-ave-90",
+      "kind": "redLight",
+      "label": "7427 W Touhy Ave · EB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-7427-w-touhy-ave-90",
+      "sourceIDs": [
+        "agency/chicago-red/7427 W Touhy Ave-90"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.9255,
+          "longitude": -87.6483
+        }
+      ],
+      "id": "agency-chicago-red-744-w-fullerton-ave-270",
+      "kind": "redLight",
+      "label": "744 W Fullerton Ave · WB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-744-w-fullerton-ave-270",
+      "sourceIDs": [
+        "agency/chicago-red/744 W Fullerton Ave-270"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.91101,
+          "longitude": -87.64792
+        }
+      ],
+      "id": "agency-chicago-red-750-w-north-ave-270",
+      "kind": "redLight",
+      "label": "750 W North Ave · WB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-750-w-north-ave-270",
+      "sourceIDs": [
+        "agency/chicago-red/750 W North Ave-270"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.7579,
+          "longitude": -87.6249
+        }
+      ],
+      "id": "agency-chicago-red-7501-s-state-st-0",
+      "kind": "redLight",
+      "label": "7501 S State St · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-7501-s-state-st-0",
+      "sourceIDs": [
+        "agency/chicago-red/7501 S State St-0"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.89467,
+          "longitude": -87.7457
+        }
+      ],
+      "id": "agency-chicago-red-753-n-cicero-ave-0",
+      "kind": "redLight",
+      "label": "753 N Cicero Ave · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-753-n-cicero-ave-0",
+      "sourceIDs": [
+        "agency/chicago-red/753 N Cicero Ave-0"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.69244,
+          "longitude": -87.64192
+        }
+      ],
+      "id": "agency-chicago-red-758-w-111th-st-270",
+      "kind": "redLight",
+      "label": "758 W 111th St · WB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-758-w-111th-st-270",
+      "sourceIDs": [
+        "agency/chicago-red/758 W 111th St-270"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.75717,
+          "longitude": -87.58617
+        }
+      ],
+      "id": "agency-chicago-red-7598-s-stony-island-ave-180",
+      "kind": "redLight",
+      "label": "7598 S Stony Island Ave · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-7598-s-stony-island-ave-180",
+      "sourceIDs": [
+        "agency/chicago-red/7598 S Stony Island Ave-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.75673,
+          "longitude": -87.58556
+        }
+      ],
+      "id": "agency-chicago-red-7609-s-stony-island-ave-0",
+      "kind": "redLight",
+      "label": "7609 S Stony Island Ave · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-7609-s-stony-island-ave-0",
+      "sourceIDs": [
+        "agency/chicago-red/7609 S Stony Island Ave-0"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.67789,
+          "longitude": -87.64154
+        }
+      ],
+      "id": "agency-chicago-red-768-w-119th-st-270",
+      "kind": "redLight",
+      "label": "768 W 119th St · WB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-768-w-119th-st-270",
+      "sourceIDs": [
+        "agency/chicago-red/768 W 119th St-270"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.89529,
+          "longitude": -87.70209
+        }
+      ],
+      "id": "agency-chicago-red-771-n-sacramento-blvd-0",
+      "kind": "redLight",
+      "label": "771 N Sacramento Blvd · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-771-n-sacramento-blvd-0",
+      "sourceIDs": [
+        "agency/chicago-red/771 N Sacramento Blvd-0"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.75203,
+          "longitude": -87.5859
+        }
+      ],
+      "id": "agency-chicago-red-7850-s-stony-island-ave-180",
+      "kind": "redLight",
+      "label": "7850 S Stony Island Ave · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-7850-s-stony-island-ave-180",
+      "sourceIDs": [
+        "agency/chicago-red/7850 S Stony Island Ave-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.75089,
+          "longitude": -87.64417
+        }
+      ],
+      "id": "agency-chicago-red-7854-s-halsted-st-180",
+      "kind": "redLight",
+      "label": "7854 S Halsted St · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-7854-s-halsted-st-180",
+      "sourceIDs": [
+        "agency/chicago-red/7854 S Halsted St-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.75013,
+          "longitude": -87.70251
+        }
+      ],
+      "id": "agency-chicago-red-7872-s-kedzie-ave-180",
+      "kind": "redLight",
+      "label": "7872 S Kedzie Ave · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-7872-s-kedzie-ave-180",
+      "sourceIDs": [
+        "agency/chicago-red/7872 S Kedzie Ave-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.74985,
+          "longitude": -87.72204
+        }
+      ],
+      "id": "agency-chicago-red-7890-s-pulaski-rd-180",
+      "kind": "redLight",
+      "label": "7890 S Pulaski Rd · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-7890-s-pulaski-rd-180",
+      "sourceIDs": [
+        "agency/chicago-red/7890 S Pulaski Rd-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.7513,
+          "longitude": -87.5851
+        }
+      ],
+      "id": "agency-chicago-red-7901-s-south-chicago-ave-315",
+      "kind": "redLight",
+      "label": "7901 S South Chicago Ave · NWB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-7901-s-south-chicago-ave-315",
+      "sourceIDs": [
+        "agency/chicago-red/7901 S South Chicago Ave-315"
+      ],
+      "travelBearing": 315
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.74973,
+          "longitude": -87.6827
+        }
+      ],
+      "id": "agency-chicago-red-7901-s-western-ave-0",
+      "kind": "redLight",
+      "label": "7901 S Western Ave · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-7901-s-western-ave-0",
+      "sourceIDs": [
+        "agency/chicago-red/7901 S Western Ave-0"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.75066,
+          "longitude": -87.62445
+        }
+      ],
+      "id": "agency-chicago-red-7913-s-state-st-0",
+      "kind": "redLight",
+      "label": "7913 S State St · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-7913-s-state-st-0",
+      "sourceIDs": [
+        "agency/chicago-red/7913 S State St-0"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.89543,
+          "longitude": -87.6867
+        }
+      ],
+      "id": "agency-chicago-red-799-n-western-ave-0",
+      "kind": "redLight",
+      "label": "799 N Western Ave · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-799-n-western-ave-0",
+      "sourceIDs": [
+        "agency/chicago-red/799 N Western Ave-0"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.89513,
+          "longitude": -87.7655
+        }
+      ],
+      "id": "agency-chicago-red-804-n-central-ave-180",
+      "kind": "redLight",
+      "label": "804 N Central Ave · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-804-n-central-ave-180",
+      "sourceIDs": [
+        "agency/chicago-red/804 N Central Ave-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.86699,
+          "longitude": -87.6474
+        }
+      ],
+      "id": "agency-chicago-red-809-w-roosevelt-rd-90",
+      "kind": "redLight",
+      "label": "809 W Roosevelt Rd · EB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-809-w-roosevelt-rd-90",
+      "sourceIDs": [
+        "agency/chicago-red/809 W Roosevelt Rd-90"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.89568,
+          "longitude": -87.7262
+        }
+      ],
+      "id": "agency-chicago-red-810-n-pulaski-rd-180",
+      "kind": "redLight",
+      "label": "810 N Pulaski Rd · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-810-n-pulaski-rd-180",
+      "sourceIDs": [
+        "agency/chicago-red/810 N Pulaski Rd-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.75059,
+          "longitude": -87.64443
+        }
+      ],
+      "id": "agency-chicago-red-811-w-79th-st-90",
+      "kind": "redLight",
+      "label": "811 W 79th St · EB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-811-w-79th-st-90",
+      "sourceIDs": [
+        "agency/chicago-red/811 W 79th St-90"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.71415,
+          "longitude": -87.6435
+        }
+      ],
+      "id": "agency-chicago-red-813-w-99th-st-90",
+      "kind": "redLight",
+      "label": "813 W 99th St · EB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-813-w-99th-st-90",
+      "sourceIDs": [
+        "agency/chicago-red/813 W 99th St-90"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.73594,
+          "longitude": -87.64553
+        }
+      ],
+      "id": "agency-chicago-red-855-w-87th-st-90",
+      "kind": "redLight",
+      "label": "855 W 87th St · EB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-855-w-87th-st-90",
+      "sourceIDs": [
+        "agency/chicago-red/855 W 87th St-90"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.73666,
+          "longitude": -87.62552
+        }
+      ],
+      "id": "agency-chicago-red-8646-s-lafayette-ave-180",
+      "kind": "redLight",
+      "label": "8646 S Lafayette Ave · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-8646-s-lafayette-ave-180",
+      "sourceIDs": [
+        "agency/chicago-red/8646 S Lafayette Ave-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.73611,
+          "longitude": -87.66325
+        }
+      ],
+      "id": "agency-chicago-red-8666-s-ashland-ave-180",
+      "kind": "redLight",
+      "label": "8666 S Ashland Ave · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-8666-s-ashland-ave-180",
+      "sourceIDs": [
+        "agency/chicago-red/8666 S Ashland Ave-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.7364,
+          "longitude": -87.64521
+        }
+      ],
+      "id": "agency-chicago-red-8690-s-vincennes-ave-225",
+      "kind": "redLight",
+      "label": "8690 S Vincennes Ave · SWB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-8690-s-vincennes-ave-225",
+      "sourceIDs": [
+        "agency/chicago-red/8690 S Vincennes Ave-225"
+      ],
+      "travelBearing": 225
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.9857,
+          "longitude": -87.6548
+        }
+      ],
+      "id": "agency-chicago-red-910-w-hollywood-ave-270",
+      "kind": "redLight",
+      "label": "910 W Hollywood Ave · WB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-910-w-hollywood-ave-270",
+      "sourceIDs": [
+        "agency/chicago-red/910 W Hollywood Ave-270"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.97648,
+          "longitude": -87.65453
+        }
+      ],
+      "id": "agency-chicago-red-922-w-foster-ave-270",
+      "kind": "redLight",
+      "label": "922 W Foster Ave · WB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-922-w-foster-ave-270",
+      "sourceIDs": [
+        "agency/chicago-red/922 W Foster Ave-270"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.72157,
+          "longitude": -87.66285
+        }
+      ],
+      "id": "agency-chicago-red-9450-s-ashland-ave-180",
+      "kind": "redLight",
+      "label": "9450 S Ashland Ave · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-9450-s-ashland-ave-180",
+      "sourceIDs": [
+        "agency/chicago-red/9450 S Ashland Ave-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.72281,
+          "longitude": -87.57541
+        }
+      ],
+      "id": "agency-chicago-red-9450-s-jeffery-blvd-180",
+      "kind": "redLight",
+      "label": "9450 S Jeffery Blvd · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-9450-s-jeffery-blvd-180",
+      "sourceIDs": [
+        "agency/chicago-red/9450 S Jeffery Blvd-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.72179,
+          "longitude": -87.64337
+        }
+      ],
+      "id": "agency-chicago-red-9480-s-halsted-st-180",
+      "kind": "redLight",
+      "label": "9480 S Halsted St · SB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-9480-s-halsted-st-180",
+      "sourceIDs": [
+        "agency/chicago-red/9480 S Halsted St-180"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.72126,
+          "longitude": -87.64299
+        }
+      ],
+      "id": "agency-chicago-red-9513-s-halsted-st-0",
+      "kind": "redLight",
+      "label": "9513 S Halsted St · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-9513-s-halsted-st-0",
+      "sourceIDs": [
+        "agency/chicago-red/9513 S Halsted St-0"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.89673,
+          "longitude": -87.63093
+        }
+      ],
+      "id": "agency-chicago-red-98-w-chicago-ave-270",
+      "kind": "redLight",
+      "label": "98 W Chicago Ave · WB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-98-w-chicago-ave-270",
+      "sourceIDs": [
+        "agency/chicago-red/98 W Chicago Ave-270"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
+      "geometry": [
+        {
+          "latitude": 41.71402,
+          "longitude": -87.6428
+        }
+      ],
+      "id": "agency-chicago-red-9901-s-halsted-st-0",
+      "kind": "redLight",
+      "label": "9901 S Halsted St · NB",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-chicago-red-9901-s-halsted-st-0",
+      "sourceIDs": [
+        "agency/chicago-red/9901 S Halsted St-0"
+      ],
+      "travelBearing": 0
+    }
+  ],
+  "checkedAt": "2026-09-15T02:05:42Z",
+  "excluded": [],
+  "id": "chicago-red",
+  "rowCount": 300,
+  "url": "https://data.cityofchicago.org/resource/thvf-6diy.json"
+}

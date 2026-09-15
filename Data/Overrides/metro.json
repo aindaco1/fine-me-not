@@ -1,460 +1,425 @@
 {
-  "reviewBounds": [
-    34.85,
-    -106.85,
-    35.4,
-    -106.4
-  ],
-  "sources": [
-    {
-      "id": "abq",
-      "name": "City of Albuquerque current speed-camera locations",
-      "url": "https://www.cabq.gov/automated-speed-enforcement",
-      "license": "Source-linked location facts; OSM coordinate component under ODbL-1.0",
-      "checkedAt": "2026-09-15T00:59:04Z",
-      "status": "All 40 current city-listed approaches represented: 19 matched camera points and 21 approximate possible-speed warning areas. Exact positions for the areas and physical road-test acceptance remain pending."
-    },
-    {
-      "id": "bernco",
-      "name": "Bernalillo County automated photo speed enforcement",
-      "url": "https://www.bernco.gov/public-works/automated-photo-speed-enforcement/",
-      "license": "Source-linked location facts",
-      "checkedAt": "2026-09-14T21:00:00Z",
-      "status": "Golf Course (both directions) and Bridge WB desk-matched to mapped camera points. Other installed and mobile sites remain in geometry review; pending sites excluded."
-    },
-    {
-      "id": "rr",
-      "name": "Rio Rancho STOP mobile deployment program",
-      "url": "https://rrnm.gov/1584/STOP-Safe-Traffic-Operations-Program",
-      "license": "Source-linked location facts",
-      "checkedAt": "2026-09-14T21:00:00Z",
-      "status": "All 3 published NM 528 mobile corridors desk-matched to road geometry. Local-road mobile deployments are not comprehensively mapped."
-    }
-  ],
   "cameras": [
     {
-      "id": "abq-gibson-carlisle-san-mateo-eb",
-      "siteID": "abq-gibson-carlisle-san-mateo",
-      "label": "Gibson between Carlisle and San Mateo \u00b7 EB",
-      "kind": "speed",
+      "evidence": "Desk reconciliation 2026-09-14: city current list establishes road and travel direction; OSM mapped device lies on the named road at/within the listed site. Matched against OSM road geometry. Coordinate is mapped, not surveyed or drive-tested. ABQ-01 is a research cross-reference only.",
       "geometry": [
         {
           "latitude": 35.0582201,
           "longitude": -106.5959649
         }
       ],
-      "travelBearing": 90,
+      "id": "abq-gibson-carlisle-san-mateo-eb",
+      "kind": "speed",
+      "label": "Gibson between Carlisle and San Mateo · EB",
+      "replaces": [
+        "osm-node-11412742529"
+      ],
+      "reviewReference": "ABQ-01",
+      "siteID": "abq-gibson-carlisle-san-mateo",
       "sourceIDs": [
         "osm/node/11412742529",
         "https://www.cabq.gov/automated-speed-enforcement"
       ],
-      "evidence": "Desk reconciliation 2026-09-14: city current list establishes road and travel direction; OSM mapped device lies on the named road at/within the listed site. Matched against OSM road geometry. Coordinate is mapped, not surveyed or drive-tested. ABQ-01 is a research cross-reference only.",
-      "replaces": [
-        "osm-node-11412742529"
-      ],
-      "reviewReference": "ABQ-01"
+      "travelBearing": 90
     },
     {
-      "id": "abq-gibson-carlisle-san-mateo-wb",
-      "siteID": "abq-gibson-carlisle-san-mateo",
-      "label": "Gibson between Carlisle and San Mateo \u00b7 WB",
-      "kind": "speed",
+      "evidence": "Desk reconciliation 2026-09-14: city current list establishes road and travel direction; OSM mapped device lies on the named road at/within the listed site. Matched against OSM road geometry. Coordinate is mapped, not surveyed or drive-tested. ABQ-02 is a research cross-reference only.",
       "geometry": [
         {
           "latitude": 35.0582255,
           "longitude": -106.5959656
         }
       ],
-      "travelBearing": 270,
+      "id": "abq-gibson-carlisle-san-mateo-wb",
+      "kind": "speed",
+      "label": "Gibson between Carlisle and San Mateo · WB",
+      "replaces": [
+        "osm-node-11412742528"
+      ],
+      "reviewReference": "ABQ-02",
+      "siteID": "abq-gibson-carlisle-san-mateo",
       "sourceIDs": [
         "osm/node/11412742528",
         "https://www.cabq.gov/automated-speed-enforcement"
       ],
-      "evidence": "Desk reconciliation 2026-09-14: city current list establishes road and travel direction; OSM mapped device lies on the named road at/within the listed site. Matched against OSM road geometry. Coordinate is mapped, not surveyed or drive-tested. ABQ-02 is a research cross-reference only.",
-      "replaces": [
-        "osm-node-11412742528"
-      ],
-      "reviewReference": "ABQ-02"
+      "travelBearing": 270
     },
     {
-      "id": "abq-unser-tower-nb",
-      "siteID": "abq-unser-tower",
-      "label": "Unser at Tower \u00b7 NB",
-      "kind": "speed",
+      "evidence": "Desk reconciliation 2026-09-14: city current list establishes road and travel direction; OSM mapped device lies on the named road at/within the listed site. Matched against OSM road geometry. Coordinate is mapped, not surveyed or drive-tested. ABQ-03 is a research cross-reference only.",
       "geometry": [
         {
           "latitude": 35.0644832,
           "longitude": -106.7231483
         }
       ],
-      "travelBearing": 0,
+      "id": "abq-unser-tower-nb",
+      "kind": "speed",
+      "label": "Unser at Tower · NB",
+      "replaces": [
+        "osm-node-10581469093"
+      ],
+      "reviewReference": "ABQ-03",
+      "siteID": "abq-unser-tower",
       "sourceIDs": [
         "osm/node/10581469093",
         "https://www.cabq.gov/automated-speed-enforcement"
       ],
-      "evidence": "Desk reconciliation 2026-09-14: city current list establishes road and travel direction; OSM mapped device lies on the named road at/within the listed site. Matched against OSM road geometry. Coordinate is mapped, not surveyed or drive-tested. ABQ-03 is a research cross-reference only.",
-      "replaces": [
-        "osm-node-10581469093"
-      ],
-      "reviewReference": "ABQ-03"
+      "travelBearing": 0
     },
     {
-      "id": "abq-san-mateo-montgomery-sb",
-      "siteID": "abq-san-mateo-montgomery",
-      "label": "San Mateo just north of Montgomery \u00b7 SB",
-      "kind": "speed",
+      "evidence": "Desk reconciliation 2026-09-14: city current list establishes road and travel direction; OSM mapped device lies on the named road at/within the listed site. Matched against OSM road geometry. Coordinate is mapped, not surveyed or drive-tested. ABQ-04 is a research cross-reference only.",
       "geometry": [
         {
           "latitude": 35.1319856,
           "longitude": -106.5865396
         }
       ],
-      "travelBearing": 180,
+      "id": "abq-san-mateo-montgomery-sb",
+      "kind": "speed",
+      "label": "San Mateo just north of Montgomery · SB",
+      "replaces": [
+        "osm-node-10581470208"
+      ],
+      "reviewReference": "ABQ-04",
+      "siteID": "abq-san-mateo-montgomery",
       "sourceIDs": [
         "osm/node/10581470208",
         "https://www.cabq.gov/automated-speed-enforcement"
       ],
-      "evidence": "Desk reconciliation 2026-09-14: city current list establishes road and travel direction; OSM mapped device lies on the named road at/within the listed site. Matched against OSM road geometry. Coordinate is mapped, not surveyed or drive-tested. ABQ-04 is a research cross-reference only.",
-      "replaces": [
-        "osm-node-10581470208"
-      ],
-      "reviewReference": "ABQ-04"
+      "travelBearing": 180
     },
     {
-      "id": "abq-lomas-virginia-wb",
-      "siteID": "abq-lomas-virginia",
-      "label": "Lomas at Virginia \u00b7 WB",
-      "kind": "speed",
+      "evidence": "Desk reconciliation 2026-09-14: city current list establishes road and travel direction; OSM mapped device lies on the named road at/within the listed site. Matched against OSM road geometry. Coordinate is mapped, not surveyed or drive-tested. ABQ-05 is a research cross-reference only.",
       "geometry": [
         {
           "latitude": 35.0874976,
           "longitude": -106.5517732
         }
       ],
-      "travelBearing": 270,
+      "id": "abq-lomas-virginia-wb",
+      "kind": "speed",
+      "label": "Lomas at Virginia · WB",
+      "replaces": [
+        "osm-node-11412742531"
+      ],
+      "reviewReference": "ABQ-05",
+      "siteID": "abq-lomas-virginia",
       "sourceIDs": [
         "osm/node/11412742531",
         "https://www.cabq.gov/automated-speed-enforcement"
       ],
-      "evidence": "Desk reconciliation 2026-09-14: city current list establishes road and travel direction; OSM mapped device lies on the named road at/within the listed site. Matched against OSM road geometry. Coordinate is mapped, not surveyed or drive-tested. ABQ-05 is a research cross-reference only.",
-      "replaces": [
-        "osm-node-11412742531"
-      ],
-      "reviewReference": "ABQ-05"
+      "travelBearing": 270
     },
     {
-      "id": "abq-unser-flor-del-sol-nb",
-      "siteID": "abq-unser-flor-del-sol",
-      "label": "Unser at Flor Del Sol just north of Dellyne \u00b7 NB",
-      "kind": "speed",
+      "evidence": "Desk reconciliation 2026-09-14: city current list establishes road and travel direction; OSM mapped device lies on the named road at/within the listed site. Matched against OSM road geometry. Coordinate is mapped, not surveyed or drive-tested. ABQ-06 is a research cross-reference only.",
       "geometry": [
         {
           "latitude": 35.1477732,
           "longitude": -106.7141167
         }
       ],
-      "travelBearing": 0,
+      "id": "abq-unser-flor-del-sol-nb",
+      "kind": "speed",
+      "label": "Unser at Flor Del Sol just north of Dellyne · NB",
+      "replaces": [
+        "osm-node-11412742530"
+      ],
+      "reviewReference": "ABQ-06",
+      "siteID": "abq-unser-flor-del-sol",
       "sourceIDs": [
         "osm/node/11412742530",
         "https://www.cabq.gov/automated-speed-enforcement"
       ],
-      "evidence": "Desk reconciliation 2026-09-14: city current list establishes road and travel direction; OSM mapped device lies on the named road at/within the listed site. Matched against OSM road geometry. Coordinate is mapped, not surveyed or drive-tested. ABQ-06 is a research cross-reference only.",
-      "replaces": [
-        "osm-node-11412742530"
-      ],
-      "reviewReference": "ABQ-06"
+      "travelBearing": 0
     },
     {
-      "id": "abq-coal-cornell-eb",
-      "siteID": "abq-coal-cornell",
-      "label": "Coal at Cornell \u00b7 EB",
-      "kind": "speed",
+      "evidence": "Desk reconciliation 2026-09-14: city current list establishes road and travel direction; OSM mapped device lies on the named road at/within the listed site. Matched against OSM road geometry. Coordinate is mapped, not surveyed or drive-tested. ABQ-07 is a research cross-reference only.",
       "geometry": [
         {
           "latitude": 35.075508,
           "longitude": -106.619485
         }
       ],
-      "travelBearing": 90,
+      "id": "abq-coal-cornell-eb",
+      "kind": "speed",
+      "label": "Coal at Cornell · EB",
+      "replaces": [
+        "osm-node-10581469090"
+      ],
+      "reviewReference": "ABQ-07",
+      "siteID": "abq-coal-cornell",
       "sourceIDs": [
         "osm/node/10581469090",
         "https://www.cabq.gov/automated-speed-enforcement"
       ],
-      "evidence": "Desk reconciliation 2026-09-14: city current list establishes road and travel direction; OSM mapped device lies on the named road at/within the listed site. Matched against OSM road geometry. Coordinate is mapped, not surveyed or drive-tested. ABQ-07 is a research cross-reference only.",
-      "replaces": [
-        "osm-node-10581469090"
-      ],
-      "reviewReference": "ABQ-07"
+      "travelBearing": 90
     },
     {
-      "id": "abq-central-tingley-new-york-wb",
-      "siteID": "abq-central-tingley-new-york",
-      "label": "Central between Tingley and New York \u00b7 WB",
-      "kind": "speed",
+      "evidence": "Desk reconciliation 2026-09-14: city current list establishes road and travel direction; OSM mapped device lies on the named road at/within the listed site. Matched against OSM road geometry. Coordinate is mapped, not surveyed or drive-tested. ABQ-08 is a research cross-reference only.",
       "geometry": [
         {
           "latitude": 35.0931148,
           "longitude": -106.6783268
         }
       ],
-      "travelBearing": 270,
+      "id": "abq-central-tingley-new-york-wb",
+      "kind": "speed",
+      "label": "Central between Tingley and New York · WB",
+      "replaces": [
+        "osm-node-11412742533"
+      ],
+      "reviewReference": "ABQ-08",
+      "siteID": "abq-central-tingley-new-york",
       "sourceIDs": [
         "osm/node/11412742533",
         "https://www.cabq.gov/automated-speed-enforcement"
       ],
-      "evidence": "Desk reconciliation 2026-09-14: city current list establishes road and travel direction; OSM mapped device lies on the named road at/within the listed site. Matched against OSM road geometry. Coordinate is mapped, not surveyed or drive-tested. ABQ-08 is a research cross-reference only.",
-      "replaces": [
-        "osm-node-11412742533"
-      ],
-      "reviewReference": "ABQ-08"
+      "travelBearing": 270
     },
     {
-      "id": "abq-montgomery-julie-eb",
-      "siteID": "abq-montgomery-julie",
-      "label": "Montgomery and Julie \u00b7 EB",
-      "kind": "speed",
+      "evidence": "Desk reconciliation 2026-09-14: city current list establishes road and travel direction; OSM mapped device lies on the named road at/within the listed site. Matched against OSM road geometry. Coordinate is mapped, not surveyed or drive-tested. ABQ-10 is a research cross-reference only.",
       "geometry": [
         {
           "latitude": 35.1305974,
           "longitude": -106.5635257
         }
       ],
-      "travelBearing": 90,
+      "id": "abq-montgomery-julie-eb",
+      "kind": "speed",
+      "label": "Montgomery and Julie · EB",
+      "replaces": [
+        "osm-node-12087956673"
+      ],
+      "reviewReference": "ABQ-10",
+      "siteID": "abq-montgomery-julie",
       "sourceIDs": [
         "osm/node/12087956673",
         "https://www.cabq.gov/automated-speed-enforcement"
       ],
-      "evidence": "Desk reconciliation 2026-09-14: city current list establishes road and travel direction; OSM mapped device lies on the named road at/within the listed site. Matched against OSM road geometry. Coordinate is mapped, not surveyed or drive-tested. ABQ-10 is a research cross-reference only.",
-      "replaces": [
-        "osm-node-12087956673"
-      ],
-      "reviewReference": "ABQ-10"
+      "travelBearing": 90
     },
     {
-      "id": "abq-98th-tower-central-nb",
-      "siteID": "abq-98th-tower-central",
-      "label": "98th between Tower and Central \u00b7 NB",
-      "kind": "speed",
+      "evidence": "Desk reconciliation 2026-09-14: city current list establishes road and travel direction; OSM mapped device lies on the named road at/within the listed site. Matched against OSM road geometry. Coordinate is mapped, not surveyed or drive-tested. ABQ-11 is a research cross-reference only.",
       "geometry": [
         {
           "latitude": 35.0683132,
           "longitude": -106.7417737
         }
       ],
-      "travelBearing": 0,
+      "id": "abq-98th-tower-central-nb",
+      "kind": "speed",
+      "label": "98th between Tower and Central · NB",
+      "replaces": [
+        "osm-node-11412742534"
+      ],
+      "reviewReference": "ABQ-11",
+      "siteID": "abq-98th-tower-central",
       "sourceIDs": [
         "osm/node/11412742534",
         "https://www.cabq.gov/automated-speed-enforcement"
       ],
-      "evidence": "Desk reconciliation 2026-09-14: city current list establishes road and travel direction; OSM mapped device lies on the named road at/within the listed site. Matched against OSM road geometry. Coordinate is mapped, not surveyed or drive-tested. ABQ-11 is a research cross-reference only.",
-      "replaces": [
-        "osm-node-11412742534"
-      ],
-      "reviewReference": "ABQ-11"
+      "travelBearing": 0
     },
     {
-      "id": "abq-eubank-central-nb",
-      "siteID": "abq-eubank-central",
-      "label": "Eubank just north of Central \u00b7 NB",
-      "kind": "speed",
+      "evidence": "Desk reconciliation 2026-09-14: city current list establishes road and travel direction; OSM mapped device lies on the named road at/within the listed site. Matched against OSM road geometry. Coordinate is mapped, not surveyed or drive-tested. ABQ-13 is a research cross-reference only.",
       "geometry": [
         {
           "latitude": 35.0749287,
           "longitude": -106.5322298
         }
       ],
-      "travelBearing": 0,
+      "id": "abq-eubank-central-nb",
+      "kind": "speed",
+      "label": "Eubank just north of Central · NB",
+      "replaces": [
+        "osm-node-12087956672"
+      ],
+      "reviewReference": "ABQ-13",
+      "siteID": "abq-eubank-central",
       "sourceIDs": [
         "osm/node/12087956672",
         "https://www.cabq.gov/automated-speed-enforcement"
       ],
-      "evidence": "Desk reconciliation 2026-09-14: city current list establishes road and travel direction; OSM mapped device lies on the named road at/within the listed site. Matched against OSM road geometry. Coordinate is mapped, not surveyed or drive-tested. ABQ-13 is a research cross-reference only.",
-      "replaces": [
-        "osm-node-12087956672"
-      ],
-      "reviewReference": "ABQ-13"
+      "travelBearing": 0
     },
     {
-      "id": "abq-ellison-black-diversion-eb",
-      "siteID": "abq-ellison-black-diversion",
-      "label": "Ellison and Black Diversion Channel Trail crossing \u00b7 EB",
-      "kind": "speed",
+      "evidence": "Desk reconciliation 2026-09-14: city current list establishes road and travel direction; OSM mapped device lies on the named road at/within the listed site. Matched against OSM road geometry. Coordinate is mapped, not surveyed or drive-tested. ABQ-14 is a research cross-reference only.",
       "geometry": [
         {
           "latitude": 35.2059403,
           "longitude": -106.6674602
         }
       ],
-      "travelBearing": 90,
+      "id": "abq-ellison-black-diversion-eb",
+      "kind": "speed",
+      "label": "Ellison and Black Diversion Channel Trail crossing · EB",
+      "replaces": [
+        "osm-node-12087956671"
+      ],
+      "reviewReference": "ABQ-14",
+      "siteID": "abq-ellison-black-diversion",
       "sourceIDs": [
         "osm/node/12087956671",
         "https://www.cabq.gov/automated-speed-enforcement"
       ],
-      "evidence": "Desk reconciliation 2026-09-14: city current list establishes road and travel direction; OSM mapped device lies on the named road at/within the listed site. Matched against OSM road geometry. Coordinate is mapped, not surveyed or drive-tested. ABQ-14 is a research cross-reference only.",
-      "replaces": [
-        "osm-node-12087956671"
-      ],
-      "reviewReference": "ABQ-14"
+      "travelBearing": 90
     },
     {
-      "id": "abq-lomas-third-eb",
-      "siteID": "abq-lomas-third",
-      "label": "Lomas near Third Street \u00b7 EB",
-      "kind": "speed",
+      "evidence": "Desk reconciliation 2026-09-14: city current list establishes road and travel direction; OSM mapped device lies on the named road at/within the listed site. Matched against OSM road geometry. Coordinate is mapped, not surveyed or drive-tested. ABQ-15 is a research cross-reference only.",
       "geometry": [
         {
           "latitude": 35.0908541,
           "longitude": -106.6487332
         }
       ],
-      "travelBearing": 90,
+      "id": "abq-lomas-third-eb",
+      "kind": "speed",
+      "label": "Lomas near Third Street · EB",
+      "replaces": [
+        "osm-node-12087956670"
+      ],
+      "reviewReference": "ABQ-15",
+      "siteID": "abq-lomas-third",
       "sourceIDs": [
         "osm/node/12087956670",
         "https://www.cabq.gov/automated-speed-enforcement"
       ],
-      "evidence": "Desk reconciliation 2026-09-14: city current list establishes road and travel direction; OSM mapped device lies on the named road at/within the listed site. Matched against OSM road geometry. Coordinate is mapped, not surveyed or drive-tested. ABQ-15 is a research cross-reference only.",
-      "replaces": [
-        "osm-node-12087956670"
-      ],
-      "reviewReference": "ABQ-15"
+      "travelBearing": 90
     },
     {
-      "id": "abq-wyoming-academy-nb",
-      "siteID": "abq-wyoming-academy",
-      "label": "Wyoming and just north of Academy \u00b7 NB",
-      "kind": "speed",
+      "evidence": "Desk reconciliation 2026-09-14: city current list establishes road and travel direction; OSM mapped device lies on the named road at/within the listed site. Matched against OSM road geometry. Coordinate is mapped, not surveyed or drive-tested. ABQ-16 is a research cross-reference only.",
       "geometry": [
         {
           "latitude": 35.1471086,
           "longitude": -106.5542724
         }
       ],
-      "travelBearing": 0,
+      "id": "abq-wyoming-academy-nb",
+      "kind": "speed",
+      "label": "Wyoming and just north of Academy · NB",
+      "replaces": [
+        "osm-node-11518221727"
+      ],
+      "reviewReference": "ABQ-16",
+      "siteID": "abq-wyoming-academy",
       "sourceIDs": [
         "osm/node/11518221727",
         "https://www.cabq.gov/automated-speed-enforcement"
       ],
-      "evidence": "Desk reconciliation 2026-09-14: city current list establishes road and travel direction; OSM mapped device lies on the named road at/within the listed site. Matched against OSM road geometry. Coordinate is mapped, not surveyed or drive-tested. ABQ-16 is a research cross-reference only.",
-      "replaces": [
-        "osm-node-11518221727"
-      ],
-      "reviewReference": "ABQ-16"
+      "travelBearing": 0
     },
     {
-      "id": "abq-coors-montano-paseo-nb",
-      "siteID": "abq-coors-montano-paseo",
-      "label": "Coors between Montano and Paseo del Norte \u00b7 NB",
-      "kind": "speed",
+      "evidence": "Desk reconciliation 2026-09-14: city current list establishes road and travel direction; OSM mapped device lies on the named road at/within the listed site. Matched against OSM road geometry. Coordinate is mapped, not surveyed or drive-tested. ABQ-17 is a research cross-reference only.",
       "geometry": [
         {
           "latitude": 35.1682595,
           "longitude": -106.6754783
         }
       ],
-      "travelBearing": 0,
+      "id": "abq-coors-montano-paseo-nb",
+      "kind": "speed",
+      "label": "Coors between Montano and Paseo del Norte · NB",
+      "replaces": [
+        "osm-node-12087956669"
+      ],
+      "reviewReference": "ABQ-17",
+      "siteID": "abq-coors-montano-paseo",
       "sourceIDs": [
         "osm/node/12087956669",
         "https://www.cabq.gov/automated-speed-enforcement"
       ],
-      "evidence": "Desk reconciliation 2026-09-14: city current list establishes road and travel direction; OSM mapped device lies on the named road at/within the listed site. Matched against OSM road geometry. Coordinate is mapped, not surveyed or drive-tested. ABQ-17 is a research cross-reference only.",
-      "replaces": [
-        "osm-node-12087956669"
-      ],
-      "reviewReference": "ABQ-17"
+      "travelBearing": 0
     },
     {
-      "id": "abq-coors-bypass-ellison-sb",
-      "siteID": "abq-coors-bypass-ellison",
-      "label": "Coors Bypass just south of Ellison \u00b7 SB",
-      "kind": "speed",
+      "evidence": "Desk reconciliation 2026-09-14: city current list establishes road and travel direction; OSM mapped device lies on the named road at/within the listed site. Matched against OSM road geometry. Coordinate is mapped, not surveyed or drive-tested. ABQ-18 is a research cross-reference only.",
       "geometry": [
         {
           "latitude": 35.2038492,
           "longitude": -106.6598281
         }
       ],
-      "travelBearing": 180,
+      "id": "abq-coors-bypass-ellison-sb",
+      "kind": "speed",
+      "label": "Coors Bypass just south of Ellison · SB",
+      "replaces": [
+        "osm-node-12087940068"
+      ],
+      "reviewReference": "ABQ-18",
+      "siteID": "abq-coors-bypass-ellison",
       "sourceIDs": [
         "osm/node/12087940068",
         "https://www.cabq.gov/automated-speed-enforcement"
       ],
-      "evidence": "Desk reconciliation 2026-09-14: city current list establishes road and travel direction; OSM mapped device lies on the named road at/within the listed site. Matched against OSM road geometry. Coordinate is mapped, not surveyed or drive-tested. ABQ-18 is a research cross-reference only.",
-      "replaces": [
-        "osm-node-12087940068"
-      ],
-      "reviewReference": "ABQ-18"
+      "travelBearing": 180
     },
     {
-      "id": "abq-paseo-louisiana-wb",
-      "siteID": "abq-paseo-louisiana",
-      "label": "Paseo del Norte west of Louisiana \u00b7 WB",
-      "kind": "speed",
+      "evidence": "Desk reconciliation 2026-09-14: city current list establishes road and travel direction; OSM mapped device lies on the named road at/within the listed site. Matched against OSM road geometry. Coordinate is mapped, not surveyed or drive-tested. ABQ-19 is a research cross-reference only.",
       "geometry": [
         {
           "latitude": 35.1746303,
           "longitude": -106.5696659
         }
       ],
-      "travelBearing": 270,
+      "id": "abq-paseo-louisiana-wb",
+      "kind": "speed",
+      "label": "Paseo del Norte west of Louisiana · WB",
+      "replaces": [
+        "osm-node-11785891511"
+      ],
+      "reviewReference": "ABQ-19",
+      "siteID": "abq-paseo-louisiana",
       "sourceIDs": [
         "osm/node/11785891511",
         "https://www.cabq.gov/automated-speed-enforcement"
       ],
-      "evidence": "Desk reconciliation 2026-09-14: city current list establishes road and travel direction; OSM mapped device lies on the named road at/within the listed site. Matched against OSM road geometry. Coordinate is mapped, not surveyed or drive-tested. ABQ-19 is a research cross-reference only.",
-      "replaces": [
-        "osm-node-11785891511"
-      ],
-      "reviewReference": "ABQ-19"
+      "travelBearing": 270
     },
     {
-      "id": "abq-broadway-iron-sb",
-      "siteID": "abq-broadway-iron",
-      "label": "Broadway just north of Iron \u00b7 SB",
-      "kind": "speed",
+      "evidence": "Desk reconciliation 2026-09-14: city current list establishes road and travel direction; OSM mapped device lies on the named road at/within the listed site. Matched against OSM road geometry. Coordinate is mapped, not surveyed or drive-tested. ABQ-20 is a research cross-reference only.",
       "geometry": [
         {
           "latitude": 35.0791312,
           "longitude": -106.6456839
         }
       ],
-      "travelBearing": 180,
+      "id": "abq-broadway-iron-sb",
+      "kind": "speed",
+      "label": "Broadway just north of Iron · SB",
+      "replaces": [
+        "osm-node-12087940067"
+      ],
+      "reviewReference": "ABQ-20",
+      "siteID": "abq-broadway-iron",
       "sourceIDs": [
         "osm/node/12087940067",
         "https://www.cabq.gov/automated-speed-enforcement"
       ],
-      "evidence": "Desk reconciliation 2026-09-14: city current list establishes road and travel direction; OSM mapped device lies on the named road at/within the listed site. Matched against OSM road geometry. Coordinate is mapped, not surveyed or drive-tested. ABQ-20 is a research cross-reference only.",
-      "replaces": [
-        "osm-node-12087940067"
-      ],
-      "reviewReference": "ABQ-20"
+      "travelBearing": 180
     },
     {
-      "id": "abq-paseo-barstow-wb",
-      "siteID": "abq-paseo-barstow",
-      "label": "Paseo del Norte west of Barstow \u00b7 WB",
-      "kind": "speed",
+      "evidence": "Desk reconciliation 2026-09-14: city current list establishes road and travel direction; OSM mapped device lies on the named road at/within the listed site. Matched against OSM road geometry. Coordinate is mapped, not surveyed or drive-tested. ABQ-36 is a research cross-reference only.",
       "geometry": [
         {
           "latitude": 35.1747749,
           "longitude": -106.5337798
         }
       ],
-      "travelBearing": 270,
+      "id": "abq-paseo-barstow-wb",
+      "kind": "speed",
+      "label": "Paseo del Norte west of Barstow · WB",
+      "replaces": [
+        "osm-node-14079677763"
+      ],
+      "reviewReference": "ABQ-36",
+      "siteID": "abq-paseo-barstow",
       "sourceIDs": [
         "osm/node/14079677763",
         "https://www.cabq.gov/automated-speed-enforcement"
       ],
-      "evidence": "Desk reconciliation 2026-09-14: city current list establishes road and travel direction; OSM mapped device lies on the named road at/within the listed site. Matched against OSM road geometry. Coordinate is mapped, not surveyed or drive-tested. ABQ-36 is a research cross-reference only.",
-      "replaces": [
-        "osm-node-14079677763"
-      ],
-      "reviewReference": "ABQ-36"
+      "travelBearing": 270
     },
     {
-      "id": "rr-nm528-iris-idalia",
-      "siteID": "rr-nm528-iris-idalia",
-      "label": "NM 528 \u00b7 Iris Road to Idalia Road",
-      "kind": "possibleSpeed",
+      "evidence": "Published mobile deployment corridor, desk-matched 2026-09-14. Geometry follows the mapped NM 528 carriageway between OSM nodes shared with the named cross streets. Both directions may encounter mobile equipment; presence is not live-confirmed. Opposite carriageway is within the warning distance; not a fictitious device coordinate.",
       "geometry": [
         {
           "latitude": 35.2875788,
@@ -505,19 +470,19 @@
           "longitude": -106.5844705
         }
       ],
+      "id": "rr-nm528-iris-idalia",
+      "kind": "possibleSpeed",
+      "label": "NM 528 · Iris Road to Idalia Road",
+      "siteID": "rr-nm528-iris-idalia",
       "sourceIDs": [
         "https://rrnm.gov/1584/STOP-Safe-Traffic-Operations-Program",
         "osm/way/105203432",
         "osm/node/10880675280",
         "osm/node/5788100910"
-      ],
-      "evidence": "Published mobile deployment corridor, desk-matched 2026-09-14. Geometry follows the mapped NM 528 carriageway between OSM nodes shared with the named cross streets. Both directions may encounter mobile equipment; presence is not live-confirmed. Opposite carriageway is within the warning distance; not a fictitious device coordinate."
+      ]
     },
     {
-      "id": "rr-nm528-westside-19th",
-      "siteID": "rr-nm528-westside-19th",
-      "label": "NM 528 \u00b7 Westside Boulevard to 19th Avenue SE",
-      "kind": "possibleSpeed",
+      "evidence": "Published mobile deployment corridor, desk-matched 2026-09-14. Geometry follows the mapped NM 528 carriageway between OSM nodes shared with the named cross streets. Both directions may encounter mobile equipment; presence is not live-confirmed. Opposite carriageway is within the warning distance; not a fictitious device coordinate.",
       "geometry": [
         {
           "latitude": 35.224901,
@@ -556,19 +521,19 @@
           "longitude": -106.6625784
         }
       ],
+      "id": "rr-nm528-westside-19th",
+      "kind": "possibleSpeed",
+      "label": "NM 528 · Westside Boulevard to 19th Avenue SE",
+      "siteID": "rr-nm528-westside-19th",
       "sourceIDs": [
         "https://rrnm.gov/1584/STOP-Safe-Traffic-Operations-Program",
         "osm/way/551708766",
         "osm/node/481478458",
         "osm/node/143754866"
-      ],
-      "evidence": "Published mobile deployment corridor, desk-matched 2026-09-14. Geometry follows the mapped NM 528 carriageway between OSM nodes shared with the named cross streets. Both directions may encounter mobile equipment; presence is not live-confirmed. Opposite carriageway is within the warning distance; not a fictitious device coordinate."
+      ]
     },
     {
-      "id": "rr-nm528-sara-zenith",
-      "siteID": "rr-nm528-sara-zenith",
-      "label": "NM 528 \u00b7 Sara Road to Zenith Court",
-      "kind": "possibleSpeed",
+      "evidence": "Published mobile deployment corridor, desk-matched 2026-09-14. Continuous directed NM 528 road chain from its Sara Road junction to its Zenith Court junction, traced from OSM road geometry. Both directions may encounter mobile equipment; no live presence confirmation or field test.",
       "geometry": [
         {
           "latitude": 35.2313731,
@@ -911,6 +876,10 @@
           "longitude": -106.6143886
         }
       ],
+      "id": "rr-nm528-sara-zenith",
+      "kind": "possibleSpeed",
+      "label": "NM 528 · Sara Road to Zenith Court",
+      "siteID": "rr-nm528-sara-zenith",
       "sourceIDs": [
         "https://rrnm.gov/1584/STOP-Safe-Traffic-Operations-Program",
         "osm/way/133136623",
@@ -929,55 +898,51 @@
         "osm/way/1455048389",
         "osm/node/143694542",
         "osm/node/143790152"
-      ],
-      "evidence": "Published mobile deployment corridor, desk-matched 2026-09-14. Continuous directed NM 528 road chain from its Sara Road junction to its Zenith Court junction, traced from OSM road geometry. Both directions may encounter mobile equipment; no live presence confirmation or field test."
+      ]
     },
     {
-      "id": "bernco-golf-course-congress-sutton",
-      "siteID": "bernco-golf-course-congress-sutton",
-      "label": "Golf Course \u00b7 Congress Avenue to Sutton Place",
-      "kind": "speed",
+      "evidence": "Desk reconciliation 2026-09-14: county installed-site list and OSM mapped speed-camera point agree on the named road segment. Golf Course is listed for both travel directions; Bridge record is westbound only. Fixed classification follows the installed-site section separate from mobile deployments. Not field-tested.",
       "geometry": [
         {
           "latitude": 35.1939793,
           "longitude": -106.6797423
         }
       ],
+      "id": "bernco-golf-course-congress-sutton",
+      "kind": "speed",
+      "label": "Golf Course · Congress Avenue to Sutton Place",
+      "replaces": [
+        "osm-node-12087940066"
+      ],
+      "siteID": "bernco-golf-course-congress-sutton",
       "sourceIDs": [
         "osm/node/12087940066",
         "https://www.bernco.gov/public-works/automated-photo-speed-enforcement/"
-      ],
-      "evidence": "Desk reconciliation 2026-09-14: county installed-site list and OSM mapped speed-camera point agree on the named road segment. Golf Course is listed for both travel directions; Bridge record is westbound only. Fixed classification follows the installed-site section separate from mobile deployments. Not field-tested.",
-      "replaces": [
-        "osm-node-12087940066"
       ]
     },
     {
-      "id": "bernco-bridge-old-coors-atrisco-wb",
-      "siteID": "bernco-bridge-old-coors-atrisco",
-      "label": "Bridge \u00b7 Old Coors to Atrisco \u00b7 WB",
-      "kind": "speed",
+      "evidence": "Desk reconciliation 2026-09-14: county installed-site list and OSM mapped speed-camera point agree on the named road segment. Golf Course is listed for both travel directions; Bridge record is westbound only. Fixed classification follows the installed-site section separate from mobile deployments. Not field-tested.",
       "geometry": [
         {
           "latitude": 35.0670176,
           "longitude": -106.6957764
         }
       ],
+      "id": "bernco-bridge-old-coors-atrisco-wb",
+      "kind": "speed",
+      "label": "Bridge · Old Coors to Atrisco · WB",
+      "replaces": [
+        "osm-node-12861865379"
+      ],
+      "siteID": "bernco-bridge-old-coors-atrisco",
       "sourceIDs": [
         "osm/node/12861865379",
         "https://www.bernco.gov/public-works/automated-photo-speed-enforcement/"
       ],
-      "evidence": "Desk reconciliation 2026-09-14: county installed-site list and OSM mapped speed-camera point agree on the named road segment. Golf Course is listed for both travel directions; Bridge record is westbound only. Fixed classification follows the installed-site section separate from mobile deployments. Not field-tested.",
-      "replaces": [
-        "osm-node-12861865379"
-      ],
       "travelBearing": 270
     },
     {
-      "id": "abq-coors-st-joseph-possible-nb",
-      "siteID": "abq-coors-st-joseph",
-      "label": "Coors north of St. Joseph \u00b7 NB \u00b7 approximate area",
-      "kind": "possibleSpeed",
+      "evidence": "City current list entries ABQ-37/38 establish fixed cameras in both travel directions, dated 2026-07-29, but give no device coordinates. OSM road geometry desk-reviewed 2026-09-14. This is an explicitly approximate warning area following about 750 m of Coors north of the mapped St Joseph intersection, not a camera point or official enforcement boundary. Exact hardware location and road-test acceptance remain pending.",
       "geometry": [
         {
           "latitude": 35.1280454,
@@ -1024,19 +989,19 @@
           "longitude": -106.7015259
         }
       ],
-      "travelBearing": 0,
+      "id": "abq-coors-st-joseph-possible-nb",
+      "kind": "possibleSpeed",
+      "label": "Coors north of St. Joseph · NB · approximate area",
+      "reviewReference": "ABQ-37",
+      "siteID": "abq-coors-st-joseph",
       "sourceIDs": [
         "https://www.cabq.gov/automated-speed-enforcement",
         "osm/way/182464508"
       ],
-      "evidence": "City current list entries ABQ-37/38 establish fixed cameras in both travel directions, dated 2026-07-29, but give no device coordinates. OSM road geometry desk-reviewed 2026-09-14. This is an explicitly approximate warning area following about 750 m of Coors north of the mapped St Joseph intersection, not a camera point or official enforcement boundary. Exact hardware location and road-test acceptance remain pending.",
-      "reviewReference": "ABQ-37"
+      "travelBearing": 0
     },
     {
-      "id": "abq-coors-st-joseph-possible-sb",
-      "siteID": "abq-coors-st-joseph",
-      "label": "Coors north of St. Joseph \u00b7 SB \u00b7 approximate area",
-      "kind": "possibleSpeed",
+      "evidence": "City current list entries ABQ-37/38 establish fixed cameras in both travel directions, dated 2026-07-29, but give no device coordinates. OSM road geometry desk-reviewed 2026-09-14. This is an explicitly approximate warning area following about 750 m of Coors north of the mapped St Joseph intersection, not a camera point or official enforcement boundary. Exact hardware location and road-test acceptance remain pending.",
       "geometry": [
         {
           "latitude": 35.1347804,
@@ -1075,19 +1040,19 @@
           "longitude": -106.7017377
         }
       ],
-      "travelBearing": 180,
+      "id": "abq-coors-st-joseph-possible-sb",
+      "kind": "possibleSpeed",
+      "label": "Coors north of St. Joseph · SB · approximate area",
+      "reviewReference": "ABQ-38",
+      "siteID": "abq-coors-st-joseph",
       "sourceIDs": [
         "https://www.cabq.gov/automated-speed-enforcement",
         "osm/way/102368561"
       ],
-      "evidence": "City current list entries ABQ-37/38 establish fixed cameras in both travel directions, dated 2026-07-29, but give no device coordinates. OSM road geometry desk-reviewed 2026-09-14. This is an explicitly approximate warning area following about 750 m of Coors north of the mapped St Joseph intersection, not a camera point or official enforcement boundary. Exact hardware location and road-test acceptance remain pending.",
-      "reviewReference": "ABQ-38"
+      "travelBearing": 180
     },
     {
-      "id": "abq-montgomery-jennifer-possible-wb",
-      "siteID": "abq-montgomery-jennifer",
-      "label": "Montgomery and Jennifer \u00b7 WB \u00b7 approximate area",
-      "kind": "possibleSpeed",
+      "evidence": "ABQ-09 desk reconciliation 2026-09-14: city current list establishes fixed-camera site and monitored direction; exact device coordinate is unverified. Uses 250 m of the monitored carriageway on each side of the reviewed cross-street anchor. Reviewed road length 500.0 m. This is an approximate app warning area, not a surveyed device position or official enforcement boundary. OSM road geometry and junction evidence are retained in Data/Review/albuquerque-road-areas.json. Physical acceptance remains pending.",
       "geometry": [
         {
           "latitude": 35.13078355960097,
@@ -1122,8 +1087,11 @@
           "longitude": -106.55777845100262
         }
       ],
-      "travelBearing": 270,
+      "id": "abq-montgomery-jennifer-possible-wb",
+      "kind": "possibleSpeed",
+      "label": "Montgomery and Jennifer · WB · approximate area",
       "reviewReference": "ABQ-09",
+      "siteID": "abq-montgomery-jennifer",
       "sourceIDs": [
         "https://www.cabq.gov/automated-speed-enforcement",
         "osm/way/624119061",
@@ -1134,13 +1102,10 @@
         "osm/way/14414956",
         "osm/way/1368959436"
       ],
-      "evidence": "ABQ-09 desk reconciliation 2026-09-14: city current list establishes fixed-camera site and monitored direction; exact device coordinate is unverified. Uses 250 m of the monitored carriageway on each side of the reviewed cross-street anchor. Reviewed road length 500.0 m. This is an approximate app warning area, not a surveyed device position or official enforcement boundary. OSM road geometry and junction evidence are retained in Data/Review/albuquerque-road-areas.json. Physical acceptance remains pending."
+      "travelBearing": 270
     },
     {
-      "id": "abq-cesar-chavez-walter-possible-eb",
-      "siteID": "abq-cesar-chavez-walter",
-      "label": "Avenida Cesar Chavez and Walter \u00b7 EB \u00b7 approximate area",
-      "kind": "possibleSpeed",
+      "evidence": "ABQ-12 desk reconciliation 2026-09-14: city current list establishes fixed-camera site and monitored direction; exact device coordinate is unverified. Uses 250 m of the monitored carriageway on each side of the reviewed cross-street anchor. Reviewed road length 500.0 m. This is an approximate app warning area, not a surveyed device position or official enforcement boundary. OSM road geometry and junction evidence are retained in Data/Review/albuquerque-road-areas.json. Physical acceptance remains pending.",
       "geometry": [
         {
           "latitude": 35.06961841607528,
@@ -1199,8 +1164,11 @@
           "longitude": -106.63915974967883
         }
       ],
-      "travelBearing": 90,
+      "id": "abq-cesar-chavez-walter-possible-eb",
+      "kind": "possibleSpeed",
+      "label": "Avenida Cesar Chavez and Walter · EB · approximate area",
       "reviewReference": "ABQ-12",
+      "siteID": "abq-cesar-chavez-walter",
       "sourceIDs": [
         "https://www.cabq.gov/automated-speed-enforcement",
         "osm/way/172936676",
@@ -1208,13 +1176,10 @@
         "osm/way/1473399041",
         "osm/way/1479517829"
       ],
-      "evidence": "ABQ-12 desk reconciliation 2026-09-14: city current list establishes fixed-camera site and monitored direction; exact device coordinate is unverified. Uses 250 m of the monitored carriageway on each side of the reviewed cross-street anchor. Reviewed road length 500.0 m. This is an approximate app warning area, not a surveyed device position or official enforcement boundary. OSM road geometry and junction evidence are retained in Data/Review/albuquerque-road-areas.json. Physical acceptance remains pending."
+      "travelBearing": 90
     },
     {
-      "id": "abq-central-louisiana-san-pedro-possible-eb",
-      "siteID": "abq-central-louisiana-san-pedro",
-      "label": "Central between Louisiana and San Pedro \u00b7 EB \u00b7 approximate area",
-      "kind": "possibleSpeed",
+      "evidence": "ABQ-21 desk reconciliation 2026-09-14: city current list establishes fixed-camera site and monitored direction; exact device coordinate is unverified. Follows the named road between the two listed cross streets. Reviewed road length 818.7 m. This is an approximate app warning area, not a surveyed device position or official enforcement boundary. OSM road geometry and junction evidence are retained in Data/Review/albuquerque-road-areas.json. Physical acceptance remains pending. The cross street does not share a node with the monitored carriageway; the reviewed real road anchor is 15.4 m from its closest mapped vertex.",
       "geometry": [
         {
           "latitude": 35.076773,
@@ -1325,8 +1290,11 @@
           "longitude": -106.568572
         }
       ],
-      "travelBearing": 90,
+      "id": "abq-central-louisiana-san-pedro-possible-eb",
+      "kind": "possibleSpeed",
+      "label": "Central between Louisiana and San Pedro · EB · approximate area",
       "reviewReference": "ABQ-21",
+      "siteID": "abq-central-louisiana-san-pedro",
       "sourceIDs": [
         "https://www.cabq.gov/automated-speed-enforcement",
         "osm/way/587564604",
@@ -1339,13 +1307,10 @@
         "osm/way/552034133",
         "osm/way/1443392379"
       ],
-      "evidence": "ABQ-21 desk reconciliation 2026-09-14: city current list establishes fixed-camera site and monitored direction; exact device coordinate is unverified. Follows the named road between the two listed cross streets. Reviewed road length 818.7 m. This is an approximate app warning area, not a surveyed device position or official enforcement boundary. OSM road geometry and junction evidence are retained in Data/Review/albuquerque-road-areas.json. Physical acceptance remains pending. The cross street does not share a node with the monitored carriageway; the reviewed real road anchor is 15.4 m from its closest mapped vertex."
+      "travelBearing": 90
     },
     {
-      "id": "abq-central-louisiana-san-pedro-possible-wb",
-      "siteID": "abq-central-louisiana-san-pedro",
-      "label": "Central between Louisiana and San Pedro \u00b7 WB \u00b7 approximate area",
-      "kind": "possibleSpeed",
+      "evidence": "ABQ-22 desk reconciliation 2026-09-14: city current list establishes fixed-camera site and monitored direction; exact device coordinate is unverified. Follows the named road between the two listed cross streets. Reviewed road length 819.0 m. This is an approximate app warning area, not a surveyed device position or official enforcement boundary. OSM road geometry and junction evidence are retained in Data/Review/albuquerque-road-areas.json. Physical acceptance remains pending.",
       "geometry": [
         {
           "latitude": 35.0759362,
@@ -1432,8 +1397,11 @@
           "longitude": -106.577491
         }
       ],
-      "travelBearing": 270,
+      "id": "abq-central-louisiana-san-pedro-possible-wb",
+      "kind": "possibleSpeed",
+      "label": "Central between Louisiana and San Pedro · WB · approximate area",
       "reviewReference": "ABQ-22",
+      "siteID": "abq-central-louisiana-san-pedro",
       "sourceIDs": [
         "https://www.cabq.gov/automated-speed-enforcement",
         "osm/way/48489645",
@@ -1441,13 +1409,10 @@
         "osm/way/927875478",
         "osm/way/1387946736"
       ],
-      "evidence": "ABQ-22 desk reconciliation 2026-09-14: city current list establishes fixed-camera site and monitored direction; exact device coordinate is unverified. Follows the named road between the two listed cross streets. Reviewed road length 819.0 m. This is an approximate app warning area, not a surveyed device position or official enforcement boundary. OSM road geometry and junction evidence are retained in Data/Review/albuquerque-road-areas.json. Physical acceptance remains pending."
+      "travelBearing": 270
     },
     {
-      "id": "abq-carlisle-hilton-delamar-possible-sb",
-      "siteID": "abq-carlisle-hilton-delamar",
-      "label": "Carlisle between Hilton and Delamar \u00b7 SB \u00b7 approximate area",
-      "kind": "possibleSpeed",
+      "evidence": "ABQ-23 desk reconciliation 2026-09-14: city current list establishes fixed-camera site and monitored direction; exact device coordinate is unverified. Follows the named road between the two listed cross streets. Reviewed road length 145.3 m. This is an approximate app warning area, not a surveyed device position or official enforcement boundary. OSM road geometry and junction evidence are retained in Data/Review/albuquerque-road-areas.json. Physical acceptance remains pending. City summary says Delmar, but its system test certificate identifies Delamar Avenue; the latter matches Carlisle and is used here.",
       "geometry": [
         {
           "latitude": 35.1283832,
@@ -1470,8 +1435,11 @@
           "longitude": -106.6042054
         }
       ],
-      "travelBearing": 180,
+      "id": "abq-carlisle-hilton-delamar-possible-sb",
+      "kind": "possibleSpeed",
+      "label": "Carlisle between Hilton and Delamar · SB · approximate area",
       "reviewReference": "ABQ-23",
+      "siteID": "abq-carlisle-hilton-delamar",
       "sourceIDs": [
         "https://www.cabq.gov/automated-speed-enforcement",
         "https://www.cabq.gov/automated-speed-enforcement/documents/carlisle-at-delmar-4117-test-4f2c1-01-29-26.pdf",
@@ -1482,13 +1450,10 @@
         "osm/way/1474651377",
         "osm/way/1474651599"
       ],
-      "evidence": "ABQ-23 desk reconciliation 2026-09-14: city current list establishes fixed-camera site and monitored direction; exact device coordinate is unverified. Follows the named road between the two listed cross streets. Reviewed road length 145.3 m. This is an approximate app warning area, not a surveyed device position or official enforcement boundary. OSM road geometry and junction evidence are retained in Data/Review/albuquerque-road-areas.json. Physical acceptance remains pending. City summary says Delmar, but its system test certificate identifies Delamar Avenue; the latter matches Carlisle and is used here."
+      "travelBearing": 180
     },
     {
-      "id": "abq-lead-bryn-mawr-possible-wb",
-      "siteID": "abq-lead-bryn-mawr",
-      "label": "Lead near Bryn Mawr \u00b7 WB \u00b7 approximate area",
-      "kind": "possibleSpeed",
+      "evidence": "ABQ-24 desk reconciliation 2026-09-14: city current list establishes fixed-camera site and monitored direction; exact device coordinate is unverified. Uses 250 m of the monitored carriageway on each side of the reviewed cross-street anchor. Reviewed road length 500.0 m. This is an approximate app warning area, not a surveyed device position or official enforcement boundary. OSM road geometry and junction evidence are retained in Data/Review/albuquerque-road-areas.json. Physical acceptance remains pending.",
       "geometry": [
         {
           "latitude": 35.077275220274075,
@@ -1575,107 +1540,48 @@
           "longitude": -106.61231229891885
         }
       ],
-      "travelBearing": 270,
+      "id": "abq-lead-bryn-mawr-possible-wb",
+      "kind": "possibleSpeed",
+      "label": "Lead near Bryn Mawr · WB · approximate area",
       "reviewReference": "ABQ-24",
+      "siteID": "abq-lead-bryn-mawr",
       "sourceIDs": [
         "https://www.cabq.gov/automated-speed-enforcement",
         "osm/way/14407793",
         "osm/way/14418755"
       ],
-      "evidence": "ABQ-24 desk reconciliation 2026-09-14: city current list establishes fixed-camera site and monitored direction; exact device coordinate is unverified. Uses 250 m of the monitored carriageway on each side of the reviewed cross-street anchor. Reviewed road length 500.0 m. This is an approximate app warning area, not a surveyed device position or official enforcement boundary. OSM road geometry and junction evidence are retained in Data/Review/albuquerque-road-areas.json. Physical acceptance remains pending."
+      "travelBearing": 270
     },
     {
-      "id": "abq-eubank-sierra-vista-possible-sb",
-      "siteID": "abq-eubank-sierra-vista",
-      "label": "Eubank near Sierra Vista \u00b7 SB \u00b7 approximate area",
-      "kind": "possibleSpeed",
+      "evidence": "Desk reconciliation 2026-09-14: city list and Eubank/Sierra Vista test certificate establish this southbound installation. OSM device node lies 6.7 m from the southbound Eubank carriageway, 23 m south of Sierra Vista Court. Replaces the previous approximate area under the same app ID. Mapped position, not surveyed or drive-tested.",
       "geometry": [
         {
-          "latitude": 35.1285204,
-          "longitude": -106.5334341
-        },
-        {
-          "latitude": 35.1282606,
-          "longitude": -106.5334325
-        },
-        {
-          "latitude": 35.1280448,
-          "longitude": -106.5334312
-        },
-        {
-          "latitude": 35.1278419,
-          "longitude": -106.5334302
-        },
-        {
-          "latitude": 35.1271586,
-          "longitude": -106.5334263
-        },
-        {
-          "latitude": 35.1270309,
-          "longitude": -106.5334256
-        },
-        {
-          "latitude": 35.1269539,
-          "longitude": -106.5334249
-        },
-        {
-          "latitude": 35.1263467,
-          "longitude": -106.5334242
-        },
-        {
-          "latitude": 35.1257441,
-          "longitude": -106.533418
-        },
-        {
-          "latitude": 35.1252353,
-          "longitude": -106.5334132
-        },
-        {
-          "latitude": 35.1241407,
-          "longitude": -106.5334033
-        },
-        {
-          "latitude": 35.1235284,
-          "longitude": -106.533406
-        },
-        {
-          "latitude": 35.1234599,
-          "longitude": -106.5334075
-        },
-        {
-          "latitude": 35.1233604,
-          "longitude": -106.5334093
-        },
-        {
-          "latitude": 35.1233039,
-          "longitude": -106.533408
-        },
-        {
-          "latitude": 35.1229586,
-          "longitude": -106.5334031
-        },
-        {
-          "latitude": 35.121775715495716,
-          "longitude": -106.53338640159527
+          "latitude": 35.1283166,
+          "longitude": -106.5335065
         }
       ],
-      "travelBearing": 180,
+      "id": "abq-eubank-sierra-vista-possible-sb",
+      "kind": "speed",
+      "label": "Eubank just south of Sierra Vista Court · SB",
+      "positionPrecision": "reviewed-osm-device",
+      "replaces": [
+        "osm-node-13921481508"
+      ],
       "reviewReference": "ABQ-25",
+      "siteID": "abq-eubank-sierra-vista",
       "sourceIDs": [
         "https://www.cabq.gov/automated-speed-enforcement",
         "https://www.cabq.gov/automated-speed-enforcement/documents/eubank-at-sierra-vista-1262-test-s4e84e-02-06-26.pdf",
         "osm/way/1478493562",
         "osm/way/1478493671",
         "osm/way/1478493672",
-        "osm/way/14426055"
+        "osm/way/14426055",
+        "osm/node/13921481508"
       ],
-      "evidence": "ABQ-25 desk reconciliation 2026-09-14: city current list establishes fixed-camera site and monitored direction; exact device coordinate is unverified. Uses 750 m along the monitored carriageway on the documented side of the cross street. Reviewed road length 750.0 m. This is an approximate app warning area, not a surveyed device position or official enforcement boundary. OSM road geometry and junction evidence are retained in Data/Review/albuquerque-road-areas.json. Physical acceptance remains pending. The system test certificate identifies Sierra Vista Court and places the installation just south of it."
+      "travelBearing": 180
     },
     {
-      "id": "abq-broadway-iron-coal-possible-nb",
-      "siteID": "abq-broadway-iron-coal",
-      "label": "Broadway between Iron and Coal \u00b7 NB \u00b7 approximate area",
-      "kind": "possibleSpeed",
+      "evidence": "ABQ-26 desk reconciliation 2026-09-14: city current list establishes fixed-camera site and monitored direction; exact device coordinate is unverified. Follows the named road between the two listed cross streets. Reviewed road length 112.8 m. This is an approximate app warning area, not a surveyed device position or official enforcement boundary. OSM road geometry and junction evidence are retained in Data/Review/albuquerque-road-areas.json. Physical acceptance remains pending.",
       "geometry": [
         {
           "latitude": 35.078754,
@@ -1694,8 +1600,11 @@
           "longitude": -106.6453402
         }
       ],
-      "travelBearing": 0,
+      "id": "abq-broadway-iron-coal-possible-nb",
+      "kind": "possibleSpeed",
+      "label": "Broadway between Iron and Coal · NB · approximate area",
       "reviewReference": "ABQ-26",
+      "siteID": "abq-broadway-iron-coal",
       "sourceIDs": [
         "https://www.cabq.gov/automated-speed-enforcement",
         "osm/way/14422165",
@@ -1703,13 +1612,10 @@
         "osm/way/14423239",
         "osm/way/172529240"
       ],
-      "evidence": "ABQ-26 desk reconciliation 2026-09-14: city current list establishes fixed-camera site and monitored direction; exact device coordinate is unverified. Follows the named road between the two listed cross streets. Reviewed road length 112.8 m. This is an approximate app warning area, not a surveyed device position or official enforcement boundary. OSM road geometry and junction evidence are retained in Data/Review/albuquerque-road-areas.json. Physical acceptance remains pending."
+      "travelBearing": 0
     },
     {
-      "id": "abq-unser-old-ouray-possible-nb",
-      "siteID": "abq-unser-old-ouray",
-      "label": "Unser near Old Ouray \u00b7 NB \u00b7 approximate area",
-      "kind": "possibleSpeed",
+      "evidence": "ABQ-27 desk reconciliation 2026-09-14: city current list establishes fixed-camera site and monitored direction; exact device coordinate is unverified. Uses 250 m of the monitored carriageway on each side of the reviewed cross-street anchor. Reviewed road length 500.0 m. This is an approximate app warning area, not a surveyed device position or official enforcement boundary. OSM road geometry and junction evidence are retained in Data/Review/albuquerque-road-areas.json. Physical acceptance remains pending. The cross street does not share a node with the monitored carriageway; the reviewed real road anchor is 23.6 m from its closest mapped vertex.",
       "geometry": [
         {
           "latitude": 35.1104514259222,
@@ -1780,20 +1686,20 @@
           "longitude": -106.73039799701661
         }
       ],
-      "travelBearing": 0,
+      "id": "abq-unser-old-ouray-possible-nb",
+      "kind": "possibleSpeed",
+      "label": "Unser near Old Ouray · NB · approximate area",
       "reviewReference": "ABQ-27",
+      "siteID": "abq-unser-old-ouray",
       "sourceIDs": [
         "https://www.cabq.gov/automated-speed-enforcement",
         "osm/way/1371054943",
         "osm/way/14420980"
       ],
-      "evidence": "ABQ-27 desk reconciliation 2026-09-14: city current list establishes fixed-camera site and monitored direction; exact device coordinate is unverified. Uses 250 m of the monitored carriageway on each side of the reviewed cross-street anchor. Reviewed road length 500.0 m. This is an approximate app warning area, not a surveyed device position or official enforcement boundary. OSM road geometry and junction evidence are retained in Data/Review/albuquerque-road-areas.json. Physical acceptance remains pending. The cross street does not share a node with the monitored carriageway; the reviewed real road anchor is 23.6 m from its closest mapped vertex."
+      "travelBearing": 0
     },
     {
-      "id": "abq-juan-tabo-copper-possible-sb",
-      "siteID": "abq-juan-tabo-copper",
-      "label": "Juan Tabo near Copper \u00b7 SB \u00b7 approximate area",
-      "kind": "possibleSpeed",
+      "evidence": "ABQ-28 desk reconciliation 2026-09-14: city current list establishes fixed-camera site and monitored direction; exact device coordinate is unverified. Uses 750 m along the monitored carriageway on the documented side of the cross street. Reviewed road length 750.0 m. This is an approximate app warning area, not a surveyed device position or official enforcement boundary. OSM road geometry and junction evidence are retained in Data/Review/albuquerque-road-areas.json. Physical acceptance remains pending. The city supporting-documents index specifies north of Copper.",
       "geometry": [
         {
           "latitude": 35.086234124573686,
@@ -1868,8 +1774,11 @@
           "longitude": -106.515259
         }
       ],
-      "travelBearing": 180,
+      "id": "abq-juan-tabo-copper-possible-sb",
+      "kind": "possibleSpeed",
+      "label": "Juan Tabo near Copper · SB · approximate area",
       "reviewReference": "ABQ-28",
+      "siteID": "abq-juan-tabo-copper",
       "sourceIDs": [
         "https://www.cabq.gov/automated-speed-enforcement",
         "https://www.cabq.gov/automated-speed-enforcement/ase-documents",
@@ -1877,13 +1786,10 @@
         "osm/way/14416001",
         "osm/way/741148220"
       ],
-      "evidence": "ABQ-28 desk reconciliation 2026-09-14: city current list establishes fixed-camera site and monitored direction; exact device coordinate is unverified. Uses 750 m along the monitored carriageway on the documented side of the cross street. Reviewed road length 750.0 m. This is an approximate app warning area, not a surveyed device position or official enforcement boundary. OSM road geometry and junction evidence are retained in Data/Review/albuquerque-road-areas.json. Physical acceptance remains pending. The city supporting-documents index specifies north of Copper."
+      "travelBearing": 180
     },
     {
-      "id": "abq-zuni-mesilla-espanola-possible-wb",
-      "siteID": "abq-zuni-mesilla-espanola",
-      "label": "Zuni between Mesilla and Espanola \u00b7 WB \u00b7 approximate area",
-      "kind": "possibleSpeed",
+      "evidence": "ABQ-29 desk reconciliation 2026-09-14: city current list establishes fixed-camera site and monitored direction; exact device coordinate is unverified. Follows the named road between the two listed cross streets. Reviewed road length 87.5 m. This is an approximate app warning area, not a surveyed device position or official enforcement boundary. OSM road geometry and junction evidence are retained in Data/Review/albuquerque-road-areas.json. Physical acceptance remains pending.",
       "geometry": [
         {
           "latitude": 35.0727202,
@@ -1894,21 +1800,21 @@
           "longitude": -106.565373
         }
       ],
-      "travelBearing": 270,
+      "id": "abq-zuni-mesilla-espanola-possible-wb",
+      "kind": "possibleSpeed",
+      "label": "Zuni between Mesilla and Espanola · WB · approximate area",
       "reviewReference": "ABQ-29",
+      "siteID": "abq-zuni-mesilla-espanola",
       "sourceIDs": [
         "https://www.cabq.gov/automated-speed-enforcement",
         "osm/way/349950458",
         "osm/way/14418882",
         "osm/way/334627113"
       ],
-      "evidence": "ABQ-29 desk reconciliation 2026-09-14: city current list establishes fixed-camera site and monitored direction; exact device coordinate is unverified. Follows the named road between the two listed cross streets. Reviewed road length 87.5 m. This is an approximate app warning area, not a surveyed device position or official enforcement boundary. OSM road geometry and junction evidence are retained in Data/Review/albuquerque-road-areas.json. Physical acceptance remains pending."
+      "travelBearing": 270
     },
     {
-      "id": "abq-menaul-vassar-possible-wb",
-      "siteID": "abq-menaul-vassar",
-      "label": "Menaul west of Vassar \u00b7 WB \u00b7 approximate area",
-      "kind": "possibleSpeed",
+      "evidence": "ABQ-30 desk reconciliation 2026-09-14: city current list establishes fixed-camera site and monitored direction; exact device coordinate is unverified. Uses 750 m along the monitored carriageway on the documented side of the cross street. Reviewed road length 750.0 m. This is an approximate app warning area, not a surveyed device position or official enforcement boundary. OSM road geometry and junction evidence are retained in Data/Review/albuquerque-road-areas.json. Physical acceptance remains pending.",
       "geometry": [
         {
           "latitude": 35.1092765,
@@ -1987,21 +1893,21 @@
           "longitude": -106.62347205842421
         }
       ],
-      "travelBearing": 270,
+      "id": "abq-menaul-vassar-possible-wb",
+      "kind": "possibleSpeed",
+      "label": "Menaul west of Vassar · WB · approximate area",
       "reviewReference": "ABQ-30",
+      "siteID": "abq-menaul-vassar",
       "sourceIDs": [
         "https://www.cabq.gov/automated-speed-enforcement",
         "osm/way/158817078",
         "osm/way/14403175",
         "osm/way/1474651347"
       ],
-      "evidence": "ABQ-30 desk reconciliation 2026-09-14: city current list establishes fixed-camera site and monitored direction; exact device coordinate is unverified. Uses 750 m along the monitored carriageway on the documented side of the cross street. Reviewed road length 750.0 m. This is an approximate app warning area, not a surveyed device position or official enforcement boundary. OSM road geometry and junction evidence are retained in Data/Review/albuquerque-road-areas.json. Physical acceptance remains pending."
+      "travelBearing": 270
     },
     {
-      "id": "abq-unser-gwin-possible-sb",
-      "siteID": "abq-unser-gwin",
-      "label": "Unser near Gwin \u00b7 SB \u00b7 approximate area",
-      "kind": "possibleSpeed",
+      "evidence": "ABQ-31 desk reconciliation 2026-09-14: city current list establishes fixed-camera site and monitored direction; exact device coordinate is unverified. Uses 250 m of the monitored carriageway on each side of the reviewed cross-street anchor. Reviewed road length 500.0 m. This is an approximate app warning area, not a surveyed device position or official enforcement boundary. OSM road geometry and junction evidence are retained in Data/Review/albuquerque-road-areas.json. Physical acceptance remains pending. The cross street does not share a node with the monitored carriageway; the reviewed real road anchor is 20.9 m from its closest mapped vertex.",
       "geometry": [
         {
           "latitude": 35.075878570679905,
@@ -2072,21 +1978,21 @@
           "longitude": -106.72334566325443
         }
       ],
-      "travelBearing": 180,
+      "id": "abq-unser-gwin-possible-sb",
+      "kind": "possibleSpeed",
+      "label": "Unser near Gwin · SB · approximate area",
       "reviewReference": "ABQ-31",
+      "siteID": "abq-unser-gwin",
       "sourceIDs": [
         "https://www.cabq.gov/automated-speed-enforcement",
         "osm/way/158457188",
         "osm/way/741128060",
         "osm/way/14419249"
       ],
-      "evidence": "ABQ-31 desk reconciliation 2026-09-14: city current list establishes fixed-camera site and monitored direction; exact device coordinate is unverified. Uses 250 m of the monitored carriageway on each side of the reviewed cross-street anchor. Reviewed road length 500.0 m. This is an approximate app warning area, not a surveyed device position or official enforcement boundary. OSM road geometry and junction evidence are retained in Data/Review/albuquerque-road-areas.json. Physical acceptance remains pending. The cross street does not share a node with the monitored carriageway; the reviewed real road anchor is 20.9 m from its closest mapped vertex."
+      "travelBearing": 180
     },
     {
-      "id": "abq-fourth-griegos-possible-sb",
-      "siteID": "abq-fourth-griegos",
-      "label": "Fourth Street north of Griegos \u00b7 SB \u00b7 approximate area",
-      "kind": "possibleSpeed",
+      "evidence": "ABQ-32 desk reconciliation 2026-09-14: city current list establishes fixed-camera site and monitored direction; exact device coordinate is unverified. Uses 750 m along the monitored carriageway on the documented side of the cross street. Reviewed road length 750.0 m. This is an approximate app warning area, not a surveyed device position or official enforcement boundary. OSM road geometry and junction evidence are retained in Data/Review/albuquerque-road-areas.json. Physical acceptance remains pending.",
       "geometry": [
         {
           "latitude": 35.137051650234795,
@@ -2233,8 +2139,11 @@
           "longitude": -106.6428506
         }
       ],
-      "travelBearing": 180,
+      "id": "abq-fourth-griegos-possible-sb",
+      "kind": "possibleSpeed",
+      "label": "Fourth Street north of Griegos · SB · approximate area",
       "reviewReference": "ABQ-32",
+      "siteID": "abq-fourth-griegos",
       "sourceIDs": [
         "https://www.cabq.gov/automated-speed-enforcement",
         "osm/way/1416884055",
@@ -2242,13 +2151,10 @@
         "osm/way/575357817",
         "osm/way/1416884056"
       ],
-      "evidence": "ABQ-32 desk reconciliation 2026-09-14: city current list establishes fixed-camera site and monitored direction; exact device coordinate is unverified. Uses 750 m along the monitored carriageway on the documented side of the cross street. Reviewed road length 750.0 m. This is an approximate app warning area, not a surveyed device position or official enforcement boundary. OSM road geometry and junction evidence are retained in Data/Review/albuquerque-road-areas.json. Physical acceptance remains pending."
+      "travelBearing": 180
     },
     {
-      "id": "abq-central-61st-possible-eb",
-      "siteID": "abq-central-61st",
-      "label": "Central near 61st Street \u00b7 EB \u00b7 approximate area",
-      "kind": "possibleSpeed",
+      "evidence": "ABQ-33 desk reconciliation 2026-09-14: city current list establishes fixed-camera site and monitored direction; exact device coordinate is unverified. Uses 250 m of the monitored carriageway on each side of the reviewed cross-street anchor. Reviewed road length 500.0 m. This is an approximate app warning area, not a surveyed device position or official enforcement boundary. OSM road geometry and junction evidence are retained in Data/Review/albuquerque-road-areas.json. Physical acceptance remains pending.",
       "geometry": [
         {
           "latitude": 35.080575568711104,
@@ -2311,8 +2217,11 @@
           "longitude": -106.70215315288064
         }
       ],
-      "travelBearing": 90,
+      "id": "abq-central-61st-possible-eb",
+      "kind": "possibleSpeed",
+      "label": "Central near 61st Street · EB · approximate area",
       "reviewReference": "ABQ-33",
+      "siteID": "abq-central-61st",
       "sourceIDs": [
         "https://www.cabq.gov/automated-speed-enforcement",
         "osm/way/750995623",
@@ -2321,13 +2230,10 @@
         "osm/way/1109849751",
         "osm/way/750995629"
       ],
-      "evidence": "ABQ-33 desk reconciliation 2026-09-14: city current list establishes fixed-camera site and monitored direction; exact device coordinate is unverified. Uses 250 m of the monitored carriageway on each side of the reviewed cross-street anchor. Reviewed road length 500.0 m. This is an approximate app warning area, not a surveyed device position or official enforcement boundary. OSM road geometry and junction evidence are retained in Data/Review/albuquerque-road-areas.json. Physical acceptance remains pending."
+      "travelBearing": 90
     },
     {
-      "id": "abq-central-61st-possible-wb",
-      "siteID": "abq-central-61st",
-      "label": "Central near 61st Street \u00b7 WB \u00b7 approximate area",
-      "kind": "possibleSpeed",
+      "evidence": "ABQ-34 desk reconciliation 2026-09-14: city current list establishes fixed-camera site and monitored direction; exact device coordinate is unverified. Uses 250 m of the monitored carriageway on each side of the reviewed cross-street anchor. Reviewed road length 500.0 m. This is an approximate app warning area, not a surveyed device position or official enforcement boundary. OSM road geometry and junction evidence are retained in Data/Review/albuquerque-road-areas.json. Physical acceptance remains pending. The cross street does not share a node with the monitored carriageway; the reviewed real road anchor is 14.2 m from its closest mapped vertex.",
       "geometry": [
         {
           "latitude": 35.08189841670712,
@@ -2402,8 +2308,11 @@
           "longitude": -106.70750358929476
         }
       ],
-      "travelBearing": 270,
+      "id": "abq-central-61st-possible-wb",
+      "kind": "possibleSpeed",
+      "label": "Central near 61st Street · WB · approximate area",
       "reviewReference": "ABQ-34",
+      "siteID": "abq-central-61st",
       "sourceIDs": [
         "https://www.cabq.gov/automated-speed-enforcement",
         "osm/way/608819258",
@@ -2414,13 +2323,10 @@
         "osm/way/750501357",
         "osm/way/750995629"
       ],
-      "evidence": "ABQ-34 desk reconciliation 2026-09-14: city current list establishes fixed-camera site and monitored direction; exact device coordinate is unverified. Uses 250 m of the monitored carriageway on each side of the reviewed cross-street anchor. Reviewed road length 500.0 m. This is an approximate app warning area, not a surveyed device position or official enforcement boundary. OSM road geometry and junction evidence are retained in Data/Review/albuquerque-road-areas.json. Physical acceptance remains pending. The cross street does not share a node with the monitored carriageway; the reviewed real road anchor is 14.2 m from its closest mapped vertex."
+      "travelBearing": 270
     },
     {
-      "id": "abq-tramway-lomas-possible-sb",
-      "siteID": "abq-tramway-lomas",
-      "label": "Tramway near Lomas \u00b7 SB \u00b7 approximate area",
-      "kind": "possibleSpeed",
+      "evidence": "ABQ-35 desk reconciliation 2026-09-14: city current list establishes fixed-camera site and monitored direction; exact device coordinate is unverified. Uses 250 m of the monitored carriageway on each side of the reviewed cross-street anchor. Reviewed road length 500.0 m. This is an approximate app warning area, not a surveyed device position or official enforcement boundary. OSM road geometry and junction evidence are retained in Data/Review/albuquerque-road-areas.json. Physical acceptance remains pending.",
       "geometry": [
         {
           "latitude": 35.08859466049403,
@@ -2467,21 +2373,21 @@
           "longitude": -106.49734489111371
         }
       ],
-      "travelBearing": 180,
+      "id": "abq-tramway-lomas-possible-sb",
+      "kind": "possibleSpeed",
+      "label": "Tramway near Lomas · SB · approximate area",
       "reviewReference": "ABQ-35",
+      "siteID": "abq-tramway-lomas",
       "sourceIDs": [
         "https://www.cabq.gov/automated-speed-enforcement",
         "osm/way/247947381",
         "osm/way/706094877",
         "osm/way/168650606"
       ],
-      "evidence": "ABQ-35 desk reconciliation 2026-09-14: city current list establishes fixed-camera site and monitored direction; exact device coordinate is unverified. Uses 250 m of the monitored carriageway on each side of the reviewed cross-street anchor. Reviewed road length 500.0 m. This is an approximate app warning area, not a surveyed device position or official enforcement boundary. OSM road geometry and junction evidence are retained in Data/Review/albuquerque-road-areas.json. Physical acceptance remains pending."
+      "travelBearing": 180
     },
     {
-      "id": "abq-central-texas-possible-wb",
-      "siteID": "abq-central-texas",
-      "label": "Central at Texas \u00b7 WB \u00b7 approximate area",
-      "kind": "possibleSpeed",
+      "evidence": "ABQ-39 desk reconciliation 2026-09-14: city current list establishes fixed-camera site and monitored direction; exact device coordinate is unverified. Uses 250 m of the monitored carriageway on each side of the reviewed cross-street anchor. Reviewed road length 500.0 m. This is an approximate app warning area, not a surveyed device position or official enforcement boundary. OSM road geometry and junction evidence are retained in Data/Review/albuquerque-road-areas.json. Physical acceptance remains pending.",
       "geometry": [
         {
           "latitude": 35.07428881229617,
@@ -2524,21 +2430,21 @@
           "longitude": -106.55868228438013
         }
       ],
-      "travelBearing": 270,
+      "id": "abq-central-texas-possible-wb",
+      "kind": "possibleSpeed",
+      "label": "Central at Texas · WB · approximate area",
       "reviewReference": "ABQ-39",
+      "siteID": "abq-central-texas",
       "sourceIDs": [
         "https://www.cabq.gov/automated-speed-enforcement",
         "osm/way/162050342",
         "osm/way/14409224",
         "osm/way/1478741025"
       ],
-      "evidence": "ABQ-39 desk reconciliation 2026-09-14: city current list establishes fixed-camera site and monitored direction; exact device coordinate is unverified. Uses 250 m of the monitored carriageway on each side of the reviewed cross-street anchor. Reviewed road length 500.0 m. This is an approximate app warning area, not a surveyed device position or official enforcement boundary. OSM road geometry and junction evidence are retained in Data/Review/albuquerque-road-areas.json. Physical acceptance remains pending."
+      "travelBearing": 270
     },
     {
-      "id": "abq-louisiana-marquette-possible-nb",
-      "siteID": "abq-louisiana-marquette",
-      "label": "Louisiana near Marquette \u00b7 NB \u00b7 approximate area",
-      "kind": "possibleSpeed",
+      "evidence": "ABQ-40 desk reconciliation 2026-09-14: city current list establishes fixed-camera site and monitored direction; exact device coordinate is unverified. Uses 250 m of the monitored carriageway on each side of the reviewed cross-street anchor. Reviewed road length 500.0 m. This is an approximate app warning area, not a surveyed device position or official enforcement boundary. OSM road geometry and junction evidence are retained in Data/Review/albuquerque-road-areas.json. Physical acceptance remains pending.",
       "geometry": [
         {
           "latitude": 35.08131453121161,
@@ -2577,15 +2483,1072 @@
           "longitude": -106.56861997493768
         }
       ],
-      "travelBearing": 0,
+      "id": "abq-louisiana-marquette-possible-nb",
+      "kind": "possibleSpeed",
+      "label": "Louisiana near Marquette · NB · approximate area",
       "reviewReference": "ABQ-40",
+      "siteID": "abq-louisiana-marquette",
       "sourceIDs": [
         "https://www.cabq.gov/automated-speed-enforcement",
         "osm/way/14424917",
         "osm/way/202446478",
         "osm/way/14414503"
       ],
-      "evidence": "ABQ-40 desk reconciliation 2026-09-14: city current list establishes fixed-camera site and monitored direction; exact device coordinate is unverified. Uses 250 m of the monitored carriageway on each side of the reviewed cross-street anchor. Reviewed road length 500.0 m. This is an approximate app warning area, not a surveyed device position or official enforcement boundary. OSM road geometry and junction evidence are retained in Data/Review/albuquerque-road-areas.json. Physical acceptance remains pending."
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Desk reconciliation 2026-09-14: OSM mapped point matches its named local road and cross street. Rio Rancho describes ten rotating local-road units but does not publish their exact live positions. This is a community-mapped possible deployment site, not an agency-confirmed current location or a permanent camera. OSM ref supplies an approach where explicit; direction=forward is not interpreted as a bearing.",
+      "geometry": [
+        {
+          "latitude": 35.2300461,
+          "longitude": -106.6771429
+        }
+      ],
+      "id": "rr-deployment-13380469273",
+      "kind": "possibleSpeed",
+      "label": "Golf Course @ 16th · possible deployment",
+      "positionPrecision": "mapped-possible-deployment",
+      "replaces": [
+        "osm-node-13380469273"
+      ],
+      "siteID": "rr-deployment-13380469273",
+      "sourceIDs": [
+        "osm/node/13380469273",
+        "https://rrnm.gov/1584/STOP-Safe-Traffic-Operations-Program"
+      ]
+    },
+    {
+      "evidence": "Desk reconciliation 2026-09-14: OSM mapped point matches its named local road and cross street. Rio Rancho describes ten rotating local-road units but does not publish their exact live positions. This is a community-mapped possible deployment site, not an agency-confirmed current location or a permanent camera. OSM ref supplies an approach where explicit; direction=forward is not interpreted as a bearing.",
+      "geometry": [
+        {
+          "latitude": 35.2869236,
+          "longitude": -106.6569774
+        }
+      ],
+      "id": "rr-deployment-13380469274",
+      "kind": "possibleSpeed",
+      "label": "Idalia @ Loma Colorado · possible deployment",
+      "positionPrecision": "mapped-possible-deployment",
+      "replaces": [
+        "osm-node-13380469274"
+      ],
+      "siteID": "rr-deployment-13380469274",
+      "sourceIDs": [
+        "osm/node/13380469274",
+        "https://rrnm.gov/1584/STOP-Safe-Traffic-Operations-Program"
+      ]
+    },
+    {
+      "evidence": "Desk reconciliation 2026-09-14: OSM mapped point matches its named local road and cross street. Rio Rancho describes ten rotating local-road units but does not publish their exact live positions. This is a community-mapped possible deployment site, not an agency-confirmed current location or a permanent camera. OSM ref supplies an approach where explicit; direction=forward is not interpreted as a bearing.",
+      "geometry": [
+        {
+          "latitude": 35.286773,
+          "longitude": -106.6179939
+        }
+      ],
+      "id": "rr-deployment-13380469275",
+      "kind": "possibleSpeed",
+      "label": "Kim @ Saratoga · possible deployment",
+      "positionPrecision": "mapped-possible-deployment",
+      "replaces": [
+        "osm-node-13380469275"
+      ],
+      "siteID": "rr-deployment-13380469275",
+      "sourceIDs": [
+        "osm/node/13380469275",
+        "https://rrnm.gov/1584/STOP-Safe-Traffic-Operations-Program"
+      ]
+    },
+    {
+      "evidence": "Desk reconciliation 2026-09-14: OSM mapped point matches its named local road and cross street. Rio Rancho describes ten rotating local-road units but does not publish their exact live positions. This is a community-mapped possible deployment site, not an agency-confirmed current location or a permanent camera. OSM ref supplies an approach where explicit; direction=forward is not interpreted as a bearing.",
+      "geometry": [
+        {
+          "latitude": 35.2506104,
+          "longitude": -106.6770459
+        }
+      ],
+      "id": "rr-deployment-13380469276",
+      "kind": "possibleSpeed",
+      "label": "Broadmoor SB @ Nicklaus · possible deployment",
+      "positionPrecision": "mapped-possible-deployment",
+      "replaces": [
+        "osm-node-13380469276"
+      ],
+      "siteID": "rr-deployment-13380469276",
+      "sourceIDs": [
+        "osm/node/13380469276",
+        "https://rrnm.gov/1584/STOP-Safe-Traffic-Operations-Program"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Desk reconciliation 2026-09-14: OSM mapped point matches its named local road and cross street. Rio Rancho describes ten rotating local-road units but does not publish their exact live positions. This is a community-mapped possible deployment site, not an agency-confirmed current location or a permanent camera. OSM ref supplies an approach where explicit; direction=forward is not interpreted as a bearing.",
+      "geometry": [
+        {
+          "latitude": 35.2675925,
+          "longitude": -106.6435
+        }
+      ],
+      "id": "rr-deployment-13380469277",
+      "kind": "possibleSpeed",
+      "label": "Rockaway @ Pyrite · possible deployment",
+      "positionPrecision": "mapped-possible-deployment",
+      "replaces": [
+        "osm-node-13380469277"
+      ],
+      "siteID": "rr-deployment-13380469277",
+      "sourceIDs": [
+        "osm/node/13380469277",
+        "https://rrnm.gov/1584/STOP-Safe-Traffic-Operations-Program"
+      ]
+    },
+    {
+      "evidence": "Desk reconciliation 2026-09-14: OSM mapped point matches its named local road and cross street. Rio Rancho describes ten rotating local-road units but does not publish their exact live positions. This is a community-mapped possible deployment site, not an agency-confirmed current location or a permanent camera. OSM ref supplies an approach where explicit; direction=forward is not interpreted as a bearing.",
+      "geometry": [
+        {
+          "latitude": 35.3069325,
+          "longitude": -106.6969369
+        }
+      ],
+      "id": "rr-deployment-13380469278",
+      "kind": "possibleSpeed",
+      "label": "Unser SB @ Paseo del Volcan · possible deployment",
+      "positionPrecision": "mapped-possible-deployment",
+      "replaces": [
+        "osm-node-13380469278"
+      ],
+      "siteID": "rr-deployment-13380469278",
+      "sourceIDs": [
+        "osm/node/13380469278",
+        "https://rrnm.gov/1584/STOP-Safe-Traffic-Operations-Program"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Desk reconciliation 2026-09-14: OSM mapped point matches its named local road and cross street. Rio Rancho describes ten rotating local-road units but does not publish their exact live positions. This is a community-mapped possible deployment site, not an agency-confirmed current location or a permanent camera. OSM ref supplies an approach where explicit; direction=forward is not interpreted as a bearing.",
+      "geometry": [
+        {
+          "latitude": 35.306903,
+          "longitude": -106.6966779
+        }
+      ],
+      "id": "rr-deployment-13380469280",
+      "kind": "possibleSpeed",
+      "label": "Unser NB @ Paseo del Volcan · possible deployment",
+      "positionPrecision": "mapped-possible-deployment",
+      "replaces": [
+        "osm-node-13380469280"
+      ],
+      "siteID": "rr-deployment-13380469280",
+      "sourceIDs": [
+        "osm/node/13380469280",
+        "https://rrnm.gov/1584/STOP-Safe-Traffic-Operations-Program"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Desk reconciliation 2026-09-14: OSM mapped point matches its named local road and cross street. Rio Rancho describes ten rotating local-road units but does not publish their exact live positions. This is a community-mapped possible deployment site, not an agency-confirmed current location or a permanent camera. OSM ref supplies an approach where explicit; direction=forward is not interpreted as a bearing.",
+      "geometry": [
+        {
+          "latitude": 35.2506114,
+          "longitude": -106.6769657
+        }
+      ],
+      "id": "rr-deployment-13380490909",
+      "kind": "possibleSpeed",
+      "label": "Broadmoor NB @ Nicklaus · possible deployment",
+      "positionPrecision": "mapped-possible-deployment",
+      "replaces": [
+        "osm-node-13380490909"
+      ],
+      "siteID": "rr-deployment-13380490909",
+      "sourceIDs": [
+        "osm/node/13380490909",
+        "https://rrnm.gov/1584/STOP-Safe-Traffic-Operations-Program"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Desk reconciliation 2026-09-14: OSM mapped point matches its named local road and cross street. Rio Rancho describes ten rotating local-road units but does not publish their exact live positions. This is a community-mapped possible deployment site, not an agency-confirmed current location or a permanent camera. OSM ref supplies an approach where explicit; direction=forward is not interpreted as a bearing.",
+      "geometry": [
+        {
+          "latitude": 35.256699,
+          "longitude": -106.6968954
+        }
+      ],
+      "id": "rr-deployment-13380490911",
+      "kind": "possibleSpeed",
+      "label": "Unser SB @ 2nd · possible deployment",
+      "positionPrecision": "mapped-possible-deployment",
+      "replaces": [
+        "osm-node-13380490911"
+      ],
+      "siteID": "rr-deployment-13380490911",
+      "sourceIDs": [
+        "osm/node/13380490911",
+        "https://rrnm.gov/1584/STOP-Safe-Traffic-Operations-Program"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Desk reconciliation 2026-09-14: OSM mapped point matches its named local road and cross street. Rio Rancho describes ten rotating local-road units but does not publish their exact live positions. This is a community-mapped possible deployment site, not an agency-confirmed current location or a permanent camera. OSM ref supplies an approach where explicit; direction=forward is not interpreted as a bearing.",
+      "geometry": [
+        {
+          "latitude": 35.256708,
+          "longitude": -106.6967666
+        }
+      ],
+      "id": "rr-deployment-13380490912",
+      "kind": "possibleSpeed",
+      "label": "Unser NB @ 2nd · possible deployment",
+      "positionPrecision": "mapped-possible-deployment",
+      "replaces": [
+        "osm-node-13380490912"
+      ],
+      "siteID": "rr-deployment-13380490912",
+      "sourceIDs": [
+        "osm/node/13380490912",
+        "https://rrnm.gov/1584/STOP-Safe-Traffic-Operations-Program"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Desk reconciliation 2026-09-14: OSM mapped point matches its named local road and cross street. Rio Rancho describes ten rotating local-road units but does not publish their exact live positions. This is a community-mapped possible deployment site, not an agency-confirmed current location or a permanent camera. OSM ref supplies an approach where explicit; direction=forward is not interpreted as a bearing.",
+      "geometry": [
+        {
+          "latitude": 35.2635409,
+          "longitude": -106.6771018
+        }
+      ],
+      "id": "rr-deployment-13380490924",
+      "kind": "possibleSpeed",
+      "label": "Broadmoor SB @ Loma Colorado · possible deployment",
+      "positionPrecision": "mapped-possible-deployment",
+      "replaces": [
+        "osm-node-13380490924"
+      ],
+      "siteID": "rr-deployment-13380490924",
+      "sourceIDs": [
+        "osm/node/13380490924",
+        "https://rrnm.gov/1584/STOP-Safe-Traffic-Operations-Program"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Desk reconciliation 2026-09-14: OSM mapped point matches its named local road and cross street. Rio Rancho describes ten rotating local-road units but does not publish their exact live positions. This is a community-mapped possible deployment site, not an agency-confirmed current location or a permanent camera. OSM ref supplies an approach where explicit; direction=forward is not interpreted as a bearing.",
+      "geometry": [
+        {
+          "latitude": 35.2635477,
+          "longitude": -106.6769406
+        }
+      ],
+      "id": "rr-deployment-13380490925",
+      "kind": "possibleSpeed",
+      "label": "Broadmoor NB @ Loma Colorado · possible deployment",
+      "positionPrecision": "mapped-possible-deployment",
+      "replaces": [
+        "osm-node-13380490925"
+      ],
+      "siteID": "rr-deployment-13380490925",
+      "sourceIDs": [
+        "osm/node/13380490925",
+        "https://rrnm.gov/1584/STOP-Safe-Traffic-Operations-Program"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Desk reconciliation 2026-09-14: OSM mapped point matches its named local road and cross street. Rio Rancho describes ten rotating local-road units but does not publish their exact live positions. This is a community-mapped possible deployment site, not an agency-confirmed current location or a permanent camera. OSM ref supplies an approach where explicit; direction=forward is not interpreted as a bearing.",
+      "geometry": [
+        {
+          "latitude": 35.3151091,
+          "longitude": -106.6989068
+        }
+      ],
+      "id": "rr-deployment-13380490952",
+      "kind": "possibleSpeed",
+      "label": "King WB @ Lake Valley (Unser) · possible deployment",
+      "positionPrecision": "mapped-possible-deployment",
+      "replaces": [
+        "osm-node-13380490952"
+      ],
+      "siteID": "rr-deployment-13380490952",
+      "sourceIDs": [
+        "osm/node/13380490952",
+        "https://rrnm.gov/1584/STOP-Safe-Traffic-Operations-Program"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Desk reconciliation 2026-09-14: OSM mapped point matches its named local road and cross street. Rio Rancho describes ten rotating local-road units but does not publish their exact live positions. This is a community-mapped possible deployment site, not an agency-confirmed current location or a permanent camera. OSM ref supplies an approach where explicit; direction=forward is not interpreted as a bearing.",
+      "geometry": [
+        {
+          "latitude": 35.3149947,
+          "longitude": -106.6989046
+        }
+      ],
+      "id": "rr-deployment-13380490954",
+      "kind": "possibleSpeed",
+      "label": "King EB @ Lake Valley (Unser) · possible deployment",
+      "positionPrecision": "mapped-possible-deployment",
+      "replaces": [
+        "osm-node-13380490954"
+      ],
+      "siteID": "rr-deployment-13380490954",
+      "sourceIDs": [
+        "osm/node/13380490954",
+        "https://rrnm.gov/1584/STOP-Safe-Traffic-Operations-Program"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Desk reconciliation 2026-09-14: county lists both monitored directions at Paradise/Radcliffe. OSM mapped camera is on Paradise, approximately 93 m from Radcliffe. County page does not confirm hardware mobility, so retain Possible speed camera classification. Position mapped, not surveyed; current equipment presence not independently verified.",
+      "geometry": [
+        {
+          "latitude": 35.192354,
+          "longitude": -106.6916402
+        }
+      ],
+      "id": "bernco-paradise-radcliffe-eb",
+      "kind": "possibleSpeed",
+      "label": "Paradise near Radcliffe · EB",
+      "positionPrecision": "reviewed-osm-device",
+      "replaces": [
+        "osm-node-13538504540"
+      ],
+      "reviewReference": "BC-01",
+      "siteID": "bernco-paradise-radcliffe",
+      "sourceIDs": [
+        "osm/node/13538504540",
+        "https://www.bernco.gov/public-works/automated-photo-speed-enforcement/"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Desk reconciliation 2026-09-14: county lists both monitored directions at Paradise/Radcliffe. OSM mapped camera is on Paradise, approximately 93 m from Radcliffe. County page does not confirm hardware mobility, so retain Possible speed camera classification. Position mapped, not surveyed; current equipment presence not independently verified.",
+      "geometry": [
+        {
+          "latitude": 35.192354,
+          "longitude": -106.6916402
+        }
+      ],
+      "id": "bernco-paradise-radcliffe-wb",
+      "kind": "possibleSpeed",
+      "label": "Paradise near Radcliffe · WB",
+      "positionPrecision": "reviewed-osm-device",
+      "replaces": [
+        "osm-node-13538504540"
+      ],
+      "reviewReference": "BC-02",
+      "siteID": "bernco-paradise-radcliffe",
+      "sourceIDs": [
+        "osm/node/13538504540",
+        "https://www.bernco.gov/public-works/automated-photo-speed-enforcement/"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Desk reconciliation 2026-09-14: county lists northbound Tramway between Tramway Terrace and San Rafael. OSM device lies 5.8 m from the northbound carriageway within that segment. Camera-facing OSM direction 330 is not used as vehicle direction. Hardware mobility is not confirmed; possible camera, mapped position, not surveyed or drive-tested.",
+      "geometry": [
+        {
+          "latitude": 35.1665643,
+          "longitude": -106.4961197
+        }
+      ],
+      "id": "bernco-tramway-terrace-san-rafael-nb",
+      "kind": "possibleSpeed",
+      "label": "Tramway between Tramway Terrace and San Rafael · NB",
+      "positionPrecision": "reviewed-osm-device",
+      "replaces": [
+        "osm-node-13715218470"
+      ],
+      "reviewReference": "BC-16",
+      "siteID": "bernco-tramway-terrace-san-rafael",
+      "sourceIDs": [
+        "osm/node/13715218470",
+        "https://www.bernco.gov/public-works/automated-photo-speed-enforcement/"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Desk reconciliation 2026-09-14: county lists this monitored road segment and direction. Uses 142 m of connected OSM road edges between the named cross streets, respecting one-way carriageways. Approximate warning area, not a device coordinate or legal boundary. County status: installed; equipment presence and exact hardware position not independently verified.",
+      "geometry": [
+        {
+          "latitude": 35.0653101,
+          "longitude": -106.6673872
+        },
+        {
+          "latitude": 35.064718,
+          "longitude": -106.667437
+        },
+        {
+          "latitude": 35.064044,
+          "longitude": -106.667573
+        }
+      ],
+      "id": "bernco-isleta-sunbeam-brother-possible-sb",
+      "kind": "possibleSpeed",
+      "label": "Isleta Blvd between Sunbeam Rd and Brother Rd · SB · approximate area",
+      "positionPrecision": "reviewed-road-segment",
+      "reviewReference": "BC-04",
+      "siteID": "bernco-isleta-sunbeam-brother-possible",
+      "sourceIDs": [
+        "https://www.bernco.gov/public-works/automated-photo-speed-enforcement/",
+        "osm/way/14409037",
+        "osm/way/14417820",
+        "osm/way/172947941"
+      ],
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Desk reconciliation 2026-09-14: county lists this monitored road segment and direction. Uses 852 m of connected OSM road edges between the named cross streets, respecting one-way carriageways. Approximate warning area, not a device coordinate or legal boundary. County status: installed; equipment presence and exact hardware position not independently verified.",
+      "geometry": [
+        {
+          "latitude": 35.0678433,
+          "longitude": -106.7009601
+        },
+        {
+          "latitude": 35.0678134,
+          "longitude": -106.7007936
+        },
+        {
+          "latitude": 35.0677407,
+          "longitude": -106.7003895
+        },
+        {
+          "latitude": 35.0675587,
+          "longitude": -106.6993783
+        },
+        {
+          "latitude": 35.0675081,
+          "longitude": -106.6990973
+        },
+        {
+          "latitude": 35.0674195,
+          "longitude": -106.6985996
+        },
+        {
+          "latitude": 35.0673741,
+          "longitude": -106.6983484
+        },
+        {
+          "latitude": 35.0673192,
+          "longitude": -106.6980447
+        },
+        {
+          "latitude": 35.0672422,
+          "longitude": -106.6976181
+        },
+        {
+          "latitude": 35.0671606,
+          "longitude": -106.6971664
+        },
+        {
+          "latitude": 35.0670205,
+          "longitude": -106.6963876
+        },
+        {
+          "latitude": 35.0668248,
+          "longitude": -106.6953517
+        },
+        {
+          "latitude": 35.0667929,
+          "longitude": -106.6951589
+        },
+        {
+          "latitude": 35.0667098,
+          "longitude": -106.6946563
+        },
+        {
+          "latitude": 35.0664596,
+          "longitude": -106.6932335
+        },
+        {
+          "latitude": 35.0662249,
+          "longitude": -106.6919597
+        },
+        {
+          "latitude": 35.066198,
+          "longitude": -106.6918139
+        }
+      ],
+      "id": "bernco-bridge-old-coors-atrisco-possible-eb",
+      "kind": "possibleSpeed",
+      "label": "Bridge Rd between Old Coors Dr and Atrisco Dr · EB · approximate area",
+      "positionPrecision": "reviewed-road-segment",
+      "reviewReference": "BC-07",
+      "siteID": "bernco-bridge-old-coors-atrisco-possible",
+      "sourceIDs": [
+        "https://www.bernco.gov/public-works/automated-photo-speed-enforcement/",
+        "osm/way/457359949",
+        "osm/way/457359955",
+        "osm/way/458778319",
+        "osm/way/906957485",
+        "osm/way/1147253580",
+        "osm/way/1394977521",
+        "osm/way/1394977523",
+        "osm/way/1418257530",
+        "osm/way/1418257531"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Desk reconciliation 2026-09-14: county lists this monitored road segment and direction. Uses 1000 m of connected OSM road edges between the named cross streets, respecting one-way carriageways. Approximate warning area, not a device coordinate or legal boundary. County status: installed; equipment presence and exact hardware position not independently verified.",
+      "geometry": [
+        {
+          "latitude": 35.0517586,
+          "longitude": -106.6883681
+        },
+        {
+          "latitude": 35.0517883,
+          "longitude": -106.6882373
+        },
+        {
+          "latitude": 35.0518698,
+          "longitude": -106.6878784
+        },
+        {
+          "latitude": 35.0519659,
+          "longitude": -106.6875074
+        },
+        {
+          "latitude": 35.0519763,
+          "longitude": -106.6874702
+        },
+        {
+          "latitude": 35.0520337,
+          "longitude": -106.6872672
+        },
+        {
+          "latitude": 35.0521386,
+          "longitude": -106.6868963
+        },
+        {
+          "latitude": 35.0522912,
+          "longitude": -106.6863183
+        },
+        {
+          "latitude": 35.05231,
+          "longitude": -106.686247
+        },
+        {
+          "latitude": 35.0525422,
+          "longitude": -106.6853723
+        },
+        {
+          "latitude": 35.0525746,
+          "longitude": -106.6852615
+        },
+        {
+          "latitude": 35.0526735,
+          "longitude": -106.6849241
+        },
+        {
+          "latitude": 35.0531353,
+          "longitude": -106.6835182
+        },
+        {
+          "latitude": 35.0532137,
+          "longitude": -106.6832227
+        },
+        {
+          "latitude": 35.0532644,
+          "longitude": -106.6829802
+        },
+        {
+          "latitude": 35.0534103,
+          "longitude": -106.6812544
+        },
+        {
+          "latitude": 35.0534979,
+          "longitude": -106.6799627
+        },
+        {
+          "latitude": 35.0535019,
+          "longitude": -106.6797106
+        },
+        {
+          "latitude": 35.0535141,
+          "longitude": -106.6789415
+        },
+        {
+          "latitude": 35.0535202,
+          "longitude": -106.6785596
+        },
+        {
+          "latitude": 35.0534564,
+          "longitude": -106.6783374
+        },
+        {
+          "latitude": 35.0534445,
+          "longitude": -106.6778206
+        },
+        {
+          "latitude": 35.0534432,
+          "longitude": -106.6777147
+        }
+      ],
+      "id": "bernco-arenal-tapia-isleta-possible-eb",
+      "kind": "possibleSpeed",
+      "label": "Arenal Rd between Isleta Blvd and Tapia Blvd · EB · approximate area",
+      "positionPrecision": "reviewed-road-segment",
+      "reviewReference": "BC-09",
+      "siteID": "bernco-arenal-tapia-isleta-possible",
+      "sourceIDs": [
+        "https://www.bernco.gov/public-works/automated-photo-speed-enforcement/",
+        "osm/way/14407766",
+        "osm/way/14408916",
+        "osm/way/369264093",
+        "osm/way/547108907",
+        "osm/way/547108908",
+        "osm/way/1495335203"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Desk reconciliation 2026-09-14: county lists this monitored road segment and direction. Uses 1009 m of connected OSM road edges between the named cross streets, respecting one-way carriageways. Approximate warning area, not a device coordinate or legal boundary. County status: installed; equipment presence and exact hardware position not independently verified.",
+      "geometry": [
+        {
+          "latitude": 35.0535793,
+          "longitude": -106.6776184
+        },
+        {
+          "latitude": 35.0535786,
+          "longitude": -106.6777469
+        },
+        {
+          "latitude": 35.053574,
+          "longitude": -106.6778723
+        },
+        {
+          "latitude": 35.0535751,
+          "longitude": -106.6783772
+        },
+        {
+          "latitude": 35.0535202,
+          "longitude": -106.6785596
+        },
+        {
+          "latitude": 35.0535141,
+          "longitude": -106.6789415
+        },
+        {
+          "latitude": 35.0535019,
+          "longitude": -106.6797106
+        },
+        {
+          "latitude": 35.0534979,
+          "longitude": -106.6799627
+        },
+        {
+          "latitude": 35.0534103,
+          "longitude": -106.6812544
+        },
+        {
+          "latitude": 35.0532644,
+          "longitude": -106.6829802
+        },
+        {
+          "latitude": 35.0532137,
+          "longitude": -106.6832227
+        },
+        {
+          "latitude": 35.0531353,
+          "longitude": -106.6835182
+        },
+        {
+          "latitude": 35.0526735,
+          "longitude": -106.6849241
+        },
+        {
+          "latitude": 35.0525746,
+          "longitude": -106.6852615
+        },
+        {
+          "latitude": 35.0525422,
+          "longitude": -106.6853723
+        },
+        {
+          "latitude": 35.05231,
+          "longitude": -106.686247
+        },
+        {
+          "latitude": 35.0522912,
+          "longitude": -106.6863183
+        },
+        {
+          "latitude": 35.0521386,
+          "longitude": -106.6868963
+        },
+        {
+          "latitude": 35.0520337,
+          "longitude": -106.6872672
+        },
+        {
+          "latitude": 35.0519763,
+          "longitude": -106.6874702
+        },
+        {
+          "latitude": 35.0519659,
+          "longitude": -106.6875074
+        },
+        {
+          "latitude": 35.0518698,
+          "longitude": -106.6878784
+        },
+        {
+          "latitude": 35.0517883,
+          "longitude": -106.6882373
+        },
+        {
+          "latitude": 35.0517586,
+          "longitude": -106.6883681
+        }
+      ],
+      "id": "bernco-arenal-isleta-tapia-possible-wb",
+      "kind": "possibleSpeed",
+      "label": "Arenal Rd between Isleta Blvd and Tapia Blvd · WB · approximate area",
+      "positionPrecision": "reviewed-road-segment",
+      "reviewReference": "BC-10",
+      "siteID": "bernco-arenal-isleta-tapia-possible",
+      "sourceIDs": [
+        "https://www.bernco.gov/public-works/automated-photo-speed-enforcement/",
+        "osm/way/14408916",
+        "osm/way/369264071",
+        "osm/way/545397385",
+        "osm/way/547108907",
+        "osm/way/547108908",
+        "osm/way/1175249662",
+        "osm/way/1495335203"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Desk reconciliation 2026-09-14: county lists this monitored road segment and direction. Uses 1717 m of connected OSM road edges between the named cross streets, respecting one-way carriageways. Approximate warning area, not a device coordinate or legal boundary. County status: installed; equipment presence and exact hardware position not independently verified.",
+      "geometry": [
+        {
+          "latitude": 35.0118382,
+          "longitude": -106.7161515
+        },
+        {
+          "latitude": 35.0119702,
+          "longitude": -106.7161328
+        },
+        {
+          "latitude": 35.0130181,
+          "longitude": -106.7159812
+        },
+        {
+          "latitude": 35.0131839,
+          "longitude": -106.7160247
+        },
+        {
+          "latitude": 35.0133072,
+          "longitude": -106.7160063
+        },
+        {
+          "latitude": 35.0133971,
+          "longitude": -106.715991
+        },
+        {
+          "latitude": 35.0139451,
+          "longitude": -106.7159144
+        },
+        {
+          "latitude": 35.0141164,
+          "longitude": -106.7158898
+        },
+        {
+          "latitude": 35.014254,
+          "longitude": -106.71587
+        },
+        {
+          "latitude": 35.0145891,
+          "longitude": -106.7158186
+        },
+        {
+          "latitude": 35.0158882,
+          "longitude": -106.7156191
+        },
+        {
+          "latitude": 35.0165712,
+          "longitude": -106.7155143
+        },
+        {
+          "latitude": 35.0173109,
+          "longitude": -106.715379
+        },
+        {
+          "latitude": 35.0187367,
+          "longitude": -106.7151183
+        },
+        {
+          "latitude": 35.0188018,
+          "longitude": -106.7151064
+        },
+        {
+          "latitude": 35.0188732,
+          "longitude": -106.7150968
+        },
+        {
+          "latitude": 35.0189762,
+          "longitude": -106.7150813
+        },
+        {
+          "latitude": 35.0194837,
+          "longitude": -106.7150075
+        },
+        {
+          "latitude": 35.0206851,
+          "longitude": -106.7148331
+        },
+        {
+          "latitude": 35.0207919,
+          "longitude": -106.7148176
+        },
+        {
+          "latitude": 35.0208776,
+          "longitude": -106.7148054
+        },
+        {
+          "latitude": 35.0212516,
+          "longitude": -106.714752
+        },
+        {
+          "latitude": 35.0224387,
+          "longitude": -106.7145825
+        },
+        {
+          "latitude": 35.0226605,
+          "longitude": -106.7145508
+        },
+        {
+          "latitude": 35.0242619,
+          "longitude": -106.7143195
+        },
+        {
+          "latitude": 35.024703,
+          "longitude": -106.7142566
+        },
+        {
+          "latitude": 35.0257529,
+          "longitude": -106.7141023
+        },
+        {
+          "latitude": 35.0268006,
+          "longitude": -106.7139669
+        },
+        {
+          "latitude": 35.02698,
+          "longitude": -106.7139439
+        },
+        {
+          "latitude": 35.027158,
+          "longitude": -106.7139221
+        }
+      ],
+      "id": "bernco-coors-gun-club-rio-bravo-possible-nb",
+      "kind": "possibleSpeed",
+      "label": "Coors Blvd (NM 45) between Gun Club Rd and Rio Bravo Blvd · NB · approximate area",
+      "positionPrecision": "reviewed-road-segment",
+      "reviewReference": "BC-11",
+      "siteID": "bernco-coors-gun-club-rio-bravo-possible",
+      "sourceIDs": [
+        "https://www.bernco.gov/public-works/automated-photo-speed-enforcement/",
+        "osm/way/312265865",
+        "osm/way/425948368",
+        "osm/way/425948369",
+        "osm/way/547165194",
+        "osm/way/691433156",
+        "osm/way/706235745",
+        "osm/way/706235748",
+        "osm/way/706235776"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Desk reconciliation 2026-09-14: county lists this monitored road segment and direction. Uses 671 m of connected OSM road edges between the named cross streets, respecting one-way carriageways. Approximate warning area, not a device coordinate or legal boundary. County status: installed; equipment presence and exact hardware position not independently verified.",
+      "geometry": [
+        {
+          "latitude": 35.0603554,
+          "longitude": -106.7077925
+        },
+        {
+          "latitude": 35.060457,
+          "longitude": -106.707834
+        },
+        {
+          "latitude": 35.0632305,
+          "longitude": -106.7089778
+        },
+        {
+          "latitude": 35.0649384,
+          "longitude": -106.7096599
+        },
+        {
+          "latitude": 35.0650748,
+          "longitude": -106.7097144
+        },
+        {
+          "latitude": 35.0660151,
+          "longitude": -106.7100891
+        },
+        {
+          "latitude": 35.066082,
+          "longitude": -106.7101158
+        }
+      ],
+      "id": "bernco-coors-sage-tower-possible-nb",
+      "kind": "possibleSpeed",
+      "label": "Coors Blvd (NM 45) between Sage Rd and Tower Rd · NB · approximate area",
+      "positionPrecision": "reviewed-road-segment",
+      "reviewReference": "BC-12",
+      "siteID": "bernco-coors-sage-tower-possible",
+      "sourceIDs": [
+        "https://www.bernco.gov/public-works/automated-photo-speed-enforcement/",
+        "osm/way/14426054",
+        "osm/way/170819956",
+        "osm/way/286514516",
+        "osm/way/1371964394"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Desk reconciliation 2026-09-14: county lists this monitored road segment and direction. Uses 664 m of connected OSM road edges between the named cross streets, respecting one-way carriageways. Approximate warning area, not a device coordinate or legal boundary. County status: installed; equipment presence and exact hardware position not independently verified.",
+      "geometry": [
+        {
+          "latitude": 35.1919372,
+          "longitude": -106.6267722
+        },
+        {
+          "latitude": 35.1919597,
+          "longitude": -106.6268483
+        },
+        {
+          "latitude": 35.1929432,
+          "longitude": -106.6301818
+        },
+        {
+          "latitude": 35.1929884,
+          "longitude": -106.6303342
+        },
+        {
+          "latitude": 35.1932162,
+          "longitude": -106.6311071
+        },
+        {
+          "latitude": 35.1938066,
+          "longitude": -106.6331159
+        },
+        {
+          "latitude": 35.193963,
+          "longitude": -106.633648
+        }
+      ],
+      "id": "bernco-alameda-guadalupe-rio-grande-possible-wb",
+      "kind": "possibleSpeed",
+      "label": "Alameda Pkwy (NM 528) between Rio Grande Blvd and Guadalupe Trl · WB · approximate area",
+      "positionPrecision": "reviewed-road-segment",
+      "reviewReference": "BC-15",
+      "siteID": "bernco-alameda-guadalupe-rio-grande-possible",
+      "sourceIDs": [
+        "https://www.bernco.gov/public-works/automated-photo-speed-enforcement/",
+        "osm/way/14414386",
+        "osm/way/1370477366",
+        "osm/way/1373901839"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Desk reconciliation 2026-09-14: county lists this monitored road segment and direction. Uses 132 m of connected OSM road edges between the named cross streets, respecting one-way carriageways. Approximate warning area, not a device coordinate or legal boundary. County status: mobile_site; equipment presence and exact hardware position not independently verified.",
+      "geometry": [
+        {
+          "latitude": 34.955599,
+          "longitude": -106.695649
+        },
+        {
+          "latitude": 34.956169,
+          "longitude": -106.695713
+        },
+        {
+          "latitude": 34.956784,
+          "longitude": -106.695759
+        }
+      ],
+      "id": "bernco-isleta-sanchez-los-padillas-possible-nb",
+      "kind": "possibleSpeed",
+      "label": "Isleta Blvd between Los Padillas Rd and Sanchez Rd · NB · approximate area",
+      "positionPrecision": "reviewed-road-segment",
+      "reviewReference": "BC-25",
+      "siteID": "bernco-isleta-sanchez-los-padillas-possible",
+      "sourceIDs": [
+        "https://www.bernco.gov/public-works/automated-photo-speed-enforcement/",
+        "osm/way/14408257",
+        "osm/way/14412127",
+        "osm/way/807091639"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Desk reconciliation 2026-09-14: county lists this monitored road segment and direction. Uses 132 m of connected OSM road edges between the named cross streets, respecting one-way carriageways. Approximate warning area, not a device coordinate or legal boundary. County status: mobile_site; equipment presence and exact hardware position not independently verified.",
+      "geometry": [
+        {
+          "latitude": 34.956784,
+          "longitude": -106.695759
+        },
+        {
+          "latitude": 34.956169,
+          "longitude": -106.695713
+        },
+        {
+          "latitude": 34.955599,
+          "longitude": -106.695649
+        }
+      ],
+      "id": "bernco-isleta-los-padillas-sanchez-possible-sb",
+      "kind": "possibleSpeed",
+      "label": "Isleta Blvd between Los Padillas Rd and Sanchez Rd · SB · approximate area",
+      "positionPrecision": "reviewed-road-segment",
+      "reviewReference": "BC-26",
+      "siteID": "bernco-isleta-los-padillas-sanchez-possible",
+      "sourceIDs": [
+        "https://www.bernco.gov/public-works/automated-photo-speed-enforcement/",
+        "osm/way/14408257",
+        "osm/way/14412127",
+        "osm/way/807091639"
+      ],
+      "travelBearing": 180
+    }
+  ],
+  "reviewBounds": [
+    34.85,
+    -106.85,
+    35.4,
+    -106.4
+  ],
+  "sources": [
+    {
+      "checkedAt": "2026-09-15T00:59:04Z",
+      "id": "abq",
+      "license": "Source-linked location facts; OSM coordinate component under ODbL-1.0",
+      "name": "City of Albuquerque current speed-camera locations",
+      "status": "All 40 current city-listed approaches represented: 19 matched camera points and 21 approximate possible-speed warning areas. Exact positions for the areas and physical road-test acceptance remain pending.",
+      "url": "https://www.cabq.gov/automated-speed-enforcement"
+    },
+    {
+      "checkedAt": "2026-09-14T21:00:00Z",
+      "id": "bernco",
+      "license": "Source-linked location facts",
+      "name": "Bernalillo County automated photo speed enforcement",
+      "status": "Golf Course (both directions) and Bridge WB desk-matched to mapped camera points. Other installed and mobile sites remain in geometry review; pending sites excluded.",
+      "url": "https://www.bernco.gov/public-works/automated-photo-speed-enforcement/"
+    },
+    {
+      "checkedAt": "2026-09-14T21:00:00Z",
+      "id": "rr",
+      "license": "Source-linked location facts",
+      "name": "Rio Rancho STOP mobile deployment program",
+      "status": "All 3 published NM 528 mobile corridors desk-matched to road geometry. Local-road mobile deployments are not comprehensively mapped.",
+      "url": "https://rrnm.gov/1584/STOP-Safe-Traffic-Operations-Program"
     }
   ],
   "tombstones": {}

@@ -1,0 +1,263 @@
+{
+  "decisions": {
+    "agency-seattle-se01": {
+      "distinctFrom": [
+        "osm-node-11965933165"
+      ],
+      "evidence": "Reviewed identity: Seattle agency label 'EB Denny Way @ Fairview Ave' and OSM description 'EB Denny Way & Fairview Ave N' name the same monitored approach. Preserve the existing mapped device position and app ID; use the city's current enforcement type and monitored direction. Nearby other approaches remain distinct. Agency point available in agencyGeometry. Position not surveyed or drive-tested.",
+      "preservePosition": true,
+      "reviewedAt": "2026-09-14",
+      "targetID": "osm-node-11965933164"
+    },
+    "agency-seattle-se02": {
+      "distinctFrom": [
+        "osm-node-11965933164"
+      ],
+      "evidence": "Reviewed identity: Seattle agency label 'WB Denny Way @ Fairview Ave' and OSM description 'WB Denny Way & Fairview Ave N' name the same monitored approach. Preserve the existing mapped device position and app ID; use the city's current enforcement type and monitored direction. Nearby other approaches remain distinct. Agency point available in agencyGeometry. Position not surveyed or drive-tested.",
+      "preservePosition": true,
+      "reviewedAt": "2026-09-14",
+      "targetID": "osm-node-11965933165"
+    },
+    "agency-seattle-se03": {
+      "distinctFrom": [
+        "osm-node-11982372596"
+      ],
+      "evidence": "Reviewed identity: Seattle agency label 'NB Rainier Ave S @ S Orcas St' and OSM description 'NB Rainier Ave S & S Orcas St' name the same monitored approach. Preserve the existing mapped device position and app ID; use the city's current enforcement type and monitored direction. Nearby other approaches remain distinct. Agency point available in agencyGeometry. Position not surveyed or drive-tested.",
+      "preservePosition": true,
+      "reviewedAt": "2026-09-14",
+      "targetID": "osm-node-11982372597"
+    },
+    "agency-seattle-se04": {
+      "distinctFrom": [
+        "osm-node-11965926173"
+      ],
+      "evidence": "Reviewed identity: Seattle agency label 'EB NE 45th St @ Roosevelt Way NE' and OSM description 'EB NE 45th St & Roosevelt Way NE' name the same monitored approach. Preserve the existing mapped device position and app ID; use the city's current enforcement type and monitored direction. Nearby other approaches remain distinct. Agency point available in agencyGeometry. Position not surveyed or drive-tested.",
+      "preservePosition": true,
+      "reviewedAt": "2026-09-14",
+      "targetID": "osm-node-11965926171"
+    },
+    "agency-seattle-se05": {
+      "distinctFrom": [
+        "osm-node-11982372597"
+      ],
+      "evidence": "Reviewed identity: Seattle agency label 'SB Rainier Ave S @ S Orcas St' and OSM description 'SB Rainier Ave S & S Orcas St' name the same monitored approach. Preserve the existing mapped device position and app ID; use the city's current enforcement type and monitored direction. Nearby other approaches remain distinct. Agency point available in agencyGeometry. Position not surveyed or drive-tested.",
+      "preservePosition": true,
+      "reviewedAt": "2026-09-14",
+      "targetID": "osm-node-11982372596"
+    },
+    "agency-seattle-se06": {
+      "distinctFrom": [],
+      "evidence": "Reviewed identity: Seattle agency label 'EB Spring St @ 5th Ave' and OSM description 'EB Spring St & 5th Ave' name the same monitored approach. Preserve the existing mapped device position and app ID; use the city's current enforcement type and monitored direction. Nearby other approaches remain distinct. Agency point available in agencyGeometry. Position not surveyed or drive-tested.",
+      "preservePosition": true,
+      "reviewedAt": "2026-09-14",
+      "targetID": "osm-node-11965933163"
+    },
+    "agency-seattle-se07": {
+      "distinctFrom": [],
+      "evidence": "Reviewed identity: Seattle agency label 'NB 9th Ave @ James St' and OSM description 'NB 9th Ave & James St' name the same monitored approach. Preserve the existing mapped device position and app ID; use the city's current enforcement type and monitored direction. Nearby other approaches remain distinct. Agency point available in agencyGeometry. Position not surveyed or drive-tested.",
+      "preservePosition": true,
+      "reviewedAt": "2026-09-14",
+      "targetID": "osm-node-11965971171"
+    },
+    "agency-seattle-se08": {
+      "distinctFrom": [
+        "osm-node-11965970367"
+      ],
+      "evidence": "Reviewed identity: Seattle agency label 'NB Broadway E @ E Olive Way' and OSM description 'NB Broadway E & E Olive Way' name the same monitored approach. Preserve the existing mapped device position and app ID; use the city's current enforcement type and monitored direction. Nearby other approaches remain distinct. Agency point available in agencyGeometry. Position not surveyed or drive-tested.",
+      "preservePosition": true,
+      "reviewedAt": "2026-09-14",
+      "targetID": "osm-node-11965970366"
+    },
+    "agency-seattle-se14": {
+      "distinctFrom": [],
+      "evidence": "Reviewed identity: Seattle agency label 'EB S Cloverdale St @ 14th Ave S' and OSM description 'EB S Cloverdale St & 14th Ave S' name the same monitored approach. Preserve the existing mapped device position and app ID; use the city's current enforcement type and monitored direction. Nearby other approaches remain distinct. Agency point available in agencyGeometry. Position not surveyed or drive-tested.",
+      "preservePosition": true,
+      "reviewedAt": "2026-09-14",
+      "targetID": "osm-node-11982372600"
+    },
+    "agency-seattle-se15": {
+      "distinctFrom": [],
+      "evidence": "Reviewed identity: Seattle agency label 'NB Rainier Ave S @ S Massachusetts St' and OSM description 'NB Rainier Ave S & S Massachusetts St red light camera' name the same monitored approach. Preserve the existing mapped device position and app ID; use the city's current enforcement type and monitored direction. Nearby other approaches remain distinct. Agency point available in agencyGeometry. Position not surveyed or drive-tested.",
+      "preservePosition": true,
+      "reviewedAt": "2026-09-14",
+      "targetID": "osm-node-11982372605"
+    },
+    "agency-seattle-se16": {
+      "distinctFrom": [
+        "osm-node-11965896329"
+      ],
+      "evidence": "Reviewed identity: Seattle agency label 'EB NW Market St @ 15th Ave NW' and OSM description 'EB NW Market St & 15th Ave NW' name the same monitored approach. Preserve the existing mapped device position and app ID; use the city's current enforcement type and monitored direction. Nearby other approaches remain distinct. Agency point available in agencyGeometry. Position not surveyed or drive-tested.",
+      "preservePosition": true,
+      "reviewedAt": "2026-09-14",
+      "targetID": "osm-node-7246198560"
+    },
+    "agency-seattle-se17": {
+      "distinctFrom": [
+        "osm-node-7246198560"
+      ],
+      "evidence": "Reviewed identity: Seattle agency label 'WB NW Market St @ 15th Ave NW' and OSM description 'WB NW Market St & 15th Ave NW' name the same monitored approach. Preserve the existing mapped device position and app ID; use the city's current enforcement type and monitored direction. Nearby other approaches remain distinct. Agency point available in agencyGeometry. Position not surveyed or drive-tested.",
+      "preservePosition": true,
+      "reviewedAt": "2026-09-14",
+      "targetID": "osm-node-11965896329"
+    },
+    "agency-seattle-se18": {
+      "distinctFrom": [
+        "osm-node-11965970366"
+      ],
+      "evidence": "Reviewed identity: Seattle agency label 'EB E Olive Way @ Broadway E' and OSM description 'EB E Olive Way & Broadway E' name the same monitored approach. Preserve the existing mapped device position and app ID; use the city's current enforcement type and monitored direction. Nearby other approaches remain distinct. Agency point available in agencyGeometry. Position not surveyed or drive-tested.",
+      "preservePosition": true,
+      "reviewedAt": "2026-09-14",
+      "targetID": "osm-node-11965970367"
+    },
+    "agency-seattle-se19": {
+      "distinctFrom": [],
+      "evidence": "Reviewed identity: Seattle agency label 'SB 15th Ave NW @ NW 80th St' and OSM description 'SB 15th Ave NW & NW 80th St' name the same monitored approach. Preserve the existing mapped device position and app ID; use the city's current enforcement type and monitored direction. Nearby other approaches remain distinct. Agency point available in agencyGeometry. Position not surveyed or drive-tested.",
+      "preservePosition": true,
+      "reviewedAt": "2026-09-14",
+      "targetID": "osm-node-11965926170"
+    },
+    "agency-seattle-se21": {
+      "distinctFrom": [],
+      "evidence": "Reviewed identity: Seattle agency label 'SB 23rd Ave E @ E John St' and OSM description 'SB 23rd Ave E & E John St' name the same monitored approach. Preserve the existing mapped device position and app ID; use the city's current enforcement type and monitored direction. Nearby other approaches remain distinct. Agency point available in agencyGeometry. Position not surveyed or drive-tested.",
+      "preservePosition": true,
+      "reviewedAt": "2026-09-14",
+      "targetID": "osm-node-11965971172"
+    },
+    "agency-seattle-se22": {
+      "distinctFrom": [],
+      "evidence": "Reviewed identity: Seattle agency label 'SB 35th Ave SW @ SW Thistle St' and OSM description 'SB 35th Ave SW & SW Thistle St' name the same monitored approach. Preserve the existing mapped device position and app ID; use the city's current enforcement type and monitored direction. Nearby other approaches remain distinct. Agency point available in agencyGeometry. Position not surveyed or drive-tested.",
+      "preservePosition": true,
+      "reviewedAt": "2026-09-14",
+      "targetID": "osm-node-11982372603"
+    },
+    "agency-seattle-se24": {
+      "distinctFrom": [],
+      "evidence": "Reviewed identity: Seattle agency label 'SB 6th Ave @ James St' and OSM description 'SB 6th Ave & James St' name the same monitored approach. Preserve the existing mapped device position and app ID; use the city's current enforcement type and monitored direction. Nearby other approaches remain distinct. Agency point available in agencyGeometry. Position not surveyed or drive-tested.",
+      "preservePosition": true,
+      "reviewedAt": "2026-09-14",
+      "targetID": "osm-node-11965933162"
+    },
+    "agency-seattle-se25": {
+      "distinctFrom": [],
+      "evidence": "Reviewed identity: Seattle agency label 'NB Aurora Ave N @ N 85th St' and OSM description 'NB Aurora Ave N & N 85th St' name the same monitored approach. Preserve the existing mapped device position and app ID; use the city's current enforcement type and monitored direction. Nearby other approaches remain distinct. Agency point available in agencyGeometry. Position not surveyed or drive-tested.",
+      "preservePosition": true,
+      "reviewedAt": "2026-09-14",
+      "targetID": "osm-node-11965931157"
+    },
+    "agency-seattle-se26": {
+      "distinctFrom": [],
+      "evidence": "Reviewed identity: Seattle agency label 'SB Boren Ave @ James St' and OSM description 'SB Boren Ave & James St' name the same monitored approach. Preserve the existing mapped device position and app ID; use the city's current enforcement type and monitored direction. Nearby other approaches remain distinct. Agency point available in agencyGeometry. Position not surveyed or drive-tested.",
+      "preservePosition": true,
+      "reviewedAt": "2026-09-14",
+      "targetID": "osm-node-11965970368"
+    },
+    "agency-seattle-se27": {
+      "distinctFrom": [],
+      "evidence": "Reviewed identity: Seattle agency label 'EB NE 80th St @ 5th Ave NE' and OSM description 'EB NE 80th & 5th Ave NE' name the same monitored approach. Preserve the existing mapped device position and app ID; use the city's current enforcement type and monitored direction. Nearby other approaches remain distinct. Agency point available in agencyGeometry. Position not surveyed or drive-tested.",
+      "preservePosition": true,
+      "reviewedAt": "2026-09-14",
+      "targetID": "osm-node-11965931158"
+    },
+    "agency-seattle-se28": {
+      "distinctFrom": [
+        "osm-node-11982372609",
+        "osm-node-11982372610"
+      ],
+      "evidence": "Reviewed identity: Seattle agency label 'WB S Mcclellan St @ M L King Jr Way S' and OSM description 'WB S McClellan St & MLK Way Jr Way S' name the same monitored approach. Preserve the existing mapped device position and app ID; use the city's current enforcement type and monitored direction. Nearby other approaches remain distinct. Agency point available in agencyGeometry. Position not surveyed or drive-tested.",
+      "preservePosition": true,
+      "reviewedAt": "2026-09-14",
+      "targetID": "osm-node-11982372607"
+    },
+    "agency-seattle-se29": {
+      "distinctFrom": [],
+      "evidence": "Reviewed identity: Seattle agency label 'SB Stone Way N @ N 40th St' and OSM description 'SB Stone Way N & N 40th St' name the same monitored approach. Preserve the existing mapped device position and app ID; use the city's current enforcement type and monitored direction. Nearby other approaches remain distinct. Agency point available in agencyGeometry. Position not surveyed or drive-tested.",
+      "preservePosition": true,
+      "reviewedAt": "2026-09-14",
+      "targetID": "osm-node-11965926172"
+    },
+    "agency-seattle-se30": {
+      "distinctFrom": [],
+      "evidence": "Reviewed identity: Seattle agency label 'WB SW Avalon Way @ 35th Ave SW' and OSM description 'WB SW Avalon Way & 35th Ave SW' name the same monitored approach. Preserve the existing mapped device position and app ID; use the city's current enforcement type and monitored direction. Nearby other approaches remain distinct. Agency point available in agencyGeometry. Position not surveyed or drive-tested.",
+      "preservePosition": true,
+      "reviewedAt": "2026-09-14",
+      "targetID": "osm-node-11982372601"
+    },
+    "agency-seattle-se31": {
+      "distinctFrom": [
+        "osm-node-11982372607",
+        "osm-node-11982372609"
+      ],
+      "evidence": "Reviewed identity: Seattle agency label 'NB M L King Jr Way S @ S Mcclellan St' and OSM description 'NB MLK Way Jr S & S McClellan St' name the same monitored approach. Preserve the existing mapped device position and app ID; use the city's current enforcement type and monitored direction. Nearby other approaches remain distinct. Agency point available in agencyGeometry. Position not surveyed or drive-tested.",
+      "preservePosition": true,
+      "reviewedAt": "2026-09-14",
+      "targetID": "osm-node-11982372610"
+    },
+    "agency-seattle-se32": {
+      "distinctFrom": [
+        "osm-node-11982372607",
+        "osm-node-11982372610"
+      ],
+      "evidence": "Reviewed identity: Seattle agency label 'SB M L King Jr Way S @ S Mcclellan St' and OSM description 'SB MLK Way Jr S & S McClellan St' name the same monitored approach. Preserve the existing mapped device position and app ID; use the city's current enforcement type and monitored direction. Nearby other approaches remain distinct. Agency point available in agencyGeometry. Position not surveyed or drive-tested.",
+      "preservePosition": true,
+      "reviewedAt": "2026-09-14",
+      "targetID": "osm-node-11982372609"
+    },
+    "agency-seattle-se33": {
+      "distinctFrom": [
+        "osm-node-11982372613"
+      ],
+      "evidence": "Reviewed identity: Seattle agency label 'NB M L King Jr Way S @ S Othello St' and OSM description 'NB MLK Way Jr S & S Othello St' name the same monitored approach. Preserve the existing mapped device position and app ID; use the city's current enforcement type and monitored direction. Nearby other approaches remain distinct. Agency point available in agencyGeometry. Position not surveyed or drive-tested.",
+      "preservePosition": true,
+      "reviewedAt": "2026-09-14",
+      "targetID": "osm-node-11982372611"
+    },
+    "agency-seattle-se35": {
+      "distinctFrom": [
+        "osm-node-11982372611"
+      ],
+      "evidence": "Reviewed identity: Seattle agency label 'WB S Othello St @ M L King Jr Way S' and OSM description 'WB Othello St & MLK Way Jr S' name the same monitored approach. Preserve the existing mapped device position and app ID; use the city's current enforcement type and monitored direction. Nearby other approaches remain distinct. Agency point available in agencyGeometry. Position not surveyed or drive-tested.",
+      "preservePosition": true,
+      "reviewedAt": "2026-09-14",
+      "targetID": "osm-node-11982372613"
+    },
+    "agency-seattle-se36": {
+      "distinctFrom": [
+        "osm-node-11965971170"
+      ],
+      "evidence": "Reviewed identity: Seattle agency label 'NB Boren Ave @ Pike St' and OSM description 'NB Boren Ave & Pike St' name the same monitored approach. Preserve the existing mapped device position and app ID; use the city's current enforcement type and monitored direction. Nearby other approaches remain distinct. Agency point available in agencyGeometry. Position not surveyed or drive-tested.",
+      "preservePosition": true,
+      "reviewedAt": "2026-09-14",
+      "targetID": "osm-node-11965971169"
+    },
+    "agency-seattle-se40": {
+      "distinctFrom": [],
+      "evidence": "Reviewed identity: Seattle agency label 'NB 6th Ave @ University St' and OSM description 'NB 6th Ave & University St' name the same monitored approach. Preserve the existing mapped device position and app ID; use the city's current enforcement type and monitored direction. Nearby other approaches remain distinct. Agency point available in agencyGeometry. Position not surveyed or drive-tested.",
+      "preservePosition": true,
+      "reviewedAt": "2026-09-14",
+      "targetID": "osm-node-11965971173"
+    },
+    "agency-seattle-se42": {
+      "distinctFrom": [
+        "osm-node-11965926171"
+      ],
+      "evidence": "Reviewed identity: Seattle agency label 'NB 11th Ave NE @ NE 45th St' and OSM description 'NB 11th Ave NE & NE 45th St' name the same monitored approach. Preserve the existing mapped device position and app ID; use the city's current enforcement type and monitored direction. Nearby other approaches remain distinct. Agency point available in agencyGeometry. Position not surveyed or drive-tested.",
+      "preservePosition": true,
+      "reviewedAt": "2026-09-14",
+      "targetID": "osm-node-11965926173"
+    },
+    "agency-seattle-se43": {
+      "distinctFrom": [],
+      "evidence": "Reviewed identity: Seattle agency label 'NB 5th Ave NE @ Olympic View Elementary' and OSM description 'NB 5th Ave NE @ Olympic View Elementary' name the same monitored approach. Preserve the existing mapped device position and app ID; use the city's current enforcement type and monitored direction. Nearby other approaches remain distinct. Agency point available in agencyGeometry. Position not surveyed or drive-tested.",
+      "preservePosition": true,
+      "reviewedAt": "2026-09-14",
+      "targetID": "osm-node-11982396022"
+    },
+    "agency-seattle-se44": {
+      "distinctFrom": [],
+      "evidence": "Reviewed identity: Seattle agency label 'SB 5th Ave NE @ Olympic View Elementary' and OSM description 'SB 5th Ave NE @ Olympic View Elementary' name the same monitored approach. Preserve the existing mapped device position and app ID; use the city's current enforcement type and monitored direction. Nearby other approaches remain distinct. Agency point available in agencyGeometry. Position not surveyed or drive-tested.",
+      "preservePosition": true,
+      "reviewedAt": "2026-09-14",
+      "targetID": "osm-node-11982396023"
+    }
+  }
+}

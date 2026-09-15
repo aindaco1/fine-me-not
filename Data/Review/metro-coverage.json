@@ -1,0 +1,984 @@
+{
+  "generatedAt": "2026-09-15T02:06:32Z",
+  "metros": [
+    {
+      "agencyPoints": 0,
+      "counties": [
+        {
+          "fips": "35001",
+          "name": "Bernalillo County, NM"
+        },
+        {
+          "fips": "35043",
+          "name": "Sandoval County, NM"
+        },
+        {
+          "fips": "35057",
+          "name": "Torrance County, NM"
+        },
+        {
+          "fips": "35061",
+          "name": "Valencia County, NM"
+        }
+      ],
+      "id": "10740",
+      "name": "Albuquerque, NM",
+      "population2025": 925279,
+      "possibleAreas": 32,
+      "rank": null,
+      "warningRecords": 72
+    },
+    {
+      "agencyPoints": 0,
+      "counties": [
+        {
+          "fips": "34023",
+          "name": "Middlesex County, NJ"
+        },
+        {
+          "fips": "34025",
+          "name": "Monmouth County, NJ"
+        },
+        {
+          "fips": "34029",
+          "name": "Ocean County, NJ"
+        },
+        {
+          "fips": "34035",
+          "name": "Somerset County, NJ"
+        },
+        {
+          "fips": "36059",
+          "name": "Nassau County, NY"
+        },
+        {
+          "fips": "36103",
+          "name": "Suffolk County, NY"
+        },
+        {
+          "fips": "34013",
+          "name": "Essex County, NJ"
+        },
+        {
+          "fips": "34019",
+          "name": "Hunterdon County, NJ"
+        },
+        {
+          "fips": "34027",
+          "name": "Morris County, NJ"
+        },
+        {
+          "fips": "34037",
+          "name": "Sussex County, NJ"
+        },
+        {
+          "fips": "34039",
+          "name": "Union County, NJ"
+        },
+        {
+          "fips": "34003",
+          "name": "Bergen County, NJ"
+        },
+        {
+          "fips": "34017",
+          "name": "Hudson County, NJ"
+        },
+        {
+          "fips": "34031",
+          "name": "Passaic County, NJ"
+        },
+        {
+          "fips": "36005",
+          "name": "Bronx County, NY"
+        },
+        {
+          "fips": "36047",
+          "name": "Kings County, NY"
+        },
+        {
+          "fips": "36061",
+          "name": "New York County, NY"
+        },
+        {
+          "fips": "36079",
+          "name": "Putnam County, NY"
+        },
+        {
+          "fips": "36081",
+          "name": "Queens County, NY"
+        },
+        {
+          "fips": "36085",
+          "name": "Richmond County, NY"
+        },
+        {
+          "fips": "36087",
+          "name": "Rockland County, NY"
+        },
+        {
+          "fips": "36119",
+          "name": "Westchester County, NY"
+        }
+      ],
+      "id": "35620",
+      "name": "New York-Newark-Jersey City, NY-NJ",
+      "population2025": 20112448,
+      "possibleAreas": 0,
+      "rank": 1,
+      "warningRecords": 99
+    },
+    {
+      "agencyPoints": 0,
+      "counties": [
+        {
+          "fips": "06059",
+          "name": "Orange County, CA"
+        },
+        {
+          "fips": "06037",
+          "name": "Los Angeles County, CA"
+        }
+      ],
+      "id": "31080",
+      "name": "Los Angeles-Long Beach-Anaheim, CA",
+      "population2025": 12844441,
+      "possibleAreas": 0,
+      "rank": 2,
+      "warningRecords": 35
+    },
+    {
+      "agencyPoints": 548,
+      "counties": [
+        {
+          "fips": "17031",
+          "name": "Cook County, IL"
+        },
+        {
+          "fips": "17043",
+          "name": "DuPage County, IL"
+        },
+        {
+          "fips": "17063",
+          "name": "Grundy County, IL"
+        },
+        {
+          "fips": "17111",
+          "name": "McHenry County, IL"
+        },
+        {
+          "fips": "17197",
+          "name": "Will County, IL"
+        },
+        {
+          "fips": "17037",
+          "name": "DeKalb County, IL"
+        },
+        {
+          "fips": "17089",
+          "name": "Kane County, IL"
+        },
+        {
+          "fips": "17093",
+          "name": "Kendall County, IL"
+        },
+        {
+          "fips": "17097",
+          "name": "Lake County, IL"
+        },
+        {
+          "fips": "18073",
+          "name": "Jasper County, IN"
+        },
+        {
+          "fips": "18089",
+          "name": "Lake County, IN"
+        },
+        {
+          "fips": "18111",
+          "name": "Newton County, IN"
+        },
+        {
+          "fips": "18127",
+          "name": "Porter County, IN"
+        }
+      ],
+      "id": "16980",
+      "name": "Chicago-Naperville-Elgin, IL-IN",
+      "population2025": 9434123,
+      "possibleAreas": 0,
+      "rank": 3,
+      "warningRecords": 625
+    },
+    {
+      "agencyPoints": 0,
+      "counties": [
+        {
+          "fips": "48085",
+          "name": "Collin County, TX"
+        },
+        {
+          "fips": "48113",
+          "name": "Dallas County, TX"
+        },
+        {
+          "fips": "48121",
+          "name": "Denton County, TX"
+        },
+        {
+          "fips": "48139",
+          "name": "Ellis County, TX"
+        },
+        {
+          "fips": "48231",
+          "name": "Hunt County, TX"
+        },
+        {
+          "fips": "48257",
+          "name": "Kaufman County, TX"
+        },
+        {
+          "fips": "48397",
+          "name": "Rockwall County, TX"
+        },
+        {
+          "fips": "48251",
+          "name": "Johnson County, TX"
+        },
+        {
+          "fips": "48367",
+          "name": "Parker County, TX"
+        },
+        {
+          "fips": "48439",
+          "name": "Tarrant County, TX"
+        },
+        {
+          "fips": "48497",
+          "name": "Wise County, TX"
+        }
+      ],
+      "id": "19100",
+      "name": "Dallas-Fort Worth-Arlington, TX",
+      "population2025": 8477157,
+      "possibleAreas": 0,
+      "rank": 4,
+      "warningRecords": 86
+    },
+    {
+      "agencyPoints": 0,
+      "counties": [
+        {
+          "fips": "48015",
+          "name": "Austin County, TX"
+        },
+        {
+          "fips": "48039",
+          "name": "Brazoria County, TX"
+        },
+        {
+          "fips": "48071",
+          "name": "Chambers County, TX"
+        },
+        {
+          "fips": "48157",
+          "name": "Fort Bend County, TX"
+        },
+        {
+          "fips": "48167",
+          "name": "Galveston County, TX"
+        },
+        {
+          "fips": "48201",
+          "name": "Harris County, TX"
+        },
+        {
+          "fips": "48291",
+          "name": "Liberty County, TX"
+        },
+        {
+          "fips": "48339",
+          "name": "Montgomery County, TX"
+        },
+        {
+          "fips": "48407",
+          "name": "San Jacinto County, TX"
+        },
+        {
+          "fips": "48473",
+          "name": "Waller County, TX"
+        }
+      ],
+      "id": "26420",
+      "name": "Houston-Pasadena-The Woodlands, TX",
+      "population2025": 7904627,
+      "possibleAreas": 0,
+      "rank": 5,
+      "warningRecords": 1
+    },
+    {
+      "agencyPoints": 0,
+      "counties": [
+        {
+          "fips": "13013",
+          "name": "Barrow County, GA"
+        },
+        {
+          "fips": "13035",
+          "name": "Butts County, GA"
+        },
+        {
+          "fips": "13045",
+          "name": "Carroll County, GA"
+        },
+        {
+          "fips": "13063",
+          "name": "Clayton County, GA"
+        },
+        {
+          "fips": "13077",
+          "name": "Coweta County, GA"
+        },
+        {
+          "fips": "13085",
+          "name": "Dawson County, GA"
+        },
+        {
+          "fips": "13089",
+          "name": "DeKalb County, GA"
+        },
+        {
+          "fips": "13097",
+          "name": "Douglas County, GA"
+        },
+        {
+          "fips": "13113",
+          "name": "Fayette County, GA"
+        },
+        {
+          "fips": "13117",
+          "name": "Forsyth County, GA"
+        },
+        {
+          "fips": "13121",
+          "name": "Fulton County, GA"
+        },
+        {
+          "fips": "13135",
+          "name": "Gwinnett County, GA"
+        },
+        {
+          "fips": "13149",
+          "name": "Heard County, GA"
+        },
+        {
+          "fips": "13151",
+          "name": "Henry County, GA"
+        },
+        {
+          "fips": "13159",
+          "name": "Jasper County, GA"
+        },
+        {
+          "fips": "13187",
+          "name": "Lumpkin County, GA"
+        },
+        {
+          "fips": "13199",
+          "name": "Meriwether County, GA"
+        },
+        {
+          "fips": "13211",
+          "name": "Morgan County, GA"
+        },
+        {
+          "fips": "13217",
+          "name": "Newton County, GA"
+        },
+        {
+          "fips": "13227",
+          "name": "Pickens County, GA"
+        },
+        {
+          "fips": "13231",
+          "name": "Pike County, GA"
+        },
+        {
+          "fips": "13247",
+          "name": "Rockdale County, GA"
+        },
+        {
+          "fips": "13255",
+          "name": "Spalding County, GA"
+        },
+        {
+          "fips": "13297",
+          "name": "Walton County, GA"
+        },
+        {
+          "fips": "13015",
+          "name": "Bartow County, GA"
+        },
+        {
+          "fips": "13057",
+          "name": "Cherokee County, GA"
+        },
+        {
+          "fips": "13067",
+          "name": "Cobb County, GA"
+        },
+        {
+          "fips": "13143",
+          "name": "Haralson County, GA"
+        },
+        {
+          "fips": "13223",
+          "name": "Paulding County, GA"
+        }
+      ],
+      "id": "12060",
+      "name": "Atlanta-Sandy Springs-Roswell, GA",
+      "population2025": 6482182,
+      "possibleAreas": 0,
+      "rank": 6,
+      "warningRecords": 31
+    },
+    {
+      "agencyPoints": 187,
+      "counties": [
+        {
+          "fips": "51013",
+          "name": "Arlington County, VA"
+        },
+        {
+          "fips": "51043",
+          "name": "Clarke County, VA"
+        },
+        {
+          "fips": "51047",
+          "name": "Culpeper County, VA"
+        },
+        {
+          "fips": "51059",
+          "name": "Fairfax County, VA"
+        },
+        {
+          "fips": "51061",
+          "name": "Fauquier County, VA"
+        },
+        {
+          "fips": "51107",
+          "name": "Loudoun County, VA"
+        },
+        {
+          "fips": "51153",
+          "name": "Prince William County, VA"
+        },
+        {
+          "fips": "51157",
+          "name": "Rappahannock County, VA"
+        },
+        {
+          "fips": "51177",
+          "name": "Spotsylvania County, VA"
+        },
+        {
+          "fips": "51179",
+          "name": "Stafford County, VA"
+        },
+        {
+          "fips": "51187",
+          "name": "Warren County, VA"
+        },
+        {
+          "fips": "51510",
+          "name": "Alexandria city, VA"
+        },
+        {
+          "fips": "51600",
+          "name": "Fairfax city, VA"
+        },
+        {
+          "fips": "51610",
+          "name": "Falls Church city, VA"
+        },
+        {
+          "fips": "51630",
+          "name": "Fredericksburg city, VA"
+        },
+        {
+          "fips": "51683",
+          "name": "Manassas city, VA"
+        },
+        {
+          "fips": "51685",
+          "name": "Manassas Park city, VA"
+        },
+        {
+          "fips": "54037",
+          "name": "Jefferson County, WV"
+        },
+        {
+          "fips": "24021",
+          "name": "Frederick County, MD"
+        },
+        {
+          "fips": "24031",
+          "name": "Montgomery County, MD"
+        },
+        {
+          "fips": "11001",
+          "name": "District of Columbia, DC"
+        },
+        {
+          "fips": "24017",
+          "name": "Charles County, MD"
+        },
+        {
+          "fips": "24033",
+          "name": "Prince George's County, MD"
+        }
+      ],
+      "id": "47900",
+      "name": "Washington-Arlington-Alexandria, DC-VA-MD-WV",
+      "population2025": 6465724,
+      "possibleAreas": 0,
+      "rank": 7,
+      "warningRecords": 509
+    },
+    {
+      "agencyPoints": 0,
+      "counties": [
+        {
+          "fips": "12011",
+          "name": "Broward County, FL"
+        },
+        {
+          "fips": "12086",
+          "name": "Miami-Dade County, FL"
+        },
+        {
+          "fips": "12099",
+          "name": "Palm Beach County, FL"
+        }
+      ],
+      "id": "33100",
+      "name": "Miami-Fort Lauderdale-West Palm Beach, FL",
+      "population2025": 6391072,
+      "possibleAreas": 0,
+      "rank": 8,
+      "warningRecords": 24
+    },
+    {
+      "agencyPoints": 0,
+      "counties": [
+        {
+          "fips": "34005",
+          "name": "Burlington County, NJ"
+        },
+        {
+          "fips": "34007",
+          "name": "Camden County, NJ"
+        },
+        {
+          "fips": "34015",
+          "name": "Gloucester County, NJ"
+        },
+        {
+          "fips": "42017",
+          "name": "Bucks County, PA"
+        },
+        {
+          "fips": "42029",
+          "name": "Chester County, PA"
+        },
+        {
+          "fips": "42091",
+          "name": "Montgomery County, PA"
+        },
+        {
+          "fips": "42045",
+          "name": "Delaware County, PA"
+        },
+        {
+          "fips": "42101",
+          "name": "Philadelphia County, PA"
+        },
+        {
+          "fips": "10003",
+          "name": "New Castle County, DE"
+        },
+        {
+          "fips": "24015",
+          "name": "Cecil County, MD"
+        },
+        {
+          "fips": "34033",
+          "name": "Salem County, NJ"
+        }
+      ],
+      "id": "37980",
+      "name": "Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",
+      "population2025": 6329118,
+      "possibleAreas": 0,
+      "rank": 9,
+      "warningRecords": 9
+    },
+    {
+      "agencyPoints": 9,
+      "counties": [
+        {
+          "fips": "04013",
+          "name": "Maricopa County, AZ"
+        },
+        {
+          "fips": "04021",
+          "name": "Pinal County, AZ"
+        }
+      ],
+      "id": "38060",
+      "name": "Phoenix-Mesa-Chandler, AZ",
+      "population2025": 5228938,
+      "possibleAreas": 0,
+      "rank": 10,
+      "warningRecords": 33
+    },
+    {
+      "agencyPoints": 0,
+      "counties": [
+        {
+          "fips": "25021",
+          "name": "Norfolk County, MA"
+        },
+        {
+          "fips": "25023",
+          "name": "Plymouth County, MA"
+        },
+        {
+          "fips": "25025",
+          "name": "Suffolk County, MA"
+        },
+        {
+          "fips": "25009",
+          "name": "Essex County, MA"
+        },
+        {
+          "fips": "25017",
+          "name": "Middlesex County, MA"
+        },
+        {
+          "fips": "33015",
+          "name": "Rockingham County, NH"
+        },
+        {
+          "fips": "33017",
+          "name": "Strafford County, NH"
+        }
+      ],
+      "id": "14460",
+      "name": "Boston-Cambridge-Newton, MA-NH",
+      "population2025": 5034221,
+      "possibleAreas": 0,
+      "rank": 11,
+      "warningRecords": 0
+    },
+    {
+      "agencyPoints": 0,
+      "counties": [
+        {
+          "fips": "06065",
+          "name": "Riverside County, CA"
+        },
+        {
+          "fips": "06071",
+          "name": "San Bernardino County, CA"
+        }
+      ],
+      "id": "40140",
+      "name": "Riverside-San Bernardino-Ontario, CA",
+      "population2025": 4769007,
+      "possibleAreas": 0,
+      "rank": 12,
+      "warningRecords": 4
+    },
+    {
+      "agencyPoints": 31,
+      "counties": [
+        {
+          "fips": "06001",
+          "name": "Alameda County, CA"
+        },
+        {
+          "fips": "06013",
+          "name": "Contra Costa County, CA"
+        },
+        {
+          "fips": "06075",
+          "name": "San Francisco County, CA"
+        },
+        {
+          "fips": "06081",
+          "name": "San Mateo County, CA"
+        },
+        {
+          "fips": "06041",
+          "name": "Marin County, CA"
+        }
+      ],
+      "id": "41860",
+      "name": "San Francisco-Oakland-Fremont, CA",
+      "population2025": 4630041,
+      "possibleAreas": 0,
+      "rank": 13,
+      "warningRecords": 80
+    },
+    {
+      "agencyPoints": 0,
+      "counties": [
+        {
+          "fips": "26163",
+          "name": "Wayne County, MI"
+        },
+        {
+          "fips": "26087",
+          "name": "Lapeer County, MI"
+        },
+        {
+          "fips": "26093",
+          "name": "Livingston County, MI"
+        },
+        {
+          "fips": "26099",
+          "name": "Macomb County, MI"
+        },
+        {
+          "fips": "26125",
+          "name": "Oakland County, MI"
+        },
+        {
+          "fips": "26147",
+          "name": "St. Clair County, MI"
+        }
+      ],
+      "id": "19820",
+      "name": "Detroit-Warren-Dearborn, MI",
+      "population2025": 4390913,
+      "possibleAreas": 0,
+      "rank": 14,
+      "warningRecords": 0
+    },
+    {
+      "agencyPoints": 107,
+      "counties": [
+        {
+          "fips": "53061",
+          "name": "Snohomish County, WA"
+        },
+        {
+          "fips": "53033",
+          "name": "King County, WA"
+        },
+        {
+          "fips": "53053",
+          "name": "Pierce County, WA"
+        }
+      ],
+      "id": "42660",
+      "name": "Seattle-Tacoma-Bellevue, WA",
+      "population2025": 4161883,
+      "possibleAreas": 0,
+      "rank": 15,
+      "warningRecords": 194
+    },
+    {
+      "agencyPoints": 0,
+      "counties": [
+        {
+          "fips": "27003",
+          "name": "Anoka County, MN"
+        },
+        {
+          "fips": "27019",
+          "name": "Carver County, MN"
+        },
+        {
+          "fips": "27025",
+          "name": "Chisago County, MN"
+        },
+        {
+          "fips": "27037",
+          "name": "Dakota County, MN"
+        },
+        {
+          "fips": "27053",
+          "name": "Hennepin County, MN"
+        },
+        {
+          "fips": "27059",
+          "name": "Isanti County, MN"
+        },
+        {
+          "fips": "27079",
+          "name": "Le Sueur County, MN"
+        },
+        {
+          "fips": "27095",
+          "name": "Mille Lacs County, MN"
+        },
+        {
+          "fips": "27123",
+          "name": "Ramsey County, MN"
+        },
+        {
+          "fips": "27139",
+          "name": "Scott County, MN"
+        },
+        {
+          "fips": "27141",
+          "name": "Sherburne County, MN"
+        },
+        {
+          "fips": "27163",
+          "name": "Washington County, MN"
+        },
+        {
+          "fips": "27171",
+          "name": "Wright County, MN"
+        },
+        {
+          "fips": "55093",
+          "name": "Pierce County, WI"
+        },
+        {
+          "fips": "55109",
+          "name": "St. Croix County, WI"
+        }
+      ],
+      "id": "33460",
+      "name": "Minneapolis-St. Paul-Bloomington, MN-WI",
+      "population2025": 3790295,
+      "possibleAreas": 0,
+      "rank": 16,
+      "warningRecords": 16
+    },
+    {
+      "agencyPoints": 0,
+      "counties": [
+        {
+          "fips": "12103",
+          "name": "Pinellas County, FL"
+        },
+        {
+          "fips": "12053",
+          "name": "Hernando County, FL"
+        },
+        {
+          "fips": "12057",
+          "name": "Hillsborough County, FL"
+        },
+        {
+          "fips": "12101",
+          "name": "Pasco County, FL"
+        }
+      ],
+      "id": "45300",
+      "name": "Tampa-St. Petersburg-Clearwater, FL",
+      "population2025": 3418895,
+      "possibleAreas": 0,
+      "rank": 17,
+      "warningRecords": 28
+    },
+    {
+      "agencyPoints": 0,
+      "counties": [
+        {
+          "fips": "06073",
+          "name": "San Diego County, CA"
+        }
+      ],
+      "id": "41740",
+      "name": "San Diego-Chula Vista-Carlsbad, CA",
+      "population2025": 3282248,
+      "possibleAreas": 0,
+      "rank": 18,
+      "warningRecords": 15
+    },
+    {
+      "agencyPoints": 0,
+      "counties": [
+        {
+          "fips": "08001",
+          "name": "Adams County, CO"
+        },
+        {
+          "fips": "08005",
+          "name": "Arapahoe County, CO"
+        },
+        {
+          "fips": "08014",
+          "name": "Broomfield County, CO"
+        },
+        {
+          "fips": "08019",
+          "name": "Clear Creek County, CO"
+        },
+        {
+          "fips": "08031",
+          "name": "Denver County, CO"
+        },
+        {
+          "fips": "08035",
+          "name": "Douglas County, CO"
+        },
+        {
+          "fips": "08039",
+          "name": "Elbert County, CO"
+        },
+        {
+          "fips": "08047",
+          "name": "Gilpin County, CO"
+        },
+        {
+          "fips": "08059",
+          "name": "Jefferson County, CO"
+        },
+        {
+          "fips": "08093",
+          "name": "Park County, CO"
+        }
+      ],
+      "id": "19740",
+      "name": "Denver-Aurora-Centennial, CO",
+      "population2025": 3092037,
+      "possibleAreas": 0,
+      "rank": 19,
+      "warningRecords": 22
+    },
+    {
+      "agencyPoints": 0,
+      "counties": [
+        {
+          "fips": "12069",
+          "name": "Lake County, FL"
+        },
+        {
+          "fips": "12095",
+          "name": "Orange County, FL"
+        },
+        {
+          "fips": "12097",
+          "name": "Osceola County, FL"
+        },
+        {
+          "fips": "12117",
+          "name": "Seminole County, FL"
+        }
+      ],
+      "id": "36740",
+      "name": "Orlando-Kissimmee-Sanford, FL",
+      "population2025": 2957672,
+      "possibleAreas": 0,
+      "rank": 20,
+      "warningRecords": 97
+    }
+  ]
+}

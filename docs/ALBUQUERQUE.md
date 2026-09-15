@@ -1,6 +1,6 @@
 # Albuquerque city-list coverage
 
-**40 of 40 listed approaches are represented** in snapshot `2026-09-14-6466b7b09db1-78026b1a` (1,777 total warning locations). The city subset has 19 matched camera points and 21 explicitly approximate warning areas.
+**40 of 40 listed approaches are represented.** The September 14 source expansion has 2,653 total warning records; the city subset now has 20 matched camera points and 20 explicitly approximate warning areas. See [metro expansion and remaining county gaps](METRO-COVERAGE.md). The Eubank/Sierra Vista point supersedes its build 5 approximate area without changing its app ID.
 
 Checked September 14, 2026, against the [city camera list](https://www.cabq.gov/automated-speed-enforcement) and its [supporting documents](https://www.cabq.gov/automated-speed-enforcement/ase-documents). Road geometry comes from OpenStreetMap under ODbL. This covers the city list, not every camera in the wider metro. Physical drive acceptance remains pending.
 
@@ -30,7 +30,7 @@ Checked September 14, 2026, against the [city camera list](https://www.cabq.gov/
 | ABQ-22 | Central between Louisiana and San Pedro | WB | Approximate area |
 | ABQ-23 | Carlisle between Hilton and Delamar (certificate correction) | SB | Approximate area |
 | ABQ-24 | Lead near Bryn Mawr | WB | Approximate area |
-| ABQ-25 | Eubank near Sierra Vista | SB | Approximate area |
+| ABQ-25 | Eubank just south of Sierra Vista Court | SB | Mapped camera point |
 | ABQ-26 | Broadway between Iron and Coal | NB | Approximate area |
 | ABQ-27 | Unser near Old Ouray | NB | Approximate area |
 | ABQ-28 | Juan Tabo near Copper | SB | Approximate area |

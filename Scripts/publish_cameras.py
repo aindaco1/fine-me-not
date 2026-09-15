@@ -9,8 +9,8 @@ import argparse, collections, datetime as dt, hashlib, json, math, pathlib, re
 import urllib.parse, urllib.request
 from zoneinfo import ZoneInfo
 
-ROOT = pathlib.Path(__file__).resolve().parents[1]
-UTC = dt.timezone.utc
+from camera_data import ROOT, UTC, read, encode, write, stamp, valid_point, distance
+from agency_cameras import combine, coverage_report, audit_metro_points
 OSM_URL = 'https://www.openstreetmap.org/copyright'
 QUERIES = {
     'speed': 'node(area.us)["highway"="speed_camera"];out body;',
@@ -18,24 +18,6 @@ QUERIES = {
     'aliases': '(node(area.us)["enforcement"~"red_light_camera|speed_camera"];node(area.us)["camera:type"~"red_light|speed"];);out body;',
 }
 PREFIX = '[out:json][timeout:180];area["ISO3166-1"="US"]["admin_level"="2"]->.us;'
-
-
-def read(path, default=None):
-    return json.loads(path.read_text()) if path.exists() else default
-
-
-def encode(value):
-    return (json.dumps(value, ensure_ascii=False, sort_keys=True, indent=2) + '\n').encode()
-
-
-def write(path, value):
-    path.parent.mkdir(parents=True, exist_ok=True)
-    temp = path.with_suffix(path.suffix + '.tmp')
-    temp.write_bytes(encode(value)); temp.replace(path)
-
-
-def stamp(now):
-    return now.astimezone(UTC).replace(microsecond=0).isoformat().replace('+00:00', 'Z')
 
 
 def week(now):
@@ -85,20 +67,8 @@ def fetch_sources(root):
     return results
 
 
-def valid_point(lat, lon):
-    return (isinstance(lat, (int, float)) and isinstance(lon, (int, float))
-        and math.isfinite(lat) and math.isfinite(lon) and -90 <= lat <= 90 and -180 <= lon <= 180)
-
-
 def point(e):
     return {'latitude': e['lat'], 'longitude': e['lon']}
-
-
-def distance(a, b):
-    lat1, lat2 = map(math.radians, (a['latitude'], b['latitude']))
-    dlat = lat2 - lat1; dlon = math.radians(b['longitude'] - a['longitude'])
-    h = math.sin(dlat / 2) ** 2 + math.cos(lat1) * math.cos(lat2) * math.sin(dlon / 2) ** 2
-    return 6371000 * 2 * math.asin(min(1, math.sqrt(h)))
 
 
 def bearing(a, b):
@@ -231,7 +201,8 @@ def publish(root, now, fetched=None):
     documents = [valid_source(read(root / f'Data/Sources/osm-us-{name}.json')) for name in QUERIES]
     records, issues = osm_records(documents)
     previous = read(root / 'Data/Published/cameras.json', {})
-    if fetched and all(r['status'] != 'downloaded' for r in fetched) and previous.get('cameras'):
+    agency_fresh = any(read(path).get('checkedAt', '') > previous.get('generatedAt', '') for path in (root/'Data/External').glob('*.json'))
+    if fetched and all(r['status'] != 'downloaded' for r in fetched) and previous.get('cameras') and not agency_fresh:
         report = read(root / 'Data/Review/publisher-report.json', {})
         report.update({'generatedAt': stamp(now), 'fetches': fetched,
                        'publication': 'All upstream fetches failed; published snapshot left unchanged.'})
@@ -239,12 +210,17 @@ def publish(root, now, fetched=None):
         print('All upstream fetches failed; keeping the published database and its original date.')
         return previous
     overrides = read(root / 'Data/Overrides/metro.json', {})
+    audit_metro_points(root, documents, overrides, now)
+    records, agency_sources, agency_review, replaced = combine(root, records, previous, now)
+    overrides['tombstones'] = {**overrides.get('tombstones', {}), **{k: 'Reviewed agency identity' for k in replaced}}
+    issues += agency_review
     prior_state = read(root / 'Data/Review/publisher-state.json', {})
     # Only new successful source snapshots count toward consecutive absence.
     source_version = '-'.join(d['osm3s']['timestamp_osm_base'] for d in documents)
     complete = all(r['status'] == 'downloaded' for r in (fetched or [])) and source_version != prior_state.get('sourceVersion')
     records, state, review = reconcile(records, overrides, previous, prior_state, now, complete)
     validate(records); issues += review
+    coverage_report(root, records, now)
     state['sourceVersion'] = source_version
     digest = hashlib.sha256(encode(records)).hexdigest()[:12]
     version = f'{week(now)}-{digest}'
@@ -252,8 +228,8 @@ def publish(root, now, fetched=None):
     source_dates = [d['osm3s']['timestamp_osm_base'] for d in documents]
     sources = [{'id': 'osm', 'name': 'OpenStreetMap contributors', 'url': OSM_URL, 'license': 'ODbL-1.0',
         'checkedAt': min(source_dates), 'status': 'Community coverage; incomplete. Source timestamps: ' + ', '.join(source_dates)}]
-    sources += overrides.get('sources', [])
-    coverage = 'U.S. community data; Albuquerque metro supplement. Coverage is incomplete; see Sources.'
+    sources += overrides.get('sources', []) + agency_sources
+    coverage = 'U.S. community data plus reviewed Albuquerque and agency supplements in Census metros. Coverage is incomplete; see Sources.'
     snapshot = {'schemaVersion': 1, 'version': version, 'generatedAt': stamp(now), 'coverage': coverage, 'sources': sources, 'cameras': records}
     # Timestamp/provenance is part of identity so each manifest always names immutable bytes.
     version += '-' + hashlib.sha256(encode(sources)).hexdigest()[:8]
@@ -274,8 +250,10 @@ def publish(root, now, fetched=None):
 
 def main():
     parser = argparse.ArgumentParser(); parser.add_argument('--fetch', action='store_true')
+    parser.add_argument('--staged', action='store_true', help='Use prepublication fetch status for completeness accounting')
     parser.add_argument('--root', type=pathlib.Path, default=ROOT)
     args = parser.parse_args(); fetched = fetch_sources(args.root) if args.fetch else None
+    if args.staged and not args.fetch: fetched = read(args.root/'Data/Review/prepublication-check.json', {}).get('osmFetches')
     publish(args.root, dt.datetime.now(UTC), fetched)
     if fetched and any(r['status'] != 'downloaded' for r in fetched):
         print('::warning::One or more upstream sources failed; last good data retained. See publisher-report.json.')

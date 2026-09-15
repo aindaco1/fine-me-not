@@ -1,13 +1,29 @@
 {
   "counts": {
-    "possibleSpeed": 24,
-    "redLight": 393,
-    "speed": 1136,
-    "speedAndRedLight": 224
+    "possibleSpeed": 167,
+    "redLight": 712,
+    "speed": 1580,
+    "speedAndRedLight": 194
   },
-  "fetches": [],
-  "generatedAt": "2026-09-15T01:03:11Z",
-  "records": 1777,
+  "fetches": [
+    {
+      "checkedAt": "2026-09-15T02:05:19Z",
+      "source": "speed",
+      "status": "downloaded"
+    },
+    {
+      "checkedAt": "2026-09-15T02:05:27Z",
+      "source": "enforcement",
+      "status": "downloaded"
+    },
+    {
+      "checkedAt": "2026-09-15T02:05:42Z",
+      "source": "aliases",
+      "status": "downloaded"
+    }
+  ],
+  "generatedAt": "2026-09-15T02:06:32Z",
+  "records": 2653,
   "review": [
     {
       "id": "osm-relation-545916",
@@ -56,6 +72,2538 @@
     {
       "id": "osm-node-13691575876",
       "reason": "Uncertain, removed, or unsupported tags"
+    },
+    {
+      "id": "agency-chicago-speed-chi003-270",
+      "label": "4124 W Foster Ave · WB",
+      "nearby": [
+        {
+          "id": "osm-node-2433066966",
+          "meters": 15.0
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-speed-chi003-90",
+      "label": "4124 W Foster Ave · EB",
+      "nearby": [
+        {
+          "id": "osm-node-2433066966",
+          "meters": 15.0
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-speed-chi026-0",
+      "label": "3521 N Western Ave · NB",
+      "nearby": [
+        {
+          "id": "osm-node-6969680327",
+          "meters": 127.7
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-speed-chi027-180",
+      "label": "3534 N Western Ave · SB",
+      "nearby": [
+        {
+          "id": "osm-node-6969680327",
+          "meters": 83.7
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-speed-chi055-0",
+      "label": "4433 N Western Ave · NB",
+      "nearby": [
+        {
+          "id": "osm-node-8855668697",
+          "meters": 7.6
+        },
+        {
+          "id": "osm-node-8855668698",
+          "meters": 26.2
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-speed-chi056-0",
+      "label": "4432 N Lincoln Ave · NB",
+      "nearby": [
+        {
+          "id": "osm-node-8976139322",
+          "meters": 12.1
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-speed-chi056-180",
+      "label": "4432 N Lincoln Ave · SB",
+      "nearby": [
+        {
+          "id": "osm-node-8976139322",
+          "meters": 12.1
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-speed-chi079-90",
+      "label": "2705 W Irving Park Ave · EB",
+      "nearby": [
+        {
+          "id": "osm-node-12245055762",
+          "meters": 27.3
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-speed-chi080-270",
+      "label": "2712 W Irving Park Ave · WB",
+      "nearby": [
+        {
+          "id": "osm-node-12245055762",
+          "meters": 18.3
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-speed-chi083-270",
+      "label": "6226 W Irving Park Rd · WB",
+      "nearby": [
+        {
+          "id": "osm-node-4733448829",
+          "meters": 5.8
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-speed-chi083-90",
+      "label": "6226 W Irving Park Rd · EB",
+      "nearby": [
+        {
+          "id": "osm-node-4733448829",
+          "meters": 5.8
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-speed-chi094-180",
+      "label": "4436 N Western Ave · SB",
+      "nearby": [
+        {
+          "id": "osm-node-8855668697",
+          "meters": 34.2
+        },
+        {
+          "id": "osm-node-8855668698",
+          "meters": 11.8
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-speed-chi104-0",
+      "label": "3115 N Narragansett Ave · NB",
+      "nearby": [
+        {
+          "id": "osm-node-5076522476",
+          "meters": 22.8
+        },
+        {
+          "id": "osm-node-8023991516",
+          "meters": 9.0
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-speed-chi115-90",
+      "label": "4707 W Peterson Ave · EB",
+      "nearby": [
+        {
+          "id": "osm-node-11374686921",
+          "meters": 9.3
+        },
+        {
+          "id": "osm-node-11374686922",
+          "meters": 101.5
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-speed-chi116-270",
+      "label": "4674 W Peterson Ave · WB",
+      "nearby": [
+        {
+          "id": "osm-node-11374686921",
+          "meters": 71.2
+        },
+        {
+          "id": "osm-node-11374686922",
+          "meters": 24.9
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-speed-chi127-0",
+      "label": "1229 N Western Ave · NB",
+      "nearby": [
+        {
+          "id": "osm-node-3992613695",
+          "meters": 11.9
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-speed-chi128-180",
+      "label": "1226 S Western Ave · SB",
+      "nearby": [
+        {
+          "id": "osm-node-3992613695",
+          "meters": 16.6
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-speed-chi129-270",
+      "label": "2329 W Division St · WB",
+      "nearby": [
+        {
+          "id": "osm-node-3992613695",
+          "meters": 150.0
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-speed-chi129-90",
+      "label": "2329 W Division St · EB",
+      "nearby": [
+        {
+          "id": "osm-node-3992613695",
+          "meters": 150.0
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-speed-chi132-180",
+      "label": "3116 N Narragansett Ave · SB",
+      "nearby": [
+        {
+          "id": "osm-node-5076522476",
+          "meters": 2.8
+        },
+        {
+          "id": "osm-node-8023991516",
+          "meters": 16.0
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-speed-chi140-90",
+      "label": "3535 E 95th St · EB",
+      "nearby": [
+        {
+          "id": "osm-node-7519938996",
+          "meters": 9.3
+        },
+        {
+          "id": "osm-node-7519938997",
+          "meters": 42.6
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-speed-chi141-270",
+      "label": "3542 E 95th St · WB",
+      "nearby": [
+        {
+          "id": "osm-node-7519938996",
+          "meters": 45.5
+        },
+        {
+          "id": "osm-node-7519938997",
+          "meters": 16.7
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-speed-chi142-0",
+      "label": "9618 S. Ewing · NB",
+      "nearby": [
+        {
+          "id": "osm-node-7519912070",
+          "meters": 9.3
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-speed-chi142-180",
+      "label": "9618 S. Ewing · SB",
+      "nearby": [
+        {
+          "id": "osm-node-7519912070",
+          "meters": 9.3
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-speed-chi149-0",
+      "label": "4909 N Cicero Ave · NB",
+      "nearby": [
+        {
+          "id": "osm-node-12236500844",
+          "meters": 133.4
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-speed-chi149-180",
+      "label": "4909 N Cicero Ave · SB",
+      "nearby": [
+        {
+          "id": "osm-node-12236500844",
+          "meters": 133.4
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-speed-chi174-270",
+      "label": "8020 W Forest Preserve Ave · WB",
+      "nearby": [
+        {
+          "id": "osm-node-13198336725",
+          "meters": 4.7
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-speed-chi174-90",
+      "label": "8020 W Forest Preserve Ave · EB",
+      "nearby": [
+        {
+          "id": "osm-node-13198336725",
+          "meters": 4.7
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-speed-chi175-90",
+      "label": "8043 W Addison St · EB",
+      "nearby": [
+        {
+          "id": "osm-node-13198336725",
+          "meters": 101.6
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-speed-chi176-270",
+      "label": "8006 W Addison St · WB",
+      "nearby": [
+        {
+          "id": "osm-node-13198336725",
+          "meters": 93.3
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-speed-chi208-270",
+      "label": "1455 W Grand Ave · WB",
+      "nearby": [
+        {
+          "id": "osm-node-14151228430",
+          "meters": 0.4
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-speed-chi208-90",
+      "label": "1455 W Grand Ave · EB",
+      "nearby": [
+        {
+          "id": "osm-node-14151228430",
+          "meters": 0.4
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-speed-chi233-0",
+      "label": "1635 N LaSalle · NB",
+      "nearby": [
+        {
+          "id": "osm-node-13064471935",
+          "meters": 4.4
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-speed-chi245-0",
+      "label": "3624 S Western Ave · NB",
+      "nearby": [
+        {
+          "id": "osm-node-13185165821",
+          "meters": 8.5
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-speed-chi245-180",
+      "label": "3624 S Western Ave · SB",
+      "nearby": [
+        {
+          "id": "osm-node-13185165821",
+          "meters": 8.5
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-red-1601-w-lawrence-ave-90",
+      "label": "1601 W Lawrence Ave · EB",
+      "nearby": [
+        {
+          "id": "agency-chicago-speed-chi209-0",
+          "meters": 135.8
+        },
+        {
+          "id": "agency-chicago-speed-chi209-180",
+          "meters": 135.8
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-red-2140-s-western-ave-180",
+      "label": "2140 S Western Ave · SB",
+      "nearby": [
+        {
+          "id": "agency-chicago-speed-chi134-0",
+          "meters": 117.2
+        },
+        {
+          "id": "agency-chicago-speed-chi135-180",
+          "meters": 136.8
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-red-2380-w-montrose-ave-270",
+      "label": "2380 W Montrose Ave · WB",
+      "nearby": [
+        {
+          "id": "osm-node-8855668697",
+          "meters": 102.0
+        },
+        {
+          "id": "osm-node-8855668698",
+          "meters": 128.0
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-red-2404-n-ashland-ave-180",
+      "label": "2404 N Ashland Ave · SB",
+      "nearby": [
+        {
+          "id": "agency-chicago-speed-chi091-0",
+          "meters": 109.1
+        },
+        {
+          "id": "agency-chicago-speed-chi092-180",
+          "meters": 82.3
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-red-2408-n-cicero-ave-180",
+      "label": "2408 N Cicero Ave · SB",
+      "nearby": [
+        {
+          "id": "agency-chicago-speed-chi044-270",
+          "meters": 137.4
+        },
+        {
+          "id": "agency-chicago-speed-chi044-90",
+          "meters": 137.4
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-red-2409-w-55th-st-90",
+      "label": "2409 W 55th St · EB",
+      "nearby": [
+        {
+          "id": "agency-chicago-speed-chi069-180",
+          "meters": 112.0
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-red-2415-w-addison-st-90",
+      "label": "2415 W Addison St · EB",
+      "nearby": [
+        {
+          "id": "osm-node-6969680327",
+          "meters": 29.6
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-red-2782-w-irving-park-rd-270",
+      "label": "2782 W Irving Park Rd · WB",
+      "nearby": [
+        {
+          "id": "osm-node-12245055762",
+          "meters": 119.2
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-red-2810-n-pulaski-rd-180",
+      "label": "2810 N Pulaski Rd · SB",
+      "nearby": [
+        {
+          "id": "agency-chicago-speed-chi177-270",
+          "meters": 144.5
+        },
+        {
+          "id": "agency-chicago-speed-chi177-90",
+          "meters": 144.5
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-red-311-s-michigan-ave-0",
+      "label": "311 S Michigan Ave · NB",
+      "nearby": [
+        {
+          "id": "agency-chicago-speed-chi248-0",
+          "meters": 61.2
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-red-3209-w-55th-st-90",
+      "label": "3209 W 55th St · EB",
+      "nearby": [
+        {
+          "id": "agency-chicago-speed-chi164-0",
+          "meters": 106.2
+        },
+        {
+          "id": "agency-chicago-speed-chi164-180",
+          "meters": 106.2
+        },
+        {
+          "id": "agency-chicago-speed-chi166-90",
+          "meters": 30.9
+        },
+        {
+          "id": "agency-chicago-speed-chi167-270",
+          "meters": 29.3
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-red-3563-n-western-ave-0",
+      "label": "3563 N Western Ave · NB",
+      "nearby": [
+        {
+          "id": "osm-node-6969680327",
+          "meters": 34.5
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-red-3577-n-austin-ave-0",
+      "label": "3577 N Austin Ave · NB",
+      "nearby": [
+        {
+          "id": "osm-node-13261802987",
+          "meters": 1.1
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-red-3946-w-55th-st-270",
+      "label": "3946 W 55th St · WB",
+      "nearby": [
+        {
+          "id": "agency-chicago-speed-chi202-0",
+          "meters": 79.1
+        },
+        {
+          "id": "agency-chicago-speed-chi203-180",
+          "meters": 109.0
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-red-3946-w-roosevelt-rd-270",
+      "label": "3946 W Roosevelt Rd · WB",
+      "nearby": [
+        {
+          "id": "agency-chicago-speed-chi162-0",
+          "meters": 129.3
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-red-3947-n-austin-ave-0",
+      "label": "3947 N Austin Ave · NB",
+      "nearby": [
+        {
+          "id": "osm-node-13261802811",
+          "meters": 4.2
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-red-3960-w-79th-st-270",
+      "label": "3960 W 79th St · WB",
+      "nearby": [
+        {
+          "id": "agency-chicago-speed-chi071-0",
+          "meters": 94.2
+        },
+        {
+          "id": "agency-chicago-speed-chi072-180",
+          "meters": 115.2
+        },
+        {
+          "id": "agency-chicago-speed-chi074-270",
+          "meters": 148.8
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-red-3970-w-foster-ave-270",
+      "label": "3970 W Foster Ave · WB",
+      "nearby": [
+        {
+          "id": "agency-chicago-speed-chi004-0",
+          "meters": 149.8
+        },
+        {
+          "id": "agency-chicago-speed-chi004-180",
+          "meters": 149.8
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-red-4011-w-chicago-ave-90",
+      "label": "4011 W Chicago Ave · EB",
+      "nearby": [
+        {
+          "id": "agency-chicago-speed-chi107-90",
+          "meters": 102.1
+        },
+        {
+          "id": "agency-chicago-speed-chi108-270",
+          "meters": 102.8
+        },
+        {
+          "id": "agency-chicago-speed-chi109-0",
+          "meters": 88.5
+        },
+        {
+          "id": "agency-chicago-speed-chi109-180",
+          "meters": 88.5
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-red-4011-w-diversey-ave-90",
+      "label": "4011 W Diversey Ave · EB",
+      "nearby": [
+        {
+          "id": "agency-chicago-speed-chi252-0",
+          "meters": 119.7
+        },
+        {
+          "id": "agency-chicago-speed-chi252-180",
+          "meters": 119.7
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-red-4353-n-western-ave-0",
+      "label": "4353 N Western Ave · NB",
+      "nearby": [
+        {
+          "id": "osm-node-8855668697",
+          "meters": 137.9
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-red-466-n-central-ave-180",
+      "label": "466 N Central Ave · SB",
+      "nearby": [
+        {
+          "id": "osm-node-5073750766",
+          "meters": 38.7
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-red-4750-w-peterson-ave-270",
+      "label": "4750 W Peterson Ave · WB",
+      "nearby": [
+        {
+          "id": "osm-node-11374686921",
+          "meters": 143.0
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-red-4775-n-cicero-ave-0",
+      "label": "4775 N Cicero Ave · NB",
+      "nearby": [
+        {
+          "id": "osm-node-11375606367",
+          "meters": 51.5
+        },
+        {
+          "id": "osm-node-12236500844",
+          "meters": 134.7
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-red-4810-n-cicero-ave-180",
+      "label": "4810 N Cicero Ave · SB",
+      "nearby": [
+        {
+          "id": "osm-node-11375606367",
+          "meters": 32.6
+        },
+        {
+          "id": "osm-node-12236500844",
+          "meters": 63.3
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-red-489-n-columbus-dr-0",
+      "label": "489 N Columbus Dr · NB",
+      "nearby": [
+        {
+          "id": "agency-chicago-speed-chi124-0",
+          "meters": 87.5
+        },
+        {
+          "id": "agency-chicago-speed-chi125-180",
+          "meters": 81.7
+        },
+        {
+          "id": "agency-chicago-speed-chi126-90",
+          "meters": 64.3
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-red-498-n-columbus-dr-180",
+      "label": "498 N Columbus Dr · SB",
+      "nearby": [
+        {
+          "id": "agency-chicago-speed-chi125-180",
+          "meters": 140.1
+        },
+        {
+          "id": "agency-chicago-speed-chi126-90",
+          "meters": 103.9
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-red-4989-s-archer-ave-45",
+      "label": "4989 S Archer Ave · NEB",
+      "nearby": [
+        {
+          "id": "agency-chicago-speed-chi031-180",
+          "meters": 60.9
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-red-4996-s-archer-ave-225",
+      "label": "4996 S Archer Ave · SWB",
+      "nearby": [
+        {
+          "id": "agency-chicago-speed-chi030-0",
+          "meters": 71.2
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-red-5450-s-pulaski-rd-180",
+      "label": "5450 S Pulaski Rd · SB",
+      "nearby": [
+        {
+          "id": "agency-chicago-speed-chi202-0",
+          "meters": 42.8
+        },
+        {
+          "id": "agency-chicago-speed-chi203-180",
+          "meters": 54.6
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-red-5452-s-kedzie-ave-180",
+      "label": "5452 S Kedzie Ave · SB",
+      "nearby": [
+        {
+          "id": "agency-chicago-speed-chi164-0",
+          "meters": 145.7
+        },
+        {
+          "id": "agency-chicago-speed-chi164-180",
+          "meters": 145.7
+        },
+        {
+          "id": "agency-chicago-speed-chi166-90",
+          "meters": 68.6
+        },
+        {
+          "id": "agency-chicago-speed-chi167-270",
+          "meters": 49.2
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-red-5550-w-fullerton-ave-270",
+      "label": "5550 W Fullerton Ave · WB",
+      "nearby": [
+        {
+          "id": "agency-chicago-speed-chi041-90",
+          "meters": 140.9
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-red-5615-w-lake-st-90",
+      "label": "5615 W Lake St · EB",
+      "nearby": [
+        {
+          "id": "osm-node-5073750766",
+          "meters": 10.8
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-red-5921-n-clark-st-0",
+      "label": "5921 N Clark St · NB",
+      "nearby": [
+        {
+          "id": "agency-chicago-speed-chi093-0",
+          "meters": 109.6
+        },
+        {
+          "id": "agency-chicago-speed-chi093-180",
+          "meters": 109.6
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-red-6001-w-addison-st-90",
+      "label": "6001 W Addison St · EB",
+      "nearby": [
+        {
+          "id": "osm-node-13261802987",
+          "meters": 45.1
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-red-6009-w-irving-park-rd-90",
+      "label": "6009 W Irving Park Rd · EB",
+      "nearby": [
+        {
+          "id": "osm-node-13261802811",
+          "meters": 43.3
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-red-6254-s-pulaski-rd-180",
+      "label": "6254 S Pulaski Rd · SB",
+      "nearby": [
+        {
+          "id": "agency-chicago-speed-chi242-0",
+          "meters": 149.5
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-red-7050-s-cottage-grove-ave-180",
+      "label": "7050 S Cottage Grove Ave · SB",
+      "nearby": [
+        {
+          "id": "agency-chicago-speed-chi184-180",
+          "meters": 143.3
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-red-73-e-jackson-blvd-90",
+      "label": "73 E Jackson Blvd · EB",
+      "nearby": [
+        {
+          "id": "agency-chicago-speed-chi248-0",
+          "meters": 111.2
+        },
+        {
+          "id": "agency-chicago-speed-chi250-180",
+          "meters": 137.3
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-red-7427-w-touhy-ave-90",
+      "label": "7427 W Touhy Ave · EB",
+      "nearby": [
+        {
+          "id": "agency-chicago-speed-chi193-270",
+          "meters": 131.1
+        },
+        {
+          "id": "agency-chicago-speed-chi193-90",
+          "meters": 131.1
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-red-7890-s-pulaski-rd-180",
+      "label": "7890 S Pulaski Rd · SB",
+      "nearby": [
+        {
+          "id": "agency-chicago-speed-chi071-0",
+          "meters": 64.3
+        },
+        {
+          "id": "agency-chicago-speed-chi072-180",
+          "meters": 72.4
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-red-810-n-pulaski-rd-180",
+      "label": "810 N Pulaski Rd · SB",
+      "nearby": [
+        {
+          "id": "agency-chicago-speed-chi107-90",
+          "meters": 135.1
+        },
+        {
+          "id": "agency-chicago-speed-chi108-270",
+          "meters": 128.0
+        },
+        {
+          "id": "agency-chicago-speed-chi109-0",
+          "meters": 131.2
+        },
+        {
+          "id": "agency-chicago-speed-chi109-180",
+          "meters": 131.2
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-red-855-w-87th-st-90",
+      "label": "855 W 87th St · EB",
+      "nearby": [
+        {
+          "id": "agency-chicago-speed-chi212-0",
+          "meters": 142.3
+        },
+        {
+          "id": "agency-chicago-speed-chi212-180",
+          "meters": 142.3
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0012",
+      "label": "1000 BLK U ST NW E/B",
+      "nearby": [
+        {
+          "id": "osm-node-12580485906",
+          "meters": 33.7
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0022",
+      "label": "1100 BLK NORTH CAPITOL ST NE N/B",
+      "nearby": [
+        {
+          "id": "osm-node-12578283040",
+          "meters": 16.0
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0034",
+      "label": "12TH ST N/B @ CONSTITUTION AVE NW",
+      "nearby": [
+        {
+          "id": "osm-node-12543206049",
+          "meters": 46.0
+        },
+        {
+          "id": "osm-node-12578244900",
+          "meters": 13.4
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0040",
+      "label": "1300 BLK H ST NE E/B",
+      "nearby": [
+        {
+          "id": "osm-node-12578283047",
+          "meters": 55.6
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0065",
+      "label": "1400 BLK U ST NW E/B",
+      "nearby": [
+        {
+          "id": "osm-node-12543186481",
+          "meters": 110.0
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0082",
+      "label": "1600 BLK BENNING RD NE W/B",
+      "nearby": [
+        {
+          "id": "osm-node-12578283050",
+          "meters": 4.3
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0087",
+      "label": "16TH ST N/B @ OAK ST NW",
+      "nearby": [
+        {
+          "id": "osm-node-12543190938",
+          "meters": 51.2
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0089",
+      "label": "16TH ST S/B @ COLORADO AVE NW",
+      "nearby": [
+        {
+          "id": "osm-node-12543211842",
+          "meters": 20.5
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0094",
+      "label": "1700 BLK N CAPITOL ST NE N/B",
+      "nearby": [
+        {
+          "id": "osm-node-12580479023",
+          "meters": 6.4
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0111",
+      "label": "1900 BLK INDEPENDENCE AVE SE E/B",
+      "nearby": [
+        {
+          "id": "osm-node-12580477716",
+          "meters": 45.1
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0121",
+      "label": "200 BLK H ST NE E/B",
+      "nearby": [
+        {
+          "id": "osm-node-12578283046",
+          "meters": 8.4
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0124",
+      "label": "200 BLK NEW YORK AVE NW E/B",
+      "nearby": [
+        {
+          "id": "osm-node-12578283033",
+          "meters": 119.9
+        },
+        {
+          "id": "osm-node-12578283034",
+          "meters": 4.5
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0125",
+      "label": "200 BLK RHODE ISLAND AVE NW E/B",
+      "nearby": [
+        {
+          "id": "osm-node-12580439697",
+          "meters": 18.9
+        },
+        {
+          "id": "osm-node-12580439698",
+          "meters": 21.6
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0126",
+      "label": "200 BLK RHODE ISLAND AVE NW W/B",
+      "nearby": [
+        {
+          "id": "osm-node-12580439697",
+          "meters": 56.6
+        },
+        {
+          "id": "osm-node-12580439698",
+          "meters": 50.5
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0142",
+      "label": "2200 BLK K ST NW W/B",
+      "nearby": [
+        {
+          "id": "osm-node-12541139525",
+          "meters": 33.0
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0145",
+      "label": "2200 BLK K ST NW E/B",
+      "nearby": [
+        {
+          "id": "osm-node-12541145586",
+          "meters": 43.8
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0158",
+      "label": "2400 BLK WISCONSIN AVE NW N/B",
+      "nearby": [
+        {
+          "id": "osm-node-12580485627",
+          "meters": 11.9
+        },
+        {
+          "id": "osm-node-12580485628",
+          "meters": 30.5
+        },
+        {
+          "id": "osm-node-12580485629",
+          "meters": 144.9
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0159",
+      "label": "2400 BLK WISCONSIN AVE NW S/B",
+      "nearby": [
+        {
+          "id": "osm-node-12580485627",
+          "meters": 104.3
+        },
+        {
+          "id": "osm-node-12580485628",
+          "meters": 122.1
+        },
+        {
+          "id": "osm-node-12580485629",
+          "meters": 50.1
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0161",
+      "label": "2500 BLK FIRTH STERLING AVE SE W/B",
+      "nearby": [
+        {
+          "id": "osm-node-12578291296",
+          "meters": 19.4
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0164",
+      "label": "2500 BLK MARTIN LUTHER KING AVE SE n/b",
+      "nearby": [
+        {
+          "id": "osm-node-12580477710",
+          "meters": 77.0
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0168",
+      "label": "2500 BLK SHERIDAN ROAD SE N/B",
+      "nearby": [
+        {
+          "id": "osm-node-12580477709",
+          "meters": 4.8
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0175",
+      "label": "2600 BLK WISCONSIN AVE NW N/B",
+      "nearby": [
+        {
+          "id": "osm-node-12543165381",
+          "meters": 26.8
+        },
+        {
+          "id": "osm-node-12580485630",
+          "meters": 80.0
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0176",
+      "label": "2600 BLK WISCONSIN AVE NW S/B",
+      "nearby": [
+        {
+          "id": "osm-node-12543165381",
+          "meters": 59.6
+        },
+        {
+          "id": "osm-node-12580485630",
+          "meters": 10.5
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0186",
+      "label": "2900 BLK ARIZONA AVE NW S/B",
+      "nearby": [
+        {
+          "id": "osm-node-12578341743",
+          "meters": 11.9
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0187",
+      "label": "2900 BLK MILITARY RD NW E/B",
+      "nearby": [
+        {
+          "id": "osm-node-12578389595",
+          "meters": 15.2
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0193",
+      "label": "300 BLK NEW YORK AVE NW W/B",
+      "nearby": [
+        {
+          "id": "osm-node-12578283032",
+          "meters": 53.0
+        },
+        {
+          "id": "osm-node-12578283033",
+          "meters": 21.2
+        },
+        {
+          "id": "osm-node-12578283034",
+          "meters": 120.4
+        },
+        {
+          "id": "osm-node-12578283035",
+          "meters": 144.1
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0208",
+      "label": "3200 BLK FORT LINCOLN DRIVE NE S/B",
+      "nearby": [
+        {
+          "id": "osm-node-8455577166",
+          "meters": 9.9
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0217",
+      "label": "3400 BLK MLK JR. AVE SE SW/B",
+      "nearby": [
+        {
+          "id": "osm-node-12580454695",
+          "meters": 9.8
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0256",
+      "label": "3RD ST TUNNEL NW N/B BY MA AVE",
+      "nearby": [
+        {
+          "id": "osm-node-12578333701",
+          "meters": 47.7
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0257",
+      "label": "3RD ST TUNNEL NW S/B BY 3RD ST",
+      "nearby": [
+        {
+          "id": "osm-node-12578283041",
+          "meters": 94.1
+        },
+        {
+          "id": "osm-node-12578283042",
+          "meters": 9.3
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0260",
+      "label": "400 BLK RHODE ISLAND AVE NW E/B",
+      "nearby": [
+        {
+          "id": "osm-node-12580485901",
+          "meters": 115.3
+        },
+        {
+          "id": "osm-node-12580485902",
+          "meters": 37.4
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0283",
+      "label": "4300 BLK RESERVOIR RD NW E/B",
+      "nearby": [
+        {
+          "id": "osm-node-12541095764",
+          "meters": 3.2
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0284",
+      "label": "4300 BLK SOUTH CAPITOL ST SW S/B",
+      "nearby": [
+        {
+          "id": "osm-node-12580439687",
+          "meters": 14.7
+        },
+        {
+          "id": "osm-node-12580439688",
+          "meters": 75.7
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0297",
+      "label": "4600 BLK MASSACHUSETTS AVE NW NW/B",
+      "nearby": [
+        {
+          "id": "osm-node-12578332673",
+          "meters": 17.1
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0303",
+      "label": "4700 blk MacArthur Blvd NW s/b ",
+      "nearby": [
+        {
+          "id": "osm-node-12541100542",
+          "meters": 60.4
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0304",
+      "label": "4700 BLK RESERVOIR RD NW SE/B",
+      "nearby": [
+        {
+          "id": "osm-node-12541100542",
+          "meters": 141.2
+        },
+        {
+          "id": "osm-node-12541122304",
+          "meters": 9.4
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0311",
+      "label": "4800 BLK CONNECTICUT AVE NW S/B",
+      "nearby": [
+        {
+          "id": "osm-node-11212939653",
+          "meters": 22.1
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0329",
+      "label": "5100 BLK LOUGHBORO RD NW W/B",
+      "nearby": [
+        {
+          "id": "osm-node-12578341744",
+          "meters": 3.3
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0336",
+      "label": "5500 BLK CONNECTICUT AVE NW S/B",
+      "nearby": [
+        {
+          "id": "osm-node-12578383384",
+          "meters": 66.3
+        },
+        {
+          "id": "osm-node-12578383385",
+          "meters": 4.1
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0343",
+      "label": "5700 BLK MACARTHUR BLVD NW N/B",
+      "nearby": [
+        {
+          "id": "osm-node-12578332671",
+          "meters": 7.2
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0357",
+      "label": "600 BLK NEW YORK AVE NE E/B",
+      "nearby": [
+        {
+          "id": "osm-node-12663145040",
+          "meters": 52.4
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0358",
+      "label": "600 BLK NEW YORK AVE NW E/B",
+      "nearby": [
+        {
+          "id": "osm-node-12578283029",
+          "meters": 46.4
+        },
+        {
+          "id": "osm-node-12578283030",
+          "meters": 56.2
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0359",
+      "label": "600 BLK NEW YORK AVE NW W/B",
+      "nearby": [
+        {
+          "id": "osm-node-12578283029",
+          "meters": 75.9
+        },
+        {
+          "id": "osm-node-12578283030",
+          "meters": 25.3
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0360",
+      "label": "600 BLK NEW YORK AVE NE W/B",
+      "nearby": [
+        {
+          "id": "osm-node-12663145040",
+          "meters": 57.7
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0363",
+      "label": "600 BLK SOUTHERN AVE SE NE/B",
+      "nearby": [
+        {
+          "id": "osm-node-12580439692",
+          "meters": 3.4
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0375",
+      "label": "700 BLK N CAPITOL ST NE N/B",
+      "nearby": [
+        {
+          "id": "osm-node-12578283044",
+          "meters": 4.8
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0406",
+      "label": "CONNECTICUT AVE S/B @ NEBRASKA AVE NW",
+      "nearby": [
+        {
+          "id": "osm-node-12578393032",
+          "meters": 20.9
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0408",
+      "label": "CONSTITUTION AVE W/B @ 15TH ST NW",
+      "nearby": [
+        {
+          "id": "osm-node-12543203130",
+          "meters": 39.0
+        },
+        {
+          "id": "osm-node-12578244899",
+          "meters": 27.0
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0418",
+      "label": "DC295 SW 0.05 MILE S/O EXIT 1 N/B",
+      "nearby": [
+        {
+          "id": "osm-node-12580439684",
+          "meters": 11.5
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0444",
+      "label": "I-695 OFF RAMP E/B @ 11TH ST SE",
+      "nearby": [
+        {
+          "id": "osm-node-12580477711",
+          "meters": 31.0
+        },
+        {
+          "id": "osm-node-12580477712",
+          "meters": 70.3
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0447",
+      "label": "INDEPENDENCE AVE E/B @ 3RD ST SW",
+      "nearby": [
+        {
+          "id": "osm-node-12578244897",
+          "meters": 22.3
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0456",
+      "label": "M ST W/B @ WHITEHURST FRWY NW",
+      "nearby": [
+        {
+          "id": "osm-node-12541080615",
+          "meters": 11.5
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0472",
+      "label": "N CAPITOL ST S/B @ H ST NW",
+      "nearby": [
+        {
+          "id": "osm-node-12578283043",
+          "meters": 135.7
+        },
+        {
+          "id": "osm-node-12578283045",
+          "meters": 3.8
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0478",
+      "label": "NEW YORK AVE SW/B @ N CAPITOL ST NE",
+      "nearby": [
+        {
+          "id": "osm-node-12578283039",
+          "meters": 17.3
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0479",
+      "label": "NEW YORK AVE W/B @ FLORIDA AVE NE",
+      "nearby": [
+        {
+          "id": "osm-node-12580479020",
+          "meters": 31.2
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0484",
+      "label": "NEW YORK AVE W/B @ 4TH ST NW",
+      "nearby": [
+        {
+          "id": "osm-node-12578283032",
+          "meters": 12.1
+        },
+        {
+          "id": "osm-node-12578283033",
+          "meters": 46.4
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0498",
+      "label": "S CAPITOL RAMP S/B BEFORE I ST SW",
+      "nearby": [
+        {
+          "id": "osm-node-12578286270",
+          "meters": 49.4
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0508",
+      "label": "SUITLAND PKWY W/B @ STANTON RD SE",
+      "nearby": [
+        {
+          "id": "osm-node-12580477703",
+          "meters": 36.5
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0512",
+      "label": "UNIT BLK FLORIDA AVE NE NW/B",
+      "nearby": [
+        {
+          "id": "osm-node-12580439699",
+          "meters": 55.1
+        },
+        {
+          "id": "osm-node-12580439700",
+          "meters": 89.3
+        },
+        {
+          "id": "osm-node-12580485901",
+          "meters": 138.6
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0513",
+      "label": "UNIT BLK FLORIDA AVE NW SE/B",
+      "nearby": [
+        {
+          "id": "osm-node-12580479022",
+          "meters": 19.7
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0526",
+      "label": "1000 BLK NEW JERSEY AVE NW N/B",
+      "nearby": [
+        {
+          "id": "osm-node-12578283041",
+          "meters": 7.4
+        },
+        {
+          "id": "osm-node-12578283042",
+          "meters": 95.2
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0541",
+      "label": "4500 BLK SOUTH CAPITOL ST SE N/B",
+      "nearby": [
+        {
+          "id": "osm-node-12580439689",
+          "meters": 10.0
+        },
+        {
+          "id": "osm-node-12580439690",
+          "meters": 124.5
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0542",
+      "label": "4600 BLK SOUTH CAPITOL ST SW S/B",
+      "nearby": [
+        {
+          "id": "osm-node-12580439689",
+          "meters": 121.9
+        },
+        {
+          "id": "osm-node-12580439690",
+          "meters": 7.9
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0547",
+      "label": "2300 BLK M ST NW W/B",
+      "nearby": [
+        {
+          "id": "osm-node-12578248286",
+          "meters": 33.6
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0548",
+      "label": "1700 BLK RHODE ISLAND AVE NW W/B",
+      "nearby": [
+        {
+          "id": "osm-node-12578228970",
+          "meters": 11.8
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0549",
+      "label": "800 BLK BLADENSBURG RD NE N/B",
+      "nearby": [
+        {
+          "id": "osm-node-12578283048",
+          "meters": 24.2
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0561",
+      "label": "UNIT BLK H ST NW W/B",
+      "nearby": [
+        {
+          "id": "osm-node-12578283043",
+          "meters": 13.2
+        },
+        {
+          "id": "osm-node-12578283045",
+          "meters": 133.5
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0582",
+      "label": "6200 BLK WESTERN AVE NW NE/B",
+      "nearby": [
+        {
+          "id": "osm-node-12578383383",
+          "meters": 6.8
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0588",
+      "label": "SOUTHEAST BLVD W/B @ 11TH ST SE",
+      "nearby": [
+        {
+          "id": "osm-node-12580477711",
+          "meters": 69.9
+        },
+        {
+          "id": "osm-node-12580477712",
+          "meters": 31.4
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0589",
+      "label": "500 BLK MASSACHUSETTS AVE NW E/B",
+      "nearby": [
+        {
+          "id": "osm-node-12578283031",
+          "meters": 5.4
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0591",
+      "label": "16TH ST S/B @ COLORADO AVE NW",
+      "nearby": [
+        {
+          "id": "osm-node-12543211842",
+          "meters": 26.0
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0593",
+      "label": "NEW YORK AVE SW/B @ N CAPITOL ST NE",
+      "nearby": [
+        {
+          "id": "osm-node-12578283039",
+          "meters": 15.7
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0594",
+      "label": "SUITLAND PKWY W/B @ STANTON RD SE",
+      "nearby": [
+        {
+          "id": "osm-node-12580477703",
+          "meters": 13.2
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0595",
+      "label": "14TH ST N/B @ K ST NW",
+      "nearby": [
+        {
+          "id": "osm-node-12578273310",
+          "meters": 10.8
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0596",
+      "label": "14TH ST S/B @ U ST NW",
+      "nearby": [
+        {
+          "id": "osm-node-12543186481",
+          "meters": 15.9
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0599",
+      "label": "CONNECTICUT AVE N/B @ MILITARY NW",
+      "nearby": [
+        {
+          "id": "osm-node-11216880705",
+          "meters": 13.1
+        },
+        {
+          "id": "osm-node-12543182328",
+          "meters": 48.6
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0603",
+      "label": "GEORGIA AVE S/B @ MISSOURI AVE NW",
+      "nearby": [
+        {
+          "id": "osm-node-12543210404",
+          "meters": 48.9
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0604",
+      "label": "K ST W/B @ 25TH ST NW",
+      "nearby": [
+        {
+          "id": "osm-node-12541139525",
+          "meters": 55.8
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0606",
+      "label": "N CAPITOL ST N/B @ RIGGS RD NE",
+      "nearby": [
+        {
+          "id": "osm-node-12543175196",
+          "meters": 8.8
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0607",
+      "label": "N CAPITOL ST S/B @ GALLATIN ST NW",
+      "nearby": [
+        {
+          "id": "osm-node-12543207440",
+          "meters": 20.3
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0608",
+      "label": "NEBRASKA AVE NE/B @ FESSENDEN ST NW",
+      "nearby": [
+        {
+          "id": "osm-node-12543201738",
+          "meters": 46.2
+        },
+        {
+          "id": "osm-node-12578393033",
+          "meters": 37.4
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0703",
+      "label": "WISCONSIN AVE N/B @ BRANDYWINE NW",
+      "nearby": [
+        {
+          "id": "osm-node-12543192693",
+          "meters": 34.8
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0787",
+      "label": "14TH ST N/B @ C ST SW",
+      "nearby": [
+        {
+          "id": "osm-node-12578244898",
+          "meters": 13.2
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0806",
+      "label": "Park Pl s/b @ Irving St NW",
+      "nearby": [
+        {
+          "id": "osm-node-12543113754",
+          "meters": 10.7
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0807",
+      "label": "3000 blk Wisconsin Ave NW n/b",
+      "nearby": [
+        {
+          "id": "osm-node-12542850580",
+          "meters": 41.0
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0813",
+      "label": "M St w/b @ Wisconsin Ave NW",
+      "nearby": [
+        {
+          "id": "osm-node-12578227482",
+          "meters": 35.2
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0815",
+      "label": "2600 BLK MLK JR AVE SE S/B",
+      "nearby": [
+        {
+          "id": "osm-node-12580477708",
+          "meters": 51.5
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0816",
+      "label": "2700 BLK MLK JR AVE SE N/B",
+      "nearby": [
+        {
+          "id": "osm-node-12580477706",
+          "meters": 42.4
+        },
+        {
+          "id": "osm-node-12580477707",
+          "meters": 10.4
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0817",
+      "label": "S Capitol St SW/B @ MLK Jr Ave SE",
+      "nearby": [
+        {
+          "id": "osm-node-12580454694",
+          "meters": 11.2
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0818",
+      "label": "Massachusetts Ave e/b @ 9th St NW",
+      "nearby": [
+        {
+          "id": "osm-node-12578283026",
+          "meters": 12.2
+        },
+        {
+          "id": "osm-node-12578283028",
+          "meters": 128.2
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0821",
+      "label": "Stanton Rd s/b @ Alabama Ave SE",
+      "nearby": [
+        {
+          "id": "osm-node-12580454699",
+          "meters": 25.2
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0822",
+      "label": "RI Ave e/b @ N Capitol St NW",
+      "nearby": [
+        {
+          "id": "osm-node-12580439695",
+          "meters": 5.7
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0826",
+      "label": "5100 blk 11Th St SE se/b",
+      "nearby": [
+        {
+          "id": "osm-node-13733844861",
+          "meters": 44.5
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0829",
+      "label": "5300 blk Nebraska  Ave NW sw/b",
+      "nearby": [
+        {
+          "id": "osm-node-12578393034",
+          "meters": 44.4
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0836",
+      "label": "1200 blk New Jersey Ave NW s/b",
+      "nearby": [
+        {
+          "id": "osm-node-12578283035",
+          "meters": 48.7
+        },
+        {
+          "id": "osm-node-12578283036",
+          "meters": 12.1
+        },
+        {
+          "id": "osm-node-12578283037",
+          "meters": 104.0
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0845",
+      "label": "Rhode Island Ave sw/b @ N Capitol St NE",
+      "nearby": [
+        {
+          "id": "osm-node-12580439695",
+          "meters": 138.3
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0846",
+      "label": "700 BLK ALLEN Y LEW PL NW E/B",
+      "nearby": [
+        {
+          "id": "osm-node-12578283028",
+          "meters": 88.5
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0847",
+      "label": "1000 BLK 7TH St NW S/B",
+      "nearby": [
+        {
+          "id": "osm-node-12578283029",
+          "meters": 94.5
+        },
+        {
+          "id": "osm-node-12578283030",
+          "meters": 129.1
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0852",
+      "label": "4100 BLK WISCONSIN AVE NW S/B",
+      "nearby": [
+        {
+          "id": "osm-node-12580485632",
+          "meters": 139.8
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0860",
+      "label": "New York Ave e/b @ Florida Ave NE",
+      "nearby": [
+        {
+          "id": "osm-node-12580479020",
+          "meters": 64.1
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-seattle-se59",
+      "label": "WB E Yesler Way @ Bailey Gatzert Elementary",
+      "nearby": [
+        {
+          "id": "osm-node-8010597227",
+          "meters": 7.8
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-seattle-se69",
+      "label": "SB 1st Ave NE @ Northgate Elementary",
+      "nearby": [
+        {
+          "id": "osm-node-11702651550",
+          "meters": 0.5
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-seattle-se76",
+      "label": "NB Rainier Ave S @ South Shore K-8 School",
+      "nearby": [
+        {
+          "id": "osm-node-11221253588",
+          "meters": 7.1
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-seattle-se77",
+      "label": "SB Rainier Ave S @ South Shore K-8 School",
+      "nearby": [
+        {
+          "id": "osm-node-11221253588",
+          "meters": 82.5
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-seattle-seaf116",
+      "label": "View Ridge Elementary",
+      "nearby": [
+        {
+          "id": "osm-node-13585330261",
+          "meters": 23.3
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-seattle-seaf120",
+      "label": "West Woodland Elementary",
+      "nearby": [
+        {
+          "id": "osm-node-13885982252",
+          "meters": 114.7
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-seattle-seaf122",
+      "label": "West Woodland Elementary",
+      "nearby": [
+        {
+          "id": "osm-node-13885982252",
+          "meters": 29.9
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-arlington-acsp001",
+      "label": "602 S CARLIN SPRINGS RD · SB · Campbell Elementary",
+      "nearby": [
+        {
+          "id": "osm-node-12580437102",
+          "meters": 36.1
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-arlington-acsp002",
+      "label": "400 N GEORGE MASON DR · SB · Barrett Elementary",
+      "nearby": [
+        {
+          "id": "osm-node-1797842542",
+          "meters": 6.6
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-arlington-acsp004",
+      "label": "10 S CARLIN SPRINGS RD · SB · Carlin Springs ES / Kenmore MS",
+      "nearby": [
+        {
+          "id": "osm-node-12580437101",
+          "meters": 49.5
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-arlington-acsp005",
+      "label": "1911 S GEORGE MASON DR · SB · Calremont ES / Wakefield HS",
+      "nearby": [
+        {
+          "id": "osm-node-14049924432",
+          "meters": 4.1
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-arlington-acsp007",
+      "label": "1262 S GEORGE MASON DR · SB · Randolph Elementary",
+      "nearby": [
+        {
+          "id": "osm-node-12580437107",
+          "meters": 4.4
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-arlington-acsp009",
+      "label": "5801 WILSON BLVD · WB · Ashlawn Elementary",
+      "nearby": [
+        {
+          "id": "osm-node-12580370399",
+          "meters": 12.1
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-arlington-acsp010",
+      "label": "1994 S GEORGE MASON DR · NB · Claremont ES / Wakefield HS",
+      "nearby": [
+        {
+          "id": "osm-node-12580437104",
+          "meters": 9.6
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-arlington-acsp011",
+      "label": "700 N GEORGE MASON DR · NB · Escuela Key",
+      "nearby": [
+        {
+          "id": "osm-node-14047465260",
+          "meters": 5.1
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-arlington-acsp016",
+      "label": "1047 MCKINLEY RD · SB · Arlington Traditional ES",
+      "nearby": [
+        {
+          "id": "osm-node-12580370398",
+          "meters": 32.8
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-arlington-acsp018",
+      "label": "1600 N VEITCH ST · NB · Innovation ES",
+      "nearby": [
+        {
+          "id": "osm-node-12578282471",
+          "meters": 2.9
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-arlington-acsp025",
+      "label": "1308 S GEORGE MASON DR · NB · Randolph ES",
+      "nearby": [
+        {
+          "id": "osm-node-14023463065",
+          "meters": 9.8
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-arlington-acsp026",
+      "label": "1001 N GEORGE MASON DR · SB · Escuela Key ES",
+      "nearby": [
+        {
+          "id": "osm-node-63337613",
+          "meters": 51.3
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-arlington-acsp038",
+      "label": "301 N GEORGE MASON DR · NB · Barret ES",
+      "nearby": [
+        {
+          "id": "osm-node-14095478227",
+          "meters": 7.9
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-sf-13",
+      "label": "10th St from Harrison St to Folsom St",
+      "nearby": [
+        {
+          "id": "osm-node-12672366566",
+          "meters": 83.7
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-sf-19",
+      "label": "Market St from Danvers St to Douglass St",
+      "nearby": [
+        {
+          "id": "osm-node-12889680095",
+          "meters": 21.4
+        },
+        {
+          "id": "osm-node-12889680096",
+          "meters": 10.1
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "osm-node-13261832160",
+      "nearby": [
+        "agency-chicago-speed-chi219-0",
+        "agency-chicago-speed-chi219-180"
+      ],
+      "reason": "New OSM record overlaps accepted agency data; review identity"
     },
     {
       "id": "osm-node-10581469087",
@@ -321,6 +2869,1496 @@
     {
       "id": "abq-gibson-carlisle-san-mateo-wb",
       "near": "abq-gibson-carlisle-san-mateo-eb",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-1206-n-pulaski-rd-180",
+      "near": "agency-chicago-red-1149-n-pulaski-rd-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-1601-w-division-st-90",
+      "near": "agency-chicago-red-1173-n-ashland-ave-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-1891-n-ashland-ave-0",
+      "near": "agency-chicago-red-1613-w-cortland-st-90",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-2005-w-division-st-90",
+      "near": "agency-chicago-red-1950-w-division-st-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-208-n-sacramento-blvd-180",
+      "near": "agency-chicago-red-133-n-sacramento-blvd-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-2382-w-madison-st-270",
+      "near": "agency-chicago-red-13-s-western-ave-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-2404-n-western-ave-180",
+      "near": "agency-chicago-red-2343-n-western-ave-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-2406-n-clark-st-135",
+      "near": "agency-chicago-red-2359-n-clark-st-315",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-2413-w-north-ave-90",
+      "near": "agency-chicago-red-1549-n-western-ave-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-25-n-cicero-ave-0",
+      "near": "agency-chicago-red-108-n-cicero-ave-180",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-2609-s-kedzie-ave-0",
+      "near": "agency-chicago-red-2552-s-kedzie-ave-180",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-2743-n-western-ave-0",
+      "near": "agency-chicago-red-2344-w-diversey-ave-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-2782-w-diversey-ave-270",
+      "near": "agency-chicago-red-2755-n-california-ave-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-2811-w-diversey-ave-90",
+      "near": "agency-chicago-red-2755-n-california-ave-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-2811-w-diversey-ave-90",
+      "near": "agency-chicago-red-2782-w-diversey-ave-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-2816-n-damen-ave-180",
+      "near": "agency-chicago-red-1966-w-diversey-pkwy-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-3-s-halsted-st-0",
+      "near": "agency-chicago-red-14-n-halsted-st-180",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-300-n-hamlin-ave-180",
+      "near": "agency-chicago-red-269-n-hamlin-ave-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-3134-w-armitage-ave-270",
+      "near": "agency-chicago-red-2010-n-kedzie-ave-180",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-3190-w-31st-st-270",
+      "near": "agency-chicago-red-3084-s-kedzie-ave-180",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-3201-w-belmont-90",
+      "near": "agency-chicago-red-3141-n-kedzie-ave-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-3202-n-kedzie-ave-180",
+      "near": "agency-chicago-red-3141-n-kedzie-ave-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-3202-n-kedzie-ave-180",
+      "near": "agency-chicago-red-3201-w-belmont-90",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-3401-w-diversey-ave-90",
+      "near": "agency-chicago-red-2783-n-kimball-ave-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-3409-w-north-ave-90",
+      "near": "agency-chicago-red-1569-n-homan-ave-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-342-s-western-ave-180",
+      "near": "agency-chicago-red-2360-w-van-buren-st-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-349-n-la-salle-dr-0",
+      "near": "agency-chicago-red-149-w-kinzie-st-90",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-3517-s-western-ave-0",
+      "near": "agency-chicago-red-3452-s-western-ave-180",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-3608-n-cicero-ave-180",
+      "near": "agency-chicago-red-3541-n-cicero-ave-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-3616-n-elston-ave-135",
+      "near": "agency-chicago-red-3241-w-addison-st-90",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-371-e-31st-st-90",
+      "near": "agency-chicago-red-3103-s-martin-luther-king-dr-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-373-w-belmont-ave-90",
+      "near": "agency-chicago-red-3210-n-lake-shore-dr-180",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-380-w-wacker-dr-180",
+      "near": "agency-chicago-red-201-n-upper-wacker-dr-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-3801-w-madison-st-90",
+      "near": "agency-chicago-red-11-s-hamlin-blvd-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-3950-w-north-ave-270",
+      "near": "agency-chicago-red-1579-n-pulaski-rd-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-3953-n-ashland-ave-0",
+      "near": "agency-chicago-red-1607-w-irving-park-rd-90",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-3954-w-cermak-rd-270",
+      "near": "agency-chicago-red-2160-s-pulaski-rd-180",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-3965-n-clark-st-315",
+      "near": "agency-chicago-red-1311-w-irving-park-rd-90",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-3970-w-fullerton-ave-270",
+      "near": "agency-chicago-red-2381-n-pulaski-rd-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-4001-w-belmont-ave-90",
+      "near": "agency-chicago-red-3204-n-pulaski-rd-180",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-4007-w-armitage-ave-90",
+      "near": "agency-chicago-red-3952-w-armitage-ave-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-4010-n-pulaski-rd-180",
+      "near": "agency-chicago-red-3960-w-irving-park-rd-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-4020-n-elston-ave-135",
+      "near": "agency-chicago-red-3647-w-irving-park-rd-90",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-4213-s-cicero-ave-0",
+      "near": "agency-chicago-red-4174-s-cicero-ave-180",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-4401-w-ogden-ave-45",
+      "near": "agency-chicago-red-2374-s-kostner-ave-180",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-4401-w-roosevelt-rd-90",
+      "near": "agency-chicago-red-1215-s-kostner-ave-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-4410-w-grand-ave-135",
+      "near": "agency-chicago-red-1591-n-kostner-ave-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-4413-w-north-ave-90",
+      "near": "agency-chicago-red-1591-n-kostner-ave-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-4413-w-north-ave-90",
+      "near": "agency-chicago-red-4410-w-grand-ave-135",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-4653-w-irving-park-rd-90",
+      "near": "agency-chicago-red-4650-w-irving-park-rd-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-4701-s-western-ave-0",
+      "near": "agency-chicago-red-4656-s-western-ave-180",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-4707-s-kedzie-ave-0",
+      "near": "agency-chicago-red-3152-w-47th-st-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-4750-w-47th-st-270",
+      "near": "agency-chicago-red-4644-s-cicero-ave-180",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-4776-w-diversey-ave-270",
+      "near": "agency-chicago-red-2785-n-cicero-ave-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-4791-n-elston-ave-315",
+      "near": "agency-chicago-red-4440-w-lawrence-ave-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-4801-w-north-ave-90",
+      "near": "agency-chicago-red-4754-w-north-ave-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-4804-n-western-ave-180",
+      "near": "agency-chicago-red-2409-w-lawrence-ave-90",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-4807-w-armitage-ave-90",
+      "near": "agency-chicago-red-1949-n-cicero-ave-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-4812-n-pulaski-rd-180",
+      "near": "agency-chicago-red-4005-w-lawrence-ave-90",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-5-s-ashland-ave-0",
+      "near": "agency-chicago-red-1546-w-madison-st-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-5040-w-montrose-ave-270",
+      "near": "agency-chicago-red-4361-n-milwaukee-ave-315",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-514-s-cicero-ave-180",
+      "near": "agency-chicago-red-4809-w-harrison-st-90",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-5147-n-broadway-st-0",
+      "near": "agency-chicago-red-1211-w-foster-ave-90",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-5152-w-fullerton-ave-270",
+      "near": "agency-chicago-red-2379-n-laramie-ave-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-5201-w-madison-st-90",
+      "near": "agency-chicago-red-5146-w-madison-st-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-5205-w-irving-park-rd-90",
+      "near": "agency-chicago-red-5148-irving-park-rd-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-5206-n-western-ave-180",
+      "near": "agency-chicago-red-2350-w-foster-ave-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-5310-n-milwaukee-ave-135",
+      "near": "agency-chicago-red-5272-n-central-ave-180",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-5356-s-archer-ave-270",
+      "near": "agency-chicago-red-5207-s-cicero-ave-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-5523-s-wentworth-ave-0",
+      "near": "agency-chicago-red-176-w-garfield-blvd-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-5550-w-belmont-ave-270",
+      "near": "agency-chicago-red-3206-n-central-ave-180",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-5564-w-diversey-ave-270",
+      "near": "agency-chicago-red-2806-n-central-ave-180",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-5601-w-irving-park-rd-90",
+      "near": "agency-chicago-red-4010-n-central-ave-180",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-5619-w-addison-st-90",
+      "near": "agency-chicago-red-3602-n-central-ave-180",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-5665-w-foster-ave-90",
+      "near": "agency-chicago-red-5242-n-northwest-hwy-135",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-5981-n-california-ave-0",
+      "near": "agency-chicago-red-2801-w-peterson-ave-90",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-6003-w-diversey-ave-90",
+      "near": "agency-chicago-red-5948-w-diversey-ave-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-6016-n-western-ave-180",
+      "near": "agency-chicago-red-2340-w-peterson-ave-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-6250-s-state-st-180",
+      "near": "agency-chicago-red-10-e-63rd-st-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-630-n-michigan-ave-180",
+      "near": "agency-chicago-red-142-e-ontario-st-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-6301-s-western-ave-0",
+      "near": "agency-chicago-red-2411-w-63rd-st-90",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-6309-s-damen-ave-0",
+      "near": "agency-chicago-red-6274-s-damen-ave-180",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-6313-s-kedzie-ave-0",
+      "near": "agency-chicago-red-3154-w-63rd-st-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-6377-n-california-ave-0",
+      "near": "agency-chicago-red-2805-w-devon-ave-90",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-6378-w-foster-ave-270",
+      "near": "agency-chicago-red-5155-n-nagle-ave-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-6401-w-fullerton-ave-90",
+      "near": "agency-chicago-red-6384-w-fullerton-ave-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-6401-w-irving-pk-rd-90",
+      "near": "agency-chicago-red-6350-w-irving-pk-rd-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-6404-n-sheridan-rd-180",
+      "near": "agency-chicago-red-1209-w-devon-ave-90",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-6408-n-western-ave-180",
+      "near": "agency-chicago-red-6355-n-western-ave-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-6410-n-milwaukee-ave-135",
+      "near": "agency-chicago-red-6396-w-devon-ave-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-644-roosevelt-rd-270",
+      "near": "agency-chicago-red-1215-s-canal-st-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-6678-s-western-ave-180",
+      "near": "agency-chicago-red-2380-w-marquette-rd-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-6717-s-stony-island-ave-0",
+      "near": "agency-chicago-red-6715-s-cornell-dr-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-7070-s-kedzie-ave-180",
+      "near": "agency-chicago-red-3182-w-71st-st-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-7101-s-ashland-ave-0",
+      "near": "agency-chicago-red-1546-w-71st-st-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-7154-w-belmont-ave-270",
+      "near": "agency-chicago-red-3133-n-harlem-ave-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-7204-n-western-ave-180",
+      "near": "agency-chicago-red-7131-n-western-ave-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-7205-w-addison-st-90",
+      "near": "agency-chicago-red-3553-n-harlem-ave-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-740-w-division-st-270",
+      "near": "agency-chicago-red-1139-n-halsted-st-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-744-w-fullerton-ave-270",
+      "near": "agency-chicago-red-2391-n-halsted-st-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-750-w-north-ave-270",
+      "near": "agency-chicago-red-1569-n-halsted-st-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-7501-s-state-st-0",
+      "near": "agency-chicago-red-4-e-75th-st-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-753-n-cicero-ave-0",
+      "near": "agency-chicago-red-4805-w-chicago-ave-90",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-758-w-111th-st-270",
+      "near": "agency-chicago-red-11074-s-halsted-st-180",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-7609-s-stony-island-ave-0",
+      "near": "agency-chicago-red-7598-s-stony-island-ave-180",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-768-w-119th-st-270",
+      "near": "agency-chicago-red-11884-s-halsted-st-180",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-771-n-sacramento-blvd-0",
+      "near": "agency-chicago-red-2980-w-chicago-ave-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-7850-s-stony-island-ave-180",
+      "near": "agency-chicago-red-1608-e-79th-st-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-7872-s-kedzie-ave-180",
+      "near": "agency-chicago-red-3215-w-79th-st-90",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-7901-s-south-chicago-ave-315",
+      "near": "agency-chicago-red-1608-e-79th-st-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-7901-s-western-ave-0",
+      "near": "agency-chicago-red-2388-w-79th-st-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-7913-s-state-st-0",
+      "near": "agency-chicago-red-12-e-79th-st-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-799-n-western-ave-0",
+      "near": "agency-chicago-red-2409-w-chicago-ave-90",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-804-n-central-ave-180",
+      "near": "agency-chicago-red-5607-w-chicago-ave-90",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-809-w-roosevelt-rd-90",
+      "near": "agency-chicago-red-732-w-roosevelt-rd-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-811-w-79th-st-90",
+      "near": "agency-chicago-red-7854-s-halsted-st-180",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-8646-s-lafayette-ave-180",
+      "near": "agency-chicago-red-31-w-87th-st-90",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-8666-s-ashland-ave-180",
+      "near": "agency-chicago-red-1554-w-87th-st-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-910-w-hollywood-ave-270",
+      "near": "agency-chicago-red-1023-w-hollywood-ave-90",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-922-w-foster-ave-270",
+      "near": "agency-chicago-red-5204-n-sheridan-rd-180",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-9450-s-ashland-ave-180",
+      "near": "agency-chicago-red-1601-w-95th-st-90",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-9450-s-jeffery-blvd-180",
+      "near": "agency-chicago-red-1951-e-95th-st-90",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-9513-s-halsted-st-0",
+      "near": "agency-chicago-red-9480-s-halsted-st-180",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-98-w-chicago-ave-270",
+      "near": "agency-chicago-red-105-w-chicago-ave-90",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-9901-s-halsted-st-0",
+      "near": "agency-chicago-red-813-w-99th-st-90",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi004-180",
+      "near": "agency-chicago-speed-chi004-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi005-90",
+      "near": "agency-chicago-speed-chi005-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi008-90",
+      "near": "agency-chicago-speed-chi008-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi009-90",
+      "near": "agency-chicago-speed-chi009-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi010-180",
+      "near": "agency-chicago-speed-chi010-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi011-90",
+      "near": "agency-chicago-speed-chi011-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi013-180",
+      "near": "agency-chicago-speed-chi013-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi015-90",
+      "near": "agency-chicago-speed-chi015-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi020-270",
+      "near": "agency-chicago-speed-chi019-90",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi021-90",
+      "near": "agency-chicago-speed-chi021-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi022-180",
+      "near": "agency-chicago-speed-chi022-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi024-90",
+      "near": "agency-chicago-speed-chi024-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi025-90",
+      "near": "agency-chicago-speed-chi025-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi028-90",
+      "near": "agency-chicago-speed-chi028-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi029-90",
+      "near": "agency-chicago-speed-chi029-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi032-90",
+      "near": "agency-chicago-speed-chi032-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi034-180",
+      "near": "agency-chicago-speed-chi033-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi036-270",
+      "near": "agency-chicago-speed-chi035-90",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi040-270",
+      "near": "agency-chicago-speed-chi039-90",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi042-270",
+      "near": "agency-chicago-speed-chi041-90",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi043-90",
+      "near": "agency-chicago-speed-chi043-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi044-90",
+      "near": "agency-chicago-speed-chi044-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi045-90",
+      "near": "agency-chicago-speed-chi045-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi048-90",
+      "near": "agency-chicago-speed-chi048-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi049-180",
+      "near": "agency-chicago-speed-chi049-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi050-90",
+      "near": "agency-chicago-speed-chi050-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi051-180",
+      "near": "agency-chicago-speed-chi051-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi057-180",
+      "near": "agency-chicago-speed-chi057-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi058-90",
+      "near": "agency-chicago-speed-chi058-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi063-180",
+      "near": "agency-chicago-speed-chi063-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi064-180",
+      "near": "agency-chicago-speed-chi064-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi069-180",
+      "near": "agency-chicago-speed-chi068-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi070-90",
+      "near": "agency-chicago-speed-chi070-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi072-180",
+      "near": "agency-chicago-speed-chi071-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi074-270",
+      "near": "agency-chicago-speed-chi073-90",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi077-90",
+      "near": "agency-chicago-speed-chi077-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi078-90",
+      "near": "agency-chicago-speed-chi078-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi086-90",
+      "near": "agency-chicago-speed-chi086-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi087-180",
+      "near": "agency-chicago-speed-chi087-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi089-270",
+      "near": "agency-chicago-speed-chi088-90",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi090-180",
+      "near": "agency-chicago-speed-chi090-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi092-180",
+      "near": "agency-chicago-speed-chi091-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi093-180",
+      "near": "agency-chicago-speed-chi093-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi095-90",
+      "near": "agency-chicago-speed-chi095-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi097-180",
+      "near": "agency-chicago-speed-chi096-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi099-270",
+      "near": "agency-chicago-speed-chi098-90",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi102-90",
+      "near": "agency-chicago-speed-chi102-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi103-90",
+      "near": "agency-chicago-speed-chi103-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi105-90",
+      "near": "agency-chicago-speed-chi105-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi108-270",
+      "near": "agency-chicago-speed-chi107-90",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi109-180",
+      "near": "agency-chicago-speed-chi109-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi113-180",
+      "near": "agency-chicago-speed-chi112-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi114-180",
+      "near": "agency-chicago-speed-chi114-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi117-180",
+      "near": "agency-chicago-speed-chi117-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi120-315",
+      "near": "agency-chicago-speed-chi120-135",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi121-90",
+      "near": "agency-chicago-speed-chi119-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi122-90",
+      "near": "agency-chicago-speed-chi122-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi123-180",
+      "near": "agency-chicago-speed-chi123-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi125-180",
+      "near": "agency-chicago-speed-chi124-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi135-180",
+      "near": "agency-chicago-speed-chi134-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi137-90",
+      "near": "agency-chicago-speed-chi136-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi138-90",
+      "near": "agency-chicago-speed-chi138-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi139-270",
+      "near": "agency-chicago-speed-chi133-90",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi145-90",
+      "near": "agency-chicago-speed-chi145-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi146-90",
+      "near": "agency-chicago-speed-chi146-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi148-180",
+      "near": "agency-chicago-speed-chi148-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi157-180",
+      "near": "agency-chicago-speed-chi157-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi161-270",
+      "near": "agency-chicago-speed-chi159-90",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi163-180",
+      "near": "agency-chicago-speed-chi162-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi164-180",
+      "near": "agency-chicago-speed-chi164-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi167-270",
+      "near": "agency-chicago-speed-chi166-90",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi169-180",
+      "near": "agency-chicago-speed-chi168-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi170-90",
+      "near": "agency-chicago-speed-chi170-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi172-180",
+      "near": "agency-chicago-speed-chi171-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi173-180",
+      "near": "agency-chicago-speed-chi173-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi177-90",
+      "near": "agency-chicago-speed-chi177-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi181-90",
+      "near": "agency-chicago-speed-chi181-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi183-270",
+      "near": "agency-chicago-speed-chi182-90",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi185-90",
+      "near": "agency-chicago-speed-chi185-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi186-90",
+      "near": "agency-chicago-speed-chi186-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi187-180",
+      "near": "agency-chicago-speed-chi187-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi188-90",
+      "near": "agency-chicago-speed-chi188-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi190-180",
+      "near": "agency-chicago-speed-chi190-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi191-90",
+      "near": "agency-chicago-speed-chi191-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi192-90",
+      "near": "agency-chicago-speed-chi192-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi193-90",
+      "near": "agency-chicago-speed-chi193-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi194-90",
+      "near": "agency-chicago-speed-chi194-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi195-90",
+      "near": "agency-chicago-speed-chi195-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi196-180",
+      "near": "agency-chicago-speed-chi196-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi197-90",
+      "near": "agency-chicago-speed-chi197-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi198-180",
+      "near": "agency-chicago-speed-chi198-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi201-90",
+      "near": "agency-chicago-speed-chi201-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi203-180",
+      "near": "agency-chicago-speed-chi202-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi204-90",
+      "near": "agency-chicago-speed-chi204-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi205-180",
+      "near": "agency-chicago-speed-chi205-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi206-90",
+      "near": "agency-chicago-speed-chi206-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi207-90",
+      "near": "agency-chicago-speed-chi207-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi209-180",
+      "near": "agency-chicago-speed-chi209-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi210-90",
+      "near": "agency-chicago-speed-chi210-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi211-90",
+      "near": "agency-chicago-speed-chi211-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi212-180",
+      "near": "agency-chicago-speed-chi212-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi213-180",
+      "near": "agency-chicago-speed-chi213-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi214-90",
+      "near": "agency-chicago-speed-chi214-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi215-180",
+      "near": "agency-chicago-speed-chi215-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi216-90",
+      "near": "agency-chicago-speed-chi216-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi217-180",
+      "near": "agency-chicago-speed-chi217-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi219-180",
+      "near": "agency-chicago-speed-chi219-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi220-180",
+      "near": "agency-chicago-speed-chi220-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi221-90",
+      "near": "agency-chicago-speed-chi221-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi222-90",
+      "near": "agency-chicago-speed-chi222-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi223-180",
+      "near": "agency-chicago-speed-chi223-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi224-180",
+      "near": "agency-chicago-speed-chi224-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi225-90",
+      "near": "agency-chicago-speed-chi225-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi226-180",
+      "near": "agency-chicago-speed-chi226-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi227-90",
+      "near": "agency-chicago-speed-chi227-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi228-180",
+      "near": "agency-chicago-speed-chi228-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi229-180",
+      "near": "agency-chicago-speed-chi229-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi230-180",
+      "near": "agency-chicago-speed-chi230-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi231-90",
+      "near": "agency-chicago-speed-chi231-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi232-90",
+      "near": "agency-chicago-speed-chi232-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi234-180",
+      "near": "agency-chicago-speed-chi234-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi236-90",
+      "near": "agency-chicago-speed-chi236-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi237-180",
+      "near": "agency-chicago-speed-chi237-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi241-90",
+      "near": "agency-chicago-speed-chi241-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi244-180",
+      "near": "agency-chicago-speed-chi242-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi246-180",
+      "near": "agency-chicago-speed-chi246-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi247-90",
+      "near": "agency-chicago-speed-chi247-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi249-90",
+      "near": "agency-chicago-speed-chi249-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi252-180",
+      "near": "agency-chicago-speed-chi252-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi254-90",
+      "near": "agency-chicago-speed-chi254-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi255-180",
+      "near": "agency-chicago-speed-chi255-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi256-90",
+      "near": "agency-chicago-speed-chi256-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi257-180",
+      "near": "agency-chicago-speed-chi257-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi258-90",
+      "near": "agency-chicago-speed-chi258-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi260-180",
+      "near": "agency-chicago-speed-chi260-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-dc-ate-0045",
+      "near": "agency-dc-ate-0044",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-dc-ate-0129",
+      "near": "agency-dc-ate-0106",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-dc-ate-0138",
+      "near": "agency-dc-ate-0137",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-dc-ate-0148",
+      "near": "agency-dc-ate-0147",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-dc-ate-0160",
+      "near": "agency-dc-ate-0155",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-dc-ate-0264",
+      "near": "agency-dc-ate-0247",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-dc-ate-0309",
+      "near": "agency-dc-ate-0308",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-dc-ate-0338",
+      "near": "agency-dc-ate-0183",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-dc-ate-0365",
+      "near": "agency-dc-ate-0364",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-dc-ate-0462",
+      "near": "agency-dc-ate-0042",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-dc-ate-0531",
+      "near": "agency-dc-ate-0530",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-dc-ate-0552",
+      "near": "agency-dc-ate-0551",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-dc-ate-0554",
+      "near": "agency-dc-ate-0553",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-dc-ate-0556",
+      "near": "agency-dc-ate-0524",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-dc-ate-0558",
+      "near": "agency-dc-ate-0532",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-dc-ate-0559",
+      "near": "agency-dc-ate-0211",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-dc-ate-0579",
+      "near": "agency-dc-ate-0578",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-dc-ate-0581",
+      "near": "agency-dc-ate-0580",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-dc-ate-0592",
+      "near": "agency-dc-ate-0462",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-dc-ate-0592",
+      "near": "agency-dc-ate-0042",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-dc-ate-0597",
+      "near": "agency-dc-ate-0485",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-dc-ate-0602",
+      "near": "agency-dc-ate-0601",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-dc-ate-0609",
+      "near": "agency-dc-ate-0485",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-dc-ate-0609",
+      "near": "agency-dc-ate-0597",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-dc-ate-0700",
+      "near": "agency-dc-ate-0532",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-dc-ate-0700",
+      "near": "agency-dc-ate-0558",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-dc-ate-0704",
+      "near": "agency-dc-ate-0054",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-dc-ate-0706",
+      "near": "agency-dc-ate-0705",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-dc-ate-0814",
+      "near": "agency-dc-ate-0044",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-dc-ate-0814",
+      "near": "agency-dc-ate-0045",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-dc-ate-0832",
+      "near": "agency-dc-ate-0831",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-dc-ate-0834",
+      "near": "agency-dc-ate-0300",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-dc-ate-0843",
+      "near": "agency-dc-ate-0839",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-dc-ate-0849",
+      "near": "agency-dc-ate-0848",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-dc-ate-0853",
+      "near": "agency-dc-ate-0602",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-tacoma-watcrl05",
+      "near": "agency-tacoma-watcrl04",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-tacoma-watcrl08",
+      "near": "agency-tacoma-watcrl07",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "bernco-paradise-radcliffe-wb",
+      "near": "bernco-paradise-radcliffe-eb",
       "reason": "Nearby records; no automatic proximity merge"
     },
     {
@@ -4541,6 +8579,31 @@
     {
       "id": "osm-node-99529248",
       "near": "osm-node-600218952",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "rr-deployment-13380469280",
+      "near": "rr-deployment-13380469278",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "rr-deployment-13380490909",
+      "near": "rr-deployment-13380469276",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "rr-deployment-13380490912",
+      "near": "rr-deployment-13380490911",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "rr-deployment-13380490925",
+      "near": "rr-deployment-13380490924",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "rr-deployment-13380490954",
+      "near": "rr-deployment-13380490952",
       "reason": "Nearby records; no automatic proximity merge"
     }
   ]

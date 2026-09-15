@@ -1,0 +1,170 @@
+{
+  "cameras": [
+    {
+      "evidence": "Phoenix published photo safety deployment points: published coordinates, not independently surveyed. Source: https://www.phoenix.gov/administration/departments/streets/safety-improvements/road-safety-action-plan/photo-safety.html Listed deployment point; equipment presence is not live-confirmed.",
+      "geometry": [
+        {
+          "latitude": 33.51575,
+          "longitude": -112.116861
+        }
+      ],
+      "id": "agency-phoenix-points-27th-avenue-colter-street-to-missouri-avenue",
+      "kind": "possibleSpeed",
+      "label": "27th Avenue: Colter Street to Missouri Avenue",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-phoenix-points-27th-avenue-colter-street-to-missouri-avenue",
+      "sourceIDs": [
+        "agency/phoenix-points/27th Avenue: Colter Street to Missouri Avenue"
+      ]
+    },
+    {
+      "evidence": "Phoenix published photo safety deployment points: published coordinates, not independently surveyed. Source: https://www.phoenix.gov/administration/departments/streets/safety-improvements/road-safety-action-plan/photo-safety.html Listed deployment point; equipment presence is not live-confirmed.",
+      "geometry": [
+        {
+          "latitude": 33.6107377912465,
+          "longitude": -112.129570020092
+        }
+      ],
+      "id": "agency-phoenix-points-e-b-thunderbird-rd-35th-ave-to-i-17",
+      "kind": "possibleSpeed",
+      "label": "E/B, Thunderbird Rd: 35th Ave to I-17",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-phoenix-points-e-b-thunderbird-rd-35th-ave-to-i-17",
+      "sourceIDs": [
+        "agency/phoenix-points/E/B, Thunderbird Rd: 35th Ave to I-17"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Phoenix published photo safety deployment points: published coordinates, not independently surveyed. Source: https://www.phoenix.gov/administration/departments/streets/safety-improvements/road-safety-action-plan/photo-safety.html Listed deployment point; equipment presence is not live-confirmed.",
+      "geometry": [
+        {
+          "latitude": 33.6306925590751,
+          "longitude": -112.013295987503
+        }
+      ],
+      "id": "agency-phoenix-points-n-b-32nd-st-greenway-pkwy-to-bell-rd",
+      "kind": "possibleSpeed",
+      "label": "N/B, 32nd St: Greenway Pkwy to Bell Rd",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-phoenix-points-n-b-32nd-st-greenway-pkwy-to-bell-rd",
+      "sourceIDs": [
+        "agency/phoenix-points/N/B, 32nd St: Greenway Pkwy to Bell Rd"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Phoenix published photo safety deployment points: published coordinates, not independently surveyed. Source: https://www.phoenix.gov/administration/departments/streets/safety-improvements/road-safety-action-plan/photo-safety.html Listed deployment point; equipment presence is not live-confirmed.",
+      "geometry": [
+        {
+          "latitude": 33.4555827502405,
+          "longitude": -112.169019611102
+        }
+      ],
+      "id": "agency-phoenix-points-n-b-51st-ave-van-buren-st-to-i-10",
+      "kind": "possibleSpeed",
+      "label": "N/B, 51st Ave: Van Buren St to I-10",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-phoenix-points-n-b-51st-ave-van-buren-st-to-i-10",
+      "sourceIDs": [
+        "agency/phoenix-points/N/B, 51st Ave: Van Buren St to I-10"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Phoenix published photo safety deployment points: published coordinates, not independently surveyed. Source: https://www.phoenix.gov/administration/departments/streets/safety-improvements/road-safety-action-plan/photo-safety.html Listed deployment point; equipment presence is not live-confirmed.",
+      "geometry": [
+        {
+          "latitude": 33.4908277615037,
+          "longitude": -112.064939622434
+        }
+      ],
+      "id": "agency-phoenix-points-n-b-7th-st-thomas-rd-to-indian-school-rd",
+      "kind": "possibleSpeed",
+      "label": "N/B, 7th St: Thomas Rd to Indian School Rd",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-phoenix-points-n-b-7th-st-thomas-rd-to-indian-school-rd",
+      "sourceIDs": [
+        "agency/phoenix-points/N/B, 7th St: Thomas Rd to Indian School Rd"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Phoenix published photo safety deployment points: published coordinates, not independently surveyed. Source: https://www.phoenix.gov/administration/departments/streets/safety-improvements/road-safety-action-plan/photo-safety.html Listed deployment point; equipment presence is not live-confirmed.",
+      "geometry": [
+        {
+          "latitude": 33.3779075016387,
+          "longitude": -112.039357278235
+        }
+      ],
+      "id": "agency-phoenix-points-w-b-baseline-rd-16th-st-to-24th-st",
+      "kind": "possibleSpeed",
+      "label": "W/B, Baseline Rd: 16th St to 24th St",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-phoenix-points-w-b-baseline-rd-16th-st-to-24th-st",
+      "sourceIDs": [
+        "agency/phoenix-points/W/B, Baseline Rd: 16th St to 24th St"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Phoenix published photo safety deployment points: published coordinates, not independently surveyed. Source: https://www.phoenix.gov/administration/departments/streets/safety-improvements/road-safety-action-plan/photo-safety.html Listed deployment point; equipment presence is not live-confirmed.",
+      "geometry": [
+        {
+          "latitude": 33.6402100874448,
+          "longitude": -112.105172846625
+        }
+      ],
+      "id": "agency-phoenix-points-w-b-bell-rd-i-17-to-19th-ave",
+      "kind": "possibleSpeed",
+      "label": "W/B, Bell Rd: I-17 to 19th Ave",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-phoenix-points-w-b-bell-rd-i-17-to-19th-ave",
+      "sourceIDs": [
+        "agency/phoenix-points/W/B, Bell Rd: I-17 to 19th Ave"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Phoenix published photo safety deployment points: published coordinates, not independently surveyed. Source: https://www.phoenix.gov/administration/departments/streets/safety-improvements/road-safety-action-plan/photo-safety.html Listed deployment point; equipment presence is not live-confirmed.",
+      "geometry": [
+        {
+          "latitude": 33.555284,
+          "longitude": -112.046447
+        }
+      ],
+      "id": "agency-phoenix-points-w-b-northern-avenue-16th-street-to-18th-street",
+      "kind": "possibleSpeed",
+      "label": "W/B Northern Avenue: 16th Street to 18th Street",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-phoenix-points-w-b-northern-avenue-16th-street-to-18th-street",
+      "sourceIDs": [
+        "agency/phoenix-points/W/B Northern Avenue: 16th Street to 18th Street"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Phoenix published photo safety deployment points: published coordinates, not independently surveyed. Source: https://www.phoenix.gov/administration/departments/streets/safety-improvements/road-safety-action-plan/photo-safety.html Listed deployment point; equipment presence is not live-confirmed.",
+      "geometry": [
+        {
+          "latitude": 33.6111001946346,
+          "longitude": -112.108167386106
+        }
+      ],
+      "id": "agency-phoenix-points-w-b-thunderbird-rd-i-17-to-19th-ave",
+      "kind": "possibleSpeed",
+      "label": "W/B, Thunderbird Rd: I-17 to 19th Ave",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-phoenix-points-w-b-thunderbird-rd-i-17-to-19th-ave",
+      "sourceIDs": [
+        "agency/phoenix-points/W/B, Thunderbird Rd: I-17 to 19th Ave"
+      ],
+      "travelBearing": 270
+    }
+  ],
+  "checkedAt": "2026-09-15T02:05:42Z",
+  "excluded": [],
+  "id": "phoenix-points",
+  "rowCount": 9,
+  "url": "https://www.google.com/maps/d/kml?mid=1aB99-IfJH8EKHO_nVtF-xhgsMTKU_mw&forcekml=1"
+}

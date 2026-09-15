@@ -1,0 +1,878 @@
+{
+  "cameras": [
+    {
+      "evidence": "Arlington photo speed cameras: published coordinates, not independently surveyed. Source: https://www.arcgis.com/home/item.html?id=eb99da63af414381852644a4a29fc224",
+      "geometry": [
+        {
+          "latitude": 38.86017513771282,
+          "longitude": -77.12797884917354
+        }
+      ],
+      "id": "agency-arlington-acsp001",
+      "kind": "speed",
+      "label": "602 S CARLIN SPRINGS RD · SB · Campbell Elementary",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-arlington-acsp001",
+      "sourceIDs": [
+        "agency/arlington/ACSP001"
+      ],
+      "speedLimitCandidate": {
+        "conditional": true,
+        "sourceID": "agency/arlington/ACSP001",
+        "suppressionApproved": false,
+        "unit": "mph",
+        "value": 20.0
+      },
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Arlington photo speed cameras: published coordinates, not independently surveyed. Source: https://www.arcgis.com/home/item.html?id=eb99da63af414381852644a4a29fc224",
+      "geometry": [
+        {
+          "latitude": 38.873776670118446,
+          "longitude": -77.1141777839561
+        }
+      ],
+      "id": "agency-arlington-acsp002",
+      "kind": "speed",
+      "label": "400 N GEORGE MASON DR · SB · Barrett Elementary",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-arlington-acsp002",
+      "sourceIDs": [
+        "agency/arlington/ACSP002"
+      ],
+      "speedLimitCandidate": {
+        "conditional": true,
+        "sourceID": "agency/arlington/ACSP002",
+        "suppressionApproved": false,
+        "unit": "mph",
+        "value": 20.0
+      },
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Arlington photo speed cameras: published coordinates, not independently surveyed. Source: https://www.arcgis.com/home/item.html?id=eb99da63af414381852644a4a29fc224",
+      "geometry": [
+        {
+          "latitude": 38.88540683113463,
+          "longitude": -77.11506063402317
+        }
+      ],
+      "id": "agency-arlington-acsp003",
+      "kind": "speed",
+      "label": "4476 WASHINGTON BLVD · EB · Washington-Liberty High School",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-arlington-acsp003",
+      "sourceIDs": [
+        "agency/arlington/ACSP003"
+      ],
+      "speedLimitCandidate": {
+        "conditional": true,
+        "sourceID": "agency/arlington/ACSP003",
+        "suppressionApproved": false,
+        "unit": "mph",
+        "value": 20.0
+      },
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Arlington photo speed cameras: published coordinates, not independently surveyed. Source: https://www.arcgis.com/home/item.html?id=eb99da63af414381852644a4a29fc224",
+      "geometry": [
+        {
+          "latitude": 38.86585791286949,
+          "longitude": -77.12862573334435
+        }
+      ],
+      "id": "agency-arlington-acsp004",
+      "kind": "speed",
+      "label": "10 S CARLIN SPRINGS RD · SB · Carlin Springs ES / Kenmore MS",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-arlington-acsp004",
+      "sourceIDs": [
+        "agency/arlington/ACSP004"
+      ],
+      "speedLimitCandidate": {
+        "conditional": true,
+        "sourceID": "agency/arlington/ACSP004",
+        "suppressionApproved": false,
+        "unit": "mph",
+        "value": 20.0
+      },
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Arlington photo speed cameras: published coordinates, not independently surveyed. Source: https://www.arcgis.com/home/item.html?id=eb99da63af414381852644a4a29fc224",
+      "geometry": [
+        {
+          "latitude": 38.85024024197944,
+          "longitude": -77.1109265126113
+        }
+      ],
+      "id": "agency-arlington-acsp005",
+      "kind": "speed",
+      "label": "1911 S GEORGE MASON DR · SB · Calremont ES / Wakefield HS",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-arlington-acsp005",
+      "sourceIDs": [
+        "agency/arlington/ACSP005"
+      ],
+      "speedLimitCandidate": {
+        "conditional": true,
+        "sourceID": "agency/arlington/ACSP005",
+        "suppressionApproved": false,
+        "unit": "mph",
+        "value": 20.0
+      },
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Arlington photo speed cameras: published coordinates, not independently surveyed. Source: https://www.arcgis.com/home/item.html?id=eb99da63af414381852644a4a29fc224",
+      "geometry": [
+        {
+          "latitude": 38.856901092174624,
+          "longitude": -77.10052582332834
+        }
+      ],
+      "id": "agency-arlington-acsp007",
+      "kind": "speed",
+      "label": "1262 S GEORGE MASON DR · SB · Randolph Elementary",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-arlington-acsp007",
+      "sourceIDs": [
+        "agency/arlington/ACSP007"
+      ],
+      "speedLimitCandidate": {
+        "conditional": true,
+        "sourceID": "agency/arlington/ACSP007",
+        "suppressionApproved": false,
+        "unit": "mph",
+        "value": 20.0
+      },
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Arlington photo speed cameras: published coordinates, not independently surveyed. Source: https://www.arcgis.com/home/item.html?id=eb99da63af414381852644a4a29fc224",
+      "geometry": [
+        {
+          "latitude": 38.875332056672015,
+          "longitude": -77.13277271835007
+        }
+      ],
+      "id": "agency-arlington-acsp009",
+      "kind": "speed",
+      "label": "5801 WILSON BLVD · WB · Ashlawn Elementary",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-arlington-acsp009",
+      "sourceIDs": [
+        "agency/arlington/ACSP009"
+      ],
+      "speedLimitCandidate": {
+        "conditional": true,
+        "sourceID": "agency/arlington/ACSP009",
+        "suppressionApproved": false,
+        "unit": "mph",
+        "value": 20.0
+      },
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Arlington photo speed cameras: published coordinates, not independently surveyed. Source: https://www.arcgis.com/home/item.html?id=eb99da63af414381852644a4a29fc224",
+      "geometry": [
+        {
+          "latitude": 38.847488865644436,
+          "longitude": -77.11329586556886
+        }
+      ],
+      "id": "agency-arlington-acsp010",
+      "kind": "speed",
+      "label": "1994 S GEORGE MASON DR · NB · Claremont ES / Wakefield HS",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-arlington-acsp010",
+      "sourceIDs": [
+        "agency/arlington/ACSP010"
+      ],
+      "speedLimitCandidate": {
+        "conditional": true,
+        "sourceID": "agency/arlington/ACSP010",
+        "suppressionApproved": false,
+        "unit": "mph",
+        "value": 20.0
+      },
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Arlington photo speed cameras: published coordinates, not independently surveyed. Source: https://www.arcgis.com/home/item.html?id=eb99da63af414381852644a4a29fc224",
+      "geometry": [
+        {
+          "latitude": 38.87842932522321,
+          "longitude": -77.12091888520345
+        }
+      ],
+      "id": "agency-arlington-acsp011",
+      "kind": "speed",
+      "label": "700 N GEORGE MASON DR · NB · Escuela Key",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-arlington-acsp011",
+      "sourceIDs": [
+        "agency/arlington/ACSP011"
+      ],
+      "speedLimitCandidate": {
+        "conditional": true,
+        "sourceID": "agency/arlington/ACSP011",
+        "suppressionApproved": false,
+        "unit": "mph",
+        "value": 20.0
+      },
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Arlington photo speed cameras: published coordinates, not independently surveyed. Source: https://www.arcgis.com/home/item.html?id=eb99da63af414381852644a4a29fc224",
+      "geometry": [
+        {
+          "latitude": 38.84916268451712,
+          "longitude": -77.06748508858149
+        }
+      ],
+      "id": "agency-arlington-acsp014",
+      "kind": "speed",
+      "label": "2621 S ARLINGTON RIDGE RD · SB · Gunston MS",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-arlington-acsp014",
+      "sourceIDs": [
+        "agency/arlington/ACSP014"
+      ],
+      "speedLimitCandidate": {
+        "conditional": true,
+        "sourceID": "agency/arlington/ACSP014",
+        "suppressionApproved": false,
+        "unit": "mph",
+        "value": 20.0
+      },
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Arlington photo speed cameras: published coordinates, not independently surveyed. Source: https://www.arcgis.com/home/item.html?id=eb99da63af414381852644a4a29fc224",
+      "geometry": [
+        {
+          "latitude": 38.905136517302964,
+          "longitude": -77.15128471723028
+        }
+      ],
+      "id": "agency-arlington-acsp015",
+      "kind": "speed",
+      "label": "5900 WILLIAMSBURG BLVD · EB · Williamsburg MS / Discovery ES",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-arlington-acsp015",
+      "sourceIDs": [
+        "agency/arlington/ACSP015"
+      ],
+      "speedLimitCandidate": {
+        "conditional": true,
+        "sourceID": "agency/arlington/ACSP015",
+        "suppressionApproved": false,
+        "unit": "mph",
+        "value": 20.0
+      },
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Arlington photo speed cameras: published coordinates, not independently surveyed. Source: https://www.arcgis.com/home/item.html?id=eb99da63af414381852644a4a29fc224",
+      "geometry": [
+        {
+          "latitude": 38.879405716063225,
+          "longitude": -77.14596672983855
+        }
+      ],
+      "id": "agency-arlington-acsp016",
+      "kind": "speed",
+      "label": "1047 MCKINLEY RD · SB · Arlington Traditional ES",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-arlington-acsp016",
+      "sourceIDs": [
+        "agency/arlington/ACSP016"
+      ],
+      "speedLimitCandidate": {
+        "conditional": true,
+        "sourceID": "agency/arlington/ACSP016",
+        "suppressionApproved": false,
+        "unit": "mph",
+        "value": 20.0
+      },
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Arlington photo speed cameras: published coordinates, not independently surveyed. Source: https://www.arcgis.com/home/item.html?id=eb99da63af414381852644a4a29fc224",
+      "geometry": [
+        {
+          "latitude": 38.90236297599977,
+          "longitude": -77.14819273135382
+        }
+      ],
+      "id": "agency-arlington-acsp017",
+      "kind": "speed",
+      "label": "5800 LITTLE FALLS RD · WB · Nottingham ES",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-arlington-acsp017",
+      "sourceIDs": [
+        "agency/arlington/ACSP017"
+      ],
+      "speedLimitCandidate": {
+        "conditional": true,
+        "sourceID": "agency/arlington/ACSP017",
+        "suppressionApproved": false,
+        "unit": "mph",
+        "value": 20.0
+      },
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Arlington photo speed cameras: published coordinates, not independently surveyed. Source: https://www.arcgis.com/home/item.html?id=eb99da63af414381852644a4a29fc224",
+      "geometry": [
+        {
+          "latitude": 38.89184351597667,
+          "longitude": -77.085833021354
+        }
+      ],
+      "id": "agency-arlington-acsp018",
+      "kind": "speed",
+      "label": "1600 N VEITCH ST · NB · Innovation ES",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-arlington-acsp018",
+      "sourceIDs": [
+        "agency/arlington/ACSP018"
+      ],
+      "speedLimitCandidate": {
+        "conditional": true,
+        "sourceID": "agency/arlington/ACSP018",
+        "suppressionApproved": false,
+        "unit": "mph",
+        "value": 20.0
+      },
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Arlington photo speed cameras: published coordinates, not independently surveyed. Source: https://www.arcgis.com/home/item.html?id=eb99da63af414381852644a4a29fc224",
+      "geometry": [
+        {
+          "latitude": 38.86899738361563,
+          "longitude": -77.09544065402817
+        }
+      ],
+      "id": "agency-arlington-acsp019",
+      "kind": "speed",
+      "label": "3370 2nd ST S · EB · Thomas Jefferson MS / Fleet ES",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-arlington-acsp019",
+      "sourceIDs": [
+        "agency/arlington/ACSP019"
+      ],
+      "speedLimitCandidate": {
+        "conditional": true,
+        "sourceID": "agency/arlington/ACSP019",
+        "suppressionApproved": false,
+        "unit": "mph",
+        "value": 20.0
+      },
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Arlington photo speed cameras: published coordinates, not independently surveyed. Source: https://www.arcgis.com/home/item.html?id=eb99da63af414381852644a4a29fc224",
+      "geometry": [
+        {
+          "latitude": 38.88151551979634,
+          "longitude": -77.13844600460511
+        }
+      ],
+      "id": "agency-arlington-acsp021",
+      "kind": "speed",
+      "label": "1125 PATRICK HENRY DR · NB · Swanson MS / Cardinal ES",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-arlington-acsp021",
+      "sourceIDs": [
+        "agency/arlington/ACSP021"
+      ],
+      "speedLimitCandidate": {
+        "conditional": true,
+        "sourceID": "agency/arlington/ACSP021",
+        "suppressionApproved": false,
+        "unit": "mph",
+        "value": 20.0
+      },
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Arlington photo speed cameras: published coordinates, not independently surveyed. Source: https://www.arcgis.com/home/item.html?id=eb99da63af414381852644a4a29fc224",
+      "geometry": [
+        {
+          "latitude": 38.855310242099286,
+          "longitude": -77.10030320565541
+        }
+      ],
+      "id": "agency-arlington-acsp025",
+      "kind": "speed",
+      "label": "1308 S GEORGE MASON DR · NB · Randolph ES",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-arlington-acsp025",
+      "sourceIDs": [
+        "agency/arlington/ACSP025"
+      ],
+      "speedLimitCandidate": {
+        "conditional": true,
+        "sourceID": "agency/arlington/ACSP025",
+        "suppressionApproved": false,
+        "unit": "mph",
+        "value": 20.0
+      },
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Arlington photo speed cameras: published coordinates, not independently surveyed. Source: https://www.arcgis.com/home/item.html?id=eb99da63af414381852644a4a29fc224",
+      "geometry": [
+        {
+          "latitude": 38.88252202807563,
+          "longitude": -77.1229393811784
+        }
+      ],
+      "id": "agency-arlington-acsp026",
+      "kind": "speed",
+      "label": "1001 N GEORGE MASON DR · SB · Escuela Key ES",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-arlington-acsp026",
+      "sourceIDs": [
+        "agency/arlington/ACSP026"
+      ],
+      "speedLimitCandidate": {
+        "conditional": true,
+        "sourceID": "agency/arlington/ACSP026",
+        "suppressionApproved": false,
+        "unit": "mph",
+        "value": 20.0
+      },
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Arlington photo speed cameras: published coordinates, not independently surveyed. Source: https://www.arcgis.com/home/item.html?id=eb99da63af414381852644a4a29fc224",
+      "geometry": [
+        {
+          "latitude": 38.857770542414656,
+          "longitude": -77.12642072090102
+        }
+      ],
+      "id": "agency-arlington-acsp027",
+      "kind": "speed",
+      "label": "737 S CARLIN SPRINGS RD · NB · Campbell ES",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-arlington-acsp027",
+      "sourceIDs": [
+        "agency/arlington/ACSP027"
+      ],
+      "speedLimitCandidate": {
+        "conditional": true,
+        "sourceID": "agency/arlington/ACSP027",
+        "suppressionApproved": false,
+        "unit": "mph",
+        "value": 20.0
+      },
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Arlington photo speed cameras: published coordinates, not independently surveyed. Source: https://www.arcgis.com/home/item.html?id=eb99da63af414381852644a4a29fc224",
+      "geometry": [
+        {
+          "latitude": 38.9010164192794,
+          "longitude": -77.1140079596922
+        }
+      ],
+      "id": "agency-arlington-acsp028",
+      "kind": "speed",
+      "label": "4329 LORCOM LN · EB · Dorothy Hamm MS",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-arlington-acsp028",
+      "sourceIDs": [
+        "agency/arlington/ACSP028"
+      ],
+      "speedLimitCandidate": {
+        "conditional": true,
+        "sourceID": "agency/arlington/ACSP028",
+        "suppressionApproved": false,
+        "unit": "mph",
+        "value": 20.0
+      },
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Arlington photo speed cameras: published coordinates, not independently surveyed. Source: https://www.arcgis.com/home/item.html?id=eb99da63af414381852644a4a29fc224",
+      "geometry": [
+        {
+          "latitude": 38.87401544200312,
+          "longitude": -77.13844389496113
+        }
+      ],
+      "id": "agency-arlington-acsp029",
+      "kind": "speed",
+      "label": "6002 WILSON BLVD · EB · Ashlawn ES",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-arlington-acsp029",
+      "sourceIDs": [
+        "agency/arlington/ACSP029"
+      ],
+      "speedLimitCandidate": {
+        "conditional": true,
+        "sourceID": "agency/arlington/ACSP029",
+        "suppressionApproved": false,
+        "unit": "mph",
+        "value": 20.0
+      },
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Arlington photo speed cameras: published coordinates, not independently surveyed. Source: https://www.arcgis.com/home/item.html?id=eb99da63af414381852644a4a29fc224",
+      "geometry": [
+        {
+          "latitude": 38.88884672464551,
+          "longitude": -77.10831195084339
+        }
+      ],
+      "id": "agency-arlington-acsp030",
+      "kind": "speed",
+      "label": "1423 N QUINCY ST · SB · Washington-Liberty HS",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-arlington-acsp030",
+      "sourceIDs": [
+        "agency/arlington/ACSP030"
+      ],
+      "speedLimitCandidate": {
+        "conditional": true,
+        "sourceID": "agency/arlington/ACSP030",
+        "suppressionApproved": false,
+        "unit": "mph",
+        "value": 20.0
+      },
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Arlington photo speed cameras: published coordinates, not independently surveyed. Source: https://www.arcgis.com/home/item.html?id=eb99da63af414381852644a4a29fc224",
+      "geometry": [
+        {
+          "latitude": 38.89466775771412,
+          "longitude": -77.07556485145021
+        }
+      ],
+      "id": "agency-arlington-acsp031",
+      "kind": "speed",
+      "label": "1535 WILSON BLVD · WB · H-B Woodlan/Shriver Programs",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-arlington-acsp031",
+      "sourceIDs": [
+        "agency/arlington/ACSP031"
+      ],
+      "speedLimitCandidate": {
+        "conditional": true,
+        "sourceID": "agency/arlington/ACSP031",
+        "suppressionApproved": false,
+        "unit": "mph",
+        "value": 20.0
+      },
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Arlington photo speed cameras: published coordinates, not independently surveyed. Source: https://www.arcgis.com/home/item.html?id=eb99da63af414381852644a4a29fc224",
+      "geometry": [
+        {
+          "latitude": 38.90864838741756,
+          "longitude": -77.14215507044156
+        }
+      ],
+      "id": "agency-arlington-acsp032",
+      "kind": "speed",
+      "label": "5100 WILLIAMSBURG BLVD · WB · Discover ES / Williamsburg MS",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-arlington-acsp032",
+      "sourceIDs": [
+        "agency/arlington/ACSP032"
+      ],
+      "speedLimitCandidate": {
+        "conditional": true,
+        "sourceID": "agency/arlington/ACSP032",
+        "suppressionApproved": false,
+        "unit": "mph",
+        "value": 20.0
+      },
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Arlington photo speed cameras: published coordinates, not independently surveyed. Source: https://www.arcgis.com/home/item.html?id=eb99da63af414381852644a4a29fc224",
+      "geometry": [
+        {
+          "latitude": 38.90698790534285,
+          "longitude": -77.11046559923437
+        }
+      ],
+      "id": "agency-arlington-acsp033",
+      "kind": "speed",
+      "label": "2616 MILITARY RD · SB · Taylor ES",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-arlington-acsp033",
+      "sourceIDs": [
+        "agency/arlington/ACSP033"
+      ],
+      "speedLimitCandidate": {
+        "conditional": true,
+        "sourceID": "agency/arlington/ACSP033",
+        "suppressionApproved": false,
+        "unit": "mph",
+        "value": 20.0
+      },
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Arlington photo speed cameras: published coordinates, not independently surveyed. Source: https://www.arcgis.com/home/item.html?id=eb99da63af414381852644a4a29fc224",
+      "geometry": [
+        {
+          "latitude": 38.913812614690706,
+          "longitude": -77.13775189494251
+        }
+      ],
+      "id": "agency-arlington-acsp034",
+      "kind": "speed",
+      "label": "4781 WILLIAMSBURG BLVD · NB · Jamestown Elementary School",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-arlington-acsp034",
+      "sourceIDs": [
+        "agency/arlington/ACSP034"
+      ],
+      "speedLimitCandidate": {
+        "conditional": true,
+        "sourceID": "agency/arlington/ACSP034",
+        "suppressionApproved": false,
+        "unit": "mph",
+        "value": 20.0
+      },
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Arlington photo speed cameras: published coordinates, not independently surveyed. Source: https://www.arcgis.com/home/item.html?id=eb99da63af414381852644a4a29fc224",
+      "geometry": [
+        {
+          "latitude": 38.90314212380468,
+          "longitude": -77.13825413062881
+        }
+      ],
+      "id": "agency-arlington-acsp035",
+      "kind": "speed",
+      "label": "5119 YORKTOWN BLVD · WB · Yorktown HS",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-arlington-acsp035",
+      "sourceIDs": [
+        "agency/arlington/ACSP035"
+      ],
+      "speedLimitCandidate": {
+        "conditional": true,
+        "sourceID": "agency/arlington/ACSP035",
+        "suppressionApproved": false,
+        "unit": "mph",
+        "value": 20.0
+      },
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Arlington photo speed cameras: published coordinates, not independently surveyed. Source: https://www.arcgis.com/home/item.html?id=eb99da63af414381852644a4a29fc224",
+      "geometry": [
+        {
+          "latitude": 38.89055982474017,
+          "longitude": -77.10111943800888
+        }
+      ],
+      "id": "agency-arlington-acsp036",
+      "kind": "speed",
+      "label": "1610 KIRKWOOD RD · SB · Arlington Science Focus ES",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-arlington-acsp036",
+      "sourceIDs": [
+        "agency/arlington/ACSP036"
+      ],
+      "speedLimitCandidate": {
+        "conditional": true,
+        "sourceID": "agency/arlington/ACSP036",
+        "suppressionApproved": false,
+        "unit": "mph",
+        "value": 20.0
+      },
+      "travelBearing": 180
+    },
+    {
+      "evidence": "Arlington photo speed cameras: published coordinates, not independently surveyed. Source: https://www.arcgis.com/home/item.html?id=eb99da63af414381852644a4a29fc224",
+      "geometry": [
+        {
+          "latitude": 38.87162126412599,
+          "longitude": -77.10811417217353
+        }
+      ],
+      "id": "agency-arlington-acsp038",
+      "kind": "speed",
+      "label": "301 N GEORGE MASON DR · NB · Barret ES",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-arlington-acsp038",
+      "sourceIDs": [
+        "agency/arlington/ACSP038"
+      ],
+      "speedLimitCandidate": {
+        "conditional": true,
+        "sourceID": "agency/arlington/ACSP038",
+        "suppressionApproved": false,
+        "unit": "mph",
+        "value": 20.0
+      },
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Arlington photo speed cameras: published coordinates, not independently surveyed. Source: https://www.arcgis.com/home/item.html?id=eb99da63af414381852644a4a29fc224",
+      "geometry": [
+        {
+          "latitude": 38.90579866313772,
+          "longitude": -77.10967007056759
+        }
+      ],
+      "id": "agency-arlington-acsp039",
+      "kind": "speed",
+      "label": "2500 MILITARY RD · NB · Taylor ES",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-arlington-acsp039",
+      "sourceIDs": [
+        "agency/arlington/ACSP039"
+      ],
+      "speedLimitCandidate": {
+        "conditional": true,
+        "sourceID": "agency/arlington/ACSP039",
+        "suppressionApproved": false,
+        "unit": "mph",
+        "value": 20.0
+      },
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Arlington photo speed cameras: published coordinates, not independently surveyed. Source: https://www.arcgis.com/home/item.html?id=eb99da63af414381852644a4a29fc224",
+      "geometry": [
+        {
+          "latitude": 38.870074623970005,
+          "longitude": -77.09159920228612
+        }
+      ],
+      "id": "agency-arlington-acsp041",
+      "kind": "speed",
+      "label": "3200 2nd ST S · WB · Alice Fleet ES / Thomas Jefferson MS",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-arlington-acsp041",
+      "sourceIDs": [
+        "agency/arlington/ACSP041"
+      ],
+      "speedLimitCandidate": {
+        "conditional": true,
+        "sourceID": "agency/arlington/ACSP041",
+        "suppressionApproved": false,
+        "unit": "mph",
+        "value": 20.0
+      },
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Arlington photo speed cameras: published coordinates, not independently surveyed. Source: https://www.arcgis.com/home/item.html?id=eb99da63af414381852644a4a29fc224",
+      "geometry": [
+        {
+          "latitude": 38.90082723069073,
+          "longitude": -77.15352808258085
+        }
+      ],
+      "id": "agency-arlington-acsp044",
+      "kind": "speed",
+      "label": "6000 LITTLE FALLS RD · EB · Nottingham ES",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-arlington-acsp044",
+      "sourceIDs": [
+        "agency/arlington/ACSP044"
+      ],
+      "speedLimitCandidate": {
+        "conditional": true,
+        "sourceID": "agency/arlington/ACSP044",
+        "suppressionApproved": false,
+        "unit": "mph",
+        "value": 20.0
+      },
+      "travelBearing": 90
+    }
+  ],
+  "checkedAt": "2026-09-15T02:05:42Z",
+  "excluded": [
+    {
+      "reason": "Not active / retired",
+      "sourceRecord": "ACSP006"
+    },
+    {
+      "reason": "Not active / retired",
+      "sourceRecord": "ACSP008"
+    },
+    {
+      "reason": "Not active / retired",
+      "sourceRecord": "ACSP013"
+    },
+    {
+      "reason": "Not active / retired",
+      "sourceRecord": "8"
+    },
+    {
+      "reason": "Not active / retired",
+      "sourceRecord": "21"
+    },
+    {
+      "reason": "Not active / retired",
+      "sourceRecord": "ACSP043"
+    },
+    {
+      "reason": "Not active / retired",
+      "sourceRecord": "9"
+    },
+    {
+      "reason": "Not active / retired",
+      "sourceRecord": "10"
+    },
+    {
+      "reason": "Not active / retired",
+      "sourceRecord": "26"
+    },
+    {
+      "reason": "Not active / retired",
+      "sourceRecord": "11"
+    },
+    {
+      "reason": "Not active / retired",
+      "sourceRecord": "ACSP042"
+    },
+    {
+      "reason": "Not active / retired",
+      "sourceRecord": "ACSP046"
+    },
+    {
+      "reason": "Not active / retired",
+      "sourceRecord": "12"
+    },
+    {
+      "reason": "Not active / retired",
+      "sourceRecord": "ACSP040"
+    },
+    {
+      "reason": "Not installed yet",
+      "sourceRecord": "ACSP037"
+    },
+    {
+      "reason": "Not active / retired",
+      "sourceRecord": "ACSP045"
+    },
+    {
+      "reason": "Not active / retired",
+      "sourceRecord": "x1"
+    }
+  ],
+  "id": "arlington",
+  "rowCount": 49,
+  "url": "https://arlgis.arlingtonva.us/arcgis/rest/services/Open_Data/od_DES_Signal_PhotoSpeed_Cameras_pnt/FeatureServer/0"
+}
