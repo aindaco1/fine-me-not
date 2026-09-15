@@ -12,7 +12,7 @@
   "candidateOnly": 41,
   "coveragePercent": 73.9,
   "eligible": 1305,
-  "generatedAt": "2026-09-15T06:44:15Z",
+  "generatedAt": "2026-09-15T06:47:25Z",
   "records": [
     {
       "candidates": [
@@ -47398,9 +47398,9 @@
           "lineage": null,
           "matchDistanceMeters": 9.91,
           "reason": "Conservative minimum across plausible segments/carriageways of the same named road",
-          "sourceID": "osm/way/678190345",
-          "sourceURL": "https://www.openstreetmap.org/way/678190345",
-          "sourceUpdatedAt": "2025-08-05T04:28:45Z",
+          "sourceID": "osm/way/526328817",
+          "sourceURL": "https://www.openstreetmap.org/way/526328817",
+          "sourceUpdatedAt": "2025-07-22T10:00:33Z",
           "unit": "mph",
           "unitBasis": null,
           "value": 25.0
@@ -47419,9 +47419,9 @@
           "lineage": null,
           "matchDistanceMeters": 9.91,
           "reason": "Conservative minimum across plausible segments/carriageways of the same named road",
-          "sourceID": "osm/way/526328817",
-          "sourceURL": "https://www.openstreetmap.org/way/526328817",
-          "sourceUpdatedAt": "2025-07-22T10:00:33Z",
+          "sourceID": "osm/way/678190345",
+          "sourceURL": "https://www.openstreetmap.org/way/678190345",
+          "sourceUpdatedAt": "2025-08-05T04:28:45Z",
           "unit": "mph",
           "unitBasis": null,
           "value": 25.0
@@ -80590,5 +80590,5 @@
   "speedCameras": 1765,
   "totalCameras": 2695,
   "unknown": 419,
-  "version": "2026-09-14-ed43f9ac942e-cbdca9bc"
+  "version": "2026-09-14-ed43f9ac942e-a2c2f4bb"
 }

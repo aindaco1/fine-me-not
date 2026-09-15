@@ -1,6 +1,6 @@
 # Speed-limit coverage
 
-Snapshot 2026-09-14-ed43f9ac942e-cbdca9bc
+Snapshot 2026-09-14-ed43f9ac942e-a2c2f4bb
 
 1305 / 1765 speed-camera approaches have an approved posted limit or conservative suppression bound.
 
