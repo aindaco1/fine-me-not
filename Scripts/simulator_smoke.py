@@ -5,12 +5,12 @@ This checks real Core Location / audio integration while another app is in front
 Permissions are pre-granted test fixtures, not a test of Apple's prompt UI. It
 does not establish locked-screen, physical audibility, Bluetooth or CarPlay results.
 """
+import argparse
 import json
 import math
 import pathlib
 import plistlib
 import subprocess
-import sys
 import time
 
 BUNDLE = 'xyz.dustwave.fine-me-not'
@@ -44,7 +44,7 @@ def replay_route(device, evidence_name):
     (OUTPUT / evidence_name).write_text(json.dumps(positions, indent=2) + '\n')
 
 
-def diagnose_failure(device, journal):
+def diagnose_failure(device, journal, replay=True):
     """Keep the failing evidence, then probe foreground delivery; never retry to pass."""
     if not journal or not journal.exists():
         return
@@ -56,9 +56,11 @@ def diagnose_failure(device, journal):
             subprocess.run(command, stdout=log, stderr=subprocess.STDOUT, timeout=30, check=False)
         except subprocess.TimeoutExpired:
             log.write('\nLocation-service log capture timed out.\n')
+    if not replay:
+        return
     try:
         print('Diagnostic foreground probe after failure (does not change test outcome)', flush=True)
-        sim('launch', device, BUNDLE)
+        sim('launch', device, BUNDLE, '-warnings.enabled', 'YES')
         replay_route(device, 'foreground-probe-route.json')
         time.sleep(10)
         (OUTPUT / 'foreground-probe-journal.json').write_bytes(journal.read_bytes())
@@ -67,8 +69,17 @@ def diagnose_failure(device, journal):
 
 
 def main():
-    version, app_path, *test_runs = sys.argv[1:]
-    assert len(test_runs) <= 1, 'Expected at most one .xctestrun file'
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('version')
+    parser.add_argument('app_path')
+    parser.add_argument('test_run', nargs='?')
+    parser.add_argument('--scenario', choices=('background', 'foreground'), default='background')
+    args = parser.parse_args()
+    version, app_path = args.version, args.app_path
+    test_runs = [args.test_run] if args.test_run else []
+    if args.scenario == 'foreground' and not test_runs:
+        parser.error('The foreground UI/siren check requires a .xctestrun file')
+    expected_state = args.scenario
     app = pathlib.Path(app_path).resolve()
     info = plistlib.loads((app / 'Info.plist').read_bytes())
     OUTPUT.mkdir(parents=True, exist_ok=True)
@@ -102,9 +113,11 @@ def main():
             raise AssertionError('Simulator did not reach expected state; see journal artifact')
 
         if test_runs:
+            test_method = 'testForegroundSirenAndSettings' if expected_state == 'foreground' else 'testBackgroundCameraApproach'
             try:
                 subprocess.run(['xcodebuild', 'test-without-building', '-xctestrun', test_runs[0],
                                 '-destination', f'platform=iOS Simulator,id={device}',
+                                f'-only-testing:CompatibilityUITests/CameraApproachTests/{test_method}',
                                 '-parallel-testing-enabled', 'NO',
                                 '-resultBundlePath', str(OUTPUT / f'UITests-{time.time_ns()}.xcresult')],
                                check=True, timeout=900)
@@ -120,27 +133,29 @@ def main():
             sim('launch', device, 'com.apple.mobilesafari')
             wait_for(lambda rows: any(r['event']['code'] == 'lifecycle' and r['event']['values'].get('appState') == 'background' for r in rows))
             replay_route(device, 'route.json')
-        wait_for(lambda rows: any(r['event']['code'] == 'audio' and r['event']['values'].get('audio') == 'completed' and r['event']['values'].get('appState') == 'background' for r in rows))
-        # The route has finished; remain stationary and check for repeated sirens.
+        wait_for(lambda rows: any(r['event']['code'] == 'audio' and r['event']['values'].get('audio') == 'completed' and r['event']['values'].get('appState') == expected_state for r in rows))
+        # Allow a quiet interval and check for repeated sirens.
         time.sleep(10)
         audio = [r for r in events() if r['event']['code'] == 'audio']
         starts = sum(r['count'] for r in audio if r['event']['values'].get('audio') == 'started')
         completions = sum(r['count'] for r in audio if r['event']['values'].get('audio') == 'completed')
         assert starts == completions == 1, audio
         assert all(r['event']['values'].get('audio') in ('started', 'completed') for r in audio), audio
+        assert all(r['event']['values'].get('appState') == expected_state for r in audio), audio
         summary = {'runtime': runtime['name'], 'runtimeBuild': runtime['buildversion'],
                    'device': 'iPhone SE (3rd generation)', 'appVersion': info['CFBundleShortVersionString'],
                    'appBuild': info['CFBundleVersion'], 'minimumOS': info['MinimumOSVersion'],
                    'permissionSetup': 'simctl pre-granted Always',
-                   'foregroundApp': 'Home screen' if test_runs else 'Safari',
-                   'locationDriver': f'XCUITest CLLocation proxy at {SPEED:g} m/s' if test_runs else f'timed simctl positions at {SPEED:g} m/s; speed inferred from displacement',
-                   'backgroundSirenStarts': starts, 'backgroundSirenCompletions': completions,
+                   'scenario': args.scenario,
+                   'foregroundApp': 'Fine Me Not' if expected_state == 'foreground' else ('Home screen' if test_runs else 'Safari'),
+                   'locationDriver': 'not replayed' if expected_state == 'foreground' else (f'XCUITest CLLocation proxy at {SPEED:g} m/s' if test_runs else f'timed simctl positions at {SPEED:g} m/s; speed inferred from displacement'),
+                   'sirenStarts': starts, 'sirenCompletions': completions,
                    'physicalDeviceTest': False}
         (OUTPUT / 'result.json').write_text(json.dumps(summary, indent=2) + '\n')
         print(json.dumps(summary, indent=2))
     except Exception as error:
         (OUTPUT / 'setup-error.txt').write_text(f'{type(error).__name__}: {error}\n')
-        diagnose_failure(device, journal)
+        diagnose_failure(device, journal, replay=expected_state == 'background')
         raise
     finally:
         if journal and journal.exists() and not (OUTPUT / 'journal.json').exists():

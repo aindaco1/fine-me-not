@@ -7,6 +7,35 @@ final class CameraApproachTests: XCTestCase {
     }
 
     @MainActor
+    private func launchApp() -> XCUIApplication {
+        continueAfterFailure = false
+        let app = XCUIApplication()
+        app.launchArguments = ["-warnings.enabled", "YES"]
+        app.launch()
+        XCTAssertTrue(app.switches["Camera warnings"].waitForExistence(timeout: 60))
+        return app
+    }
+
+    @MainActor
+    func testForegroundSirenAndSettings() {
+        let app = launchApp()
+        let quiet = app.switches["speed-check-toggle"]
+        XCTAssertEqual(quiet.value as? String, "1")
+        quiet.tap()
+        app.terminate()
+        app.launch()
+        XCTAssertTrue(quiet.waitForExistence(timeout: 60))
+        XCTAssertEqual(quiet.value as? String, "0")
+        quiet.tap()
+        let warning = app.buttons["test-warning"]
+        if !warning.isHittable { app.swipeUp() }
+        warning.tap()
+        Thread.sleep(forTimeInterval: 3)
+        XCTAssertEqual(app.state, .runningForeground)
+        // The outer runner independently requires foreground audio completion.
+    }
+
+    @MainActor
     func testBackgroundCameraApproach() throws {
         continueAfterFailure = false
         let device = XCUIDevice.shared
@@ -24,10 +53,7 @@ final class CameraApproachTests: XCTestCase {
         }
         defer { device.location = nil }
         setLocation(startLongitude)
-        let app = XCUIApplication()
-        app.launchArguments = ["-warnings.enabled", "YES"]
-        app.launch()
-        XCTAssertTrue(app.switches["Camera warnings"].waitForExistence(timeout: 60))
+        let app = launchApp()
         device.press(.home)
         XCTAssertTrue(app.wait(for: .runningBackground, timeout: 15))
         let duration = (endLongitude - startLongitude) * .pi / 180 * 6_371_000 * cos(latitude * .pi / 180) / route.speedMetersPerSecond

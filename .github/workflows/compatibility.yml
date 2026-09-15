@@ -24,12 +24,18 @@ on:
         description: Apple simulator runtime version
         required: true
         type: choice
-        options: ['all', '17.5', '18.0', '26.5']
+        options: ['all', '17.5', '18.0', '18.5', '26.5']
         default: 'all'
+      scenario:
+        description: Auto checks background routes on 17/26 and settings/audio on 18; background on 18 is diagnostic
+        required: true
+        type: choice
+        options: ['auto', 'background', 'foreground']
+        default: 'auto'
 permissions:
   contents: read
 concurrency:
-  group: ios-compatibility-${{ github.ref }}-${{ inputs.ios_version || 'all' }}
+  group: ios-compatibility-${{ github.ref }}-${{ inputs.ios_version || 'all' }}-${{ inputs.scenario || 'auto' }}
   cancel-in-progress: true
 jobs:
   build:
@@ -60,9 +66,13 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        ios_version: ${{ fromJSON(inputs.ios_version && inputs.ios_version != 'all' && format('["{0}"]', inputs.ios_version) || '["17.5", "18.0", "26.5"]') }}
+        ios_version: ${{ fromJSON(inputs.ios_version && inputs.ios_version != 'all' && format('["{0}"]', inputs.ios_version) || '["17.5", "18.5", "26.5"]') }}
     env:
       FMN_IOS_VERSION: ${{ matrix.ios_version }}
+      # Moving GPS delivery fails even in a minimal control app on hosted iOS 18.
+      # Keep that replay available for diagnosis; do not label the UI/audio gate
+      # as background acceptance. See docs/TESTING.md for the local iOS 18 result.
+      FMN_SCENARIO: ${{ inputs.scenario && inputs.scenario != 'auto' && inputs.scenario || startsWith(matrix.ios_version, '18.') && 'foreground' || 'background' }}
     steps:
       - uses: actions/checkout@v4
       - name: Prepare requested runtime
@@ -79,10 +89,11 @@ jobs:
         run: |
           tar -xzf build/simulator-app.tar.gz -C build
           python3 Scripts/check_bundle.py build/Products/Debug-iphonesimulator/FineMeNot.app --release
-      - name: Run background camera approach
+      - name: Check selected runtime behavior
         run: |
           python3 Scripts/simulator_smoke.py "$FMN_IOS_VERSION" \
-            build/Products/Debug-iphonesimulator/FineMeNot.app build/Products/*.xctestrun
+            build/Products/Debug-iphonesimulator/FineMeNot.app build/Products/*.xctestrun \
+            --scenario "$FMN_SCENARIO"
       - uses: actions/upload-artifact@v4
         if: always()
         with:
