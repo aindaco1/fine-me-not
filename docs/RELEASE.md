@@ -1,14 +1,17 @@
 # Release and distribution
 
+**1.0.2 compatibility update:** version 1.0.2 (10) lowers the minimum to iOS 17.0. The dated 1.0 and 1.0.1 records below describe earlier binaries. See the latest verification section at the end and [supported versions](SUPPORT.md).
+
 **1.0.1 reporting update:** source version 1.0.1 (9). Voluntary public reports change the privacy disclosure; the 1.0 Data Not Collected answer below is historical. See [REPORTING.md](REPORTING.md). Distribution verification is recorded separately from the existing 1.0 submission.
 
 - App: Fine Me Not
 - Bundle: `xyz.dustwave.fine-me-not`
 - Owner/team: Volver Health LLC (`PWT3Q52LZ2`), explicitly selected by the project owner
-- Version: 1.0.0 (8)
+- TestFlight: **1.0.2 (10), Testing** in First Drive as of September 15, 2026, 07:07 MDT
+- Pending App Store version: 1.0.0 (8)
 - App Store: **Waiting for Review** as of September 15, 2026, 02:10 MDT; automatic U.S. release after approval
-- Official release: https://github.com/aindaco1/fine-me-not/releases/tag/v1.0.0
-- Distribution minimum: iOS 27.0
+- Release history: https://github.com/aindaco1/fine-me-not/releases
+- Minimum: iOS 17.0 for 1.0.2; earlier binaries require iOS 27.0
 - Source: https://github.com/aindaco1/fine-me-not
 - Support / privacy: https://finemenot.xyz/
 - Category: Utilities (minimal camera proximity warnings)
@@ -16,7 +19,7 @@
 
 ## Build
 
-Use Xcode 27 preferably. `project.yml` is the project configuration source; regenerate with XcodeGen after changes. The checked-in Xcode project permits building without XcodeGen.
+Use Xcode 26.6 or a newer compatible release toolchain. `project.yml` is the project configuration source; regenerate with XcodeGen after changes. The checked-in Xcode project permits building without XcodeGen.
 
 ```sh
 swift test
@@ -27,7 +30,7 @@ xcodebuild -project FineMeNot.xcodeproj -scheme FineMeNot \
 python3 Scripts/check_bundle.py work/FineMeNot.xcarchive/Products/Applications/FineMeNot.app --release
 ```
 
-Do not use the simulator deployment override for a TestFlight archive. Increment the build number for each uploaded binary. Xcode's saved account may create/refresh team signing assets; credentials and provisioning files are never committed.
+Simulator and distribution builds must use the deployment target in `project.yml`; do not add a minimum-OS override. Increment the build number for each uploaded binary. Xcode's saved account may create/refresh team signing assets; credentials and provisioning files are never committed.
 
 ## App Store Connect
 
@@ -52,7 +55,7 @@ The app's only background purpose is user-enabled camera proximity warnings. Cor
 1. Source tests and full bundle checks pass.
 2. Signed archive passes export and App Store validation.
 3. Apple finishes processing; build is available to the owner in TestFlight.
-4. TestFlight reports installation on iPhone 16 Pro Max / iOS 27; owner verifies the app opens and permissions work.
+4. Verify installation on a supported iPhone; record the model, iOS version, permission setup and build in the acceptance record.
 5. Record physical audio/background results separately from distribution. On September 15, 2026, the owner confirmed a real Bluetooth warning with the screen locked and explicitly requested release of 1.0 before completing the remaining device checks. Low Power Mode, speaker/Silent mode, CarPlay and battery checks remain pending; do not describe them as passed or promise uninterrupted warnings.
 
 ## 1.0 release — September 15, 2026
@@ -175,3 +178,42 @@ It retains each issue group's retry receipts for the full 30-day window and keep
 cleanup scheduled during ongoing submissions. A repeat of the original live
 synthetic report returned its existing issue; the count remained three and the
 issue stayed closed. No app binary changes were needed for this relay update.
+
+## 1.0.2 compatibility — September 15, 2026
+
+Version **1.0.2 (10)** lowers the distribution minimum to **iOS 17.0**. iOS 17
+uses the two-step location-permission request; iOS 18 and later retain the service
+session. Both use the same background location manager, matcher and audio path.
+
+The signed archive was built with Xcode 26.6 / iOS 26.5 SDK, passed release bundle
+validation with 2,695 bundled cameras, and has matching app/dSYM UUIDs. The app
+source at `3458537` is unchanged by the subsequent CI-tooling commits. All 26 Swift
+tests and 63 pipeline tests passed, locally and in the
+[hosted checks](https://github.com/aindaco1/fine-me-not/actions/runs/34972228732).
+Exact OS integration results and physical-test limits are in [TESTING.md](TESTING.md).
+
+Apple accepted the upload at **04:20:58 MDT**. App Store Connect shows binary
+state **Validated**, symbols included, device family **iPhone**, and minimum iOS
+**17.0**. Test instructions cover permission setup, database refresh, the siren,
+saved settings and optional reports.
+
+The local cleanup removed 15 obsolete generated build/cache/archive directories,
+freeing about **703 MiB**. The 1.0.0, 1.0.1 and 1.0.2 release archives and matching
+symbols were retained for crash symbolication. Source, camera data and unrelated
+work were preserved. Older runtime regression checks now run on GitHub-hosted
+Macs, avoiding additional simulator-runtime storage on the development Mac.
+
+By **07:07 MDT**, the existing **First Drive** internal group with one tester was
+assigned and App Store Connect showed **1.0.2 (10) — Testing**. Installation of
+build 10 on the physical phone is not yet verified; the last reported installed
+build was 1.0.1 (9). No tester roles or privacy categories changed. The initial
+1.0.0 App Store submission remains **Waiting for Review**, rechecked at 07:07 MDT.
+
+The automatic runtime checks use iOS **17.5, 18.5 and 26.5**. The 17/26 checks
+require exactly one background camera siren; the 18 check verifies launch, the
+saved Quiet setting and one foreground Test warning. Complete local iOS 18.0
+background playback passes. Hosted iOS 18 moving-GPS failures also reproduce in
+minimal controls and remain documented diagnostics, not accepted background
+results. See [TESTING.md](TESTING.md) for evidence and exact limits.
+
+[Runtime regression evidence](https://github.com/aindaco1/fine-me-not/actions/runs/34972228844) includes the exact scenario and retained journal for each OS.

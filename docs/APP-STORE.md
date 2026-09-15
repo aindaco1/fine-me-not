@@ -86,3 +86,11 @@ Suggested 1.0.1 What's New:
 > everything and send it to the public GitHub issue tracker. No GitHub account
 > needed. Failed sends keep a draft so you can retry. The website has clearer
 > setup, troubleshooting and privacy information too.
+
+## Prepared compatibility update — 1.0.2 (10)
+
+Minimum iOS 17.0. For the next App Store submission, replace “Requires iOS 27 or later” in the description with “Requires iOS 17 or later.” The pending 1.0.0 submission above is a historical record and has not been replaced by the TestFlight build. Keep the reporting privacy categories published for 1.0.1.
+
+Suggested What's New:
+
+> Older iPhone? You're in. Fine Me Not now supports iOS 17 and later, including iOS 18 and 26. Same simple setup, background camera warnings and optional problem reports.

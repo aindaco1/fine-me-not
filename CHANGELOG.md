@@ -1,5 +1,21 @@
 # Release notes
 
+## 1.0.2 — September 15, 2026
+
+Older iPhone? You're in. Fine Me Not now supports **iOS 17 and later**, including iOS 18 and 26.
+
+- Added the iOS 17 location-permission flow while keeping the same camera warnings, settings and siren.
+- Added automatic compatibility checks on iOS 17.5, 18.5 and 26.5 for app changes and pull requests. These cover background camera warnings on 17/26, and launch, saved settings and Test warning on 18. The test record explains the hosted iOS 18 GPS limitation.
+- Updated the website's supported iPhones and setup information.
+
+See [release availability](docs/RELEASE.md) and [test results](docs/TESTING.md). Simulator checks do not replace testing the sound on your phone and car connection.
+
+## 1.0.1 — September 15, 2026
+
+Found something weird? Use **Report a problem** to describe it, add optional diagnostics, review exactly what will be shared, and send it. Reports are public; sending is always your choice. Failed sends keep a draft for retry.
+
+The website now has shorter setup and troubleshooting instructions and explains voluntary reports in the privacy policy.
+
 ## 1.0.0 — September 15, 2026
 
 Speed cameras ahead. Keep your cash.

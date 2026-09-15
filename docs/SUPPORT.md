@@ -1,77 +1,37 @@
 # Supported iOS versions and iPhones
 
-The current Fine Me Not distribution builds require **iOS 27.0 or later** on a compatible iPhone. There is no Apple Intelligence requirement.
+Fine Me Not **1.0.2 (10) requires iOS 17.0 or later**. The supported release families are iOS 17, 18, 26 and 27. There is no Apple Intelligence requirement. See [release status](RELEASE.md) for TestFlight and App Store availability; earlier binaries required iOS 27.
 
-## Compatibility vs. verification
+## Supported models
 
-| Environment | Status |
-| --- | --- |
-| iOS 27 on the compatible iPhones below | Eligible by OS and hardware; not every model has been individually tested. See [TESTING.md](TESTING.md) for field-test evidence. |
-| iOS 28 and future releases | Not yet verified; no forward-compatibility promise |
-| iOS 26 and earlier | Not supported by the distribution build |
-| Simulator compatibility build | Uses an explicit iOS 18 minimum solely for development checks; this does not expand release support |
-| iPad, Mac, Apple Watch, Android | No supported app |
-| CarPlay | Audio through the system-selected car route; no dashboard app or CarPlay interface |
+- iPhone XS, XS Max and XR on iOS 17 or 18.
+- iPhone 11 and newer, running a supported iOS version available for that model.
+- iPhone SE (2nd generation and later).
 
-## Eligible models
+Check **Settings → General → About** for the model and iOS version. iPhone X, iPhone 8 and the first-generation SE cannot run iOS 17 and are not supported. There is no iPad, Mac, Apple Watch or Android version. CarPlay support means audio through the selected car connection; there is no separate dashboard app.
 
-Apple's [iOS 27 compatibility list](https://www.apple.com/os/ios/), checked September 15, 2026, includes:
+Apple documents [iOS 17 availability](https://www.apple.com/newsroom/2023/09/ios-17-is-available-today/), [iOS 18 devices](https://support.apple.com/en-sg/104985), [iOS 26 devices](https://support.apple.com/en-us/123705) and [iOS 27 devices](https://www.apple.com/os/ios/). Hardware eligibility does not mean each model has been individually tested. Future iOS versions are not yet verified.
 
-| Family | Models |
-| --- | --- |
-| Duo | iPhone Duo |
-| 18 | iPhone 18 Pro, 18 Pro Max |
-| 17 / Air | iPhone 17, 17 Pro, 17 Pro Max, 17e, iPhone Air |
-| 16 | iPhone 16, 16 Plus, 16 Pro, 16 Pro Max, 16e |
-| 15 | iPhone 15, 15 Plus, 15 Pro, 15 Pro Max |
-| 14 | iPhone 14, 14 Plus, 14 Pro, 14 Pro Max |
-| 13 | iPhone 13, 13 mini, 13 Pro, 13 Pro Max |
-| 12 | iPhone 12, 12 mini, 12 Pro, 12 Pro Max |
-| 11 | iPhone 11, 11 Pro, 11 Pro Max |
-| SE | iPhone SE, 2nd and 3rd generations |
+## Verification
 
-“Eligible” means the model can run the requested operating system and uses the required location/audio APIs. It does not mean background alerting has been verified on every model. Record actual device, OS build, app build, route and outcomes in [TESTING.md](TESTING.md).
+The compatibility record in [TESTING.md](TESTING.md) names the exact runtime, device and result. Simulator checks establish installation, runtime integration and background playback completion; they do not prove audibility in a car or unrestricted background execution. The owner previously confirmed a real camera warning over Bluetooth with the screen locked. Physical tests on iOS 17, 18 and 26 remain separate.
 
-## Required settings and behavior
+The automatic `iOS runtime compatibility` GitHub Action builds one simulator app and checks it on iOS 17.5, 18.5 and 26.5 after relevant app changes and on pull requests. iOS 17 and 26 must complete exactly one background siren during a public camera approach. iOS 18 checks launch, persisted settings and Test warning playback; its hosted GPS simulation remains an unresolved test-environment limitation, also reproduced in a minimal control app. The complete local iOS 18 background replay passes. A manual background scenario remains available for diagnosis. Each run uses the shipped minimum and saves its diagnostic journal, result and Xcode evidence. Permission grants are fixtures; prompt UI, lock-screen behavior, Silent mode, Low Power Mode and vehicle audio need the additional manual checks.
 
-Enable Camera warnings once. Grant **Always** location access and **Precise Location**. Allow notifications for a visual warning when possible. Turn media volume up and use Test warning while parked on the actual car audio connection. Background App Refresh and network access help database downloads; an already saved database works offline.
+## Location compatibility
 
-Silent mode is bypassed by brief active playback using Apple's playback audio category. Fine Me Not cannot override zero media volume, a disconnected or muted car input, a phone call, or all audio interruptions. Bluetooth and wired/wireless CarPlay must be tested with the vehicle. Critical-alert privileges are not assumed or requested.
+The original iOS 27 minimum was a project choice. On iOS 18 and later, the app retains a `CLServiceSession` for Always authorization. On iOS 17 it requests When In Use access, then requests the Always upgrade while active. Both paths share one location manager, camera matcher, restart handling and siren implementation. No silent-audio heartbeat or duplicate location pipeline is used.
 
-Monitoring is automatic after opt-in. A retained location service session, continuous standard location updates and significant-change recovery use the same matcher. iOS controls background execution and relaunch timing. Reopen after a device restart or force-quit; the app must not promise uninterrupted operation under every system condition. The Settings status reports missing permissions and stale location fixes instead of asserting that warnings are active.
+## Required settings
 
-## Toolchains
+Enable Camera warnings once. Grant **Always** location access and **Precise Location**. Allow notifications. Turn media volume up and use Test warning while parked on the actual car connection. See the [setup instructions](https://finemenot.xyz/#setup).
 
-Xcode 26.6 with iOS 26.5 SDK currently compiles and signs the app with a 27.0 deployment minimum, with a warning that this minimum is outside that SDK's known range. This is **not** an iOS 27 runtime test. Xcode 27 / SDK 27 is the preferred release toolchain once available locally; see [Apple's system requirements](https://developer.apple.com/xcode/system-requirements).
+The brief siren uses the playback audio category, so Silent mode does not mute active playback. The app cannot override zero media volume, a muted or disconnected car input, phone calls or all audio interruptions. Bluetooth and wired/wireless CarPlay must be checked with the vehicle.
 
-Apple's [current upload requirement](https://developer.apple.com/news/upcoming-requirements/) is Xcode 26 or later with the iOS 26 SDK or later. App Store validation, successful processing, TestFlight availability, and physical testing are separate release gates.
+Continuous location monitoring uses battery. Low Power Mode does not turn monitoring off in app code, but iOS controls background execution and recovery. Reopen the app after restarting the phone or force-quitting. No iOS version can guarantee every warning. A saved camera database works offline; network access and Background App Refresh help downloads catch up.
 
-## Build 4 background behavior
+## Toolchain
 
-Camera warnings now request continuous navigation-quality background location with automatic pausing disabled. Low Power Mode does not switch off monitoring in app code. This increases idle and driving battery use; real-device Low Power Mode and overnight reliability are still unverified. A heartbeat timer cannot guarantee execution after iOS suspends or terminates an app. Force-quitting, denied permissions, loss of GPS and unavailable audio output can still prevent a warning.
+Version 1.0.2 uses Xcode 26.6 / iOS 26.5 SDK with an iOS 17.0 deployment target. The SDK and the minimum OS are different settings: building with a newer SDK does not require users to install that SDK's OS version. The generated Xcode project and Swift package both target iOS 17, and bundle validation checks the minimum against `project.yml`.
 
-After updating, open Fine Me Not once, confirm Always and Precise Location, and use Test warning while parked on the audio connection used in the car. The Diagnostics disclosure shows whether GPS is arriving, why the nearest mapped camera was accepted or rejected, and the most recent siren playback result. Copy diagnostics for a missed warning; review camera names before sharing because they can reveal a place you visited. The app does not automatically transmit this report.
-
-## City coverage update
-
-The 1.0 bundle contains **2,695 warning locations**, including all **40 reviewed Albuquerque city-listed approaches** and reviewed locations across the metro. Some are approximate warning areas. See [current coverage](https://finemenot.xyz/#sources) for published totals and speed-limit coverage. Use **Update now** to get the latest list. This represents the reviewed source lists, not a survey or every camera in every municipality.
-
-## iOS 26 feasibility — September 15, 2026
-
-The 27.0 minimum came from the original project scope, not a known API requirement.
-`CLServiceSession`, the newest location API used here, is available from iOS 18;
-the installed Apple SDK confirms this in `CLServiceSession.h`. The shared Swift
-packages also declare iOS 18 as their minimum.
-
-The unchanged app compiled successfully with a development-only deployment minimum
-of 26.0 using Xcode 26.6 / SDK 26.5, then installed and launched on an iOS 26.5
-simulator. The settings screen displayed the bundled 2,695 locations and the
-default-on speed check. No iOS 27-only API requirement or compile failure was found.
-This establishes build and launch compatibility, not physical background/audio
-acceptance across all iOS 26 releases.
-
-To add iOS 26 distribution support, lower the minimum in `project.yml`, regenerate
-the Xcode project, upload a new numbered build, and update the public requirements
-and App Store listing together. The current 1.0.0 (8) and 1.0.1 (9) distribution
-binaries still require iOS 27. iOS 26 supports iPhone 11 and later and iPhone SE
-(2nd generation and later); see [Apple's iOS 26 compatibility list](https://support.apple.com/en-nz/guide/iphone/iphe3fa5df43/ios).
+App Store validation, Apple processing, TestFlight availability and physical acceptance are separate release gates. See [Apple's Xcode requirements](https://developer.apple.com/xcode/system-requirements).

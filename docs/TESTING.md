@@ -1,5 +1,31 @@
 # Test and acceptance record
 
+## Version 1.0.2 (10) compatibility — September 15, 2026
+
+The app, generated Xcode project and shared Swift package now target iOS 17.0. These checks use that actual minimum, without a simulator-only override.
+
+| Runtime | Simulator | Result |
+| --- | --- | --- |
+| iOS 17.5 (21F79) | iPhone SE (3rd generation), GitHub macOS 15 runner | XCUITest replay passed; exactly one background siren start and completion |
+| iOS 18.5 (22F77) | iPhone SE (3rd generation), GitHub macOS 15 runner | Launch, default Quiet setting, saved setting after relaunch, and one foreground Test warning passed; hosted background GPS is not accepted |
+| iOS 26.5 (23F77) | iPhone SE (3rd generation), GitHub macOS 26 runner | XCUITest replay passed; exactly one background siren start and completion |
+| iOS 18.0 (22A3351) | iPhone SE (3rd generation), local | Installed and launched; permission prompts, settings and report review passed; locked-screen approach produced one siren with background playback completion |
+| iOS 26.5 (23F77) | iPhone 17 Pro, local | Installed and launched; permission prompts, persisted Quiet setting, database update and report review passed; locked-screen approach produced one siren with background playback completion |
+
+For both local replays, the route was the public Gibson eastbound fixture from 35.05822,-106.6045 to 35.05822,-106.5900, at 25 m/s. The matching eastbound warning appeared on the lock screen. The journal recorded one background audio start and completion; the westbound approach was rejected. Test warning also recorded foreground completion. Low Power Mode was off and the simulated route was Speaker.
+
+The initial While Using and notification prompts were accepted through the UI. Always access was then applied with `simctl privacy` as test setup. The setup link and the Always setting were inspected on iOS 18. The report form scrolls and reaches its review screen on the small SE display; these compatibility checks did not publish a report. A transient first launch on the freshly booted iOS 26 simulator waited in Core Location initialization; subsequent launches completed normally.
+
+The hosted runtime Action builds one simulator app at the shipped minimum. iOS 17 and 26 use Apple's `XCUIDevice.location` proxy with `Tests/Fixtures/camera-approach.json`, press Home, and independently require exactly one completed background siren in the app journal. iOS 18 checks launch, the default Quiet setting, persistence after relaunch, and one completed **foreground** Test warning. The result names the scenario; a green foreground check is not background-location acceptance. iOS 17/18 use macOS 15 runners and iOS 26 uses macOS 26. Always access is pre-granted as a fixture.
+
+The [hosted iOS 17.5 and 26.5 background jobs](https://github.com/aindaco1/fine-me-not/actions/runs/34967044388) passed with the same app binary; the iOS 18.0 job in that run failed and the overall run is red. The [current regression run](https://github.com/aindaco1/fine-me-not/actions/runs/34972228844) uses the explicit foreground/background scenarios described here. The tests add no location-injection path to the shipping app. Each job saves its journal, result and `.xcresult`. The collector resolves the app container after Xcode testing because Xcode can reinstall the app into a new container; the initial collector used an obsolete path, and the corrected complete local iOS 18 check passed.
+
+**Hosted iOS 18 GPS limitation:** the command-line route driver delivered only the starting position in the independent control app on [iOS 18.0 and 18.5](https://github.com/aindaco1/fine-me-not/actions/runs/34963205019). Fine Me Not's UI-test route also failed to produce a background siren on hosted [18.0](https://github.com/aindaco1/fine-me-not/actions/runs/34967044388), [18.5 on Apple silicon](https://github.com/aindaco1/fine-me-not/actions/runs/34968826617), and [18.5 on Intel](https://github.com/aindaco1/fine-me-not/actions/runs/34970044303). Their journals stayed at the starting `tooFar` state. Removing the distance filter did not fix the [independent control](https://github.com/aindaco1/fine-me-not/actions/runs/34970606006): both 10 meters and `kCLDistanceFilterNone` yielded one fix, and the applied values were verified. This does not support changing the shipping app's location settings.
+
+The same GitHub-built app passes a complete local iOS 18.0 replay, as does the local UI-test driver. The exact hosted simulator cause remains unknown. Keep the failed runs as evidence; they are not app acceptance passes. The manual background scenario and `Simulator GPS diagnostic` workflow retain the reproductions. Earlier UI-test failure probes relaunched the app without the launch-only warnings preference; that probe now explicitly enables monitoring. The control-app results above do not depend on that probe.
+
+Physical older-OS, Silent mode, Low Power Mode, Bluetooth and CarPlay acceptance are not established by simulator playback. Keep the physical acceptance table below separate. The owner's earlier Bluetooth/locked-screen report remains the available field evidence.
+
 ## Automated checks
 
 Run `swift test`, `python3 -m unittest discover -s Tests/Pipeline -v`, and `Scripts/check_bundle.py` against the built `.app` (add `--release` for an archive). CI exercises the shared warning engine, publisher, complete simulator bundle and embedded resources.
@@ -8,7 +34,7 @@ Core cases: approaching vs receding, opposite direction, stale/inaccurate fixes,
 
 Publisher cases: duplicate relation/device identity, preserved full-node tags despite skeleton responses, combined red-light/speed devices, opposing approaches, camera-facing direction, partial/mass-drop responses, missing-source retention, tombstones, expiry, metro review quarantine, immutable files and checksum.
 
-## Simulator checks
+## Earlier simulator checks (before 1.0.2)
 
 Development compatibility build: iPhone 16 Pro Max simulator on iOS 18, built with Xcode 26.6 / iOS 26.5 SDK using an explicit development-only minimum override. This checks implementation and layout; it does not establish iOS 27 compatibility or physical background reliability.
 

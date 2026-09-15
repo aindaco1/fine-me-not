@@ -4,7 +4,7 @@
 
 Free, open-source camera warnings for iPhone. One switch, one brief siren. No maps, ads, subscriptions, accounts or trip history.
 
-Fine Me Not 1.0 targets **iOS 27+**. It automatically monitors after one-time opt-in, including permitted background operation. It never promises uninterrupted execution in every iPhone state. The owner has confirmed an audible real-camera warning over Bluetooth with the screen locked; other device checks remain documented in [the acceptance record](docs/TESTING.md). See [release status](docs/RELEASE.md) for Apple availability.
+Fine Me Not 1.0.2 targets **iOS 17+**, including iOS 18, 26 and 27. It automatically monitors after one-time opt-in, including permitted background operation. It never promises uninterrupted execution in every iPhone state. The owner has confirmed an audible real-camera warning over Bluetooth with the screen locked; other device checks remain documented in [the acceptance record](docs/TESTING.md). See [release status](docs/RELEASE.md) for Apple availability.
 
 Maintained by **Alonso Indacochea**. [Website and setup instructions](https://finemenot.xyz/) · [Release notes](CHANGELOG.md).
 
@@ -19,7 +19,7 @@ Maintained by **Alonso Indacochea**. [Website and setup instructions](https://fi
 
 ## Run
 
-Open `FineMeNot.xcodeproj` in Xcode, select your signing team and an iOS 27 iPhone. `project.yml` is maintained with XcodeGen; the generated project is committed. The shared core is a local Swift package with no third-party app dependencies.
+Open `FineMeNot.xcodeproj` in Xcode, select your signing team and an iPhone running iOS 17 or later. `project.yml` is maintained with XcodeGen; the generated project is committed. The shared core is a local Swift package with no third-party app dependencies.
 
 ```sh
 swift test
@@ -27,11 +27,11 @@ python3 -m unittest discover -s Tests/Pipeline -v
 python3 Scripts/publish_cameras.py
 ```
 
-The development CI overrides the minimum only for simulator compatibility checks. Distribution remains iOS 27.0. Never mistake a compatibility build or successful archive for an installed TestFlight build or a passed physical road test.
+Build checks use the same iOS 17.0 minimum as distribution. The iOS runtime compatibility Action builds one simulator app and tests that binary on iOS 17.5, 18.5 and 26.5 after relevant app changes and on pull requests; manual runs are also available. iOS 17 and 26 replay a camera approach and require exactly one completed background siren. iOS 18 checks launch, the saved Quiet setting and foreground Test warning playback: hosted moving-GPS delivery also fails in a separate control app, while the complete local iOS 18 background replay passes. The hosted iOS 18 background replay remains available as a manual diagnostic. Every check saves its journal, result and Xcode evidence. These checks do not replace permission-prompt or physical car-audio tests. See [supported versions](docs/SUPPORT.md) and [the acceptance record](docs/TESTING.md).
 
 ## Background and audio
 
-A retained Core Location service session and continuous standard location updates support automotive background monitoring. Significant-change monitoring supports permitted relaunch/recovery. Every fix uses one on-device alert engine. Alerts are one original 1.8-second siren, using the system-selected audio route and media volume, with brief audio ducking. No silent-audio keepalive, location uploads, or claimed critical-alert entitlement.
+Continuous standard location updates support automotive background monitoring. iOS 17 uses the two-step location-permission request; iOS 18 and later use a retained Core Location service session. Significant-change monitoring supports permitted relaunch/recovery. Every fix uses one on-device alert engine. Alerts are one original 1.8-second siren, using the system-selected audio route and media volume, with brief audio ducking. No silent-audio keepalive, location uploads, or claimed critical-alert entitlement.
 
 ## Weekly database
 
