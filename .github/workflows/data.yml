@@ -11,7 +11,7 @@ on:
         default: true
   push:
     branches: [main]
-    paths: ['Site/**', 'Data/**', 'Scripts/*.py', 'Scripts/requirements-data.txt', '.github/workflows/data.yml']
+    paths: ['Site/**', 'Data/**', 'App/Resources/Assets.xcassets/AppIcon.appiconset/**', 'Scripts/*.py', 'Scripts/requirements-data.txt', '.github/workflows/data.yml']
 permissions:
   contents: write
   pages: write

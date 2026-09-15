@@ -2,6 +2,12 @@
 
 Canonical website: **https://finemenot.xyz/**. Sources, privacy and support are sections on this one barebones page: `#sources`, `#privacy`, `#support`. `App/AppLinks.swift` owns the app’s website and database base URLs.
 
+The public page is written for drivers, with features, a seven-step permission/setup guide, compatibility, troubleshooting, camera coverage, privacy and a legal disclaimer. Its maintainer and privacy contact is **Alonso Indacochea**. The Apple signing team's name is not the website's maintainer credit. Release copy describes implemented behavior without claiming a public App Store release or universal background/audio reliability.
+
+`Scripts/stage_site.py` copies the canonical app icon from the asset catalog to `/app-icon.png`; the same file supplies the header, favicon and Apple touch icon. The website workflow watches the app-icon directory so future icon changes deploy automatically. Coverage figures are filled from the published summary, not edited into the page by hand.
+
+The setup copy was checked against `SettingsView`, `MonitoringController`, `AlertPresenter`, the app entitlements, and Apple's current [location](https://support.apple.com/en-us/102515), [notifications](https://support.apple.com/guide/iphone/change-notification-settings-iph7c3d96bab/ios), [Focus](https://support.apple.com/guide/iphone/allow-or-silence-notifications-for-a-focus-iph21d43af5b/ios) and [Low Power Mode](https://support.apple.com/en-us/101604) guidance on September 15, 2026. Keep permission names and setup steps in sync with the app. Notifications support the visual warning and fallback sound; the siren uses direct media playback. Do not imply that allowing notifications guarantees background location, that every Focus offers the same controls, or that Silent-mode playback overrides zero media volume.
+
 Cloudflare provides DNS, its reverse proxy and managed Universal SSL certificate. GitHub Pages hosts `Site/` and `Data/Published/`, deployed by the existing `data.yml` GitHub Action through `Scripts/stage_site.py`. No separate Worker, new hosting subscription or Codex automation is required.
 
 DNS records are **proxied** CNAMEs, with automatic TTL:

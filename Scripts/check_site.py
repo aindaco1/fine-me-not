@@ -28,8 +28,13 @@ def check():
 
     page = download('').decode('utf-8')
     assert f'<link rel="canonical" href="{base}">' in page, 'Wrong canonical website'
-    for anchor in ('sources', 'privacy', 'support'):
+    for anchor in ('features', 'setup', 'compatibility', 'sources', 'privacy', 'support', 'legal'):
         assert f'id="{anchor}"' in page, f'Missing {anchor} section'
+    assert 'Built and maintained by <strong>Alonso Indacochea</strong>' in page, 'Wrong maintainer credit'
+    assert 'Volver Health LLC' not in page, 'Obsolete website maintainer credit'
+    icon = download('app-icon.png')
+    expected_icon = ROOT / 'App/Resources/Assets.xcassets/AppIcon.appiconset/AppIcon.png'
+    assert icon == expected_icon.read_bytes(), 'Website icon differs from the app icon'
     manifest = json.loads(download('data/manifest.json'))
     filename = manifest['file']
     assert re.fullmatch(r'cameras-[A-Za-z0-9-]+\.json', filename), 'Invalid snapshot path'
