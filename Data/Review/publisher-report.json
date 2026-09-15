@@ -1,29 +1,29 @@
 {
   "counts": {
     "possibleSpeed": 186,
-    "redLight": 722,
+    "redLight": 736,
     "speed": 1579,
     "speedAndRedLight": 194
   },
   "fetches": [
     {
-      "checkedAt": "2026-09-15T02:09:28Z",
+      "checkedAt": "2026-09-15T03:55:59Z",
       "source": "speed",
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-09-15T02:09:35Z",
+      "checkedAt": "2026-09-15T03:56:06Z",
       "source": "enforcement",
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-09-15T02:09:42Z",
+      "error": "HTTP Error 429: Too Many Requests",
       "source": "aliases",
-      "status": "downloaded"
+      "status": "retained"
     }
   ],
-  "generatedAt": "2026-09-15T03:55:12Z",
-  "records": 2681,
+  "generatedAt": "2026-09-15T04:01:33Z",
+  "records": 2695,
   "review": [
     {
       "id": "osm-relation-545916",
@@ -483,21 +483,6 @@
       "reason": "Nearby accepted record; identity/approach review required"
     },
     {
-      "id": "agency-chicago-red-1601-w-lawrence-ave-90",
-      "label": "1601 W Lawrence Ave · EB",
-      "nearby": [
-        {
-          "id": "agency-chicago-speed-chi209-0",
-          "meters": 135.8
-        },
-        {
-          "id": "agency-chicago-speed-chi209-180",
-          "meters": 135.8
-        }
-      ],
-      "reason": "Nearby accepted record; identity/approach review required"
-    },
-    {
       "id": "agency-chicago-red-2140-s-western-ave-180",
       "label": "2140 S Western Ave · SB",
       "nearby": [
@@ -535,32 +520,6 @@
       "reason": "Nearby accepted record; identity/approach review required"
     },
     {
-      "id": "agency-chicago-red-2408-n-cicero-ave-180",
-      "label": "2408 N Cicero Ave · SB",
-      "nearby": [
-        {
-          "id": "agency-chicago-speed-chi044-270",
-          "meters": 137.4
-        },
-        {
-          "id": "agency-chicago-speed-chi044-90",
-          "meters": 137.4
-        }
-      ],
-      "reason": "Nearby accepted record; identity/approach review required"
-    },
-    {
-      "id": "agency-chicago-red-2409-w-55th-st-90",
-      "label": "2409 W 55th St · EB",
-      "nearby": [
-        {
-          "id": "agency-chicago-speed-chi069-180",
-          "meters": 112.0
-        }
-      ],
-      "reason": "Nearby accepted record; identity/approach review required"
-    },
-    {
       "id": "agency-chicago-red-2415-w-addison-st-90",
       "label": "2415 W Addison St · EB",
       "nearby": [
@@ -583,43 +542,9 @@
       "reason": "Nearby accepted record; identity/approach review required"
     },
     {
-      "id": "agency-chicago-red-2810-n-pulaski-rd-180",
-      "label": "2810 N Pulaski Rd · SB",
-      "nearby": [
-        {
-          "id": "agency-chicago-speed-chi177-270",
-          "meters": 144.5
-        },
-        {
-          "id": "agency-chicago-speed-chi177-90",
-          "meters": 144.5
-        }
-      ],
-      "reason": "Nearby accepted record; identity/approach review required"
-    },
-    {
-      "id": "agency-chicago-red-311-s-michigan-ave-0",
-      "label": "311 S Michigan Ave · NB",
-      "nearby": [
-        {
-          "id": "agency-chicago-speed-chi248-0",
-          "meters": 61.2
-        }
-      ],
-      "reason": "Nearby accepted record; identity/approach review required"
-    },
-    {
       "id": "agency-chicago-red-3209-w-55th-st-90",
       "label": "3209 W 55th St · EB",
       "nearby": [
-        {
-          "id": "agency-chicago-speed-chi164-0",
-          "meters": 106.2
-        },
-        {
-          "id": "agency-chicago-speed-chi164-180",
-          "meters": 106.2
-        },
         {
           "id": "agency-chicago-speed-chi166-90",
           "meters": 30.9
@@ -650,32 +575,6 @@
       "reason": "Nearby accepted record; identity/approach review required"
     },
     {
-      "id": "agency-chicago-red-3946-w-55th-st-270",
-      "label": "3946 W 55th St · WB",
-      "nearby": [
-        {
-          "id": "agency-chicago-speed-chi202-0",
-          "meters": 79.1
-        },
-        {
-          "id": "agency-chicago-speed-chi203-180",
-          "meters": 109.0
-        }
-      ],
-      "reason": "Nearby accepted record; identity/approach review required"
-    },
-    {
-      "id": "agency-chicago-red-3946-w-roosevelt-rd-270",
-      "label": "3946 W Roosevelt Rd · WB",
-      "nearby": [
-        {
-          "id": "agency-chicago-speed-chi162-0",
-          "meters": 129.3
-        }
-      ],
-      "reason": "Nearby accepted record; identity/approach review required"
-    },
-    {
       "id": "agency-chicago-red-3947-n-austin-ave-0",
       "label": "3947 N Austin Ave · NB",
       "nearby": [
@@ -691,31 +590,8 @@
       "label": "3960 W 79th St · WB",
       "nearby": [
         {
-          "id": "agency-chicago-speed-chi071-0",
-          "meters": 94.2
-        },
-        {
-          "id": "agency-chicago-speed-chi072-180",
-          "meters": 115.2
-        },
-        {
           "id": "agency-chicago-speed-chi074-270",
           "meters": 148.8
-        }
-      ],
-      "reason": "Nearby accepted record; identity/approach review required"
-    },
-    {
-      "id": "agency-chicago-red-3970-w-foster-ave-270",
-      "label": "3970 W Foster Ave · WB",
-      "nearby": [
-        {
-          "id": "agency-chicago-speed-chi004-0",
-          "meters": 149.8
-        },
-        {
-          "id": "agency-chicago-speed-chi004-180",
-          "meters": 149.8
         }
       ],
       "reason": "Nearby accepted record; identity/approach review required"
@@ -727,29 +603,6 @@
         {
           "id": "agency-chicago-speed-chi107-90",
           "meters": 102.1
-        },
-        {
-          "id": "agency-chicago-speed-chi109-0",
-          "meters": 88.5
-        },
-        {
-          "id": "agency-chicago-speed-chi109-180",
-          "meters": 88.5
-        }
-      ],
-      "reason": "Nearby accepted record; identity/approach review required"
-    },
-    {
-      "id": "agency-chicago-red-4011-w-diversey-ave-90",
-      "label": "4011 W Diversey Ave · EB",
-      "nearby": [
-        {
-          "id": "agency-chicago-speed-chi252-0",
-          "meters": 119.7
-        },
-        {
-          "id": "agency-chicago-speed-chi252-180",
-          "meters": 119.7
         }
       ],
       "reason": "Nearby accepted record; identity/approach review required"
@@ -824,10 +677,6 @@
         {
           "id": "agency-chicago-speed-chi124-0",
           "meters": 87.5
-        },
-        {
-          "id": "agency-chicago-speed-chi126-90",
-          "meters": 64.3
         }
       ],
       "reason": "Nearby accepted record; identity/approach review required"
@@ -839,21 +688,6 @@
         {
           "id": "agency-chicago-speed-chi125-180",
           "meters": 140.1
-        },
-        {
-          "id": "agency-chicago-speed-chi126-90",
-          "meters": 103.9
-        }
-      ],
-      "reason": "Nearby accepted record; identity/approach review required"
-    },
-    {
-      "id": "agency-chicago-red-5450-s-pulaski-rd-180",
-      "label": "5450 S Pulaski Rd · SB",
-      "nearby": [
-        {
-          "id": "agency-chicago-speed-chi203-180",
-          "meters": 54.6
         }
       ],
       "reason": "Nearby accepted record; identity/approach review required"
@@ -865,14 +699,6 @@
         {
           "id": "agency-chicago-speed-chi164-180",
           "meters": 145.7
-        },
-        {
-          "id": "agency-chicago-speed-chi166-90",
-          "meters": 68.6
-        },
-        {
-          "id": "agency-chicago-speed-chi167-270",
-          "meters": 49.2
         }
       ],
       "reason": "Nearby accepted record; identity/approach review required"
@@ -884,17 +710,6 @@
         {
           "id": "osm-node-5073750766",
           "meters": 10.8
-        }
-      ],
-      "reason": "Nearby accepted record; identity/approach review required"
-    },
-    {
-      "id": "agency-chicago-red-5921-n-clark-st-0",
-      "label": "5921 N Clark St · NB",
-      "nearby": [
-        {
-          "id": "agency-chicago-speed-chi093-0",
-          "meters": 109.6
         }
       ],
       "reason": "Nearby accepted record; identity/approach review required"
@@ -917,32 +732,6 @@
         {
           "id": "osm-node-13261802811",
           "meters": 43.3
-        }
-      ],
-      "reason": "Nearby accepted record; identity/approach review required"
-    },
-    {
-      "id": "agency-chicago-red-7050-s-cottage-grove-ave-180",
-      "label": "7050 S Cottage Grove Ave · SB",
-      "nearby": [
-        {
-          "id": "agency-chicago-speed-chi184-180",
-          "meters": 143.3
-        }
-      ],
-      "reason": "Nearby accepted record; identity/approach review required"
-    },
-    {
-      "id": "agency-chicago-red-73-e-jackson-blvd-90",
-      "label": "73 E Jackson Blvd · EB",
-      "nearby": [
-        {
-          "id": "agency-chicago-speed-chi248-0",
-          "meters": 111.2
-        },
-        {
-          "id": "agency-chicago-speed-chi250-180",
-          "meters": 137.3
         }
       ],
       "reason": "Nearby accepted record; identity/approach review required"
@@ -974,31 +763,8 @@
       "label": "810 N Pulaski Rd · SB",
       "nearby": [
         {
-          "id": "agency-chicago-speed-chi107-90",
-          "meters": 135.1
-        },
-        {
-          "id": "agency-chicago-speed-chi108-270",
-          "meters": 128.0
-        },
-        {
           "id": "agency-chicago-speed-chi109-180",
           "meters": 131.2
-        }
-      ],
-      "reason": "Nearby accepted record; identity/approach review required"
-    },
-    {
-      "id": "agency-chicago-red-855-w-87th-st-90",
-      "label": "855 W 87th St · EB",
-      "nearby": [
-        {
-          "id": "agency-chicago-speed-chi212-0",
-          "meters": 142.3
-        },
-        {
-          "id": "agency-chicago-speed-chi212-180",
-          "meters": 142.3
         }
       ],
       "reason": "Nearby accepted record; identity/approach review required"
@@ -3141,6 +2907,11 @@
       "reason": "Nearby records; no automatic proximity merge"
     },
     {
+      "id": "agency-chicago-red-3946-w-roosevelt-rd-270",
+      "near": "agency-chicago-red-1205-s-pulaski-rd-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
       "id": "agency-chicago-red-3950-w-north-ave-270",
       "near": "agency-chicago-red-1579-n-pulaski-rd-0",
       "reason": "Nearby records; no automatic proximity merge"
@@ -3178,6 +2949,11 @@
     {
       "id": "agency-chicago-red-4010-n-pulaski-rd-180",
       "near": "agency-chicago-red-3960-w-irving-park-rd-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-4011-w-diversey-ave-90",
+      "near": "agency-chicago-red-2810-n-pulaski-rd-180",
       "reason": "Nearby records; no automatic proximity merge"
     },
     {
@@ -3236,6 +3012,11 @@
       "reason": "Nearby records; no automatic proximity merge"
     },
     {
+      "id": "agency-chicago-red-4750-w-fullerton-ave-270",
+      "near": "agency-chicago-red-2408-n-cicero-ave-180",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
       "id": "agency-chicago-red-4776-w-diversey-ave-270",
       "near": "agency-chicago-red-2785-n-cicero-ave-0",
       "reason": "Nearby records; no automatic proximity merge"
@@ -3248,6 +3029,11 @@
     {
       "id": "agency-chicago-red-4801-w-north-ave-90",
       "near": "agency-chicago-red-4754-w-north-ave-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-4804-n-ashland-ave-180",
+      "near": "agency-chicago-red-1601-w-lawrence-ave-90",
       "reason": "Nearby records; no automatic proximity merge"
     },
     {
@@ -3306,6 +3092,11 @@
       "reason": "Nearby records; no automatic proximity merge"
     },
     {
+      "id": "agency-chicago-red-5210-n-pulaski-rd-180",
+      "near": "agency-chicago-red-3970-w-foster-ave-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
       "id": "agency-chicago-red-5310-n-milwaukee-ave-135",
       "near": "agency-chicago-red-5272-n-central-ave-180",
       "reason": "Nearby records; no automatic proximity merge"
@@ -3313,6 +3104,16 @@
     {
       "id": "agency-chicago-red-5356-s-archer-ave-270",
       "near": "agency-chicago-red-5207-s-cicero-ave-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-5450-s-pulaski-rd-180",
+      "near": "agency-chicago-red-3946-w-55th-st-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-5486-s-western-ave-180",
+      "near": "agency-chicago-red-2409-w-55th-st-90",
       "reason": "Nearby records; no automatic proximity merge"
     },
     {
@@ -3451,6 +3252,11 @@
       "reason": "Nearby records; no automatic proximity merge"
     },
     {
+      "id": "agency-chicago-red-7082-s-south-chicago-ave-135",
+      "near": "agency-chicago-red-7050-s-cottage-grove-ave-180",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
       "id": "agency-chicago-red-7101-s-ashland-ave-0",
       "near": "agency-chicago-red-1546-w-71st-st-270",
       "reason": "Nearby records; no automatic proximity merge"
@@ -3468,6 +3274,11 @@
     {
       "id": "agency-chicago-red-7205-w-addison-st-90",
       "near": "agency-chicago-red-3553-n-harlem-ave-0",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-73-e-jackson-blvd-90",
+      "near": "agency-chicago-red-311-s-michigan-ave-0",
       "reason": "Nearby records; no automatic proximity merge"
     },
     {
@@ -3568,6 +3379,11 @@
     {
       "id": "agency-chicago-red-8666-s-ashland-ave-180",
       "near": "agency-chicago-red-1554-w-87th-st-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-red-8690-s-vincennes-ave-225",
+      "near": "agency-chicago-red-855-w-87th-st-90",
       "reason": "Nearby records; no automatic proximity merge"
     },
     {
@@ -4076,6 +3892,21 @@
       "reason": "Nearby records; no automatic proximity merge"
     },
     {
+      "id": "agency-chicago-speed-chi202-0",
+      "near": "agency-chicago-red-3946-w-55th-st-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi202-0",
+      "near": "agency-chicago-red-5450-s-pulaski-rd-180",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi203-180",
+      "near": "agency-chicago-red-5450-s-pulaski-rd-180",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
       "id": "agency-chicago-speed-chi203-180",
       "near": "agency-chicago-speed-chi202-0",
       "reason": "Nearby records; no automatic proximity merge"
@@ -4248,6 +4079,11 @@
     {
       "id": "agency-chicago-speed-chi247-90",
       "near": "agency-chicago-speed-chi247-270",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-chicago-speed-chi248-0",
+      "near": "agency-chicago-red-311-s-michigan-ave-0",
       "reason": "Nearby records; no automatic proximity merge"
     },
     {
