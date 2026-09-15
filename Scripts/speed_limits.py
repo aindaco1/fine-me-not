@@ -417,9 +417,12 @@ def enrich(root,records,documents,now):
                 confidence={'agency-posted':'agency','osm-posted':'community'}.get(selected['basis'],'inferred'),
                 sourceURL=selected['sourceURL'])
             c['speedLimitEvidenceIDs']=sorted({x['sourceID'] for x in eligible})
-            for x in eligible:sources[x['sourceURL']]={'id':x['sourceURL'],'name':'Speed-limit evidence','url':x['sourceURL'],
-                'license':'OSM/derived roads: ODbL-1.0; agency posted-limit facts: attribution at source URL.',
-                'checkedAt':x['checkedAt'],'status':'Posted limit or conservative lower bound; see speed-limit coverage report.'}
+            for x in eligible:
+                prior=sources.get(x['sourceURL'],{})
+                sources[x['sourceURL']]={'id':x['sourceURL'],'name':'Speed-limit evidence','url':x['sourceURL'],
+                    'license':'OSM/derived roads: ODbL-1.0; agency posted-limit facts: attribution at source URL.',
+                    'checkedAt':min(x['checkedAt'],prior.get('checkedAt',x['checkedAt'])),
+                    'status':'Posted limit or conservative lower bound; see speed-limit coverage report.'}
         ledger.append({'id':c['id'],'label':c['label'],'kind':c['kind'],
             'status':'eligible' if selected else ('candidate-only' if candidates else 'unknown'),
             'selected':selected,'candidates':candidates,'unavailableReasons':reasons})
@@ -432,4 +435,4 @@ def enrich(root,records,documents,now):
                            'speedCameras':sum(x['id'].startswith('abq-') for x in ledger)},
         'records':ledger}
     write(root/'Data/Review/speed-limit-coverage.json',report)
-    return records,list(sources.values()),report
+    return records,[sources[url] for url in sorted(sources)],report

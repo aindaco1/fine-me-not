@@ -7,22 +7,22 @@
   },
   "fetches": [
     {
-      "checkedAt": "2026-09-15T03:55:59Z",
+      "checkedAt": "2026-09-15T06:48:23Z",
       "source": "speed",
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-09-15T03:56:06Z",
+      "error": "HTTP Error 504: Gateway Timeout",
       "source": "enforcement",
-      "status": "downloaded"
+      "status": "retained"
     },
     {
-      "error": "HTTP Error 429: Too Many Requests",
+      "checkedAt": "2026-09-15T06:49:00Z",
       "source": "aliases",
-      "status": "retained"
+      "status": "downloaded"
     }
   ],
-  "generatedAt": "2026-09-15T06:47:25Z",
+  "generatedAt": "2026-09-15T06:52:03Z",
   "records": 2695,
   "review": [
     {

@@ -85,6 +85,15 @@ class Enrichment(unittest.TestCase):
     def run_enrich(self,c,tags,root,now=NOW,roads=None):
         docs=[{'osm3s':{'timestamp_osm_base':AT},'elements':[{'type':'node','id':1,'tags':tags}]}]
         with patch.object(s,'load_roads',return_value=roads or []):return s.enrich(root,[c],docs,now)[0][0]
+    def test_provenance_is_reproducible_and_retains_oldest_shared_source_check(self):
+        cameras=[camera(),camera(id='osm-node-2',sourceIDs=['osm/node/2'],geometry=[{'latitude':35.,'longitude':-105.}])]
+        second=road(id='road/2',checkedAt='2026-09-13T00:00:00Z',geometry=[{'latitude':34.999,'longitude':-105.},{'latitude':35.001,'longitude':-105.}])
+        extra=road(id='road/3',sourceURL='https://example.org/road/3')
+        with tempfile.TemporaryDirectory() as t, patch.object(s,'load_roads',return_value=[road(),second,extra]):
+            a=s.enrich(pathlib.Path(t),copy.deepcopy(cameras),[],NOW)[1]
+            b=s.enrich(pathlib.Path(t),list(reversed(copy.deepcopy(cameras))),[],NOW)[1]
+            self.assertEqual(a,b)
+            self.assertEqual(next(x for x in a if x['url']=='https://example.org/road/1')['checkedAt'],'2026-09-13T00:00:00Z')
     def test_obsolete_road_shards_cannot_reintroduce_a_removed_limit(self):
         with tempfile.TemporaryDirectory() as t:
             root=pathlib.Path(t)
