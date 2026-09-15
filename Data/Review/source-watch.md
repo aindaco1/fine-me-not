@@ -1,6 +1,6 @@
 # Source checks
 
-Checked: 2026-09-15T03:56:21Z
+Checked: 2026-09-15T04:28:20Z
 
 | Source | Status | Records | Review |
 |---|---|---:|---|
@@ -42,5 +42,14 @@ Checked: 2026-09-15T03:56:21Z
 | [Maryland highway work-zone camera deployments](https://www.safezones.maryland.gov/ase/Pages/locations.aspx?PageId=2) | ok | 0 | — |
 | [Philadelphia PPA current camera locations](https://philapark.org/speed-cameras/) | ok | 19 | — |
 | [Hillsborough County red-light intersections](https://hcfl.gov/government/codes-and-ordinances/red-for-a-reason/red-light-cameras) | ok | 9 | — |
+| [Mesa photo safety intersections and school deployments](https://www.mesaaz.gov/Public-Safety/Mesa-Police/About-Mesa-Police/Photo-Safety-Program) | ok | 0 | — |
+| [Fairfax County active and planned speed cameras](https://www.fairfaxcounty.gov/topics/speed-cameras) | ok | 0 | — |
+| [Prince George’s County red-light approaches](https://www.princegeorgescountymd.gov/departments-offices/police/online-services/red-light-enforcement/red-light-camera-locations) | failed | — | Required |
+| [Snellville school camera locations and posted limits](https://www.snellville.gov/police-department/school-zone-speed-cameras) | ok | 0 | — |
+| [Wheat Ridge fixed cameras and expansion](https://www.wheatridge.gov/222/Crash-and-Traffic-Team) | ok | 0 | — |
+| [CDOT state highway camera milepoints](https://www.codot.gov/programs/speedenforcement/cameralocations) | ok | 0 | — |
+| [CDOT average-speed program applicability](https://www.codot.gov/programs/speedenforcement/faq) | ok | 0 | — |
+| [NYC DOT quarterly automated enforcement reports](https://www.nyc.gov/html/dot/html/about/datafeeds.shtml) | failed | — | Required |
+| [Scottsdale fixed photo enforcement](https://www.scottsdaleaz.gov/police/police-units/photo-enforcement) | ok | 0 | — |
 
 Failed sources retain their last good data and original verification date. Changed pages remain pending until explicitly acknowledged after review. A successful page request does not verify every camera in the metro.

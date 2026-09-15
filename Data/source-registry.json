@@ -364,6 +364,87 @@
       "monitorOnly": true,
       "requiredText": "Enforcement Locations",
       "minimumContentCharacters": 80
+    },
+    {
+      "id": "scottsdale",
+      "name": "Scottsdale fixed photo enforcement",
+      "metro": "38060",
+      "adapter": "page",
+      "url": "https://www.scottsdaleaz.gov/police/police-units/photo-enforcement",
+      "requiredText": "Camera Location",
+      "monitorOnly": true
+    },
+    {
+      "id": "mesa",
+      "name": "Mesa photo safety intersections and school deployments",
+      "metro": "38060",
+      "adapter": "page",
+      "url": "https://www.mesaaz.gov/Public-Safety/Mesa-Police/About-Mesa-Police/Photo-Safety-Program",
+      "requiredText": "Photo Safety",
+      "monitorOnly": true
+    },
+    {
+      "id": "fairfax",
+      "name": "Fairfax County active and planned speed cameras",
+      "metro": "47900",
+      "adapter": "page",
+      "url": "https://www.fairfaxcounty.gov/topics/speed-cameras",
+      "requiredText": "Current and Active",
+      "monitorOnly": true
+    },
+    {
+      "id": "prince-georges-red",
+      "name": "Prince George’s County red-light approaches",
+      "metro": "47900",
+      "adapter": "page",
+      "url": "https://www.princegeorgescountymd.gov/departments-offices/police/online-services/red-light-enforcement/red-light-camera-locations",
+      "requiredText": "Red Light Camera",
+      "monitorOnly": true
+    },
+    {
+      "id": "snellville",
+      "name": "Snellville school camera locations and posted limits",
+      "metro": "12060",
+      "adapter": "page",
+      "url": "https://www.snellville.gov/police-department/school-zone-speed-cameras",
+      "requiredText": "Speed Limit",
+      "monitorOnly": true
+    },
+    {
+      "id": "wheat-ridge",
+      "name": "Wheat Ridge fixed cameras and expansion",
+      "metro": "19740",
+      "adapter": "page",
+      "url": "https://www.wheatridge.gov/222/Crash-and-Traffic-Team",
+      "requiredText": "Where are the cameras located",
+      "monitorOnly": true
+    },
+    {
+      "id": "cdot-locations",
+      "name": "CDOT state highway camera milepoints",
+      "metro": null,
+      "adapter": "page",
+      "url": "https://www.codot.gov/programs/speedenforcement/cameralocations",
+      "requiredText": "camera",
+      "monitorOnly": true
+    },
+    {
+      "id": "cdot-program",
+      "name": "CDOT average-speed program applicability",
+      "metro": null,
+      "adapter": "page",
+      "url": "https://www.codot.gov/programs/speedenforcement/faq",
+      "requiredText": "average",
+      "monitorOnly": true
+    },
+    {
+      "id": "nyc-datafeeds",
+      "name": "NYC DOT quarterly automated enforcement reports",
+      "metro": "35620",
+      "adapter": "page",
+      "url": "https://www.nyc.gov/html/dot/html/about/datafeeds.shtml",
+      "requiredText": "Unreadable License Plate",
+      "monitorOnly": true
     }
   ]
 }

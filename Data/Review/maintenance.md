@@ -1,8 +1,8 @@
 # Weekly camera maintenance
 
-Generated 2026-09-15T04:18:06Z
+Generated 2026-09-15T04:31:14Z
 
-38 registered sources checked; 2 evidence-based identity matches; 216 unresolved findings.
+47 registered sources checked; 2 evidence-based identity matches; 218 unresolved findings.
 
 New unambiguous agency records and validated coordinate estimates are staged automatically. Ambiguous identities, source removals, changed page layouts, and failed checks retain previous coverage and remain in this queue until reviewed.
 
@@ -12,6 +12,8 @@ New unambiguous agency records and validated coordinate estimates are staged aut
 | nyc | HTTP Error 403: Forbidden |
 | michigan | HTTP Error 403: Forbidden |
 | minneapolis | HTTP Error 403: Forbidden |
+| prince-georges-red | HTTP Error 403: Forbidden |
+| nyc-datafeeds | HTTP Error 403: Forbidden |
 | agency-chicago-speed-chi003-270 | Nearby accepted record; identity/approach review required |
 | agency-chicago-speed-chi003-90 | Nearby accepted record; identity/approach review required |
 | agency-chicago-speed-chi026-0 | Nearby accepted record; identity/approach review required |

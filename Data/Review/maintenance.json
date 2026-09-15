@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T04:18:06Z",
+  "generatedAt": "2026-09-15T04:31:14Z",
   "items": [
     {
       "added": [],
@@ -32,6 +32,22 @@
       "removed": [],
       "source": "minneapolis",
       "url": "https://lims.minneapolismn.gov/RCA/26163"
+    },
+    {
+      "added": [],
+      "lastGoodAt": null,
+      "reason": "HTTP Error 403: Forbidden",
+      "removed": [],
+      "source": "prince-georges-red",
+      "url": "https://www.princegeorgescountymd.gov/departments-offices/police/online-services/red-light-enforcement/red-light-camera-locations"
+    },
+    {
+      "added": [],
+      "lastGoodAt": null,
+      "reason": "HTTP Error 403: Forbidden",
+      "removed": [],
+      "source": "nyc-datafeeds",
+      "url": "https://www.nyc.gov/html/dot/html/about/datafeeds.shtml"
     },
     {
       "id": "agency-chicago-speed-chi003-270",
@@ -2435,5 +2451,5 @@
       "reason": "New OSM record overlaps accepted agency data; review identity"
     }
   ],
-  "reviewCount": 216
+  "reviewCount": 218
 }

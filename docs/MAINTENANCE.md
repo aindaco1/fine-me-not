@@ -26,6 +26,8 @@ Commit the reviewed changes. Do not acknowledge a failed or unreviewed source me
 
 ## Further sources researched for this release
 
+See the [September 14 follow-up investigation](DATA-RESEARCH.md) for NMDOT, Seattle and NYC road-speed API probes and additional camera sources. Nine new page monitors now cover Scottsdale, Mesa, Fairfax, Prince George’s red-light locations, Snellville, Wheat Ridge, CDOT locations/applicability and NYC DOT’s quarterly report index. Seven succeeded in the initial local pass; Prince George’s and NYC DOT returned HTTP 403. These monitors detect changes for review; they do not yet add cameras or approved speed limits. Their next checks use the existing Sunday workflow.
+
 | Source | Recurring use | Decision |
 |---|---|---|
 | [Philadelphia Parking Authority](https://philapark.org/speed-cameras/) | Current location lists, future activation dates, program changes | Added numbered camera blocks through Census estimates. Unresolved intersections/segments and street mismatches remain queued. |

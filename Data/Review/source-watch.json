@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-15T03:56:21Z",
+  "checkedAt": "2026-09-15T04:28:20Z",
   "checks": [
     {
       "added": [],
@@ -1514,12 +1514,118 @@
       "reviewRequired": false,
       "status": "ok",
       "url": "https://hcfl.gov/government/codes-and-ordinances/red-for-a-reason/red-light-cameras"
+    },
+    {
+      "added": [],
+      "checkedAt": "2026-09-15T04:24:40Z",
+      "id": "mesa",
+      "monitorOnly": true,
+      "name": "Mesa photo safety intersections and school deployments",
+      "records": 0,
+      "removed": [],
+      "reviewRequired": false,
+      "status": "ok",
+      "url": "https://www.mesaaz.gov/Public-Safety/Mesa-Police/About-Mesa-Police/Photo-Safety-Program"
+    },
+    {
+      "added": [],
+      "checkedAt": "2026-09-15T04:24:40Z",
+      "id": "fairfax",
+      "monitorOnly": true,
+      "name": "Fairfax County active and planned speed cameras",
+      "records": 0,
+      "removed": [],
+      "reviewRequired": false,
+      "status": "ok",
+      "url": "https://www.fairfaxcounty.gov/topics/speed-cameras"
+    },
+    {
+      "attemptedAt": "2026-09-15T04:24:40Z",
+      "error": "HTTP Error 403: Forbidden",
+      "id": "prince-georges-red",
+      "lastGoodAt": null,
+      "name": "Prince George’s County red-light approaches",
+      "reviewRequired": true,
+      "status": "failed",
+      "url": "https://www.princegeorgescountymd.gov/departments-offices/police/online-services/red-light-enforcement/red-light-camera-locations"
+    },
+    {
+      "added": [],
+      "checkedAt": "2026-09-15T04:24:40Z",
+      "id": "snellville",
+      "monitorOnly": true,
+      "name": "Snellville school camera locations and posted limits",
+      "records": 0,
+      "removed": [],
+      "reviewRequired": false,
+      "status": "ok",
+      "url": "https://www.snellville.gov/police-department/school-zone-speed-cameras"
+    },
+    {
+      "added": [],
+      "checkedAt": "2026-09-15T04:24:40Z",
+      "id": "wheat-ridge",
+      "monitorOnly": true,
+      "name": "Wheat Ridge fixed cameras and expansion",
+      "records": 0,
+      "removed": [],
+      "reviewRequired": false,
+      "status": "ok",
+      "url": "https://www.wheatridge.gov/222/Crash-and-Traffic-Team"
+    },
+    {
+      "added": [],
+      "checkedAt": "2026-09-15T04:24:40Z",
+      "id": "cdot-locations",
+      "monitorOnly": true,
+      "name": "CDOT state highway camera milepoints",
+      "records": 0,
+      "removed": [],
+      "reviewRequired": false,
+      "status": "ok",
+      "url": "https://www.codot.gov/programs/speedenforcement/cameralocations"
+    },
+    {
+      "added": [],
+      "checkedAt": "2026-09-15T04:24:40Z",
+      "id": "cdot-program",
+      "monitorOnly": true,
+      "name": "CDOT average-speed program applicability",
+      "records": 0,
+      "removed": [],
+      "reviewRequired": false,
+      "status": "ok",
+      "url": "https://www.codot.gov/programs/speedenforcement/faq"
+    },
+    {
+      "attemptedAt": "2026-09-15T04:24:40Z",
+      "error": "HTTP Error 403: Forbidden",
+      "id": "nyc-datafeeds",
+      "lastGoodAt": null,
+      "name": "NYC DOT quarterly automated enforcement reports",
+      "reviewRequired": true,
+      "status": "failed",
+      "url": "https://www.nyc.gov/html/dot/html/about/datafeeds.shtml"
+    },
+    {
+      "added": [],
+      "checkedAt": "2026-09-15T04:28:20Z",
+      "id": "scottsdale",
+      "monitorOnly": true,
+      "name": "Scottsdale fixed photo enforcement",
+      "records": 0,
+      "removed": [],
+      "reviewRequired": false,
+      "status": "ok",
+      "url": "https://www.scottsdaleaz.gov/police/police-units/photo-enforcement"
     }
   ],
   "reviewRequired": [
     "bernco",
     "nyc",
     "michigan",
-    "minneapolis"
+    "minneapolis",
+    "prince-georges-red",
+    "nyc-datafeeds"
   ]
 }
