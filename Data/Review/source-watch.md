@@ -1,17 +1,17 @@
 # Source checks
 
-Checked: 2026-09-15T04:28:20Z
+Checked: 2026-09-15T06:49:00Z
 
 | Source | Status | Records | Review |
 |---|---|---:|---|
-| [Chicago speed cameras](https://data.cityofchicago.org/resource/4i42-qv3h.json) | changed | 326 | — |
-| [Chicago red-light cameras](https://data.cityofchicago.org/resource/thvf-6diy.json) | changed | 300 | — |
-| [DC automated safety cameras](https://maps2.dcgis.dc.gov/dcgis/rest/services/DCGIS_DATA/Public_Safety_WebMercator/MapServer/43) | changed | 268 | — |
-| [Seattle active safety cameras](https://services.arcgis.com/ZOyb2t4B0UYuYNYH/arcgis/rest/services/Automatic_Traffic_Safety_Cameras_(ATSC)_view/FeatureServer/0) | changed | 100 | — |
-| [Arlington photo speed cameras](https://arlgis.arlingtonva.us/arcgis/rest/services/Open_Data/od_DES_Signal_PhotoSpeed_Cameras_pnt/FeatureServer/0) | changed | 32 | — |
-| [Tacoma automated enforcement](https://services3.arcgis.com/SCwJH1pD8WSn5T5y/arcgis/rest/services/AutomatedEnforcementLocations_Tacoma/FeatureServer/0) | changed | 14 | — |
+| [Chicago speed cameras](https://data.cityofchicago.org/resource/4i42-qv3h.json) | ok | 326 | — |
+| [Chicago red-light cameras](https://data.cityofchicago.org/resource/thvf-6diy.json) | ok | 300 | — |
+| [DC automated safety cameras](https://maps2.dcgis.dc.gov/dcgis/rest/services/DCGIS_DATA/Public_Safety_WebMercator/MapServer/43) | ok | 268 | — |
+| [Seattle active safety cameras](https://services.arcgis.com/ZOyb2t4B0UYuYNYH/arcgis/rest/services/Automatic_Traffic_Safety_Cameras_(ATSC)_view/FeatureServer/0) | ok | 100 | — |
+| [Arlington photo speed cameras](https://arlgis.arlingtonva.us/arcgis/rest/services/Open_Data/od_DES_Signal_PhotoSpeed_Cameras_pnt/FeatureServer/0) | ok | 32 | — |
+| [Tacoma automated enforcement](https://services3.arcgis.com/SCwJH1pD8WSn5T5y/arcgis/rest/services/AutomatedEnforcementLocations_Tacoma/FeatureServer/0) | ok | 14 | — |
 | [San Francisco speed cameras](https://services.arcgis.com/Zs2aNLFN00jrS4gG/arcgis/rest/services/Proposed_Automated_Speed_Enforcement_Locations_WFL1/FeatureServer/0) | ok | 33 | — |
-| [Phoenix published photo safety deployment points](https://www.google.com/maps/d/kml?mid=1aB99-IfJH8EKHO_nVtF-xhgsMTKU_mw&forcekml=1) | changed | 9 | — |
+| [Phoenix published photo safety deployment points](https://www.google.com/maps/d/kml?mid=1aB99-IfJH8EKHO_nVtF-xhgsMTKU_mw&forcekml=1) | ok | 9 | — |
 | [Albuquerque current camera list](https://www.cabq.gov/automated-speed-enforcement) | ok | 0 | — |
 | [Albuquerque camera certificates](https://www.cabq.gov/automated-speed-enforcement/ase-documents) | ok | 0 | — |
 | [Bernalillo County camera program](https://www.bernco.gov/public-works/automated-photo-speed-enforcement/) | failed | — | Required |
@@ -40,8 +40,7 @@ Checked: 2026-09-15T04:28:20Z
 | [US red-light enforcement program discovery](https://www.iihs.org/research-areas/red-light-running/red-light-camera-communities) | ok | 0 | — |
 | [Montgomery County current camera location list](https://www.montgomerycountymd.gov/montgomery-county-police-department/how-do-i/speed-ticket-payment/speed-camera-locations) | ok | 0 | — |
 | [Maryland highway work-zone camera deployments](https://www.safezones.maryland.gov/ase/Pages/locations.aspx?PageId=2) | ok | 0 | — |
-| [Philadelphia PPA current camera locations](https://philapark.org/speed-cameras/) | ok | 19 | — |
-| [Hillsborough County red-light intersections](https://hcfl.gov/government/codes-and-ordinances/red-for-a-reason/red-light-cameras) | ok | 9 | — |
+| [Scottsdale fixed photo enforcement](https://www.scottsdaleaz.gov/police/police-units/photo-enforcement) | ok | 0 | — |
 | [Mesa photo safety intersections and school deployments](https://www.mesaaz.gov/Public-Safety/Mesa-Police/About-Mesa-Police/Photo-Safety-Program) | ok | 0 | — |
 | [Fairfax County active and planned speed cameras](https://www.fairfaxcounty.gov/topics/speed-cameras) | ok | 0 | — |
 | [Prince George’s County red-light approaches](https://www.princegeorgescountymd.gov/departments-offices/police/online-services/red-light-enforcement/red-light-camera-locations) | failed | — | Required |
@@ -50,6 +49,7 @@ Checked: 2026-09-15T04:28:20Z
 | [CDOT state highway camera milepoints](https://www.codot.gov/programs/speedenforcement/cameralocations) | ok | 0 | — |
 | [CDOT average-speed program applicability](https://www.codot.gov/programs/speedenforcement/faq) | ok | 0 | — |
 | [NYC DOT quarterly automated enforcement reports](https://www.nyc.gov/html/dot/html/about/datafeeds.shtml) | failed | — | Required |
-| [Scottsdale fixed photo enforcement](https://www.scottsdaleaz.gov/police/police-units/photo-enforcement) | ok | 0 | — |
+| [Philadelphia PPA current camera locations](https://philapark.org/speed-cameras/) | ok | 19 | — |
+| [Hillsborough County red-light intersections](https://hcfl.gov/government/codes-and-ordinances/red-for-a-reason/red-light-cameras) | ok | 9 | — |
 
 Failed sources retain their last good data and original verification date. Changed pages remain pending until explicitly acknowledged after review. A successful page request does not verify every camera in the metro.

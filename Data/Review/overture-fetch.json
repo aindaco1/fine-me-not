@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-15T06:37:29Z",
+  "checkedAt": "2026-09-15T06:50:24Z",
   "completeRegions": 162,
   "records": 30615,
   "regions": [
@@ -117,7 +117,7 @@
       "id": "0d15ce0108eed120",
       "queryPoints": 57,
       "records": 1269,
-      "status": "downloaded",
+      "status": "cached",
       "tile": [
         81,
         -148
@@ -137,7 +137,7 @@
       "id": "07d7833ccee68594",
       "queryPoints": 29,
       "records": 598,
-      "status": "downloaded",
+      "status": "cached",
       "tile": [
         81,
         -149

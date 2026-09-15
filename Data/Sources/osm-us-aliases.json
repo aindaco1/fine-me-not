@@ -2213,11 +2213,11 @@
       "type": "node"
     }
   ],
-  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "generator": "Overpass API 0.7.62.4 2390de5a",
   "osm3s": {
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-    "timestamp_areas_base": "2026-09-14T12:17:00Z",
-    "timestamp_osm_base": "2026-09-15T02:08:15Z"
+    "timestamp_areas_base": "2026-09-15T05:32:51Z",
+    "timestamp_osm_base": "2026-09-15T06:47:20Z"
   },
   "version": 0.6
 }
