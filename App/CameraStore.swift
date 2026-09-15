@@ -10,6 +10,8 @@ final class CameraStore {
     private(set) var isUpdating = false
     private(set) var lastCheck: Date?
     private(set) var updateError: String?
+    private(set) var supportStage = "idle"
+    private(set) var supportResult = "none"
     private let defaults: UserDefaults
     private let directory: URL
     private let session: URLSession
@@ -50,6 +52,8 @@ final class CameraStore {
         }
         isUpdating = true; updateError = nil; lastAttempt = .now
         defer { isUpdating = false }
+        supportStage = "manifest"; supportResult = "started"
+        defer { SupportDiagnostics.shared.record("database", ["databaseStage": supportStage, "databaseResult": supportResult]) }
         do {
             let manifestData = try await fetch(baseURL.appending(path: "manifest.json"), maximumBytes: 100_000)
             let decoder = JSONDecoder(); decoder.dateDecodingStrategy = .iso8601
@@ -58,7 +62,9 @@ final class CameraStore {
                   manifest.file.range(of: #"^[A-Za-z0-9_-]+\.json$"#, options: .regularExpression) != nil,
                   manifest.sha256.count == 64 else { throw DatabaseError.invalidManifest }
             if manifest.version != snapshot?.version {
+                supportStage = "download"
                 let data = try await fetch(baseURL.appending(path: manifest.file), maximumBytes: 20_000_000)
+                supportStage = "validation"
                 let digest = SHA256.hash(data: data).map { String(format: "%02x", $0) }.joined()
                 guard digest == manifest.sha256 else { throw DatabaseError.checksum }
                 let incoming = try CameraSnapshot.decode(data)
@@ -67,6 +73,7 @@ final class CameraStore {
                       incoming.generatedAt == manifest.generatedAt else { throw DatabaseError.invalidManifest }
                 if let snapshot, incoming.generatedAt < snapshot.generatedAt { throw DatabaseError.rollback }
                 try Task.checkCancellation()
+                supportStage = "save"
                 let installed = directory.appending(path: "cameras.json")
                 if let previous = try? Data(contentsOf: installed) {
                     try previous.write(to: directory.appending(path: "previous.json"), options: [.atomic, .completeFileProtectionUntilFirstUserAuthentication])
@@ -74,9 +81,11 @@ final class CameraStore {
                 try data.write(to: installed, options: [.atomic, .completeFileProtectionUntilFirstUserAuthentication])
                 installInMemory(incoming)
             }
+            supportStage = "complete"; supportResult = "ok"
             lastCheck = .now; defaults.set(lastCheck, forKey: "database.lastCheck")
             return true
         } catch {
+            supportResult = error is CancellationError ? "cancelled" : error is URLError ? "network" : supportStage == "save" ? "storage" : "invalid"
             if !(error is CancellationError) { updateError = "Update failed. Using saved cameras. \(error.localizedDescription)" }
             return false
         }

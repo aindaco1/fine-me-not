@@ -42,3 +42,10 @@ Upstream source checks run Sunday at 9 p.m. Denver time, with automatic reconcil
 Code, original icon and siren: [MIT](LICENSE). Camera database: [ODbL 1.0](Data/LICENSE.md), © OpenStreetMap contributors, with source-linked municipal facts.
 
 The **Quiet below speed limit** setting is on by default. It only suppresses speed-camera warnings when both the measured speed and applicable limit are reliable; unknown limits and red-light cameras still warn. See [speed check](docs/SPEED-CHECK.md), [geocoding and identity](docs/GEOCODING-AND-IDENTITY.md), and [source maintenance](docs/MAINTENANCE.md).
+
+## Problem reports
+
+Version 1.0.1 adds **Report a problem** in Settings: optional explanation, reviewed
+location-free technical details, optional Apple crash evidence, and explicit
+submission to public GitHub issues. Nothing uploads automatically. See
+[reporting and operations](docs/REPORTING.md).

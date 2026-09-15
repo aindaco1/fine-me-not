@@ -1,5 +1,7 @@
 # App Store listing — 1.0
 
+**1.0.1 reporting update:** source version 1.0.1 (9). Voluntary public reports change the privacy disclosure; the 1.0 Data Not Collected answer below is historical. See [REPORTING.md](REPORTING.md). Distribution verification is recorded separately from the existing 1.0 submission.
+
 Submitted September 15, 2026 at 02:10 MDT: **1.0.0 (8), Waiting for Review**. Free U.S. distribution and automatic release after approval are saved. The Data Not Collected privacy answer is published; private review contact details remain only in App Store Connect. See [the release record](RELEASE.md).
 
 ## Listing fields

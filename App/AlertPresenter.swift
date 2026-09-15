@@ -14,6 +14,21 @@ final class AlertPresenter: NSObject, AVAudioPlayerDelegate {
     private(set) var lastWarning: String?
     private(set) var notificationStatus = "Not checked"
     private(set) var lastAudioEvent = UserDefaults.standard.string(forKey: "warnings.lastAudioEvent") ?? "No audio attempt recorded"
+    private(set) var supportAudio = "none"
+    private(set) var supportNotifications = "unknown"
+    private(set) var supportSound = "unknown"
+    var supportState: [String: String] {
+        let ports = audio.currentRoute.outputs.map(\.portType)
+        let kind = ports.contains(.carAudio) ? "carPlay" : ports.contains(where: { [.bluetoothA2DP, .bluetoothHFP, .bluetoothLE].contains($0) }) ? "bluetooth" : ports.contains(.builtInSpeaker) ? "speaker" : ports.contains(.headphones) ? "wired" : "other"
+        return ["route": kind, "volume": volume == 0 ? "muted" : volume < 0.15 ? "low" : "audible", "audio": supportAudio, "notifications": supportNotifications, "notificationSound": supportSound]
+    }
+    private func supportResult(_ code: String) {
+        supportAudio = code
+        var values = supportState
+        values["appState"] = SupportDiagnostics.appState
+        values["lowPower"] = ProcessInfo.processInfo.isLowPowerModeEnabled ? "yes" : "no"
+        SupportDiagnostics.shared.record("audio", values)
+    }
     private var attemptContext = ""
     private var player: AVAudioPlayer?
     private var notificationObservers: [NSObjectProtocol] = []
@@ -33,6 +48,7 @@ final class AlertPresenter: NSObject, AVAudioPlayerDelegate {
                         if self.isPlaying {
                             self.audioError = "Warning audio was interrupted."
                             self.recordAudioResult("Interrupted")
+                            self.supportResult("interrupted")
                         }
                         self.finish()
                     }
@@ -57,6 +73,8 @@ final class AlertPresenter: NSObject, AVAudioPlayerDelegate {
     func refreshNotificationStatus() async {
         let settings = await UNUserNotificationCenter.current().notificationSettings()
         let allowed = settings.authorizationStatus == .authorized || settings.authorizationStatus == .provisional
+        supportNotifications = allowed ? "allowed" : "denied"
+        supportSound = settings.soundSetting == .enabled ? "yes" : "no"
         notificationStatus = "\(allowed ? "Allowed" : "Not allowed") · sound \(settings.soundSetting == .enabled ? "on" : "off") · time sensitive \(settings.timeSensitiveSetting == .enabled ? "on" : "off")"
     }
 
@@ -92,21 +110,27 @@ final class AlertPresenter: NSObject, AVAudioPlayerDelegate {
         refreshRoute()
         let state = UIApplication.shared.applicationState == .active ? "foreground" : "background / locked"
         attemptContext = "\(Date.now.formatted(date: .abbreviated, time: .standard)) · \(context)\n\(state) · Low Power Mode \(ProcessInfo.processInfo.isLowPowerModeEnabled ? "on" : "off")"
+        var stage = "sessionFailed"
         do {
             try audio.setCategory(.playback, mode: .default, options: [.duckOthers])
             try audio.setActive(true)
+            stage = "fileMissing"
             guard let url = Bundle.main.url(forResource: "siren", withExtension: "wav") else {
                 throw CocoaError(.fileNoSuchFile)
             }
+            stage = "decodeFailed"
             let player = try AVAudioPlayer(contentsOf: url)
             player.delegate = self; player.numberOfLoops = 0; player.volume = 1
             self.player = player
+            stage = "playFailed"
             guard player.play() else { throw CocoaError(.fileReadUnknown) }
             isPlaying = true; refreshRoute()
             attemptContext += "\n\(route) · media volume \(Int(volume * 100))%"
             recordAudioResult("Playback started")
+            supportResult("started")
             return true
         } catch {
+            supportResult(stage)
             audioError = "Couldn't play the siren. \(error.localizedDescription)"
             recordAudioResult(audioError ?? "Playback failed")
             finish(); return false
@@ -123,6 +147,7 @@ final class AlertPresenter: NSObject, AVAudioPlayerDelegate {
         Task { @MainActor [weak self] in
             guard let self, let current = self.player, ObjectIdentifier(current) == identifier else { return }
             if !flag { self.audioError = "Warning audio did not finish." }
+            self.supportResult(flag ? "completed" : "finishFailed")
             self.recordAudioResult(flag ? "Playback completed" : "Playback did not finish")
             self.finish()
         }
@@ -132,6 +157,7 @@ final class AlertPresenter: NSObject, AVAudioPlayerDelegate {
         Task { @MainActor [weak self] in
             guard let self, let current = self.player, ObjectIdentifier(current) == identifier else { return }
             self.audioError = "Couldn't decode the warning sound."
+            self.supportResult("decodeFailed")
             self.recordAudioResult("Sound decode failed"); self.finish()
         }
     }

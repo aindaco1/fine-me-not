@@ -3,6 +3,7 @@ import CameraCore
 
 struct SettingsView: View {
     let services: AppServices
+    @State private var showingReport = false
     private let blue = Color(red: 10 / 255, green: 0, blue: 148 / 255)
     private let accent = Color(red: 174 / 255, green: 207 / 255, blue: 1)
     @Environment(\.openURL) private var openURL
@@ -94,16 +95,19 @@ struct SettingsView: View {
                         }.frame(maxWidth: .infinity, alignment: .leading)
                     }
                 }
+                Button("Report a problem") { showingReport = true }
+                    .font(.system(.headline, design: .monospaced)).foregroundStyle(accent)
+                    .accessibilityIdentifier("report-problem")
                 DisclosureGroup("Diagnostics") {
                     VStack(alignment: .leading, spacing: 12) {
                         TimelineView(.periodic(from: .now, by: 5)) { context in
                             Text(services.diagnosticReport(at: context.date))
                                 .font(.system(.caption, design: .monospaced)).textSelection(.enabled)
                         }
-                        Button("Copy diagnostics") {
+                        Button("Copy local diagnostics") {
                             UIPasteboard.general.string = services.diagnosticReport(at: .now)
                         }.foregroundStyle(accent).accessibilityIdentifier("copy-diagnostics")
-                        Text("Only the latest audio attempt is saved on this phone. Copying shares no coordinates or trip history. Camera names can reveal where you drove.")
+                        Text("These local details can include camera names, times, speeds and audio names. Review before sharing. Report a problem uses a separate, location-free summary.")
                             .font(.caption).foregroundStyle(accent)
                     }.frame(maxWidth: .infinity, alignment: .leading).padding(.top, 12)
                 }.font(.system(.footnote, design: .monospaced)).tint(accent)
@@ -119,6 +123,7 @@ struct SettingsView: View {
                 }
             }.padding(24).frame(maxWidth: 560, alignment: .leading).frame(maxWidth: .infinity)
         }.background(blue.ignoresSafeArea()).foregroundStyle(.white)
+        .sheet(isPresented: $showingReport) { ReportProblemView(services: services) }
     }
 
     private func caption(_ text: String) -> some View {

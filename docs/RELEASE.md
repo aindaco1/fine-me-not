@@ -1,5 +1,7 @@
 # Release and distribution
 
+**1.0.1 reporting update:** source version 1.0.1 (9). Voluntary public reports change the privacy disclosure; the 1.0 Data Not Collected answer below is historical. See [REPORTING.md](REPORTING.md). Distribution verification is recorded separately from the existing 1.0 submission.
+
 - App: Fine Me Not
 - Bundle: `xyz.dustwave.fine-me-not`
 - Owner/team: Volver Health LLC (`PWT3Q52LZ2`), explicitly selected by the project owner
@@ -124,3 +126,28 @@ The signed archive passed codesign verification and the release bundle check wit
 The [manual, read-only HTTPS verification run](https://github.com/aindaco1/fine-me-not/actions/runs/34929772047) passed; `Scripts/check_site.py` also passed after Cloudflare proxying was enabled. No recurring schedule was added. Update now and the website link in build 7 still need physical iPhone acceptance. The [website runbook](WEBSITE.md) records the routing contract and certificate recovery procedure.
 
 The [research report](DATA-RESEARCH.md) documents new camera sources and speed-limit APIs. Nine page monitors were added to the existing Sunday GitHub source checks; seven succeeded locally and two returned 403. New camera readers, road matching and approval of additional speed limits remain identified implementation work, not shipped data coverage.
+
+## 1.0.1 (9) reporting verification · September 15, 2026
+
+The signed iOS 27 distribution archive passed the bundle check. Apple accepted
+its upload at 02:55 MDT. TestFlight processing/assignment is recorded separately.
+Version 1.0.0 (8) remains Waiting for Review and was not cancelled.
+
+- 26 Swift tests and 63 data-pipeline tests pass. Reporting tests cover allowlists,
+  text bounds, immutable drafts/expiry, local coalescing, the shared fixture and
+  crash-frame filtering. 48 relay tests cover concurrency, ID conflicts, quotas,
+  grouping, escaped explanations and the existing apps' adapters.
+- Relay `fe3000f` deployed through GitHub Actions as Worker version
+  `258d77ed-2fe0-493c-98d2-07623e3eec98`. The owner confirmed adding Fine Me Not
+  to the existing GitHub App's selected repositories.
+- Synthetic issue #1 verified creation, same-ID retry without recounting, a new-ID
+  aggregate, then reopening after closure. Count was three submissions. A
+  maintainer note outside the managed block survived. The test issue was closed.
+- Native simulator review and Send returned a verified link to issue #2; its body
+  matched the reviewed safe projection and synthetic explanation. It was closed.
+  No real crash, trip or private user report was published.
+- Matching distribution dSYM UUIDs and `atos` symbolication were checked against a
+  known app symbol. MetricKit parsing uses synthetic fixtures; actual Apple
+  crash/hang delivery on a physical phone remains a separate acceptance check.
+- Simulator UI review used an iOS 18 deployment override because the installed SDK
+  cannot select a simulator for an iOS 27 target. Distribution remains iOS 27.

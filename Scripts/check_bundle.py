@@ -22,4 +22,9 @@ snapshot=json.loads((app/'cameras.json').read_text())
 assert len(snapshot['cameras']) > 1000
 assert len({c['id'] for c in snapshot['cameras']})==len(snapshot['cameras'])
 assert any(c['id'].startswith('abq-') for c in snapshot['cameras'])
+support=app/'FineMeNotCore_SupportCore.bundle'
+assert (support/'report-contract.json').is_file(), 'Missing reporting contract resource'
+privacy=plistlib.loads((app/'PrivacyInfo.xcprivacy').read_bytes())
+assert not privacy['NSPrivacyTracking']
+assert {v['NSPrivacyCollectedDataType'] for v in privacy['NSPrivacyCollectedDataTypes']} == {'NSPrivacyCollectedDataTypeCrashData','NSPrivacyCollectedDataTypeOtherDiagnosticData','NSPrivacyCollectedDataTypeCustomerSupport'}
 print(f"Bundle verified: {len(snapshot['cameras'])} records; siren, icons, privacy, background modes; minimum iOS {info['MinimumOSVersion']}")

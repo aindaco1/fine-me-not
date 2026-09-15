@@ -1,0 +1,23 @@
+name: Reporting service health
+on:
+  schedule:
+    - cron: '23 15 * * *'
+  workflow_dispatch:
+permissions:
+  contents: read
+  issues: write
+concurrency:
+  group: reporting-service-health
+  cancel-in-progress: false
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - run: python3 Scripts/check_reporting.py --maintain-issue
+        env:
+          GH_TOKEN: ${{ github.token }}

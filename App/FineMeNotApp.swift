@@ -11,6 +11,7 @@ final class AppServices {
     let presenter: AlertPresenter
     let monitoring: MonitoringController
     private init() {
+        SupportDiagnostics.shared.start()
         store = CameraStore()
         presenter = AlertPresenter()
         monitoring = MonitoringController(store: store, presenter: presenter)
@@ -106,6 +107,7 @@ struct FineMeNotApp: App {
                     await services.store.refresh()
                 }
                 .onChange(of: scenePhase) { _, phase in
+                    SupportDiagnostics.shared.record("lifecycle", ["appState": SupportDiagnostics.appState, "lowPower": ProcessInfo.processInfo.isLowPowerModeEnabled ? "yes" : "no"])
                     if phase == .active {
                         services.monitoring.refreshAuthorization()
                         services.monitoring.start()

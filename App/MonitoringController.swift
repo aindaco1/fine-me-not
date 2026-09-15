@@ -69,6 +69,7 @@ final class MonitoringController: NSObject, CLLocationManagerDelegate {
         // Recreate the service session on a permitted background relaunch too.
         serviceSession = CLServiceSession(authorization: .always)
         isTracking = true
+        SupportDiagnostics.shared.record("monitoring", ["monitoring": "requested"])
         manager.startUpdatingLocation()
         if CLLocationManager.significantLocationChangeMonitoringAvailable() {
             manager.startMonitoringSignificantLocationChanges()
@@ -93,11 +94,13 @@ final class MonitoringController: NSObject, CLLocationManagerDelegate {
         manager.stopUpdatingLocation()
         manager.stopMonitoringSignificantLocationChanges()
         isTracking = false
+        SupportDiagnostics.shared.record("monitoring", ["monitoring": "off"])
         serviceSession?.invalidate(); serviceSession = nil
         failure = nil; lastFixAt = nil; stationary = false
     }
 
     func refreshAuthorization() {
+        defer { SupportDiagnostics.shared.record("permission", supportState) }
         authorization = manager.authorizationStatus
         precise = manager.accuracyAuthorization == .fullAccuracy
     }
@@ -115,6 +118,7 @@ final class MonitoringController: NSObject, CLLocationManagerDelegate {
     }
 
     private func consume(_ location: CLLocation) {
+        defer { SupportDiagnostics.shared.record("match", supportState) }
         let now = Date.now
         lastReceivedAt = location.timestamp
         lastAccuracy = location.horizontalAccuracy
