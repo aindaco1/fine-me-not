@@ -1,0 +1,32 @@
+name: Verify website HTTPS
+on: workflow_dispatch
+permissions:
+  contents: read
+  pages: write
+concurrency:
+  group: verify-website
+  cancel-in-progress: false
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 65
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Wait for the custom-domain certificate and verify public delivery
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          for attempt in $(seq 1 60); do
+            echo "HTTPS verification attempt ${attempt}/60"
+            if gh api --method PUT "repos/${GITHUB_REPOSITORY}/pages" -F https_enforced=true > /dev/null \
+              && python3 Scripts/check_site.py; then
+              echo 'Canonical HTTPS website, privacy/support sections and database integrity verified.' >> "$GITHUB_STEP_SUMMARY"
+              exit 0
+            fi
+            if [ "$attempt" -lt 60 ]; then sleep 60; fi
+          done
+          echo 'DNS/certificate or website verification remains unresolved. Inspect the run log.' >> "$GITHUB_STEP_SUMMARY"
+          exit 1

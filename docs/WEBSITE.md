@@ -16,3 +16,5 @@ Cloudflare flattens the apex CNAME. GitHub Pages is configured with `finemenot.x
 Release checks: verify authoritative and public DNS; valid TLS without bypassing certificate checks; the page and its three section anchors; `/data/manifest.json`; the manifest’s immutable snapshot and SHA-256; and Update now in the new app build. TestFlight marketing/privacy URLs use the new domain. The owner explicitly requested no compatibility work for older test builds.
 
 DNS is managed in Cloudflare; the website and data continue to deploy from GitHub Actions on the existing schedule. Do not remove the GitHub custom domain or rewrite app URLs independently of this contract.
+
+`verify-website.yml` is a **manual-only** GitHub Action for migrations. It waits for GitHub's certificate, enables HTTPS enforcement and checks the canonical page, three section anchors, immutable snapshot digest/version/count and public database agreement. It has a bounded 65-minute job timeout and does not add a recurring schedule. Run `python3 Scripts/check_site.py` for the same delivery check without waiting or changing Pages settings.
