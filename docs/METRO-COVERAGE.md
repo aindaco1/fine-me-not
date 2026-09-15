@@ -91,3 +91,7 @@ Registry additions require a primary program source, current operational semanti
 The release snapshot contains **2,681 warning records**: 29 additions and one redundant OSM warning removed since the 2,653-record expansion. Additions comprise 19 Philadelphia camera-block estimates, six Hillsborough red-light approaches, and four Chicago red-light approaches confirmed distinct by monitored direction. Nine of ten listed Hillsborough approaches have geocoded positions; three overlap unresolved existing records and are withheld, while Sligh/Habana remains unresolved after a road-query timeout. All 40 city-listed Albuquerque approaches remain represented.
 
 Thirty-eight sources are checked: ten normalized camera feeds/lists and 28 page/document monitors. See [maintenance](MAINTENANCE.md) and [coordinate/identity rules](GEOCODING-AND-IDENTITY.md). Coverage remains incomplete.
+
+## Post-release workflow verification
+
+The first GitHub-hosted source refresh and staged publication for build 6 increased the downloadable database to **2,695 warning records**. Refreshed Chicago road metadata allowed 14 additional distinct red-light approaches through the existing reconciliation rules. Relative to the 2,653-record starting snapshot, this release's data work adds 19 Philadelphia estimates, six Hillsborough approaches and 18 Chicago approaches, while removing one redundant warning record. All 40 Albuquerque city-listed approaches remain represented. The build 6 offline bundle contains 2,681 records; subsequent database downloads use the newer published snapshot.

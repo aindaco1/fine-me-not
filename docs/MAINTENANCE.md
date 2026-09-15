@@ -8,6 +8,8 @@ All recurring work runs in GitHub Actions. The Fine Me Not Codex heartbeat was d
 
 The pattern follows the owner’s [RSS digest workflow](https://github.com/aindaco1/rss-feed-digest/blob/main/.github/workflows/daily-digest.yml): explicit Denver timezone, bounded network retries, validation, concurrency control, manual dispatch and artifacts saved even when a run fails. Its [September 14 successful run](https://github.com/aindaco1/rss-feed-digest/actions/runs/34882122103) was verified during this change.
 
+The [restaurant-locations pipeline](https://github.com/aindaco1/restaurant-locations/blob/main/.github/workflows/pipeline.yml) is a second verified example: tests before retrieval, dataset validation, commits only when data changes, and 30-day evidence artifacts. Its latest three scheduled runs succeeded, including [September 14](https://github.com/aindaco1/restaurant-locations/actions/runs/34818742807). Fine Me Not explicitly deploys in its publication job instead of depending on a bot commit to trigger another workflow.
+
 ## Review queue
 
 Start with [maintenance.md](../Data/Review/maintenance.md) and its full [JSON](../Data/Review/maintenance.json). Each workflow retains a 30-day artifact. Git history preserves earlier reports and source caches. Source changes, added/removed list entries, unresolved coordinates, aliases and failures remain inspectable. The Sunday job summary links those findings; monitoring does not automatically certify a whole metro.
