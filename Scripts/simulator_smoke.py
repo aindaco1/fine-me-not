@@ -6,6 +6,7 @@ Permissions are pre-granted test fixtures, not a test of Apple's prompt UI. It
 does not establish locked-screen, physical audibility, Bluetooth or CarPlay results.
 """
 import json
+import math
 import pathlib
 import plistlib
 import subprocess
@@ -14,11 +15,33 @@ import time
 
 BUNDLE = 'xyz.dustwave.fine-me-not'
 OUTPUT = pathlib.Path('build/compatibility')
+LATITUDE, START_LONGITUDE, END_LONGITUDE = 35.05822, -106.6045, -106.5900
 
 
 def sim(*args):
     print('simctl ' + ' '.join(args), flush=True)
     return subprocess.check_output(['xcrun', 'simctl', *args], text=True, timeout=180).strip()
+
+
+def replay_route(device, evidence_name):
+    # On the hosted iOS 18.0 runtime, `location start` generated moving daemon
+    # fixes without delivering them to clients, even in the foreground. Timed
+    # `set` updates exercise the same real Core Location delegate and matcher.
+    # Use elapsed time so slow simctl calls cannot make the car move too fast.
+    meters = math.radians(END_LONGITUDE - START_LONGITUDE) * 6_371_000 * math.cos(math.radians(LATITUDE))
+    duration = meters / 25
+    started = time.monotonic()
+    positions = []
+    while True:
+        elapsed = time.monotonic() - started
+        fraction = min(elapsed / duration, 1)
+        longitude = START_LONGITUDE + (END_LONGITUDE - START_LONGITUDE) * fraction
+        sim('location', device, 'set', f'{LATITUDE:.5f},{longitude:.7f}')
+        positions.append({'elapsedSeconds': round(elapsed, 3), 'latitude': LATITUDE, 'longitude': longitude})
+        if fraction == 1:
+            break
+        time.sleep(2)
+    (OUTPUT / evidence_name).write_text(json.dumps(positions, indent=2) + '\n')
 
 
 def diagnose_failure(device, journal):
@@ -36,9 +59,8 @@ def diagnose_failure(device, journal):
     try:
         print('Diagnostic foreground probe after failure (does not change test outcome)', flush=True)
         sim('launch', device, BUNDLE)
-        sim('location', device, 'start', '--speed=25', '--distance=20',
-            '35.05822,-106.6045', '35.05822,-106.5900')
-        time.sleep(60)
+        replay_route(device, 'foreground-probe-route.json')
+        time.sleep(10)
         (OUTPUT / 'foreground-probe-journal.json').write_bytes(journal.read_bytes())
     except (OSError, subprocess.SubprocessError) as error:
         (OUTPUT / 'probe-error.txt').write_text(str(error))
@@ -50,7 +72,7 @@ def main():
     info = plistlib.loads((app / 'Info.plist').read_bytes())
     OUTPUT.mkdir(parents=True, exist_ok=True)
     for name in ('result.json', 'journal.json', 'location-service.log', 'foreground-probe-journal.json',
-                 'probe-error.txt', 'cleanup-warning.txt'):
+                 'probe-error.txt', 'cleanup-warning.txt', 'route.json', 'foreground-probe-route.json'):
         (OUTPUT / name).unlink(missing_ok=True)
     runtimes = json.loads(sim('list', 'runtimes', '-j'))['runtimes']
     runtime = next(r for r in runtimes if r['version'] == version and r['isAvailable'] and r['name'].startswith('iOS'))
@@ -83,11 +105,10 @@ def main():
         wait_for(lambda rows: any(r['event']['values'].get('location') == 'always' for r in rows))
         sim('launch', device, 'com.apple.mobilesafari')
         wait_for(lambda rows: any(r['event']['code'] == 'lifecycle' and r['event']['values'].get('appState') == 'background' for r in rows))
-        sim('location', device, 'start', '--speed=25', '--distance=20',
-            '35.05822,-106.6045', '35.05822,-106.5900')
+        replay_route(device, 'route.json')
         wait_for(lambda rows: any(r['event']['code'] == 'audio' and r['event']['values'].get('audio') == 'completed' and r['event']['values'].get('appState') == 'background' for r in rows))
-        # Finish the approach and prove it does not generate a repeated siren.
-        time.sleep(45)
+        # The route has finished; remain stationary and check for repeated sirens.
+        time.sleep(10)
         audio = [r for r in events() if r['event']['code'] == 'audio']
         starts = sum(r['count'] for r in audio if r['event']['values'].get('audio') == 'started')
         completions = sum(r['count'] for r in audio if r['event']['values'].get('audio') == 'completed')
@@ -97,6 +118,7 @@ def main():
                    'device': 'iPhone SE (3rd generation)', 'appVersion': info['CFBundleShortVersionString'],
                    'appBuild': info['CFBundleVersion'], 'minimumOS': info['MinimumOSVersion'],
                    'permissionSetup': 'simctl pre-granted Always', 'foregroundApp': 'Safari',
+                   'locationDriver': 'timed simctl positions at 25 m/s; speed inferred from displacement',
                    'backgroundSirenStarts': starts, 'backgroundSirenCompletions': completions,
                    'physicalDeviceTest': False}
         (OUTPUT / 'result.json').write_text(json.dumps(summary, indent=2) + '\n')
