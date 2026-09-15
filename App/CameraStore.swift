@@ -13,7 +13,7 @@ final class CameraStore {
     private let defaults: UserDefaults
     private let directory: URL
     private let session: URLSession
-    private let baseURL = URL(string: "https://aindaco1.github.io/fine-me-not/data/")!
+    private let baseURL = AppLinks.database
     private var lastAttempt: Date?
 
     init(defaults: UserDefaults = .standard) {

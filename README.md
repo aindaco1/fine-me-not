@@ -13,7 +13,7 @@ Fine Me Not targets **iOS 27+** and is available in the owner’s internal TestF
 - [Build and TestFlight release](docs/RELEASE.md)
 - [Tests and physical acceptance](docs/TESTING.md)
 - [Research and implementation plan](docs/PLAN.md)
-- [Sources, privacy and support](https://aindaco1.github.io/fine-me-not/)
+- [Sources, privacy and support](https://finemenot.xyz/)
 
 ## Run
 

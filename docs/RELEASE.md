@@ -3,10 +3,10 @@
 - App: Fine Me Not
 - Bundle: `xyz.dustwave.fine-me-not`
 - Owner/team: Volver Health LLC (`PWT3Q52LZ2`), explicitly selected by the project owner
-- Version: 0.1.0 (6)
+- Version: 0.1.0 (7)
 - Distribution minimum: iOS 27.0
 - Source: https://github.com/aindaco1/fine-me-not
-- Support / privacy: https://aindaco1.github.io/fine-me-not/
+- Support / privacy: https://finemenot.xyz/
 - Category: Utilities (minimal camera proximity warnings)
 - Price: Free; no purchases, subscriptions, ads or accounts
 

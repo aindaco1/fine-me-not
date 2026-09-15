@@ -110,7 +110,7 @@ struct SettingsView: View {
                 VStack(alignment: .leading, spacing: 14) {
                     Text("Free. Open source.\nNo ads. No subscriptions.")
                         .font(.system(.footnote, design: .monospaced))
-                    Link("Sources, privacy & support ↗", destination: URL(string: "https://aindaco1.github.io/fine-me-not/")!)
+                    Link("Sources, privacy & support ↗", destination: AppLinks.website)
                         .foregroundStyle(accent).font(.footnote)
                     Text("Camera data © OpenStreetMap contributors · ODbL")
                         .font(.caption).foregroundStyle(accent)
