@@ -10,16 +10,17 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        ios: ['18.0', '18.5']
+        ios: ['18.5']
+        distance_filter: ['10', '-1']
     steps:
       - uses: actions/checkout@v4
       - name: Prepare runtime
         run: python3 Scripts/prepare_simulator_runtime.py '${{ matrix.ios }}'
       - name: Check GPS delivery to a minimal foreground app
-        run: python3 Scripts/location_probe.py '${{ matrix.ios }}'
+        run: python3 Scripts/location_probe.py '${{ matrix.ios }}' '${{ matrix.distance_filter }}'
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: gps-control-${{ matrix.ios }}
+          name: gps-control-${{ matrix.ios }}-filter-${{ matrix.distance_filter }}
           path: |
             build/compatibility/control-*.json
