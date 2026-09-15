@@ -15,7 +15,7 @@ final class LocationProbe: UIResponder, UIApplicationDelegate, CLLocationManager
         self.window = window
         manager.delegate = self
         manager.desiredAccuracy = kCLLocationAccuracyBestForNavigation
-        manager.distanceFilter = 10
+        manager.distanceFilter = UserDefaults.standard.double(forKey: "distanceFilter")
         manager.activityType = .automotiveNavigation
         manager.allowsBackgroundLocationUpdates = true
         manager.pausesLocationUpdatesAutomatically = false

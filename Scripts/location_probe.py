@@ -10,6 +10,7 @@ import time
 import simulator_smoke as smoke
 
 version = sys.argv[1]
+distance_filter = sys.argv[2] if len(sys.argv) > 2 else '10'
 smoke.OUTPUT.mkdir(parents=True, exist_ok=True)
 app = smoke.OUTPUT / 'LocationProbe.app'
 app.mkdir(exist_ok=True)
@@ -35,7 +36,7 @@ try:
     smoke.sim('install', device, str(app.resolve()))
     smoke.sim('privacy', device, 'grant', 'location-always', bundle)
     smoke.sim('location', device, 'set', f'{smoke.LATITUDE},{smoke.START_LONGITUDE}')
-    smoke.sim('launch', device, bundle)
+    smoke.sim('launch', device, bundle, '-distanceFilter', distance_filter)
     container = pathlib.Path(smoke.sim('get_app_container', device, bundle, 'data'))
     time.sleep(10)
     smoke.replay_route(device, 'control-route.json')
@@ -46,7 +47,7 @@ try:
         rows = json.loads(fixes.read_text())
     else:
         rows = []
-    result = {'runtime': runtime['name'], 'controlAppOnly': True, 'fixCount': len(rows),
+    result = {'runtime': runtime['name'], 'controlAppOnly': True, 'distanceFilter': float(distance_filter), 'fixCount': len(rows),
               'distinctLongitudes': len({r['longitude'] for r in rows})}
     (smoke.OUTPUT / 'control-result.json').write_text(json.dumps(result, indent=2))
     print(json.dumps(result))
