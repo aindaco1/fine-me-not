@@ -85,17 +85,14 @@ class Retention(unittest.TestCase):
                 for _ in range(3):
                     with self.assertRaises((TimeoutError,ValueError)):cached(root,{'test':'junction'},NOW,lookup)
                 self.assertEqual(lookup.call_count,1)
-    def test_approved_limit_uses_last_successful_fetch_not_publication_time(self):
+    def test_agency_combiner_leaves_limit_approval_to_shared_resolver(self):
         from camera_data import write
         from agency_cameras import combine
         with tempfile.TemporaryDirectory() as tmp:
-            root=pathlib.Path(tmp);source={**SOURCE,'speedLimitPolicy':'unconditional-posted'}
-            write(root/'Data/source-registry.json',{'sources':[source]})
+            root=pathlib.Path(tmp)
+            write(root/'Data/source-registry.json',{'sources':[SOURCE]})
             c=camera();c['speedLimitCandidate']={'value':25,'unit':'mph','sourceID':c['sourceIDs'][0],'conditional':False}
             write(root/'Data/External/sf.json',{'cameras':[c],'checkedAt':'2026-09-01T00:00:00Z'})
             result,_,_,_=combine(root,{}, {},NOW)
-            self.assertEqual(result[c['id']]['speedLimit']['validUntil'],'2026-10-01T00:00:00Z')
-            c['speedLimitCandidate']['conditional']=True
-            write(root/'Data/External/sf.json',{'cameras':[c],'checkedAt':'2026-09-01T00:00:00Z'})
-            result,_,_,_=combine(root,{}, {},NOW)
             self.assertNotIn('speedLimit',result[c['id']])
+            self.assertEqual(result[c['id']]['speedLimitCandidate'],c['speedLimitCandidate'])

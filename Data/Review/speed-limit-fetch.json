@@ -1,0 +1,398 @@
+{
+  "activeOSMShards": [
+    "osm-roads-b1e878ce1fd9",
+    "osm-roads-e6f7a8e79473",
+    "osm-roads-8c405ad5e923",
+    "osm-roads-99ead47c9e29",
+    "osm-roads-708e62ebffaa",
+    "osm-roads-43ab955919f4",
+    "osm-roads-555d7fc12494",
+    "osm-roads-ccbde924480a",
+    "osm-roads-895f396fe557",
+    "osm-roads-5894601863b9",
+    "osm-roads-8aea36076191",
+    "osm-roads-9ec8c3090381",
+    "osm-roads-665023f4e552",
+    "osm-roads-a8348656f2b7",
+    "osm-roads-26c75e21932a",
+    "osm-roads-f5fcf75d9642",
+    "osm-roads-a140902f7ae1",
+    "osm-roads-3c2e30bf5743",
+    "osm-roads-239baefdbd91",
+    "osm-roads-f4f4eb348e48",
+    "osm-roads-5f51cc0796ed",
+    "osm-roads-c098690a8684",
+    "osm-roads-5b5b39a0367c",
+    "osm-roads-daddc01b4db8"
+  ],
+  "checkedAt": "2026-09-15T06:44:03Z",
+  "checks": [
+    {
+      "checkedAt": "2026-09-15T05:28:43Z",
+      "id": "abq-camera-limits",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-09-15T05:28:44Z",
+      "id": "seattle-school-policy",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-09-15T05:50:03Z",
+      "error": "Automated city-code retrieval returned HTTP 403; browser-reviewed policy retains its original date until an automated check succeeds.",
+      "id": "chicago-school-park-policy",
+      "lastGoodAt": "2026-09-15T05:50:03Z",
+      "status": "retained"
+    },
+    {
+      "checkedAt": "2026-09-15T06:00:42Z",
+      "id": "philadelphia-report-limits",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-09-15T05:58:46Z",
+      "id": "philadelphia-route13-limits",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-09-15T05:58:47Z",
+      "id": "tacoma-school-policy",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-09-15T05:28:48Z",
+      "id": "nmdot-roads",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-09-15T05:37:25Z",
+      "id": "nmdot-names",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-09-15T05:37:27Z",
+      "id": "seattle-roads--2449-951",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-09-15T05:37:34Z",
+      "id": "seattle-roads--2448-950",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-09-15T05:37:40Z",
+      "id": "seattle-roads--2448-951",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-09-15T05:37:54Z",
+      "id": "seattle-roads--2448-953",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-09-15T05:37:58Z",
+      "id": "seattle-roads--2448-954",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-09-15T05:38:08Z",
+      "id": "seattle-roads--2447-951",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-09-15T05:38:22Z",
+      "id": "seattle-roads--2447-952",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-09-15T05:38:36Z",
+      "id": "seattle-roads--2447-953",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-09-15T05:38:43Z",
+      "id": "seattle-roads--2447-954",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-09-15T05:38:44Z",
+      "id": "seattle-roads--2446-949",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-09-15T05:38:52Z",
+      "id": "seattle-roads--2446-950",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-09-15T05:38:59Z",
+      "id": "seattle-roads--2446-951",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-09-15T05:39:07Z",
+      "id": "seattle-roads--2446-953",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-09-15T05:39:11Z",
+      "id": "seattle-roads--2446-954",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-09-15T05:39:11Z",
+      "id": "seattle-roads--2445-954",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-09-15T05:39:16Z",
+      "id": "nyc-roads--1485-810",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-09-15T05:39:19Z",
+      "id": "nyc-roads--1484-810",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-09-15T05:39:22Z",
+      "id": "nyc-roads--1484-811",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-09-15T05:39:25Z",
+      "id": "nyc-roads--1484-812",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-09-15T05:39:25Z",
+      "id": "nyc-roads--1484-819",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-09-15T05:39:35Z",
+      "id": "nyc-roads--1483-811",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-09-15T05:39:41Z",
+      "id": "nyc-roads--1483-812",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-09-15T05:39:43Z",
+      "id": "nyc-roads--1482-811",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-09-15T05:39:46Z",
+      "id": "nyc-roads--1481-814",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-09-15T05:39:50Z",
+      "id": "nyc-roads--1480-811",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-09-15T05:39:57Z",
+      "id": "nyc-roads--1480-813",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-09-15T05:40:05Z",
+      "id": "nyc-roads--1480-814",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-09-15T05:40:11Z",
+      "id": "nyc-roads--1479-812",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-09-15T05:40:17Z",
+      "id": "nyc-roads--1479-814",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-09-15T05:40:23Z",
+      "id": "nyc-roads--1479-815",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-09-15T05:40:28Z",
+      "id": "nyc-roads--1479-817",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-09-15T05:40:28Z",
+      "id": "nyc-roads--1479-819",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-09-15T05:40:34Z",
+      "id": "nyc-roads--1478-813",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-09-15T05:40:41Z",
+      "id": "nyc-roads--1478-814",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-09-15T05:40:47Z",
+      "id": "nyc-roads--1478-817",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-09-15T05:40:53Z",
+      "id": "nyc-roads--1477-813",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-09-15T05:41:00Z",
+      "id": "nyc-roads--1477-814",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-09-15T05:41:04Z",
+      "id": "nyc-roads--1477-816",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-09-15T05:41:11Z",
+      "id": "nyc-roads--1476-813",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-09-15T05:41:17Z",
+      "id": "nyc-roads--1476-814",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-09-15T05:41:22Z",
+      "id": "nyc-roads--1475-814",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-09-15T06:08:20Z",
+      "id": "osm-roads-b1e878ce1fd9",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-09-15T06:08:20Z",
+      "id": "osm-roads-e6f7a8e79473",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-09-15T06:09:21Z",
+      "id": "osm-roads-8c405ad5e923",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-09-15T06:09:21Z",
+      "id": "osm-roads-99ead47c9e29",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-09-15T06:09:21Z",
+      "id": "osm-roads-708e62ebffaa",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-09-15T06:20:36Z",
+      "id": "osm-roads-43ab955919f4",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-09-15T06:11:30Z",
+      "id": "osm-roads-555d7fc12494",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-09-15T06:11:30Z",
+      "id": "osm-roads-ccbde924480a",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-09-15T06:12:32Z",
+      "id": "osm-roads-895f396fe557",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-09-15T06:12:32Z",
+      "id": "osm-roads-5894601863b9",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-09-15T06:12:32Z",
+      "id": "osm-roads-8aea36076191",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-09-15T06:13:36Z",
+      "id": "osm-roads-9ec8c3090381",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-09-15T06:21:35Z",
+      "id": "osm-roads-665023f4e552",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-09-15T06:14:36Z",
+      "id": "osm-roads-a8348656f2b7",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-09-15T06:14:36Z",
+      "id": "osm-roads-26c75e21932a",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-09-15T06:15:35Z",
+      "id": "osm-roads-f5fcf75d9642",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-09-15T06:21:35Z",
+      "id": "osm-roads-a140902f7ae1",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-09-15T06:15:35Z",
+      "id": "osm-roads-3c2e30bf5743",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-09-15T06:16:29Z",
+      "id": "osm-roads-239baefdbd91",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-09-15T06:16:29Z",
+      "id": "osm-roads-f4f4eb348e48",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-09-15T06:17:34Z",
+      "id": "osm-roads-5f51cc0796ed",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-09-15T06:17:34Z",
+      "id": "osm-roads-c098690a8684",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-09-15T06:18:32Z",
+      "id": "osm-roads-5b5b39a0367c",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-09-15T06:18:32Z",
+      "id": "osm-roads-daddc01b4db8",
+      "status": "cached"
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 # Weekly camera maintenance
 
-Generated 2026-09-15T05:22:12Z
+Generated 2026-09-15T06:44:49Z
 
-47 registered sources checked; 2 evidence-based identity matches; 218 unresolved findings.
+47 registered sources checked; 2 evidence-based identity matches; 219 unresolved findings.
 
 New unambiguous agency records and validated coordinate estimates are staged automatically. Ambiguous identities, source removals, changed page layouts, and failed checks retain previous coverage and remain in this queue until reviewed.
 
@@ -226,5 +226,14 @@ New unambiguous agency records and validated coordinate estimates are staged aut
 | agency-hillsborough-intersections-fletcher-avenue-bruce-b-downs-boulevard-eb | Nearby accepted record; identity/approach review required |
 | agency-hillsborough-intersections-fletcher-avenue-bruce-b-downs-boulevard-wb | Nearby accepted record; identity/approach review required |
 | osm-node-13261832160 | New OSM record overlaps accepted agency data; review identity |
+| chicago-school-park-policy | Automated city-code retrieval returned HTTP 403; browser-reviewed policy retains its original date until an automated check succeeds. |
 
 Full added/removed facts, nearby candidates, and evidence are in maintenance.json and the source-specific reports.
+
+## Speed-limit coverage
+
+1305 / 1765 speed-camera approaches can suppress (73.9%). Red-light and combined cameras are excluded from this denominator.
+
+Evidence: {'agency-posted': 194, 'conservative-lower-bound': 581, 'osm-posted': 372, 'road-matched': 158}. 41 candidate-only; 419 unknown.
+
+Per-camera values, sources, timestamps, inferred lower bounds and missing-data reasons: speed-limit-coverage.json.

@@ -8,10 +8,9 @@ import datetime as dt
 import hashlib
 import json
 import re
-from camera_data import read, write, encode, stamp, distance
+from camera_data import read, write, encode, stamp, distance, OVERPASS_URL
 
 CENSUS_URL = 'https://geocoding.geo.census.gov/geocoder/locations/address'
-OVERPASS_URL = 'https://overpass.private.coffee/api/interpreter'
 ROAD_WORDS = {'north':'n','south':'s','east':'e','west':'w','northeast':'ne','northwest':'nw',
               'southeast':'se','southwest':'sw','street':'st','avenue':'ave','boulevard':'blvd',
               'road':'rd','drive':'dr','lane':'ln','parkway':'pkwy','highway':'hwy','place':'pl',

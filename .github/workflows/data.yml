@@ -11,7 +11,7 @@ on:
         default: true
   push:
     branches: [main]
-    paths: ['Site/**', 'Data/**', 'Scripts/*.py', '.github/workflows/data.yml']
+    paths: ['Site/**', 'Data/**', 'Scripts/*.py', 'Scripts/requirements-data.txt', '.github/workflows/data.yml']
 permissions:
   contents: write
   pages: write
@@ -22,7 +22,7 @@ concurrency:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 60
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -35,6 +35,9 @@ jobs:
           python-version: '3.13'
       - name: Test publisher
         run: python3 -m unittest discover -s Tests/Pipeline -v
+      - name: Install bounded road-data reader
+        if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.refresh_sources)
+        run: python3 -m pip install -r Scripts/requirements-data.txt
       - name: Use staged source checks or catch up if delayed
         if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.refresh_sources)
         run: python3 Scripts/refresh_sources.py --if-stale

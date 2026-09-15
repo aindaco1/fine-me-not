@@ -9,7 +9,7 @@ Fine Me Not targets **iOS 27+** and is available in the owner’s internal TestF
 - [Supported iOS versions and iPhones](docs/SUPPORT.md)
 - [Data coverage and reconciliation](docs/DATA.md)
 - [Census metro coverage and weekly source checks](docs/METRO-COVERAGE.md)
-- [Optional speed-check feasibility](docs/SPEED-CHECK.md)
+- [Speed-check behavior and coverage](docs/SPEED-CHECK.md)
 - [Build and TestFlight release](docs/RELEASE.md)
 - [Tests and physical acceptance](docs/TESTING.md)
 - [Research and implementation plan](docs/PLAN.md)

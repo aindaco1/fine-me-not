@@ -39,7 +39,15 @@ def check():
     assert database['version'] == manifest['version'], 'Snapshot version mismatch'
     assert len(database['cameras']) == manifest['recordCount'], 'Snapshot count mismatch'
     assert json.loads(download('data/cameras.json')) == database, 'Public database differs from manifest'
-    print(f"Verified {base} with {manifest['recordCount']} cameras; version {manifest['version']}")
+    summary = json.loads(download('data/speed-limit-coverage.json'))
+    speed = [c for c in database['cameras'] if c['kind'] in ('speed', 'possibleSpeed')]
+    approved = [c for c in database['cameras'] if c.get('speedLimit')]
+    assert all(c['kind'] in ('speed', 'possibleSpeed') for c in approved), 'Red-light suppression found'
+    assert summary['version'] == manifest['version'], 'Coverage report version mismatch'
+    assert summary['totalCameras'] == len(database['cameras']), 'Coverage total mismatch'
+    assert summary['speedCameras'] == len(speed) and summary['eligible'] == len(approved), 'Suppression count mismatch'
+    assert f"{len(approved):,} of {len(speed):,}" in page, 'Website coverage differs from database'
+    print(f"Verified {base} with {manifest['recordCount']} cameras and {len(approved)}/{len(speed)} suppression limits; version {manifest['version']}")
 
 
 if __name__ == '__main__':

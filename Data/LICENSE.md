@@ -5,3 +5,9 @@
 Attribution: https://www.openstreetmap.org/copyright
 
 Reproduction/derivation inputs and transformation code are published in this repository. Preserve source references and follow the ODbL attribution and share-alike terms when distributing or adapting the database. Individual source-linked municipal location facts are documented in the source/reconciliation records; municipal page graphics and prose are not bundled. The root MIT license covers application and publisher code, not OSM database rights.
+
+## Speed-limit enrichment
+
+Public camera-local OSM road extracts and Overture transportation derivatives are included under ODbL 1.0. Attribute **OpenStreetMap contributors** and **Overture Maps Foundation**, plus contributing sources retained in the road lineage, including **TomTom** where identified. See [Overture attribution](https://docs.overturemaps.org/attribution/). The release ID, original source IDs, dataset/license names and observation/edit dates are retained; an OSM mirror is not independent evidence.
+
+Agency facts are attributed to the City of Albuquerque, NMDOT, SFMTA, DDOT, Arlington County, Seattle, Tacoma, Chicago, NYC OTI, and the Philadelphia Parking Authority through per-record source URLs. Road extracts retain the fields necessary for matching and audit. Public availability is not a claim that all agency materials have an ODbL license; the combined database license does not relicense agency page prose, graphics or other third-party rights. Original agency pages and annual-report PDFs are linked, not redistributed as full documents.

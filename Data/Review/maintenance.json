@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T05:22:12Z",
+  "generatedAt": "2026-09-15T06:44:49Z",
   "items": [
     {
       "added": [],
@@ -2449,7 +2449,12 @@
         "agency-chicago-speed-chi219-180"
       ],
       "reason": "New OSM record overlaps accepted agency data; review identity"
+    },
+    {
+      "lastGoodAt": "2026-09-15T05:50:03Z",
+      "reason": "Automated city-code retrieval returned HTTP 403; browser-reviewed policy retains its original date until an automated check succeeds.",
+      "source": "chicago-school-park-policy"
     }
   ],
-  "reviewCount": 218
+  "reviewCount": 219
 }

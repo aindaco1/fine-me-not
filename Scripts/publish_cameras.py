@@ -9,8 +9,9 @@ import argparse, collections, datetime as dt, hashlib, json, math, pathlib, re
 import urllib.parse, urllib.request
 from zoneinfo import ZoneInfo
 
-from camera_data import ROOT, UTC, read, encode, write, stamp, valid_point, distance
+from camera_data import ROOT, UTC, read, encode, write, stamp, valid_point, distance, OVERPASS_URL
 from agency_cameras import combine, coverage_report, audit_metro_points
+from speed_limits import enrich
 OSM_URL = 'https://www.openstreetmap.org/copyright'
 QUERIES = {
     'speed': 'node(area.us)["highway"="speed_camera"];out body;',
@@ -53,7 +54,7 @@ def fetch_sources(root):
         previous = read(path)
         try:
             data = urllib.parse.urlencode({'data': PREFIX + query}).encode()
-            req = urllib.request.Request('https://overpass-api.de/api/interpreter', data=data,
+            req = urllib.request.Request(OVERPASS_URL, data=data,
                 headers={'User-Agent': 'FineMeNot/0.1 (+https://github.com/aindaco1/fine-me-not)'})
             with urllib.request.urlopen(req, timeout=220) as response:
                 raw = response.read(50_000_001)
@@ -201,7 +202,7 @@ def validate(records):
             assert c['kind'] in ('speed', 'possibleSpeed')
             assert limit['unit'] in ('mph', 'km/h') and math.isfinite(limit['value'])
             assert 5 <= limit['value'] <= (85 if limit['unit'] == 'mph' else 140)
-            assert limit['sourceID'] in c['sourceIDs'] and limit['conditional'] is False
+            assert limit['sourceID'] in c.get('speedLimitEvidenceIDs',c['sourceIDs']) and limit['conditional'] is False
             start, end = [dt.datetime.fromisoformat(limit[k].replace('Z', '+00:00')) for k in ('verifiedAt', 'validUntil')]
             assert dt.timedelta(0) < end-start <= dt.timedelta(days=90)
 
@@ -211,7 +212,8 @@ def publish(root, now, fetched=None):
     records, issues = osm_records(documents)
     previous = read(root / 'Data/Published/cameras.json', {})
     agency_fresh = any(read(path).get('checkedAt', '') > previous.get('generatedAt', '') for path in (root/'Data/External').glob('*.json'))
-    if fetched and all(r['status'] != 'downloaded' for r in fetched) and previous.get('cameras') and not agency_fresh:
+    limit_fresh = any(read(path).get('checkedAt', '') > previous.get('generatedAt', '') for path in (root/'Data/SpeedLimits').glob('*.json'))
+    if fetched and all(r['status'] != 'downloaded' for r in fetched) and previous.get('cameras') and not agency_fresh and not limit_fresh:
         report = read(root / 'Data/Review/publisher-report.json', {})
         report.update({'generatedAt': stamp(now), 'fetches': fetched,
                        'publication': 'All upstream fetches failed; published snapshot left unchanged.'})
@@ -228,6 +230,7 @@ def publish(root, now, fetched=None):
     source_version = '-'.join(d['osm3s']['timestamp_osm_base'] for d in documents)
     complete = all(r['status'] == 'downloaded' for r in (fetched or [])) and source_version != prior_state.get('sourceVersion')
     records, state, review = reconcile(records, overrides, previous, prior_state, now, complete)
+    records, limit_sources, limit_report = enrich(root, records, documents, now)
     validate(records); issues += review
     coverage_report(root, records, now)
     state['sourceVersion'] = source_version
@@ -237,7 +240,7 @@ def publish(root, now, fetched=None):
     source_dates = [d['osm3s']['timestamp_osm_base'] for d in documents]
     sources = [{'id': 'osm', 'name': 'OpenStreetMap contributors', 'url': OSM_URL, 'license': 'ODbL-1.0',
         'checkedAt': min(source_dates), 'status': 'Community coverage; incomplete. Source timestamps: ' + ', '.join(source_dates)}]
-    sources += overrides.get('sources', []) + agency_sources
+    sources += overrides.get('sources', []) + agency_sources + limit_sources
     coverage = 'U.S. community data plus reviewed Albuquerque and agency supplements in Census metros. Coverage is incomplete; see Sources.'
     snapshot = {'schemaVersion': 1, 'version': version, 'generatedAt': stamp(now), 'coverage': coverage, 'sources': sources, 'cameras': records}
     # Timestamp/provenance is part of identity so each manifest always names immutable bytes.
@@ -250,6 +253,9 @@ def publish(root, now, fetched=None):
     raw = encode(snapshot)
     write(root / 'Data/Published/manifest.json', {'schemaVersion': 1, 'version': version,
         'generatedAt': snapshot['generatedAt'], 'file': immutable.name, 'recordCount': len(records), 'sha256': hashlib.sha256(raw).hexdigest()})
+    limit_report['version']=version
+    write(root/'Data/Review/speed-limit-coverage.json',limit_report)
+    write(root/'Data/Published/speed-limit-coverage.json',{k:v for k,v in limit_report.items() if k!='records'})
     write(root / 'Data/Review/publisher-state.json', state)
     write(root / 'Data/Review/publisher-report.json', {'generatedAt': stamp(now), 'fetches': fetched or [],
         'counts': dict(collections.Counter(c['kind'] for c in records)), 'records': len(records), 'review': issues})

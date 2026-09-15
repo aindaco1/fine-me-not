@@ -2,7 +2,27 @@
 
 Research checked September 14, 2026, America/Denver. Scope: free, open-source Fine Me Not; Albuquerque metro first, followed by the Census top 20 metropolitan areas. “Speed limit” means the posted legal limit applicable to the monitored approach, not a camera’s ticket threshold.
 
-## Findings and priorities
+## Implemented follow-up: September 15, 2026
+
+The initial research below is retained as a dated investigation. Its 31-limit baseline and candidate-only conclusions are superseded by the [implemented resolver](SPEED-CHECK.md) and generated [coverage report](../Data/Review/speed-limit-coverage.md).
+
+New direct evidence found during implementation:
+
+- **Albuquerque camera passing-data page:** [21 named approach limits](https://www.cabq.gov/automated-speed-enforcement/camera-data), with 17 explicit reviewed joins to current point identities. NMDOT SpeedLimit layer 33 is joined to **Alt Street Name layer 11** by RouteID and overlapping route measures. Old road-edit timestamps are preserved, and the inferred MPH convention is disclosed in each NMDOT match. Nearby segments are not new cameras.
+- **Philadelphia:** the [2026 PPA report](https://philapark.org/wp-content/uploads/2026-Speed-Camera-Enforcement-Program-State-Report.pdf), page 11, publishes 15 exact Route 611 locations: 14 at 25 mph and 3600 S. Broad at 35 mph. The [Route 13 announcement](https://philapark.org/2026/04/60-day-warning-period-for-automated-speed-enforcement-cameras-on-stretch-of-route-13-in-northeast-philadelphia-will-begin-monday-april-13th/) names six 25 mph locations. Readers match the full address, including its number, to already accepted records; unmatched report rows do not create cameras.
+- **Seattle and Tacoma:** official [Seattle school-camera policy](https://seattle.gov/police/community-policing/community-programs/red-light-cameras/school-zone-enforcement) and [Tacoma beacon policy](https://tacoma.gov/government/departments/public-works/transportation/neighborhood-programs/safe-routes-to-school/engineering/) support a reduced 20 mph bound for their identified school-camera devices. Ordinary street limits cannot substitute for missing school-limit evidence.
+- **Chicago:** current city-code sections [9-12-070](https://codelibrary.amlegal.com/codes/chicago/latest/chicago_il/0-0-0-2645297), [9-12-075](https://codelibrary.amlegal.com/codes/chicago/latest/chicago_il/0-0-0-2645301) and [9-12-077](https://codelibrary.amlegal.com/codes/chicago/latest/chicago_il/0-0-0-2645310) support a conservative 20 mph school/park-program bound. This is not a claim that every camera posts 20 mph. Browser review succeeded; the local automated endpoint returned 403, which remains a maintenance finding and cannot renew the policy's evidence date.
+- **National road fallback:** the Overture reader selects camera-local road segments from the latest public release, preserves full speed rules and source lineage, and uses resumable bounded regional queries. It rejects partial/unknown/variable rules and retains previous evidence on failure. Direct OSM ways supersede older OSM mirrors. Each region retains its own successful evidence date; a timed-out region cannot discard successful regions. Actual acquisition status is in [overture-fetch.json](../Data/Review/overture-fetch.json); schema support alone is not counted as coverage.
+
+The [OSM public-instance directory](https://wiki.openstreetmap.org/wiki/Overpass_API#Public_Overpass_API_instances) lists the VK Maps global mirror as publicly usable without an API key. It returned current replication data, while FOSSGIS was unavailable and Private.coffee returned months-old replication dates. Camera, road and geocoding requests now share the validated mirror URL; only public camera data is queried.
+
+Existing camera-ID values in SF, DC, Arlington and Tacoma now go through the same evidence resolver as all other inputs. The old SFMTA-only promotion path was removed. NYC and Seattle road tiles and camera-local OSM requests are cached and checked weekly. An Overpass replica that is over two days stale is rejected even if the request itself succeeds.
+
+The follow-up rechecked HPMS: its New Mexico feature service still timed out before returning usable row data. Mapillary remains a potential sign-review input requiring authenticated API access. Neither is represented as an operating source. No paid speed-limit service or driver-location upload was introduced.
+
+The user authorized best-effort inference, so **a conservative minimum of fully understood alternatives is now allowed**, rather than treating every numerical disagreement as a complete block. Unresolved variable rules, ambiguous roads, missing corridor segments, expired evidence and unknown school reductions still warn. This policy does not establish the precise currently posted speed at every camera. The generated reports identify remaining gaps explicitly.
+
+## Initial research findings and priorities
 
 There are useful additional sources. The best expansion remains a combination of agency location lists, agency road networks and OpenStreetMap, rather than one complete national camera file. This investigation identified new local camera inventories, proved three public road-data APIs, and measured an Albuquerque speed-limit candidate pool. None of that establishes complete metro coverage or warrants automatically silencing additional warnings.
 

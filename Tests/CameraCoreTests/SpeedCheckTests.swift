@@ -57,3 +57,15 @@ private func fix(speed: Double = 10, uncertainty: Double? = 0.5, age: Double = 0
     var off = AlertEngine()
     #expect(off.evaluate(fix(), index: index, now: now, quietBelowSpeedLimit: false).count == 1)
 }
+
+@Test func publishedEnrichmentDecodesInCurrentAppAndKeepsRedLightWarnings() throws {
+    let root = URL(fileURLWithPath: #filePath).deletingLastPathComponent().deletingLastPathComponent().deletingLastPathComponent()
+    let snapshot = try CameraSnapshot.decode(Data(contentsOf: root.appending(path: "Data/Published/cameras.json")))
+    try snapshot.validate(now: snapshot.generatedAt)
+    for camera in snapshot.cameras {
+        if let limit = camera.speedLimit {
+            #expect(camera.kind == .speed || camera.kind == .possibleSpeed)
+            #expect(limit.metersPerSecond(at: snapshot.generatedAt) != nil)
+        }
+    }
+}

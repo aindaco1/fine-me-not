@@ -1,7 +1,8 @@
 import Foundation
 
-/// A source-confirmed, unconditional posted limit for this camera's approach.
-/// Unknown units, stale evidence, and conditional limits cannot silence a warning.
+/// An approved posted limit or conservative suppression bound for this approach.
+/// The publisher may reduce fully known conditional limits to their minimum;
+/// unresolved conditions, unknown units and expired evidence still warn.
 public struct SpeedLimit: Codable, Hashable, Sendable {
     public let value: Double
     public let unit: String

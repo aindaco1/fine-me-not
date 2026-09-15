@@ -35,13 +35,6 @@ def combine(root, records, previous, now):
         automatic += [{'id':key, **rule} for key,rule in inferred.items() if key not in rules and key not in established]
         for original in cached['cameras']:
             c = copy.deepcopy(original); key = c['id']; rule = source_rules.get(key, {})
-            candidate = c.get('speedLimitCandidate', {})
-            # SFMTA's live operational table publishes unconditional limits.
-            # Conditional school-zone limits and unsurveyed estimates stay unknown.
-            if source.get('speedLimitPolicy') == 'unconditional-posted' and candidate and not candidate.get('conditional'):
-                checked = dt.datetime.fromisoformat(cached['checkedAt'].replace('Z', '+00:00'))
-                c['speedLimit'] = {k: candidate[k] for k in ('value', 'unit', 'sourceID', 'conditional')}
-                c['speedLimit'].update(verifiedAt=stamp(checked), validUntil=stamp(checked + dt.timedelta(days=30)))
             if rule and not rule.get('evidence'): raise ValueError('Agency decision requires evidence')
             if rule.get('exclude'):
                 replaced.update([key, rule.get('targetID', key), *rule.get('replaces', [])]); continue
@@ -98,6 +91,8 @@ def coverage_report(root, records, now):
     for m in metros['regions']:
         selected = [c for c in records if inside_geometry(c['geometry'][0], regions[m['id']])]
         rows.append({**m, 'warningRecords': len(selected),
+                     'speedCameraApproaches':sum(c['kind'] in ('speed','possibleSpeed') for c in selected),
+                     'withSuppressionLimit':sum(bool(c.get('speedLimit')) for c in selected),
                      'agencyPoints': sum(bool(c.get('agencyID')) for c in selected),
                      'possibleAreas': sum(len(c['geometry']) > 1 for c in selected)})
     write(root/'Data/Review/metro-coverage.json', {'generatedAt': stamp(now), 'metros': rows})

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T05:21:59Z",
+  "generatedAt": "2026-09-15T06:44:15Z",
   "metros": [
     {
       "agencyPoints": 0,
@@ -26,7 +26,9 @@
       "population2025": 925279,
       "possibleAreas": 32,
       "rank": null,
-      "warningRecords": 72
+      "speedCameraApproaches": 72,
+      "warningRecords": 72,
+      "withSuppressionLimit": 64
     },
     {
       "agencyPoints": 0,
@@ -125,7 +127,9 @@
       "population2025": 20112448,
       "possibleAreas": 0,
       "rank": 1,
-      "warningRecords": 99
+      "speedCameraApproaches": 88,
+      "warningRecords": 99,
+      "withSuppressionLimit": 52
     },
     {
       "agencyPoints": 0,
@@ -144,7 +148,9 @@
       "population2025": 12844441,
       "possibleAreas": 0,
       "rank": 2,
-      "warningRecords": 35
+      "speedCameraApproaches": 11,
+      "warningRecords": 35,
+      "withSuppressionLimit": 5
     },
     {
       "agencyPoints": 566,
@@ -207,7 +213,9 @@
       "population2025": 9434123,
       "possibleAreas": 0,
       "rank": 3,
-      "warningRecords": 643
+      "speedCameraApproaches": 315,
+      "warningRecords": 643,
+      "withSuppressionLimit": 304
     },
     {
       "agencyPoints": 0,
@@ -262,7 +270,9 @@
       "population2025": 8477157,
       "possibleAreas": 0,
       "rank": 4,
-      "warningRecords": 85
+      "speedCameraApproaches": 85,
+      "warningRecords": 85,
+      "withSuppressionLimit": 69
     },
     {
       "agencyPoints": 0,
@@ -313,7 +323,9 @@
       "population2025": 7904627,
       "possibleAreas": 0,
       "rank": 5,
-      "warningRecords": 1
+      "speedCameraApproaches": 1,
+      "warningRecords": 1,
+      "withSuppressionLimit": 0
     },
     {
       "agencyPoints": 0,
@@ -440,7 +452,9 @@
       "population2025": 6482182,
       "possibleAreas": 0,
       "rank": 6,
-      "warningRecords": 31
+      "speedCameraApproaches": 28,
+      "warningRecords": 31,
+      "withSuppressionLimit": 20
     },
     {
       "agencyPoints": 187,
@@ -543,7 +557,9 @@
       "population2025": 6465724,
       "possibleAreas": 0,
       "rank": 7,
-      "warningRecords": 509
+      "speedCameraApproaches": 415,
+      "warningRecords": 509,
+      "withSuppressionLimit": 325
     },
     {
       "agencyPoints": 0,
@@ -566,7 +582,9 @@
       "population2025": 6391072,
       "possibleAreas": 0,
       "rank": 8,
-      "warningRecords": 24
+      "speedCameraApproaches": 12,
+      "warningRecords": 24,
+      "withSuppressionLimit": 4
     },
     {
       "agencyPoints": 19,
@@ -621,7 +639,9 @@
       "population2025": 6329118,
       "possibleAreas": 0,
       "rank": 9,
-      "warningRecords": 28
+      "speedCameraApproaches": 23,
+      "warningRecords": 28,
+      "withSuppressionLimit": 20
     },
     {
       "agencyPoints": 9,
@@ -640,7 +660,9 @@
       "population2025": 5228938,
       "possibleAreas": 0,
       "rank": 10,
-      "warningRecords": 33
+      "speedCameraApproaches": 33,
+      "warningRecords": 33,
+      "withSuppressionLimit": 14
     },
     {
       "agencyPoints": 0,
@@ -679,7 +701,9 @@
       "population2025": 5034221,
       "possibleAreas": 0,
       "rank": 11,
-      "warningRecords": 0
+      "speedCameraApproaches": 0,
+      "warningRecords": 0,
+      "withSuppressionLimit": 0
     },
     {
       "agencyPoints": 0,
@@ -698,7 +722,9 @@
       "population2025": 4769007,
       "possibleAreas": 0,
       "rank": 12,
-      "warningRecords": 4
+      "speedCameraApproaches": 2,
+      "warningRecords": 4,
+      "withSuppressionLimit": 0
     },
     {
       "agencyPoints": 31,
@@ -729,7 +755,9 @@
       "population2025": 4630041,
       "possibleAreas": 0,
       "rank": 13,
-      "warningRecords": 80
+      "speedCameraApproaches": 70,
+      "warningRecords": 80,
+      "withSuppressionLimit": 68
     },
     {
       "agencyPoints": 0,
@@ -764,7 +792,9 @@
       "population2025": 4390913,
       "possibleAreas": 0,
       "rank": 14,
-      "warningRecords": 0
+      "speedCameraApproaches": 0,
+      "warningRecords": 0,
+      "withSuppressionLimit": 0
     },
     {
       "agencyPoints": 107,
@@ -787,7 +817,9 @@
       "population2025": 4161883,
       "possibleAreas": 0,
       "rank": 15,
-      "warningRecords": 194
+      "speedCameraApproaches": 142,
+      "warningRecords": 194,
+      "withSuppressionLimit": 117
     },
     {
       "agencyPoints": 0,
@@ -858,7 +890,9 @@
       "population2025": 3790295,
       "possibleAreas": 0,
       "rank": 16,
-      "warningRecords": 16
+      "speedCameraApproaches": 15,
+      "warningRecords": 16,
+      "withSuppressionLimit": 1
     },
     {
       "agencyPoints": 6,
@@ -885,7 +919,9 @@
       "population2025": 3418895,
       "possibleAreas": 0,
       "rank": 17,
-      "warningRecords": 34
+      "speedCameraApproaches": 7,
+      "warningRecords": 34,
+      "withSuppressionLimit": 0
     },
     {
       "agencyPoints": 0,
@@ -900,7 +936,9 @@
       "population2025": 3282248,
       "possibleAreas": 0,
       "rank": 18,
-      "warningRecords": 15
+      "speedCameraApproaches": 7,
+      "warningRecords": 15,
+      "withSuppressionLimit": 7
     },
     {
       "agencyPoints": 0,
@@ -951,7 +989,9 @@
       "population2025": 3092037,
       "possibleAreas": 0,
       "rank": 19,
-      "warningRecords": 22
+      "speedCameraApproaches": 2,
+      "warningRecords": 22,
+      "withSuppressionLimit": 2
     },
     {
       "agencyPoints": 0,
@@ -978,7 +1018,9 @@
       "population2025": 2957672,
       "possibleAreas": 0,
       "rank": 20,
-      "warningRecords": 97
+      "speedCameraApproaches": 1,
+      "warningRecords": 97,
+      "withSuppressionLimit": 1
     }
   ]
 }

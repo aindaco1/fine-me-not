@@ -7,6 +7,8 @@ from publish_cameras import fetch_sources, osm_records, QUERIES
 from agency_cameras import audit_metro_points, combine
 from source_watch import refresh
 from maintenance_report import generate
+from fetch_speed_limits import refresh as refresh_limits
+from fetch_overture_limits import refresh as refresh_overture
 
 
 def run(root=ROOT, now=None, if_stale=False):
@@ -17,12 +19,15 @@ def run(root=ROOT, now=None, if_stale=False):
         print('Using source checks staged within the last 12 hours.'); return prior
     osm = fetch_sources(root)
     report = refresh(root, dt.datetime.now(UTC))
+    limits = refresh_limits(root, dt.datetime.now(UTC))
+    overture = refresh_overture(root)
     documents = [read(root/f'Data/Sources/osm-us-{name}.json') for name in QUERIES]
     audit_metro_points(root, documents, read(root/'Data/Overrides/metro.json', {}), dt.datetime.now(UTC))
     combine(root, osm_records(documents)[0], read(root/'Data/Published/cameras.json', {}), dt.datetime.now(UTC))
     generate(root)
     result = {'completedAt': stamp(dt.datetime.now(UTC)), 'osmFetches': osm,
-              'agencyAndPageChecksAt': report['checkedAt'], 'reviewRequired': report['reviewRequired']}
+              'agencyAndPageChecksAt': report['checkedAt'], 'speedLimitChecksAt': limits['checkedAt'], 'overture': overture,
+              'reviewRequired': report['reviewRequired'] or any(x['status'] in ('unavailable','retained','deferred') for x in limits['checks']) or bool(overture.get('error'))}
     write(root/'Data/Review/prepublication-check.json', result)
     return result
 

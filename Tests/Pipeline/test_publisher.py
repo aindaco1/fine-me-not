@@ -60,7 +60,7 @@ class PublisherTests(unittest.TestCase):
         self.assertEqual(set(references), set(listed))
         self.assertEqual(len(references), len(set(references)))
         for camera in accepted:
-            self.assertEqual(published[camera['id']], {k: v for k, v in camera.items() if k != 'replaces'})
+            self.assertEqual({k: published[camera['id']][k] for k in camera if k != 'replaces'}, {k: v for k, v in camera.items() if k != 'replaces'})
             self.assertEqual(camera['travelBearing'], {'NB': 0, 'EB': 90, 'SB': 180, 'WB': 270}[listed[camera['reviewReference']]['travel_direction']])
             if camera['kind'] == 'possibleSpeed':
                 self.assertIn('approximate area', camera['label'])
