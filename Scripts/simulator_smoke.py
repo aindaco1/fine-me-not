@@ -15,7 +15,9 @@ import time
 
 BUNDLE = 'xyz.dustwave.fine-me-not'
 OUTPUT = pathlib.Path('build/compatibility')
-LATITUDE, START_LONGITUDE, END_LONGITUDE = 35.05822, -106.6045, -106.5900
+ROUTE = json.loads((pathlib.Path(__file__).resolve().parents[1] / 'Tests/Fixtures/camera-approach.json').read_text())
+LATITUDE, START_LONGITUDE, END_LONGITUDE = (ROUTE[k] for k in ('latitude', 'startLongitude', 'endLongitude'))
+SPEED = ROUTE['speedMetersPerSecond']
 
 
 def sim(*args, timeout=180):
@@ -27,7 +29,7 @@ def replay_route(device, evidence_name):
     # Timed positions exercise Core Location and the displacement fallback.
     # Use elapsed time so slow simctl calls cannot make the car move too fast.
     meters = math.radians(END_LONGITUDE - START_LONGITUDE) * 6_371_000 * math.cos(math.radians(LATITUDE))
-    duration = meters / 25
+    duration = meters / SPEED
     started = time.monotonic()
     positions = []
     while True:
@@ -65,7 +67,8 @@ def diagnose_failure(device, journal):
 
 
 def main():
-    version, app_path = sys.argv[1:]
+    version, app_path, *test_runs = sys.argv[1:]
+    assert len(test_runs) <= 1, 'Expected at most one .xctestrun file'
     app = pathlib.Path(app_path).resolve()
     info = plistlib.loads((app / 'Info.plist').read_bytes())
     OUTPUT.mkdir(parents=True, exist_ok=True)
@@ -82,8 +85,6 @@ def main():
         sim('bootstatus', device, '-b', timeout=600)
         sim('install', device, str(app))
         sim('privacy', device, 'grant', 'location-always', BUNDLE)
-        sim('location', device, 'set', '35.05822,-106.6045')
-        sim('launch', device, BUNDLE, '-warnings.enabled', 'YES')
         container = pathlib.Path(sim('get_app_container', device, BUNDLE, 'data'))
         journal = container / 'Library/Application Support/FineMeNot/Support/journal.json'
 
@@ -100,10 +101,25 @@ def main():
                 time.sleep(1)
             raise AssertionError('Simulator did not reach expected state; see journal artifact')
 
-        wait_for(lambda rows: any(r['event']['values'].get('location') == 'always' for r in rows))
-        sim('launch', device, 'com.apple.mobilesafari')
-        wait_for(lambda rows: any(r['event']['code'] == 'lifecycle' and r['event']['values'].get('appState') == 'background' for r in rows))
-        replay_route(device, 'route.json')
+        if test_runs:
+            try:
+                subprocess.run(['xcodebuild', 'test-without-building', '-xctestrun', test_runs[0],
+                                '-destination', f'platform=iOS Simulator,id={device}',
+                                '-parallel-testing-enabled', 'NO',
+                                '-resultBundlePath', str(OUTPUT / f'UITests-{time.time_ns()}.xcresult')],
+                               check=True, timeout=900)
+            finally:
+                # Xcode may reinstall the target app into a new data container.
+                # Read the actual post-test journal, including after a failure.
+                container = pathlib.Path(sim('get_app_container', device, BUNDLE, 'data'))
+                journal = container / 'Library/Application Support/FineMeNot/Support/journal.json'
+        else:
+            sim('location', device, 'set', '35.05822,-106.6045')
+            sim('launch', device, BUNDLE, '-warnings.enabled', 'YES')
+            wait_for(lambda rows: any(r['event']['values'].get('location') == 'always' for r in rows))
+            sim('launch', device, 'com.apple.mobilesafari')
+            wait_for(lambda rows: any(r['event']['code'] == 'lifecycle' and r['event']['values'].get('appState') == 'background' for r in rows))
+            replay_route(device, 'route.json')
         wait_for(lambda rows: any(r['event']['code'] == 'audio' and r['event']['values'].get('audio') == 'completed' and r['event']['values'].get('appState') == 'background' for r in rows))
         # The route has finished; remain stationary and check for repeated sirens.
         time.sleep(10)
@@ -115,8 +131,9 @@ def main():
         summary = {'runtime': runtime['name'], 'runtimeBuild': runtime['buildversion'],
                    'device': 'iPhone SE (3rd generation)', 'appVersion': info['CFBundleShortVersionString'],
                    'appBuild': info['CFBundleVersion'], 'minimumOS': info['MinimumOSVersion'],
-                   'permissionSetup': 'simctl pre-granted Always', 'foregroundApp': 'Safari',
-                   'locationDriver': 'timed simctl positions at 25 m/s; speed inferred from displacement',
+                   'permissionSetup': 'simctl pre-granted Always',
+                   'foregroundApp': 'Home screen' if test_runs else 'Safari',
+                   'locationDriver': f'XCUITest CLLocation proxy at {SPEED:g} m/s' if test_runs else f'timed simctl positions at {SPEED:g} m/s; speed inferred from displacement',
                    'backgroundSirenStarts': starts, 'backgroundSirenCompletions': completions,
                    'physicalDeviceTest': False}
         (OUTPUT / 'result.json').write_text(json.dumps(summary, indent=2) + '\n')
