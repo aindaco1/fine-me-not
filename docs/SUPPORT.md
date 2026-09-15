@@ -1,13 +1,12 @@
 # Supported iOS versions and iPhones
 
-Fine Me Not 1.0 targets **iOS 27.0 and later**. The first physical acceptance device is **iPhone 16 Pro Max**. There is no Apple Intelligence requirement.
+The current Fine Me Not distribution builds require **iOS 27.0 or later** on a compatible iPhone. There is no Apple Intelligence requirement.
 
 ## Compatibility vs. verification
 
 | Environment | Status |
 | --- | --- |
-| iOS 27 on iPhone 16 Pro Max | Owner reports a real Bluetooth warning with the screen locked; exact tested build was not recorded. Remaining physical checks are pending. |
-| Other iOS 27 compatible iPhones below | Eligible by OS and hardware; not individually tested |
+| iOS 27 on the compatible iPhones below | Eligible by OS and hardware; not every model has been individually tested. See [TESTING.md](TESTING.md) for field-test evidence. |
 | iOS 28 and future releases | Not yet verified; no forward-compatibility promise |
 | iOS 26 and earlier | Not supported by the distribution build |
 | Simulator compatibility build | Uses an explicit iOS 18 minimum solely for development checks; this does not expand release support |
@@ -23,7 +22,7 @@ Apple's [iOS 27 compatibility list](https://www.apple.com/os/ios/), checked Sept
 | Duo | iPhone Duo |
 | 18 | iPhone 18 Pro, 18 Pro Max |
 | 17 / Air | iPhone 17, 17 Pro, 17 Pro Max, 17e, iPhone Air |
-| 16 | iPhone 16, 16 Plus, 16 Pro, **16 Pro Max**, 16e |
+| 16 | iPhone 16, 16 Plus, 16 Pro, 16 Pro Max, 16e |
 | 15 | iPhone 15, 15 Plus, 15 Pro, 15 Pro Max |
 | 14 | iPhone 14, 14 Plus, 14 Pro, 14 Pro Max |
 | 13 | iPhone 13, 13 mini, 13 Pro, 13 Pro Max |
@@ -56,3 +55,23 @@ After updating, open Fine Me Not once, confirm Always and Precise Location, and 
 ## City coverage update
 
 The 1.0 bundle contains **2,695 warning locations**, including all **40 reviewed Albuquerque city-listed approaches** and reviewed locations across the metro. Some are approximate warning areas. See [current coverage](https://finemenot.xyz/#sources) for published totals and speed-limit coverage. Use **Update now** to get the latest list. This represents the reviewed source lists, not a survey or every camera in every municipality.
+
+## iOS 26 feasibility — September 15, 2026
+
+The 27.0 minimum came from the original project scope, not a known API requirement.
+`CLServiceSession`, the newest location API used here, is available from iOS 18;
+the installed Apple SDK confirms this in `CLServiceSession.h`. The shared Swift
+packages also declare iOS 18 as their minimum.
+
+The unchanged app compiled successfully with a development-only deployment minimum
+of 26.0 using Xcode 26.6 / SDK 26.5, then installed and launched on an iOS 26.5
+simulator. The settings screen displayed the bundled 2,695 locations and the
+default-on speed check. No iOS 27-only API requirement or compile failure was found.
+This establishes build and launch compatibility, not physical background/audio
+acceptance across all iOS 26 releases.
+
+To add iOS 26 distribution support, lower the minimum in `project.yml`, regenerate
+the Xcode project, upload a new numbered build, and update the public requirements
+and App Store listing together. The current 1.0.0 (8) and 1.0.1 (9) distribution
+binaries still require iOS 27. iOS 26 supports iPhone 11 and later and iPhone SE
+(2nd generation and later); see [Apple's iOS 26 compatibility list](https://support.apple.com/en-nz/guide/iphone/iphe3fa5df43/ios).
