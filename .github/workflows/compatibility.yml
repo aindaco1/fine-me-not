@@ -24,7 +24,7 @@ on:
         description: Apple simulator runtime version
         required: true
         type: choice
-        options: ['all', '17.5', '18.0', '26.5']
+        options: ['all', '17.5', '18.0', '18.5', '26.5']
         default: 'all'
 permissions:
   contents: read
