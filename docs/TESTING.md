@@ -26,12 +26,15 @@ Development compatibility build: iPhone 16 Pro Max simulator on iOS 18, built wi
 
 On September 14, 2026 at approximately 23:06 UTC, App Store Connect showed build 0.1.0 (2) Testing in the First Drive internal group and the requested tester’s device as **Installed 0.1.0 (2), iPhone 16 Pro Max, iOS 27.0**. The first-drive instructions were saved in TestFlight. This confirms Apple’s installation record; the behavior checks below remain pending.
 
-## Physical TestFlight acceptance — pending
+## Physical TestFlight acceptance — partially verified
+
+On September 15, 2026, Alonso reported hearing a real camera warning over Bluetooth while the iPhone screen was locked. This confirms physical audibility for that reported combination. The exact installed build, camera, lock duration, Silent mode, Low Power Mode, and whether music or a podcast was playing were not supplied. It does not establish the remaining scenarios below.
 
 Use a passenger or a controlled stationary setup for observation; do not interact with the phone while driving. Record app build, iOS build, hardware, start/end time, connection, state and outcome. No route history needs to be uploaded.
 
 | Scenario | Acceptance | Result |
 | --- | --- | --- |
+| Bluetooth, screen locked | Real camera warning is audible | Passed — owner reported September 15, 2026; exact build and other conditions not recorded |
 | Speaker, Silent mode on | One audible brief siren; no duplicate notification sound | Pending |
 | Bluetooth with music/podcast playing | Siren heard; playback ducks then resumes | Pending |
 | Wired CarPlay | Siren heard with screen locked and navigation active | Pending |
