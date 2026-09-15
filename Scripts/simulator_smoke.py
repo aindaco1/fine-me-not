@@ -21,11 +21,37 @@ def sim(*args):
     return subprocess.check_output(['xcrun', 'simctl', *args], text=True, timeout=180).strip()
 
 
+def diagnose_failure(device, journal):
+    """Keep the failing evidence, then probe foreground delivery; never retry to pass."""
+    if not journal or not journal.exists():
+        return
+    (OUTPUT / 'journal.json').write_bytes(journal.read_bytes())
+    command = ['xcrun', 'simctl', 'spawn', device, 'log', 'show', '--last', '5m', '--info',
+               '--style', 'compact', '--predicate', 'process == "locationd" OR process == "FineMeNot"']
+    with (OUTPUT / 'location-service.log').open('w') as log:
+        try:
+            subprocess.run(command, stdout=log, stderr=subprocess.STDOUT, timeout=30, check=False)
+        except subprocess.TimeoutExpired:
+            log.write('\nLocation-service log capture timed out.\n')
+    try:
+        print('Diagnostic foreground probe after failure (does not change test outcome)', flush=True)
+        sim('launch', device, BUNDLE)
+        sim('location', device, 'start', '--speed=25', '--distance=20',
+            '35.05822,-106.6045', '35.05822,-106.5900')
+        time.sleep(60)
+        (OUTPUT / 'foreground-probe-journal.json').write_bytes(journal.read_bytes())
+    except (OSError, subprocess.SubprocessError) as error:
+        (OUTPUT / 'probe-error.txt').write_text(str(error))
+
+
 def main():
     version, app_path = sys.argv[1:]
     app = pathlib.Path(app_path).resolve()
     info = plistlib.loads((app / 'Info.plist').read_bytes())
     OUTPUT.mkdir(parents=True, exist_ok=True)
+    for name in ('result.json', 'journal.json', 'location-service.log', 'foreground-probe-journal.json',
+                 'probe-error.txt', 'cleanup-warning.txt'):
+        (OUTPUT / name).unlink(missing_ok=True)
     runtimes = json.loads(sim('list', 'runtimes', '-j'))['runtimes']
     runtime = next(r for r in runtimes if r['version'] == version and r['isAvailable'] and r['name'].startswith('iOS'))
     device = sim('create', f'Fine Me Not compatibility {version}',
@@ -75,8 +101,11 @@ def main():
                    'physicalDeviceTest': False}
         (OUTPUT / 'result.json').write_text(json.dumps(summary, indent=2) + '\n')
         print(json.dumps(summary, indent=2))
+    except Exception:
+        diagnose_failure(device, journal)
+        raise
     finally:
-        if journal and journal.exists():
+        if journal and journal.exists() and not (OUTPUT / 'journal.json').exists():
             (OUTPUT / 'journal.json').write_bytes(journal.read_bytes())
         # Hosted runners may have no display surface; screenshots can hang even
         # after a successful playback test. The journal and result are evidence.
