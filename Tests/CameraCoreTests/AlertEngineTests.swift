@@ -156,3 +156,35 @@ private func fix(_ latitude: Double, lon: Double = -106, seconds: Double = 0, co
         #expect(parked.evaluate(update, index: index, now: start.addingTimeInterval(Double(second))).isEmpty)
     }
 }
+
+@Test func everyCityWarningAreaAlertsOnceAndRejectsOppositeTravel() throws {
+    let root = URL(fileURLWithPath: #filePath).deletingLastPathComponent().deletingLastPathComponent().deletingLastPathComponent()
+    let snapshot = try CameraSnapshot.decode(Data(contentsOf: root.appending(path: "Data/Published/cameras.json")))
+    let index = CameraIndex(cameras: snapshot.cameras)
+    let areas = snapshot.cameras.filter { $0.id.hasPrefix("abq-") && $0.kind == .possibleSpeed }
+    #expect(areas.count == 21)
+    for area in areas {
+        let heading = try #require(area.travelBearing)
+        // Review geometries may be stored in either order. Follow monitored travel.
+        let points = Geometry.angleDifference(Geometry.bearing(from: area.geometry.first!, to: area.geometry.last!), heading) < 90
+            ? area.geometry : area.geometry.reversed()
+        var forward = AlertEngine(), reverse = AlertEngine()
+        var matches: [String] = []
+        var elapsed = 0.0
+        for (a, b) in zip(points, points.dropFirst()) {
+            let steps = max(1, Int(ceil(Geometry.distance(a, b) / 20)))
+            for step in 0..<steps {
+                let t = Double(step) / Double(steps)
+                let position = Coordinate(a.latitude + (b.latitude-a.latitude)*t, a.longitude + (b.longitude-a.longitude)*t)
+                let time = start.addingTimeInterval(elapsed)
+                let update = LocationFix(coordinate: position, timestamp: time, accuracy: 5, speed: 15, course: heading)
+                matches += forward.evaluate(update, index: index, now: time).map(\.camera.id).filter { $0 == area.id }
+                let opposite = LocationFix(coordinate: position, timestamp: time, accuracy: 5, speed: 15,
+                                           course: (heading + 180).truncatingRemainder(dividingBy: 360))
+                #expect(!reverse.evaluate(opposite, index: index, now: time).contains { $0.camera.id == area.id })
+                elapsed += 1
+            }
+        }
+        #expect(matches == [area.id], "Area should warn once: \(area.id)")
+    }
+}

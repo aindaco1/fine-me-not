@@ -1,13 +1,13 @@
 {
   "counts": {
-    "possibleSpeed": 5,
+    "possibleSpeed": 24,
     "redLight": 393,
     "speed": 1136,
     "speedAndRedLight": 224
   },
   "fetches": [],
-  "generatedAt": "2026-09-15T00:20:33Z",
-  "records": 1758,
+  "generatedAt": "2026-09-15T00:59:04Z",
+  "records": 1777,
   "review": [
     {
       "id": "osm-relation-545916",
@@ -312,6 +312,11 @@
     {
       "id": "osm-node-14079677763",
       "reason": "Metro source requires explicit reconciliation"
+    },
+    {
+      "id": "abq-broadway-iron-sb",
+      "near": "abq-broadway-iron-coal-possible-nb",
+      "reason": "Nearby records; no automatic proximity merge"
     },
     {
       "id": "abq-gibson-carlisle-san-mateo-wb",

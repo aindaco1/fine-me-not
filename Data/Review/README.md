@@ -22,7 +22,7 @@ The Albuquerque CSV was parsed from the current numbered list. County location/d
 
 ## Interpretation
 
-Every record is marked `release_ready=false`.
+Every row in the original research transcription is marked `release_ready=false`; this historical flag does not describe the current published snapshot.
 
 Official rows deliberately leave latitude/longitude empty. None of the reviewed lists supplied validated, precise device coordinates. A geocoded street or intersection is not automatically a camera location. `date_as_listed` preserves the source date; it is not a date we independently verified in the field. For the newest Albuquerque entries the source supplies dates without explicitly repeating the word “live,” so their status is `listed_current`.
 
@@ -42,8 +42,12 @@ Official rows are a factual research transcription with source links. No explici
 
 ## Before use in alerts
 
-Follow the reconciliation rules in the [implementation plan](../../docs/PLAN.md): verify fixed device/monitored-lane coordinates or mobile-site/corridor geometry and approach directions; verify current status and eligibility; resolve duplicate evidence without merging distinct approaches; assign stable IDs; preserve field evidence and review dates. Exclude unresolved records from the release snapshot. Keep last good data when a source fails or changes unexpectedly, honoring explicit removals and deployment end dates. The “Possible” label relaxes certainty about mobile-camera presence, not certainty about its documented deployment location.
+Follow the reconciliation rules in the [implementation plan](../../docs/PLAN.md): verify fixed device/monitored-lane coordinates or mobile-site/corridor geometry and approach directions; verify current status and eligibility; resolve duplicate evidence without merging distinct approaches; assign stable IDs; preserve field evidence and review dates. Exclude unresolved records from the release snapshot. Keep last good data when a source fails or changes unexpectedly, honoring explicit removals and deployment end dates. The current acceptance policy also permits explicitly approximate fixed-site warning areas after road-geometry review; it never permits inventing device coordinates. See the current [data policy](../../docs/DATA.md).
 
 ## Implementation follow-up
 
 These original research files remain unchanged as evidence of the initial audit. Accepted desk reconciliations now live in `../Overrides/metro.json`; current published counts and outstanding review candidates live in `publisher-report.json`. Acceptance is not field verification.
+
+## City coverage completion
+
+All 40 city-listed approaches now have accepted production records (19 camera points, 21 approximate areas). `albuquerque-road-areas.json` retains the road/junction evidence for the 19 additions in build 5; `coors-st-joseph-road-geometry.json` retains the earlier Coors review. The original inventory is deliberately unchanged. Each accepted city record’s `reviewReference` links to its `ABQ-xx` research row. See [the current per-approach coverage table](../../docs/ALBUQUERQUE.md). These are desk reviews; physical hardware coordinates and road-test acceptance remain separate.

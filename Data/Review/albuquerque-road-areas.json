@@ -1,0 +1,9143 @@
+{
+  "reviewedAt": "2026-09-15T00:59:04Z",
+  "source": "https://www.openstreetmap.org/copyright",
+  "retrievalEndpoint": "https://overpass-api.de/api/interpreter",
+  "license": "ODbL-1.0",
+  "sourceTimestamp": "2026-09-15T00:50:06Z",
+  "method": "Reviewed OSM carriageway graph, city-listed monitored direction, named cross streets and city certificates for naming ambiguities. Existing OSM vertices are followed; only bounded-area endpoints may be interpolated along their actual road edge. Area extents are an app policy, not camera coordinates or official enforcement boundaries.",
+  "areas": [
+    {
+      "researchID": "ABQ-09",
+      "id": "abq-montgomery-jennifer-possible-wb",
+      "siteID": "abq-montgomery-jennifer",
+      "label": "Montgomery and Jennifer \u00b7 WB \u00b7 approximate area",
+      "kind": "possibleSpeed",
+      "travelBearing": 270,
+      "geometry": [
+        {
+          "latitude": 35.13078355960097,
+          "longitude": -106.55228037323658
+        },
+        {
+          "latitude": 35.1307835,
+          "longitude": -106.5526468
+        },
+        {
+          "latitude": 35.1307835,
+          "longitude": -106.552665
+        },
+        {
+          "latitude": 35.1307834,
+          "longitude": -106.5530884
+        },
+        {
+          "latitude": 35.1307898,
+          "longitude": -106.5542448
+        },
+        {
+          "latitude": 35.1307942,
+          "longitude": -106.5550294
+        },
+        {
+          "latitude": 35.1308029,
+          "longitude": -106.5577669
+        },
+        {
+          "latitude": 35.130802980835746,
+          "longitude": -106.55777845100262
+        }
+      ],
+      "nodeIDs": [
+        1858003521,
+        5729079425,
+        1858003557,
+        140983269,
+        1857987097,
+        140953557,
+        140980403,
+        2622344286
+      ],
+      "wayIDs": [
+        624119061,
+        814515102,
+        1059489382,
+        1368959437,
+        1368969390
+      ],
+      "crossWayIDs": [
+        14414956,
+        1368959436
+      ],
+      "mode": "near",
+      "lengthMeters": 500.0,
+      "crossStreetGapMeters": 0,
+      "extraSource": null
+    },
+    {
+      "researchID": "ABQ-12",
+      "id": "abq-cesar-chavez-walter-possible-eb",
+      "siteID": "abq-cesar-chavez-walter",
+      "label": "Avenida Cesar Chavez and Walter \u00b7 EB \u00b7 approximate area",
+      "kind": "possibleSpeed",
+      "travelBearing": 90,
+      "geometry": [
+        {
+          "latitude": 35.06961841607528,
+          "longitude": -106.64465168574587
+        },
+        {
+          "latitude": 35.0696255,
+          "longitude": -106.6443027
+        },
+        {
+          "latitude": 35.0696379,
+          "longitude": -106.643708
+        },
+        {
+          "latitude": 35.0696489,
+          "longitude": -106.6431766
+        },
+        {
+          "latitude": 35.0696516,
+          "longitude": -106.6431059
+        },
+        {
+          "latitude": 35.0696525,
+          "longitude": -106.6430184
+        },
+        {
+          "latitude": 35.069679,
+          "longitude": -106.6419057
+        },
+        {
+          "latitude": 35.0696864,
+          "longitude": -106.6416208
+        },
+        {
+          "latitude": 35.069711,
+          "longitude": -106.6406809
+        },
+        {
+          "latitude": 35.0697151,
+          "longitude": -106.6405431
+        },
+        {
+          "latitude": 35.0697233,
+          "longitude": -106.6401545
+        },
+        {
+          "latitude": 35.0697241,
+          "longitude": -106.6401163
+        },
+        {
+          "latitude": 35.0697264,
+          "longitude": -106.6400084
+        },
+        {
+          "latitude": 35.069740282828604,
+          "longitude": -106.63915974967883
+        }
+      ],
+      "nodeIDs": [
+        2110804070,
+        141120685,
+        2110803990,
+        12112754397,
+        140982898,
+        12112754393,
+        140887672,
+        10847186464,
+        141121821,
+        140765508,
+        11657066245,
+        12113123392,
+        140792104,
+        11657066244
+      ],
+      "wayIDs": [
+        172936676,
+        1331437200
+      ],
+      "crossWayIDs": [
+        1473399041,
+        1479517829
+      ],
+      "mode": "near",
+      "lengthMeters": 500.0,
+      "crossStreetGapMeters": 0,
+      "extraSource": null
+    },
+    {
+      "researchID": "ABQ-21",
+      "id": "abq-central-louisiana-san-pedro-possible-eb",
+      "siteID": "abq-central-louisiana-san-pedro",
+      "label": "Central between Louisiana and San Pedro \u00b7 EB \u00b7 approximate area",
+      "kind": "possibleSpeed",
+      "travelBearing": 90,
+      "geometry": [
+        {
+          "latitude": 35.076773,
+          "longitude": -106.577492
+        },
+        {
+          "latitude": 35.076758,
+          "longitude": -106.577349
+        },
+        {
+          "latitude": 35.076742,
+          "longitude": -106.577198
+        },
+        {
+          "latitude": 35.0767075,
+          "longitude": -106.5768712
+        },
+        {
+          "latitude": 35.0766867,
+          "longitude": -106.5766741
+        },
+        {
+          "latitude": 35.0766585,
+          "longitude": -106.5764068
+        },
+        {
+          "latitude": 35.0765416,
+          "longitude": -106.5752982
+        },
+        {
+          "latitude": 35.0765256,
+          "longitude": -106.5751472
+        },
+        {
+          "latitude": 35.0764774,
+          "longitude": -106.5747049
+        },
+        {
+          "latitude": 35.0764235,
+          "longitude": -106.574211
+        },
+        {
+          "latitude": 35.0763613,
+          "longitude": -106.573636
+        },
+        {
+          "latitude": 35.0762848,
+          "longitude": -106.5729394
+        },
+        {
+          "latitude": 35.0762489,
+          "longitude": -106.572609
+        },
+        {
+          "latitude": 35.0762383,
+          "longitude": -106.5725109
+        },
+        {
+          "latitude": 35.0762329,
+          "longitude": -106.5724615
+        },
+        {
+          "latitude": 35.0762212,
+          "longitude": -106.5723493
+        },
+        {
+          "latitude": 35.0762108,
+          "longitude": -106.5722584
+        },
+        {
+          "latitude": 35.0762077,
+          "longitude": -106.5722306
+        },
+        {
+          "latitude": 35.0761995,
+          "longitude": -106.5721576
+        },
+        {
+          "latitude": 35.0760412,
+          "longitude": -106.5707565
+        },
+        {
+          "latitude": 35.0759668,
+          "longitude": -106.5700494
+        },
+        {
+          "latitude": 35.0759333,
+          "longitude": -106.5697317
+        },
+        {
+          "latitude": 35.0758806,
+          "longitude": -106.5692316
+        },
+        {
+          "latitude": 35.075857,
+          "longitude": -106.5690053
+        },
+        {
+          "latitude": 35.0758343,
+          "longitude": -106.568788
+        },
+        {
+          "latitude": 35.0758301,
+          "longitude": -106.568748
+        },
+        {
+          "latitude": 35.0758121,
+          "longitude": -106.568572
+        }
+      ],
+      "nodeIDs": [
+        1769010182,
+        8572501070,
+        7547447221,
+        7547447225,
+        11510313785,
+        11510313790,
+        1769010229,
+        1769010050,
+        11012825939,
+        1951619866,
+        13977843282,
+        1769010083,
+        11012857968,
+        13628698368,
+        11012857992,
+        5353713235,
+        11012857940,
+        5353713234,
+        11012857997,
+        1769010120,
+        11255103570,
+        11255103575,
+        10755530616,
+        10286826417,
+        9029270307,
+        8042767702,
+        1769010170
+      ],
+      "wayIDs": [
+        587564604,
+        587564610,
+        587564619,
+        587564900,
+        807094336,
+        807094338
+      ],
+      "crossWayIDs": [
+        14423196,
+        552034133,
+        1443392379
+      ],
+      "mode": "between",
+      "lengthMeters": 818.7,
+      "crossStreetGapMeters": 15.4,
+      "extraSource": null
+    },
+    {
+      "researchID": "ABQ-22",
+      "id": "abq-central-louisiana-san-pedro-possible-wb",
+      "siteID": "abq-central-louisiana-san-pedro",
+      "label": "Central between Louisiana and San Pedro \u00b7 WB \u00b7 approximate area",
+      "kind": "possibleSpeed",
+      "travelBearing": 270,
+      "geometry": [
+        {
+          "latitude": 35.0759362,
+          "longitude": -106.56857
+        },
+        {
+          "latitude": 35.075956,
+          "longitude": -106.568743
+        },
+        {
+          "latitude": 35.0761592,
+          "longitude": -106.5705218
+        },
+        {
+          "latitude": 35.0761809,
+          "longitude": -106.5707247
+        },
+        {
+          "latitude": 35.076212,
+          "longitude": -106.5710175
+        },
+        {
+          "latitude": 35.0763272,
+          "longitude": -106.5720872
+        },
+        {
+          "latitude": 35.0763312,
+          "longitude": -106.5721248
+        },
+        {
+          "latitude": 35.0763406,
+          "longitude": -106.572212
+        },
+        {
+          "latitude": 35.0763584,
+          "longitude": -106.5723569
+        },
+        {
+          "latitude": 35.0763683,
+          "longitude": -106.5724702
+        },
+        {
+          "latitude": 35.0764161,
+          "longitude": -106.5729379
+        },
+        {
+          "latitude": 35.0765516,
+          "longitude": -106.5742009
+        },
+        {
+          "latitude": 35.0766681,
+          "longitude": -106.575286
+        },
+        {
+          "latitude": 35.0767152,
+          "longitude": -106.575713
+        },
+        {
+          "latitude": 35.0767781,
+          "longitude": -106.5762824
+        },
+        {
+          "latitude": 35.0767979,
+          "longitude": -106.5764621
+        },
+        {
+          "latitude": 35.0768401,
+          "longitude": -106.5768444
+        },
+        {
+          "latitude": 35.0768598,
+          "longitude": -106.5770221
+        },
+        {
+          "latitude": 35.0768734,
+          "longitude": -106.5771457
+        },
+        {
+          "latitude": 35.076895,
+          "longitude": -106.5773418
+        },
+        {
+          "latitude": 35.0769115,
+          "longitude": -106.577491
+        }
+      ],
+      "nodeIDs": [
+        141041930,
+        8042767703,
+        3418903457,
+        141117940,
+        3418903481,
+        13628698371,
+        11012857996,
+        5353713227,
+        5353713236,
+        11012857993,
+        140833544,
+        1951619948,
+        140862245,
+        12124273807,
+        10752277097,
+        10752333505,
+        7547447228,
+        11353722407,
+        7547447229,
+        8572501071,
+        141078392
+      ],
+      "wayIDs": [
+        48489645
+      ],
+      "crossWayIDs": [
+        14423196,
+        927875478,
+        1387946736
+      ],
+      "mode": "between",
+      "lengthMeters": 819.0,
+      "crossStreetGapMeters": 0,
+      "extraSource": null
+    },
+    {
+      "researchID": "ABQ-23",
+      "id": "abq-carlisle-hilton-delamar-possible-sb",
+      "siteID": "abq-carlisle-hilton-delamar",
+      "label": "Carlisle between Hilton and Delamar \u00b7 SB \u00b7 approximate area",
+      "kind": "possibleSpeed",
+      "travelBearing": 180,
+      "geometry": [
+        {
+          "latitude": 35.1283832,
+          "longitude": -106.6041989
+        },
+        {
+          "latitude": 35.1278143,
+          "longitude": -106.6042113
+        },
+        {
+          "latitude": 35.1275824,
+          "longitude": -106.6042126
+        },
+        {
+          "latitude": 35.1275629,
+          "longitude": -106.6042141
+        },
+        {
+          "latitude": 35.1270767,
+          "longitude": -106.6042054
+        }
+      ],
+      "nodeIDs": [
+        1994089153,
+        1994089223,
+        1994089170,
+        1994089221,
+        1994089213
+      ],
+      "wayIDs": [
+        188783578,
+        188783581,
+        188783583
+      ],
+      "crossWayIDs": [
+        14417546,
+        1474651377,
+        1474651599
+      ],
+      "mode": "between",
+      "lengthMeters": 145.3,
+      "crossStreetGapMeters": 0,
+      "extraSource": "https://www.cabq.gov/automated-speed-enforcement/documents/carlisle-at-delmar-4117-test-4f2c1-01-29-26.pdf"
+    },
+    {
+      "researchID": "ABQ-24",
+      "id": "abq-lead-bryn-mawr-possible-wb",
+      "siteID": "abq-lead-bryn-mawr",
+      "label": "Lead near Bryn Mawr \u00b7 WB \u00b7 approximate area",
+      "kind": "possibleSpeed",
+      "travelBearing": 270,
+      "geometry": [
+        {
+          "latitude": 35.077275220274075,
+          "longitude": -106.6068178475754
+        },
+        {
+          "latitude": 35.0772759,
+          "longitude": -106.6069511
+        },
+        {
+          "latitude": 35.0772764,
+          "longitude": -106.6070543
+        },
+        {
+          "latitude": 35.0772768,
+          "longitude": -106.6071551
+        },
+        {
+          "latitude": 35.0772786,
+          "longitude": -106.6076878
+        },
+        {
+          "latitude": 35.0772793,
+          "longitude": -106.6082015
+        },
+        {
+          "latitude": 35.0772794,
+          "longitude": -106.6083079
+        },
+        {
+          "latitude": 35.0772796,
+          "longitude": -106.6084199
+        },
+        {
+          "latitude": 35.0772807,
+          "longitude": -106.60893
+        },
+        {
+          "latitude": 35.0772819,
+          "longitude": -106.6094611
+        },
+        {
+          "latitude": 35.0772821,
+          "longitude": -106.6095651
+        },
+        {
+          "latitude": 35.0772822,
+          "longitude": -106.6096804
+        },
+        {
+          "latitude": 35.0772826,
+          "longitude": -106.6101933
+        },
+        {
+          "latitude": 35.0772829,
+          "longitude": -106.6107061
+        },
+        {
+          "latitude": 35.077283,
+          "longitude": -106.6108
+        },
+        {
+          "latitude": 35.077284,
+          "longitude": -106.6109288
+        },
+        {
+          "latitude": 35.0772882,
+          "longitude": -106.6114433
+        },
+        {
+          "latitude": 35.0772924,
+          "longitude": -106.6119586
+        },
+        {
+          "latitude": 35.0772933,
+          "longitude": -106.6120645
+        },
+        {
+          "latitude": 35.0772939,
+          "longitude": -106.6121768
+        },
+        {
+          "latitude": 35.077294690006866,
+          "longitude": -106.61231229891885
+        }
+      ],
+      "nodeIDs": [
+        1839421946,
+        10981360113,
+        140827801,
+        10981329595,
+        140827798,
+        10981329542,
+        140827796,
+        10981329540,
+        1839421948,
+        10981421410,
+        140827795,
+        10981421415,
+        2063477133,
+        10981421430,
+        140740140,
+        10981421434,
+        2063477132,
+        10981421451,
+        140827792,
+        10980987524,
+        2540720984
+      ],
+      "wayIDs": [
+        14407793
+      ],
+      "crossWayIDs": [
+        14418755
+      ],
+      "mode": "near",
+      "lengthMeters": 500.0,
+      "crossStreetGapMeters": 0,
+      "extraSource": null
+    },
+    {
+      "researchID": "ABQ-25",
+      "id": "abq-eubank-sierra-vista-possible-sb",
+      "siteID": "abq-eubank-sierra-vista",
+      "label": "Eubank near Sierra Vista \u00b7 SB \u00b7 approximate area",
+      "kind": "possibleSpeed",
+      "travelBearing": 180,
+      "geometry": [
+        {
+          "latitude": 35.1285204,
+          "longitude": -106.5334341
+        },
+        {
+          "latitude": 35.1282606,
+          "longitude": -106.5334325
+        },
+        {
+          "latitude": 35.1280448,
+          "longitude": -106.5334312
+        },
+        {
+          "latitude": 35.1278419,
+          "longitude": -106.5334302
+        },
+        {
+          "latitude": 35.1271586,
+          "longitude": -106.5334263
+        },
+        {
+          "latitude": 35.1270309,
+          "longitude": -106.5334256
+        },
+        {
+          "latitude": 35.1269539,
+          "longitude": -106.5334249
+        },
+        {
+          "latitude": 35.1263467,
+          "longitude": -106.5334242
+        },
+        {
+          "latitude": 35.1257441,
+          "longitude": -106.533418
+        },
+        {
+          "latitude": 35.1252353,
+          "longitude": -106.5334132
+        },
+        {
+          "latitude": 35.1241407,
+          "longitude": -106.5334033
+        },
+        {
+          "latitude": 35.1235284,
+          "longitude": -106.533406
+        },
+        {
+          "latitude": 35.1234599,
+          "longitude": -106.5334075
+        },
+        {
+          "latitude": 35.1233604,
+          "longitude": -106.5334093
+        },
+        {
+          "latitude": 35.1233039,
+          "longitude": -106.533408
+        },
+        {
+          "latitude": 35.1229586,
+          "longitude": -106.5334031
+        },
+        {
+          "latitude": 35.121775715495716,
+          "longitude": -106.53338640159527
+        }
+      ],
+      "nodeIDs": [
+        141015622,
+        14048565122,
+        10586138113,
+        4332073174,
+        4332073131,
+        140852043,
+        10929305090,
+        141015630,
+        10929305042,
+        140842129,
+        141015633,
+        10073961653,
+        141015639,
+        1821022737,
+        10073961657,
+        10583486531,
+        140853339
+      ],
+      "wayIDs": [
+        1478493562,
+        1478493671,
+        1478493672
+      ],
+      "crossWayIDs": [
+        14426055
+      ],
+      "mode": "forward",
+      "lengthMeters": 750.0,
+      "crossStreetGapMeters": 0,
+      "extraSource": "https://www.cabq.gov/automated-speed-enforcement/documents/eubank-at-sierra-vista-1262-test-s4e84e-02-06-26.pdf"
+    },
+    {
+      "researchID": "ABQ-26",
+      "id": "abq-broadway-iron-coal-possible-nb",
+      "siteID": "abq-broadway-iron-coal",
+      "label": "Broadway between Iron and Coal \u00b7 NB \u00b7 approximate area",
+      "kind": "possibleSpeed",
+      "travelBearing": 0,
+      "geometry": [
+        {
+          "latitude": 35.078754,
+          "longitude": -106.645593
+        },
+        {
+          "latitude": 35.0788323,
+          "longitude": -106.6455122
+        },
+        {
+          "latitude": 35.0796355,
+          "longitude": -106.6453587
+        },
+        {
+          "latitude": 35.0797337,
+          "longitude": -106.6453402
+        }
+      ],
+      "nodeIDs": [
+        141071431,
+        2014685515,
+        10656483914,
+        140909594
+      ],
+      "wayIDs": [
+        14422165
+      ],
+      "crossWayIDs": [
+        14412414,
+        14423239,
+        172529240
+      ],
+      "mode": "between",
+      "lengthMeters": 112.8,
+      "crossStreetGapMeters": 0,
+      "extraSource": null
+    },
+    {
+      "researchID": "ABQ-27",
+      "id": "abq-unser-old-ouray-possible-nb",
+      "siteID": "abq-unser-old-ouray",
+      "label": "Unser near Old Ouray \u00b7 NB \u00b7 approximate area",
+      "kind": "possibleSpeed",
+      "travelBearing": 0,
+      "geometry": [
+        {
+          "latitude": 35.1104514259222,
+          "longitude": -106.73103823952394
+        },
+        {
+          "latitude": 35.1106387,
+          "longitude": -106.7310423
+        },
+        {
+          "latitude": 35.1118941,
+          "longitude": -106.7310716
+        },
+        {
+          "latitude": 35.1126994,
+          "longitude": -106.7310846
+        },
+        {
+          "latitude": 35.1128208,
+          "longitude": -106.7310861
+        },
+        {
+          "latitude": 35.1130099,
+          "longitude": -106.731084
+        },
+        {
+          "latitude": 35.1131986,
+          "longitude": -106.7310701
+        },
+        {
+          "latitude": 35.1133865,
+          "longitude": -106.7310444
+        },
+        {
+          "latitude": 35.113573,
+          "longitude": -106.731007
+        },
+        {
+          "latitude": 35.1137578,
+          "longitude": -106.730958
+        },
+        {
+          "latitude": 35.1139402,
+          "longitude": -106.7308975
+        },
+        {
+          "latitude": 35.1141199,
+          "longitude": -106.7308257
+        },
+        {
+          "latitude": 35.1142964,
+          "longitude": -106.7307428
+        },
+        {
+          "latitude": 35.114468,
+          "longitude": -106.7306495
+        },
+        {
+          "latitude": 35.1146356,
+          "longitude": -106.7305457
+        },
+        {
+          "latitude": 35.1147987,
+          "longitude": -106.7304316
+        },
+        {
+          "latitude": 35.11484148220287,
+          "longitude": -106.73039799701661
+        }
+      ],
+      "nodeIDs": [
+        1721338745,
+        1722527621,
+        5924572657,
+        141050573,
+        8493285783,
+        8493285782,
+        8493285781,
+        8493285780,
+        8493285779,
+        8493285778,
+        8493285777,
+        8493285776,
+        8493285775,
+        8493285774,
+        8493285773,
+        8493285772,
+        8493285771
+      ],
+      "wayIDs": [
+        1371054943
+      ],
+      "crossWayIDs": [
+        14420980
+      ],
+      "mode": "near",
+      "lengthMeters": 500.0,
+      "crossStreetGapMeters": 23.6,
+      "extraSource": null
+    },
+    {
+      "researchID": "ABQ-28",
+      "id": "abq-juan-tabo-copper-possible-sb",
+      "siteID": "abq-juan-tabo-copper",
+      "label": "Juan Tabo near Copper \u00b7 SB \u00b7 approximate area",
+      "kind": "possibleSpeed",
+      "travelBearing": 180,
+      "geometry": [
+        {
+          "latitude": 35.086234124573686,
+          "longitude": -106.51512051890275
+        },
+        {
+          "latitude": 35.0862204,
+          "longitude": -106.5151208
+        },
+        {
+          "latitude": 35.0860861,
+          "longitude": -106.5151251
+        },
+        {
+          "latitude": 35.0859466,
+          "longitude": -106.5151284
+        },
+        {
+          "latitude": 35.085653,
+          "longitude": -106.5151352
+        },
+        {
+          "latitude": 35.0854758,
+          "longitude": -106.5151394
+        },
+        {
+          "latitude": 35.0850034,
+          "longitude": -106.5151504
+        },
+        {
+          "latitude": 35.0842422,
+          "longitude": -106.5151657
+        },
+        {
+          "latitude": 35.0832607,
+          "longitude": -106.5151851
+        },
+        {
+          "latitude": 35.0827756,
+          "longitude": -106.5151958
+        },
+        {
+          "latitude": 35.0822428,
+          "longitude": -106.5152056
+        },
+        {
+          "latitude": 35.0818937,
+          "longitude": -106.51521
+        },
+        {
+          "latitude": 35.0812565,
+          "longitude": -106.5152256
+        },
+        {
+          "latitude": 35.0807852,
+          "longitude": -106.5152395
+        },
+        {
+          "latitude": 35.0806963,
+          "longitude": -106.5152463
+        },
+        {
+          "latitude": 35.0798786,
+          "longitude": -106.515262
+        },
+        {
+          "latitude": 35.0795565,
+          "longitude": -106.5152595
+        },
+        {
+          "latitude": 35.0794904,
+          "longitude": -106.515259
+        }
+      ],
+      "nodeIDs": [
+        11117599743,
+        13620125394,
+        7601804900,
+        13690726439,
+        13690726437,
+        12941854259,
+        4353898765,
+        4353898740,
+        1821892519,
+        1821892582,
+        1821892791,
+        1822027192,
+        1821892858,
+        3224579174,
+        1821892752,
+        1821892556,
+        11117599730,
+        1821892860
+      ],
+      "wayIDs": [
+        813748249
+      ],
+      "crossWayIDs": [
+        14416001,
+        741148220
+      ],
+      "mode": "backward",
+      "lengthMeters": 750.0,
+      "crossStreetGapMeters": 0,
+      "extraSource": "https://www.cabq.gov/automated-speed-enforcement/ase-documents"
+    },
+    {
+      "researchID": "ABQ-29",
+      "id": "abq-zuni-mesilla-espanola-possible-wb",
+      "siteID": "abq-zuni-mesilla-espanola",
+      "label": "Zuni between Mesilla and Espanola \u00b7 WB \u00b7 approximate area",
+      "kind": "possibleSpeed",
+      "travelBearing": 270,
+      "geometry": [
+        {
+          "latitude": 35.0727202,
+          "longitude": -106.5644121
+        },
+        {
+          "latitude": 35.0727022,
+          "longitude": -106.565373
+        }
+      ],
+      "nodeIDs": [
+        3416881116,
+        141014904
+      ],
+      "wayIDs": [
+        349950458
+      ],
+      "crossWayIDs": [
+        14418882,
+        334627113
+      ],
+      "mode": "between",
+      "lengthMeters": 87.5,
+      "crossStreetGapMeters": 0,
+      "extraSource": null
+    },
+    {
+      "researchID": "ABQ-30",
+      "id": "abq-menaul-vassar-possible-wb",
+      "siteID": "abq-menaul-vassar",
+      "label": "Menaul west of Vassar \u00b7 WB \u00b7 approximate area",
+      "kind": "possibleSpeed",
+      "travelBearing": 270,
+      "geometry": [
+        {
+          "latitude": 35.1092765,
+          "longitude": -106.6152272
+        },
+        {
+          "latitude": 35.1092763,
+          "longitude": -106.6153175
+        },
+        {
+          "latitude": 35.1092749,
+          "longitude": -106.6159018
+        },
+        {
+          "latitude": 35.1092724,
+          "longitude": -106.6169146
+        },
+        {
+          "latitude": 35.1092666,
+          "longitude": -106.6178501
+        },
+        {
+          "latitude": 35.1092645,
+          "longitude": -106.6181789
+        },
+        {
+          "latitude": 35.1092652,
+          "longitude": -106.6185967
+        },
+        {
+          "latitude": 35.1092616,
+          "longitude": -106.6190154
+        },
+        {
+          "latitude": 35.1092555,
+          "longitude": -106.6196071
+        },
+        {
+          "latitude": 35.1092541,
+          "longitude": -106.6198364
+        },
+        {
+          "latitude": 35.1092522,
+          "longitude": -106.6201325
+        },
+        {
+          "latitude": 35.1092506,
+          "longitude": -106.6203859
+        },
+        {
+          "latitude": 35.1092522,
+          "longitude": -106.6210183
+        },
+        {
+          "latitude": 35.109253,
+          "longitude": -106.621357
+        },
+        {
+          "latitude": 35.1092541,
+          "longitude": -106.6217861
+        },
+        {
+          "latitude": 35.1092518,
+          "longitude": -106.6223696
+        },
+        {
+          "latitude": 35.1092495,
+          "longitude": -106.6227609
+        },
+        {
+          "latitude": 35.1092466,
+          "longitude": -106.6232429
+        },
+        {
+          "latitude": 35.10924566465949,
+          "longitude": -106.62347205842421
+        }
+      ],
+      "nodeIDs": [
+        140740730,
+        10837831269,
+        11045891788,
+        140965784,
+        7628824552,
+        2153843174,
+        10736980041,
+        10736980037,
+        8997146897,
+        9948771193,
+        9948771195,
+        140890295,
+        12870106477,
+        12870106480,
+        140965781,
+        7001605519,
+        7439088107,
+        7439088120,
+        9799019321
+      ],
+      "wayIDs": [
+        158817078
+      ],
+      "crossWayIDs": [
+        14403175,
+        1474651347
+      ],
+      "mode": "forward",
+      "lengthMeters": 750.0,
+      "crossStreetGapMeters": 0,
+      "extraSource": null
+    },
+    {
+      "researchID": "ABQ-31",
+      "id": "abq-unser-gwin-possible-sb",
+      "siteID": "abq-unser-gwin",
+      "label": "Unser near Gwin \u00b7 SB \u00b7 approximate area",
+      "kind": "possibleSpeed",
+      "travelBearing": 180,
+      "geometry": [
+        {
+          "latitude": 35.075878570679905,
+          "longitude": -106.72268632718944
+        },
+        {
+          "latitude": 35.0756935,
+          "longitude": -106.7226507
+        },
+        {
+          "latitude": 35.0753982,
+          "longitude": -106.722605
+        },
+        {
+          "latitude": 35.075294,
+          "longitude": -106.7225809
+        },
+        {
+          "latitude": 35.0751447,
+          "longitude": -106.7225434
+        },
+        {
+          "latitude": 35.0749603,
+          "longitude": -106.7225166
+        },
+        {
+          "latitude": 35.0747594,
+          "longitude": -106.7225112
+        },
+        {
+          "latitude": 35.0746465,
+          "longitude": -106.7225164
+        },
+        {
+          "latitude": 35.0745048,
+          "longitude": -106.7225327
+        },
+        {
+          "latitude": 35.0742107,
+          "longitude": -106.7226078
+        },
+        {
+          "latitude": 35.0736609,
+          "longitude": -106.7227525
+        },
+        {
+          "latitude": 35.0726038,
+          "longitude": -106.7230342
+        },
+        {
+          "latitude": 35.0720731,
+          "longitude": -106.7231769
+        },
+        {
+          "latitude": 35.0719238,
+          "longitude": -106.723217
+        },
+        {
+          "latitude": 35.0718182,
+          "longitude": -106.7232444
+        },
+        {
+          "latitude": 35.071615,
+          "longitude": -106.723297
+        },
+        {
+          "latitude": 35.07146579895598,
+          "longitude": -106.72334566325443
+        }
+      ],
+      "nodeIDs": [
+        1706011452,
+        1706011474,
+        1706011394,
+        1706011496,
+        1706011436,
+        1706011351,
+        1706011451,
+        1706011497,
+        1706011433,
+        1706011476,
+        1706011397,
+        1706011447,
+        12302067055,
+        140824055,
+        12302067054,
+        1706011521,
+        1706011450
+      ],
+      "wayIDs": [
+        158457188,
+        741128060
+      ],
+      "crossWayIDs": [
+        14419249
+      ],
+      "mode": "near",
+      "lengthMeters": 500.0,
+      "crossStreetGapMeters": 20.9,
+      "extraSource": null
+    },
+    {
+      "researchID": "ABQ-32",
+      "id": "abq-fourth-griegos-possible-sb",
+      "siteID": "abq-fourth-griegos",
+      "label": "Fourth Street north of Griegos \u00b7 SB \u00b7 approximate area",
+      "kind": "possibleSpeed",
+      "travelBearing": 180,
+      "geometry": [
+        {
+          "latitude": 35.137051650234795,
+          "longitude": -106.641569793784
+        },
+        {
+          "latitude": 35.137044,
+          "longitude": -106.641571
+        },
+        {
+          "latitude": 35.1368455,
+          "longitude": -106.6416111
+        },
+        {
+          "latitude": 35.1367311,
+          "longitude": -106.6416342
+        },
+        {
+          "latitude": 35.1366848,
+          "longitude": -106.6416436
+        },
+        {
+          "latitude": 35.1364436,
+          "longitude": -106.6416923
+        },
+        {
+          "latitude": 35.136287,
+          "longitude": -106.641724
+        },
+        {
+          "latitude": 35.1359283,
+          "longitude": -106.6417881
+        },
+        {
+          "latitude": 35.1358823,
+          "longitude": -106.6417963
+        },
+        {
+          "latitude": 35.1358374,
+          "longitude": -106.6418048
+        },
+        {
+          "latitude": 35.1357738,
+          "longitude": -106.6418085
+        },
+        {
+          "latitude": 35.1354809,
+          "longitude": -106.641872
+        },
+        {
+          "latitude": 35.135294,
+          "longitude": -106.6419072
+        },
+        {
+          "latitude": 35.1349684,
+          "longitude": -106.6419686
+        },
+        {
+          "latitude": 35.134669,
+          "longitude": -106.6420269
+        },
+        {
+          "latitude": 35.1344956,
+          "longitude": -106.6420606
+        },
+        {
+          "latitude": 35.1343218,
+          "longitude": -106.6420944
+        },
+        {
+          "latitude": 35.1338084,
+          "longitude": -106.6421943
+        },
+        {
+          "latitude": 35.1337663,
+          "longitude": -106.6422025
+        },
+        {
+          "latitude": 35.1336222,
+          "longitude": -106.6422286
+        },
+        {
+          "latitude": 35.1334602,
+          "longitude": -106.6422587
+        },
+        {
+          "latitude": 35.1331102,
+          "longitude": -106.6423227
+        },
+        {
+          "latitude": 35.1330889,
+          "longitude": -106.642327
+        },
+        {
+          "latitude": 35.1329162,
+          "longitude": -106.6423587
+        },
+        {
+          "latitude": 35.1328134,
+          "longitude": -106.6423776
+        },
+        {
+          "latitude": 35.1326239,
+          "longitude": -106.6424124
+        },
+        {
+          "latitude": 35.132381,
+          "longitude": -106.642457
+        },
+        {
+          "latitude": 35.1319873,
+          "longitude": -106.6425303
+        },
+        {
+          "latitude": 35.131935,
+          "longitude": -106.64254
+        },
+        {
+          "latitude": 35.1316618,
+          "longitude": -106.6425958
+        },
+        {
+          "latitude": 35.1315404,
+          "longitude": -106.64262
+        },
+        {
+          "latitude": 35.131293,
+          "longitude": -106.642671
+        },
+        {
+          "latitude": 35.1309642,
+          "longitude": -106.6427316
+        },
+        {
+          "latitude": 35.1307811,
+          "longitude": -106.6427673
+        },
+        {
+          "latitude": 35.1304532,
+          "longitude": -106.6428312
+        },
+        {
+          "latitude": 35.1303894,
+          "longitude": -106.6428506
+        }
+      ],
+      "nodeIDs": [
+        7485703143,
+        140948660,
+        7485703137,
+        12718188309,
+        12718188311,
+        11964554850,
+        140881303,
+        7485703125,
+        140948657,
+        12079038142,
+        12079038137,
+        12079038138,
+        13536657078,
+        140948654,
+        12740627465,
+        12740627459,
+        12740627470,
+        13434298211,
+        140948650,
+        13434298207,
+        7605291024,
+        10763253121,
+        7605291035,
+        10763253112,
+        10763253115,
+        10763253117,
+        140863566,
+        5417763669,
+        140948646,
+        5417763678,
+        10289711601,
+        140948643,
+        5235724268,
+        13020129480,
+        140948640,
+        140928634
+      ],
+      "wayIDs": [
+        1416884055,
+        1416884057
+      ],
+      "crossWayIDs": [
+        575357817,
+        1416884056
+      ],
+      "mode": "backward",
+      "lengthMeters": 750.0,
+      "crossStreetGapMeters": 0,
+      "extraSource": null
+    },
+    {
+      "researchID": "ABQ-33",
+      "id": "abq-central-61st-possible-eb",
+      "siteID": "abq-central-61st",
+      "label": "Central near 61st Street \u00b7 EB \u00b7 approximate area",
+      "kind": "possibleSpeed",
+      "travelBearing": 90,
+      "geometry": [
+        {
+          "latitude": 35.080575568711104,
+          "longitude": -106.70745604931338
+        },
+        {
+          "latitude": 35.0806787,
+          "longitude": -106.7069382
+        },
+        {
+          "latitude": 35.0806995,
+          "longitude": -106.7068339
+        },
+        {
+          "latitude": 35.080739,
+          "longitude": -106.7066355
+        },
+        {
+          "latitude": 35.0807987,
+          "longitude": -106.7063989
+        },
+        {
+          "latitude": 35.0808532,
+          "longitude": -106.706183
+        },
+        {
+          "latitude": 35.0809409,
+          "longitude": -106.7058362
+        },
+        {
+          "latitude": 35.0810182,
+          "longitude": -106.7054929
+        },
+        {
+          "latitude": 35.0811726,
+          "longitude": -106.7048081
+        },
+        {
+          "latitude": 35.081494,
+          "longitude": -106.7033417
+        },
+        {
+          "latitude": 35.0815186,
+          "longitude": -106.7032187
+        },
+        {
+          "latitude": 35.0816067,
+          "longitude": -106.7027827
+        },
+        {
+          "latitude": 35.0816756,
+          "longitude": -106.7024645
+        },
+        {
+          "latitude": 35.0817066,
+          "longitude": -106.7023354
+        },
+        {
+          "latitude": 35.0817503171302,
+          "longitude": -106.70215315288064
+        }
+      ],
+      "nodeIDs": [
+        7021179640,
+        12078939635,
+        7021179651,
+        7021179641,
+        11010211896,
+        11010211901,
+        7021179642,
+        11010211902,
+        7021179650,
+        10153125472,
+        11431784371,
+        7021179643,
+        7021179644,
+        12078939644,
+        13277267790
+      ],
+      "wayIDs": [
+        750995623,
+        1109849749,
+        1109849750,
+        1109849751
+      ],
+      "crossWayIDs": [
+        750995629
+      ],
+      "mode": "near",
+      "lengthMeters": 500.0,
+      "crossStreetGapMeters": 0,
+      "extraSource": null
+    },
+    {
+      "researchID": "ABQ-34",
+      "id": "abq-central-61st-possible-wb",
+      "siteID": "abq-central-61st",
+      "label": "Central near 61st Street \u00b7 WB \u00b7 approximate area",
+      "kind": "possibleSpeed",
+      "travelBearing": 270,
+      "geometry": [
+        {
+          "latitude": 35.08189841670712,
+          "longitude": -106.70220104181287
+        },
+        {
+          "latitude": 35.0818562,
+          "longitude": -106.7023838
+        },
+        {
+          "latitude": 35.0818268,
+          "longitude": -106.7025111
+        },
+        {
+          "latitude": 35.0817843,
+          "longitude": -106.7027055
+        },
+        {
+          "latitude": 35.0816234,
+          "longitude": -106.7034411
+        },
+        {
+          "latitude": 35.081547,
+          "longitude": -106.7037792
+        },
+        {
+          "latitude": 35.0814855,
+          "longitude": -106.7040513
+        },
+        {
+          "latitude": 35.0813999,
+          "longitude": -106.7044301
+        },
+        {
+          "latitude": 35.0812957,
+          "longitude": -106.7048477
+        },
+        {
+          "latitude": 35.0812154,
+          "longitude": -106.7051936
+        },
+        {
+          "latitude": 35.0810615,
+          "longitude": -106.7058584
+        },
+        {
+          "latitude": 35.0810498,
+          "longitude": -106.7059156
+        },
+        {
+          "latitude": 35.080992,
+          "longitude": -106.7062019
+        },
+        {
+          "latitude": 35.0808531,
+          "longitude": -106.7068861
+        },
+        {
+          "latitude": 35.0808307,
+          "longitude": -106.7069912
+        },
+        {
+          "latitude": 35.0807631,
+          "longitude": -106.7073075
+        },
+        {
+          "latitude": 35.0807269,
+          "longitude": -106.707477
+        },
+        {
+          "latitude": 35.08072121828754,
+          "longitude": -106.70750358929476
+        }
+      ],
+      "nodeIDs": [
+        140885806,
+        12078939645,
+        140885809,
+        10939518500,
+        140885812,
+        10755361676,
+        10755361680,
+        140885815,
+        140852807,
+        10925767928,
+        1705412143,
+        10944876259,
+        7017417131,
+        140885818,
+        12078939636,
+        11153263979,
+        7608990312,
+        140885820
+      ],
+      "wayIDs": [
+        608819258,
+        608819260,
+        608819262,
+        750501355,
+        750501356,
+        750501357
+      ],
+      "crossWayIDs": [
+        750995629
+      ],
+      "mode": "near",
+      "lengthMeters": 500.0,
+      "crossStreetGapMeters": 14.2,
+      "extraSource": null
+    },
+    {
+      "researchID": "ABQ-35",
+      "id": "abq-tramway-lomas-possible-sb",
+      "siteID": "abq-tramway-lomas",
+      "label": "Tramway near Lomas \u00b7 SB \u00b7 approximate area",
+      "kind": "possibleSpeed",
+      "travelBearing": 180,
+      "geometry": [
+        {
+          "latitude": 35.08859466049403,
+          "longitude": -106.4974237208418
+        },
+        {
+          "latitude": 35.087911,
+          "longitude": -106.4973633
+        },
+        {
+          "latitude": 35.086878,
+          "longitude": -106.4973353
+        },
+        {
+          "latitude": 35.0864471,
+          "longitude": -106.4973453
+        },
+        {
+          "latitude": 35.0864206,
+          "longitude": -106.4973459
+        },
+        {
+          "latitude": 35.0863485,
+          "longitude": -106.497348
+        },
+        {
+          "latitude": 35.0862193,
+          "longitude": -106.497351
+        },
+        {
+          "latitude": 35.0861515,
+          "longitude": -106.497354
+        },
+        {
+          "latitude": 35.085843,
+          "longitude": -106.4973632
+        },
+        {
+          "latitude": 35.084972,
+          "longitude": -106.4973513
+        },
+        {
+          "latitude": 35.08410042726795,
+          "longitude": -106.49734489111371
+        }
+      ],
+      "nodeIDs": [
+        140880127,
+        140880124,
+        140880121,
+        1798759081,
+        9793738513,
+        9793738515,
+        9793816832,
+        9793738514,
+        6634609542,
+        140880112,
+        140880109
+      ],
+      "wayIDs": [
+        247947381,
+        706094877
+      ],
+      "crossWayIDs": [
+        168650606
+      ],
+      "mode": "near",
+      "lengthMeters": 500.0,
+      "crossStreetGapMeters": 0,
+      "extraSource": null
+    },
+    {
+      "researchID": "ABQ-39",
+      "id": "abq-central-texas-possible-wb",
+      "siteID": "abq-central-texas",
+      "label": "Central at Texas \u00b7 WB \u00b7 approximate area",
+      "kind": "possibleSpeed",
+      "travelBearing": 270,
+      "geometry": [
+        {
+          "latitude": 35.07428881229617,
+          "longitude": -106.55323444208793
+        },
+        {
+          "latitude": 35.0743435,
+          "longitude": -106.5537392
+        },
+        {
+          "latitude": 35.0744638,
+          "longitude": -106.5548444
+        },
+        {
+          "latitude": 35.0745019,
+          "longitude": -106.5552044
+        },
+        {
+          "latitude": 35.0745312,
+          "longitude": -106.555481
+        },
+        {
+          "latitude": 35.0745817,
+          "longitude": -106.5559582
+        },
+        {
+          "latitude": 35.0746997,
+          "longitude": -106.5570228
+        },
+        {
+          "latitude": 35.0748118,
+          "longitude": -106.5581518
+        },
+        {
+          "latitude": 35.074839,
+          "longitude": -106.5583912
+        },
+        {
+          "latitude": 35.074872142333454,
+          "longitude": -106.55868228438013
+        }
+      ],
+      "nodeIDs": [
+        1739955495,
+        616095409,
+        616095410,
+        14088900744,
+        12078940768,
+        616095411,
+        616095412,
+        616095413,
+        13417914504,
+        11016700128
+      ],
+      "wayIDs": [
+        162050342
+      ],
+      "crossWayIDs": [
+        14409224,
+        1478741025
+      ],
+      "mode": "near",
+      "lengthMeters": 500.0,
+      "crossStreetGapMeters": 0,
+      "extraSource": null
+    },
+    {
+      "researchID": "ABQ-40",
+      "id": "abq-louisiana-marquette-possible-nb",
+      "siteID": "abq-louisiana-marquette",
+      "label": "Louisiana near Marquette \u00b7 NB \u00b7 approximate area",
+      "kind": "possibleSpeed",
+      "travelBearing": 0,
+      "geometry": [
+        {
+          "latitude": 35.08131453121161,
+          "longitude": -106.56859029694779
+        },
+        {
+          "latitude": 35.0817466,
+          "longitude": -106.5685927
+        },
+        {
+          "latitude": 35.0835628,
+          "longitude": -106.5686053
+        },
+        {
+          "latitude": 35.0843486,
+          "longitude": -106.5686094
+        },
+        {
+          "latitude": 35.0845592,
+          "longitude": -106.5686106
+        },
+        {
+          "latitude": 35.0848139,
+          "longitude": -106.568612
+        },
+        {
+          "latitude": 35.0849647,
+          "longitude": -106.5686127
+        },
+        {
+          "latitude": 35.0857144,
+          "longitude": -106.5686169
+        },
+        {
+          "latitude": 35.08581104878957,
+          "longitude": -106.56861997493768
+        }
+      ],
+      "nodeIDs": [
+        10154382341,
+        140834845,
+        140946891,
+        10704875327,
+        10704875344,
+        3416909712,
+        10704870281,
+        1736478332,
+        1736481226
+      ],
+      "wayIDs": [
+        14424917,
+        202446478
+      ],
+      "crossWayIDs": [
+        14414503
+      ],
+      "mode": "near",
+      "lengthMeters": 500.0,
+      "crossStreetGapMeters": 0,
+      "extraSource": null
+    }
+  ],
+  "elements": [
+    {
+      "type": "way",
+      "id": 14403175,
+      "nodes": [
+        140740730,
+        10837831267,
+        7467723322,
+        10839618045,
+        140740733,
+        10839618046,
+        8808350389,
+        8808350393,
+        8808350392,
+        140740736,
+        8808209934,
+        140740739
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "maxspeed": "25 mph",
+        "name": "Vassar Drive Northeast",
+        "sidewalk:both": "separate",
+        "source:maxspeed": "survey",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Bernalillo, NM",
+        "tiger:name_base": "Vassar",
+        "tiger:name_direction_suffix": "NE",
+        "tiger:name_type": "Dr",
+        "tiger:reviewed": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 14407793,
+      "nodes": [
+        140827807,
+        10981440052,
+        1839421968,
+        10981360117,
+        140827803,
+        10981360115,
+        1839421946,
+        10981360113,
+        140827801,
+        10981329595,
+        140827798,
+        10981329542,
+        140827796,
+        10981329540,
+        1839421948,
+        10981421410,
+        140827795,
+        10981421415,
+        2063477133,
+        10981421430,
+        140740140,
+        10981421434,
+        2063477132,
+        10981421451,
+        140827792,
+        10980987524,
+        2540720984,
+        10980987522,
+        140827790,
+        10980967831,
+        2540720907,
+        10980967816,
+        140827788,
+        10980967807,
+        2540721021,
+        10980958896,
+        140827786,
+        10980958890,
+        2540720989,
+        10980877807,
+        140827784,
+        10980877809,
+        2538877207,
+        10980958873,
+        140827782,
+        10980934349,
+        2538877200,
+        10980934334,
+        10581469092,
+        140827779,
+        10980934325,
+        2147402643,
+        10980934313,
+        140827776,
+        10980858998,
+        140827773,
+        1788455595,
+        1788455597,
+        1788455593,
+        2378540692,
+        1788455599,
+        10980858928,
+        140827770
+      ],
+      "tags": {
+        "cycleway:right": "lane",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "30 mph",
+        "maxweight:hgv": "5 st",
+        "name": "Lead Avenue Southeast",
+        "oneway": "yes",
+        "sidewalk:both": "separate",
+        "source:cycleway": "survey",
+        "source:maxspeed": "survey",
+        "surface": "asphalt",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Bernalillo, NM",
+        "tiger:name_base": "Lead",
+        "tiger:name_direction_suffix": "SE",
+        "tiger:name_type": "Ave",
+        "tiger:reviewed": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 14409224,
+      "nodes": [
+        616095411,
+        8226259127,
+        11026088122,
+        11030584474,
+        3416893400
+      ],
+      "tags": {
+        "highway": "residential",
+        "name": "Texas Street Northeast",
+        "sidewalk:both": "separate"
+      }
+    },
+    {
+      "type": "way",
+      "id": 14412414,
+      "nodes": [
+        614240925,
+        12715402174,
+        2014685531,
+        140909594
+      ],
+      "tags": {
+        "cycleway:right": "lane",
+        "highway": "secondary",
+        "name": "Coal Avenue Southeast",
+        "oneway": "yes",
+        "sidewalk:both": "separate",
+        "source:cycleway": "surveyk",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Bernalillo, NM",
+        "tiger:name_base": "Coal",
+        "tiger:name_direction_suffix": "SE",
+        "tiger:name_type": "Ave",
+        "tiger:reviewed": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 14414503,
+      "nodes": [
+        140946891,
+        11032418495,
+        10704875323,
+        10704875312,
+        140946893,
+        10704875321,
+        11032418503,
+        3416893434
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "maxspeed": "25 mph",
+        "name": "Marquette Avenue Northeast",
+        "sidewalk:both": "separate",
+        "source:maxspeed": "survey"
+      }
+    },
+    {
+      "type": "way",
+      "id": 14414956,
+      "nodes": [
+        140953557,
+        11388365999,
+        140831497,
+        140953563,
+        11398712619,
+        140953566,
+        11398712620,
+        140953569
+      ],
+      "tags": {
+        "highway": "residential",
+        "name": "Jennifer Drive Northeast",
+        "sidewalk:both": "separate",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Bernalillo, NM",
+        "tiger:name_base": "Jennifer",
+        "tiger:name_direction_suffix": "NE",
+        "tiger:name_type": "Dr",
+        "tiger:reviewed": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 14416001,
+      "nodes": [
+        140970948,
+        11117599662,
+        140970951,
+        3224579120,
+        140970954,
+        140970957,
+        3248806711,
+        140970960,
+        140970963,
+        3224579108,
+        140970966,
+        140970935,
+        140970969,
+        140970972,
+        3248806705,
+        140970975,
+        140970979,
+        140970981,
+        11117599731,
+        1821892860
+      ],
+      "tags": {
+        "highway": "residential",
+        "lcn": "yes",
+        "maxspeed": "25 mph",
+        "name": "Copper Avenue Northeast",
+        "source:lcn": "survey",
+        "source:maxspeed": "survey",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Bernalillo, NM",
+        "tiger:name_base": "Copper",
+        "tiger:name_direction_suffix": "NE",
+        "tiger:name_type": "Ave",
+        "tiger:reviewed": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 14418755,
+      "nodes": [
+        1769010129,
+        6872681646,
+        13628694916,
+        2659445990,
+        2659446068,
+        10981019956,
+        4719280318,
+        140937897,
+        4719280317,
+        10981329537,
+        8048066729,
+        10981338743,
+        140827795,
+        10981421413,
+        8048066730,
+        10981425310,
+        140909678,
+        10981425315,
+        10994679349,
+        141012240,
+        10994679348,
+        10994679333,
+        140970584
+      ],
+      "tags": {
+        "highway": "residential",
+        "maxspeed": "unposted",
+        "name": "Bryn Mawr Drive Southeast",
+        "sidewalk:both": "separate",
+        "source:maxspeed": "survey",
+        "surface": "asphalt",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Bernalillo, NM",
+        "tiger:name_base": "Bryn Mawr",
+        "tiger:name_direction_suffix": "SE",
+        "tiger:name_type": "Dr",
+        "tiger:reviewed": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 14418882,
+      "nodes": [
+        141014904,
+        11013849899,
+        2932105828,
+        11013874974,
+        141014907,
+        11013874973,
+        2932080104,
+        11013897629,
+        4248010349
+      ],
+      "tags": {
+        "highway": "residential",
+        "name": "Mesilla Street Southeast",
+        "sidewalk:both": "separate"
+      }
+    },
+    {
+      "type": "way",
+      "id": 14419249,
+      "nodes": [
+        140841721,
+        12302064287,
+        140931855,
+        12302067001,
+        141021429,
+        12302067004,
+        140936660,
+        141021430,
+        3192102124,
+        140983673
+      ],
+      "tags": {
+        "highway": "residential",
+        "name": "Gwin Road Southwest",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Bernalillo, NM",
+        "tiger:name_base": "Gwin",
+        "tiger:name_direction_suffix": "SW",
+        "tiger:name_type": "Rd",
+        "tiger:reviewed": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 14420980,
+      "nodes": [
+        141050570,
+        9015824621,
+        9015824624,
+        9015824636,
+        1824826385,
+        2620491154
+      ],
+      "tags": {
+        "access": "private",
+        "highway": "residential",
+        "name": "Old Ouray Road Northwest"
+      }
+    },
+    {
+      "type": "way",
+      "id": 14422165,
+      "nodes": [
+        141071431,
+        2014685515,
+        10656483914,
+        140909594
+      ],
+      "tags": {
+        "cycleway:right": "lane",
+        "highway": "primary",
+        "maxspeed": "35 mph",
+        "name": "Broadway Boulevard Southeast",
+        "old_ref": "NM 361",
+        "oneway": "yes",
+        "ref": "NM 47",
+        "sidewalk:left": "no",
+        "sidewalk:right": "separate",
+        "source:maxspeed": "survey",
+        "tiger:cfcc": "A31",
+        "tiger:county": "Bernalillo, NM",
+        "tiger:name_base": "Broadway",
+        "tiger:name_base_1": "State Highway 47",
+        "tiger:name_base_2": "State Route 47",
+        "tiger:name_direction_suffix": "SE",
+        "tiger:name_type": "Blvd"
+      }
+    },
+    {
+      "type": "way",
+      "id": 14423196,
+      "nodes": [
+        141078392,
+        8572501067,
+        12707297818,
+        2822860007,
+        7607372074,
+        140942425,
+        2822860006,
+        140918291,
+        140918293,
+        12124269664,
+        12124269685,
+        12124269684,
+        12124269689,
+        12124269692,
+        12124269681,
+        12124269678,
+        12124269673,
+        12124269671,
+        11030607259,
+        140970882
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "maxspeed": "35 mph",
+        "name": "San Pedro Drive Northeast",
+        "name_1": "San Pedro Boulevard Northeast",
+        "sidewalk:both": "separate",
+        "source:maxspeed": "survey"
+      }
+    },
+    {
+      "type": "way",
+      "id": 14423239,
+      "nodes": [
+        141090259,
+        12112748505,
+        141071431,
+        12112748503,
+        2110804122,
+        12112748492,
+        141090262,
+        12112748489,
+        2110804206,
+        3517495894,
+        12112748474,
+        140982866,
+        12112748471,
+        2110803878,
+        12112748453,
+        140887649,
+        12112748450,
+        2047303470
+      ],
+      "tags": {
+        "highway": "residential",
+        "maxspeed": "unposted",
+        "name": "Iron Avenue Southeast",
+        "sidewalk:both": "separate",
+        "source:maxspeed": "survey",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Bernalillo, NM",
+        "tiger:name_base": "Iron",
+        "tiger:name_direction_suffix": "SE",
+        "tiger:name_type": "Ave",
+        "tiger:reviewed": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 14424917,
+      "nodes": [
+        3418903431,
+        12123729836,
+        12123729828,
+        12123729833,
+        141116680,
+        140971057,
+        10154382341,
+        140834845,
+        140946891
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "6",
+        "lanes:note": "2NB 3SB 1LTL",
+        "maxspeed": "35 mph",
+        "name": "Louisiana Boulevard Northeast",
+        "oneway": "no",
+        "sidewalk:both": "separate",
+        "source:maxspeed": "survey",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Bernalillo, NM",
+        "tiger:name_base": "Louisiana",
+        "tiger:name_direction_suffix": "NE",
+        "tiger:name_type": "Blvd",
+        "tiger:reviewed": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 14426055,
+      "nodes": [
+        141015622,
+        10929305039,
+        7043529469,
+        1846255059,
+        6074663097,
+        141132635,
+        1846255085,
+        6074663132,
+        141132638,
+        6074663151,
+        6074663126,
+        6074663164,
+        141132644,
+        141132647
+      ],
+      "tags": {
+        "highway": "residential",
+        "name": "Sierra Vista Court Northeast",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Bernalillo, NM",
+        "tiger:name_base": "Sierra Vista",
+        "tiger:name_direction_suffix": "NE",
+        "tiger:name_type": "Ct",
+        "tiger:reviewed": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 48489645,
+      "nodes": [
+        141041930,
+        8042767703,
+        3418903457,
+        141117940,
+        3418903481,
+        13628698371,
+        11012857996,
+        5353713227,
+        5353713236,
+        11012857993,
+        140833544,
+        1951619948,
+        140862245,
+        12124273807,
+        10752277097,
+        10752333505,
+        7547447228,
+        11353722407,
+        7547447229,
+        8572501071,
+        141078392,
+        8572501068,
+        141041272,
+        13628698367,
+        13628698363,
+        140920549
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "3",
+        "lanes:bus": "1",
+        "maxspeed": "35 mph",
+        "name": "Central Avenue Northeast",
+        "old_ref": "I 40 BUS;US 66",
+        "oneway": "yes",
+        "ref": "US 66 Hist",
+        "sidewalk:left": "no",
+        "sidewalk:right": "separate",
+        "tiger:cfcc": "A21",
+        "tiger:county": "Bernalillo, NM",
+        "tiger:name_base": "Central",
+        "tiger:name_base_1": "United States Highway 66",
+        "tiger:name_direction_suffix": "SE",
+        "tiger:name_type": "Ave",
+        "tiger:reviewed": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 158457188,
+      "nodes": [
+        1706011452,
+        1706011474,
+        1706011394,
+        1706011496,
+        1706011436,
+        1706011351,
+        1706011451,
+        1706011497,
+        1706011433,
+        1706011476,
+        1706011397,
+        1706011447,
+        12302067055,
+        140824055
+      ],
+      "tags": {
+        "cycleway:right": "lane",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Unser Boulevard Southwest",
+        "oneway": "yes",
+        "sidewalk:left": "no",
+        "sidewalk:right": "separate",
+        "source:cycleway": "Bing"
+      }
+    },
+    {
+      "type": "way",
+      "id": 158817078,
+      "nodes": [
+        1768205399,
+        1814518858,
+        140965795,
+        140965786,
+        7467723315,
+        7467723355,
+        140740723,
+        140740730,
+        10837831269,
+        11045891788,
+        140965784,
+        7628824552,
+        2153843174,
+        10736980041,
+        10736980037,
+        8997146897,
+        9948771193,
+        9948771195,
+        140890295,
+        12870106477,
+        12870106480,
+        140965781,
+        7001605519,
+        7439088107,
+        7439088120,
+        9799019321,
+        140965778,
+        8997146914,
+        10585567228,
+        7438819981,
+        2153843137,
+        10585567232,
+        8947352865,
+        140965775,
+        8947352863,
+        1709500360,
+        140965767
+      ],
+      "tags": {
+        "highway": "secondary",
+        "maxspeed": "45 mph",
+        "name": "Menaul Boulevard Northeast",
+        "oneway": "yes",
+        "source:maxspeed": "survey",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Bernalillo, NM",
+        "tiger:name_base": "Menaul",
+        "tiger:name_direction_suffix": "NE",
+        "tiger:name_type": "Blvd",
+        "tiger:reviewed": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 162050342,
+      "nodes": [
+        1739955495,
+        616095409,
+        616095410,
+        14088900744,
+        12078940768,
+        616095411,
+        616095412,
+        616095413,
+        13417914504,
+        11016700128,
+        616095414,
+        11016700130,
+        10734201865,
+        10734201864,
+        616095415,
+        616095416,
+        616095417,
+        616095418,
+        616095419,
+        14003835877,
+        616095420,
+        616095421,
+        11727195244,
+        616095422,
+        10770360233,
+        616095423,
+        616095424,
+        11026126721,
+        616095425
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "35 mph",
+        "name": "Central Avenue Northeast",
+        "old_ref": "I 40 BUS;US 66",
+        "oneway": "yes",
+        "ref": "US 66 Hist",
+        "source": "Yahoo",
+        "tiger:cfcc": "A21"
+      }
+    },
+    {
+      "type": "way",
+      "id": 168650606,
+      "nodes": [
+        9793816833,
+        9793738515,
+        9793816830,
+        615956810
+      ],
+      "tags": {
+        "highway": "secondary",
+        "maxspeed": "40 mph",
+        "name": "Lomas Boulevard Northeast",
+        "oneway": "yes",
+        "source:maxspeed": "survey"
+      }
+    },
+    {
+      "type": "way",
+      "id": 172529240,
+      "nodes": [
+        140909594,
+        10656484042,
+        2110804013,
+        12112746488,
+        140909597
+      ],
+      "tags": {
+        "cycleway:right": "lane",
+        "cycleway:right:buffer": "2",
+        "highway": "secondary",
+        "name": "Coal Avenue Southeast",
+        "oneway": "yes",
+        "sidewalk:both": "separate",
+        "source:cycleway": "survey",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Bernalillo, NM",
+        "tiger:name_base": "Coal",
+        "tiger:name_direction_suffix": "SE",
+        "tiger:name_type": "Ave",
+        "tiger:reviewed": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 188783578,
+      "nodes": [
+        1994089115,
+        1994089153,
+        1994089223
+      ],
+      "tags": {
+        "highway": "secondary",
+        "name": "Carlisle Boulevard Northeast",
+        "oneway": "yes",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Bernalillo, NM",
+        "tiger:name_base": "Carlisle",
+        "tiger:name_direction_suffix": "NE",
+        "tiger:name_type": "Blvd",
+        "tiger:reviewed": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 188783581,
+      "nodes": [
+        1994089170,
+        1994089221,
+        1994089213,
+        6336829516,
+        1994089186,
+        6336830093,
+        1994089168,
+        8303628913,
+        1994089162,
+        5773652311,
+        4493517682,
+        10827365345,
+        1994089179,
+        1994089100,
+        4493517679,
+        4471942523,
+        1994089188,
+        12707502101,
+        9447078987,
+        1994089164,
+        9447078996,
+        5918552470,
+        1994089166,
+        1994089124,
+        1994089177,
+        1994089119,
+        3632225163,
+        3632227001,
+        10069932907,
+        2671473694,
+        1994089174,
+        2671473679,
+        7597050645,
+        1994089143,
+        7597050640,
+        7597050619,
+        7597050607,
+        7597050596,
+        7597024154
+      ],
+      "tags": {
+        "highway": "secondary",
+        "maxspeed": "35 mph",
+        "name": "Carlisle Boulevard Northeast",
+        "oneway": "yes",
+        "sidewalk": "both",
+        "source:maxspeed": "survey",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Bernalillo, NM",
+        "tiger:name_base": "Carlisle",
+        "tiger:name_direction_suffix": "NE",
+        "tiger:name_type": "Blvd",
+        "tiger:reviewed": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 188783583,
+      "nodes": [
+        1994089223,
+        1994089170
+      ],
+      "tags": {
+        "bridge": "yes",
+        "highway": "secondary",
+        "layer": "1",
+        "name": "Carlisle Boulevard Northeast",
+        "oneway": "yes",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Bernalillo, NM",
+        "tiger:name_base": "Carlisle",
+        "tiger:name_direction_suffix": "NE",
+        "tiger:name_type": "Blvd",
+        "tiger:reviewed": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 202446478,
+      "nodes": [
+        140946891,
+        10704875327,
+        10704875344,
+        3416909712,
+        10704870281,
+        1736478332,
+        1736481226
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "6",
+        "lanes:backward": "3",
+        "lanes:both_ways": "1",
+        "lanes:forward": "2",
+        "lanes:note": "2NB 3SB 1LTL",
+        "maxspeed": "40 mph",
+        "name": "Louisiana Boulevard Northeast",
+        "oneway": "no",
+        "sidewalk:both": "separate",
+        "source:maxspeed": "survey",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Bernalillo, NM",
+        "tiger:name_base": "Louisiana",
+        "tiger:name_direction_suffix": "NE",
+        "tiger:name_type": "Blvd",
+        "tiger:reviewed": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 247947381,
+      "nodes": [
+        9793816844,
+        4716894982,
+        9793816841,
+        140880133,
+        140880130,
+        4716894985,
+        140880127,
+        140880124,
+        140880121,
+        1798759081,
+        9793738513,
+        9793738515,
+        9793816832,
+        9793738514,
+        6634609542
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "50 mph",
+        "maxweight:hgv": "3 st",
+        "name": "Tramway Boulevard Northeast",
+        "name:es": "Bulevar de la Tranv\u00eda Noreste",
+        "oneway": "yes",
+        "ref": "NM 556",
+        "shoulder": "both",
+        "source:maxspeed": "survey",
+        "surface": "asphalt",
+        "tiger:cfcc": "A31",
+        "tiger:county": "Bernalillo, NM",
+        "tiger:name_base": "Tramway",
+        "tiger:name_base_1": "State Route 556",
+        "tiger:name_base_2": "State Highway 556",
+        "tiger:name_direction_suffix": "NE",
+        "tiger:name_type": "Blvd"
+      }
+    },
+    {
+      "type": "way",
+      "id": 334627113,
+      "nodes": [
+        3416881116,
+        3416881117,
+        11013874914,
+        3416881118,
+        3416881115
+      ],
+      "tags": {
+        "highway": "residential",
+        "name": "Espa\u00f1ola Street Southeast",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 349950458,
+      "nodes": [
+        3416881114,
+        141014904,
+        3416881116
+      ],
+      "tags": {
+        "cycleway": "lane",
+        "cycleway:buffer": "yes",
+        "highway": "tertiary",
+        "lanes": "2",
+        "maxspeed": "30 mph",
+        "name": "Zuni Road Southeast",
+        "oneway": "no",
+        "sidewalk:both": "separate",
+        "source:cycleway": "site_visit",
+        "source:maxspeed": "site_visit",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 552034133,
+      "nodes": [
+        1769010170,
+        7845057622
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "5",
+        "lanes:backward": "3",
+        "lanes:forward": "2",
+        "maxspeed": "35 mph",
+        "name": "Louisiana Boulevard Southeast",
+        "old_ref": "NM 514",
+        "sidewalk:both": "separate",
+        "source:maxspeed": "survey",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Bernalillo, NM",
+        "tiger:name_base": "Louisiana",
+        "tiger:name_direction_suffix": "SE",
+        "tiger:name_type": "Blvd",
+        "tiger:reviewed": "no",
+        "turn:lanes:backward": "left||"
+      }
+    },
+    {
+      "type": "way",
+      "id": 575357817,
+      "nodes": [
+        140928624,
+        8363772450,
+        1906095278,
+        140928627,
+        140928631,
+        140924074,
+        1906095327,
+        140863509,
+        1906095238,
+        1906095257,
+        1906095241,
+        140928634
+      ],
+      "tags": {
+        "highway": "secondary",
+        "maxspeed": "30 mph",
+        "name": "Griegos Road Northwest",
+        "oneway": "yes",
+        "source:maxspeed": "survey"
+      }
+    },
+    {
+      "type": "way",
+      "id": 587564604,
+      "nodes": [
+        1769010120,
+        11255103570,
+        11255103575,
+        10755530616,
+        10286826417,
+        9029270307,
+        8042767702,
+        1769010170
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "3",
+        "lanes:bus": "1",
+        "maxspeed": "35 mph",
+        "name": "Central Avenue Southeast",
+        "old_ref": "I 40 BUS;US 66",
+        "oneway": "yes",
+        "ref": "US 66 Hist",
+        "tiger:cfcc": "A21",
+        "tiger:county": "Bernalillo, NM",
+        "tiger:name_base": "Central",
+        "tiger:name_base_1": "United States Highway 66",
+        "tiger:name_direction_suffix": "SE",
+        "tiger:name_type": "Ave",
+        "tiger:reviewed": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 587564610,
+      "nodes": [
+        1951619866,
+        13977843282,
+        1769010083
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "3",
+        "lanes:bus": "1",
+        "maxspeed": "35 mph",
+        "name": "Central Avenue Southeast",
+        "old_ref": "I 40 BUS;US 66",
+        "oneway": "yes",
+        "ref": "US 66 Hist",
+        "tiger:cfcc": "A21",
+        "tiger:county": "Bernalillo, NM",
+        "tiger:name_base": "Central",
+        "tiger:name_base_1": "United States Highway 66",
+        "tiger:name_direction_suffix": "SE",
+        "tiger:name_type": "Ave",
+        "tiger:reviewed": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 587564619,
+      "nodes": [
+        1769010083,
+        11012857968,
+        13628698368,
+        11012857992,
+        5353713235,
+        11012857940,
+        5353713234,
+        11012857997,
+        1769010120
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "3",
+        "lanes:bus": "1",
+        "maxspeed": "35 mph",
+        "name": "Central Avenue Southeast",
+        "old_ref": "I 40 BUS;US 66",
+        "oneway": "yes",
+        "ref": "US 66 Hist",
+        "tiger:cfcc": "A21",
+        "tiger:county": "Bernalillo, NM",
+        "tiger:name_base": "Central",
+        "tiger:name_base_1": "United States Highway 66",
+        "tiger:name_direction_suffix": "SE",
+        "tiger:name_type": "Ave",
+        "tiger:reviewed": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 587564900,
+      "nodes": [
+        1769010153,
+        8572501069,
+        1769010182,
+        8572501070,
+        7547447221
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "3",
+        "lanes:bus": "1",
+        "maxspeed": "35 mph",
+        "name": "Central Avenue Southeast",
+        "old_ref": "I 40 BUS;US 66",
+        "oneway": "yes",
+        "ref": "US 66 Hist",
+        "tiger:cfcc": "A21",
+        "tiger:county": "Bernalillo, NM",
+        "tiger:name_base": "Central",
+        "tiger:name_base_1": "United States Highway 66",
+        "tiger:name_direction_suffix": "SE",
+        "tiger:name_type": "Ave",
+        "tiger:reviewed": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 608819258,
+      "nodes": [
+        140885806,
+        12078939645,
+        140885809
+      ],
+      "tags": {
+        "alt_name": "Central Avenue Southwest",
+        "busway:left": "lane",
+        "highway": "primary",
+        "lanes": "4",
+        "maxspeed": "40 mph",
+        "name": "Central Avenue Northwest",
+        "old_ref": "I 40 BUS;US 66",
+        "oneway": "yes",
+        "ref": "US 66 Hist",
+        "source:maxspeed": "survey",
+        "tiger:cfcc": "A21",
+        "tiger:county": "Bernalillo, NM",
+        "tiger:name_base": "Central",
+        "tiger:name_base_1": "United States Highway 66",
+        "tiger:name_base_2": "Central",
+        "tiger:name_direction_suffix": "NW",
+        "tiger:name_direction_suffix_2": "SW",
+        "tiger:name_type": "Ave",
+        "tiger:name_type_2": "Ave",
+        "tiger:reviewed": "no",
+        "turn:lanes": "|slight_right;right||"
+      }
+    },
+    {
+      "type": "way",
+      "id": 608819260,
+      "nodes": [
+        140885812,
+        10755361676,
+        10755361680,
+        140885815
+      ],
+      "tags": {
+        "alt_name": "Central Avenue Southwest",
+        "busway:left": "lane",
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "40 mph",
+        "name": "Central Avenue Northwest",
+        "old_ref": "I 40 BUS;US 66",
+        "oneway": "yes",
+        "ref": "US 66 Hist",
+        "source:maxspeed": "survey",
+        "tiger:cfcc": "A21",
+        "tiger:county": "Bernalillo, NM",
+        "tiger:name_base": "Central",
+        "tiger:name_base_1": "United States Highway 66",
+        "tiger:name_base_2": "Central",
+        "tiger:name_direction_suffix": "NW",
+        "tiger:name_direction_suffix_2": "SW",
+        "tiger:name_type": "Ave",
+        "tiger:name_type_2": "Ave",
+        "tiger:reviewed": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 608819262,
+      "nodes": [
+        140885815,
+        140852807,
+        10925767928,
+        1705412143,
+        10944876259,
+        7017417131
+      ],
+      "tags": {
+        "alt_name": "Central Avenue Southwest",
+        "busway:left": "lane",
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "40 mph",
+        "name": "Central Avenue Northwest",
+        "old_ref": "I 40 BUS;US 66",
+        "oneway": "yes",
+        "ref": "US 66 Hist",
+        "source:maxspeed": "survey",
+        "tiger:cfcc": "A21",
+        "tiger:county": "Bernalillo, NM",
+        "tiger:name_base": "Central",
+        "tiger:name_base_1": "United States Highway 66",
+        "tiger:name_base_2": "Central",
+        "tiger:name_direction_suffix": "NW",
+        "tiger:name_direction_suffix_2": "SW",
+        "tiger:name_type": "Ave",
+        "tiger:name_type_2": "Ave",
+        "tiger:reviewed": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 624119061,
+      "nodes": [
+        1821008856,
+        10957135959,
+        1858003521,
+        5729079425,
+        1858003557,
+        140983269
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "40 mph",
+        "name": "Montgomery Boulevard Northeast",
+        "oneway": "yes",
+        "source:maxspeed": "survey",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Bernalillo, NM",
+        "tiger:name_base": "Montgomery",
+        "tiger:name_direction_suffix": "NE",
+        "tiger:name_type": "Blvd",
+        "tiger:reviewed": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 706094877,
+      "nodes": [
+        6634609542,
+        140880112,
+        140880109,
+        1759299265,
+        9793804176,
+        9793804179
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "maxheight": "15'8\"",
+        "maxspeed": "50 mph",
+        "maxweight:hgv": "3 st",
+        "name": "Tramway Boulevard Northeast",
+        "oneway": "yes",
+        "ref": "NM 556",
+        "source:maxspeed": "survey",
+        "surface": "asphalt",
+        "tiger:cfcc": "A31",
+        "tiger:county": "Bernalillo, NM",
+        "tiger:name_base": "Tramway",
+        "tiger:name_base_1": "State Route 556",
+        "tiger:name_base_2": "State Highway 556",
+        "tiger:name_direction_suffix": "NE",
+        "tiger:name_type": "Blvd"
+      }
+    },
+    {
+      "type": "way",
+      "id": 741128060,
+      "nodes": [
+        140824055,
+        12302067054,
+        1706011521,
+        1706011450,
+        1706011400,
+        1706011363,
+        1706011460,
+        1706011470,
+        1706011390,
+        1706011499,
+        1706011503,
+        1706011528,
+        1706011382,
+        1706011482,
+        1706011372,
+        1706011427,
+        140983677
+      ],
+      "tags": {
+        "cycleway": "lane",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Unser Boulevard Southwest",
+        "oneway": "yes",
+        "sidewalk:left": "no",
+        "sidewalk:right": "separate",
+        "source:cycleway": "Bing"
+      }
+    },
+    {
+      "type": "way",
+      "id": 741148220,
+      "nodes": [
+        1821892860,
+        140908435
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "lcn": "yes",
+        "maxspeed": "25 mph",
+        "name": "Copper Avenue Northeast",
+        "source:lcn": "survey",
+        "source:maxspeed": "survey",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Bernalillo, NM",
+        "tiger:name_base": "Copper",
+        "tiger:name_direction_suffix": "NE",
+        "tiger:name_type": "Ave",
+        "tiger:reviewed": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 750501355,
+      "nodes": [
+        140885809,
+        10939518500,
+        140885812
+      ],
+      "tags": {
+        "alt_name": "Central Avenue Southwest",
+        "busway:left": "lane",
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "40 mph",
+        "name": "Central Avenue Northwest",
+        "old_ref": "I 40 BUS;US 66",
+        "oneway": "yes",
+        "ref": "US 66 Hist",
+        "source:maxspeed": "survey",
+        "tiger:cfcc": "A21",
+        "tiger:county": "Bernalillo, NM",
+        "tiger:name_base": "Central",
+        "tiger:name_base_1": "United States Highway 66",
+        "tiger:name_base_2": "Central",
+        "tiger:name_direction_suffix": "NW",
+        "tiger:name_direction_suffix_2": "SW",
+        "tiger:name_type": "Ave",
+        "tiger:name_type_2": "Ave",
+        "tiger:reviewed": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 750501356,
+      "nodes": [
+        7017417131,
+        140885818
+      ],
+      "tags": {
+        "alt_name": "Central Avenue Southwest",
+        "busway:left": "lane",
+        "highway": "primary",
+        "lanes": "4",
+        "maxspeed": "40 mph",
+        "name": "Central Avenue Northwest",
+        "old_ref": "I 40 BUS;US 66",
+        "oneway": "yes",
+        "ref": "US 66 Hist",
+        "source:maxspeed": "survey",
+        "tiger:cfcc": "A21",
+        "tiger:county": "Bernalillo, NM",
+        "tiger:name_base": "Central",
+        "tiger:name_base_1": "United States Highway 66",
+        "tiger:name_base_2": "Central",
+        "tiger:name_direction_suffix": "NW",
+        "tiger:name_direction_suffix_2": "SW",
+        "tiger:name_type": "Ave",
+        "tiger:name_type_2": "Ave",
+        "tiger:reviewed": "no",
+        "turn:lanes": "|left;slight_left||"
+      }
+    },
+    {
+      "type": "way",
+      "id": 750501357,
+      "nodes": [
+        140885818,
+        12078939636,
+        11153263979,
+        7608990312,
+        140885820,
+        140847364
+      ],
+      "tags": {
+        "alt_name": "Central Avenue Southwest",
+        "busway:left": "lane",
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "40 mph",
+        "name": "Central Avenue Northwest",
+        "old_ref": "I 40 BUS;US 66",
+        "oneway": "yes",
+        "ref": "US 66 Hist",
+        "sidewalk:left": "no",
+        "sidewalk:right": "separate",
+        "source:maxspeed": "survey",
+        "surface": "asphalt",
+        "tiger:cfcc": "A21",
+        "tiger:county": "Bernalillo, NM",
+        "tiger:name_base": "Central",
+        "tiger:name_base_1": "United States Highway 66",
+        "tiger:name_base_2": "Central",
+        "tiger:name_direction_suffix": "NW",
+        "tiger:name_direction_suffix_2": "SW",
+        "tiger:name_type": "Ave",
+        "tiger:name_type_2": "Ave",
+        "tiger:reviewed": "no",
+        "turn:lanes": "|left;slight_left|"
+      }
+    },
+    {
+      "type": "way",
+      "id": 750995623,
+      "nodes": [
+        7021179644,
+        12078939644,
+        13277267790,
+        7021179645,
+        7021179649,
+        8766676192,
+        8766676201,
+        10944876298,
+        7021179646
+      ],
+      "tags": {
+        "busway:left": "lane",
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "40 mph",
+        "name": "Central Avenue Southwest",
+        "old_ref": "I 40 BUS;US 66",
+        "oneway": "yes",
+        "ref": "US 66 Hist"
+      }
+    },
+    {
+      "type": "way",
+      "id": 750995629,
+      "nodes": [
+        7021179650,
+        12299542860,
+        5203085507,
+        140852810,
+        140852813,
+        12299542896,
+        140852816
+      ],
+      "tags": {
+        "highway": "residential",
+        "name": "61st Street Southwest",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Bernalillo, NM",
+        "tiger:name_base": "61st",
+        "tiger:name_direction_suffix": "SW",
+        "tiger:name_type": "St",
+        "tiger:reviewed": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 807094336,
+      "nodes": [
+        7547447221,
+        7547447225
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "3",
+        "lanes:bus": "1",
+        "maxspeed": "35 mph",
+        "name": "Central Avenue Southeast",
+        "old_ref": "I 40 BUS;US 66",
+        "oneway": "yes",
+        "ref": "US 66 Hist",
+        "tiger:cfcc": "A21",
+        "tiger:county": "Bernalillo, NM",
+        "tiger:name_base": "Central",
+        "tiger:name_base_1": "United States Highway 66",
+        "tiger:name_direction_suffix": "SE",
+        "tiger:name_type": "Ave",
+        "tiger:reviewed": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 807094338,
+      "nodes": [
+        7547447225,
+        11510313785,
+        11510313790,
+        1769010229,
+        1769010050,
+        11012825939,
+        1951619866
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "3",
+        "lanes:bus": "1",
+        "maxspeed": "35 mph",
+        "name": "Central Avenue Southeast",
+        "old_ref": "I 40 BUS;US 66",
+        "oneway": "yes",
+        "ref": "US 66 Hist",
+        "tiger:cfcc": "A21",
+        "tiger:county": "Bernalillo, NM",
+        "tiger:name_base": "Central",
+        "tiger:name_base_1": "United States Highway 66",
+        "tiger:name_direction_suffix": "SE",
+        "tiger:name_type": "Ave",
+        "tiger:reviewed": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 813748249,
+      "nodes": [
+        7601204805,
+        7254631564,
+        7254631514,
+        7254631517,
+        7254631575,
+        1822027189,
+        11089064023,
+        10772673275,
+        1821892774,
+        1821892589,
+        11120027591,
+        11120027577,
+        7625922983,
+        11120027579,
+        11120027589,
+        5691565687,
+        1821892550,
+        5691565680,
+        5691565703,
+        1821892852,
+        11099027461,
+        11099027462,
+        9078356049,
+        11099027469,
+        11099027468,
+        1821892908,
+        2569338613,
+        12435518390,
+        11117599744,
+        1821892758,
+        1822027241,
+        1821892849,
+        11117599743,
+        13620125394,
+        7601804900,
+        13690726439,
+        13690726437,
+        12941854259,
+        4353898765,
+        4353898740,
+        1821892519,
+        1821892582,
+        1821892791,
+        1822027192,
+        1821892858,
+        3224579174,
+        1821892752,
+        1821892556,
+        11117599730,
+        1821892860
+      ],
+      "tags": {
+        "highway": "secondary",
+        "maxspeed": "40 mph",
+        "name": "Juan Tabo Boulevard Northeast",
+        "oneway": "yes",
+        "source:maxspeed": "survey",
+        "surface": "asphalt",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Bernalillo, NM",
+        "tiger:name_base": "Juan Tabo",
+        "tiger:name_direction_suffix": "NE",
+        "tiger:name_type": "Blvd",
+        "tiger:reviewed": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 814515102,
+      "nodes": [
+        140953557,
+        140980403
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "40 mph",
+        "name": "Montgomery Boulevard Northeast",
+        "oneway": "yes",
+        "source:maxspeed": "survey",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Bernalillo, NM",
+        "tiger:name_base": "Montgomery",
+        "tiger:name_direction_suffix": "NE",
+        "tiger:name_type": "Blvd",
+        "tiger:reviewed": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 927875478,
+      "nodes": [
+        7845057637,
+        141041930
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "5",
+        "lanes:backward": "3",
+        "lanes:forward": "2",
+        "maxspeed": "35 mph",
+        "name": "Louisiana Boulevard Southeast",
+        "old_ref": "NM 514",
+        "sidewalk:both": "separate",
+        "source:maxspeed": "survey",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Bernalillo, NM",
+        "tiger:name_base": "Louisiana",
+        "tiger:name_direction_suffix": "SE",
+        "tiger:name_type": "Blvd",
+        "tiger:reviewed": "no",
+        "turn:lanes:backward": "left||"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1059489382,
+      "nodes": [
+        140980403,
+        2622344286,
+        2622344356,
+        2622344252,
+        140983268,
+        10957259168,
+        13799437803
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "40 mph",
+        "name": "Montgomery Boulevard Northeast",
+        "oneway": "yes",
+        "source:maxspeed": "survey",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1109849749,
+      "nodes": [
+        10153125472,
+        11431784371,
+        7021179643,
+        7021179644
+      ],
+      "tags": {
+        "busway:left": "lane",
+        "highway": "primary",
+        "lanes": "4",
+        "maxspeed": "40 mph",
+        "name": "Central Avenue Southwest",
+        "old_ref": "I 40 BUS;US 66",
+        "oneway": "yes",
+        "ref": "US 66 Hist"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1109849750,
+      "nodes": [
+        7021179651,
+        7021179641,
+        11010211896,
+        11010211901,
+        7021179642,
+        11010211902,
+        7021179650,
+        10153125472
+      ],
+      "tags": {
+        "busway:left": "lane",
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "40 mph",
+        "name": "Central Avenue Southwest",
+        "old_ref": "I 40 BUS;US 66",
+        "oneway": "yes",
+        "ref": "US 66 Hist"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1109849751,
+      "nodes": [
+        7021179640,
+        12078939635,
+        7021179651
+      ],
+      "tags": {
+        "busway:left": "lane",
+        "check_date:surface": "2022-11-19",
+        "highway": "primary",
+        "lanes": "4",
+        "maxspeed": "40 mph",
+        "name": "Central Avenue Southwest",
+        "old_ref": "I 40 BUS;US 66",
+        "oneway": "yes",
+        "ref": "US 66 Hist",
+        "sidewalk:left": "no",
+        "sidewalk:right": "separate",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1368959436,
+      "nodes": [
+        1799682928,
+        140953557
+      ],
+      "tags": {
+        "highway": "residential",
+        "name": "Jennifer Drive Northeast",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Bernalillo, NM",
+        "tiger:name_base": "Jennifer",
+        "tiger:name_direction_suffix": "NE",
+        "tiger:name_type": "Dr",
+        "tiger:reviewed": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1368959437,
+      "nodes": [
+        1857987097,
+        140953557
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "40 mph",
+        "name": "Montgomery Boulevard Northeast",
+        "oneway": "yes",
+        "source:maxspeed": "survey",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Bernalillo, NM",
+        "tiger:name_base": "Montgomery",
+        "tiger:name_direction_suffix": "NE",
+        "tiger:name_type": "Blvd",
+        "tiger:reviewed": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1368969390,
+      "nodes": [
+        140983269,
+        1857987097
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "40 mph",
+        "name": "Montgomery Boulevard Northeast",
+        "oneway": "yes",
+        "source:maxspeed": "survey",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Bernalillo, NM",
+        "tiger:name_base": "Montgomery",
+        "tiger:name_direction_suffix": "NE",
+        "tiger:name_type": "Blvd",
+        "tiger:reviewed": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1371054943,
+      "nodes": [
+        141039385,
+        10122920047,
+        141061732,
+        141061735,
+        141061737,
+        141061739,
+        141061741,
+        141061743,
+        141061745,
+        141061749,
+        5924572662,
+        1720835046,
+        141061752,
+        141061755,
+        1720834976,
+        141061758,
+        1720835052,
+        1720834979,
+        141061760,
+        5499973116,
+        5499973117,
+        141061763,
+        1722127333,
+        1721338719,
+        2974724897,
+        2974724902,
+        140947365,
+        1722127282,
+        1721338745,
+        1722527621,
+        5924572657,
+        141050573,
+        8493285783,
+        8493285782,
+        8493285781,
+        8493285780,
+        8493285779,
+        8493285778,
+        8493285777,
+        8493285776,
+        8493285775,
+        8493285774,
+        8493285773,
+        8493285772,
+        8493285771,
+        8493285770,
+        8493285769,
+        8493285768,
+        8493285767,
+        1720834959,
+        1824830879,
+        8493285766,
+        8493285765,
+        8493285764,
+        8493285763,
+        8493285762,
+        8493285761,
+        8493285760,
+        5766376557,
+        8493285759,
+        8493285758,
+        8493285757,
+        1720835038,
+        2872863677,
+        141060084,
+        9435798265,
+        1720835013,
+        1720835072,
+        1720834994,
+        1720834963,
+        141061815,
+        1720835111,
+        141061818,
+        1720835090,
+        141061822,
+        1720835028,
+        1720834951,
+        1720835105,
+        141061826,
+        1720835119,
+        5924563475,
+        5924563474,
+        5924563472,
+        5924563480,
+        1720834996,
+        141061838,
+        13412709756
+      ],
+      "tags": {
+        "cycleway": "lane",
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Unser Boulevard Northwest",
+        "oneway": "yes",
+        "ref": "NM 345",
+        "source:cycleway": "survey",
+        "source:maxspeed": "survey",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Bernalillo, NM",
+        "tiger:name_base": "Unser",
+        "tiger:name_direction_suffix": "NW",
+        "tiger:name_type": "Blvd",
+        "tiger:reviewed": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1387946736,
+      "nodes": [
+        141041930,
+        11026126775,
+        9029270306,
+        12848335039
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "6",
+        "lanes:backward": "4",
+        "lanes:forward": "2",
+        "lanes:note": "2NB 3SB 1LTL",
+        "maxspeed": "35 mph",
+        "name": "Louisiana Boulevard Northeast",
+        "oneway": "no",
+        "sidewalk:both": "separate",
+        "source:maxspeed": "survey",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Bernalillo, NM",
+        "tiger:name_base": "Louisiana",
+        "tiger:name_direction_suffix": "NE",
+        "tiger:name_type": "Blvd",
+        "tiger:reviewed": "no",
+        "turn:lanes:backward": "left|none|none|right"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1416884055,
+      "nodes": [
+        1829185215,
+        12079038152,
+        13503105451,
+        140920463,
+        7485703147,
+        140923030,
+        7485703143,
+        140948660,
+        7485703137,
+        12718188309,
+        12718188311,
+        11964554850,
+        140881303,
+        7485703125,
+        140948657,
+        12079038142,
+        12079038137,
+        12079038138,
+        13536657078,
+        140948654,
+        12740627465,
+        12740627459,
+        12740627470,
+        13434298211,
+        140948650,
+        13434298207,
+        7605291024,
+        10763253121,
+        7605291035,
+        10763253112,
+        10763253115,
+        10763253117,
+        140863566,
+        5417763669,
+        140948646,
+        5417763678,
+        10289711601,
+        140948643,
+        5235724268,
+        13020129480
+      ],
+      "tags": {
+        "highway": "secondary",
+        "maxspeed": "35 mph",
+        "name": "4th Street Northwest",
+        "old_ref": "NM 313 (old US 66;US 85)",
+        "source:maxspeed": "survey",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Bernalillo, NM",
+        "tiger:name_base": "4th",
+        "tiger:name_base_1": "State Route 47",
+        "tiger:name_base_2": "State Highway 47",
+        "tiger:name_direction_suffix": "NW",
+        "tiger:name_type": "St",
+        "tiger:reviewed": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1416884056,
+      "nodes": [
+        140928634,
+        8377074493
+      ],
+      "tags": {
+        "highway": "secondary",
+        "maxspeed": "30 mph",
+        "name": "Griegos Road Northwest",
+        "oneway": "yes",
+        "source:maxspeed": "survey"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1416884057,
+      "nodes": [
+        13020129480,
+        140948640,
+        140928634
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "5",
+        "lanes:backward": "2",
+        "lanes:forward": "3",
+        "maxspeed": "35 mph",
+        "name": "4th Street Northwest",
+        "old_ref": "NM 313 (old US 66;US 85)",
+        "source:maxspeed": "survey",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Bernalillo, NM",
+        "tiger:name_base": "4th",
+        "tiger:name_base_1": "State Route 47",
+        "tiger:name_base_2": "State Highway 47",
+        "tiger:name_direction_suffix": "NW",
+        "tiger:name_type": "St",
+        "tiger:reviewed": "no",
+        "turn:lanes:forward": "left|none|none"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1443392379,
+      "nodes": [
+        140842476,
+        7478257024,
+        2822876654,
+        10286826419,
+        9029270308,
+        8042767699,
+        1769010170
+      ],
+      "tags": {
+        "cycleway:left": "shared_lane",
+        "highway": "secondary",
+        "maxspeed": "35 mph",
+        "name": "Louisiana Boulevard Southeast",
+        "old_ref": "NM 514",
+        "sidewalk:both": "separate",
+        "source:maxspeed": "survey",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Bernalillo, NM",
+        "tiger:name_base": "Louisiana",
+        "tiger:name_direction_suffix": "SE",
+        "tiger:name_type": "Blvd",
+        "tiger:reviewed": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1473399041,
+      "nodes": [
+        140887672,
+        12113140443,
+        2110804007,
+        13333044761,
+        140887675,
+        12113140434,
+        12113140549,
+        140854336,
+        12113140548,
+        2110804133,
+        12115231423,
+        140887678,
+        12115231422,
+        12115271443,
+        140887681,
+        12115271442,
+        2110804241,
+        12115271528,
+        140887687,
+        12115271527,
+        2110804159,
+        12115271583,
+        140887689,
+        12115271581,
+        2110804231,
+        12115305338,
+        140838715,
+        12115305336,
+        140740228
+      ],
+      "tags": {
+        "highway": "residential",
+        "maxspeed": "25 mph",
+        "name": "Walter Street Southeast",
+        "sidewalk:both": "separate",
+        "source:maxspeed": "survey",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Bernalillo, NM",
+        "tiger:name_base": "Walter",
+        "tiger:name_direction_suffix": "SE",
+        "tiger:name_type": "St",
+        "tiger:reviewed": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1474651347,
+      "nodes": [
+        1838230186,
+        140740730
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "maxspeed": "25 mph",
+        "name": "Vassar Drive Northeast",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "source:maxspeed": "survey",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Bernalillo, NM",
+        "tiger:name_base": "Vassar",
+        "tiger:name_direction_suffix": "NE",
+        "tiger:name_type": "Dr",
+        "tiger:reviewed": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1474651599,
+      "nodes": [
+        1994089153,
+        140820479
+      ],
+      "tags": {
+        "highway": "residential",
+        "name": "Hilton Avenue Northeast",
+        "sidewalk": "no",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Bernalillo, NM",
+        "tiger:name_base": "Hilton",
+        "tiger:name_direction_suffix": "NE",
+        "tiger:name_type": "Ave",
+        "tiger:reviewed": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1478493562,
+      "nodes": [
+        1799682887,
+        10929292246,
+        7043529419,
+        7043529415,
+        1822360295,
+        7043529442,
+        141015622,
+        14048565122,
+        10586138113,
+        4332073174,
+        4332073131,
+        140852043,
+        10929305090,
+        141015630,
+        10929305042,
+        140842129,
+        141015633,
+        10073961653,
+        141015639
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "3",
+        "maxspeed": "40 mph",
+        "name": "Eubank Boulevard Northeast",
+        "oneway": "yes",
+        "sidewalk:left": "no",
+        "sidewalk:right": "separate",
+        "source:maxspeed": "survey",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1478493671,
+      "nodes": [
+        141015639,
+        1821022737
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "3",
+        "maxspeed": "40 mph",
+        "name": "Eubank Boulevard Northeast",
+        "oneway": "yes",
+        "sidewalk:left": "no",
+        "sidewalk:right": "separate",
+        "source:maxspeed": "survey",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1478493672,
+      "nodes": [
+        1821022737,
+        10073961657,
+        10583486531,
+        140853339,
+        140740310,
+        141015642,
+        141015645,
+        140824419,
+        7485380988,
+        1829222741,
+        7485325877,
+        10863574869,
+        141015651
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "3",
+        "maxspeed": "40 mph",
+        "name": "Eubank Boulevard Northeast",
+        "oneway": "yes",
+        "sidewalk:left": "no",
+        "sidewalk:right": "separate",
+        "source:maxspeed": "survey",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1478741025,
+      "nodes": [
+        140851243,
+        616095411
+      ],
+      "tags": {
+        "highway": "residential",
+        "name": "Texas Street Northeast"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1479517829,
+      "nodes": [
+        1837712987,
+        140887672
+      ],
+      "tags": {
+        "highway": "residential",
+        "maxspeed": "25 mph",
+        "name": "Walter Street Southeast",
+        "source:maxspeed": "survey",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Bernalillo, NM",
+        "tiger:name_base": "Walter",
+        "tiger:name_direction_suffix": "SE",
+        "tiger:name_type": "St",
+        "tiger:reviewed": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 172936676,
+      "nodes": [
+        1835467374,
+        12112869242,
+        2110804070,
+        141120685,
+        2110803990,
+        12112754397,
+        140982898,
+        12112754393,
+        140887672,
+        10847186464,
+        141121821,
+        140765508,
+        11657066245,
+        12113123392,
+        140792104
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lcn": "yes",
+        "maxspeed": "35 mph",
+        "name": "Avenida C\u00e9sar Ch\u00e1vez Southeast",
+        "name_1": "Stadium Boulevard Southeast",
+        "old_ref": "NM 314",
+        "oneway": "yes",
+        "source:lcn": "survey",
+        "source:maxspeed": "survey"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1331437200,
+      "nodes": [
+        140792104,
+        11657066244,
+        140745863
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lcn": "yes",
+        "maxheight": "15'11\"",
+        "maxspeed": "35 mph",
+        "name": "Avenida C\u00e9sar Ch\u00e1vez Southeast",
+        "name_1": "Stadium Boulevard Southeast",
+        "old_ref": "NM 314",
+        "oneway": "yes",
+        "source:lcn": "survey",
+        "source:maxspeed": "survey"
+      }
+    },
+    {
+      "type": "way",
+      "id": 14417546,
+      "nodes": [
+        140888027,
+        10837441073,
+        140992403,
+        140912701,
+        6336829567,
+        6336829511,
+        10837441072,
+        1994089213
+      ],
+      "tags": {
+        "highway": "residential",
+        "name": "Delamar Avenue Northeast",
+        "sidewalk:both": "separate",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Bernalillo, NM",
+        "tiger:name_base": "Delamar",
+        "tiger:name_direction_suffix": "NE",
+        "tiger:name_type": "Ave",
+        "tiger:reviewed": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1474651377,
+      "nodes": [
+        1994089213,
+        140992407
+      ],
+      "tags": {
+        "highway": "residential",
+        "name": "Delamar Avenue Northeast",
+        "sidewalk": "no",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Bernalillo, NM",
+        "tiger:name_base": "Delamar",
+        "tiger:name_direction_suffix": "NE",
+        "tiger:name_type": "Ave",
+        "tiger:reviewed": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 140983677,
+      "lat": 35.0674669,
+      "lon": -106.7237875
+    },
+    {
+      "type": "node",
+      "id": 1706011363,
+      "lat": 35.0711298,
+      "lon": -106.7235169
+    },
+    {
+      "type": "node",
+      "id": 1706011372,
+      "lat": 35.0688258,
+      "lon": -106.7238175
+    },
+    {
+      "type": "node",
+      "id": 1706011382,
+      "lat": 35.0695327,
+      "lon": -106.7237879
+    },
+    {
+      "type": "node",
+      "id": 1706011390,
+      "lat": 35.0706557,
+      "lon": -106.7236461
+    },
+    {
+      "type": "node",
+      "id": 1706011400,
+      "lat": 35.071255,
+      "lon": -106.7234472
+    },
+    {
+      "type": "node",
+      "id": 1706011427,
+      "lat": 35.0683221,
+      "lon": -106.7238162
+    },
+    {
+      "type": "node",
+      "id": 1706011450,
+      "lat": 35.0714338,
+      "lon": -106.7233561
+    },
+    {
+      "type": "node",
+      "id": 1706011460,
+      "lat": 35.0710223,
+      "lon": -106.7235706
+    },
+    {
+      "type": "node",
+      "id": 1706011470,
+      "lat": 35.0708478,
+      "lon": -106.7236136
+    },
+    {
+      "type": "node",
+      "id": 1706011482,
+      "lat": 35.0691968,
+      "lon": -106.7238067
+    },
+    {
+      "type": "node",
+      "id": 1706011499,
+      "lat": 35.0702922,
+      "lon": -106.7237075
+    },
+    {
+      "type": "node",
+      "id": 1706011503,
+      "lat": 35.0701733,
+      "lon": -106.723722
+    },
+    {
+      "type": "node",
+      "id": 1706011528,
+      "lat": 35.0698751,
+      "lon": -106.7237558
+    },
+    {
+      "type": "node",
+      "id": 140824055,
+      "lat": 35.0719238,
+      "lon": -106.723217
+    },
+    {
+      "type": "node",
+      "id": 140931855,
+      "lat": 35.0732409,
+      "lon": -106.7195735
+    },
+    {
+      "type": "node",
+      "id": 140936660,
+      "lat": 35.0735367,
+      "lon": -106.7212128
+    },
+    {
+      "type": "node",
+      "id": 140983673,
+      "lat": 35.0737848,
+      "lon": -106.72258
+    },
+    {
+      "type": "node",
+      "id": 141021429,
+      "lat": 35.073387,
+      "lon": -106.7204067
+    },
+    {
+      "type": "node",
+      "id": 141021430,
+      "lat": 35.0736869,
+      "lon": -106.7220302
+    },
+    {
+      "type": "node",
+      "id": 1706011351,
+      "lat": 35.0749603,
+      "lon": -106.7225166
+    },
+    {
+      "type": "node",
+      "id": 1706011394,
+      "lat": 35.0753982,
+      "lon": -106.722605
+    },
+    {
+      "type": "node",
+      "id": 1706011397,
+      "lat": 35.0736609,
+      "lon": -106.7227525
+    },
+    {
+      "type": "node",
+      "id": 1706011433,
+      "lat": 35.0745048,
+      "lon": -106.7225327
+    },
+    {
+      "type": "node",
+      "id": 1706011436,
+      "lat": 35.0751447,
+      "lon": -106.7225434
+    },
+    {
+      "type": "node",
+      "id": 1706011447,
+      "lat": 35.0726038,
+      "lon": -106.7230342
+    },
+    {
+      "type": "node",
+      "id": 1706011451,
+      "lat": 35.0747594,
+      "lon": -106.7225112
+    },
+    {
+      "type": "node",
+      "id": 1706011452,
+      "lat": 35.075907,
+      "lon": -106.7226918
+    },
+    {
+      "type": "node",
+      "id": 1706011474,
+      "lat": 35.0756935,
+      "lon": -106.7226507
+    },
+    {
+      "type": "node",
+      "id": 1706011476,
+      "lat": 35.0742107,
+      "lon": -106.7226078
+    },
+    {
+      "type": "node",
+      "id": 1706011496,
+      "lat": 35.075294,
+      "lon": -106.7225809
+    },
+    {
+      "type": "node",
+      "id": 1706011497,
+      "lat": 35.0746465,
+      "lon": -106.7225164
+    },
+    {
+      "type": "node",
+      "id": 1706011521,
+      "lat": 35.071615,
+      "lon": -106.723297
+    },
+    {
+      "type": "node",
+      "id": 3192102124,
+      "lat": 35.0737708,
+      "lon": -106.7224999
+    },
+    {
+      "type": "node",
+      "id": 12302067001,
+      "lat": 35.0733743,
+      "lon": -106.7203154
+    },
+    {
+      "type": "node",
+      "id": 12302067004,
+      "lat": 35.0734004,
+      "lon": -106.7204919
+    },
+    {
+      "type": "node",
+      "id": 12302067054,
+      "lat": 35.0718182,
+      "lon": -106.7232444
+    },
+    {
+      "type": "node",
+      "id": 12302067055,
+      "lat": 35.0720731,
+      "lon": -106.7231769
+    },
+    {
+      "type": "node",
+      "id": 140841721,
+      "lat": 35.0730677,
+      "lon": -106.7186131
+    },
+    {
+      "type": "node",
+      "id": 12302064287,
+      "lat": 35.0730844,
+      "lon": -106.7187057
+    },
+    {
+      "type": "node",
+      "id": 140847364,
+      "lat": 35.0805184,
+      "lon": -106.7083756
+    },
+    {
+      "type": "node",
+      "id": 140885818,
+      "lat": 35.0808531,
+      "lon": -106.7068861
+    },
+    {
+      "type": "node",
+      "id": 140885820,
+      "lat": 35.080666,
+      "lon": -106.707762
+    },
+    {
+      "type": "node",
+      "id": 1705412143,
+      "lat": 35.0810615,
+      "lon": -106.7058584
+    },
+    {
+      "type": "node",
+      "id": 7017417131,
+      "lat": 35.080992,
+      "lon": -106.7062019
+    },
+    {
+      "type": "node",
+      "id": 7021179640,
+      "lat": 35.0805235,
+      "lon": -106.7077175
+    },
+    {
+      "type": "node",
+      "id": 7021179641,
+      "lat": 35.080739,
+      "lon": -106.7066355
+    },
+    {
+      "type": "node",
+      "id": 7021179642,
+      "lat": 35.0809409,
+      "lon": -106.7058362
+    },
+    {
+      "type": "node",
+      "id": 7021179651,
+      "lat": 35.0806995,
+      "lon": -106.7068339
+    },
+    {
+      "type": "node",
+      "id": 7608990312,
+      "lat": 35.0807269,
+      "lon": -106.707477
+    },
+    {
+      "type": "node",
+      "id": 10944876259,
+      "lat": 35.0810498,
+      "lon": -106.7059156
+    },
+    {
+      "type": "node",
+      "id": 11010211896,
+      "lat": 35.0807987,
+      "lon": -106.7063989
+    },
+    {
+      "type": "node",
+      "id": 11010211901,
+      "lat": 35.0808532,
+      "lon": -106.706183
+    },
+    {
+      "type": "node",
+      "id": 11153263979,
+      "lat": 35.0807631,
+      "lon": -106.7073075
+    },
+    {
+      "type": "node",
+      "id": 12078939635,
+      "lat": 35.0806787,
+      "lon": -106.7069382
+    },
+    {
+      "type": "node",
+      "id": 12078939636,
+      "lat": 35.0808307,
+      "lon": -106.7069912
+    },
+    {
+      "type": "node",
+      "id": 140852807,
+      "lat": 35.0812957,
+      "lon": -106.7048477
+    },
+    {
+      "type": "node",
+      "id": 140852810,
+      "lat": 35.079979,
+      "lon": -106.704424
+    },
+    {
+      "type": "node",
+      "id": 140852813,
+      "lat": 35.0791423,
+      "lon": -106.7041376
+    },
+    {
+      "type": "node",
+      "id": 140852816,
+      "lat": 35.0782416,
+      "lon": -106.7038327
+    },
+    {
+      "type": "node",
+      "id": 140885806,
+      "lat": 35.081934,
+      "lon": -106.702047
+    },
+    {
+      "type": "node",
+      "id": 140885809,
+      "lat": 35.0818268,
+      "lon": -106.7025111
+    },
+    {
+      "type": "node",
+      "id": 140885812,
+      "lat": 35.0816234,
+      "lon": -106.7034411
+    },
+    {
+      "type": "node",
+      "id": 140885815,
+      "lat": 35.0813999,
+      "lon": -106.7044301
+    },
+    {
+      "type": "node",
+      "id": 5203085507,
+      "lat": 35.0802691,
+      "lon": -106.7045172
+    },
+    {
+      "type": "node",
+      "id": 7021179643,
+      "lat": 35.0816067,
+      "lon": -106.7027827
+    },
+    {
+      "type": "node",
+      "id": 7021179644,
+      "lat": 35.0816756,
+      "lon": -106.7024645
+    },
+    {
+      "type": "node",
+      "id": 7021179645,
+      "lat": 35.0819061,
+      "lon": -106.7015042
+    },
+    {
+      "type": "node",
+      "id": 7021179646,
+      "lat": 35.0824263,
+      "lon": -106.6991834
+    },
+    {
+      "type": "node",
+      "id": 7021179649,
+      "lat": 35.0820624,
+      "lon": -106.7008205
+    },
+    {
+      "type": "node",
+      "id": 7021179650,
+      "lat": 35.0811726,
+      "lon": -106.7048081
+    },
+    {
+      "type": "node",
+      "id": 8766676192,
+      "lat": 35.0821875,
+      "lon": -106.7002572
+    },
+    {
+      "type": "node",
+      "id": 8766676201,
+      "lat": 35.0822095,
+      "lon": -106.7001585
+    },
+    {
+      "type": "node",
+      "id": 10153125472,
+      "lat": 35.081494,
+      "lon": -106.7033417
+    },
+    {
+      "type": "node",
+      "id": 10755361676,
+      "lat": 35.081547,
+      "lon": -106.7037792
+    },
+    {
+      "type": "node",
+      "id": 10755361680,
+      "lat": 35.0814855,
+      "lon": -106.7040513
+    },
+    {
+      "type": "node",
+      "id": 10925767928,
+      "lat": 35.0812154,
+      "lon": -106.7051936
+    },
+    {
+      "type": "node",
+      "id": 10939518500,
+      "lat": 35.0817843,
+      "lon": -106.7027055
+    },
+    {
+      "type": "node",
+      "id": 10944876298,
+      "lat": 35.0823151,
+      "lon": -106.6996831
+    },
+    {
+      "type": "node",
+      "id": 11010211902,
+      "lat": 35.0810182,
+      "lon": -106.7054929
+    },
+    {
+      "type": "node",
+      "id": 11431784371,
+      "lat": 35.0815186,
+      "lon": -106.7032187
+    },
+    {
+      "type": "node",
+      "id": 12078939644,
+      "lat": 35.0817066,
+      "lon": -106.7023354
+    },
+    {
+      "type": "node",
+      "id": 12078939645,
+      "lat": 35.0818562,
+      "lon": -106.7023838
+    },
+    {
+      "type": "node",
+      "id": 12299542860,
+      "lat": 35.0810834,
+      "lon": -106.7047794
+    },
+    {
+      "type": "node",
+      "id": 12299542896,
+      "lat": 35.078298,
+      "lon": -106.7038518
+    },
+    {
+      "type": "node",
+      "id": 13277267790,
+      "lat": 35.0818091,
+      "lon": -106.7019081
+    },
+    {
+      "type": "node",
+      "id": 140740228,
+      "lat": 35.061024,
+      "lon": -106.641618
+    },
+    {
+      "type": "node",
+      "id": 140838715,
+      "lat": 35.0619925,
+      "lon": -106.6416458
+    },
+    {
+      "type": "node",
+      "id": 140887687,
+      "lat": 35.0647447,
+      "lon": -106.6417386
+    },
+    {
+      "type": "node",
+      "id": 140887689,
+      "lat": 35.062953,
+      "lon": -106.641676
+    },
+    {
+      "type": "node",
+      "id": 2110804159,
+      "lat": 35.0638459,
+      "lon": -106.6417072
+    },
+    {
+      "type": "node",
+      "id": 2110804231,
+      "lat": 35.0621136,
+      "lon": -106.6416496
+    },
+    {
+      "type": "node",
+      "id": 2110804241,
+      "lat": 35.0648689,
+      "lon": -106.6417432
+    },
+    {
+      "type": "node",
+      "id": 12115271527,
+      "lat": 35.0646903,
+      "lon": -106.6417367
+    },
+    {
+      "type": "node",
+      "id": 12115271528,
+      "lat": 35.0648137,
+      "lon": -106.6417412
+    },
+    {
+      "type": "node",
+      "id": 12115271581,
+      "lat": 35.0628922,
+      "lon": -106.6416741
+    },
+    {
+      "type": "node",
+      "id": 12115271583,
+      "lat": 35.0630065,
+      "lon": -106.6416779
+    },
+    {
+      "type": "node",
+      "id": 12115305336,
+      "lat": 35.0619302,
+      "lon": -106.641644
+    },
+    {
+      "type": "node",
+      "id": 12115305338,
+      "lat": 35.0620466,
+      "lon": -106.6416475
+    },
+    {
+      "type": "node",
+      "id": 140854336,
+      "lat": 35.0677147,
+      "lon": -106.6418366
+    },
+    {
+      "type": "node",
+      "id": 140887672,
+      "lat": 35.069679,
+      "lon": -106.6419057
+    },
+    {
+      "type": "node",
+      "id": 140887675,
+      "lat": 35.068706,
+      "lon": -106.641875
+    },
+    {
+      "type": "node",
+      "id": 140887678,
+      "lat": 35.0667256,
+      "lon": -106.6417987
+    },
+    {
+      "type": "node",
+      "id": 140887681,
+      "lat": 35.0657384,
+      "lon": -106.6417751
+    },
+    {
+      "type": "node",
+      "id": 1835467374,
+      "lat": 35.0696016,
+      "lon": -106.645478
+    },
+    {
+      "type": "node",
+      "id": 1837712987,
+      "lat": 35.069818,
+      "lon": -106.6419162
+    },
+    {
+      "type": "node",
+      "id": 2110804007,
+      "lat": 35.0689917,
+      "lon": -106.641884
+    },
+    {
+      "type": "node",
+      "id": 2110804133,
+      "lat": 35.0668535,
+      "lon": -106.641804
+    },
+    {
+      "type": "node",
+      "id": 12113140434,
+      "lat": 35.0686446,
+      "lon": -106.6418728
+    },
+    {
+      "type": "node",
+      "id": 12113140443,
+      "lat": 35.0696199,
+      "lon": -106.6419038
+    },
+    {
+      "type": "node",
+      "id": 12113140548,
+      "lat": 35.0676595,
+      "lon": -106.6418345
+    },
+    {
+      "type": "node",
+      "id": 12113140549,
+      "lat": 35.0677742,
+      "lon": -106.6418389
+    },
+    {
+      "type": "node",
+      "id": 12115231422,
+      "lat": 35.0666621,
+      "lon": -106.6417972
+    },
+    {
+      "type": "node",
+      "id": 12115231423,
+      "lat": 35.0667815,
+      "lon": -106.641801
+    },
+    {
+      "type": "node",
+      "id": 12115271442,
+      "lat": 35.0656766,
+      "lon": -106.6417728
+    },
+    {
+      "type": "node",
+      "id": 12115271443,
+      "lat": 35.0657941,
+      "lon": -106.6417764
+    },
+    {
+      "type": "node",
+      "id": 13333044761,
+      "lat": 35.0688299,
+      "lon": -106.6418789
+    },
+    {
+      "type": "node",
+      "id": 140887649,
+      "lat": 35.0782902,
+      "lon": -106.6419578
+    },
+    {
+      "type": "node",
+      "id": 140909594,
+      "lat": 35.0797337,
+      "lon": -106.6453402
+    },
+    {
+      "type": "node",
+      "id": 140909597,
+      "lat": 35.079583,
+      "lon": -106.644153
+    },
+    {
+      "type": "node",
+      "id": 140982866,
+      "lat": 35.0784434,
+      "lon": -106.6431419
+    },
+    {
+      "type": "node",
+      "id": 141071431,
+      "lat": 35.078754,
+      "lon": -106.645593
+    },
+    {
+      "type": "node",
+      "id": 141090259,
+      "lat": 35.078832,
+      "lon": -106.6461683
+    },
+    {
+      "type": "node",
+      "id": 141090262,
+      "lat": 35.078596,
+      "lon": -106.6443492
+    },
+    {
+      "type": "node",
+      "id": 614240925,
+      "lat": 35.0798007,
+      "lon": -106.6458635
+    },
+    {
+      "type": "node",
+      "id": 2014685515,
+      "lat": 35.0788323,
+      "lon": -106.6455122
+    },
+    {
+      "type": "node",
+      "id": 2014685531,
+      "lat": 35.0797501,
+      "lon": -106.6454682
+    },
+    {
+      "type": "node",
+      "id": 2047303470,
+      "lat": 35.0782189,
+      "lon": -106.6413617
+    },
+    {
+      "type": "node",
+      "id": 2110803878,
+      "lat": 35.0783671,
+      "lon": -106.6425525
+    },
+    {
+      "type": "node",
+      "id": 2110804013,
+      "lat": 35.0796602,
+      "lon": -106.6447612
+    },
+    {
+      "type": "node",
+      "id": 2110804122,
+      "lat": 35.0786685,
+      "lon": -106.6449576
+    },
+    {
+      "type": "node",
+      "id": 2110804206,
+      "lat": 35.0785164,
+      "lon": -106.6437397
+    },
+    {
+      "type": "node",
+      "id": 3517495894,
+      "lat": 35.0785004,
+      "lon": -106.6436135
+    },
+    {
+      "type": "node",
+      "id": 10656483914,
+      "lat": 35.0796355,
+      "lon": -106.6453587
+    },
+    {
+      "type": "node",
+      "id": 10656484042,
+      "lat": 35.0797203,
+      "lon": -106.6452342
+    },
+    {
+      "type": "node",
+      "id": 12112746488,
+      "lat": 35.0795929,
+      "lon": -106.6442307
+    },
+    {
+      "type": "node",
+      "id": 12112748450,
+      "lat": 35.0782795,
+      "lon": -106.6418687
+    },
+    {
+      "type": "node",
+      "id": 12112748453,
+      "lat": 35.078301,
+      "lon": -106.6420413
+    },
+    {
+      "type": "node",
+      "id": 12112748471,
+      "lat": 35.0784319,
+      "lon": -106.643053
+    },
+    {
+      "type": "node",
+      "id": 12112748474,
+      "lat": 35.0784544,
+      "lon": -106.6432327
+    },
+    {
+      "type": "node",
+      "id": 12112748489,
+      "lat": 35.0785832,
+      "lon": -106.644251
+    },
+    {
+      "type": "node",
+      "id": 12112748492,
+      "lat": 35.0786051,
+      "lon": -106.6444253
+    },
+    {
+      "type": "node",
+      "id": 12112748503,
+      "lat": 35.0787342,
+      "lon": -106.6454456
+    },
+    {
+      "type": "node",
+      "id": 12112748505,
+      "lat": 35.0787763,
+      "lon": -106.645754
+    },
+    {
+      "type": "node",
+      "id": 12715402174,
+      "lat": 35.0797637,
+      "lon": -106.6455743
+    },
+    {
+      "type": "node",
+      "id": 141039385,
+      "lat": 35.1043309,
+      "lon": -106.7297576
+    },
+    {
+      "type": "node",
+      "id": 140947365,
+      "lat": 35.1100951,
+      "lon": -106.731002
+    },
+    {
+      "type": "node",
+      "id": 141061732,
+      "lat": 35.1045902,
+      "lon": -106.7297784
+    },
+    {
+      "type": "node",
+      "id": 141061735,
+      "lat": 35.1047957,
+      "lon": -106.7298274
+    },
+    {
+      "type": "node",
+      "id": 141061737,
+      "lat": 35.1050789,
+      "lon": -106.7298974
+    },
+    {
+      "type": "node",
+      "id": 141061739,
+      "lat": 35.1052767,
+      "lon": -106.7299686
+    },
+    {
+      "type": "node",
+      "id": 141061741,
+      "lat": 35.1054346,
+      "lon": -106.7300369
+    },
+    {
+      "type": "node",
+      "id": 141061743,
+      "lat": 35.1056351,
+      "lon": -106.7301267
+    },
+    {
+      "type": "node",
+      "id": 141061745,
+      "lat": 35.1059683,
+      "lon": -106.730317
+    },
+    {
+      "type": "node",
+      "id": 141061749,
+      "lat": 35.1063041,
+      "lon": -106.7305459
+    },
+    {
+      "type": "node",
+      "id": 141061752,
+      "lat": 35.1066924,
+      "lon": -106.730746
+    },
+    {
+      "type": "node",
+      "id": 141061755,
+      "lat": 35.1069332,
+      "lon": -106.7308391
+    },
+    {
+      "type": "node",
+      "id": 141061758,
+      "lat": 35.1073396,
+      "lon": -106.7309481
+    },
+    {
+      "type": "node",
+      "id": 141061760,
+      "lat": 35.1079256,
+      "lon": -106.7310058
+    },
+    {
+      "type": "node",
+      "id": 141061763,
+      "lat": 35.1089242,
+      "lon": -106.7310067
+    },
+    {
+      "type": "node",
+      "id": 1720834976,
+      "lat": 35.1072574,
+      "lon": -106.7309411
+    },
+    {
+      "type": "node",
+      "id": 1720834979,
+      "lat": 35.1077454,
+      "lon": -106.7309995
+    },
+    {
+      "type": "node",
+      "id": 1720835046,
+      "lat": 35.1064928,
+      "lon": -106.730652
+    },
+    {
+      "type": "node",
+      "id": 1720835052,
+      "lat": 35.1075174,
+      "lon": -106.7309719
+    },
+    {
+      "type": "node",
+      "id": 1721338719,
+      "lat": 35.1099262,
+      "lon": -106.7310027
+    },
+    {
+      "type": "node",
+      "id": 1721338745,
+      "lat": 35.1103343,
+      "lon": -106.7310357
+    },
+    {
+      "type": "node",
+      "id": 1722127282,
+      "lat": 35.1101559,
+      "lon": -106.7310038
+    },
+    {
+      "type": "node",
+      "id": 1722127333,
+      "lat": 35.1098509,
+      "lon": -106.731003
+    },
+    {
+      "type": "node",
+      "id": 1722527621,
+      "lat": 35.1106387,
+      "lon": -106.7310423
+    },
+    {
+      "type": "node",
+      "id": 2974724897,
+      "lat": 35.1099498,
+      "lon": -106.7310026
+    },
+    {
+      "type": "node",
+      "id": 2974724902,
+      "lat": 35.1100144,
+      "lon": -106.7310023
+    },
+    {
+      "type": "node",
+      "id": 5499973116,
+      "lat": 35.1081461,
+      "lon": -106.731006
+    },
+    {
+      "type": "node",
+      "id": 5499973117,
+      "lat": 35.1086456,
+      "lon": -106.7310064
+    },
+    {
+      "type": "node",
+      "id": 5924572662,
+      "lat": 35.106375,
+      "lon": -106.7305858
+    },
+    {
+      "type": "node",
+      "id": 10122920047,
+      "lat": 35.1044051,
+      "lon": -106.729763
+    },
+    {
+      "type": "node",
+      "id": 141050573,
+      "lat": 35.1126994,
+      "lon": -106.7310846
+    },
+    {
+      "type": "node",
+      "id": 1720834959,
+      "lat": 35.115684,
+      "lon": -106.7295201
+    },
+    {
+      "type": "node",
+      "id": 1824826385,
+      "lat": 35.1125566,
+      "lon": -106.7304367
+    },
+    {
+      "type": "node",
+      "id": 1824830879,
+      "lat": 35.1158242,
+      "lon": -106.7293235
+    },
+    {
+      "type": "node",
+      "id": 2620491154,
+      "lat": 35.1125556,
+      "lon": -106.7308933
+    },
+    {
+      "type": "node",
+      "id": 5766376557,
+      "lat": 35.1169561,
+      "lon": -106.7282097
+    },
+    {
+      "type": "node",
+      "id": 5924572657,
+      "lat": 35.1118941,
+      "lon": -106.7310716
+    },
+    {
+      "type": "node",
+      "id": 8493285757,
+      "lat": 35.1174609,
+      "lon": -106.7279437
+    },
+    {
+      "type": "node",
+      "id": 8493285758,
+      "lat": 35.1172892,
+      "lon": -106.7280222
+    },
+    {
+      "type": "node",
+      "id": 8493285759,
+      "lat": 35.1171208,
+      "lon": -106.728111
+    },
+    {
+      "type": "node",
+      "id": 8493285760,
+      "lat": 35.1167956,
+      "lon": -106.7283181
+    },
+    {
+      "type": "node",
+      "id": 8493285761,
+      "lat": 35.1166396,
+      "lon": -106.7284361
+    },
+    {
+      "type": "node",
+      "id": 8493285762,
+      "lat": 35.1164972,
+      "lon": -106.7285555
+    },
+    {
+      "type": "node",
+      "id": 8493285763,
+      "lat": 35.1163594,
+      "lon": -106.7286828
+    },
+    {
+      "type": "node",
+      "id": 8493285764,
+      "lat": 35.1162266,
+      "lon": -106.7288177
+    },
+    {
+      "type": "node",
+      "id": 8493285765,
+      "lat": 35.1160991,
+      "lon": -106.72896
+    },
+    {
+      "type": "node",
+      "id": 8493285766,
+      "lat": 35.115977,
+      "lon": -106.7291093
+    },
+    {
+      "type": "node",
+      "id": 8493285767,
+      "lat": 35.1155371,
+      "lon": -106.7297262
+    },
+    {
+      "type": "node",
+      "id": 8493285768,
+      "lat": 35.1154017,
+      "lon": -106.7298827
+    },
+    {
+      "type": "node",
+      "id": 8493285769,
+      "lat": 35.1152592,
+      "lon": -106.7300327
+    },
+    {
+      "type": "node",
+      "id": 8493285770,
+      "lat": 35.1151095,
+      "lon": -106.7301738
+    },
+    {
+      "type": "node",
+      "id": 8493285771,
+      "lat": 35.1149567,
+      "lon": -106.7303075
+    },
+    {
+      "type": "node",
+      "id": 8493285772,
+      "lat": 35.1147987,
+      "lon": -106.7304316
+    },
+    {
+      "type": "node",
+      "id": 8493285773,
+      "lat": 35.1146356,
+      "lon": -106.7305457
+    },
+    {
+      "type": "node",
+      "id": 8493285774,
+      "lat": 35.114468,
+      "lon": -106.7306495
+    },
+    {
+      "type": "node",
+      "id": 8493285775,
+      "lat": 35.1142964,
+      "lon": -106.7307428
+    },
+    {
+      "type": "node",
+      "id": 8493285776,
+      "lat": 35.1141199,
+      "lon": -106.7308257
+    },
+    {
+      "type": "node",
+      "id": 8493285777,
+      "lat": 35.1139402,
+      "lon": -106.7308975
+    },
+    {
+      "type": "node",
+      "id": 8493285778,
+      "lat": 35.1137578,
+      "lon": -106.730958
+    },
+    {
+      "type": "node",
+      "id": 8493285779,
+      "lat": 35.113573,
+      "lon": -106.731007
+    },
+    {
+      "type": "node",
+      "id": 8493285780,
+      "lat": 35.1133865,
+      "lon": -106.7310444
+    },
+    {
+      "type": "node",
+      "id": 8493285781,
+      "lat": 35.1131986,
+      "lon": -106.7310701
+    },
+    {
+      "type": "node",
+      "id": 8493285782,
+      "lat": 35.1130099,
+      "lon": -106.731084
+    },
+    {
+      "type": "node",
+      "id": 8493285783,
+      "lat": 35.1128208,
+      "lon": -106.7310861
+    },
+    {
+      "type": "node",
+      "id": 9015824636,
+      "lat": 35.1125453,
+      "lon": -106.7266368
+    },
+    {
+      "type": "node",
+      "id": 141050570,
+      "lat": 35.112532,
+      "lon": -106.721128
+    },
+    {
+      "type": "node",
+      "id": 9015824621,
+      "lat": 35.1125366,
+      "lon": -106.723049
+    },
+    {
+      "type": "node",
+      "id": 9015824624,
+      "lat": 35.1125408,
+      "lon": -106.7247674
+    },
+    {
+      "type": "node",
+      "id": 141060084,
+      "lat": 35.117943,
+      "lon": -106.727757
+    },
+    {
+      "type": "node",
+      "id": 141061815,
+      "lat": 35.1190761,
+      "lon": -106.7276717
+    },
+    {
+      "type": "node",
+      "id": 141061818,
+      "lat": 35.1201615,
+      "lon": -106.7276758
+    },
+    {
+      "type": "node",
+      "id": 141061822,
+      "lat": 35.1215111,
+      "lon": -106.7277267
+    },
+    {
+      "type": "node",
+      "id": 141061826,
+      "lat": 35.1228294,
+      "lon": -106.72751
+    },
+    {
+      "type": "node",
+      "id": 1720834951,
+      "lat": 35.1221645,
+      "lon": -106.7276968
+    },
+    {
+      "type": "node",
+      "id": 1720834963,
+      "lat": 35.1188563,
+      "lon": -106.7276642
+    },
+    {
+      "type": "node",
+      "id": 1720834994,
+      "lat": 35.1186101,
+      "lon": -106.7276657
+    },
+    {
+      "type": "node",
+      "id": 1720835013,
+      "lat": 35.1181189,
+      "lon": -106.7277214
+    },
+    {
+      "type": "node",
+      "id": 1720835028,
+      "lat": 35.1218416,
+      "lon": -106.7277281
+    },
+    {
+      "type": "node",
+      "id": 1720835038,
+      "lat": 35.1177463,
+      "lon": -106.7278322
+    },
+    {
+      "type": "node",
+      "id": 1720835072,
+      "lat": 35.1183519,
+      "lon": -106.7276868
+    },
+    {
+      "type": "node",
+      "id": 1720835090,
+      "lat": 35.1211581,
+      "lon": -106.7277141
+    },
+    {
+      "type": "node",
+      "id": 1720835105,
+      "lat": 35.122503,
+      "lon": -106.7276238
+    },
+    {
+      "type": "node",
+      "id": 1720835111,
+      "lat": 35.1193149,
+      "lon": -106.7276777
+    },
+    {
+      "type": "node",
+      "id": 1720835119,
+      "lat": 35.1231044,
+      "lon": -106.727386
+    },
+    {
+      "type": "node",
+      "id": 2872863677,
+      "lat": 35.1178362,
+      "lon": -106.7277947
+    },
+    {
+      "type": "node",
+      "id": 5924563472,
+      "lat": 35.1240034,
+      "lon": -106.7267478
+    },
+    {
+      "type": "node",
+      "id": 5924563474,
+      "lat": 35.1237334,
+      "lon": -106.7269905
+    },
+    {
+      "type": "node",
+      "id": 5924563475,
+      "lat": 35.1233632,
+      "lon": -106.7272452
+    },
+    {
+      "type": "node",
+      "id": 9435798265,
+      "lat": 35.1180315,
+      "lon": -106.7277427
+    },
+    {
+      "type": "node",
+      "id": 1720834996,
+      "lat": 35.1248473,
+      "lon": -106.7258983
+    },
+    {
+      "type": "node",
+      "id": 5924563480,
+      "lat": 35.1243232,
+      "lon": -106.7264259
+    },
+    {
+      "type": "node",
+      "id": 141061838,
+      "lat": 35.1257804,
+      "lon": -106.7249781
+    },
+    {
+      "type": "node",
+      "id": 13412709756,
+      "lat": 35.1258891,
+      "lon": -106.7248713
+    },
+    {
+      "type": "node",
+      "id": 140863509,
+      "lat": 35.1300871,
+      "lon": -106.6417586
+    },
+    {
+      "type": "node",
+      "id": 140924074,
+      "lat": 35.1300643,
+      "lon": -106.6410162
+    },
+    {
+      "type": "node",
+      "id": 140928627,
+      "lat": 35.1300953,
+      "lon": -106.6403806
+    },
+    {
+      "type": "node",
+      "id": 140928631,
+      "lat": 35.1300899,
+      "lon": -106.6405382
+    },
+    {
+      "type": "node",
+      "id": 140928634,
+      "lat": 35.1303894,
+      "lon": -106.6428506
+    },
+    {
+      "type": "node",
+      "id": 140948640,
+      "lat": 35.1304532,
+      "lon": -106.6428312
+    },
+    {
+      "type": "node",
+      "id": 1906095238,
+      "lat": 35.1301309,
+      "lon": -106.6420052
+    },
+    {
+      "type": "node",
+      "id": 1906095241,
+      "lat": 35.1303497,
+      "lon": -106.6427321
+    },
+    {
+      "type": "node",
+      "id": 1906095257,
+      "lat": 35.1302112,
+      "lon": -106.6423445
+    },
+    {
+      "type": "node",
+      "id": 1906095327,
+      "lat": 35.1300584,
+      "lon": -106.6413599
+    },
+    {
+      "type": "node",
+      "id": 8377074493,
+      "lat": 35.1304398,
+      "lon": -106.6429804
+    },
+    {
+      "type": "node",
+      "id": 140863566,
+      "lat": 35.132381,
+      "lon": -106.642457
+    },
+    {
+      "type": "node",
+      "id": 140881303,
+      "lat": 35.136287,
+      "lon": -106.641724
+    },
+    {
+      "type": "node",
+      "id": 140948643,
+      "lat": 35.131293,
+      "lon": -106.642671
+    },
+    {
+      "type": "node",
+      "id": 140948646,
+      "lat": 35.131935,
+      "lon": -106.64254
+    },
+    {
+      "type": "node",
+      "id": 140948650,
+      "lat": 35.1337663,
+      "lon": -106.6422025
+    },
+    {
+      "type": "node",
+      "id": 140948654,
+      "lat": 35.1349684,
+      "lon": -106.6419686
+    },
+    {
+      "type": "node",
+      "id": 140948657,
+      "lat": 35.1358823,
+      "lon": -106.6417963
+    },
+    {
+      "type": "node",
+      "id": 140948660,
+      "lat": 35.137044,
+      "lon": -106.641571
+    },
+    {
+      "type": "node",
+      "id": 5235724268,
+      "lat": 35.1309642,
+      "lon": -106.6427316
+    },
+    {
+      "type": "node",
+      "id": 5417763669,
+      "lat": 35.1319873,
+      "lon": -106.6425303
+    },
+    {
+      "type": "node",
+      "id": 5417763678,
+      "lat": 35.1316618,
+      "lon": -106.6425958
+    },
+    {
+      "type": "node",
+      "id": 7485703125,
+      "lat": 35.1359283,
+      "lon": -106.6417881
+    },
+    {
+      "type": "node",
+      "id": 7485703137,
+      "lat": 35.1368455,
+      "lon": -106.6416111
+    },
+    {
+      "type": "node",
+      "id": 7485703143,
+      "lat": 35.1371144,
+      "lon": -106.6415599
+    },
+    {
+      "type": "node",
+      "id": 7605291024,
+      "lat": 35.1334602,
+      "lon": -106.6422587
+    },
+    {
+      "type": "node",
+      "id": 7605291035,
+      "lat": 35.1330889,
+      "lon": -106.642327
+    },
+    {
+      "type": "node",
+      "id": 10289711601,
+      "lat": 35.1315404,
+      "lon": -106.64262
+    },
+    {
+      "type": "node",
+      "id": 10763253112,
+      "lat": 35.1329162,
+      "lon": -106.6423587
+    },
+    {
+      "type": "node",
+      "id": 10763253115,
+      "lat": 35.1328134,
+      "lon": -106.6423776
+    },
+    {
+      "type": "node",
+      "id": 10763253117,
+      "lat": 35.1326239,
+      "lon": -106.6424124
+    },
+    {
+      "type": "node",
+      "id": 10763253121,
+      "lat": 35.1331102,
+      "lon": -106.6423227
+    },
+    {
+      "type": "node",
+      "id": 11964554850,
+      "lat": 35.1364436,
+      "lon": -106.6416923
+    },
+    {
+      "type": "node",
+      "id": 12079038137,
+      "lat": 35.1357738,
+      "lon": -106.6418085
+    },
+    {
+      "type": "node",
+      "id": 12079038138,
+      "lat": 35.1354809,
+      "lon": -106.641872
+    },
+    {
+      "type": "node",
+      "id": 12079038142,
+      "lat": 35.1358374,
+      "lon": -106.6418048
+    },
+    {
+      "type": "node",
+      "id": 12718188309,
+      "lat": 35.1367311,
+      "lon": -106.6416342
+    },
+    {
+      "type": "node",
+      "id": 12718188311,
+      "lat": 35.1366848,
+      "lon": -106.6416436
+    },
+    {
+      "type": "node",
+      "id": 12740627459,
+      "lat": 35.1344956,
+      "lon": -106.6420606
+    },
+    {
+      "type": "node",
+      "id": 12740627465,
+      "lat": 35.134669,
+      "lon": -106.6420269
+    },
+    {
+      "type": "node",
+      "id": 12740627470,
+      "lat": 35.1343218,
+      "lon": -106.6420944
+    },
+    {
+      "type": "node",
+      "id": 13020129480,
+      "lat": 35.1307811,
+      "lon": -106.6427673
+    },
+    {
+      "type": "node",
+      "id": 13434298207,
+      "lat": 35.1336222,
+      "lon": -106.6422286
+    },
+    {
+      "type": "node",
+      "id": 13434298211,
+      "lat": 35.1338084,
+      "lon": -106.6421943
+    },
+    {
+      "type": "node",
+      "id": 13536657078,
+      "lat": 35.135294,
+      "lon": -106.6419072
+    },
+    {
+      "type": "node",
+      "id": 140920463,
+      "lat": 35.1379362,
+      "lon": -106.6414059
+    },
+    {
+      "type": "node",
+      "id": 140923030,
+      "lat": 35.137291,
+      "lon": -106.641532
+    },
+    {
+      "type": "node",
+      "id": 1829185215,
+      "lat": 35.1385704,
+      "lon": -106.6412953
+    },
+    {
+      "type": "node",
+      "id": 7485703147,
+      "lat": 35.1375953,
+      "lon": -106.6414725
+    },
+    {
+      "type": "node",
+      "id": 12079038152,
+      "lat": 35.1385005,
+      "lon": -106.6413075
+    },
+    {
+      "type": "node",
+      "id": 13503105451,
+      "lat": 35.1382231,
+      "lon": -106.6413559
+    },
+    {
+      "type": "node",
+      "id": 140827770,
+      "lat": 35.0775034,
+      "lon": -106.6220988
+    },
+    {
+      "type": "node",
+      "id": 140827773,
+      "lat": 35.0773106,
+      "lon": -106.6214601
+    },
+    {
+      "type": "node",
+      "id": 140827776,
+      "lat": 35.0773089,
+      "lon": -106.6208337
+    },
+    {
+      "type": "node",
+      "id": 1788455593,
+      "lat": 35.0773751,
+      "lon": -106.6218373
+    },
+    {
+      "type": "node",
+      "id": 1788455595,
+      "lat": 35.0773176,
+      "lon": -106.6216015
+    },
+    {
+      "type": "node",
+      "id": 1788455597,
+      "lat": 35.0773412,
+      "lon": -106.6217192
+    },
+    {
+      "type": "node",
+      "id": 1788455599,
+      "lat": 35.0774248,
+      "lon": -106.621955
+    },
+    {
+      "type": "node",
+      "id": 2378540692,
+      "lat": 35.0773911,
+      "lon": -106.621876
+    },
+    {
+      "type": "node",
+      "id": 10980858928,
+      "lat": 35.0774463,
+      "lon": -106.6219941
+    },
+    {
+      "type": "node",
+      "id": 10980858998,
+      "lat": 35.0773092,
+      "lon": -106.6209496
+    },
+    {
+      "type": "node",
+      "id": 10980934313,
+      "lat": 35.0773109,
+      "lon": -106.6207232
+    },
+    {
+      "type": "node",
+      "id": 140827779,
+      "lat": 35.0773203,
+      "lon": -106.6195751
+    },
+    {
+      "type": "node",
+      "id": 140827782,
+      "lat": 35.0773133,
+      "lon": -106.6183216
+    },
+    {
+      "type": "node",
+      "id": 140827784,
+      "lat": 35.077306,
+      "lon": -106.6170761
+    },
+    {
+      "type": "node",
+      "id": 140827786,
+      "lat": 35.077298,
+      "lon": -106.615828
+    },
+    {
+      "type": "node",
+      "id": 140827788,
+      "lat": 35.0772986,
+      "lon": -106.6145646
+    },
+    {
+      "type": "node",
+      "id": 2147402643,
+      "lat": 35.07732,
+      "lon": -106.6202093
+    },
+    {
+      "type": "node",
+      "id": 2538877200,
+      "lat": 35.0773169,
+      "lon": -106.6189576
+    },
+    {
+      "type": "node",
+      "id": 2538877207,
+      "lat": 35.0773097,
+      "lon": -106.6177103
+    },
+    {
+      "type": "node",
+      "id": 2540720989,
+      "lat": 35.077302,
+      "lon": -106.6164581
+    },
+    {
+      "type": "node",
+      "id": 2540721021,
+      "lat": 35.0772983,
+      "lon": -106.6152136
+    },
+    {
+      "type": "node",
+      "id": 10581469092,
+      "lat": 35.07732,
+      "lon": -106.619516
+    },
+    {
+      "type": "node",
+      "id": 10980877807,
+      "lat": 35.0773053,
+      "lon": -106.6169692
+    },
+    {
+      "type": "node",
+      "id": 10980877809,
+      "lat": 35.0773067,
+      "lon": -106.6171885
+    },
+    {
+      "type": "node",
+      "id": 10980934325,
+      "lat": 35.0773202,
+      "lon": -106.6196891
+    },
+    {
+      "type": "node",
+      "id": 10980934334,
+      "lat": 35.0773197,
+      "lon": -106.6194714
+    },
+    {
+      "type": "node",
+      "id": 10980934349,
+      "lat": 35.077314,
+      "lon": -106.6184396
+    },
+    {
+      "type": "node",
+      "id": 10980958873,
+      "lat": 35.0773127,
+      "lon": -106.6182209
+    },
+    {
+      "type": "node",
+      "id": 10980958890,
+      "lat": 35.0772987,
+      "lon": -106.6159345
+    },
+    {
+      "type": "node",
+      "id": 10980958896,
+      "lat": 35.0772981,
+      "lon": -106.6157178
+    },
+    {
+      "type": "node",
+      "id": 10980967807,
+      "lat": 35.0772985,
+      "lon": -106.6146836
+    },
+    {
+      "type": "node",
+      "id": 10980967816,
+      "lat": 35.0772987,
+      "lon": -106.6144638
+    },
+    {
+      "type": "node",
+      "id": 140740140,
+      "lat": 35.077283,
+      "lon": -106.6108
+    },
+    {
+      "type": "node",
+      "id": 140827790,
+      "lat": 35.0773005,
+      "lon": -106.6133118
+    },
+    {
+      "type": "node",
+      "id": 140827792,
+      "lat": 35.0772933,
+      "lon": -106.6120645
+    },
+    {
+      "type": "node",
+      "id": 140827795,
+      "lat": 35.0772821,
+      "lon": -106.6095651
+    },
+    {
+      "type": "node",
+      "id": 140827796,
+      "lat": 35.0772794,
+      "lon": -106.6083079
+    },
+    {
+      "type": "node",
+      "id": 140827798,
+      "lat": 35.0772786,
+      "lon": -106.6076878
+    },
+    {
+      "type": "node",
+      "id": 140909678,
+      "lat": 35.0754694,
+      "lon": -106.6095707
+    },
+    {
+      "type": "node",
+      "id": 140970584,
+      "lat": 35.0718451,
+      "lon": -106.6095905
+    },
+    {
+      "type": "node",
+      "id": 141012240,
+      "lat": 35.073647,
+      "lon": -106.609575
+    },
+    {
+      "type": "node",
+      "id": 1839421948,
+      "lat": 35.0772807,
+      "lon": -106.60893
+    },
+    {
+      "type": "node",
+      "id": 2063477132,
+      "lat": 35.0772882,
+      "lon": -106.6114433
+    },
+    {
+      "type": "node",
+      "id": 2063477133,
+      "lat": 35.0772826,
+      "lon": -106.6101933
+    },
+    {
+      "type": "node",
+      "id": 2540720907,
+      "lat": 35.0772995,
+      "lon": -106.613953
+    },
+    {
+      "type": "node",
+      "id": 2540720984,
+      "lat": 35.077297,
+      "lon": -106.6127085
+    },
+    {
+      "type": "node",
+      "id": 8048066729,
+      "lat": 35.0773668,
+      "lon": -106.6095639
+    },
+    {
+      "type": "node",
+      "id": 8048066730,
+      "lat": 35.0771912,
+      "lon": -106.6095653
+    },
+    {
+      "type": "node",
+      "id": 10980967831,
+      "lat": 35.0773003,
+      "lon": -106.6134336
+    },
+    {
+      "type": "node",
+      "id": 10980987522,
+      "lat": 35.0772999,
+      "lon": -106.6132081
+    },
+    {
+      "type": "node",
+      "id": 10980987524,
+      "lat": 35.0772939,
+      "lon": -106.6121768
+    },
+    {
+      "type": "node",
+      "id": 10981329540,
+      "lat": 35.0772796,
+      "lon": -106.6084199
+    },
+    {
+      "type": "node",
+      "id": 10981329542,
+      "lat": 35.0772793,
+      "lon": -106.6082015
+    },
+    {
+      "type": "node",
+      "id": 10981338743,
+      "lat": 35.077357,
+      "lon": -106.6095632
+    },
+    {
+      "type": "node",
+      "id": 10981421410,
+      "lat": 35.0772819,
+      "lon": -106.6094611
+    },
+    {
+      "type": "node",
+      "id": 10981421413,
+      "lat": 35.0772195,
+      "lon": -106.609565
+    },
+    {
+      "type": "node",
+      "id": 10981421415,
+      "lat": 35.0772822,
+      "lon": -106.6096804
+    },
+    {
+      "type": "node",
+      "id": 10981421430,
+      "lat": 35.0772829,
+      "lon": -106.6107061
+    },
+    {
+      "type": "node",
+      "id": 10981421434,
+      "lat": 35.077284,
+      "lon": -106.6109288
+    },
+    {
+      "type": "node",
+      "id": 10981421451,
+      "lat": 35.0772924,
+      "lon": -106.6119586
+    },
+    {
+      "type": "node",
+      "id": 10981425310,
+      "lat": 35.0755457,
+      "lon": -106.6095698
+    },
+    {
+      "type": "node",
+      "id": 10981425315,
+      "lat": 35.0754126,
+      "lon": -106.6095702
+    },
+    {
+      "type": "node",
+      "id": 10994679333,
+      "lat": 35.0719023,
+      "lon": -106.6095895
+    },
+    {
+      "type": "node",
+      "id": 10994679348,
+      "lat": 35.0735984,
+      "lon": -106.6095754
+    },
+    {
+      "type": "node",
+      "id": 10994679349,
+      "lat": 35.0737177,
+      "lon": -106.6095748
+    },
+    {
+      "type": "node",
+      "id": 140827801,
+      "lat": 35.0772764,
+      "lon": -106.6070543
+    },
+    {
+      "type": "node",
+      "id": 140827803,
+      "lat": 35.0772677,
+      "lon": -106.6058097
+    },
+    {
+      "type": "node",
+      "id": 140827807,
+      "lat": 35.0772565,
+      "lon": -106.604554
+    },
+    {
+      "type": "node",
+      "id": 1839421946,
+      "lat": 35.0772733,
+      "lon": -106.6064414
+    },
+    {
+      "type": "node",
+      "id": 1839421968,
+      "lat": 35.0772637,
+      "lon": -106.6051861
+    },
+    {
+      "type": "node",
+      "id": 10981329595,
+      "lat": 35.0772768,
+      "lon": -106.6071551
+    },
+    {
+      "type": "node",
+      "id": 10981360113,
+      "lat": 35.0772759,
+      "lon": -106.6069511
+    },
+    {
+      "type": "node",
+      "id": 10981360115,
+      "lat": 35.0772686,
+      "lon": -106.6059127
+    },
+    {
+      "type": "node",
+      "id": 10981360117,
+      "lat": 35.077267,
+      "lon": -106.6056978
+    },
+    {
+      "type": "node",
+      "id": 10981440052,
+      "lat": 35.0772577,
+      "lon": -106.6046604
+    },
+    {
+      "type": "node",
+      "id": 140937897,
+      "lat": 35.0790856,
+      "lon": -106.6095497
+    },
+    {
+      "type": "node",
+      "id": 1769010129,
+      "lat": 35.0803858,
+      "lon": -106.609555
+    },
+    {
+      "type": "node",
+      "id": 2659445990,
+      "lat": 35.0802617,
+      "lon": -106.6095545
+    },
+    {
+      "type": "node",
+      "id": 2659446068,
+      "lat": 35.0795099,
+      "lon": -106.6095604
+    },
+    {
+      "type": "node",
+      "id": 4719280317,
+      "lat": 35.0790277,
+      "lon": -106.6095428
+    },
+    {
+      "type": "node",
+      "id": 4719280318,
+      "lat": 35.0791497,
+      "lon": -106.6095588
+    },
+    {
+      "type": "node",
+      "id": 6872681646,
+      "lat": 35.0803384,
+      "lon": -106.609555
+    },
+    {
+      "type": "node",
+      "id": 10981019956,
+      "lat": 35.0791665,
+      "lon": -106.6095581
+    },
+    {
+      "type": "node",
+      "id": 10981329537,
+      "lat": 35.0790268,
+      "lon": -106.609542
+    },
+    {
+      "type": "node",
+      "id": 13628694916,
+      "lat": 35.0803091,
+      "lon": -106.6095548
+    },
+    {
+      "type": "node",
+      "id": 140862245,
+      "lat": 35.0766681,
+      "lon": -106.575286
+    },
+    {
+      "type": "node",
+      "id": 140920549,
+      "lat": 35.0770985,
+      "lon": -106.5792186
+    },
+    {
+      "type": "node",
+      "id": 140942425,
+      "lat": 35.0778921,
+      "lon": -106.5774834
+    },
+    {
+      "type": "node",
+      "id": 141041272,
+      "lat": 35.0770085,
+      "lon": -106.5783593
+    },
+    {
+      "type": "node",
+      "id": 141078392,
+      "lat": 35.0769115,
+      "lon": -106.577491
+    },
+    {
+      "type": "node",
+      "id": 1769010050,
+      "lat": 35.0765256,
+      "lon": -106.5751472
+    },
+    {
+      "type": "node",
+      "id": 1769010153,
+      "lat": 35.0768687,
+      "lon": -106.5783578
+    },
+    {
+      "type": "node",
+      "id": 1769010182,
+      "lat": 35.076773,
+      "lon": -106.577492
+    },
+    {
+      "type": "node",
+      "id": 1769010229,
+      "lat": 35.0765416,
+      "lon": -106.5752982
+    },
+    {
+      "type": "node",
+      "id": 2822860007,
+      "lat": 35.077374,
+      "lon": -106.5774854
+    },
+    {
+      "type": "node",
+      "id": 7547447221,
+      "lat": 35.076742,
+      "lon": -106.577198
+    },
+    {
+      "type": "node",
+      "id": 7547447225,
+      "lat": 35.0767075,
+      "lon": -106.5768712
+    },
+    {
+      "type": "node",
+      "id": 7547447228,
+      "lat": 35.0768401,
+      "lon": -106.5768444
+    },
+    {
+      "type": "node",
+      "id": 7547447229,
+      "lat": 35.0768734,
+      "lon": -106.5771457
+    },
+    {
+      "type": "node",
+      "id": 7607372074,
+      "lat": 35.0777614,
+      "lon": -106.5774844
+    },
+    {
+      "type": "node",
+      "id": 8572501067,
+      "lat": 35.0769965,
+      "lon": -106.57749
+    },
+    {
+      "type": "node",
+      "id": 8572501068,
+      "lat": 35.0769309,
+      "lon": -106.5776639
+    },
+    {
+      "type": "node",
+      "id": 8572501069,
+      "lat": 35.0767916,
+      "lon": -106.5776654
+    },
+    {
+      "type": "node",
+      "id": 8572501070,
+      "lat": 35.076758,
+      "lon": -106.577349
+    },
+    {
+      "type": "node",
+      "id": 8572501071,
+      "lat": 35.076895,
+      "lon": -106.5773418
+    },
+    {
+      "type": "node",
+      "id": 10752277097,
+      "lat": 35.0767781,
+      "lon": -106.5762824
+    },
+    {
+      "type": "node",
+      "id": 10752333505,
+      "lat": 35.0767979,
+      "lon": -106.5764621
+    },
+    {
+      "type": "node",
+      "id": 11012825939,
+      "lat": 35.0764774,
+      "lon": -106.5747049
+    },
+    {
+      "type": "node",
+      "id": 11353722407,
+      "lat": 35.0768598,
+      "lon": -106.5770221
+    },
+    {
+      "type": "node",
+      "id": 11510313785,
+      "lat": 35.0766867,
+      "lon": -106.5766741
+    },
+    {
+      "type": "node",
+      "id": 11510313790,
+      "lat": 35.0766585,
+      "lon": -106.5764068
+    },
+    {
+      "type": "node",
+      "id": 12124273807,
+      "lat": 35.0767152,
+      "lon": -106.575713
+    },
+    {
+      "type": "node",
+      "id": 12707297818,
+      "lat": 35.0770905,
+      "lon": -106.5774889
+    },
+    {
+      "type": "node",
+      "id": 13628698363,
+      "lat": 35.0770789,
+      "lon": -106.5790318
+    },
+    {
+      "type": "node",
+      "id": 13628698367,
+      "lat": 35.077063,
+      "lon": -106.5788801
+    },
+    {
+      "type": "node",
+      "id": 141014907,
+      "lat": 35.070815,
+      "lon": -106.5654107
+    },
+    {
+      "type": "node",
+      "id": 2932080104,
+      "lat": 35.069855,
+      "lon": -106.5654275
+    },
+    {
+      "type": "node",
+      "id": 2932105828,
+      "lat": 35.0714421,
+      "lon": -106.5653982
+    },
+    {
+      "type": "node",
+      "id": 4248010349,
+      "lat": 35.0690433,
+      "lon": -106.5654349
+    },
+    {
+      "type": "node",
+      "id": 11013874973,
+      "lat": 35.070756,
+      "lon": -106.565411
+    },
+    {
+      "type": "node",
+      "id": 11013874974,
+      "lat": 35.0708823,
+      "lon": -106.5654087
+    },
+    {
+      "type": "node",
+      "id": 11013897629,
+      "lat": 35.0690692,
+      "lon": -106.5654331
+    },
+    {
+      "type": "node",
+      "id": 140833544,
+      "lat": 35.0764161,
+      "lon": -106.5729379
+    },
+    {
+      "type": "node",
+      "id": 140842476,
+      "lat": 35.0748328,
+      "lon": -106.5685644
+    },
+    {
+      "type": "node",
+      "id": 141041930,
+      "lat": 35.0759362,
+      "lon": -106.56857
+    },
+    {
+      "type": "node",
+      "id": 141116680,
+      "lat": 35.0781211,
+      "lon": -106.56858
+    },
+    {
+      "type": "node",
+      "id": 141117940,
+      "lat": 35.0761809,
+      "lon": -106.5707247
+    },
+    {
+      "type": "node",
+      "id": 1769010083,
+      "lat": 35.0762848,
+      "lon": -106.5729394
+    },
+    {
+      "type": "node",
+      "id": 1769010120,
+      "lat": 35.0760412,
+      "lon": -106.5707565
+    },
+    {
+      "type": "node",
+      "id": 1769010170,
+      "lat": 35.0758121,
+      "lon": -106.568572
+    },
+    {
+      "type": "node",
+      "id": 1951619866,
+      "lat": 35.0764235,
+      "lon": -106.574211
+    },
+    {
+      "type": "node",
+      "id": 1951619948,
+      "lat": 35.0765516,
+      "lon": -106.5742009
+    },
+    {
+      "type": "node",
+      "id": 2822876654,
+      "lat": 35.0753209,
+      "lon": -106.5685687
+    },
+    {
+      "type": "node",
+      "id": 3418903431,
+      "lat": 35.0765321,
+      "lon": -106.5685729
+    },
+    {
+      "type": "node",
+      "id": 3418903457,
+      "lat": 35.0761592,
+      "lon": -106.5705218
+    },
+    {
+      "type": "node",
+      "id": 3418903481,
+      "lat": 35.076212,
+      "lon": -106.5710175
+    },
+    {
+      "type": "node",
+      "id": 5353713227,
+      "lat": 35.0763406,
+      "lon": -106.572212
+    },
+    {
+      "type": "node",
+      "id": 5353713234,
+      "lat": 35.0762077,
+      "lon": -106.5722306
+    },
+    {
+      "type": "node",
+      "id": 5353713235,
+      "lat": 35.0762212,
+      "lon": -106.5723493
+    },
+    {
+      "type": "node",
+      "id": 5353713236,
+      "lat": 35.0763584,
+      "lon": -106.5723569
+    },
+    {
+      "type": "node",
+      "id": 7478257024,
+      "lat": 35.0750024,
+      "lon": -106.5685645
+    },
+    {
+      "type": "node",
+      "id": 7845057622,
+      "lat": 35.0758519,
+      "lon": -106.56857
+    },
+    {
+      "type": "node",
+      "id": 7845057637,
+      "lat": 35.0758996,
+      "lon": -106.5685706
+    },
+    {
+      "type": "node",
+      "id": 8042767699,
+      "lat": 35.0757276,
+      "lon": -106.568571
+    },
+    {
+      "type": "node",
+      "id": 8042767702,
+      "lat": 35.0758301,
+      "lon": -106.568748
+    },
+    {
+      "type": "node",
+      "id": 8042767703,
+      "lat": 35.075956,
+      "lon": -106.568743
+    },
+    {
+      "type": "node",
+      "id": 9029270306,
+      "lat": 35.0760888,
+      "lon": -106.5685705
+    },
+    {
+      "type": "node",
+      "id": 9029270307,
+      "lat": 35.0758343,
+      "lon": -106.568788
+    },
+    {
+      "type": "node",
+      "id": 9029270308,
+      "lat": 35.0756933,
+      "lon": -106.5685707
+    },
+    {
+      "type": "node",
+      "id": 10286826417,
+      "lat": 35.075857,
+      "lon": -106.5690053
+    },
+    {
+      "type": "node",
+      "id": 10286826419,
+      "lat": 35.0753986,
+      "lon": -106.5685684
+    },
+    {
+      "type": "node",
+      "id": 10755530616,
+      "lat": 35.0758806,
+      "lon": -106.5692316
+    },
+    {
+      "type": "node",
+      "id": 11012857940,
+      "lat": 35.0762108,
+      "lon": -106.5722584
+    },
+    {
+      "type": "node",
+      "id": 11012857968,
+      "lat": 35.0762489,
+      "lon": -106.572609
+    },
+    {
+      "type": "node",
+      "id": 11012857992,
+      "lat": 35.0762329,
+      "lon": -106.5724615
+    },
+    {
+      "type": "node",
+      "id": 11012857993,
+      "lat": 35.0763683,
+      "lon": -106.5724702
+    },
+    {
+      "type": "node",
+      "id": 11012857996,
+      "lat": 35.0763312,
+      "lon": -106.5721248
+    },
+    {
+      "type": "node",
+      "id": 11012857997,
+      "lat": 35.0761995,
+      "lon": -106.5721576
+    },
+    {
+      "type": "node",
+      "id": 11026126775,
+      "lat": 35.0760478,
+      "lon": -106.56857
+    },
+    {
+      "type": "node",
+      "id": 11255103570,
+      "lat": 35.0759668,
+      "lon": -106.5700494
+    },
+    {
+      "type": "node",
+      "id": 11255103575,
+      "lat": 35.0759333,
+      "lon": -106.5697317
+    },
+    {
+      "type": "node",
+      "id": 12123729828,
+      "lat": 35.0770081,
+      "lon": -106.568575
+    },
+    {
+      "type": "node",
+      "id": 12123729833,
+      "lat": 35.0775362,
+      "lon": -106.5685774
+    },
+    {
+      "type": "node",
+      "id": 12123729836,
+      "lat": 35.076777,
+      "lon": -106.568574
+    },
+    {
+      "type": "node",
+      "id": 12848335039,
+      "lat": 35.0762781,
+      "lon": -106.5685715
+    },
+    {
+      "type": "node",
+      "id": 13628698368,
+      "lat": 35.0762383,
+      "lon": -106.5725109
+    },
+    {
+      "type": "node",
+      "id": 13628698371,
+      "lat": 35.0763272,
+      "lon": -106.5720872
+    },
+    {
+      "type": "node",
+      "id": 13977843282,
+      "lat": 35.0763613,
+      "lon": -106.573636
+    },
+    {
+      "type": "node",
+      "id": 141014904,
+      "lat": 35.0727022,
+      "lon": -106.565373
+    },
+    {
+      "type": "node",
+      "id": 616095419,
+      "lat": 35.075232,
+      "lon": -106.5619259
+    },
+    {
+      "type": "node",
+      "id": 616095420,
+      "lat": 35.0753553,
+      "lon": -106.5630493
+    },
+    {
+      "type": "node",
+      "id": 616095421,
+      "lat": 35.0753733,
+      "lon": -106.5632369
+    },
+    {
+      "type": "node",
+      "id": 616095422,
+      "lat": 35.0754689,
+      "lon": -106.5641346
+    },
+    {
+      "type": "node",
+      "id": 616095423,
+      "lat": 35.0755836,
+      "lon": -106.5652646
+    },
+    {
+      "type": "node",
+      "id": 616095424,
+      "lat": 35.0757065,
+      "lon": -106.5663377
+    },
+    {
+      "type": "node",
+      "id": 616095425,
+      "lat": 35.075825,
+      "lon": -106.5674458
+    },
+    {
+      "type": "node",
+      "id": 3416881114,
+      "lat": 35.0726933,
+      "lon": -106.5662914
+    },
+    {
+      "type": "node",
+      "id": 3416881115,
+      "lat": 35.072558,
+      "lon": -106.5643062
+    },
+    {
+      "type": "node",
+      "id": 3416881116,
+      "lat": 35.0727202,
+      "lon": -106.5644121
+    },
+    {
+      "type": "node",
+      "id": 3416881117,
+      "lat": 35.0726612,
+      "lon": -106.5643679
+    },
+    {
+      "type": "node",
+      "id": 3416881118,
+      "lat": 35.0725953,
+      "lon": -106.564333
+    },
+    {
+      "type": "node",
+      "id": 10770360233,
+      "lat": 35.0755201,
+      "lon": -106.5646385
+    },
+    {
+      "type": "node",
+      "id": 11013849899,
+      "lat": 35.072623,
+      "lon": -106.5653746
+    },
+    {
+      "type": "node",
+      "id": 11013874914,
+      "lat": 35.0726384,
+      "lon": -106.5643552
+    },
+    {
+      "type": "node",
+      "id": 11026126721,
+      "lat": 35.0757641,
+      "lon": -106.5668755
+    },
+    {
+      "type": "node",
+      "id": 11727195244,
+      "lat": 35.0754203,
+      "lon": -106.5636775
+    },
+    {
+      "type": "node",
+      "id": 14003835877,
+      "lat": 35.0752765,
+      "lon": -106.5623311
+    },
+    {
+      "type": "node",
+      "id": 140918291,
+      "lat": 35.0787557,
+      "lon": -106.577487
+    },
+    {
+      "type": "node",
+      "id": 140918293,
+      "lat": 35.0788819,
+      "lon": -106.5774889
+    },
+    {
+      "type": "node",
+      "id": 140970882,
+      "lat": 35.0807301,
+      "lon": -106.5774802
+    },
+    {
+      "type": "node",
+      "id": 2822860006,
+      "lat": 35.0783741,
+      "lon": -106.5774861
+    },
+    {
+      "type": "node",
+      "id": 11030607259,
+      "lat": 35.0806583,
+      "lon": -106.5774803
+    },
+    {
+      "type": "node",
+      "id": 12124269664,
+      "lat": 35.0789194,
+      "lon": -106.5774887
+    },
+    {
+      "type": "node",
+      "id": 12124269671,
+      "lat": 35.0805258,
+      "lon": -106.5774809
+    },
+    {
+      "type": "node",
+      "id": 12124269673,
+      "lat": 35.0802352,
+      "lon": -106.5774823
+    },
+    {
+      "type": "node",
+      "id": 12124269678,
+      "lat": 35.0798745,
+      "lon": -106.5774841
+    },
+    {
+      "type": "node",
+      "id": 12124269681,
+      "lat": 35.0797967,
+      "lon": -106.5774845
+    },
+    {
+      "type": "node",
+      "id": 12124269684,
+      "lat": 35.0793138,
+      "lon": -106.5774868
+    },
+    {
+      "type": "node",
+      "id": 12124269685,
+      "lat": 35.0792238,
+      "lon": -106.5774872
+    },
+    {
+      "type": "node",
+      "id": 12124269689,
+      "lat": 35.0794365,
+      "lon": -106.5774862
+    },
+    {
+      "type": "node",
+      "id": 12124269692,
+      "lat": 35.079601,
+      "lon": -106.5774854
+    },
+    {
+      "type": "node",
+      "id": 140834845,
+      "lat": 35.0817466,
+      "lon": -106.5685927
+    },
+    {
+      "type": "node",
+      "id": 140946891,
+      "lat": 35.0835628,
+      "lon": -106.5686053
+    },
+    {
+      "type": "node",
+      "id": 140971057,
+      "lat": 35.079933,
+      "lon": -106.5685844
+    },
+    {
+      "type": "node",
+      "id": 10154382341,
+      "lat": 35.0811173,
+      "lon": -106.5685892
+    },
+    {
+      "type": "node",
+      "id": 10704875323,
+      "lat": 35.0835614,
+      "lon": -106.5680932
+    },
+    {
+      "type": "node",
+      "id": 10704875327,
+      "lat": 35.0843486,
+      "lon": -106.5686094
+    },
+    {
+      "type": "node",
+      "id": 10704875344,
+      "lat": 35.0845592,
+      "lon": -106.5686106
+    },
+    {
+      "type": "node",
+      "id": 11032418495,
+      "lat": 35.0835625,
+      "lon": -106.5684864
+    },
+    {
+      "type": "node",
+      "id": 140946893,
+      "lat": 35.0835598,
+      "lon": -106.5674865
+    },
+    {
+      "type": "node",
+      "id": 3416893434,
+      "lat": 35.0835691,
+      "lon": -106.5664765
+    },
+    {
+      "type": "node",
+      "id": 10704875312,
+      "lat": 35.0835604,
+      "lon": -106.5677142
+    },
+    {
+      "type": "node",
+      "id": 10704875321,
+      "lat": 35.0835631,
+      "lon": -106.5671242
+    },
+    {
+      "type": "node",
+      "id": 11032418503,
+      "lat": 35.0835687,
+      "lon": -106.5665186
+    },
+    {
+      "type": "node",
+      "id": 1736478332,
+      "lat": 35.0857144,
+      "lon": -106.5686169
+    },
+    {
+      "type": "node",
+      "id": 1736481226,
+      "lat": 35.0862393,
+      "lon": -106.5686336
+    },
+    {
+      "type": "node",
+      "id": 3416909712,
+      "lat": 35.0848139,
+      "lon": -106.568612
+    },
+    {
+      "type": "node",
+      "id": 10704870281,
+      "lat": 35.0849647,
+      "lon": -106.5686127
+    },
+    {
+      "type": "node",
+      "id": 140851243,
+      "lat": 35.0744487,
+      "lon": -106.5559324
+    },
+    {
+      "type": "node",
+      "id": 616095411,
+      "lat": 35.0745817,
+      "lon": -106.5559582
+    },
+    {
+      "type": "node",
+      "id": 616095412,
+      "lat": 35.0746997,
+      "lon": -106.5570228
+    },
+    {
+      "type": "node",
+      "id": 616095413,
+      "lat": 35.0748118,
+      "lon": -106.5581518
+    },
+    {
+      "type": "node",
+      "id": 616095414,
+      "lat": 35.074937,
+      "lon": -106.5592526
+    },
+    {
+      "type": "node",
+      "id": 616095415,
+      "lat": 35.0750297,
+      "lon": -106.5600905
+    },
+    {
+      "type": "node",
+      "id": 616095416,
+      "lat": 35.0750561,
+      "lon": -106.5603235
+    },
+    {
+      "type": "node",
+      "id": 616095417,
+      "lat": 35.0751118,
+      "lon": -106.5608446
+    },
+    {
+      "type": "node",
+      "id": 616095418,
+      "lat": 35.0751754,
+      "lon": -106.5614116
+    },
+    {
+      "type": "node",
+      "id": 3416893400,
+      "lat": 35.076386,
+      "lon": -106.5559182
+    },
+    {
+      "type": "node",
+      "id": 8226259127,
+      "lat": 35.0746397,
+      "lon": -106.555956
+    },
+    {
+      "type": "node",
+      "id": 10734201864,
+      "lat": 35.0749909,
+      "lon": -106.559719
+    },
+    {
+      "type": "node",
+      "id": 10734201865,
+      "lat": 35.0749623,
+      "lon": -106.559481
+    },
+    {
+      "type": "node",
+      "id": 11016700128,
+      "lat": 35.0749265,
+      "lon": -106.5591597
+    },
+    {
+      "type": "node",
+      "id": 11016700130,
+      "lat": 35.0749462,
+      "lon": -106.5593352
+    },
+    {
+      "type": "node",
+      "id": 11026088122,
+      "lat": 35.0750721,
+      "lon": -106.5559466
+    },
+    {
+      "type": "node",
+      "id": 11030584474,
+      "lat": 35.076348,
+      "lon": -106.5559188
+    },
+    {
+      "type": "node",
+      "id": 12078940768,
+      "lat": 35.0745312,
+      "lon": -106.555481
+    },
+    {
+      "type": "node",
+      "id": 13417914504,
+      "lat": 35.074839,
+      "lon": -106.5583912
+    },
+    {
+      "type": "node",
+      "id": 14088900744,
+      "lat": 35.0745019,
+      "lon": -106.5552044
+    },
+    {
+      "type": "node",
+      "id": 616095409,
+      "lat": 35.0743435,
+      "lon": -106.5537392
+    },
+    {
+      "type": "node",
+      "id": 616095410,
+      "lat": 35.0744638,
+      "lon": -106.5548444
+    },
+    {
+      "type": "node",
+      "id": 1739955495,
+      "lat": 35.0742865,
+      "lon": -106.5532131
+    },
+    {
+      "type": "node",
+      "id": 140965767,
+      "lat": 35.1092277,
+      "lon": -106.62832
+    },
+    {
+      "type": "node",
+      "id": 1709500360,
+      "lat": 35.1092291,
+      "lon": -106.6273243
+    },
+    {
+      "type": "node",
+      "id": 8947352863,
+      "lat": 35.1092289,
+      "lon": -106.6271684
+    },
+    {
+      "type": "node",
+      "id": 140965775,
+      "lat": 35.1092261,
+      "lon": -106.6264829
+    },
+    {
+      "type": "node",
+      "id": 140965778,
+      "lat": 35.1092443,
+      "lon": -106.6238201
+    },
+    {
+      "type": "node",
+      "id": 140965781,
+      "lat": 35.1092541,
+      "lon": -106.6217861
+    },
+    {
+      "type": "node",
+      "id": 2153843137,
+      "lat": 35.1092251,
+      "lon": -106.6250561
+    },
+    {
+      "type": "node",
+      "id": 7001605519,
+      "lat": 35.1092518,
+      "lon": -106.6223696
+    },
+    {
+      "type": "node",
+      "id": 7438819981,
+      "lat": 35.1092288,
+      "lon": -106.6248054
+    },
+    {
+      "type": "node",
+      "id": 7439088107,
+      "lat": 35.1092495,
+      "lon": -106.6227609
+    },
+    {
+      "type": "node",
+      "id": 7439088120,
+      "lat": 35.1092466,
+      "lon": -106.6232429
+    },
+    {
+      "type": "node",
+      "id": 8947352865,
+      "lat": 35.1092204,
+      "lon": -106.6254711
+    },
+    {
+      "type": "node",
+      "id": 8997146914,
+      "lat": 35.1092437,
+      "lon": -106.6239825
+    },
+    {
+      "type": "node",
+      "id": 9799019321,
+      "lat": 35.1092448,
+      "lon": -106.6236839
+    },
+    {
+      "type": "node",
+      "id": 10585567228,
+      "lat": 35.109233,
+      "lon": -106.6246204
+    },
+    {
+      "type": "node",
+      "id": 10585567232,
+      "lat": 35.1092251,
+      "lon": -106.6251179
+    },
+    {
+      "type": "node",
+      "id": 12870106477,
+      "lat": 35.1092522,
+      "lon": -106.6210183
+    },
+    {
+      "type": "node",
+      "id": 12870106480,
+      "lat": 35.109253,
+      "lon": -106.621357
+    },
+    {
+      "type": "node",
+      "id": 140740723,
+      "lat": 35.1092776,
+      "lon": -106.6146819
+    },
+    {
+      "type": "node",
+      "id": 140740730,
+      "lat": 35.1092765,
+      "lon": -106.6152272
+    },
+    {
+      "type": "node",
+      "id": 140890295,
+      "lat": 35.1092506,
+      "lon": -106.6203859
+    },
+    {
+      "type": "node",
+      "id": 140965784,
+      "lat": 35.1092724,
+      "lon": -106.6169146
+    },
+    {
+      "type": "node",
+      "id": 1838230186,
+      "lat": 35.1091305,
+      "lon": -106.6152268
+    },
+    {
+      "type": "node",
+      "id": 2153843174,
+      "lat": 35.1092645,
+      "lon": -106.6181789
+    },
+    {
+      "type": "node",
+      "id": 7467723315,
+      "lat": 35.109277,
+      "lon": -106.614108
+    },
+    {
+      "type": "node",
+      "id": 7467723322,
+      "lat": 35.1103414,
+      "lon": -106.6152188
+    },
+    {
+      "type": "node",
+      "id": 7467723355,
+      "lat": 35.1092772,
+      "lon": -106.6143575
+    },
+    {
+      "type": "node",
+      "id": 7628824552,
+      "lat": 35.1092666,
+      "lon": -106.6178501
+    },
+    {
+      "type": "node",
+      "id": 8997146897,
+      "lat": 35.1092555,
+      "lon": -106.6196071
+    },
+    {
+      "type": "node",
+      "id": 9948771193,
+      "lat": 35.1092541,
+      "lon": -106.6198364
+    },
+    {
+      "type": "node",
+      "id": 9948771195,
+      "lat": 35.1092522,
+      "lon": -106.6201325
+    },
+    {
+      "type": "node",
+      "id": 10736980037,
+      "lat": 35.1092616,
+      "lon": -106.6190154
+    },
+    {
+      "type": "node",
+      "id": 10736980041,
+      "lat": 35.1092652,
+      "lon": -106.6185967
+    },
+    {
+      "type": "node",
+      "id": 10837831267,
+      "lat": 35.1093496,
+      "lon": -106.6152264
+    },
+    {
+      "type": "node",
+      "id": 10837831269,
+      "lat": 35.1092763,
+      "lon": -106.6153175
+    },
+    {
+      "type": "node",
+      "id": 11045891788,
+      "lat": 35.1092749,
+      "lon": -106.6159018
+    },
+    {
+      "type": "node",
+      "id": 140740733,
+      "lat": 35.111018,
+      "lon": -106.6152134
+    },
+    {
+      "type": "node",
+      "id": 140740736,
+      "lat": 35.1129411,
+      "lon": -106.6152187
+    },
+    {
+      "type": "node",
+      "id": 140740739,
+      "lat": 35.11434,
+      "lon": -106.615197
+    },
+    {
+      "type": "node",
+      "id": 8808209934,
+      "lat": 35.1139208,
+      "lon": -106.6152033
+    },
+    {
+      "type": "node",
+      "id": 8808350389,
+      "lat": 35.1114793,
+      "lon": -106.6152142
+    },
+    {
+      "type": "node",
+      "id": 8808350392,
+      "lat": 35.1117278,
+      "lon": -106.6152148
+    },
+    {
+      "type": "node",
+      "id": 8808350393,
+      "lat": 35.1116402,
+      "lon": -106.6152146
+    },
+    {
+      "type": "node",
+      "id": 10839618045,
+      "lat": 35.1109448,
+      "lon": -106.6152135
+    },
+    {
+      "type": "node",
+      "id": 10839618046,
+      "lat": 35.1111037,
+      "lon": -106.6152132
+    },
+    {
+      "type": "node",
+      "id": 140965786,
+      "lat": 35.1092764,
+      "lon": -106.6135756
+    },
+    {
+      "type": "node",
+      "id": 140965795,
+      "lat": 35.1092908,
+      "lon": -106.6127352
+    },
+    {
+      "type": "node",
+      "id": 1768205399,
+      "lat": 35.1092884,
+      "lon": -106.6124667
+    },
+    {
+      "type": "node",
+      "id": 1814518858,
+      "lat": 35.1092862,
+      "lon": -106.6125651
+    },
+    {
+      "type": "node",
+      "id": 1994089143,
+      "lat": 35.1165178,
+      "lon": -106.6042329
+    },
+    {
+      "type": "node",
+      "id": 2671473679,
+      "lat": 35.1173565,
+      "lon": -106.6042331
+    },
+    {
+      "type": "node",
+      "id": 7597024154,
+      "lat": 35.1153155,
+      "lon": -106.6042301
+    },
+    {
+      "type": "node",
+      "id": 7597050596,
+      "lat": 35.1156201,
+      "lon": -106.6042308
+    },
+    {
+      "type": "node",
+      "id": 7597050607,
+      "lat": 35.1157228,
+      "lon": -106.604231
+    },
+    {
+      "type": "node",
+      "id": 7597050619,
+      "lat": 35.1160137,
+      "lon": -106.6042317
+    },
+    {
+      "type": "node",
+      "id": 7597050640,
+      "lat": 35.1164118,
+      "lon": -106.604232
+    },
+    {
+      "type": "node",
+      "id": 7597050645,
+      "lat": 35.1166172,
+      "lon": -106.604232
+    },
+    {
+      "type": "node",
+      "id": 140928624,
+      "lat": 35.1301149,
+      "lon": -106.639664
+    },
+    {
+      "type": "node",
+      "id": 1906095278,
+      "lat": 35.1301119,
+      "lon": -106.6399791
+    },
+    {
+      "type": "node",
+      "id": 8363772450,
+      "lat": 35.1301148,
+      "lon": -106.6397945
+    },
+    {
+      "type": "node",
+      "id": 1994089100,
+      "lat": 35.1236319,
+      "lon": -106.6042083
+    },
+    {
+      "type": "node",
+      "id": 1994089119,
+      "lat": 35.1191692,
+      "lon": -106.6042338
+    },
+    {
+      "type": "node",
+      "id": 1994089124,
+      "lat": 35.1201465,
+      "lon": -106.6042322
+    },
+    {
+      "type": "node",
+      "id": 1994089164,
+      "lat": 35.1216439,
+      "lon": -106.6042322
+    },
+    {
+      "type": "node",
+      "id": 1994089166,
+      "lat": 35.1208256,
+      "lon": -106.6042311
+    },
+    {
+      "type": "node",
+      "id": 1994089174,
+      "lat": 35.1178165,
+      "lon": -106.6042333
+    },
+    {
+      "type": "node",
+      "id": 1994089177,
+      "lat": 35.1199863,
+      "lon": -106.6042325
+    },
+    {
+      "type": "node",
+      "id": 1994089179,
+      "lat": 35.1236887,
+      "lon": -106.6042111
+    },
+    {
+      "type": "node",
+      "id": 1994089188,
+      "lat": 35.1225632,
+      "lon": -106.6042257
+    },
+    {
+      "type": "node",
+      "id": 2671473694,
+      "lat": 35.1182735,
+      "lon": -106.6042334
+    },
+    {
+      "type": "node",
+      "id": 3632225163,
+      "lat": 35.1191263,
+      "lon": -106.6042338
+    },
+    {
+      "type": "node",
+      "id": 3632227001,
+      "lat": 35.1190769,
+      "lon": -106.6042338
+    },
+    {
+      "type": "node",
+      "id": 4471942523,
+      "lat": 35.1225802,
+      "lon": -106.6042254
+    },
+    {
+      "type": "node",
+      "id": 4493517679,
+      "lat": 35.1235438,
+      "lon": -106.604209
+    },
+    {
+      "type": "node",
+      "id": 4493517682,
+      "lat": 35.1237761,
+      "lon": -106.6042115
+    },
+    {
+      "type": "node",
+      "id": 5773652311,
+      "lat": 35.1239105,
+      "lon": -106.6042121
+    },
+    {
+      "type": "node",
+      "id": 5918552470,
+      "lat": 35.1208777,
+      "lon": -106.604231
+    },
+    {
+      "type": "node",
+      "id": 9447078987,
+      "lat": 35.1218282,
+      "lon": -106.6042289
+    },
+    {
+      "type": "node",
+      "id": 9447078996,
+      "lat": 35.1214,
+      "lon": -106.6042318
+    },
+    {
+      "type": "node",
+      "id": 10069932907,
+      "lat": 35.1184654,
+      "lon": -106.604233
+    },
+    {
+      "type": "node",
+      "id": 10827365345,
+      "lat": 35.1237614,
+      "lon": -106.604211
+    },
+    {
+      "type": "node",
+      "id": 12707502101,
+      "lat": 35.1220028,
+      "lon": -106.6042281
+    },
+    {
+      "type": "node",
+      "id": 140820479,
+      "lat": 35.1283861,
+      "lon": -106.6040318
+    },
+    {
+      "type": "node",
+      "id": 140992407,
+      "lat": 35.1270393,
+      "lon": -106.6040381
+    },
+    {
+      "type": "node",
+      "id": 1994089115,
+      "lat": 35.1298911,
+      "lon": -106.6041926
+    },
+    {
+      "type": "node",
+      "id": 1994089153,
+      "lat": 35.1283832,
+      "lon": -106.6041989
+    },
+    {
+      "type": "node",
+      "id": 1994089162,
+      "lat": 35.1243455,
+      "lon": -106.6042141
+    },
+    {
+      "type": "node",
+      "id": 1994089168,
+      "lat": 35.1252516,
+      "lon": -106.6042101
+    },
+    {
+      "type": "node",
+      "id": 1994089170,
+      "lat": 35.1275824,
+      "lon": -106.6042126
+    },
+    {
+      "type": "node",
+      "id": 1994089186,
+      "lat": 35.126173,
+      "lon": -106.6042067
+    },
+    {
+      "type": "node",
+      "id": 1994089213,
+      "lat": 35.1270767,
+      "lon": -106.6042054
+    },
+    {
+      "type": "node",
+      "id": 1994089221,
+      "lat": 35.1275629,
+      "lon": -106.6042141
+    },
+    {
+      "type": "node",
+      "id": 1994089223,
+      "lat": 35.1278143,
+      "lon": -106.6042113
+    },
+    {
+      "type": "node",
+      "id": 6336829516,
+      "lat": 35.1265737,
+      "lon": -106.6042057
+    },
+    {
+      "type": "node",
+      "id": 6336830093,
+      "lat": 35.1256703,
+      "lon": -106.6042086
+    },
+    {
+      "type": "node",
+      "id": 8303628913,
+      "lat": 35.1249582,
+      "lon": -106.6042113
+    },
+    {
+      "type": "node",
+      "id": 141132644,
+      "lat": 35.1283151,
+      "lon": -106.5360749
+    },
+    {
+      "type": "node",
+      "id": 141132647,
+      "lat": 35.1283808,
+      "lon": -106.5361732
+    },
+    {
+      "type": "node",
+      "id": 6074663126,
+      "lat": 35.1283016,
+      "lon": -106.5356362
+    },
+    {
+      "type": "node",
+      "id": 6074663151,
+      "lat": 35.128287,
+      "lon": -106.5355415
+    },
+    {
+      "type": "node",
+      "id": 6074663164,
+      "lat": 35.1283088,
+      "lon": -106.5357208
+    },
+    {
+      "type": "node",
+      "id": 140831497,
+      "lat": 35.1312048,
+      "lon": -106.5550202
+    },
+    {
+      "type": "node",
+      "id": 140953557,
+      "lat": 35.1307942,
+      "lon": -106.5550294
+    },
+    {
+      "type": "node",
+      "id": 140953563,
+      "lat": 35.1320557,
+      "lon": -106.5550282
+    },
+    {
+      "type": "node",
+      "id": 140953566,
+      "lat": 35.132717,
+      "lon": -106.555026
+    },
+    {
+      "type": "node",
+      "id": 140953569,
+      "lat": 35.1340002,
+      "lon": -106.5550208
+    },
+    {
+      "type": "node",
+      "id": 140980403,
+      "lat": 35.1308029,
+      "lon": -106.5577669
+    },
+    {
+      "type": "node",
+      "id": 140983268,
+      "lat": 35.1308166,
+      "lon": -106.5597215
+    },
+    {
+      "type": "node",
+      "id": 1799682928,
+      "lat": 35.1306548,
+      "lon": -106.5550293
+    },
+    {
+      "type": "node",
+      "id": 2622344252,
+      "lat": 35.1308143,
+      "lon": -106.5593935
+    },
+    {
+      "type": "node",
+      "id": 2622344286,
+      "lat": 35.1308067,
+      "lon": -106.5583099
+    },
+    {
+      "type": "node",
+      "id": 2622344356,
+      "lat": 35.1308104,
+      "lon": -106.5588409
+    },
+    {
+      "type": "node",
+      "id": 10957259168,
+      "lat": 35.1308168,
+      "lon": -106.5597558
+    },
+    {
+      "type": "node",
+      "id": 11388365999,
+      "lat": 35.1308515,
+      "lon": -106.5550277
+    },
+    {
+      "type": "node",
+      "id": 11398712619,
+      "lat": 35.1326679,
+      "lon": -106.5550261
+    },
+    {
+      "type": "node",
+      "id": 11398712620,
+      "lat": 35.1328077,
+      "lon": -106.5550255
+    },
+    {
+      "type": "node",
+      "id": 13799437803,
+      "lat": 35.1308176,
+      "lon": -106.5598725
+    },
+    {
+      "type": "node",
+      "id": 140983269,
+      "lat": 35.1307834,
+      "lon": -106.5530884
+    },
+    {
+      "type": "node",
+      "id": 1821008856,
+      "lat": 35.1307837,
+      "lon": -106.5511251
+    },
+    {
+      "type": "node",
+      "id": 1857987097,
+      "lat": 35.1307898,
+      "lon": -106.5542448
+    },
+    {
+      "type": "node",
+      "id": 1858003521,
+      "lat": 35.1307836,
+      "lon": -106.552032
+    },
+    {
+      "type": "node",
+      "id": 1858003557,
+      "lat": 35.1307835,
+      "lon": -106.552665
+    },
+    {
+      "type": "node",
+      "id": 5729079425,
+      "lat": 35.1307835,
+      "lon": -106.5526468
+    },
+    {
+      "type": "node",
+      "id": 10957135959,
+      "lat": 35.1307837,
+      "lon": -106.5512201
+    },
+    {
+      "type": "node",
+      "id": 140970935,
+      "lat": 35.079787,
+      "lon": -106.5162249
+    },
+    {
+      "type": "node",
+      "id": 140970948,
+      "lat": 35.0799681,
+      "lon": -106.519446
+    },
+    {
+      "type": "node",
+      "id": 140970951,
+      "lat": 35.0799279,
+      "lon": -106.5183325
+    },
+    {
+      "type": "node",
+      "id": 140970954,
+      "lat": 35.079892,
+      "lon": -106.517074
+    },
+    {
+      "type": "node",
+      "id": 140970957,
+      "lat": 35.079881,
+      "lon": -106.516854
+    },
+    {
+      "type": "node",
+      "id": 140970960,
+      "lat": 35.079875,
+      "lon": -106.516522
+    },
+    {
+      "type": "node",
+      "id": 140970963,
+      "lat": 35.079856,
+      "lon": -106.516396
+    },
+    {
+      "type": "node",
+      "id": 140970966,
+      "lat": 35.079806,
+      "lon": -106.516268
+    },
+    {
+      "type": "node",
+      "id": 140970969,
+      "lat": 35.0797083,
+      "lon": -106.5161217
+    },
+    {
+      "type": "node",
+      "id": 140970972,
+      "lat": 35.079618,
+      "lon": -106.5159822
+    },
+    {
+      "type": "node",
+      "id": 140970975,
+      "lat": 35.0795517,
+      "lon": -106.5158427
+    },
+    {
+      "type": "node",
+      "id": 140970979,
+      "lat": 35.0795017,
+      "lon": -106.5156792
+    },
+    {
+      "type": "node",
+      "id": 3224579108,
+      "lat": 35.0798322,
+      "lon": -106.516335
+    },
+    {
+      "type": "node",
+      "id": 3224579120,
+      "lat": 35.0799168,
+      "lon": -106.5179418
+    },
+    {
+      "type": "node",
+      "id": 3248806705,
+      "lat": 35.0795892,
+      "lon": -106.5159215
+    },
+    {
+      "type": "node",
+      "id": 3248806711,
+      "lat": 35.0798763,
+      "lon": -106.5165918
+    },
+    {
+      "type": "node",
+      "id": 11117599662,
+      "lat": 35.0799655,
+      "lon": -106.5193753
+    },
+    {
+      "type": "node",
+      "id": 140908435,
+      "lat": 35.0794873,
+      "lon": -106.5150957
+    },
+    {
+      "type": "node",
+      "id": 140970981,
+      "lat": 35.0794908,
+      "lon": -106.5155039
+    },
+    {
+      "type": "node",
+      "id": 1821892519,
+      "lat": 35.0832607,
+      "lon": -106.5151851
+    },
+    {
+      "type": "node",
+      "id": 1821892556,
+      "lat": 35.0798786,
+      "lon": -106.515262
+    },
+    {
+      "type": "node",
+      "id": 1821892582,
+      "lat": 35.0827756,
+      "lon": -106.5151958
+    },
+    {
+      "type": "node",
+      "id": 1821892752,
+      "lat": 35.0806963,
+      "lon": -106.5152463
+    },
+    {
+      "type": "node",
+      "id": 1821892791,
+      "lat": 35.0822428,
+      "lon": -106.5152056
+    },
+    {
+      "type": "node",
+      "id": 1821892858,
+      "lat": 35.0812565,
+      "lon": -106.5152256
+    },
+    {
+      "type": "node",
+      "id": 1821892860,
+      "lat": 35.0794904,
+      "lon": -106.515259
+    },
+    {
+      "type": "node",
+      "id": 1822027192,
+      "lat": 35.0818937,
+      "lon": -106.51521
+    },
+    {
+      "type": "node",
+      "id": 3224579174,
+      "lat": 35.0807852,
+      "lon": -106.5152395
+    },
+    {
+      "type": "node",
+      "id": 4353898740,
+      "lat": 35.0842422,
+      "lon": -106.5151657
+    },
+    {
+      "type": "node",
+      "id": 11117599730,
+      "lat": 35.0795565,
+      "lon": -106.5152595
+    },
+    {
+      "type": "node",
+      "id": 11117599731,
+      "lat": 35.0794909,
+      "lon": -106.5153533
+    },
+    {
+      "type": "node",
+      "id": 1821892550,
+      "lat": 35.0904206,
+      "lon": -106.5152696
+    },
+    {
+      "type": "node",
+      "id": 1821892758,
+      "lat": 35.0869042,
+      "lon": -106.5151186
+    },
+    {
+      "type": "node",
+      "id": 1821892849,
+      "lat": 35.086687,
+      "lon": -106.515111
+    },
+    {
+      "type": "node",
+      "id": 1821892852,
+      "lat": 35.0901236,
+      "lon": -106.5152586
+    },
+    {
+      "type": "node",
+      "id": 1821892908,
+      "lat": 35.0882859,
+      "lon": -106.5151701
+    },
+    {
+      "type": "node",
+      "id": 1822027241,
+      "lat": 35.0868222,
+      "lon": -106.5151163
+    },
+    {
+      "type": "node",
+      "id": 2569338613,
+      "lat": 35.0875389,
+      "lon": -106.5151339
+    },
+    {
+      "type": "node",
+      "id": 4353898765,
+      "lat": 35.0850034,
+      "lon": -106.5151504
+    },
+    {
+      "type": "node",
+      "id": 5691565680,
+      "lat": 35.0903577,
+      "lon": -106.5152673
+    },
+    {
+      "type": "node",
+      "id": 5691565687,
+      "lat": 35.0906481,
+      "lon": -106.5152803
+    },
+    {
+      "type": "node",
+      "id": 5691565703,
+      "lat": 35.0903053,
+      "lon": -106.5152653
+    },
+    {
+      "type": "node",
+      "id": 7601804900,
+      "lat": 35.0860861,
+      "lon": -106.5151251
+    },
+    {
+      "type": "node",
+      "id": 9078356049,
+      "lat": 35.0893184,
+      "lon": -106.5152194
+    },
+    {
+      "type": "node",
+      "id": 11099027461,
+      "lat": 35.0897598,
+      "lon": -106.5152404
+    },
+    {
+      "type": "node",
+      "id": 11099027462,
+      "lat": 35.0895386,
+      "lon": -106.5152297
+    },
+    {
+      "type": "node",
+      "id": 11099027468,
+      "lat": 35.0890164,
+      "lon": -106.5152033
+    },
+    {
+      "type": "node",
+      "id": 11099027469,
+      "lat": 35.0891279,
+      "lon": -106.5152091
+    },
+    {
+      "type": "node",
+      "id": 11117599743,
+      "lat": 35.086611,
+      "lon": -106.5151128
+    },
+    {
+      "type": "node",
+      "id": 11117599744,
+      "lat": 35.086915,
+      "lon": -106.5151183
+    },
+    {
+      "type": "node",
+      "id": 11120027579,
+      "lat": 35.0909808,
+      "lon": -106.5152974
+    },
+    {
+      "type": "node",
+      "id": 11120027589,
+      "lat": 35.0908634,
+      "lon": -106.5152912
+    },
+    {
+      "type": "node",
+      "id": 12435518390,
+      "lat": 35.0874036,
+      "lon": -106.5151333
+    },
+    {
+      "type": "node",
+      "id": 12941854259,
+      "lat": 35.0854758,
+      "lon": -106.5151394
+    },
+    {
+      "type": "node",
+      "id": 13620125394,
+      "lat": 35.0862204,
+      "lon": -106.5151208
+    },
+    {
+      "type": "node",
+      "id": 13690726437,
+      "lat": 35.085653,
+      "lon": -106.5151352
+    },
+    {
+      "type": "node",
+      "id": 13690726439,
+      "lat": 35.0859466,
+      "lon": -106.5151284
+    },
+    {
+      "type": "node",
+      "id": 140880109,
+      "lat": 35.0825377,
+      "lon": -106.4973334
+    },
+    {
+      "type": "node",
+      "id": 1759299265,
+      "lat": 35.0792214,
+      "lon": -106.4973122
+    },
+    {
+      "type": "node",
+      "id": 9793804176,
+      "lat": 35.0791935,
+      "lon": -106.497312
+    },
+    {
+      "type": "node",
+      "id": 9793804179,
+      "lat": 35.0791106,
+      "lon": -106.4973115
+    },
+    {
+      "type": "node",
+      "id": 140880112,
+      "lat": 35.084972,
+      "lon": -106.4973513
+    },
+    {
+      "type": "node",
+      "id": 140880121,
+      "lat": 35.086878,
+      "lon": -106.4973353
+    },
+    {
+      "type": "node",
+      "id": 140880124,
+      "lat": 35.087911,
+      "lon": -106.4973633
+    },
+    {
+      "type": "node",
+      "id": 615956810,
+      "lat": 35.0863707,
+      "lon": -106.4983404
+    },
+    {
+      "type": "node",
+      "id": 1798759081,
+      "lat": 35.0864471,
+      "lon": -106.4973453
+    },
+    {
+      "type": "node",
+      "id": 6634609542,
+      "lat": 35.085843,
+      "lon": -106.4973632
+    },
+    {
+      "type": "node",
+      "id": 9793738513,
+      "lat": 35.0864206,
+      "lon": -106.4973459
+    },
+    {
+      "type": "node",
+      "id": 9793738514,
+      "lat": 35.0861515,
+      "lon": -106.497354
+    },
+    {
+      "type": "node",
+      "id": 9793738515,
+      "lat": 35.0863485,
+      "lon": -106.497348
+    },
+    {
+      "type": "node",
+      "id": 9793816830,
+      "lat": 35.0863517,
+      "lon": -106.4974921
+    },
+    {
+      "type": "node",
+      "id": 9793816832,
+      "lat": 35.0862193,
+      "lon": -106.497351
+    },
+    {
+      "type": "node",
+      "id": 9793816833,
+      "lat": 35.0863442,
+      "lon": -106.497169
+    },
+    {
+      "type": "node",
+      "id": 1821892589,
+      "lat": 35.0920312,
+      "lon": -106.5153519
+    },
+    {
+      "type": "node",
+      "id": 1821892774,
+      "lat": 35.0921816,
+      "lon": -106.5153486
+    },
+    {
+      "type": "node",
+      "id": 1822027189,
+      "lat": 35.093597,
+      "lon": -106.5154034
+    },
+    {
+      "type": "node",
+      "id": 7254631514,
+      "lat": 35.0942398,
+      "lon": -106.5154178
+    },
+    {
+      "type": "node",
+      "id": 7254631517,
+      "lat": 35.0941365,
+      "lon": -106.5154155
+    },
+    {
+      "type": "node",
+      "id": 7254631564,
+      "lat": 35.0945457,
+      "lon": -106.5154246
+    },
+    {
+      "type": "node",
+      "id": 7254631575,
+      "lat": 35.0936832,
+      "lon": -106.515405
+    },
+    {
+      "type": "node",
+      "id": 7601204805,
+      "lat": 35.0956279,
+      "lon": -106.5154488
+    },
+    {
+      "type": "node",
+      "id": 7625922983,
+      "lat": 35.0912802,
+      "lon": -106.515313
+    },
+    {
+      "type": "node",
+      "id": 10772673275,
+      "lat": 35.0928879,
+      "lon": -106.5153754
+    },
+    {
+      "type": "node",
+      "id": 11089064023,
+      "lat": 35.0935024,
+      "lon": -106.5153993
+    },
+    {
+      "type": "node",
+      "id": 11120027577,
+      "lat": 35.0914764,
+      "lon": -106.5153229
+    },
+    {
+      "type": "node",
+      "id": 11120027591,
+      "lat": 35.0919809,
+      "lon": -106.5153485
+    },
+    {
+      "type": "node",
+      "id": 141015651,
+      "lat": 35.1162339,
+      "lon": -106.5333591
+    },
+    {
+      "type": "node",
+      "id": 1829222741,
+      "lat": 35.1170434,
+      "lon": -106.5333708
+    },
+    {
+      "type": "node",
+      "id": 7485325877,
+      "lat": 35.1167357,
+      "lon": -106.5333664
+    },
+    {
+      "type": "node",
+      "id": 7485380988,
+      "lat": 35.1174669,
+      "lon": -106.5333722
+    },
+    {
+      "type": "node",
+      "id": 10863574869,
+      "lat": 35.1162889,
+      "lon": -106.5333598
+    },
+    {
+      "type": "node",
+      "id": 140880127,
+      "lat": 35.093048,
+      "lon": -106.4978173
+    },
+    {
+      "type": "node",
+      "id": 140880130,
+      "lat": 35.093833,
+      "lon": -106.4978274
+    },
+    {
+      "type": "node",
+      "id": 140880133,
+      "lat": 35.0941134,
+      "lon": -106.4978203
+    },
+    {
+      "type": "node",
+      "id": 4716894982,
+      "lat": 35.0946719,
+      "lon": -106.497794
+    },
+    {
+      "type": "node",
+      "id": 4716894985,
+      "lat": 35.0934169,
+      "lon": -106.4978281
+    },
+    {
+      "type": "node",
+      "id": 9793816841,
+      "lat": 35.0944182,
+      "lon": -106.4978049
+    },
+    {
+      "type": "node",
+      "id": 9793816844,
+      "lat": 35.0947577,
+      "lon": -106.497793
+    },
+    {
+      "type": "node",
+      "id": 140740310,
+      "lat": 35.1202126,
+      "lon": -106.5333868
+    },
+    {
+      "type": "node",
+      "id": 140824419,
+      "lat": 35.1179198,
+      "lon": -106.5333736
+    },
+    {
+      "type": "node",
+      "id": 140853339,
+      "lat": 35.1212514,
+      "lon": -106.533379
+    },
+    {
+      "type": "node",
+      "id": 141015639,
+      "lat": 35.1234599,
+      "lon": -106.5334075
+    },
+    {
+      "type": "node",
+      "id": 141015642,
+      "lat": 35.1194737,
+      "lon": -106.5333847
+    },
+    {
+      "type": "node",
+      "id": 141015645,
+      "lat": 35.1187939,
+      "lon": -106.5333796
+    },
+    {
+      "type": "node",
+      "id": 1821022737,
+      "lat": 35.1233604,
+      "lon": -106.5334093
+    },
+    {
+      "type": "node",
+      "id": 10073961653,
+      "lat": 35.1235284,
+      "lon": -106.533406
+    },
+    {
+      "type": "node",
+      "id": 10073961657,
+      "lat": 35.1233039,
+      "lon": -106.533408
+    },
+    {
+      "type": "node",
+      "id": 10583486531,
+      "lat": 35.1229586,
+      "lon": -106.5334031
+    },
+    {
+      "type": "node",
+      "id": 140842129,
+      "lat": 35.1252353,
+      "lon": -106.5334132
+    },
+    {
+      "type": "node",
+      "id": 140852043,
+      "lat": 35.1270309,
+      "lon": -106.5334256
+    },
+    {
+      "type": "node",
+      "id": 141015622,
+      "lat": 35.1285204,
+      "lon": -106.5334341
+    },
+    {
+      "type": "node",
+      "id": 141015630,
+      "lat": 35.1263467,
+      "lon": -106.5334242
+    },
+    {
+      "type": "node",
+      "id": 141015633,
+      "lat": 35.1241407,
+      "lon": -106.5334033
+    },
+    {
+      "type": "node",
+      "id": 141132635,
+      "lat": 35.1284688,
+      "lon": -106.534327
+    },
+    {
+      "type": "node",
+      "id": 141132638,
+      "lat": 35.1282852,
+      "lon": -106.5346875
+    },
+    {
+      "type": "node",
+      "id": 1822360295,
+      "lat": 35.1289822,
+      "lon": -106.5334275
+    },
+    {
+      "type": "node",
+      "id": 1846255059,
+      "lat": 35.1285269,
+      "lon": -106.5341213
+    },
+    {
+      "type": "node",
+      "id": 1846255085,
+      "lat": 35.1283645,
+      "lon": -106.5344662
+    },
+    {
+      "type": "node",
+      "id": 4332073131,
+      "lat": 35.1271586,
+      "lon": -106.5334263
+    },
+    {
+      "type": "node",
+      "id": 4332073174,
+      "lat": 35.1278419,
+      "lon": -106.5334302
+    },
+    {
+      "type": "node",
+      "id": 6074663097,
+      "lat": 35.128506,
+      "lon": -106.5342189
+    },
+    {
+      "type": "node",
+      "id": 6074663132,
+      "lat": 35.1283125,
+      "lon": -106.5345758
+    },
+    {
+      "type": "node",
+      "id": 7043529415,
+      "lat": 35.1294612,
+      "lon": -106.5334333
+    },
+    {
+      "type": "node",
+      "id": 7043529419,
+      "lat": 35.1297779,
+      "lon": -106.5334365
+    },
+    {
+      "type": "node",
+      "id": 7043529442,
+      "lat": 35.1288379,
+      "lon": -106.5334325
+    },
+    {
+      "type": "node",
+      "id": 7043529469,
+      "lat": 35.1285249,
+      "lon": -106.5336611
+    },
+    {
+      "type": "node",
+      "id": 10586138113,
+      "lat": 35.1280448,
+      "lon": -106.5334312
+    },
+    {
+      "type": "node",
+      "id": 10929292246,
+      "lat": 35.1305152,
+      "lon": -106.533446
+    },
+    {
+      "type": "node",
+      "id": 10929305039,
+      "lat": 35.1285226,
+      "lon": -106.5335467
+    },
+    {
+      "type": "node",
+      "id": 10929305042,
+      "lat": 35.1257441,
+      "lon": -106.533418
+    },
+    {
+      "type": "node",
+      "id": 10929305090,
+      "lat": 35.1269539,
+      "lon": -106.5334249
+    },
+    {
+      "type": "node",
+      "id": 14048565122,
+      "lat": 35.1282606,
+      "lon": -106.5334325
+    },
+    {
+      "type": "node",
+      "id": 1799682887,
+      "lat": 35.1305899,
+      "lon": -106.5334471
+    },
+    {
+      "type": "node",
+      "id": 140765508,
+      "lat": 35.0697151,
+      "lon": -106.6405431
+    },
+    {
+      "type": "node",
+      "id": 140982898,
+      "lat": 35.0696516,
+      "lon": -106.6431059
+    },
+    {
+      "type": "node",
+      "id": 141120685,
+      "lat": 35.0696255,
+      "lon": -106.6443027
+    },
+    {
+      "type": "node",
+      "id": 141121821,
+      "lat": 35.069711,
+      "lon": -106.6406809
+    },
+    {
+      "type": "node",
+      "id": 2110803990,
+      "lat": 35.0696379,
+      "lon": -106.643708
+    },
+    {
+      "type": "node",
+      "id": 2110804070,
+      "lat": 35.0696134,
+      "lon": -106.6448988
+    },
+    {
+      "type": "node",
+      "id": 10847186464,
+      "lat": 35.0696864,
+      "lon": -106.6416208
+    },
+    {
+      "type": "node",
+      "id": 12112754393,
+      "lat": 35.0696525,
+      "lon": -106.6430184
+    },
+    {
+      "type": "node",
+      "id": 12112754397,
+      "lat": 35.0696489,
+      "lon": -106.6431766
+    },
+    {
+      "type": "node",
+      "id": 12112869242,
+      "lat": 35.0696031,
+      "lon": -106.6454035
+    },
+    {
+      "type": "node",
+      "id": 140745863,
+      "lat": 35.069742,
+      "lon": -106.6390522
+    },
+    {
+      "type": "node",
+      "id": 140792104,
+      "lat": 35.0697264,
+      "lon": -106.6400084
+    },
+    {
+      "type": "node",
+      "id": 11657066244,
+      "lat": 35.0697403,
+      "lon": -106.6391587
+    },
+    {
+      "type": "node",
+      "id": 11657066245,
+      "lat": 35.0697233,
+      "lon": -106.6401545
+    },
+    {
+      "type": "node",
+      "id": 12113123392,
+      "lat": 35.0697241,
+      "lon": -106.6401163
+    },
+    {
+      "type": "node",
+      "id": 140888027,
+      "lat": 35.126775,
+      "lon": -106.608525
+    },
+    {
+      "type": "node",
+      "id": 140992403,
+      "lat": 35.1268539,
+      "lon": -106.6074959
+    },
+    {
+      "type": "node",
+      "id": 10837441073,
+      "lat": 35.1267819,
+      "lon": -106.6084347
+    },
+    {
+      "type": "node",
+      "id": 140912701,
+      "lat": 35.126932,
+      "lon": -106.606443
+    },
+    {
+      "type": "node",
+      "id": 6336829511,
+      "lat": 35.1270798,
+      "lon": -106.6045417
+    },
+    {
+      "type": "node",
+      "id": 6336829567,
+      "lat": 35.1270597,
+      "lon": -106.6048771
+    },
+    {
+      "type": "node",
+      "id": 10837441072,
+      "lat": 35.1270774,
+      "lon": -106.604279
+    }
+  ]
+}

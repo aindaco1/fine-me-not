@@ -73,3 +73,9 @@ Build 4 locked-screen simulator route: northbound Coors generated the expected N
 The southbound locked-screen replay generated only its SB warning at 00:23:28 UTC, with audio completion persisted. The diagnostics panel showed build 4, the corrected database, Always/Precise state, current GPS/match details and the prior background siren after relaunch. Resetting the simulator app's location authorization produced the normal location prompt again.
 
 Apple completed build 4 processing and First Drive showed **0.1.0 (4), Testing**. [App source CI](https://github.com/aindaco1/fine-me-not/actions/runs/34913290315) passed. Build 4 installation and the physical acceptance matrix remain pending.
+
+## City coverage expansion — build 5
+
+All 40 city-listed approaches are represented by stable production IDs (19 mapped camera points, 21 approximate warning areas). Fifteen Swift and twelve publisher tests pass. The new checks compare every city inventory row against the actual published snapshot and verify its monitored direction; validate every added area segment against referenced OSM road edges; and replay all 21 city areas to require one matching-direction warning and no opposite-direction warning for that record. Geometry was also inspected in three road/junction review sheets.
+
+The database contains 1,777 records in version `2026-09-14-6466b7b09db1-78026b1a`. Carlisle’s source typo was resolved using the official certificate’s Delamar Avenue description, and the Eubank certificate and Juan Tabo documents clarify the side of the cross street. This validates representation and simulated behavior; the physical camera positions and the phone acceptance matrix remain unverified. No location/audio runtime code changes were made for build 5.

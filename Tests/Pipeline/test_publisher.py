@@ -1,4 +1,4 @@
-import copy, datetime as dt, hashlib, importlib.util, json, pathlib, tempfile, unittest
+import csv, math, copy, datetime as dt, hashlib, importlib.util, json, pathlib, tempfile, unittest
 spec = importlib.util.spec_from_file_location('publisher', pathlib.Path(__file__).resolve().parents[2] / 'Scripts/publish_cameras.py')
 p = importlib.util.module_from_spec(spec); spec.loader.exec_module(p)
 NOW = dt.datetime(2026, 9, 14, 7, tzinfo=dt.timezone.utc)
@@ -47,6 +47,42 @@ class PublisherTests(unittest.TestCase):
         self.assertEqual(p.week(dt.datetime.fromisoformat('2026-03-09T05:59:00+00:00')),'2026-03-02')
         self.assertEqual(p.week(dt.datetime.fromisoformat('2026-03-09T06:00:00+00:00')),'2026-03-09')
         self.assertEqual(p.week(dt.datetime.fromisoformat('2026-11-02T07:00:00+00:00')),'2026-11-02')
+    def test_all_city_inventory_approaches_are_published_with_their_direction(self):
+        root = pathlib.Path(__file__).resolve().parents[2]
+        with (root/'Data/Review/official-location-register.csv').open() as file:
+            listed = {r['research_id']: r for r in csv.DictReader(file) if r['jurisdiction'] == 'Albuquerque'}
+        accepted = [c for c in p.read(root/'Data/Overrides/metro.json')['cameras'] if c['id'].startswith('abq-')]
+        published = {c['id']: c for c in p.read(root/'Data/Published/cameras.json')['cameras']}
+        references = [c['reviewReference'] for c in accepted]
+        self.assertEqual(set(references), set(listed))
+        self.assertEqual(len(references), len(set(references)))
+        for camera in accepted:
+            self.assertEqual(published[camera['id']], {k: v for k, v in camera.items() if k != 'replaces'})
+            self.assertEqual(camera['travelBearing'], {'NB': 0, 'EB': 90, 'SB': 180, 'WB': 270}[listed[camera['reviewReference']]['travel_direction']])
+            if camera['kind'] == 'possibleSpeed':
+                self.assertIn('approximate area', camera['label'])
+                self.assertGreater(len(camera['geometry']), 1)
+
+    def test_accepted_city_area_segments_follow_referenced_osm_road_edges(self):
+        root = pathlib.Path(__file__).resolve().parents[2]
+        review = p.read(root/'Data/Review/albuquerque-road-areas.json')
+        elements = {(e['type'], e['id']): e for e in review['elements']}
+        accepted = {c['id']: c for c in p.read(root/'Data/Overrides/metro.json')['cameras']}
+        def on_edge(point, a, b):
+            scale = math.cos(math.radians(point['latitude']))
+            ax, ay = (a['lon']-point['longitude'])*scale*111195, (a['lat']-point['latitude'])*111195
+            bx, by = (b['lon']-point['longitude'])*scale*111195, (b['lat']-point['latitude'])*111195
+            dx, dy = bx-ax, by-ay
+            length2 = dx*dx+dy*dy
+            t = max(0, min(1, -(ax*dx+ay*dy)/length2)) if length2 else 0
+            return math.hypot(ax+t*dx, ay+t*dy) < .25
+        for area in review['areas']:
+            self.assertEqual(accepted[area['id']]['geometry'], area['geometry'])
+            edges = [(elements[('node', a)], elements[('node', b)]) for wid in area['wayIDs']
+                     for a, b in zip(elements[('way', wid)]['nodes'], elements[('way', wid)]['nodes'][1:])]
+            for a, b in zip(area['geometry'], area['geometry'][1:]):
+                self.assertTrue(any(on_edge(a, x, y) and on_edge(b, x, y) for x, y in edges), area['id'])
+
     def test_publication_is_immutable_and_checksum_matches(self):
         with tempfile.TemporaryDirectory() as tmp:
             root=pathlib.Path(tmp)
