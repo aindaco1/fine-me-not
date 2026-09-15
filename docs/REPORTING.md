@@ -46,7 +46,10 @@ Worker, GitHub App and `ReviewedReportGroup`, not a second service.
 
 The fixed destination is `aindaco1/fine-me-not`. A product-scoped serial ID ledger
 keeps receipts for 30 days and rejects ID reuse with a changed payload, including
-changes that produce a different fingerprint. It never evicts a young receipt
+changes that produce a different fingerprint. Each issue group also retains its
+own receipts for that full retry window, including after more than 1,000 reports.
+Expired group receipts are removed by daily cleanup; new reports do not postpone
+an already scheduled cleanup. The product ledger never evicts a young receipt
 for capacity: 10,000 entries cause temporary refusal. An hourly, keyed IP hash
 limits requests to 10; a separate atomic product quota permits 25 new issues per
 UTC day. Existing issues can still receive new reports when that quota is full.

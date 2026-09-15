@@ -33,7 +33,7 @@ Do not use the simulator deployment override for a TestFlight archive. Increment
 
 Create or select the app record for the exact bundle ID under Volver Health LLC. Upload a signed App Store Connect distribution with symbols. Confirm Apple has processed the build, export compliance is resolved, and the build is assigned to a test group containing the owner-requested tester. Use internal testing if that tester is already an eligible App Store Connect user; otherwise use external testing and complete Apple’s beta review. Do not grant an App Store Connect role solely to bypass beta review. A successful archive or upload alone is not TestFlight delivery.
 
-Only standard HTTPS is used. `ITSAppUsesNonExemptEncryption=false`. No account is needed to review the app. Privacy answers should describe no developer collection of location or other app data, with the public hosting provider connection-log caveat in the privacy policy. Confirm answers against the final binary before submission.
+Only standard HTTPS is used. `ITSAppUsesNonExemptEncryption=false`. No account is needed to review the app. Version 1.0.1 adds voluntary public support and diagnostic reports; use the reporting privacy categories recorded below and in [REPORTING.md](REPORTING.md). Location stays on the device. Confirm privacy answers against the final binary before submission.
 
 ## Suggested beta description
 
@@ -135,7 +135,7 @@ Version 1.0.0 (8) remains Waiting for Review and was not cancelled.
 
 - 26 Swift tests and 63 data-pipeline tests pass. Reporting tests cover allowlists,
   text bounds, immutable drafts/expiry, local coalescing, the shared fixture and
-  crash-frame filtering. 48 relay tests cover concurrency, ID conflicts, quotas,
+  crash-frame filtering. 49 relay tests cover concurrency, ID conflicts, quotas,
   grouping, escaped explanations and the existing apps' adapters.
 - Relay `fe3000f` deployed through GitHub Actions as Worker version
   `258d77ed-2fe0-493c-98d2-07623e3eec98`. The owner confirmed adding Fine Me Not
@@ -168,3 +168,10 @@ check without horizontal overflow. Hosted build/tests, website deployment and th
 manually verified daily reporting-health Action all passed. The current 1.0
 App Store submission remains Waiting for Review; 1.0.1 is distributed through
 TestFlight, not submitted as a replacement for that pending version.
+
+The final relay revision `c415d33` passed all 49 tests and
+[deployed successfully](https://github.com/aindaco1/ascii-vj-remix/actions/runs/34951613625).
+It retains each issue group's retry receipts for the full 30-day window and keeps
+cleanup scheduled during ongoing submissions. A repeat of the original live
+synthetic report returned its existing issue; the count remained three and the
+issue stayed closed. No app binary changes were needed for this relay update.
