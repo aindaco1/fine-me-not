@@ -1,19 +1,19 @@
 {
-  "agencyAndPageChecksAt": "2026-09-15T02:05:42Z",
-  "completedAt": "2026-09-15T02:05:55Z",
+  "agencyAndPageChecksAt": "2026-09-15T02:09:42Z",
+  "completedAt": "2026-09-15T02:09:57Z",
   "osmFetches": [
     {
-      "checkedAt": "2026-09-15T02:05:19Z",
+      "checkedAt": "2026-09-15T02:09:28Z",
       "source": "speed",
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-09-15T02:05:27Z",
+      "checkedAt": "2026-09-15T02:09:35Z",
       "source": "enforcement",
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-09-15T02:05:42Z",
+      "checkedAt": "2026-09-15T02:09:42Z",
       "source": "aliases",
       "status": "downloaded"
     }
