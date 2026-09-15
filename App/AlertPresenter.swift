@@ -3,6 +3,7 @@ import Observation
 import AVFAudio
 import UserNotifications
 import CameraCore
+import UIKit
 
 @MainActor @Observable
 final class AlertPresenter: NSObject, AVAudioPlayerDelegate {
@@ -11,6 +12,9 @@ final class AlertPresenter: NSObject, AVAudioPlayerDelegate {
     private(set) var route = "Current audio output"
     private(set) var volume: Float = 0
     private(set) var lastWarning: String?
+    private(set) var notificationStatus = "Not checked"
+    private(set) var lastAudioEvent = UserDefaults.standard.string(forKey: "warnings.lastAudioEvent") ?? "No audio attempt recorded"
+    private var attemptContext = ""
     private var player: AVAudioPlayer?
     private var notificationObservers: [NSObjectProtocol] = []
     private let audio = AVAudioSession.sharedInstance()
@@ -26,7 +30,10 @@ final class AlertPresenter: NSObject, AVAudioPlayerDelegate {
                 Task { @MainActor [weak self] in
                     guard let self else { return }
                     if interrupted || name == AVAudioSession.mediaServicesWereResetNotification {
-                        if self.isPlaying { self.audioError = "Warning audio was interrupted." }
+                        if self.isPlaying {
+                            self.audioError = "Warning audio was interrupted."
+                            self.recordAudioResult("Interrupted")
+                        }
                         self.finish()
                     }
                     self.refreshRoute()
@@ -44,6 +51,19 @@ final class AlertPresenter: NSObject, AVAudioPlayerDelegate {
 
     func requestNotifications() async {
         _ = try? await UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound])
+        await refreshNotificationStatus()
+    }
+
+    func refreshNotificationStatus() async {
+        let settings = await UNUserNotificationCenter.current().notificationSettings()
+        let allowed = settings.authorizationStatus == .authorized || settings.authorizationStatus == .provisional
+        notificationStatus = "\(allowed ? "Allowed" : "Not allowed") · sound \(settings.soundSetting == .enabled ? "on" : "off") · time sensitive \(settings.timeSensitiveSetting == .enabled ? "on" : "off")"
+    }
+
+    private func recordAudioResult(_ result: String) {
+        lastAudioEvent = "\(attemptContext)\n\(result)"
+        // Only the latest audio attempt survives a relaunch. No coordinates or trip log.
+        UserDefaults.standard.set(lastAudioEvent, forKey: "warnings.lastAudioEvent")
     }
 
     func present(_ warnings: [CameraWarning]) {
@@ -51,7 +71,7 @@ final class AlertPresenter: NSObject, AVAudioPlayerDelegate {
         let title = warnings.count == 1 ? first.camera.kind.title : "Cameras nearby"
         let body = warnings.map { "\($0.camera.kind.title): \($0.camera.label)" }.joined(separator: "\n")
         lastWarning = "\(title) · \(first.camera.label)"
-        let didStart = playSiren()
+        let didStart = playSiren(context: lastWarning ?? title)
         let content = UNMutableNotificationContent()
         content.title = title; content.body = body
         content.interruptionLevel = .timeSensitive
@@ -59,13 +79,19 @@ final class AlertPresenter: NSObject, AVAudioPlayerDelegate {
         // sounding twice; ordinary sound is only a degraded fallback.
         content.sound = didStart ? nil : .default
         let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: nil)
-        UNUserNotificationCenter.current().add(request)
+        Task {
+            do { try await UNUserNotificationCenter.current().add(request) }
+            catch { notificationStatus = "Could not post notification: \(error.localizedDescription)" }
+        }
     }
 
     @discardableResult
-    func playSiren() -> Bool {
+    func playSiren(context: String = "Parked sound test") -> Bool {
         guard !isPlaying else { return true }
         audioError = nil
+        refreshRoute()
+        let state = UIApplication.shared.applicationState == .active ? "foreground" : "background / locked"
+        attemptContext = "\(Date.now.formatted(date: .abbreviated, time: .standard)) · \(context)\n\(state) · Low Power Mode \(ProcessInfo.processInfo.isLowPowerModeEnabled ? "on" : "off")"
         do {
             try audio.setCategory(.playback, mode: .default, options: [.duckOthers])
             try audio.setActive(true)
@@ -77,9 +103,12 @@ final class AlertPresenter: NSObject, AVAudioPlayerDelegate {
             self.player = player
             guard player.play() else { throw CocoaError(.fileReadUnknown) }
             isPlaying = true; refreshRoute()
+            attemptContext += "\n\(route) · media volume \(Int(volume * 100))%"
+            recordAudioResult("Playback started")
             return true
         } catch {
             audioError = "Couldn't play the siren. \(error.localizedDescription)"
+            recordAudioResult(audioError ?? "Playback failed")
             finish(); return false
         }
     }
@@ -94,6 +123,7 @@ final class AlertPresenter: NSObject, AVAudioPlayerDelegate {
         Task { @MainActor [weak self] in
             guard let self, let current = self.player, ObjectIdentifier(current) == identifier else { return }
             if !flag { self.audioError = "Warning audio did not finish." }
+            self.recordAudioResult(flag ? "Playback completed" : "Playback did not finish")
             self.finish()
         }
     }
@@ -101,7 +131,8 @@ final class AlertPresenter: NSObject, AVAudioPlayerDelegate {
         let identifier = ObjectIdentifier(player)
         Task { @MainActor [weak self] in
             guard let self, let current = self.player, ObjectIdentifier(current) == identifier else { return }
-            self.audioError = "Couldn't decode the warning sound."; self.finish()
+            self.audioError = "Couldn't decode the warning sound."
+            self.recordAudioResult("Sound decode failed"); self.finish()
         }
     }
 }

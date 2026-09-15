@@ -26,19 +26,49 @@ public struct Encounter: Codable, Sendable, Equatable {
     public var armed: Bool
 }
 
+public enum MatchReason: String, Sendable {
+    case invalidFix = "GPS position is stale or inaccurate"
+    case outOfOrder = "Duplicate or older GPS update"
+    case notMoving = "Waiting for movement"
+    case noCamera = "No mapped camera within 1 km"
+    case tooFar = "Camera is outside warning distance"
+    case oppositeDirection = "Camera monitors another direction"
+    case behind = "Camera is behind the direction of travel"
+    case approachUnconfirmed = "Waiting for approach or direction evidence"
+    case cooldown = "Already warned on this approach"
+    case expired = "Camera record has expired"
+    case warning = "Camera matched for a warning"
+}
+
+public struct MatchDiagnostic: Sendable {
+    public let reason: MatchReason
+    public let cameraLabel: String?
+    public let distance: Double?
+    public let speed: Double?
+    public let course: Double?
+}
+
 public struct AlertEngine: Sendable {
     public private(set) var encounters: [String: Encounter]
     private var previous: LocationFix?
     private var lastMovingAt: Date?
-    private var courseAnchor: LocationFix?
-    private var derivedCourse: (bearing: Double, at: Date)?
+    private var motionAnchor: LocationFix?
+    private var derivedMotion: (speed: Double, bearing: Double, at: Date)?
+    public private(set) var diagnostic = MatchDiagnostic(reason: .notMoving, cameraLabel: nil, distance: nil, speed: nil, course: nil)
     public init(encounters: [String: Encounter] = [:]) { self.encounters = encounters }
 
     public mutating func evaluate(_ fix: LocationFix, index: CameraIndex, now: Date) -> [CameraWarning] {
-        guard fix.isUsable(at: now) else { return [] }
-        if let previous, fix.timestamp <= previous.timestamp { return [] }
+        guard fix.isUsable(at: now) else {
+            diagnostic = MatchDiagnostic(reason: .invalidFix, cameraLabel: nil, distance: nil, speed: nil, course: nil)
+            return []
+        }
+        if let previous, fix.timestamp <= previous.timestamp {
+            diagnostic = MatchDiagnostic(reason: .outOfOrder, cameraLabel: nil, distance: nil, speed: nil, course: nil)
+            return []
+        }
         defer { previous = fix }
-        if fix.speed.isFinite && fix.speed >= 2.5 { lastMovingAt = now }
+        let motion = travelMotion(for: fix)
+        if let speed = motion.speed, speed >= 2.5 { lastMovingAt = now }
         let moving = lastMovingAt.map { now.timeIntervalSince($0) < 120 } ?? false
         // Rearm even when a site is no longer in the spatial query.
         for (id, encounter) in encounters where !encounter.armed {
@@ -46,28 +76,41 @@ public struct AlertEngine: Sendable {
             let d = Geometry.distance(fix.coordinate, Geometry.nearest(to: fix.coordinate, on: camera.geometry))
             if d > 850 && now.timeIntervalSince(encounter.lastAlert) >= 60 { encounters[id]?.armed = true }
         }
-        guard moving else { return [] }
-        let speed = fix.speed.isFinite ? max(0, fix.speed) : 0
-        let lead = min(600, max(150, speed * 15))
-        let course = travelCourse(for: fix)
-        var warnings: [CameraWarning] = []
-        for camera in index.nearby(fix.coordinate) {
-            if let end = camera.validUntil, now >= end { continue }
-            if let encounter = encounters[camera.id], !encounter.armed { continue }
+        let candidates = index.nearby(fix.coordinate).map { camera in
             let nearest = Geometry.nearest(to: fix.coordinate, on: camera.geometry)
-            let distance = Geometry.distance(fix.coordinate, nearest)
-            guard distance <= lead else { continue }
-            if let expected = camera.travelBearing, let course,
-               Geometry.angleDifference(expected, course) > 65 { continue }
+            return (camera: camera, point: nearest, distance: Geometry.distance(fix.coordinate, nearest))
+        }.filter { $0.distance <= 1000 }.sorted { $0.distance < $1.distance }
+        let closest = candidates.first
+        diagnostic = MatchDiagnostic(reason: moving ? .noCamera : .notMoving, cameraLabel: closest?.camera.label,
+                                     distance: closest?.distance, speed: motion.speed, course: motion.course)
+        guard moving else { return [] }
+        let speed = motion.speed ?? 0
+        let lead = min(600, max(150, speed * 15))
+        let course = motion.course
+        var warnings: [CameraWarning] = []
+        for (offset, candidate) in candidates.enumerated() {
+            let camera = candidate.camera, nearest = candidate.point, distance = candidate.distance
+            var reason: MatchReason = .warning
+            if let end = camera.validUntil, now >= end { reason = .expired }
+            else if let encounter = encounters[camera.id], !encounter.armed { reason = .cooldown }
+            else if distance > lead { reason = .tooFar }
+            else if let expected = camera.travelBearing, let course,
+                    Geometry.angleDifference(expected, course) > 65 { reason = .oppositeDirection }
             // A good course rejects cameras behind the driver. Near a point or
             // inside a corridor, bearing-to-point is unstable and is not used.
-            if distance > max(50, fix.accuracy), let course,
-               Geometry.angleDifference(course, Geometry.bearing(from: fix.coordinate, to: nearest)) > 75 { continue }
-            if course == nil && distance > 100 {
-                guard let previous, fix.timestamp.timeIntervalSince(previous.timestamp) < 30 else { continue }
-                let oldDistance = Geometry.distance(previous.coordinate, Geometry.nearest(to: previous.coordinate, on: camera.geometry))
-                guard oldDistance - distance > 4 else { continue }
+            else if distance > max(50, fix.accuracy), let course,
+                    Geometry.angleDifference(course, Geometry.bearing(from: fix.coordinate, to: nearest)) > 75 { reason = .behind }
+            else if course == nil && distance > 100 {
+                if let previous, fix.timestamp.timeIntervalSince(previous.timestamp) < 30 {
+                    let oldDistance = Geometry.distance(previous.coordinate, Geometry.nearest(to: previous.coordinate, on: camera.geometry))
+                    if oldDistance - distance <= 4 { reason = .approachUnconfirmed }
+                } else { reason = .approachUnconfirmed }
             }
+            if offset == 0 || (reason == .warning && warnings.isEmpty) {
+                diagnostic = MatchDiagnostic(reason: reason, cameraLabel: camera.label, distance: distance,
+                                             speed: motion.speed, course: course)
+            }
+            guard reason == .warning else { continue }
             warnings.append(CameraWarning(camera: camera, distance: distance))
             encounters[camera.id] = Encounter(lastAlert: now, armed: false)
         }
@@ -77,21 +120,22 @@ public struct AlertEngine: Sendable {
         return warnings.sorted { $0.distance < $1.distance }
     }
 
-    private mutating func travelCourse(for fix: LocationFix) -> Double? {
-        if let course = fix.course, course.isFinite, (0..<360).contains(course) {
-            courseAnchor = fix; derivedCourse = nil
-            return course
-        }
-        // Some location sources supply usable positions without course accuracy.
-        // Accumulate enough displacement to exceed GPS uncertainty before inferring travel.
-        if let anchor = courseAnchor, fix.timestamp.timeIntervalSince(anchor.timestamp) <= 15 {
+    private mutating func travelMotion(for fix: LocationFix) -> (speed: Double?, course: Double?) {
+        // Speed and course can independently be unavailable. Use the same
+        // displacement evidence for both, before applying the movement gate.
+        if let anchor = motionAnchor, fix.timestamp.timeIntervalSince(anchor.timestamp) <= 15 {
+            let elapsed = fix.timestamp.timeIntervalSince(anchor.timestamp)
             let distance = Geometry.distance(anchor.coordinate, fix.coordinate)
-            if distance >= max(20, anchor.accuracy + fix.accuracy) * 1.5 {
-                derivedCourse = (Geometry.bearing(from: anchor.coordinate, to: fix.coordinate), fix.timestamp)
-                courseAnchor = fix
+            if elapsed >= 1 && distance >= max(20, anchor.accuracy + fix.accuracy) * 1.5 {
+                let speed = distance / elapsed
+                derivedMotion = (2.5...90).contains(speed)
+                    ? (speed, Geometry.bearing(from: anchor.coordinate, to: fix.coordinate), fix.timestamp) : nil
+                motionAnchor = fix
             }
-        } else { courseAnchor = fix; derivedCourse = nil }
-        guard let derivedCourse, fix.timestamp.timeIntervalSince(derivedCourse.at) <= 5 else { return nil }
-        return derivedCourse.bearing
+        } else { motionAnchor = fix; derivedMotion = nil }
+        let recent = derivedMotion.flatMap { fix.timestamp.timeIntervalSince($0.at) <= 5 ? $0 : nil }
+        let speed = fix.speed.isFinite && fix.speed >= 0 ? fix.speed : recent?.speed
+        let course = fix.course.flatMap { $0.isFinite && (0..<360).contains($0) ? $0 : nil } ?? recent?.bearing
+        return (speed, course)
     }
 }

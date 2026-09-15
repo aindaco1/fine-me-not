@@ -30,8 +30,11 @@ final class CameraStore {
                     Bundle.main.url(forResource: "cameras", withExtension: "json")].compactMap { $0 }
         for url in urls {
             if let data = try? Data(contentsOf: url), let value = try? CameraSnapshot.decode(data),
-               (try? value.validate()) != nil {
-                installInMemory(value); break
+               (try? value.validate()) != nil,
+               snapshot == nil || value.generatedAt > snapshot!.generatedAt {
+                // An app update can ship an urgent correction newer than the
+                // downloaded copy. Always choose the newest valid offline data.
+                installInMemory(value)
             }
         }
         if snapshot == nil { updateError = "No usable camera database. Try Update now." }

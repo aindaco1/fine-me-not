@@ -4,7 +4,7 @@
 
 Run `swift test`, `python3 -m unittest discover -s Tests/Pipeline -v`, and `Scripts/check_bundle.py` against the built `.app` (add `--release` for an archive). CI exercises the shared warning engine, publisher, complete simulator bundle and embedded resources.
 
-Core cases: approaching vs receding, opposite direction, stale/inaccurate fixes, one alert until leaving/rearming, process restart/corrected coordinates with stable IDs, long mobile corridors, expiry, unknown course, and Denver DST transitions.
+Core cases: approaching vs receding, opposite direction, stale/inaccurate fixes, one alert until leaving/rearming, process restart/corrected coordinates with stable IDs, long mobile corridors, expiry, unknown course, missing speed with real movement vs GPS jitter, published Coors areas in both directions, and Denver DST transitions.
 
 Publisher cases: duplicate relation/device identity, preserved full-node tags despite skeleton responses, combined red-light/speed devices, opposing approaches, camera-facing direction, partial/mass-drop responses, missing-source retention, tombstones, expiry, metro review quarantine, immutable files and checksum.
 
@@ -57,3 +57,15 @@ Use a passenger or a controlled stationary setup for observation; do not interac
 ## Coverage acceptance
 
 Reconcile every listed metro approach, preserve documented mobile corridors, exclude pending installations and retired cameras. Drive-test representative city, county and Rio Rancho sites in both directions. The first bundle is incomplete; a lack of an alert is not evidence that a road is camera-free.
+
+## Missed-warning investigation — build 4
+
+The report was a missed siren on Coors north of I-40, probably with the screen locked. No physical-device logs were available. The city-listed Coors/St. Joseph approaches were absent from the previous accepted database; the exact device passed is not confirmed. Reviewed approximate areas are now included, with the uncertainty stated in their labels and source evidence.
+
+A regression reproduced total warning suppression when speed stayed unavailable even though accurate positions showed movement. Movement and bearing now use a shared displacement fallback before the movement gate. Jitter, stale anchors and implausible jumps do not count as driving. Fourteen Swift tests and ten publisher tests pass.
+
+Continuous standard background location replaces the original async provider; automatic pausing is disabled. This is a reliability change whose real-device effect must be measured, not proof that the previous provider caused this incident. Audio still uses a brief `.playback` / `.duckOthers` session. The app retains only the latest audio attempt with timestamp, camera label, app/power state, route, volume and completion/error. Diagnostics also expose GPS quality, effective movement, match rejection and notification settings.
+
+An upgrade test initially kept an old downloaded 1,756-record snapshot even with the new bundle installed. Startup now selects the newest valid snapshot across the download, backup and bundle. Retesting the upgrade preserved settings and selected the new 1,758-record snapshot without a manual download. The public manifest and immutable file checksum were verified after successful Pages deployment in run `34912766050`.
+
+Build 4 locked-screen simulator route: northbound Coors generated the expected NB warning at 00:22:16 UTC on September 15 (September 14 Mountain time), with persisted audio status `Playback completed`, app state `background / locked`, speaker output and 60% media volume. No SB encounter was created during that northbound run. The simulator had Low Power Mode off. This proves simulated matching and audio completion; it is not a physical audibility test.

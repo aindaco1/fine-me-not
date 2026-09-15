@@ -87,6 +87,39 @@ private func fix(_ latitude: Double, lon: Double = -106, seconds: Double = 0, co
     #expect(warnings.map(\.camera.id) == ["abq-1"])
 }
 
+@Test func movingWithoutReportedSpeedStillWarns() {
+    var engine = AlertEngine()
+    let index = CameraIndex(cameras: [camera(), camera("opposite", bearing: 180)])
+    #expect(engine.evaluate(fix(35, course: nil, speed: -1), index: index, now: start).isEmpty)
+    let warnings = engine.evaluate(fix(35.0005, seconds: 3, course: nil, speed: -1),
+                                   index: index, now: start.addingTimeInterval(3))
+    #expect(warnings.map(\.camera.id) == ["abq-1"])
+    #expect(engine.diagnostic.reason == .warning)
+    #expect((engine.diagnostic.speed ?? 0) > 10)
+}
+
+@Test func unavailableSpeedDoesNotTurnJitterOrAnOldAnchorIntoMovement() {
+    let index = CameraIndex(cameras: [camera()])
+    var engine = AlertEngine()
+    for (latitude, seconds) in [(35.001, 0.0), (35.00105, 3.0), (35.00098, 6.0), (35.0015, 30.0)] {
+        #expect(engine.evaluate(fix(latitude, seconds: seconds, course: nil, speed: -1),
+                                index: index, now: start.addingTimeInterval(seconds)).isEmpty)
+    }
+    #expect(engine.diagnostic.reason == .notMoving)
+    var jump = AlertEngine()
+    _ = jump.evaluate(fix(34.999, course: nil, speed: -1), index: index, now: start)
+    #expect(jump.evaluate(fix(35.001, seconds: 1, course: nil, speed: -1),
+                          index: index, now: start.addingTimeInterval(1)).isEmpty)
+}
+
+@Test func diagnosticDistinguishesMissingDataFromWrongDirection() {
+    var engine = AlertEngine()
+    _ = engine.evaluate(fix(35.001), index: CameraIndex(cameras: []), now: start)
+    #expect(engine.diagnostic.reason == .noCamera)
+    _ = engine.evaluate(fix(35.001, seconds: 1), index: CameraIndex(cameras: [camera(bearing: 180)]), now: start.addingTimeInterval(1))
+    #expect(engine.diagnostic.reason == .oppositeDirection)
+}
+
 @Test func publishedSnapshotDecodesAndIndexesEveryMetroCorridor() throws {
     let root = URL(fileURLWithPath: #filePath).deletingLastPathComponent().deletingLastPathComponent().deletingLastPathComponent()
     let snapshot = try CameraSnapshot.decode(Data(contentsOf: root.appending(path: "Data/Published/cameras.json")))
@@ -98,5 +131,28 @@ private func fix(_ latitude: Double, lon: Double = -106, seconds: Double = 0, co
         #expect(corridor.kind == .possibleSpeed)
         #expect(corridor.geometry.count > 2)
         #expect(index.nearby(corridor.geometry[corridor.geometry.count / 2]).contains { $0.id == corridor.id })
+    }
+}
+
+@Test func publishedCoorsAreaWarnsInBothDirectionsWithoutReportedMotion() throws {
+    let root = URL(fileURLWithPath: #filePath).deletingLastPathComponent().deletingLastPathComponent().deletingLastPathComponent()
+    let snapshot = try CameraSnapshot.decode(Data(contentsOf: root.appending(path: "Data/Published/cameras.json")))
+    let index = CameraIndex(cameras: snapshot.cameras)
+    for (direction, origin, step, longitude) in [("nb", 35.124, 0.00018, -106.70156),
+                                                ("sb", 35.139, -0.00018, -106.70177)] {
+        var engine = AlertEngine()
+        var matches: [String] = []
+        for second in 0..<90 {
+            let at = start.addingTimeInterval(Double(second))
+            let update = fix(origin + step * Double(second), lon: longitude, seconds: Double(second), course: nil, speed: -1)
+            matches += engine.evaluate(update, index: index, now: at).map(\.camera.id)
+        }
+        #expect(matches == ["abq-coors-st-joseph-possible-\(direction)"])
+    }
+    // Waiting at the intersection must not invent driving from stationary fixes.
+    var parked = AlertEngine()
+    for second in 0..<10 {
+        let update = fix(35.1282, lon: -106.70156, seconds: Double(second), course: nil, speed: -1)
+        #expect(parked.evaluate(update, index: index, now: start.addingTimeInterval(Double(second))).isEmpty)
     }
 }

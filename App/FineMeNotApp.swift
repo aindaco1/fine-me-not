@@ -16,6 +16,43 @@ final class AppServices {
         monitoring = MonitoringController(store: store, presenter: presenter)
     }
 
+    func diagnosticReport(at now: Date) -> String {
+        let info = Bundle.main.infoDictionary ?? [:]
+        let build = "\(info["CFBundleShortVersionString"] as? String ?? "?") (\(info["CFBundleVersion"] as? String ?? "?"))"
+        let match = monitoring.matchDiagnostic
+        func age(_ date: Date?) -> String {
+            date.map { "\(max(0, Int(now.timeIntervalSince($0)))) seconds ago" } ?? "none"
+        }
+        func number(_ value: Double?, unit: String) -> String {
+            value.map { String(format: "%.1f %@", $0, unit) } ?? "unavailable"
+        }
+        let refresh: String
+        switch UIApplication.shared.backgroundRefreshStatus {
+        case .available: refresh = "available"
+        case .denied: refresh = "off"
+        case .restricted: refresh = "restricted"
+        @unknown default: refresh = "unknown"
+        }
+        return """
+        Fine Me Not \(build) · iOS \(UIDevice.current.systemVersion)
+        Database: \(store.snapshot?.version ?? "unavailable")
+        Status: \(monitoring.status(at: now))
+        Always location: \(monitoring.authorization == .authorizedAlways ? "yes" : "no") · precise: \(monitoring.precise ? "yes" : "no")
+        Continuous GPS: \(monitoring.isTracking ? "requested" : "off") · automatic pauses: disabled
+        Low Power Mode: \(ProcessInfo.processInfo.isLowPowerModeEnabled ? "on" : "off") · Background App Refresh: \(refresh)
+        Latest GPS: \(age(monitoring.lastReceivedAt)) · accepted GPS: \(age(monitoring.lastFixAt))
+        Accuracy: \(number(monitoring.lastAccuracy, unit: "m")) · reported speed: \(number(monitoring.lastReportedSpeed, unit: "m/s"))
+        GPS result: \(monitoring.fixStatus)
+        Effective speed: \(number(match.speed, unit: "m/s")) · course: \(number(match.course, unit: "degrees"))
+        Nearest mapped camera: \(match.cameraLabel ?? "none within 1 km") · \(number(match.distance, unit: "m"))
+        Match result: \(match.reason.rawValue)
+        Notifications: \(presenter.notificationStatus)
+        Current audio: \(presenter.route) · media volume \(Int(presenter.volume * 100))%
+        Latest audio attempt:
+        \(presenter.lastAudioEvent)
+        """
+    }
+
     func scheduleRefresh() {
         let request = BGAppRefreshTaskRequest(identifier: Self.refreshID)
         request.earliestBeginDate = store.isDue ? Date.now.addingTimeInterval(900) : UpdateSchedule.nextRefresh(after: .now)
@@ -60,13 +97,19 @@ struct FineMeNotApp: App {
         WindowGroup {
             SettingsView(services: services)
                 .preferredColorScheme(.dark)
-                .task { await services.store.refresh() }
+                .task {
+                    await services.presenter.refreshNotificationStatus()
+                    await services.store.refresh()
+                }
                 .onChange(of: scenePhase) { _, phase in
                     if phase == .active {
                         services.monitoring.refreshAuthorization()
                         services.monitoring.start()
                         services.presenter.refreshRoute()
-                        Task { await services.store.refresh() }
+                        Task {
+                            await services.presenter.refreshNotificationStatus()
+                            await services.store.refresh()
+                        }
                     } else if phase == .background { services.scheduleRefresh() }
                 }
         }

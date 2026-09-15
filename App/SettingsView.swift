@@ -83,6 +83,19 @@ struct SettingsView: View {
                         }.frame(maxWidth: .infinity, alignment: .leading)
                     }
                 }
+                DisclosureGroup("Diagnostics") {
+                    VStack(alignment: .leading, spacing: 12) {
+                        TimelineView(.periodic(from: .now, by: 5)) { context in
+                            Text(services.diagnosticReport(at: context.date))
+                                .font(.system(.caption, design: .monospaced)).textSelection(.enabled)
+                        }
+                        Button("Copy diagnostics") {
+                            UIPasteboard.general.string = services.diagnosticReport(at: .now)
+                        }.foregroundStyle(accent).accessibilityIdentifier("copy-diagnostics")
+                        Text("Only the latest audio attempt is saved on this phone. Copying shares no coordinates or trip history. Camera names can reveal where you drove.")
+                            .font(.caption).foregroundStyle(accent)
+                    }.frame(maxWidth: .infinity, alignment: .leading).padding(.top, 12)
+                }.font(.system(.footnote, design: .monospaced)).tint(accent)
                 VStack(alignment: .leading, spacing: 14) {
                     Text("Free. Open source.\nNo ads. No subscriptions.")
                         .font(.system(.footnote, design: .monospaced))
