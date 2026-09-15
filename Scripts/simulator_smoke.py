@@ -18,15 +18,13 @@ OUTPUT = pathlib.Path('build/compatibility')
 LATITUDE, START_LONGITUDE, END_LONGITUDE = 35.05822, -106.6045, -106.5900
 
 
-def sim(*args):
+def sim(*args, timeout=180):
     print('simctl ' + ' '.join(args), flush=True)
-    return subprocess.check_output(['xcrun', 'simctl', *args], text=True, timeout=180).strip()
+    return subprocess.check_output(['xcrun', 'simctl', *args], text=True, timeout=timeout).strip()
 
 
 def replay_route(device, evidence_name):
-    # On the hosted iOS 18.0 runtime, `location start` generated moving daemon
-    # fixes without delivering them to clients, even in the foreground. Timed
-    # `set` updates exercise the same real Core Location delegate and matcher.
+    # Timed positions exercise Core Location and the displacement fallback.
     # Use elapsed time so slow simctl calls cannot make the car move too fast.
     meters = math.radians(END_LONGITUDE - START_LONGITUDE) * 6_371_000 * math.cos(math.radians(LATITUDE))
     duration = meters / 25
@@ -81,7 +79,7 @@ def main():
     journal = None
     try:
         sim('boot', device)
-        sim('bootstatus', device, '-b')
+        sim('bootstatus', device, '-b', timeout=600)
         sim('install', device, str(app))
         sim('privacy', device, 'grant', 'location-always', BUNDLE)
         sim('location', device, 'set', '35.05822,-106.6045')

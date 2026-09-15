@@ -30,8 +30,28 @@ concurrency:
   group: ios-compatibility-${{ github.ref }}-${{ inputs.ios_version || 'all' }}
   cancel-in-progress: true
 jobs:
-  runtime:
+  build:
     runs-on: macos-26
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build the shipped minimum once
+        run: |
+          xcodebuild -version
+          xcodebuild -project FineMeNot.xcodeproj -scheme FineMeNot \
+            -configuration Debug -destination 'generic/platform=iOS Simulator' \
+            CODE_SIGNING_ALLOWED=NO ARCHS=arm64 ONLY_ACTIVE_ARCH=YES \
+            -derivedDataPath build build
+          python3 Scripts/check_bundle.py build/Build/Products/Debug-iphonesimulator/FineMeNot.app --release
+          tar -czf build/simulator-app.tar.gz -C build/Build/Products/Debug-iphonesimulator FineMeNot.app
+      - uses: actions/upload-artifact@v4
+        with:
+          name: compatibility-app
+          path: build/simulator-app.tar.gz
+          retention-days: 3
+  runtime:
+    needs: build
+    runs-on: ${{ matrix.ios_version == '18.0' && 'macos-15' || 'macos-26' }}
     timeout-minutes: 40
     strategy:
       fail-fast: false
@@ -47,17 +67,18 @@ jobs:
           xcodebuild -version
           df -h /
           python3 Scripts/prepare_simulator_runtime.py "$FMN_IOS_VERSION"
-      - name: Build the shipped minimum
+      - uses: actions/download-artifact@v4
+        with:
+          name: compatibility-app
+          path: build
+      - name: Unpack the same app on every runtime
         run: |
-          xcodebuild -project FineMeNot.xcodeproj -scheme FineMeNot \
-            -configuration Debug -destination 'generic/platform=iOS Simulator' \
-            CODE_SIGNING_ALLOWED=NO ARCHS=arm64 ONLY_ACTIVE_ARCH=YES \
-            -derivedDataPath build build
-          python3 Scripts/check_bundle.py build/Build/Products/Debug-iphonesimulator/FineMeNot.app --release
+          tar -xzf build/simulator-app.tar.gz -C build
+          python3 Scripts/check_bundle.py build/FineMeNot.app --release
       - name: Run background camera approach
         run: |
           python3 Scripts/simulator_smoke.py "$FMN_IOS_VERSION" \
-            build/Build/Products/Debug-iphonesimulator/FineMeNot.app
+            build/FineMeNot.app
       - uses: actions/upload-artifact@v4
         if: always()
         with:

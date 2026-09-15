@@ -31,7 +31,7 @@ runtime = next(r for r in json.loads(smoke.sim('list', 'runtimes', '-j'))['runti
 device = smoke.sim('create', f'Location control {version}', 'com.apple.CoreSimulator.SimDeviceType.iPhone-SE-3rd-generation', runtime['identifier'])
 try:
     smoke.sim('boot', device)
-    smoke.sim('bootstatus', device, '-b')
+    smoke.sim('bootstatus', device, '-b', timeout=600)
     smoke.sim('install', device, str(app.resolve()))
     smoke.sim('privacy', device, 'grant', 'location-always', bundle)
     smoke.sim('location', device, 'set', f'{smoke.LATITUDE},{smoke.START_LONGITUDE}')
@@ -51,5 +51,11 @@ try:
     (smoke.OUTPUT / 'control-result.json').write_text(json.dumps(result, indent=2))
     print(json.dumps(result))
     assert result['distinctLongitudes'] > 2, 'Control app also failed to receive moving GPS fixes'
+except Exception as error:
+    (smoke.OUTPUT / 'control-error.json').write_text(json.dumps({'error': str(error)}))
+    raise
 finally:
-    subprocess.run(['xcrun', 'simctl', 'shutdown', device], timeout=30, check=False)
+    try:
+        subprocess.run(['xcrun', 'simctl', 'shutdown', device], timeout=30, check=False)
+    except subprocess.TimeoutExpired:
+        print('Control simulator shutdown timed out; runner cleanup will reclaim it.')
