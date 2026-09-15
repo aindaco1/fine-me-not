@@ -49,4 +49,4 @@ Checked September 14, 2026, against the [city camera list](https://www.cabq.gov/
 
 Approximate boundaries follow the road between the listed intersections, extend 250 m on either side for at/near sites, or use 750 m on the specified side for directional descriptions. These are warning buffers, not enforcement boundaries. Mapped camera points are desk-matched OSM positions, not a new survey. See [DATA.md](DATA.md) for provenance, limitations and the naming corrections.
 
-The live update can be downloaded with **Update now** in build 4. Build 5 also bundles it, so new installations and offline upgrades receive it.
+The live update can be downloaded with **Update now** in build 4. Build **0.1.0 (5)** is **Testing** in the First Drive TestFlight group and bundles it, so new installations and offline upgrades receive it. Physical installation of build 5 and on-road acceptance remain unverified.

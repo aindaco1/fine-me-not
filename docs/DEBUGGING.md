@@ -2,6 +2,8 @@
 
 **Build 0.1.0 (4) is available in the First Drive TestFlight group.** Apple processing completed and the group showed Testing. Installation of build 4 on the physical iPhone has not yet been verified.
 
+**Latest update:** build **0.1.0 (5)** is now Testing in First Drive and retains these runtime fixes. Its database contains **1,777 warning locations**, representing all 40 current Albuquerque city-listed approaches. Build 4 can also download the same data with Update now. See [ALBUQUERQUE.md](ALBUQUERQUE.md); the findings below record the original build 4 investigation.
+
 ## What was found
 
 - **Missing coverage:** the city lists Coors north of St. Joseph NB/SB, but those approaches were absent from the accepted database. They may correspond to the reported camera north of I-40; the exact device has not been identified. Reviewed road segments now provide explicitly approximate Possible speed camera warnings in both directions. Exact camera coordinates remain unverified. [City source](https://www.cabq.gov/automated-speed-enforcement).
@@ -29,8 +31,8 @@ The simulator runs iOS 18 with a development-only deployment override. It cannot
 
 ## Next phone test
 
-1. Install build 4 from TestFlight and open Fine Me Not once.
-2. Confirm Camera warnings is on, with **Always** and **Precise Location** enabled. The database should show **1,758 warning locations**.
+1. Install build 5 from TestFlight and open Fine Me Not once.
+2. Confirm Camera warnings is on, with **Always** and **Precise Location** enabled. The database should show **1,777 warning locations**.
 3. While parked, use **Test warning** on the audio connection used in the car and set an audible media volume.
 4. Test the known approach with the screen locked, then repeat with Low Power Mode. Use a passenger to observe; do not handle the app while driving.
 5. If it misses again, use **Diagnostics → Copy diagnostics** once parked and share the report here. Camera names may reveal a visited place; the app never uploads this report automatically.

@@ -3,7 +3,7 @@
 - App: Fine Me Not
 - Bundle: `xyz.dustwave.fine-me-not`
 - Owner/team: Volver Health LLC (`PWT3Q52LZ2`), explicitly selected by the project owner
-- Version: 0.1.0 (3)
+- Version: 0.1.0 (5)
 - Distribution minimum: iOS 27.0
 - Source: https://github.com/aindaco1/fine-me-not
 - Support / privacy: https://aindaco1.github.io/fine-me-not/
@@ -72,3 +72,11 @@ Build **0.1.0 (4)**, source `fd99484`, is **Testing** in the First Drive interna
 This build requests continuous standard background location with automatic pauses disabled, infers movement when reported speed is unavailable, chooses the newest valid saved/bundled database, and adds local diagnostics. It bundles `2026-09-14-971a10f8454e-571f726e` with 1,758 warning records, including approximate Coors/St. Joseph NB/SB warning areas. The city confirms the site and directions, but exact device positions remain unverified.
 
 [CI for the app source](https://github.com/aindaco1/fine-me-not/actions/runs/34913290315) passed all 14 Swift and 10 publisher tests and the simulator bundle checks. The signed archive passed validation with minimum iOS 27.0. Both Coors directions produced one warning and recorded siren completion during locked-screen simulator replays. Real iOS 27 Low Power Mode, long idle recovery, car-audio audibility and battery use still require physical acceptance. See [DEBUGGING.md](DEBUGGING.md) for findings and the next phone test.
+
+## Complete city-list representation — build 5
+
+Build **0.1.0 (5)**, source `632c77b`, is **Testing** in the First Drive internal group. Apple accepted the upload at 01:09:47 UTC on September 15, 2026 (September 14 Mountain time). Processing completed, the build-specific What to Test notes were saved, and the existing group with one tester was assigned. No tester roles changed. Installation of build 5 on the physical phone remains unverified.
+
+The build bundles `2026-09-14-6466b7b09db1-78026b1a` with **1,777 warning records**. The 19 additions bring current Albuquerque city-list representation to **40 of 40 directional approaches: 19 mapped points and 21 approximate areas**. Carlisle uses Delamar Avenue as confirmed by the city certificate. Approximate boundaries follow reviewed OSM road geometry; they are warning buffers, not surveyed equipment positions or enforcement boundaries. See [ALBUQUERQUE.md](ALBUQUERQUE.md) for every city entry. No location/audio runtime code changed for this build.
+
+[Source CI](https://github.com/aindaco1/fine-me-not/actions/runs/34915680253) passed all 15 Swift and 12 publisher tests and the simulator bundle checks. The signed archive passed the full release bundle check with minimum iOS 27.0. [Database publication](https://github.com/aindaco1/fine-me-not/actions/runs/34915680188) succeeded; the live immutable snapshot matched its SHA-256 manifest and all 40 city references. An installed build 4 simulator downloaded it using Update now, then produced exactly one southbound Carlisle warning with playback completed while locked. These checks establish data delivery and simulated behavior. Real iOS 27 car-audio audibility, Low Power Mode, overnight recovery and battery acceptance remain pending.

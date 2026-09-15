@@ -52,3 +52,7 @@ Apple's [current upload requirement](https://developer.apple.com/news/upcoming-r
 Camera warnings now request continuous navigation-quality background location with automatic pausing disabled. Low Power Mode does not switch off monitoring in app code. This increases idle and driving battery use; real-device Low Power Mode and overnight reliability are still unverified. A heartbeat timer cannot guarantee execution after iOS suspends or terminates an app. Force-quitting, denied permissions, loss of GPS and unavailable audio output can still prevent a warning.
 
 After updating, open Fine Me Not once, confirm Always and Precise Location, and use Test warning while parked on the audio connection used in the car. The Diagnostics disclosure shows whether GPS is arriving, why the nearest mapped camera was accepted or rejected, and the most recent siren playback result. Copy diagnostics for a missed warning; review camera names before sharing because they can reveal a place you visited. The app does not automatically transmit this report.
+
+## City coverage update
+
+The current database has **1,777 warning locations** and represents all **40 current Albuquerque city-listed approaches**: 19 mapped camera points and 21 approximate areas. Existing build 4 installations can receive it with **Update now**. See [ALBUQUERQUE.md](ALBUQUERQUE.md) for the per-location status. This completes representation of the city’s list, not a survey or coverage of every municipality in the metro.
