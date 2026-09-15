@@ -1,5 +1,7 @@
 # App Store listing — 1.0
 
+Submitted September 15, 2026 at 02:10 MDT: **1.0.0 (8), Waiting for Review**. Free U.S. distribution and automatic release after approval are saved. The Data Not Collected privacy answer is published; private review contact details remain only in App Store Connect. See [the release record](RELEASE.md).
+
 ## Listing fields
 
 - Name: Fine Me Not

@@ -4,6 +4,8 @@
 - Bundle: `xyz.dustwave.fine-me-not`
 - Owner/team: Volver Health LLC (`PWT3Q52LZ2`), explicitly selected by the project owner
 - Version: 1.0.0 (8)
+- App Store: **Waiting for Review** as of September 15, 2026, 02:10 MDT; automatic U.S. release after approval
+- Official release: https://github.com/aindaco1/fine-me-not/releases/tag/v1.0.0
 - Distribution minimum: iOS 27.0
 - Source: https://github.com/aindaco1/fine-me-not
 - Support / privacy: https://finemenot.xyz/
@@ -55,7 +57,17 @@ The app's only background purpose is user-enabled camera proximity warnings. Cor
 
 Version **1.0.0 (8)** bundles the current **2,695 warning locations** and expanded speed-limit evidence. The release removes the in-app beta label while preserving the coverage/audio limitations and adds a reminder to follow posted signs. There are no location, matching or audio runtime changes from the latest test build. The owner has authorized publication with the remaining physical checks deferred; see [TESTING.md](TESTING.md).
 
-The website and weekly database are already deployed. App Store Connect metadata and final Apple processing/review status must be verified separately from the GitHub release. The app remains under the owner-selected Volver Health LLC Apple team; the project maintainer is Alonso Indacochea.
+The [official GitHub release](https://github.com/aindaco1/fine-me-not/releases/tag/v1.0.0) is published at source commit `093e2872036fe0253dd06de8a38b13af40c03314`. The website and weekly database are deployed. Apple received version 1.0.0 (8) at **02:10 MDT on September 15, 2026** and shows **Waiting for Review**. The app is free, initially available in the United States, with automatic release after Apple approval. Mac and Apple Vision Pro availability are disabled. The app remains under the owner-selected Volver Health LLC Apple team; the project maintainer is Alonso Indacochea.
+
+Apple accepted **1.0.0 (8)** at **07:27:51 UTC on September 15, 2026**. Processing completed and the existing First Drive internal group with one tester shows **Testing**. Build-specific device-test instructions are saved. No tester roles changed. The physical phone was last shown on 0.1.0 (7); installation of 1.0 remains unverified.
+
+Validation passed: **21 Swift tests, 63 Python tests**, codesign verification, full release bundle checks (version/build matched to `project.yml`, minimum iOS 27.0, 2,695 cameras), and a simulator compatibility build/install/launch. The signed archive uses Xcode 26.6 / SDK 26.5 without a distribution minimum override. Its bundled database is `2026-09-14-729f56d56437-796706f6`, SHA-256 `5da6f8ec0bfaef2646f26aa8a2bcb09d56f18b802672dd6fea6f2f294b761b8e`.
+
+The completed App Store listing includes the actual 6.9-inch iPhone screenshot (automatically reused for the 6.5-inch slot), description, permission setup instructions, support and privacy links, age rating 4+, Utilities category, build 8 and private App Review contact. The owner confirmed the privacy attestation; **Data Not Collected** is published with `https://finemenot.xyz/#privacy`. Private contact details are stored only in App Store Connect.
+
+Apple confirmed **1 Item Submitted**, followed by **Waiting for Review** for 1.0.0 (8), on September 15, 2026 at 02:10 MDT. Submission ID: `fb55d309-ed07-4e2c-844d-1bc3677a2d17`. Automatic release after approval is selected. Submission does not mean Apple has approved the app or that the public App Store listing is live.
+
+[Release source CI](https://github.com/aindaco1/fine-me-not/actions/runs/34943986572) and [website/data deployment](https://github.com/aindaco1/fine-me-not/actions/runs/34943986798) both passed. The live HTTPS site and immutable database passed `Scripts/check_site.py` with 2,695 locations and 1,305 of 1,765 speed approaches eligible for suppression.
 
 ## Release evidence — September 14, 2026
 
@@ -112,9 +124,3 @@ The signed archive passed codesign verification and the release bundle check wit
 The [manual, read-only HTTPS verification run](https://github.com/aindaco1/fine-me-not/actions/runs/34929772047) passed; `Scripts/check_site.py` also passed after Cloudflare proxying was enabled. No recurring schedule was added. Update now and the website link in build 7 still need physical iPhone acceptance. The [website runbook](WEBSITE.md) records the routing contract and certificate recovery procedure.
 
 The [research report](DATA-RESEARCH.md) documents new camera sources and speed-limit APIs. Nine page monitors were added to the existing Sunday GitHub source checks; seven succeeded locally and two returned 403. New camera readers, road matching and approval of additional speed limits remain identified implementation work, not shipped data coverage.
-
-Apple accepted **1.0.0 (8)** at **07:27:51 UTC on September 15, 2026**. Processing completed and the existing First Drive internal group with one tester shows **Testing**. Build-specific device-test instructions are saved. No tester roles changed. The physical phone was last shown on 0.1.0 (7); installation of 1.0 remains unverified.
-
-Validation passed: **21 Swift tests, 63 Python tests**, codesign verification, full release bundle checks (version/build matched to `project.yml`, minimum iOS 27.0, 2,695 cameras), and a simulator compatibility build/install/launch. The signed archive uses Xcode 26.6 / SDK 26.5 without a distribution minimum override. Its bundled database is `2026-09-14-729f56d56437-796706f6`, SHA-256 `5da6f8ec0bfaef2646f26aa8a2bcb09d56f18b802672dd6fea6f2f294b761b8e`.
-
-The App Store listing is being completed for public review. TestFlight availability does not mean the app is approved or publicly available on the App Store.
