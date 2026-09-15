@@ -11,6 +11,9 @@ if any(r['name'].startswith('iOS') and r['version'] == version and r['isAvailabl
 else:
     # Apple distributes newer runtimes by architecture; older versions use a
     # universal image. Do not remove a working runtime just to download it again.
-    variant = 'arm64' if int(version.split('.')[0]) >= 26 else 'universal'
-    subprocess.run(['xcodebuild', '-downloadPlatform', 'iOS', '-buildVersion', version,
-                    '-architectureVariant', variant], check=True)
+    command = ['xcodebuild', '-downloadPlatform', 'iOS', '-buildVersion', version]
+    # Legacy downloads have no architecture-variant field in Apple's catalog;
+    # passing "universal" explicitly makes Xcode fail to find those images.
+    if int(version.split('.')[0]) >= 26:
+        command += ['-architectureVariant', 'arm64']
+    subprocess.run(command, check=True)

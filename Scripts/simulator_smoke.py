@@ -17,6 +17,7 @@ OUTPUT = pathlib.Path('build/compatibility')
 
 
 def sim(*args):
+    print('simctl ' + ' '.join(args), flush=True)
     return subprocess.check_output(['xcrun', 'simctl', *args], text=True, timeout=180).strip()
 
 
@@ -77,8 +78,12 @@ def main():
     finally:
         if journal and journal.exists():
             (OUTPUT / 'journal.json').write_bytes(journal.read_bytes())
-        subprocess.run(['xcrun', 'simctl', 'io', device, 'screenshot', str(OUTPUT / 'screen.png')], timeout=30, check=False)
-        subprocess.run(['xcrun', 'simctl', 'shutdown', device], timeout=30, check=False)
+        # Hosted runners may have no display surface; screenshots can hang even
+        # after a successful playback test. The journal and result are evidence.
+        try:
+            subprocess.run(['xcrun', 'simctl', 'shutdown', device], timeout=30, check=False)
+        except subprocess.TimeoutExpired:
+            (OUTPUT / 'cleanup-warning.txt').write_text('Simulator shutdown timed out; hosted runner cleanup will reclaim it.\n')
 
 
 if __name__ == '__main__':
