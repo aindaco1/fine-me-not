@@ -4,7 +4,9 @@
 
 Free, open-source camera warnings for iPhone. One switch, one brief siren. No maps, ads, subscriptions, accounts or trip history.
 
-Fine Me Not targets **iOS 27+** and is available in the owner’s internal TestFlight group; Apple reports build 0.1.0 (2) installed on iPhone 16 Pro Max. It automatically monitors after one-time opt-in, including permitted background operation. It never promises uninterrupted execution in every iPhone state. See the physical acceptance checklist before relying on it.
+Fine Me Not 1.0 targets **iOS 27+**. It automatically monitors after one-time opt-in, including permitted background operation. It never promises uninterrupted execution in every iPhone state. The owner has confirmed an audible real-camera warning over Bluetooth with the screen locked; other device checks remain documented in [the acceptance record](docs/TESTING.md). See [release status](docs/RELEASE.md) for Apple availability.
+
+Maintained by **Alonso Indacochea**. [Website and setup instructions](https://finemenot.xyz/) · [Release notes](CHANGELOG.md).
 
 - [Supported iOS versions and iPhones](docs/SUPPORT.md)
 - [Data coverage and reconciliation](docs/DATA.md)
@@ -29,7 +31,7 @@ The development CI overrides the minimum only for simulator compatibility checks
 
 ## Background and audio
 
-A retained Core Location service session and background activity session receive automotive location updates. Significant-change monitoring supports permitted relaunch/recovery. Every fix uses one on-device alert engine. Alerts are one original 1.8-second siren, using the system-selected audio route and media volume, with brief audio ducking. No silent-audio keepalive, location uploads, or claimed critical-alert entitlement.
+A retained Core Location service session and continuous standard location updates support automotive background monitoring. Significant-change monitoring supports permitted relaunch/recovery. Every fix uses one on-device alert engine. Alerts are one original 1.8-second siren, using the system-selected audio route and media volume, with brief audio ducking. No silent-audio keepalive, location uploads, or claimed critical-alert entitlement.
 
 ## Weekly database
 

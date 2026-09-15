@@ -114,7 +114,7 @@ struct SettingsView: View {
                         .foregroundStyle(accent).font(.footnote)
                     Text("Camera data © OpenStreetMap contributors · ODbL")
                         .font(.caption).foregroundStyle(accent)
-                    Text("Beta · Camera coverage is incomplete. Location permissions, phone state, and audio volume affect warnings.")
+                    Text("Camera coverage is incomplete. Location permissions, phone state, and audio volume affect warnings. Always follow posted signs.")
                         .font(.caption).foregroundStyle(accent)
                 }
             }.padding(24).frame(maxWidth: 560, alignment: .leading).frame(maxWidth: .infinity)

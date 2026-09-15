@@ -1,12 +1,12 @@
 # Supported iOS versions and iPhones
 
-Fine Me Not 0.1 targets **iOS 27.0 and later**. The first physical acceptance device is **iPhone 16 Pro Max**. There is no Apple Intelligence requirement.
+Fine Me Not 1.0 targets **iOS 27.0 and later**. The first physical acceptance device is **iPhone 16 Pro Max**. There is no Apple Intelligence requirement.
 
 ## Compatibility vs. verification
 
 | Environment | Status |
 | --- | --- |
-| iOS 27 on iPhone 16 Pro Max | TestFlight reports build 0.1.0 (2) installed; physical driving and audio acceptance pending |
+| iOS 27 on iPhone 16 Pro Max | Owner reports a real Bluetooth warning with the screen locked; exact tested build was not recorded. Remaining physical checks are pending. |
 | Other iOS 27 compatible iPhones below | Eligible by OS and hardware; not individually tested |
 | iOS 28 and future releases | Not yet verified; no forward-compatibility promise |
 | iOS 26 and earlier | Not supported by the distribution build |
@@ -16,7 +16,7 @@ Fine Me Not 0.1 targets **iOS 27.0 and later**. The first physical acceptance de
 
 ## Eligible models
 
-Apple's [iOS 27 compatibility list](https://www.apple.com/os/ios/), checked September 14, 2026, includes:
+Apple's [iOS 27 compatibility list](https://www.apple.com/os/ios/), checked September 15, 2026, includes:
 
 | Family | Models |
 | --- | --- |
@@ -39,7 +39,7 @@ Enable Camera warnings once. Grant **Always** location access and **Precise Loca
 
 Silent mode is bypassed by brief active playback using Apple's playback audio category. Fine Me Not cannot override zero media volume, a disconnected or muted car input, a phone call, or all audio interruptions. Bluetooth and wired/wireless CarPlay must be tested with the vehicle. Critical-alert privileges are not assumed or requested.
 
-Monitoring is automatic after opt-in. A retained location service session, background activity session and significant-change recovery use the same matcher. iOS controls background execution and relaunch timing. Reopen after a device restart or force-quit; the app must not promise uninterrupted operation under every system condition. The Settings status reports missing permissions and stale location fixes instead of asserting that warnings are active.
+Monitoring is automatic after opt-in. A retained location service session, continuous standard location updates and significant-change recovery use the same matcher. iOS controls background execution and relaunch timing. Reopen after a device restart or force-quit; the app must not promise uninterrupted operation under every system condition. The Settings status reports missing permissions and stale location fixes instead of asserting that warnings are active.
 
 ## Toolchains
 
@@ -55,4 +55,4 @@ After updating, open Fine Me Not once, confirm Always and Precise Location, and 
 
 ## City coverage update
 
-The current database has **1,777 warning locations** and represents all **40 current Albuquerque city-listed approaches**: 19 mapped camera points and 21 approximate areas. Existing build 4 installations can receive it with **Update now**. See [ALBUQUERQUE.md](ALBUQUERQUE.md) for the per-location status. This completes representation of the city’s list, not a survey or coverage of every municipality in the metro.
+The 1.0 bundle contains **2,695 warning locations**, including all **40 reviewed Albuquerque city-listed approaches** and reviewed locations across the metro. Some are approximate warning areas. See [current coverage](https://finemenot.xyz/#sources) for published totals and speed-limit coverage. Use **Update now** to get the latest list. This represents the reviewed source lists, not a survey or every camera in every municipality.
