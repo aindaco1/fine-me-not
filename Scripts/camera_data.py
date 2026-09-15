@@ -30,4 +30,3 @@ def distance(a, b):
     dlat = lat2 - lat1; dlon = math.radians(b['longitude'] - a['longitude'])
     h = math.sin(dlat / 2) ** 2 + math.cos(lat1) * math.cos(lat2) * math.sin(dlon / 2) ** 2
     return 6371000 * 2 * math.asin(min(1, math.sqrt(h)))
-

@@ -20,6 +20,9 @@ def combine(root, records, previous, now):
         sources.append({'id': source['id'], 'name': source['name'], 'url': source.get('page', source['url']),
                         'license': source['license'], 'checkedAt': cached['checkedAt'],
                         'status': 'Agency-published coordinates; overlaps and missing records require review.'})
+        for excluded in cached.get('excluded', []):
+            if 'needs review' in excluded['reason']:
+                review.append({'source': source['id'], **excluded})
         fresh_ids = {c['id'] for c in cached['cameras']}
         for original in cached['cameras']:
             c = copy.deepcopy(original); key = c['id']; rule = rules.get(key, {})

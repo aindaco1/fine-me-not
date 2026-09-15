@@ -7,22 +7,22 @@
   },
   "fetches": [
     {
-      "checkedAt": "2026-09-15T02:05:19Z",
+      "checkedAt": "2026-09-15T02:09:28Z",
       "source": "speed",
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-09-15T02:05:27Z",
+      "checkedAt": "2026-09-15T02:09:35Z",
       "source": "enforcement",
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-09-15T02:05:42Z",
+      "checkedAt": "2026-09-15T02:09:42Z",
       "source": "aliases",
       "status": "downloaded"
     }
   ],
-  "generatedAt": "2026-09-15T02:08:29Z",
+  "generatedAt": "2026-09-15T02:10:58Z",
   "records": 2653,
   "review": [
     {
@@ -2570,6 +2570,51 @@
         }
       ],
       "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "reason": "Unidentified point; operational identity needs review",
+      "source": "tacoma",
+      "sourceRecord": "15"
+    },
+    {
+      "reason": "Unidentified point; operational identity needs review",
+      "source": "tacoma",
+      "sourceRecord": "16"
+    },
+    {
+      "reason": "Unidentified point; operational identity needs review",
+      "source": "tacoma",
+      "sourceRecord": "17"
+    },
+    {
+      "reason": "Unidentified point; operational identity needs review",
+      "source": "tacoma",
+      "sourceRecord": "18"
+    },
+    {
+      "reason": "Unidentified point; operational identity needs review",
+      "source": "tacoma",
+      "sourceRecord": "19"
+    },
+    {
+      "reason": "Unidentified point; operational identity needs review",
+      "source": "tacoma",
+      "sourceRecord": "20"
+    },
+    {
+      "reason": "Unidentified point; operational identity needs review",
+      "source": "tacoma",
+      "sourceRecord": "21"
+    },
+    {
+      "reason": "Unidentified point; operational identity needs review",
+      "source": "tacoma",
+      "sourceRecord": "22"
+    },
+    {
+      "reason": "Unidentified point; operational identity needs review",
+      "source": "tacoma",
+      "sourceRecord": "23"
     },
     {
       "id": "agency-sf-13",

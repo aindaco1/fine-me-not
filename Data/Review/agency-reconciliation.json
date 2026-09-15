@@ -1,6 +1,6 @@
 {
   "acceptedAgencyRecords": 882,
-  "checkedAt": "2026-09-15T02:09:53Z",
+  "checkedAt": "2026-09-15T02:10:58Z",
   "review": [
     {
       "id": "agency-chicago-speed-chi003-270",
@@ -2499,6 +2499,51 @@
         }
       ],
       "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "reason": "Unidentified point; operational identity needs review",
+      "source": "tacoma",
+      "sourceRecord": "15"
+    },
+    {
+      "reason": "Unidentified point; operational identity needs review",
+      "source": "tacoma",
+      "sourceRecord": "16"
+    },
+    {
+      "reason": "Unidentified point; operational identity needs review",
+      "source": "tacoma",
+      "sourceRecord": "17"
+    },
+    {
+      "reason": "Unidentified point; operational identity needs review",
+      "source": "tacoma",
+      "sourceRecord": "18"
+    },
+    {
+      "reason": "Unidentified point; operational identity needs review",
+      "source": "tacoma",
+      "sourceRecord": "19"
+    },
+    {
+      "reason": "Unidentified point; operational identity needs review",
+      "source": "tacoma",
+      "sourceRecord": "20"
+    },
+    {
+      "reason": "Unidentified point; operational identity needs review",
+      "source": "tacoma",
+      "sourceRecord": "21"
+    },
+    {
+      "reason": "Unidentified point; operational identity needs review",
+      "source": "tacoma",
+      "sourceRecord": "22"
+    },
+    {
+      "reason": "Unidentified point; operational identity needs review",
+      "source": "tacoma",
+      "sourceRecord": "23"
     },
     {
       "id": "agency-sf-13",
