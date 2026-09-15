@@ -42,7 +42,7 @@ jobs:
           xcodebuild -version
           xcodebuild -project FineMeNot.xcodeproj -scheme FineMeNot \
             -configuration Debug -destination 'generic/platform=iOS Simulator' \
-            CODE_SIGNING_ALLOWED=NO ARCHS=arm64 ONLY_ACTIVE_ARCH=YES \
+            CODE_SIGNING_ALLOWED=NO 'ARCHS=arm64 x86_64' ONLY_ACTIVE_ARCH=NO \
             -derivedDataPath build build-for-testing
           python3 Scripts/check_bundle.py build/Build/Products/Debug-iphonesimulator/FineMeNot.app --release
           tar -czf build/simulator-app.tar.gz -C build/Build Products
@@ -55,7 +55,7 @@ jobs:
     needs: build
     # Legacy runtimes stall during setup on the newer host image. The app
     # artifact is unchanged; only the simulator host differs.
-    runs-on: ${{ matrix.ios_version == '26.5' && 'macos-26' || 'macos-15' }}
+    runs-on: ${{ matrix.ios_version == '26.5' && 'macos-26' || (matrix.ios_version == '18.5' && 'macos-15-intel' || 'macos-15') }}
     timeout-minutes: 40
     strategy:
       fail-fast: false
