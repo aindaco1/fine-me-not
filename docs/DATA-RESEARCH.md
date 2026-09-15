@@ -101,6 +101,14 @@ Mapillary exposes map-feature/sign detections and imagery that can help a review
 
 This is corroborating evidence: check capture date, sign orientation, applicable road, school/work-zone plates and whether the sign is still present. Prefer a current agency sign inventory or effective speed order where available. CDOT explains that its signed speed-study documents establish changed limits on the roads it controls; that does not extend authority to every local road.[^22]
 
+### USDOT HPMS and additional state inventories
+
+USDOT’s public service directory lists **52 `HPMS_FULL_*_2024` feature services**, including New Mexico, California, New York and Washington. They expose a posted-speed field and are another national candidate source beyond OSM. The New Mexico service was visible through the web index, but direct metadata, sample and count requests timed out; row-level coverage was not validated. Use current service metadata rather than the older FHWA download page, which still describes the 2018 release.[^25]
+
+HPMS represents road-section attributes. Its manual permits the predominant daytime automobile limit where a section contains multiple values. A school camera inside that section could therefore require a lower limit. This supports candidate discovery and cross-checking, not automatic suppression. State DOT data and the corresponding federal compilation can share the same lineage.[^26]
+
+MassDOT also documents a dedicated Speed_Limit layer. Its official endpoint failed TLS certificate validation during this pass. A similarly named working ArcGIS result proved to be **Andover’s local copy**, not statewide data. Preserve that distinction; do not bypass certificate checks or describe a municipal extract as Massachusetts-wide coverage.[^27]
+
 ### Why a commercial “speed limit API” is not the default
 
 Google Roads advertises speed limits but documents restricted access and cases where returned values may be estimated, incomplete or the maximum variable limit. Its storage and attribution requirements do not fit simply publishing a free downloadable open camera database. Keep it out of the core pipeline unless a specific compatible agreement is established.[^23][^24]
@@ -159,3 +167,6 @@ Useful acceptance metrics are net distinct approaches added, proportion with age
 [^22]: CDOT, [Speed Management Program](https://www.codot.gov/safety/traffic-safety/operations/speed-management-program).
 [^23]: Google, [Roads API speed limits](https://developers.google.com/maps/documentation/roads/speed-limits).
 [^24]: Google, [Roads API policies and attribution](https://developers.google.com/maps/documentation/roads/policies).
+[^25]: USDOT, [Hosted service directory](https://geo.dot.gov/server/rest/services/Hosted), [New Mexico HPMS 2024 service](https://geo.dot.gov/server/rest/services/Hosted/HPMS_FULL_NM_2024/FeatureServer); FHWA, [older public release page](https://www.fhwa.dot.gov/policyinformation/hpms/shapefiles.cfm).
+[^26]: FHWA, [HPMS field manual, Item 14: Speed_Limit](https://www.fhwa.dot.gov/policyinformation/hpms/fieldmanual/page04.cfm).
+[^27]: MassDOT, [RoadInventoryLRS layers, Speed_Limit 44](https://gisstg.massdot.state.ma.us/arcgis/rest/services/Roads/RoadInventoryLRS/FeatureServer/layers); Andover, [local road-inventory item metadata](https://www.arcgis.com/sharing/rest/content/items/cfb1ae29354943458c9e24e469ccfd7c?f=json).
