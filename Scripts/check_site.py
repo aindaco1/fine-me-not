@@ -3,6 +3,7 @@
 import hashlib
 import json
 import re
+import sys
 import urllib.parse
 import urllib.request
 
@@ -42,4 +43,8 @@ def check():
 
 
 if __name__ == '__main__':
-    check()
+    try:
+        check()
+    except (AssertionError, OSError, ValueError, KeyError) as error:
+        print(f'Website verification pending or failed: {error}', file=sys.stderr)
+        sys.exit(1)
