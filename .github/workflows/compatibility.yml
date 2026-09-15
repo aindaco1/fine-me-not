@@ -53,7 +53,9 @@ jobs:
           retention-days: 3
   runtime:
     needs: build
-    runs-on: macos-26
+    # Legacy runtimes stall during setup on the newer host image. The app
+    # artifact is unchanged; only the simulator host differs.
+    runs-on: ${{ matrix.ios_version == '26.5' && 'macos-26' || 'macos-15' }}
     timeout-minutes: 40
     strategy:
       fail-fast: false

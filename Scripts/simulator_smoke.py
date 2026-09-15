@@ -73,7 +73,7 @@ def main():
     info = plistlib.loads((app / 'Info.plist').read_bytes())
     OUTPUT.mkdir(parents=True, exist_ok=True)
     for name in ('result.json', 'journal.json', 'location-service.log', 'foreground-probe-journal.json',
-                 'probe-error.txt', 'cleanup-warning.txt', 'route.json', 'foreground-probe-route.json'):
+                 'probe-error.txt', 'cleanup-warning.txt', 'setup-error.txt', 'route.json', 'foreground-probe-route.json'):
         (OUTPUT / name).unlink(missing_ok=True)
     runtimes = json.loads(sim('list', 'runtimes', '-j'))['runtimes']
     runtime = next(r for r in runtimes if r['version'] == version and r['isAvailable'] and r['name'].startswith('iOS'))
@@ -138,7 +138,8 @@ def main():
                    'physicalDeviceTest': False}
         (OUTPUT / 'result.json').write_text(json.dumps(summary, indent=2) + '\n')
         print(json.dumps(summary, indent=2))
-    except Exception:
+    except Exception as error:
+        (OUTPUT / 'setup-error.txt').write_text(f'{type(error).__name__}: {error}\n')
         diagnose_failure(device, journal)
         raise
     finally:
