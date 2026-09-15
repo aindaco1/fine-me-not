@@ -1,29 +1,13 @@
 {
   "counts": {
-    "possibleSpeed": 3,
+    "possibleSpeed": 5,
     "redLight": 393,
     "speed": 1136,
     "speedAndRedLight": 224
   },
-  "fetches": [
-    {
-      "checkedAt": "2026-09-14T22:44:37Z",
-      "source": "speed",
-      "status": "downloaded"
-    },
-    {
-      "checkedAt": "2026-09-14T22:44:43Z",
-      "source": "enforcement",
-      "status": "downloaded"
-    },
-    {
-      "error": "HTTP Error 504: Gateway Timeout",
-      "source": "aliases",
-      "status": "retained"
-    }
-  ],
-  "generatedAt": "2026-09-14T22:44:57Z",
-  "records": 1756,
+  "fetches": [],
+  "generatedAt": "2026-09-15T00:18:54Z",
+  "records": 1758,
   "review": [
     {
       "id": "osm-relation-545916",

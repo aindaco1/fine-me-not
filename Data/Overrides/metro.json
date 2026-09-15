@@ -12,7 +12,7 @@
       "url": "https://www.cabq.gov/automated-speed-enforcement",
       "license": "Source-linked location facts; OSM coordinate component under ODbL-1.0",
       "checkedAt": "2026-09-14T21:00:00Z",
-      "status": "19 of 40 listed approaches desk-matched; remaining locations need geometry review. No road test yet."
+      "status": "19 of 40 listed approaches matched to camera points; 2 Coors/St Joseph approaches included as approximate possible-speed warning areas. Other locations still need geometry review. No road-test acceptance yet."
     },
     {
       "id": "bernco",
@@ -953,6 +953,114 @@
         "osm-node-12861865379"
       ],
       "travelBearing": 270
+    },
+    {
+      "id": "abq-coors-st-joseph-possible-nb",
+      "siteID": "abq-coors-st-joseph",
+      "label": "Coors north of St. Joseph \u00b7 NB \u00b7 approximate area",
+      "kind": "possibleSpeed",
+      "geometry": [
+        {
+          "latitude": 35.1280454,
+          "longitude": -106.70156
+        },
+        {
+          "latitude": 35.1281669,
+          "longitude": -106.7015587
+        },
+        {
+          "latitude": 35.128696,
+          "longitude": -106.701553
+        },
+        {
+          "latitude": 35.1306373,
+          "longitude": -106.7015321
+        },
+        {
+          "latitude": 35.1315613,
+          "longitude": -106.7015222
+        },
+        {
+          "latitude": 35.1319364,
+          "longitude": -106.701541
+        },
+        {
+          "latitude": 35.1320203,
+          "longitude": -106.701543
+        },
+        {
+          "latitude": 35.1329882,
+          "longitude": -106.7015665
+        },
+        {
+          "latitude": 35.1339972,
+          "longitude": -106.7015379
+        },
+        {
+          "latitude": 35.1347083,
+          "longitude": -106.7015296
+        },
+        {
+          "latitude": 35.1347874,
+          "longitude": -106.7015259
+        }
+      ],
+      "travelBearing": 0,
+      "sourceIDs": [
+        "https://www.cabq.gov/automated-speed-enforcement",
+        "osm/way/182464508"
+      ],
+      "evidence": "City current list entries ABQ-37/38 establish fixed cameras in both travel directions, dated 2026-07-29, but give no device coordinates. OSM road geometry desk-reviewed 2026-09-14. This is an explicitly approximate warning area following about 750 m of Coors north of the mapped St Joseph intersection, not a camera point or official enforcement boundary. Exact hardware location and road-test acceptance remain pending."
+    },
+    {
+      "id": "abq-coors-st-joseph-possible-sb",
+      "siteID": "abq-coors-st-joseph",
+      "label": "Coors north of St. Joseph \u00b7 SB \u00b7 approximate area",
+      "kind": "possibleSpeed",
+      "geometry": [
+        {
+          "latitude": 35.1347804,
+          "longitude": -106.7017659
+        },
+        {
+          "latitude": 35.134695,
+          "longitude": -106.701774
+        },
+        {
+          "latitude": 35.1332564,
+          "longitude": -106.7017909
+        },
+        {
+          "latitude": 35.1325876,
+          "longitude": -106.7017987
+        },
+        {
+          "latitude": 35.1315367,
+          "longitude": -106.7018104
+        },
+        {
+          "latitude": 35.1296458,
+          "longitude": -106.7017732
+        },
+        {
+          "latitude": 35.1292526,
+          "longitude": -106.7017644
+        },
+        {
+          "latitude": 35.1281569,
+          "longitude": -106.7017395
+        },
+        {
+          "latitude": 35.1280468,
+          "longitude": -106.7017377
+        }
+      ],
+      "travelBearing": 180,
+      "sourceIDs": [
+        "https://www.cabq.gov/automated-speed-enforcement",
+        "osm/way/102368561"
+      ],
+      "evidence": "City current list entries ABQ-37/38 establish fixed cameras in both travel directions, dated 2026-07-29, but give no device coordinates. OSM road geometry desk-reviewed 2026-09-14. This is an explicitly approximate warning area following about 750 m of Coors north of the mapped St Joseph intersection, not a camera point or official enforcement boundary. Exact hardware location and road-test acceptance remain pending."
     }
   ],
   "tombstones": {}
