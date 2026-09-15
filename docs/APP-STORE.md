@@ -2,7 +2,7 @@
 
 **1.0.1 reporting update:** source version 1.0.1 (9). Voluntary public reports change the privacy disclosure; the 1.0 Data Not Collected answer below is historical. See [REPORTING.md](REPORTING.md). Distribution verification is recorded separately from the existing 1.0 submission.
 
-Submitted September 15, 2026 at 02:10 MDT: **1.0.0 (8), Waiting for Review**. Free U.S. distribution and automatic release after approval are saved. The Data Not Collected privacy answer is published; private review contact details remain only in App Store Connect. See [the release record](RELEASE.md).
+Submitted September 15, 2026 at 02:10 MDT: **1.0.0 (8), Waiting for Review**. Free U.S. distribution and automatic release after approval are saved. The original Data Not Collected answer was later replaced for the 1.0.1 reporting feature; private review contact details remain only in App Store Connect. See [the release record](RELEASE.md).
 
 ## Listing fields
 
@@ -69,3 +69,20 @@ The app has no advertising, tracking, analytics or account SDK and does not tran
 ## Distribution notes
 
 The Apple developer team remains Volver Health LLC, as the owner explicitly selected. Project maintenance and copyright credit are Alonso Indacochea. Private App Review contact details are entered in App Store Connect and must not be committed here. Screenshots must show the actual release UI, with no fabricated device-test claims.
+
+## Published privacy update for 1.0.1
+
+On September 15, 2026, Customer Support, Crash Data and Other Diagnostic Data
+were published for App Functionality, linked to identity and not used for tracking.
+This replaces the historical 1.0 Data Not Collected label above. The categories
+match the 1.0.1 privacy manifest. Support text may identify someone; automatic
+fields exclude location, camera IDs/names, speeds and accessory names. All uploads
+require reviewing a report and explicitly tapping Send report.
+
+Suggested 1.0.1 What's New:
+
+> Found something weird? You can now report a problem right from Settings. Add
+> an optional explanation, choose whether to include technical details, review
+> everything and send it to the public GitHub issue tracker. No GitHub account
+> needed. Failed sends keep a draft so you can retry. The website has clearer
+> setup, troubleshooting and privacy information too.

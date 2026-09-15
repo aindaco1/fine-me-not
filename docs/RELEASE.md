@@ -151,3 +151,20 @@ Version 1.0.0 (8) remains Waiting for Review and was not cancelled.
   crash/hang delivery on a physical phone remains a separate acceptance check.
 - Simulator UI review used an iOS 18 deployment override because the installed SDK
   cannot select a simulator for an iOS 27 target. Distribution remains iOS 27.
+
+TestFlight processing completed for **1.0.1 (9)**. The **First Drive** internal
+group shows **Testing**, with its existing one tester. The saved What to Test text
+covers review/send, text-only reporting, offline retry and normal camera alerts.
+Installation of this build on the physical iPhone is not yet confirmed.
+
+App Store Connect now publishes **Customer Support, Crash Data and Other
+Diagnostic Data**, each used for **App Functionality**, conservatively linked to
+identity, and **not used for tracking**. The website privacy policy describes
+explicit submission, public issues, the safe automatic fields and retention.
+No new agreement prompt appeared when publishing these category updates.
+
+The live website passed HTTPS/data/asset validation and a 390-point mobile layout
+check without horizontal overflow. Hosted build/tests, website deployment and the
+manually verified daily reporting-health Action all passed. The current 1.0
+App Store submission remains Waiting for Review; 1.0.1 is distributed through
+TestFlight, not submitted as a replacement for that pending version.
