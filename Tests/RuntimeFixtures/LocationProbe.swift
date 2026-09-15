@@ -15,7 +15,8 @@ final class LocationProbe: UIResponder, UIApplicationDelegate, CLLocationManager
         self.window = window
         manager.delegate = self
         manager.desiredAccuracy = kCLLocationAccuracyBestForNavigation
-        manager.distanceFilter = UserDefaults.standard.double(forKey: "distanceFilter")
+        let filter = UserDefaults.standard.string(forKey: "distanceFilter") ?? "10"
+        manager.distanceFilter = filter == "none" ? kCLDistanceFilterNone : Double(filter)!
         manager.activityType = .automotiveNavigation
         manager.allowsBackgroundLocationUpdates = true
         manager.pausesLocationUpdatesAutomatically = false
@@ -28,7 +29,8 @@ final class LocationProbe: UIResponder, UIApplicationDelegate, CLLocationManager
 
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         for location in locations {
-            fixes.append(["latitude": location.coordinate.latitude,
+            fixes.append(["distanceFilter": manager.distanceFilter,
+                          "latitude": location.coordinate.latitude,
                           "longitude": location.coordinate.longitude,
                           "timestamp": location.timestamp.timeIntervalSince1970,
                           "state": UIApplication.shared.applicationState.rawValue])

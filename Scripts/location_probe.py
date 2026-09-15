@@ -36,7 +36,7 @@ try:
     smoke.sim('install', device, str(app.resolve()))
     smoke.sim('privacy', device, 'grant', 'location-always', bundle)
     smoke.sim('location', device, 'set', f'{smoke.LATITUDE},{smoke.START_LONGITUDE}')
-    smoke.sim('launch', device, bundle, '-distanceFilter', distance_filter)
+    smoke.sim('launch', device, bundle, '-distanceFilter', 'none' if distance_filter == '-1' else distance_filter)
     container = pathlib.Path(smoke.sim('get_app_container', device, bundle, 'data'))
     time.sleep(10)
     smoke.replay_route(device, 'control-route.json')
@@ -48,9 +48,11 @@ try:
     else:
         rows = []
     result = {'runtime': runtime['name'], 'controlAppOnly': True, 'distanceFilter': float(distance_filter), 'fixCount': len(rows),
+              'actualDistanceFilter': rows[0]['distanceFilter'] if rows else None,
               'distinctLongitudes': len({r['longitude'] for r in rows})}
     (smoke.OUTPUT / 'control-result.json').write_text(json.dumps(result, indent=2))
     print(json.dumps(result))
+    assert result['actualDistanceFilter'] == float(distance_filter), 'Control filter did not match requested setting'
     assert result['distinctLongitudes'] > 2, 'Control app also failed to receive moving GPS fixes'
 except Exception as error:
     (smoke.OUTPUT / 'control-error.json').write_text(json.dumps({'error': str(error)}))
