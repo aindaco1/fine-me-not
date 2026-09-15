@@ -3,7 +3,7 @@ import PackageDescription
 
 let package = Package(
     name: "FineMeNotCore",
-    platforms: [.iOS(.v18), .macOS(.v15)],
+    platforms: [.iOS(.v17), .macOS(.v15)],
     products: [.library(name: "CameraCore", targets: ["CameraCore"]), .library(name: "SupportCore", targets: ["SupportCore"])],
     targets: [
         .target(name: "CameraCore"),

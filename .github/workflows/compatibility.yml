@@ -1,0 +1,68 @@
+name: iOS runtime compatibility
+on:
+  push:
+    branches: [main]
+    paths: &app_paths
+      - 'App/**'
+      - 'Sources/**'
+      - 'Tests/CameraCoreTests/**'
+      - 'Tests/SupportCoreTests/**'
+      - 'Package.swift'
+      - 'project.yml'
+      - 'FineMeNot.xcodeproj/**'
+      - 'Scripts/check_bundle.py'
+      - 'Scripts/simulator_smoke.py'
+      - '.github/workflows/compatibility.yml'
+  pull_request:
+    paths: *app_paths
+  workflow_dispatch:
+    inputs:
+      ios_version:
+        description: Apple simulator runtime version
+        required: true
+        type: choice
+        options: ['all', '17.5', '18.0', '26.5']
+        default: 'all'
+permissions:
+  contents: read
+concurrency:
+  group: ios-compatibility-${{ github.ref }}-${{ inputs.ios_version || 'all' }}
+  cancel-in-progress: true
+jobs:
+  runtime:
+    runs-on: macos-26
+    timeout-minutes: 40
+    strategy:
+      fail-fast: false
+      matrix:
+        ios_version: ${{ fromJSON(inputs.ios_version && inputs.ios_version != 'all' && format('["{0}"]', inputs.ios_version) || '["17.5", "18.0", "26.5"]') }}
+    env:
+      FMN_IOS_VERSION: ${{ matrix.ios_version }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Prepare requested runtime
+        run: |
+          python3 -c 'import os,re; assert re.fullmatch(r"[0-9]+\.[0-9]+(?:\.[0-9]+)?", os.environ["FMN_IOS_VERSION"])'
+          xcodebuild -version
+          df -h /
+          # This is an ephemeral hosted runner. Remove its preinstalled runtime
+          # images to make room for the requested older Apple runtime.
+          xcrun simctl shutdown all
+          xcrun simctl runtime delete all
+          xcodebuild -downloadPlatform iOS -buildVersion "$FMN_IOS_VERSION"
+      - name: Build the shipped minimum
+        run: |
+          xcodebuild -project FineMeNot.xcodeproj -scheme FineMeNot \
+            -configuration Debug -destination 'generic/platform=iOS Simulator' \
+            CODE_SIGNING_ALLOWED=NO ARCHS=arm64 ONLY_ACTIVE_ARCH=YES \
+            -derivedDataPath build build
+          python3 Scripts/check_bundle.py build/Build/Products/Debug-iphonesimulator/FineMeNot.app --release
+      - name: Run background camera approach
+        run: |
+          python3 Scripts/simulator_smoke.py "$FMN_IOS_VERSION" \
+            build/Build/Products/Debug-iphonesimulator/FineMeNot.app
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: runtime-${{ matrix.ios_version }}-evidence
+          path: build/compatibility/

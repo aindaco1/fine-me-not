@@ -1,6 +1,7 @@
 import Foundation
 import Observation
 import CoreLocation
+import UIKit
 import CameraCore
 
 @MainActor @Observable
@@ -23,7 +24,8 @@ final class MonitoringController: NSObject, CLLocationManagerDelegate {
     private let defaults: UserDefaults
     private let store: CameraStore
     private let presenter: AlertPresenter
-    private var serviceSession: CLServiceSession?
+    private var endAuthorizationSession: (() -> Void)?
+    private var requestedLegacyAlways = false
     private var retry: Task<Void, Never>?
     private var engine: AlertEngine
     var matchDiagnostic: MatchDiagnostic { engine.diagnostic }
@@ -60,20 +62,44 @@ final class MonitoringController: NSObject, CLLocationManagerDelegate {
     }
 
     func start() {
-        guard enabled, !isTracking else { return }
+        guard enabled else { return }
+        if #unavailable(iOS 18.0) { requestLegacyAuthorization() }
+        guard !isTracking else { return }
         retry?.cancel(); retry = nil; failure = nil
         refreshAuthorization()
         guard authorization != .denied && authorization != .restricted else { return }
         // One continuous location stream owns matching. Explicitly disable
         // automatic pauses; reliability takes priority over idle battery use.
         // Recreate the service session on a permitted background relaunch too.
-        serviceSession = CLServiceSession(authorization: .always)
+        if #available(iOS 18.0, *) {
+            let session = CLServiceSession(authorization: .always)
+            endAuthorizationSession = { session.invalidate() }
+        }
         isTracking = true
         SupportDiagnostics.shared.record("monitoring", ["monitoring": "requested"])
         manager.startUpdatingLocation()
         if CLLocationManager.significantLocationChangeMonitoringAvailable() {
             manager.startMonitoringSignificantLocationChanges()
         }
+    }
+
+    // iOS 17 uses the same background location manager and matcher, with the
+    // older two-step permission request instead of an iOS 18 service session.
+    private func requestLegacyAuthorization() {
+        guard UIApplication.shared.applicationState == .active else { return }
+        switch manager.authorizationStatus {
+        case .notDetermined:
+            manager.requestWhenInUseAuthorization()
+        case .authorizedWhenInUse where !requestedLegacyAlways:
+            requestedLegacyAlways = true
+            manager.requestAlwaysAuthorization()
+        default: break
+        }
+    }
+
+    private func releaseAuthorizationSession() {
+        endAuthorizationSession?()
+        endAuthorizationSession = nil
     }
 
     private func scheduleRetry() {
@@ -84,7 +110,7 @@ final class MonitoringController: NSObject, CLLocationManagerDelegate {
             self.retry = nil
             self.manager.stopUpdatingLocation()
             self.isTracking = false
-            self.serviceSession?.invalidate(); self.serviceSession = nil
+            self.releaseAuthorizationSession()
             self.start()
         }
     }
@@ -95,7 +121,7 @@ final class MonitoringController: NSObject, CLLocationManagerDelegate {
         manager.stopMonitoringSignificantLocationChanges()
         isTracking = false
         SupportDiagnostics.shared.record("monitoring", ["monitoring": "off"])
-        serviceSession?.invalidate(); serviceSession = nil
+        releaseAuthorizationSession()
         failure = nil; lastFixAt = nil; stationary = false
     }
 

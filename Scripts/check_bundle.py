@@ -9,9 +9,11 @@ assert info['CFBundleIdentifier']=='xyz.dustwave.fine-me-not'
 assert set(info['UIBackgroundModes'])=={'audio','location','fetch'}
 assert info['NSLocationRequireExplicitServiceSession'] is True
 assert info['CFBundleIcons']['CFBundlePrimaryIcon']['CFBundleIconName']=='AppIcon'
+project=(pathlib.Path(__file__).resolve().parents[1]/'project.yml').read_text()
+minimum=re.search(r'^\s+iOS: "([^"]+)"$', project, re.MULTILINE)
+assert minimum, 'Missing deployment target in project.yml'
+assert info['MinimumOSVersion']==minimum.group(1), 'MinimumOSVersion differs from project.yml'
 if '--release' in sys.argv:
-    assert info['MinimumOSVersion']=='27.0'
-    project=(pathlib.Path(__file__).resolve().parents[1]/'project.yml').read_text()
     for plist_key, setting in [('CFBundleShortVersionString', 'MARKETING_VERSION'), ('CFBundleVersion', 'CURRENT_PROJECT_VERSION')]:
         expected=re.search(r'^\s+'+setting+r': "([^"]+)"$', project, re.MULTILINE)
         assert expected, f'Missing release setting: {setting}'
