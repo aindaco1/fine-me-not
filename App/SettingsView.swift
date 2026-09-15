@@ -27,6 +27,17 @@ struct SettingsView: View {
                             .accessibilityIdentifier("warnings-toggle")
                     }
                     row {
+                        VStack(alignment: .leading, spacing: 10) {
+                            Toggle("Quiet below speed limit", isOn: Binding(
+                                get: { services.monitoring.quietBelowSpeedLimit },
+                                set: { services.monitoring.setQuietBelowSpeedLimit($0) }))
+                                .font(.system(.headline, design: .monospaced)).tint(accent)
+                                .accessibilityIdentifier("speed-check-toggle")
+                            Text("Speed cameras only. If your speed or the camera's limit is unknown, you'll still get a warning. Red-light warnings stay on.")
+                                .font(.footnote).foregroundStyle(accent)
+                        }
+                    }
+                    row {
                         VStack(alignment: .leading, spacing: 8) {
                             caption("STATUS")
                             TimelineView(.periodic(from: .now, by: 5)) { context in

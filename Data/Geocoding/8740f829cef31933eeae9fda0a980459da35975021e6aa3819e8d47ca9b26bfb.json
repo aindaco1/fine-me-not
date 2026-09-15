@@ -1,0 +1,10 @@
+{
+  "checkedAt": "2026-09-15T03:41:31Z",
+  "error": "Census changed the requested street/state; needs review",
+  "query": {
+    "city": "Philadelphia",
+    "provider": "census-address-v1",
+    "state": "PA",
+    "street": "2100 Robbins Street"
+  }
+}

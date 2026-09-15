@@ -33,8 +33,10 @@ A retained Core Location service session and background activity session receive
 
 ## Weekly database
 
-Upstream source checks run Sunday at 9 p.m. Denver time, with a Codex review at 10 p.m. The publisher is scheduled for Monday at 12:00 a.m. `America/Denver` (Sunday night), including daylight saving. GitHub and iOS can delay execution/download. Invalid data retains the last good snapshot. The live database combines national OSM data, reviewed Albuquerque metro locations and agency feeds. The installed app can download the expansion through Update now and cache it for offline use; the build 5 bundled fallback retains its release-time data. Coverage is incomplete; all published camera records include provenance.
+Upstream source checks run Sunday at 9 p.m. Denver time, with automatic reconciliation and durable review reports in GitHub Actions. The publisher is scheduled for Monday at 12:00 a.m. `America/Denver` (Sunday night), including daylight saving. GitHub and iOS can delay execution/download. Invalid data retains the last good snapshot. The live database combines national OSM data, reviewed Albuquerque metro locations and agency feeds. The installed app downloads updates through Update now and caches them for offline use. Each release also bundles its release-time snapshot. Coverage is incomplete; all published camera records include provenance.
 
 ## License
 
 Code, original icon and siren: [MIT](LICENSE). Camera database: [ODbL 1.0](Data/LICENSE.md), © OpenStreetMap contributors, with source-linked municipal facts.
+
+The **Quiet below speed limit** setting is on by default. It only suppresses speed-camera warnings when both the measured speed and applicable limit are reliable; unknown limits and red-light cameras still warn. See [speed check](docs/SPEED-CHECK.md), [geocoding and identity](docs/GEOCODING-AND-IDENTITY.md), and [source maintenance](docs/MAINTENANCE.md).

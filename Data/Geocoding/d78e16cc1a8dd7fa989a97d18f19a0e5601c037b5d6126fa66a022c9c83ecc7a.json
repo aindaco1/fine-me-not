@@ -1,0 +1,24 @@
+{
+  "checkedAt": "2026-09-15T03:34:23Z",
+  "query": {
+    "city": "Philadelphia",
+    "provider": "census-address-v1",
+    "state": "PA",
+    "street": "7000 Frankford Avenue"
+  },
+  "result": {
+    "evidence": "Census TIGER address-range interpolation; approximate listed block, not a camera survey.",
+    "geometry": [
+      {
+        "latitude": 40.033761227986,
+        "longitude": -75.046736585387
+      }
+    ],
+    "matchedAddress": "7000 FRANKFORD AVE, PHILADELPHIA, PA, 19135",
+    "positionPrecision": "census-address-estimate",
+    "providerURL": "https://geocoding.geo.census.gov/geocoder/locations/address",
+    "roadNames": [
+      "Frankford Avenue"
+    ]
+  }
+}

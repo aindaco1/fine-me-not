@@ -16,7 +16,7 @@ SOURCE = {'id': 'sf', 'name': 'Agency', 'adapter': 'sf', 'url': 'https://agency.
 
 
 def camera(key='agency-sf-1', bearing=90, lat=37.7, lon=-122.4):
-    return {'id': key, 'siteID': key, 'label': 'Test road', 'kind': 'speed', 'geometry': [{'latitude': lat, 'longitude': lon}], 'sourceIDs': ['agency/sf/1'], 'evidence': 'Agency test source', 'travelBearing': bearing}
+    return {'id': key, 'siteID': key, 'label': 'Test road', 'kind': 'speed', 'geometry': [{'latitude': lat, 'longitude': lon}], 'sourceIDs': ['test/'+key], 'evidence': 'Agency test source', 'travelBearing': bearing}
 
 
 class SourceChecks(unittest.TestCase):

@@ -6,9 +6,11 @@ public struct LocationFix: Sendable {
     public let accuracy: Double
     public let speed: Double
     public let course: Double?
-    public init(coordinate: Coordinate, timestamp: Date, accuracy: Double, speed: Double, course: Double?) {
+    public let speedAccuracy: Double?
+    public init(coordinate: Coordinate, timestamp: Date, accuracy: Double, speed: Double, course: Double?, speedAccuracy: Double? = nil) {
         self.coordinate = coordinate; self.timestamp = timestamp; self.accuracy = accuracy
         self.speed = speed; self.course = course
+        self.speedAccuracy = speedAccuracy
     }
     public func isUsable(at now: Date) -> Bool {
         coordinate.isValid && accuracy.isFinite && (0...75).contains(accuracy)
@@ -37,10 +39,12 @@ public enum MatchReason: String, Sendable {
     case approachUnconfirmed = "Waiting for approach or direction evidence"
     case cooldown = "Already warned on this approach"
     case expired = "Camera record has expired"
+    case belowSpeedLimit = "Quiet: reliably below the camera's posted speed limit"
     case warning = "Camera matched for a warning"
 }
 
 public struct MatchDiagnostic: Sendable {
+    public var speedLimit: SpeedLimit? = nil
     public let reason: MatchReason
     public let cameraLabel: String?
     public let distance: Double?
@@ -57,7 +61,8 @@ public struct AlertEngine: Sendable {
     public private(set) var diagnostic = MatchDiagnostic(reason: .notMoving, cameraLabel: nil, distance: nil, speed: nil, course: nil)
     public init(encounters: [String: Encounter] = [:]) { self.encounters = encounters }
 
-    public mutating func evaluate(_ fix: LocationFix, index: CameraIndex, now: Date) -> [CameraWarning] {
+    public mutating func evaluate(_ fix: LocationFix, index: CameraIndex, now: Date,
+                                 quietBelowSpeedLimit: Bool = true) -> [CameraWarning] {
         guard fix.isUsable(at: now) else {
             diagnostic = MatchDiagnostic(reason: .invalidFix, cameraLabel: nil, distance: nil, speed: nil, course: nil)
             return []
@@ -106,8 +111,11 @@ public struct AlertEngine: Sendable {
                     if oldDistance - distance <= 4 { reason = .approachUnconfirmed }
                 } else { reason = .approachUnconfirmed }
             }
+            if reason == .warning && quietBelowSpeedLimit && SpeedCheck.shouldSuppress(camera, fix: fix, now: now) {
+                reason = .belowSpeedLimit
+            }
             if offset == 0 || (reason == .warning && warnings.isEmpty) {
-                diagnostic = MatchDiagnostic(reason: reason, cameraLabel: camera.label, distance: distance,
+                diagnostic = MatchDiagnostic(speedLimit: camera.speedLimit, reason: reason, cameraLabel: camera.label, distance: distance,
                                              speed: motion.speed, course: course)
             }
             guard reason == .warning else { continue }

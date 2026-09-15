@@ -1,6 +1,18 @@
 {
-  "acceptedAgencyRecords": 882,
-  "checkedAt": "2026-09-15T02:11:42Z",
+  "acceptedAgencyRecords": 911,
+  "automaticMatches": [
+    {
+      "id": "osm-node-11412742529",
+      "reason": "Coincident OSM points with identical warning semantics",
+      "targetID": "osm-node-11412742528"
+    },
+    {
+      "id": "osm-node-13728159165",
+      "reason": "Coincident OSM points with identical warning semantics",
+      "targetID": "osm-node-13726188373"
+    }
+  ],
+  "checkedAt": "2026-09-15T03:54:12Z",
   "review": [
     {
       "id": "agency-chicago-speed-chi003-270",
@@ -147,10 +159,6 @@
       "label": "3115 N Narragansett Ave · NB",
       "nearby": [
         {
-          "id": "osm-node-5076522476",
-          "meters": 22.8
-        },
-        {
           "id": "osm-node-8023991516",
           "meters": 9.0
         }
@@ -238,10 +246,6 @@
         {
           "id": "osm-node-5076522476",
           "meters": 2.8
-        },
-        {
-          "id": "osm-node-8023991516",
-          "meters": 16.0
         }
       ],
       "reason": "Nearby accepted record; identity/approach review required"
@@ -439,10 +443,6 @@
       "label": "2140 S Western Ave · SB",
       "nearby": [
         {
-          "id": "agency-chicago-speed-chi134-0",
-          "meters": 117.2
-        },
-        {
           "id": "agency-chicago-speed-chi135-180",
           "meters": 136.8
         }
@@ -468,10 +468,6 @@
       "id": "agency-chicago-red-2404-n-ashland-ave-180",
       "label": "2404 N Ashland Ave · SB",
       "nearby": [
-        {
-          "id": "agency-chicago-speed-chi091-0",
-          "meters": 109.1
-        },
         {
           "id": "agency-chicago-speed-chi092-180",
           "meters": 82.3
@@ -568,10 +564,6 @@
         {
           "id": "agency-chicago-speed-chi166-90",
           "meters": 30.9
-        },
-        {
-          "id": "agency-chicago-speed-chi167-270",
-          "meters": 29.3
         }
       ],
       "reason": "Nearby accepted record; identity/approach review required"
@@ -678,10 +670,6 @@
           "meters": 102.1
         },
         {
-          "id": "agency-chicago-speed-chi108-270",
-          "meters": 102.8
-        },
-        {
           "id": "agency-chicago-speed-chi109-0",
           "meters": 88.5
         },
@@ -779,10 +767,6 @@
           "meters": 87.5
         },
         {
-          "id": "agency-chicago-speed-chi125-180",
-          "meters": 81.7
-        },
-        {
           "id": "agency-chicago-speed-chi126-90",
           "meters": 64.3
         }
@@ -805,35 +789,9 @@
       "reason": "Nearby accepted record; identity/approach review required"
     },
     {
-      "id": "agency-chicago-red-4989-s-archer-ave-45",
-      "label": "4989 S Archer Ave · NEB",
-      "nearby": [
-        {
-          "id": "agency-chicago-speed-chi031-180",
-          "meters": 60.9
-        }
-      ],
-      "reason": "Nearby accepted record; identity/approach review required"
-    },
-    {
-      "id": "agency-chicago-red-4996-s-archer-ave-225",
-      "label": "4996 S Archer Ave · SWB",
-      "nearby": [
-        {
-          "id": "agency-chicago-speed-chi030-0",
-          "meters": 71.2
-        }
-      ],
-      "reason": "Nearby accepted record; identity/approach review required"
-    },
-    {
       "id": "agency-chicago-red-5450-s-pulaski-rd-180",
       "label": "5450 S Pulaski Rd · SB",
       "nearby": [
-        {
-          "id": "agency-chicago-speed-chi202-0",
-          "meters": 42.8
-        },
         {
           "id": "agency-chicago-speed-chi203-180",
           "meters": 54.6
@@ -846,10 +804,6 @@
       "label": "5452 S Kedzie Ave · SB",
       "nearby": [
         {
-          "id": "agency-chicago-speed-chi164-0",
-          "meters": 145.7
-        },
-        {
           "id": "agency-chicago-speed-chi164-180",
           "meters": 145.7
         },
@@ -860,17 +814,6 @@
         {
           "id": "agency-chicago-speed-chi167-270",
           "meters": 49.2
-        }
-      ],
-      "reason": "Nearby accepted record; identity/approach review required"
-    },
-    {
-      "id": "agency-chicago-red-5550-w-fullerton-ave-270",
-      "label": "5550 W Fullerton Ave · WB",
-      "nearby": [
-        {
-          "id": "agency-chicago-speed-chi041-90",
-          "meters": 140.9
         }
       ],
       "reason": "Nearby accepted record; identity/approach review required"
@@ -892,10 +835,6 @@
       "nearby": [
         {
           "id": "agency-chicago-speed-chi093-0",
-          "meters": 109.6
-        },
-        {
-          "id": "agency-chicago-speed-chi093-180",
           "meters": 109.6
         }
       ],
@@ -919,17 +858,6 @@
         {
           "id": "osm-node-13261802811",
           "meters": 43.3
-        }
-      ],
-      "reason": "Nearby accepted record; identity/approach review required"
-    },
-    {
-      "id": "agency-chicago-red-6254-s-pulaski-rd-180",
-      "label": "6254 S Pulaski Rd · SB",
-      "nearby": [
-        {
-          "id": "agency-chicago-speed-chi242-0",
-          "meters": 149.5
         }
       ],
       "reason": "Nearby accepted record; identity/approach review required"
@@ -965,10 +893,6 @@
       "label": "7427 W Touhy Ave · EB",
       "nearby": [
         {
-          "id": "agency-chicago-speed-chi193-270",
-          "meters": 131.1
-        },
-        {
           "id": "agency-chicago-speed-chi193-90",
           "meters": 131.1
         }
@@ -979,10 +903,6 @@
       "id": "agency-chicago-red-7890-s-pulaski-rd-180",
       "label": "7890 S Pulaski Rd · SB",
       "nearby": [
-        {
-          "id": "agency-chicago-speed-chi071-0",
-          "meters": 64.3
-        },
         {
           "id": "agency-chicago-speed-chi072-180",
           "meters": 72.4
@@ -1001,10 +921,6 @@
         {
           "id": "agency-chicago-speed-chi108-270",
           "meters": 128.0
-        },
-        {
-          "id": "agency-chicago-speed-chi109-0",
-          "meters": 131.2
         },
         {
           "id": "agency-chicago-speed-chi109-180",
@@ -2567,6 +2483,160 @@
         {
           "id": "osm-node-12889680096",
           "meters": 10.1
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "reason": "Location needs review: Expected one Census address match, got 0",
+      "source": "philadelphia-addresses",
+      "sourceRecord": "3600 S. Broad Street"
+    },
+    {
+      "reason": "Location needs review: Intersection/segment description needs review",
+      "source": "philadelphia-addresses",
+      "sourceRecord": "Banks Way"
+    },
+    {
+      "reason": "Location needs review: Intersection/segment description needs review",
+      "source": "philadelphia-addresses",
+      "sourceRecord": "F Street"
+    },
+    {
+      "reason": "Location needs review: Intersection/segment description needs review",
+      "source": "philadelphia-addresses",
+      "sourceRecord": "Deveraux Street"
+    },
+    {
+      "reason": "Location needs review: Intersection/segment description needs review",
+      "source": "philadelphia-addresses",
+      "sourceRecord": "Harbison"
+    },
+    {
+      "reason": "Location needs review: Intersection/segment description needs review",
+      "source": "philadelphia-addresses",
+      "sourceRecord": "Pratt Street"
+    },
+    {
+      "reason": "Location needs review: Intersection/segment description needs review",
+      "source": "philadelphia-addresses",
+      "sourceRecord": "Strahle Street"
+    },
+    {
+      "reason": "Location needs review: Intersection/segment description needs review",
+      "source": "philadelphia-addresses",
+      "sourceRecord": "9th Street"
+    },
+    {
+      "reason": "Location needs review: Intersection/segment description needs review",
+      "source": "philadelphia-addresses",
+      "sourceRecord": "Grant Avenue"
+    },
+    {
+      "reason": "Location needs review: Intersection/segment description needs review",
+      "source": "philadelphia-addresses",
+      "sourceRecord": "Red Lion Road"
+    },
+    {
+      "reason": "Location needs review: Intersection/segment description needs review",
+      "source": "philadelphia-addresses",
+      "sourceRecord": "Southampton Road"
+    },
+    {
+      "reason": "Location needs review: Intersection/segment description needs review",
+      "source": "philadelphia-addresses",
+      "sourceRecord": "John B. Stetson Middle School: E. Allegheny Ave. (A to B Streets)"
+    },
+    {
+      "reason": "Location needs review: Intersection/segment description needs review",
+      "source": "philadelphia-addresses",
+      "sourceRecord": "Widener Memorial School: W. Olney Ave. (N. Broad to N. 16th)"
+    },
+    {
+      "reason": "Location needs review: Intersection/segment description needs review",
+      "source": "philadelphia-addresses",
+      "sourceRecord": "High School of the Future: W. Girard Ave. (N. 39th to N. 40th)"
+    },
+    {
+      "reason": "Location needs review: Intersection/segment description needs review",
+      "source": "philadelphia-addresses",
+      "sourceRecord": "William L. Sayre High School: Walnut St. (S. 58th to S. 59th)"
+    },
+    {
+      "reason": "Location needs review: Census changed the requested street/state; needs review",
+      "source": "philadelphia-addresses",
+      "sourceRecord": "2100 Robbins Street"
+    },
+    {
+      "reason": "Location needs review: The read operation timed out",
+      "source": "hillsborough-intersections",
+      "sourceRecord": "Sligh Avenue & Habana Avenue · EB"
+    },
+    {
+      "id": "agency-hillsborough-intersections-fletcher-avenue-bruce-b-downs-boulevard-nb",
+      "label": "Fletcher Avenue & Bruce B. Downs Boulevard · NB · approximate location",
+      "nearby": [
+        {
+          "id": "osm-node-373489124",
+          "meters": 12.5
+        },
+        {
+          "id": "osm-node-373489181",
+          "meters": 12.6
+        },
+        {
+          "id": "osm-node-8396925328",
+          "meters": 12.5
+        },
+        {
+          "id": "osm-node-97781656",
+          "meters": 12.7
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-hillsborough-intersections-fletcher-avenue-bruce-b-downs-boulevard-eb",
+      "label": "Fletcher Avenue & Bruce B. Downs Boulevard · EB · approximate location",
+      "nearby": [
+        {
+          "id": "osm-node-373489124",
+          "meters": 12.5
+        },
+        {
+          "id": "osm-node-373489181",
+          "meters": 12.6
+        },
+        {
+          "id": "osm-node-8396925328",
+          "meters": 12.5
+        },
+        {
+          "id": "osm-node-97781656",
+          "meters": 12.7
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-hillsborough-intersections-fletcher-avenue-bruce-b-downs-boulevard-wb",
+      "label": "Fletcher Avenue & Bruce B. Downs Boulevard · WB · approximate location",
+      "nearby": [
+        {
+          "id": "osm-node-373489124",
+          "meters": 12.5
+        },
+        {
+          "id": "osm-node-373489181",
+          "meters": 12.6
+        },
+        {
+          "id": "osm-node-8396925328",
+          "meters": 12.5
+        },
+        {
+          "id": "osm-node-97781656",
+          "meters": 12.7
         }
       ],
       "reason": "Nearby accepted record; identity/approach review required"

@@ -26,6 +26,7 @@ final class AppServices {
         func number(_ value: Double?, unit: String) -> String {
             value.map { String(format: "%.1f %@", $0, unit) } ?? "unavailable"
         }
+        let postedLimit = match.speedLimit.map { "\($0.value) \($0.unit) · \($0.sourceID) · expires \($0.validUntil.formatted())" } ?? "unknown"
         let refresh: String
         switch UIApplication.shared.backgroundRefreshStatus {
         case .available: refresh = "available"
@@ -46,6 +47,9 @@ final class AppServices {
         Effective speed: \(number(match.speed, unit: "m/s")) · course: \(number(match.course, unit: "degrees"))
         Nearest mapped camera: \(match.cameraLabel ?? "none within 1 km") · \(number(match.distance, unit: "m"))
         Match result: \(match.reason.rawValue)
+        Speed uncertainty: \(number(monitoring.lastSpeedAccuracy, unit: "m/s"))
+        Camera limit: \(postedLimit)
+        Quiet below speed limit: \(monitoring.quietBelowSpeedLimit ? "on" : "off")
         Notifications: \(presenter.notificationStatus)
         Current audio: \(presenter.route) · media volume \(Int(presenter.volume * 100))%
         Latest audio attempt:

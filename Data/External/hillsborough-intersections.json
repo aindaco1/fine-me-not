@@ -1,0 +1,248 @@
+{
+  "cameras": [
+    {
+      "evidence": "Agency-listed enforcement location: https://hcfl.gov/government/codes-and-ordinances/red-for-a-reason/red-light-cameras. Center of connected OSM road intersection nodes; approximate enforcement intersection, not a camera survey.",
+      "geocodingSource": "https://overpass.private.coffee/api/interpreter",
+      "geometry": [
+        {
+          "latitude": 27.8936682,
+          "longitude": -82.2692327
+        }
+      ],
+      "id": "agency-hillsborough-intersections-bloomingdale-avenue-bell-shoals-road-nb",
+      "kind": "redLight",
+      "label": "Bloomingdale Avenue & Bell Shoals Road · NB · approximate location",
+      "locationAccuracyMeters": 150,
+      "locationKey": "Bloomingdale Avenue & Bell Shoals Road",
+      "positionPrecision": "osm-intersection-estimate",
+      "roadNames": [
+        "Bloomingdale Avenue",
+        "Bell Shoals Road"
+      ],
+      "siteID": "agency-hillsborough-intersections-bloomingdale-avenue-bell-shoals-road-nb",
+      "sourceIDs": [
+        "agency/hillsborough-intersections/Bloomingdale Avenue & Bell Shoals Road · NB",
+        "osm"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Agency-listed enforcement location: https://hcfl.gov/government/codes-and-ordinances/red-for-a-reason/red-light-cameras. Center of connected OSM road intersection nodes; approximate enforcement intersection, not a camera survey.",
+      "geocodingSource": "https://overpass.private.coffee/api/interpreter",
+      "geometry": [
+        {
+          "latitude": 27.939389225,
+          "longitude": -82.323887275
+        }
+      ],
+      "id": "agency-hillsborough-intersections-brandon-boulevard-grand-regency-boulevard-nb",
+      "kind": "redLight",
+      "label": "Brandon Boulevard & Grand Regency Boulevard · NB · approximate location",
+      "locationAccuracyMeters": 150,
+      "locationKey": "Brandon Boulevard & Grand Regency Boulevard",
+      "positionPrecision": "osm-intersection-estimate",
+      "roadNames": [
+        "Brandon Boulevard",
+        "Grand Regency Boulevard"
+      ],
+      "siteID": "agency-hillsborough-intersections-brandon-boulevard-grand-regency-boulevard-nb",
+      "sourceIDs": [
+        "agency/hillsborough-intersections/Brandon Boulevard & Grand Regency Boulevard · NB",
+        "osm"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Agency-listed enforcement location: https://hcfl.gov/government/codes-and-ordinances/red-for-a-reason/red-light-cameras. Center of connected OSM road intersection nodes; approximate enforcement intersection, not a camera survey.",
+      "geocodingSource": "https://overpass.private.coffee/api/interpreter",
+      "geometry": [
+        {
+          "latitude": 28.0691982,
+          "longitude": -82.426067625
+        }
+      ],
+      "id": "agency-hillsborough-intersections-fletcher-avenue-bruce-b-downs-boulevard-nb",
+      "kind": "redLight",
+      "label": "Fletcher Avenue & Bruce B. Downs Boulevard · NB · approximate location",
+      "locationAccuracyMeters": 150,
+      "locationKey": "Fletcher Avenue & Bruce B. Downs Boulevard",
+      "positionPrecision": "osm-intersection-estimate",
+      "roadNames": [
+        "Fletcher Avenue",
+        "Bruce B. Downs Boulevard"
+      ],
+      "siteID": "agency-hillsborough-intersections-fletcher-avenue-bruce-b-downs-boulevard-nb",
+      "sourceIDs": [
+        "agency/hillsborough-intersections/Fletcher Avenue & Bruce B. Downs Boulevard · NB",
+        "osm"
+      ],
+      "travelBearing": 0
+    },
+    {
+      "evidence": "Agency-listed enforcement location: https://hcfl.gov/government/codes-and-ordinances/red-for-a-reason/red-light-cameras. Center of connected OSM road intersection nodes; approximate enforcement intersection, not a camera survey.",
+      "geocodingSource": "https://overpass.private.coffee/api/interpreter",
+      "geometry": [
+        {
+          "latitude": 28.0691982,
+          "longitude": -82.426067625
+        }
+      ],
+      "id": "agency-hillsborough-intersections-fletcher-avenue-bruce-b-downs-boulevard-eb",
+      "kind": "redLight",
+      "label": "Fletcher Avenue & Bruce B. Downs Boulevard · EB · approximate location",
+      "locationAccuracyMeters": 150,
+      "locationKey": "Fletcher Avenue & Bruce B. Downs Boulevard",
+      "positionPrecision": "osm-intersection-estimate",
+      "roadNames": [
+        "Fletcher Avenue",
+        "Bruce B. Downs Boulevard"
+      ],
+      "siteID": "agency-hillsborough-intersections-fletcher-avenue-bruce-b-downs-boulevard-eb",
+      "sourceIDs": [
+        "agency/hillsborough-intersections/Fletcher Avenue & Bruce B. Downs Boulevard · EB",
+        "osm"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Agency-listed enforcement location: https://hcfl.gov/government/codes-and-ordinances/red-for-a-reason/red-light-cameras. Center of connected OSM road intersection nodes; approximate enforcement intersection, not a camera survey.",
+      "geocodingSource": "https://overpass.private.coffee/api/interpreter",
+      "geometry": [
+        {
+          "latitude": 28.0691982,
+          "longitude": -82.426067625
+        }
+      ],
+      "id": "agency-hillsborough-intersections-fletcher-avenue-bruce-b-downs-boulevard-wb",
+      "kind": "redLight",
+      "label": "Fletcher Avenue & Bruce B. Downs Boulevard · WB · approximate location",
+      "locationAccuracyMeters": 150,
+      "locationKey": "Fletcher Avenue & Bruce B. Downs Boulevard",
+      "positionPrecision": "osm-intersection-estimate",
+      "roadNames": [
+        "Fletcher Avenue",
+        "Bruce B. Downs Boulevard"
+      ],
+      "siteID": "agency-hillsborough-intersections-fletcher-avenue-bruce-b-downs-boulevard-wb",
+      "sourceIDs": [
+        "agency/hillsborough-intersections/Fletcher Avenue & Bruce B. Downs Boulevard · WB",
+        "osm"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Agency-listed enforcement location: https://hcfl.gov/government/codes-and-ordinances/red-for-a-reason/red-light-cameras. Center of connected OSM road intersection nodes; approximate enforcement intersection, not a camera survey.",
+      "geocodingSource": "https://overpass.private.coffee/api/interpreter",
+      "geometry": [
+        {
+          "latitude": 28.025606525,
+          "longitude": -82.537587925
+        }
+      ],
+      "id": "agency-hillsborough-intersections-waters-avenue-anderson-road-eb",
+      "kind": "redLight",
+      "label": "Waters Avenue & Anderson Road · EB · approximate location",
+      "locationAccuracyMeters": 150,
+      "locationKey": "Waters Avenue & Anderson Road",
+      "positionPrecision": "osm-intersection-estimate",
+      "roadNames": [
+        "Waters Avenue",
+        "Anderson Road"
+      ],
+      "siteID": "agency-hillsborough-intersections-waters-avenue-anderson-road-eb",
+      "sourceIDs": [
+        "agency/hillsborough-intersections/Waters Avenue & Anderson Road · EB",
+        "osm"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Agency-listed enforcement location: https://hcfl.gov/government/codes-and-ordinances/red-for-a-reason/red-light-cameras. Center of connected OSM road intersection nodes; approximate enforcement intersection, not a camera survey.",
+      "geocodingSource": "https://overpass.private.coffee/api/interpreter",
+      "geometry": [
+        {
+          "latitude": 28.025606525,
+          "longitude": -82.537587925
+        }
+      ],
+      "id": "agency-hillsborough-intersections-waters-avenue-anderson-road-wb",
+      "kind": "redLight",
+      "label": "Waters Avenue & Anderson Road · WB · approximate location",
+      "locationAccuracyMeters": 150,
+      "locationKey": "Waters Avenue & Anderson Road",
+      "positionPrecision": "osm-intersection-estimate",
+      "roadNames": [
+        "Waters Avenue",
+        "Anderson Road"
+      ],
+      "siteID": "agency-hillsborough-intersections-waters-avenue-anderson-road-wb",
+      "sourceIDs": [
+        "agency/hillsborough-intersections/Waters Avenue & Anderson Road · WB",
+        "osm"
+      ],
+      "travelBearing": 270
+    },
+    {
+      "evidence": "Agency-listed enforcement location: https://hcfl.gov/government/codes-and-ordinances/red-for-a-reason/red-light-cameras. Center of connected OSM road intersection nodes; approximate enforcement intersection, not a camera survey.",
+      "geocodingSource": "https://overpass.private.coffee/api/interpreter",
+      "geometry": [
+        {
+          "latitude": 28.025436225,
+          "longitude": -82.50498995
+        }
+      ],
+      "id": "agency-hillsborough-intersections-waters-avenue-dale-mabry-highway-eb",
+      "kind": "redLight",
+      "label": "Waters Avenue & Dale Mabry Highway · EB · approximate location",
+      "locationAccuracyMeters": 150,
+      "locationKey": "Waters Avenue & Dale Mabry Highway",
+      "positionPrecision": "osm-intersection-estimate",
+      "roadNames": [
+        "Waters Avenue",
+        "Dale Mabry Highway"
+      ],
+      "siteID": "agency-hillsborough-intersections-waters-avenue-dale-mabry-highway-eb",
+      "sourceIDs": [
+        "agency/hillsborough-intersections/Waters Avenue & Dale Mabry Highway · EB",
+        "osm"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Agency-listed enforcement location: https://hcfl.gov/government/codes-and-ordinances/red-for-a-reason/red-light-cameras. Center of connected OSM road intersection nodes; approximate enforcement intersection, not a camera survey.",
+      "geocodingSource": "https://overpass.private.coffee/api/interpreter",
+      "geometry": [
+        {
+          "latitude": 28.025436225,
+          "longitude": -82.50498995
+        }
+      ],
+      "id": "agency-hillsborough-intersections-waters-avenue-dale-mabry-highway-wb",
+      "kind": "redLight",
+      "label": "Waters Avenue & Dale Mabry Highway · WB · approximate location",
+      "locationAccuracyMeters": 150,
+      "locationKey": "Waters Avenue & Dale Mabry Highway",
+      "positionPrecision": "osm-intersection-estimate",
+      "roadNames": [
+        "Waters Avenue",
+        "Dale Mabry Highway"
+      ],
+      "siteID": "agency-hillsborough-intersections-waters-avenue-dale-mabry-highway-wb",
+      "sourceIDs": [
+        "agency/hillsborough-intersections/Waters Avenue & Dale Mabry Highway · WB",
+        "osm"
+      ],
+      "travelBearing": 270
+    }
+  ],
+  "checkedAt": "2026-09-15T03:43:27Z",
+  "excluded": [
+    {
+      "reason": "Location needs review: The read operation timed out",
+      "sourceRecord": "Sligh Avenue & Habana Avenue · EB"
+    }
+  ],
+  "id": "hillsborough-intersections",
+  "rowCount": 10,
+  "url": "https://hcfl.gov/government/codes-and-ordinances/red-for-a-reason/red-light-cameras"
+}

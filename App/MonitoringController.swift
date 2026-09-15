@@ -6,12 +6,14 @@ import CameraCore
 @MainActor @Observable
 final class MonitoringController: NSObject, CLLocationManagerDelegate {
     private(set) var enabled: Bool
+    private(set) var quietBelowSpeedLimit: Bool
     private(set) var authorization = CLAuthorizationStatus.notDetermined
     private(set) var precise = true
     private(set) var lastFixAt: Date?
     private(set) var lastReceivedAt: Date?
     private(set) var lastAccuracy: Double?
     private(set) var lastReportedSpeed: Double?
+    private(set) var lastSpeedAccuracy: Double?
     private(set) var fixStatus = "No location received"
     private(set) var stationary = false
     private(set) var failure: String?
@@ -29,6 +31,7 @@ final class MonitoringController: NSObject, CLLocationManagerDelegate {
     init(store: CameraStore, presenter: AlertPresenter, defaults: UserDefaults = .standard) {
         self.store = store; self.presenter = presenter; self.defaults = defaults
         enabled = defaults.bool(forKey: "warnings.enabled")
+        quietBelowSpeedLimit = SpeedCheck.isEnabled(in: defaults)
         let saved = defaults.data(forKey: "warnings.encounters")
             .flatMap { try? JSONDecoder().decode([String: Encounter].self, from: $0) } ?? [:]
         engine = AlertEngine(encounters: saved)
@@ -49,6 +52,11 @@ final class MonitoringController: NSObject, CLLocationManagerDelegate {
             start()
             Task { await presenter.requestNotifications() }
         } else { stop() }
+    }
+
+    func setQuietBelowSpeedLimit(_ value: Bool) {
+        quietBelowSpeedLimit = value
+        defaults.set(value, forKey: SpeedCheck.preferenceKey)
     }
 
     func start() {
@@ -111,10 +119,12 @@ final class MonitoringController: NSObject, CLLocationManagerDelegate {
         lastReceivedAt = location.timestamp
         lastAccuracy = location.horizontalAccuracy
         lastReportedSpeed = location.speed
+        lastSpeedAccuracy = location.speedAccuracy
         let fix = LocationFix(coordinate: Coordinate(location.coordinate.latitude, location.coordinate.longitude),
                               timestamp: location.timestamp, accuracy: location.horizontalAccuracy,
                               speed: location.speed,
-                              course: location.courseAccuracy >= 0 && location.courseAccuracy <= 45 ? location.course : nil)
+                              course: location.courseAccuracy >= 0 && location.courseAccuracy <= 45 ? location.course : nil,
+                              speedAccuracy: location.speedAccuracy)
         guard precise else { fixStatus = "Rejected: Precise Location is off"; return }
         guard fix.isUsable(at: now) else {
             fixStatus = "Rejected: location must be within 75 m accuracy and 15 seconds old"
@@ -123,7 +133,7 @@ final class MonitoringController: NSObject, CLLocationManagerDelegate {
         failure = nil; lastFixAt = location.timestamp; fixStatus = "Accepted"
         retry?.cancel(); retry = nil
         let previousEncounters = engine.encounters
-        let warnings = engine.evaluate(fix, index: store.index, now: now)
+        let warnings = engine.evaluate(fix, index: store.index, now: now, quietBelowSpeedLimit: quietBelowSpeedLimit)
         stationary = (engine.diagnostic.speed ?? 0) < 2.5
         if !warnings.isEmpty {
             presenter.present(warnings)

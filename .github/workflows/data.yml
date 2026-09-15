@@ -40,6 +40,8 @@ jobs:
         run: python3 Scripts/refresh_sources.py --if-stale
       - name: Publish reviewed inputs
         run: python3 Scripts/publish_cameras.py --staged
+      - name: Update maintenance findings
+        run: python3 Scripts/maintenance_report.py
       - name: Save reproducible source and snapshot changes
         run: |
           git config user.name 'fine-me-not publisher'
@@ -58,3 +60,10 @@ jobs:
       - name: Deploy website and database
         id: deployment
         uses: actions/deploy-pages@v4
+      - name: Keep maintenance evidence
+        if: always()
+        uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f
+        with:
+          name: camera-maintenance-${{ github.run_id }}
+          path: Data/Review/
+          retention-days: 30

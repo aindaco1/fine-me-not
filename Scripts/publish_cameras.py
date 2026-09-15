@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""One stdlib-only camera publisher. Never geocode an address into a device.
+"""One stdlib-only camera publisher. Geocoded locations remain explicit estimates.
 
 Source fetches are transactional. Missing records retain their last accepted value
 until an explicit tombstone; consecutive complete absences produce a review item.
@@ -141,6 +141,8 @@ def osm_records(documents):
             'geometry': [point(e)], 'sourceIDs': sorted(sources),
             'evidence': 'OpenStreetMap mapped device; not independently field-verified. Camera-facing direction is not treated as vehicle direction.'}
         if direction is not None: records[identifier]['travelBearing'] = direction
+        if tags.get('addr:street'): records[identifier]['roadNames'] = [tags['addr:street']]
+        if tags.get('name'): records[identifier]['locationKey'] = tags['name']
     return records, issues
 
 
@@ -195,6 +197,13 @@ def validate(records):
         assert all(distance(g[0], p) < 50_000 for p in g)
         if 'travelBearing' in c: assert 0 <= c['travelBearing'] < 360
         if 'validUntil' in c: dt.datetime.fromisoformat(c['validUntil'].replace('Z', '+00:00'))
+        if limit := c.get('speedLimit'):
+            assert c['kind'] in ('speed', 'possibleSpeed')
+            assert limit['unit'] in ('mph', 'km/h') and math.isfinite(limit['value'])
+            assert 5 <= limit['value'] <= (85 if limit['unit'] == 'mph' else 140)
+            assert limit['sourceID'] in c['sourceIDs'] and limit['conditional'] is False
+            start, end = [dt.datetime.fromisoformat(limit[k].replace('Z', '+00:00')) for k in ('verifiedAt', 'validUntil')]
+            assert dt.timedelta(0) < end-start <= dt.timedelta(days=90)
 
 
 def publish(root, now, fetched=None):

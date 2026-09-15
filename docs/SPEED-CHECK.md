@@ -1,33 +1,27 @@
-# Optional speed check: feasibility and implementation contract
+# Quiet below speed limit
 
-The feature is feasible with the existing on-device location and matching pipeline. It needs reliable speed-limit data as well as the phone's measured speed. It does not require a map, account, paid API, new background mode, or additional location polling. This is a follow-up specification; the current app does not yet expose the toggle.
+Implemented for build 6, **on by default**, including upgrades with no saved choice. The setting is saved on the phone. Turning it off restores the normal speed-camera warning behavior. Test warning always plays.
 
-## Settings
+The shared location matcher suppresses only speed and possible-speed warnings when all these conditions hold:
 
-**Quiet below speed limit** — off by default.
+- The camera has a source-confirmed, unconditional posted limit with recognized units and unexpired evidence.
+- The measured speed is valid, the GPS fix is at most 3 seconds old, and speed uncertainty is 0–2 m/s.
+- Measured speed + max(uncertainty, 1 m/s) is strictly below the limit.
 
-Supporting text: “Skip speed-camera sirens when your speed is reliably below the known limit. Red-light warnings stay on. Unknown speed or limit? You’ll still get a warning.”
+At or near the limit, unknown/negative speed, unavailable accuracy, stale fixes, conditional school/work-zone limits, and expired evidence keep warnings enabled. Displacement-derived speed can establish movement but cannot suppress a warning. Red-light and combined cameras always warn. Quiet approaches remain armed: accelerating before the camera can still trigger one siren. Normal encounter cooldowns are unchanged.
 
-The owner confirmed that red-light warnings must remain on. Combined speed/red-light cameras also keep their warning. Approximate or mobile speed areas qualify only when the applicable limit is verified throughout that area; a limit taken from a nearby road or a school address does not qualify.
+## Available limit data
 
-## Data feasibility
+The first approved source is the [SFMTA operational camera table](https://www.sfmta.com/projects/speed-safety-cameras), joined to its agency coordinates by camera ID. It supplies 31 accepted camera limits in this snapshot. These limits expire 30 days after the successful source fetch. A failed refresh retains the original evidence date; it cannot renew the limit.
 
-The 1,777-record baseline has 525 records linked to any OSM `maxspeed` value, of which 520 have one syntactically numeric value. This is a candidate count, not 520 approved suppression locations: values can be stale, conditional, assigned to the wrong approach, or associated with red-light cameras. Five records carry differing source values. Unsuffixed numeric OSM values mean km/h; values ending in `mph` need conversion. Do not assume US numbers always mean mph. Preserve source, units, direction, applicability, verification date and any conditional restriction. The current app model drops speed-limit data entirely.
+**Albuquerque limits are not yet approved for suppression.** Its city camera list establishes locations and approaches, but not a complete current set of posted limits. The city’s public SpeedLimits ArcGIS endpoints returned empty layer lists during this release’s research. OSM numeric maxspeed tags and historical traffic studies are candidates, not automatic approval. Albuquerque sirens therefore remain enabled when driving below an unverified limit.
 
-DC's official camera feed supplies a `SPEED_LIMIT`; SFMTA's current camera-location table supplies posted limits and operational status. Those are promising additional sources. A reviewed limit should represent the posted limit at the monitored approach, not the camera's ticketing threshold. Where school hours, flashing beacons, work zones, weather, vehicle class or different carriageways affect the limit and cannot be resolved offline, keep the warning enabled.
+DC’s feed has a SPEED_LIMIT field. Conditional applicability and device mobility need review before promoting it. Arlington and Tacoma school-zone values cannot be treated as all-day limits. An approximate corridor needs a verified limit applicable throughout it; a nearby school address or adjacent street is insufficient.
 
-Apple exposes measured speed and its uncertainty through [CLLocation.speed](https://developer.apple.com/documentation/corelocation/cllocation/speed) and [speedAccuracy](https://developer.apple.com/documentation/corelocation/cllocation/speedaccuracy). Invalid/negative values and stale fixes cannot establish that the driver is below the limit. The app's displacement fallback is useful for detecting movement, but should not suppress a warning. The reviewed public [MKRoute interface](https://developer.apple.com/documentation/mapkit/mkroute) does not provide a documented posted-speed-limit lookup for arbitrary current roads; do not depend on the Apple Maps app's private display data.
+## Implementation and acceptance
 
-## Small implementation
+`SpeedCheck` owns the preference default and suppression rule. `MonitoringController` passes the existing CLLocation speedAccuracy and preference to `AlertEngine`; no second matcher, polling loop, background mode, network request, or paid service was added. The camera schema adds optional SpeedLimit metadata, preserving old snapshots. Diagnostics show the setting, measured uncertainty, limit/source/expiry, and whether an alert was quieted.
 
-1. Add optional, backward-compatible speed-limit metadata to the camera model. Validate units, range, provenance, date and applicability in the publisher and phone. Old snapshots remain usable and simply cannot suppress warnings.
-2. Carry `CLLocation.speedAccuracy` into the existing `LocationFix`. Store one `@AppStorage` preference and pass it to the shared alert engine, covering foreground, locked-screen and recovery callbacks alike.
-3. After the existing geometry/direction checks, suppress only eligible speed-only records when a fresh measured speed plus an uncertainty margin is strictly below the verified limit. Initial conservative parameters: fix no older than 3 seconds, speed uncertainty no greater than 2 m/s, and measured speed + max(reported uncertainty, 1 m/s) below the limit. These values are a testable product choice, not a statistical guarantee about GPS accuracy.
-4. A suppressed approach must remain armed. Re-evaluate on every usable location fix so acceleration above the limit can still trigger one warning before passing the camera. Do not write a cooldown encounter until a real warning is issued. Changing the toggle must not reset unrelated encounters.
-5. Add a “Below verified speed limit” diagnostic with measured speed, applicable limit and source. Do not silence the Test warning button. Suppress before starting the brief siren; do not add a separate timer or audio loop.
+Tests cover default/migrated preferences, mph and km/h, exact/near/above limits, invalid measurements, expired and conditional limits, red-light/combined cameras, acceleration after suppression, and the off setting. The upgraded simulator showed the default on and retained an off choice after relaunch. Physical iOS 27 driving and car-audio acceptance remain separate checks; GPS uncertainty is not a guaranteed statistical bound.
 
-## Acceptance
-
-Test below, exactly at and above the limit; acceleration after initial suppression; unknown/negative/NaN speed and accuracy; stale fixes; mph/km/h conversion; expired, conflicting and conditional limits; wrong direction; red-light and combined cameras; toggle persistence; and a suppressed approach followed by a valid warning without a restart. Use the existing matcher tests rather than a second matching implementation. Then compare the setting on/off on the iPhone 16 Pro Max in locked-screen and Low Power Mode tests. The setting must never imply that a road is safe to speed on or that GPS is a certified speedometer.
-
-Sources: [OSM maxspeed](https://wiki.openstreetmap.org/wiki/Key:maxspeed), [conditional limits](https://wiki.openstreetmap.org/wiki/Key:maxspeed:conditional), [DC camera data](https://maps2.dcgis.dc.gov/dcgis/rest/services/DCGIS_DATA/Public_Safety_WebMercator/MapServer/43), [SFMTA active camera table](https://www.sfmta.com/projects/speed-safety-cameras). Researched September 14, 2026.
+Apple references: [CLLocation.speed](https://developer.apple.com/documentation/corelocation/cllocation/speed), [speedAccuracy](https://developer.apple.com/documentation/corelocation/cllocation/speedaccuracy). No public MapKit interface is assumed to supply arbitrary road speed limits.

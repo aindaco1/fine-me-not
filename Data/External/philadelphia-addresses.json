@@ -1,0 +1,574 @@
+{
+  "cameras": [
+    {
+      "evidence": "Agency-listed enforcement location: https://philapark.org/speed-cameras/. Census TIGER address-range interpolation; approximate listed block, not a camera survey.",
+      "geocodingSource": "https://geocoding.geo.census.gov/geocoder/locations/address",
+      "geometry": [
+        {
+          "latitude": 40.059536033078,
+          "longitude": -75.138208516171
+        }
+      ],
+      "id": "agency-philadelphia-addresses-7000-old-york-road",
+      "kind": "possibleSpeed",
+      "label": "7000 Old York Road · approximate location",
+      "locationAccuracyMeters": 150,
+      "locationKey": "7000 Old York Road",
+      "positionPrecision": "census-address-estimate",
+      "roadNames": [
+        "Old York Road"
+      ],
+      "siteID": "agency-philadelphia-addresses-7000-old-york-road",
+      "sourceIDs": [
+        "agency/philadelphia-addresses/7000 Old York Road",
+        "census"
+      ]
+    },
+    {
+      "evidence": "Agency-listed enforcement location: https://philapark.org/speed-cameras/. Census TIGER address-range interpolation; approximate listed block, not a camera survey.",
+      "geocodingSource": "https://geocoding.geo.census.gov/geocoder/locations/address",
+      "geometry": [
+        {
+          "latitude": 40.052145807627,
+          "longitude": -75.141932834169
+        }
+      ],
+      "id": "agency-philadelphia-addresses-6500-n-broad-street",
+      "kind": "possibleSpeed",
+      "label": "6500 N. Broad Street · approximate location",
+      "locationAccuracyMeters": 150,
+      "locationKey": "6500 N. Broad Street",
+      "positionPrecision": "census-address-estimate",
+      "roadNames": [
+        "N. Broad Street"
+      ],
+      "siteID": "agency-philadelphia-addresses-6500-n-broad-street",
+      "sourceIDs": [
+        "agency/philadelphia-addresses/6500 N. Broad Street",
+        "census"
+      ]
+    },
+    {
+      "evidence": "Agency-listed enforcement location: https://philapark.org/speed-cameras/. Census TIGER address-range interpolation; approximate listed block, not a camera survey.",
+      "geocodingSource": "https://geocoding.geo.census.gov/geocoder/locations/address",
+      "geometry": [
+        {
+          "latitude": 40.039904742006,
+          "longitude": -75.144634727304
+        }
+      ],
+      "id": "agency-philadelphia-addresses-5700-n-broad-street",
+      "kind": "possibleSpeed",
+      "label": "5700 N. Broad Street · approximate location",
+      "locationAccuracyMeters": 150,
+      "locationKey": "5700 N. Broad Street",
+      "positionPrecision": "census-address-estimate",
+      "roadNames": [
+        "N. Broad Street"
+      ],
+      "siteID": "agency-philadelphia-addresses-5700-n-broad-street",
+      "sourceIDs": [
+        "agency/philadelphia-addresses/5700 N. Broad Street",
+        "census"
+      ]
+    },
+    {
+      "evidence": "Agency-listed enforcement location: https://philapark.org/speed-cameras/. Census TIGER address-range interpolation; approximate listed block, not a camera survey.",
+      "geocodingSource": "https://geocoding.geo.census.gov/geocoder/locations/address",
+      "geometry": [
+        {
+          "latitude": 40.027710425623,
+          "longitude": -75.147279512137
+        }
+      ],
+      "id": "agency-philadelphia-addresses-4900-n-broad-street",
+      "kind": "possibleSpeed",
+      "label": "4900 N. Broad Street · approximate location",
+      "locationAccuracyMeters": 150,
+      "locationKey": "4900 N. Broad Street",
+      "positionPrecision": "census-address-estimate",
+      "roadNames": [
+        "N. Broad Street"
+      ],
+      "siteID": "agency-philadelphia-addresses-4900-n-broad-street",
+      "sourceIDs": [
+        "agency/philadelphia-addresses/4900 N. Broad Street",
+        "census"
+      ]
+    },
+    {
+      "evidence": "Agency-listed enforcement location: https://philapark.org/speed-cameras/. Census TIGER address-range interpolation; approximate listed block, not a camera survey.",
+      "geocodingSource": "https://geocoding.geo.census.gov/geocoder/locations/address",
+      "geometry": [
+        {
+          "latitude": 40.01539118438,
+          "longitude": -75.149989722604
+        }
+      ],
+      "id": "agency-philadelphia-addresses-4100-n-broad-street",
+      "kind": "possibleSpeed",
+      "label": "4100 N. Broad Street · approximate location",
+      "locationAccuracyMeters": 150,
+      "locationKey": "4100 N. Broad Street",
+      "positionPrecision": "census-address-estimate",
+      "roadNames": [
+        "N. Broad Street"
+      ],
+      "siteID": "agency-philadelphia-addresses-4100-n-broad-street",
+      "sourceIDs": [
+        "agency/philadelphia-addresses/4100 N. Broad Street",
+        "census"
+      ]
+    },
+    {
+      "evidence": "Agency-listed enforcement location: https://philapark.org/speed-cameras/. Census TIGER address-range interpolation; approximate listed block, not a camera survey.",
+      "geocodingSource": "https://geocoding.geo.census.gov/geocoder/locations/address",
+      "geometry": [
+        {
+          "latitude": 40.003248577622,
+          "longitude": -75.152611725256
+        }
+      ],
+      "id": "agency-philadelphia-addresses-3300-n-broad-street",
+      "kind": "possibleSpeed",
+      "label": "3300 N. Broad Street · approximate location",
+      "locationAccuracyMeters": 150,
+      "locationKey": "3300 N. Broad Street",
+      "positionPrecision": "census-address-estimate",
+      "roadNames": [
+        "N. Broad Street"
+      ],
+      "siteID": "agency-philadelphia-addresses-3300-n-broad-street",
+      "sourceIDs": [
+        "agency/philadelphia-addresses/3300 N. Broad Street",
+        "census"
+      ]
+    },
+    {
+      "evidence": "Agency-listed enforcement location: https://philapark.org/speed-cameras/. Census TIGER address-range interpolation; approximate listed block, not a camera survey.",
+      "geocodingSource": "https://geocoding.geo.census.gov/geocoder/locations/address",
+      "geometry": [
+        {
+          "latitude": 39.990918793082,
+          "longitude": -75.15533382793
+        }
+      ],
+      "id": "agency-philadelphia-addresses-2500-n-broad-street",
+      "kind": "possibleSpeed",
+      "label": "2500 N. Broad Street · approximate location",
+      "locationAccuracyMeters": 150,
+      "locationKey": "2500 N. Broad Street",
+      "positionPrecision": "census-address-estimate",
+      "roadNames": [
+        "N. Broad Street"
+      ],
+      "siteID": "agency-philadelphia-addresses-2500-n-broad-street",
+      "sourceIDs": [
+        "agency/philadelphia-addresses/2500 N. Broad Street",
+        "census"
+      ]
+    },
+    {
+      "evidence": "Agency-listed enforcement location: https://philapark.org/speed-cameras/. Census TIGER address-range interpolation; approximate listed block, not a camera survey.",
+      "geocodingSource": "https://geocoding.geo.census.gov/geocoder/locations/address",
+      "geometry": [
+        {
+          "latitude": 39.978768915172,
+          "longitude": -75.157975098494
+        }
+      ],
+      "id": "agency-philadelphia-addresses-1700-n-broad-street",
+      "kind": "possibleSpeed",
+      "label": "1700 N. Broad Street · approximate location",
+      "locationAccuracyMeters": 150,
+      "locationKey": "1700 N. Broad Street",
+      "positionPrecision": "census-address-estimate",
+      "roadNames": [
+        "N. Broad Street"
+      ],
+      "siteID": "agency-philadelphia-addresses-1700-n-broad-street",
+      "sourceIDs": [
+        "agency/philadelphia-addresses/1700 N. Broad Street",
+        "census"
+      ]
+    },
+    {
+      "evidence": "Agency-listed enforcement location: https://philapark.org/speed-cameras/. Census TIGER address-range interpolation; approximate listed block, not a camera survey.",
+      "geocodingSource": "https://geocoding.geo.census.gov/geocoder/locations/address",
+      "geometry": [
+        {
+          "latitude": 39.96794979442,
+          "longitude": -75.160276594398
+        }
+      ],
+      "id": "agency-philadelphia-addresses-800-n-broad-street",
+      "kind": "possibleSpeed",
+      "label": "800 N. Broad Street · approximate location",
+      "locationAccuracyMeters": 150,
+      "locationKey": "800 N. Broad Street",
+      "positionPrecision": "census-address-estimate",
+      "roadNames": [
+        "N. Broad Street"
+      ],
+      "siteID": "agency-philadelphia-addresses-800-n-broad-street",
+      "sourceIDs": [
+        "agency/philadelphia-addresses/800 N. Broad Street",
+        "census"
+      ]
+    },
+    {
+      "evidence": "Agency-listed enforcement location: https://philapark.org/speed-cameras/. Census TIGER address-range interpolation; approximate listed block, not a camera survey.",
+      "geocodingSource": "https://geocoding.geo.census.gov/geocoder/locations/address",
+      "geometry": [
+        {
+          "latitude": 39.9544869496,
+          "longitude": -75.163276022581
+        }
+      ],
+      "id": "agency-philadelphia-addresses-100-n-broad-street",
+      "kind": "possibleSpeed",
+      "label": "100 N. Broad Street · approximate location",
+      "locationAccuracyMeters": 150,
+      "locationKey": "100 N. Broad Street",
+      "positionPrecision": "census-address-estimate",
+      "roadNames": [
+        "N. Broad Street"
+      ],
+      "siteID": "agency-philadelphia-addresses-100-n-broad-street",
+      "sourceIDs": [
+        "agency/philadelphia-addresses/100 N. Broad Street",
+        "census"
+      ]
+    },
+    {
+      "evidence": "Agency-listed enforcement location: https://philapark.org/speed-cameras/. Census TIGER address-range interpolation; approximate listed block, not a camera survey.",
+      "geocodingSource": "https://geocoding.geo.census.gov/geocoder/locations/address",
+      "geometry": [
+        {
+          "latitude": 39.950827560847,
+          "longitude": -75.164096980095
+        }
+      ],
+      "id": "agency-philadelphia-addresses-100-s-broad-street",
+      "kind": "possibleSpeed",
+      "label": "100 S. Broad Street · approximate location",
+      "locationAccuracyMeters": 150,
+      "locationKey": "100 S. Broad Street",
+      "positionPrecision": "census-address-estimate",
+      "roadNames": [
+        "S. Broad Street"
+      ],
+      "siteID": "agency-philadelphia-addresses-100-s-broad-street",
+      "sourceIDs": [
+        "agency/philadelphia-addresses/100 S. Broad Street",
+        "census"
+      ]
+    },
+    {
+      "evidence": "Agency-listed enforcement location: https://philapark.org/speed-cameras/. Census TIGER address-range interpolation; approximate listed block, not a camera survey.",
+      "geocodingSource": "https://geocoding.geo.census.gov/geocoder/locations/address",
+      "geometry": [
+        {
+          "latitude": 39.935644792828,
+          "longitude": -75.167391175229
+        }
+      ],
+      "id": "agency-philadelphia-addresses-1200-s-broad-street",
+      "kind": "possibleSpeed",
+      "label": "1200 S. Broad Street · approximate location",
+      "locationAccuracyMeters": 150,
+      "locationKey": "1200 S. Broad Street",
+      "positionPrecision": "census-address-estimate",
+      "roadNames": [
+        "S. Broad Street"
+      ],
+      "siteID": "agency-philadelphia-addresses-1200-s-broad-street",
+      "sourceIDs": [
+        "agency/philadelphia-addresses/1200 S. Broad Street",
+        "census"
+      ]
+    },
+    {
+      "evidence": "Agency-listed enforcement location: https://philapark.org/speed-cameras/. Census TIGER address-range interpolation; approximate listed block, not a camera survey.",
+      "geocodingSource": "https://geocoding.geo.census.gov/geocoder/locations/address",
+      "geometry": [
+        {
+          "latitude": 39.923090479492,
+          "longitude": -75.170109790553
+        }
+      ],
+      "id": "agency-philadelphia-addresses-2200-s-broad-street",
+      "kind": "possibleSpeed",
+      "label": "2200 S. Broad Street · approximate location",
+      "locationAccuracyMeters": 150,
+      "locationKey": "2200 S. Broad Street",
+      "positionPrecision": "census-address-estimate",
+      "roadNames": [
+        "S. Broad Street"
+      ],
+      "siteID": "agency-philadelphia-addresses-2200-s-broad-street",
+      "sourceIDs": [
+        "agency/philadelphia-addresses/2200 S. Broad Street",
+        "census"
+      ]
+    },
+    {
+      "evidence": "Agency-listed enforcement location: https://philapark.org/speed-cameras/. Census TIGER address-range interpolation; approximate listed block, not a camera survey.",
+      "geocodingSource": "https://geocoding.geo.census.gov/geocoder/locations/address",
+      "geometry": [
+        {
+          "latitude": 39.916708721703,
+          "longitude": -75.171508581238
+        }
+      ],
+      "id": "agency-philadelphia-addresses-2800-s-broad-street",
+      "kind": "possibleSpeed",
+      "label": "2800 S. Broad Street · approximate location",
+      "locationAccuracyMeters": 150,
+      "locationKey": "2800 S. Broad Street",
+      "positionPrecision": "census-address-estimate",
+      "roadNames": [
+        "S. Broad Street"
+      ],
+      "siteID": "agency-philadelphia-addresses-2800-s-broad-street",
+      "sourceIDs": [
+        "agency/philadelphia-addresses/2800 S. Broad Street",
+        "census"
+      ]
+    },
+    {
+      "evidence": "Agency-listed enforcement location: https://philapark.org/speed-cameras/. Census TIGER address-range interpolation; approximate listed block, not a camera survey.",
+      "geocodingSource": "https://geocoding.geo.census.gov/geocoder/locations/address",
+      "geometry": [
+        {
+          "latitude": 40.063427264262,
+          "longitude": -74.985555890962
+        }
+      ],
+      "id": "agency-philadelphia-addresses-9900-frankford-avenue",
+      "kind": "possibleSpeed",
+      "label": "9900 Frankford Avenue · approximate location",
+      "locationAccuracyMeters": 150,
+      "locationKey": "9900 Frankford Avenue",
+      "positionPrecision": "census-address-estimate",
+      "roadNames": [
+        "Frankford Avenue"
+      ],
+      "siteID": "agency-philadelphia-addresses-9900-frankford-avenue",
+      "sourceIDs": [
+        "agency/philadelphia-addresses/9900 Frankford Avenue",
+        "census"
+      ]
+    },
+    {
+      "evidence": "Agency-listed enforcement location: https://philapark.org/speed-cameras/. Census TIGER address-range interpolation; approximate listed block, not a camera survey.",
+      "geocodingSource": "https://geocoding.geo.census.gov/geocoder/locations/address",
+      "geometry": [
+        {
+          "latitude": 40.043688696106,
+          "longitude": -75.021988328366
+        }
+      ],
+      "id": "agency-philadelphia-addresses-8300-frankford-avenue",
+      "kind": "possibleSpeed",
+      "label": "8300 Frankford Avenue · approximate location",
+      "locationAccuracyMeters": 150,
+      "locationKey": "8300 Frankford Avenue",
+      "positionPrecision": "census-address-estimate",
+      "roadNames": [
+        "Frankford Avenue"
+      ],
+      "siteID": "agency-philadelphia-addresses-8300-frankford-avenue",
+      "sourceIDs": [
+        "agency/philadelphia-addresses/8300 Frankford Avenue",
+        "census"
+      ]
+    },
+    {
+      "evidence": "Agency-listed enforcement location: https://philapark.org/speed-cameras/. Census TIGER address-range interpolation; approximate listed block, not a camera survey.",
+      "geocodingSource": "https://geocoding.geo.census.gov/geocoder/locations/address",
+      "geometry": [
+        {
+          "latitude": 40.033761227986,
+          "longitude": -75.046736585387
+        }
+      ],
+      "id": "agency-philadelphia-addresses-7000-frankford-avenue",
+      "kind": "possibleSpeed",
+      "label": "7000 Frankford Avenue · approximate location",
+      "locationAccuracyMeters": 150,
+      "locationKey": "7000 Frankford Avenue",
+      "positionPrecision": "census-address-estimate",
+      "roadNames": [
+        "Frankford Avenue"
+      ],
+      "siteID": "agency-philadelphia-addresses-7000-frankford-avenue",
+      "sourceIDs": [
+        "agency/philadelphia-addresses/7000 Frankford Avenue",
+        "census"
+      ]
+    },
+    {
+      "evidence": "Agency-listed enforcement location: https://philapark.org/speed-cameras/. Census TIGER address-range interpolation; approximate listed block, not a camera survey.",
+      "geocodingSource": "https://geocoding.geo.census.gov/geocoder/locations/address",
+      "geometry": [
+        {
+          "latitude": 40.028596030577,
+          "longitude": -75.057841635854
+        }
+      ],
+      "id": "agency-philadelphia-addresses-6400-frankford-avenue",
+      "kind": "possibleSpeed",
+      "label": "6400 Frankford Avenue · approximate location",
+      "locationAccuracyMeters": 150,
+      "locationKey": "6400 Frankford Avenue",
+      "positionPrecision": "census-address-estimate",
+      "roadNames": [
+        "Frankford Avenue"
+      ],
+      "siteID": "agency-philadelphia-addresses-6400-frankford-avenue",
+      "sourceIDs": [
+        "agency/philadelphia-addresses/6400 Frankford Avenue",
+        "census"
+      ]
+    },
+    {
+      "evidence": "Agency-listed enforcement location: https://philapark.org/speed-cameras/. Census TIGER address-range interpolation; approximate listed block, not a camera survey.",
+      "geocodingSource": "https://geocoding.geo.census.gov/geocoder/locations/address",
+      "geometry": [
+        {
+          "latitude": 40.029670927381,
+          "longitude": -75.060017359826
+        }
+      ],
+      "id": "agency-philadelphia-addresses-3100-levick-street",
+      "kind": "possibleSpeed",
+      "label": "3100 Levick Street · approximate location",
+      "locationAccuracyMeters": 150,
+      "locationKey": "3100 Levick Street",
+      "positionPrecision": "census-address-estimate",
+      "roadNames": [
+        "Levick Street"
+      ],
+      "siteID": "agency-philadelphia-addresses-3100-levick-street",
+      "sourceIDs": [
+        "agency/philadelphia-addresses/3100 Levick Street",
+        "census"
+      ]
+    }
+  ],
+  "checkedAt": "2026-09-15T03:41:31Z",
+  "excluded": [
+    {
+      "reason": "Location needs review: Expected one Census address match, got 0",
+      "sourceRecord": "3600 S. Broad Street"
+    },
+    {
+      "reason": "Location needs review: Intersection/segment description needs review",
+      "sourceRecord": "Banks Way"
+    },
+    {
+      "reason": "Location needs review: Intersection/segment description needs review",
+      "sourceRecord": "F Street"
+    },
+    {
+      "reason": "Location needs review: Intersection/segment description needs review",
+      "sourceRecord": "Deveraux Street"
+    },
+    {
+      "reason": "Location needs review: Intersection/segment description needs review",
+      "sourceRecord": "Harbison"
+    },
+    {
+      "reason": "Location needs review: Intersection/segment description needs review",
+      "sourceRecord": "Pratt Street"
+    },
+    {
+      "reason": "Location needs review: Intersection/segment description needs review",
+      "sourceRecord": "Strahle Street"
+    },
+    {
+      "reason": "Location needs review: Intersection/segment description needs review",
+      "sourceRecord": "9th Street"
+    },
+    {
+      "reason": "Location needs review: Intersection/segment description needs review",
+      "sourceRecord": "Grant Avenue"
+    },
+    {
+      "reason": "Location needs review: Intersection/segment description needs review",
+      "sourceRecord": "Red Lion Road"
+    },
+    {
+      "reason": "Location needs review: Intersection/segment description needs review",
+      "sourceRecord": "Southampton Road"
+    },
+    {
+      "reason": "Location needs review: Intersection/segment description needs review",
+      "sourceRecord": "John B. Stetson Middle School: E. Allegheny Ave. (A to B Streets)"
+    },
+    {
+      "reason": "Location needs review: Intersection/segment description needs review",
+      "sourceRecord": "Widener Memorial School: W. Olney Ave. (N. Broad to N. 16th)"
+    },
+    {
+      "reason": "Location needs review: Intersection/segment description needs review",
+      "sourceRecord": "High School of the Future: W. Girard Ave. (N. 39th to N. 40th)"
+    },
+    {
+      "reason": "Location needs review: Intersection/segment description needs review",
+      "sourceRecord": "William L. Sayre High School: Walnut St. (S. 58th to S. 59th)"
+    },
+    {
+      "reason": "Location needs review: Census changed the requested street/state; needs review",
+      "sourceRecord": "2100 Robbins Street"
+    },
+    {
+      "reason": "Published future enforcement date; not active yet",
+      "sourceRecord": "6000 Baltimore Ave (Live Enforcement Begins 10-30-26)"
+    },
+    {
+      "reason": "Published future enforcement date; not active yet",
+      "sourceRecord": "5600 Baltimore Ave (Live Enforcement Begins 10-30-26)"
+    },
+    {
+      "reason": "Published future enforcement date; not active yet",
+      "sourceRecord": "4900 Baltimore Ave (Live Enforcement Begins 10-30-26)"
+    },
+    {
+      "reason": "Published future enforcement date; not active yet",
+      "sourceRecord": "4300 Baltimore Ave (Live Enforcement Begins 10-30-26)"
+    },
+    {
+      "reason": "Published future enforcement date; not active yet",
+      "sourceRecord": "4200 Baltimore Ave (Live Enforcement Begins 10-30-26)"
+    },
+    {
+      "reason": "Published future enforcement date; not active yet",
+      "sourceRecord": "300 S University Ave (Live Enforcement Begins 10-30-26)"
+    },
+    {
+      "reason": "Published future enforcement date; not active yet",
+      "sourceRecord": "200 N 38th Street (Live Enforcement Begins 10-30-26)"
+    },
+    {
+      "reason": "Published future enforcement date; not active yet",
+      "sourceRecord": "400 N 34th Street (Live Enforcement Begins 10-30-26)"
+    },
+    {
+      "reason": "Published future enforcement date; not active yet",
+      "sourceRecord": "3300 W Girard Ave (Live Enforcement Begins 10-30-26)"
+    },
+    {
+      "reason": "Published future enforcement date; not active yet",
+      "sourceRecord": "2000 N 33rd Street (Live Enforcement Begins 10-30-26)"
+    },
+    {
+      "reason": "Published future enforcement date; not active yet",
+      "sourceRecord": "3400 Ridge Ave (Live Enforcement Begins 10-30-26)"
+    }
+  ],
+  "id": "philadelphia-addresses",
+  "rowCount": 46,
+  "url": "https://philapark.org/speed-cameras/"
+}

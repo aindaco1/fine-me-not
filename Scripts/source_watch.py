@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Fetch registered agency sources before publication; retain facts and review changes.
 
-Public source coordinates are never invented by geocoding. Page monitors do not
+Geocoded agency locations are explicitly approximate. Page monitors do not
 automatically manufacture cameras. No account, API key, browser, or paid service.
 """
 from __future__ import annotations
@@ -10,6 +10,8 @@ import urllib.parse, urllib.request
 from html.parser import HTMLParser
 from camera_data import ROOT, UTC, read, encode, write, stamp, valid_point, distance
 import json
+import time
+import urllib.error
 import xml.etree.ElementTree as ET
 
 USER_AGENT = 'FineMeNot/0.1 (+https://github.com/aindaco1/fine-me-not)'
@@ -18,10 +20,23 @@ BEARINGS = {'NB': 0, 'NEB': 45, 'EB': 90, 'SEB': 135, 'SB': 180, 'SWB': 225, 'WB
 
 def request(url):
     req = urllib.request.Request(url, headers={'User-Agent': USER_AGENT, 'Accept': '*/*'})
-    with urllib.request.urlopen(req, timeout=45) as response:
-        raw = response.read(20_000_001)
-    if len(raw) > 20_000_000: raise ValueError('Source exceeds 20 MB')
-    return raw
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(req, timeout=45) as response:
+                raw = response.read(20_000_001)
+            if len(raw) > 20_000_000: raise ValueError('Source exceeds 20 MB')
+            return raw
+        except urllib.error.HTTPError as error:
+            if error.code not in (429, 500, 502, 503, 504) or attempt == 2: raise
+            if error.code == 429:
+                retry = error.headers.get('Retry-After', '30')
+                delay = max(30, int(retry)) if retry.isdigit() else 30
+                if delay > 60: raise  # Leave the source for the next run.
+            else: delay = 2 ** attempt
+            time.sleep(delay)
+        except (TimeoutError, urllib.error.URLError):
+            if attempt == 2: raise
+            time.sleep(2 ** attempt)
 
 
 def json_request(url, **params):
@@ -88,6 +103,10 @@ def make_camera(source, identifier, label, kind, lat, lon, bearing=None, limit=N
         'label': str(label)[:200], 'kind': kind, 'geometry': [{'latitude': lat, 'longitude': lon}],
         'sourceIDs': [f"agency/{source['id']}/{identifier}"], 'positionPrecision': 'agency-published-point',
         'evidence': f"{source['name']}: published coordinates, not independently surveyed. Source: {source.get('page', source['url'])}"}
+    # Keep the published address/intersection separate from display decoration.
+    camera['locationKey'] = str(label).split(' · ')[0]
+    if re.match(r'^\d+\s', camera['locationKey']):
+        camera['roadNames'] = [re.sub(r'^\d+\s+', '', camera['locationKey'])]
     if bearing is not None: camera['travelBearing'] = bearing
     if kind == 'possibleSpeed': camera['evidence'] += ' Listed deployment point; equipment presence is not live-confirmed.'
     if limit is not None:
@@ -205,7 +224,7 @@ def watch_value(source, raw):
         if not raw.startswith(b'%PDF-'): raise ValueError('Expected a PDF, not an error/consent page')
         return {'contentHash': hashlib.sha256(raw).hexdigest()}
     page = parse_page(raw)
-    if len(page.text) < 100 or source.get('requiredText', '').lower() not in page.text.lower(): raise ValueError('Missing expected page content')
+    if len(page.text) < source.get('minimumContentCharacters', 100) or source.get('requiredText', '').lower() not in page.text.lower(): raise ValueError('Missing expected page content')
     if source['adapter'] == 'abq-list':
         # Only the actual camera list matters: banners, menus and site chrome do not.
         html = raw.decode('utf-8', errors='replace')
@@ -232,7 +251,10 @@ def fetch_one(source, root, now):
             detail = {'added': sorted(set(value.get('items', []))-set(baseline.get('items', []))),
                       'removed': sorted(set(baseline.get('items', []))-set(value.get('items', [])))}
         else:
-            if source['adapter'] == 'socrata':
+            if source['adapter'] == 'text-locations':
+                from text_camera_sources import rows as text_rows
+                rows = text_rows(source, request(source['url']))
+            elif source['adapter'] == 'socrata':
                 rows = json_request(source['url'], **{'$limit': 50000})
                 count = int(json_request(source['url'], **{'$select': 'count(*)'})[0]['count'])
                 if len(rows) != count or count >= 50000: raise ValueError('Partial Socrata response')
@@ -243,8 +265,13 @@ def fetch_one(source, root, now):
             if source['adapter'] == 'sf':
                 status = {r[0]: r for r in parse_page(request(source['page'])).rows if len(r) >= 4 and r[0].isdigit()}
                 if len(status) != len(rows): raise ValueError('SFMTA operational table/map counts differ')
-            cameras, skipped = normalize(source, rows, now, status)
-            if not cameras or (old and len(cameras) < len(old['cameras'])*.75): raise ValueError('Unexpected active camera drop; retaining last good source')
+            if source['adapter'] == 'text-locations':
+                from text_camera_sources import normalize as text_normalize
+                cameras, skipped = text_normalize(source, rows, root, now)
+            else:
+                cameras, skipped = normalize(source, rows, now, status)
+            if not cameras or (old and len(cameras) < len(old['cameras'])*.75):
+                raise ValueError('Unexpected active camera drop; retaining last good source. ' + '; '.join(c['reason'] for c in skipped[:3]))
             region = next(f['geometry'] for f in read(root/'Data/Regions/metros.geojson')['features'] if f['properties']['GEOID'] == source['metro'])
             if any(not inside_geometry(c['geometry'][0], region) for c in cameras): raise ValueError('Camera outside declared Census metro')
             current = {'id': source['id'], 'url': source['url'], 'checkedAt': stamp(now), 'rowCount': len(rows),
@@ -269,7 +296,8 @@ def refresh(root=ROOT, now=None, only=None):
         if set(only) - {s['id'] for s in sources}: raise ValueError('Unknown source ID')
         sources = [s for s in sources if s['id'] in only]
     with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
-        checks = list(pool.map(lambda s: fetch_one(s, root, now), sources))
+        checks = list(pool.map(lambda s: fetch_one(s, root, now), [s for s in sources if s['adapter'] != 'text-locations']))
+    checks += [fetch_one(s, root, now) for s in sources if s['adapter'] == 'text-locations']
     if only:
         prior = read(root/'Data/Review/source-watch.json', {}).get('checks', [])
         checks = [c for c in prior if c['id'] not in only] + checks

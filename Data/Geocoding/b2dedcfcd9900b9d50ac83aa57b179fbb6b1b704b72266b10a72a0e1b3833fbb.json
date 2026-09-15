@@ -1,0 +1,24 @@
+{
+  "checkedAt": "2026-09-15T03:34:23Z",
+  "query": {
+    "city": "Philadelphia",
+    "provider": "census-address-v1",
+    "state": "PA",
+    "street": "5700 N. Broad Street"
+  },
+  "result": {
+    "evidence": "Census TIGER address-range interpolation; approximate listed block, not a camera survey.",
+    "geometry": [
+      {
+        "latitude": 40.039904742006,
+        "longitude": -75.144634727304
+      }
+    ],
+    "matchedAddress": "5700 N BROAD ST, PHILADELPHIA, PA, 19141",
+    "positionPrecision": "census-address-estimate",
+    "providerURL": "https://geocoding.geo.census.gov/geocoder/locations/address",
+    "roadNames": [
+      "N. Broad Street"
+    ]
+  }
+}

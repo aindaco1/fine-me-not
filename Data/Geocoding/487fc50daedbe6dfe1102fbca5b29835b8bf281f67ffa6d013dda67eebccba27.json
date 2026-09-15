@@ -1,0 +1,17 @@
+{
+  "checkedAt": "2026-09-15T03:43:27Z",
+  "error": "The read operation timed out",
+  "query": {
+    "bbox": [
+      27.6,
+      -82.9,
+      28.4,
+      -82.0
+    ],
+    "provider": "osm-intersection-v1",
+    "roads": [
+      "Habana Avenue",
+      "Sligh Avenue"
+    ]
+  }
+}

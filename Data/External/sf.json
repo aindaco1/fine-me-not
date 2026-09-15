@@ -11,6 +11,7 @@
       "id": "agency-sf-1",
       "kind": "speed",
       "label": "Fulton St from 42nd Ave to 43rd Ave",
+      "locationKey": "Fulton St from 42nd Ave to 43rd Ave",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-sf-1",
       "sourceIDs": [
@@ -35,6 +36,7 @@
       "id": "agency-sf-10",
       "kind": "speed",
       "label": "Broadway from Powell St to Stockton St",
+      "locationKey": "Broadway from Powell St to Stockton St",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-sf-10",
       "sourceIDs": [
@@ -59,6 +61,7 @@
       "id": "agency-sf-11",
       "kind": "speed",
       "label": "Embarcadero from Green St to Battery St",
+      "locationKey": "Embarcadero from Green St to Battery St",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-sf-11",
       "sourceIDs": [
@@ -83,6 +86,7 @@
       "id": "agency-sf-12",
       "kind": "speed",
       "label": "Mission St from 8th St to 9th St",
+      "locationKey": "Mission St from 8th St to 9th St",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-sf-12",
       "sourceIDs": [
@@ -107,6 +111,7 @@
       "id": "agency-sf-13",
       "kind": "speed",
       "label": "10th St from Harrison St to Folsom St",
+      "locationKey": "10th St from Harrison St to Folsom St",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-sf-13",
       "sourceIDs": [
@@ -131,6 +136,7 @@
       "id": "agency-sf-14",
       "kind": "speed",
       "label": "9th St from Bryant St to Harrison St",
+      "locationKey": "9th St from Bryant St to Harrison St",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-sf-14",
       "sourceIDs": [
@@ -155,6 +161,7 @@
       "id": "agency-sf-15",
       "kind": "speed",
       "label": "7th St from Harrison St to Folsom St",
+      "locationKey": "7th St from Harrison St to Folsom St",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-sf-15",
       "sourceIDs": [
@@ -179,6 +186,7 @@
       "id": "agency-sf-16",
       "kind": "speed",
       "label": "Harrison St from 4th St to 5th St",
+      "locationKey": "Harrison St from 4th St to 5th St",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-sf-16",
       "sourceIDs": [
@@ -203,6 +211,7 @@
       "id": "agency-sf-17",
       "kind": "speed",
       "label": "Bryant St from 2nd St to 3rd St",
+      "locationKey": "Bryant St from 2nd St to 3rd St",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-sf-17",
       "sourceIDs": [
@@ -227,6 +236,7 @@
       "id": "agency-sf-18",
       "kind": "speed",
       "label": "King St (EB only) from 4th St to 5th St",
+      "locationKey": "King St (EB only) from 4th St to 5th St",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-sf-18",
       "sourceIDs": [
@@ -252,6 +262,7 @@
       "id": "agency-sf-19",
       "kind": "speed",
       "label": "Market St from Danvers St to Douglass St",
+      "locationKey": "Market St from Danvers St to Douglass St",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-sf-19",
       "sourceIDs": [
@@ -276,6 +287,7 @@
       "id": "agency-sf-2",
       "kind": "speed",
       "label": "Lincoln Way from 27th Ave to 28th Ave",
+      "locationKey": "Lincoln Way from 27th Ave to 28th Ave",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-sf-2",
       "sourceIDs": [
@@ -300,6 +312,7 @@
       "id": "agency-sf-20",
       "kind": "speed",
       "label": "Guerrero St from 19th St to 20th St",
+      "locationKey": "Guerrero St from 19th St to 20th St",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-sf-20",
       "sourceIDs": [
@@ -324,6 +337,7 @@
       "id": "agency-sf-21",
       "kind": "speed",
       "label": "16th St from Bryant St to Potrero Ave",
+      "locationKey": "16th St from Bryant St to Potrero Ave",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-sf-21",
       "sourceIDs": [
@@ -348,6 +362,7 @@
       "id": "agency-sf-22",
       "kind": "speed",
       "label": "San Jose Ave from 29th St to 30th St",
+      "locationKey": "San Jose Ave from 29th St to 30th St",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-sf-22",
       "sourceIDs": [
@@ -372,6 +387,7 @@
       "id": "agency-sf-23",
       "kind": "speed",
       "label": "Cesar Chavez St from Folsom St to Harrison St",
+      "locationKey": "Cesar Chavez St from Folsom St to Harrison St",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-sf-23",
       "sourceIDs": [
@@ -396,6 +412,7 @@
       "id": "agency-sf-24",
       "kind": "speed",
       "label": "Cesar Chavez St from Indiana St to Tennessee St",
+      "locationKey": "Cesar Chavez St from Indiana St to Tennessee St",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-sf-24",
       "sourceIDs": [
@@ -420,6 +437,7 @@
       "id": "agency-sf-25",
       "kind": "speed",
       "label": "3rd St (NB only) from Key Ave to Jamestown Ave",
+      "locationKey": "3rd St (NB only) from Key Ave to Jamestown Ave",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-sf-25",
       "sourceIDs": [
@@ -445,6 +463,7 @@
       "id": "agency-sf-26",
       "kind": "speed",
       "label": "Bayshore Blvd (SB only) from 101 off-ramp to Tunnel Ave",
+      "locationKey": "Bayshore Blvd (SB only) from 101 off-ramp to Tunnel Ave",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-sf-26",
       "sourceIDs": [
@@ -470,6 +489,7 @@
       "id": "agency-sf-27",
       "kind": "speed",
       "label": "Geneva Ave from Prague St to Brookdale Ave",
+      "locationKey": "Geneva Ave from Prague St to Brookdale Ave",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-sf-27",
       "sourceIDs": [
@@ -494,6 +514,7 @@
       "id": "agency-sf-28",
       "kind": "speed",
       "label": "Mission St from Ottawa Ave to Allison St",
+      "locationKey": "Mission St from Ottawa Ave to Allison St",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-sf-28",
       "sourceIDs": [
@@ -518,6 +539,7 @@
       "id": "agency-sf-29",
       "kind": "speed",
       "label": "Alemany Blvd from Farragut Ave to Naglee Ave",
+      "locationKey": "Alemany Blvd from Farragut Ave to Naglee Ave",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-sf-29",
       "sourceIDs": [
@@ -542,6 +564,7 @@
       "id": "agency-sf-3",
       "kind": "speed",
       "label": "Geary Blvd from 7th Ave to 8th Ave",
+      "locationKey": "Geary Blvd from 7th Ave to 8th Ave",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-sf-3",
       "sourceIDs": [
@@ -566,6 +589,7 @@
       "id": "agency-sf-30",
       "kind": "speed",
       "label": "Ocean Ave from Frida Kahlo Way to Howth St",
+      "locationKey": "Ocean Ave from Frida Kahlo Way to Howth St",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-sf-30",
       "sourceIDs": [
@@ -590,6 +614,7 @@
       "id": "agency-sf-31",
       "kind": "speed",
       "label": "San Jose Ave from Santa Ynez Ave to Ocean Ave",
+      "locationKey": "San Jose Ave from Santa Ynez Ave to Ocean Ave",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-sf-31",
       "sourceIDs": [
@@ -614,6 +639,7 @@
       "id": "agency-sf-32",
       "kind": "speed",
       "label": "Monterey Blvd from Edna St to Congo St",
+      "locationKey": "Monterey Blvd from Edna St to Congo St",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-sf-32",
       "sourceIDs": [
@@ -638,6 +664,7 @@
       "id": "agency-sf-33",
       "kind": "speed",
       "label": "Sloat Blvd from 41st Ave to Skyline Blvd",
+      "locationKey": "Sloat Blvd from 41st Ave to Skyline Blvd",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-sf-33",
       "sourceIDs": [
@@ -662,6 +689,7 @@
       "id": "agency-sf-4",
       "kind": "speed",
       "label": "Fulton St from 2nd Ave to Arguello Blvd",
+      "locationKey": "Fulton St from 2nd Ave to Arguello Blvd",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-sf-4",
       "sourceIDs": [
@@ -686,6 +714,7 @@
       "id": "agency-sf-5",
       "kind": "speed",
       "label": "Geary Blvd from Webster St to Buchanan St",
+      "locationKey": "Geary Blvd from Webster St to Buchanan St",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-sf-5",
       "sourceIDs": [
@@ -710,6 +739,7 @@
       "id": "agency-sf-6",
       "kind": "speed",
       "label": "Turk St from Van Ness Ave to Polk St",
+      "locationKey": "Turk St from Van Ness Ave to Polk St",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-sf-6",
       "sourceIDs": [
@@ -734,6 +764,7 @@
       "id": "agency-sf-7",
       "kind": "speed",
       "label": "Bay St from Octavia St to Gough St",
+      "locationKey": "Bay St from Octavia St to Gough St",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-sf-7",
       "sourceIDs": [
@@ -758,6 +789,7 @@
       "id": "agency-sf-8",
       "kind": "speed",
       "label": "Franklin St from Union St to Green St",
+      "locationKey": "Franklin St from Union St to Green St",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-sf-8",
       "sourceIDs": [
@@ -782,6 +814,7 @@
       "id": "agency-sf-9",
       "kind": "speed",
       "label": "Columbus Ave from Lombard St to Greenwich St",
+      "locationKey": "Columbus Ave from Lombard St to Greenwich St",
       "positionPrecision": "agency-published-point",
       "siteID": "agency-sf-9",
       "sourceIDs": [
@@ -796,7 +829,7 @@
       }
     }
   ],
-  "checkedAt": "2026-09-15T02:09:42Z",
+  "checkedAt": "2026-09-15T03:50:10Z",
   "excluded": [],
   "id": "sf",
   "rowCount": 33,

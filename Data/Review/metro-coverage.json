@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T02:11:42Z",
+  "generatedAt": "2026-09-15T03:54:12Z",
   "metros": [
     {
       "agencyPoints": 0,
@@ -147,7 +147,7 @@
       "warningRecords": 35
     },
     {
-      "agencyPoints": 548,
+      "agencyPoints": 552,
       "counties": [
         {
           "fips": "17031",
@@ -207,7 +207,7 @@
       "population2025": 9434123,
       "possibleAreas": 0,
       "rank": 3,
-      "warningRecords": 625
+      "warningRecords": 629
     },
     {
       "agencyPoints": 0,
@@ -262,7 +262,7 @@
       "population2025": 8477157,
       "possibleAreas": 0,
       "rank": 4,
-      "warningRecords": 86
+      "warningRecords": 85
     },
     {
       "agencyPoints": 0,
@@ -569,7 +569,7 @@
       "warningRecords": 24
     },
     {
-      "agencyPoints": 0,
+      "agencyPoints": 19,
       "counties": [
         {
           "fips": "34005",
@@ -621,7 +621,7 @@
       "population2025": 6329118,
       "possibleAreas": 0,
       "rank": 9,
-      "warningRecords": 9
+      "warningRecords": 28
     },
     {
       "agencyPoints": 9,
@@ -861,7 +861,7 @@
       "warningRecords": 16
     },
     {
-      "agencyPoints": 0,
+      "agencyPoints": 6,
       "counties": [
         {
           "fips": "12103",
@@ -885,7 +885,7 @@
       "population2025": 3418895,
       "possibleAreas": 0,
       "rank": 17,
-      "warningRecords": 28
+      "warningRecords": 34
     },
     {
       "agencyPoints": 0,

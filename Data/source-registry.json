@@ -69,7 +69,8 @@
       "url": "https://services.arcgis.com/Zs2aNLFN00jrS4gG/arcgis/rest/services/Proposed_Automated_Speed_Enforcement_Locations_WFL1/FeatureServer/0",
       "page": "https://www.sfmta.com/projects/speed-safety-cameras",
       "minimumRows": 20,
-      "license": "Public agency location facts; see linked source terms. Combined database ODbL-1.0."
+      "license": "Public agency location facts; see linked source terms. Combined database ODbL-1.0.",
+      "speedLimitPolicy": "unconditional-posted"
     },
     {
       "id": "phoenix-points",
@@ -318,6 +319,51 @@
       "url": "https://www.iihs.org/research-areas/red-light-running/red-light-camera-communities",
       "requiredText": "communities",
       "monitorOnly": true
+    },
+    {
+      "id": "philadelphia-addresses",
+      "name": "Philadelphia PPA current camera locations",
+      "metro": "37980",
+      "adapter": "text-locations",
+      "url": "https://philapark.org/speed-cameras/",
+      "minimumRows": 20,
+      "city": "Philadelphia",
+      "state": "PA",
+      "license": "Public agency location facts with Census/OSM estimates. Combined database ODbL-1.0."
+    },
+    {
+      "id": "hillsborough-intersections",
+      "name": "Hillsborough County red-light intersections",
+      "metro": "45300",
+      "adapter": "text-locations",
+      "url": "https://hcfl.gov/government/codes-and-ordinances/red-for-a-reason/red-light-cameras",
+      "minimumRows": 6,
+      "geocodeBounds": [
+        27.6,
+        -82.9,
+        28.4,
+        -82.0
+      ],
+      "license": "Public agency location facts with Census/OSM estimates. Combined database ODbL-1.0."
+    },
+    {
+      "id": "montgomery-md",
+      "name": "Montgomery County current camera location list",
+      "metro": "47900",
+      "adapter": "page",
+      "url": "https://www.montgomerycountymd.gov/montgomery-county-police-department/how-do-i/speed-ticket-payment/speed-camera-locations",
+      "monitorOnly": true,
+      "requiredText": "Speed Camera Locations"
+    },
+    {
+      "id": "maryland-safezones",
+      "name": "Maryland highway work-zone camera deployments",
+      "metro": "47900",
+      "adapter": "page",
+      "url": "https://www.safezones.maryland.gov/ase/Pages/locations.aspx?PageId=2",
+      "monitorOnly": true,
+      "requiredText": "Enforcement Locations",
+      "minimumContentCharacters": 80
     }
   ]
 }

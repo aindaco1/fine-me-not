@@ -28,10 +28,18 @@ jobs:
         run: |
           git config user.name 'fine-me-not source checker'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add Data/Sources Data/External Data/Watch Data/Review
+          git add Data/Sources Data/External Data/Watch Data/Review Data/Geocoding
           if ! git diff --cached --quiet; then
             git commit -m 'Check camera sources before weekly publication'
             git push
           fi
       - name: Summarize changes and failures
-        run: cat Data/Review/source-watch.md >> "$GITHUB_STEP_SUMMARY"
+        if: always()
+        run: cat Data/Review/maintenance.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Keep maintenance evidence
+        if: always()
+        uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f
+        with:
+          name: camera-maintenance-${{ github.run_id }}
+          path: Data/Review/
+          retention-days: 30

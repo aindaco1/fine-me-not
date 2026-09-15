@@ -3,7 +3,7 @@
 - App: Fine Me Not
 - Bundle: `xyz.dustwave.fine-me-not`
 - Owner/team: Volver Health LLC (`PWT3Q52LZ2`), explicitly selected by the project owner
-- Version: 0.1.0 (5)
+- Version: 0.1.0 (6)
 - Distribution minimum: iOS 27.0
 - Source: https://github.com/aindaco1/fine-me-not
 - Support / privacy: https://aindaco1.github.io/fine-me-not/
@@ -80,3 +80,7 @@ Build **0.1.0 (5)**, source `632c77b`, is **Testing** in the First Drive interna
 The build bundles `2026-09-14-6466b7b09db1-78026b1a` with **1,777 warning records**. The 19 additions bring current Albuquerque city-list representation to **40 of 40 directional approaches: 19 mapped points and 21 approximate areas**. Carlisle uses Delamar Avenue as confirmed by the city certificate. Approximate boundaries follow reviewed OSM road geometry; they are warning buffers, not surveyed equipment positions or enforcement boundaries. See [ALBUQUERQUE.md](ALBUQUERQUE.md) for every city entry. No location/audio runtime code changed for this build.
 
 [Source CI](https://github.com/aindaco1/fine-me-not/actions/runs/34915680253) passed all 15 Swift and 12 publisher tests and the simulator bundle checks. The signed archive passed the full release bundle check with minimum iOS 27.0. [Database publication](https://github.com/aindaco1/fine-me-not/actions/runs/34915680188) succeeded; the live immutable snapshot matched its SHA-256 manifest and all 40 city references. An installed build 4 simulator downloaded it using Update now, then produced exactly one southbound Carlisle warning with playback completed while locked. These checks establish data delivery and simulated behavior. Real iOS 27 car-audio audibility, Low Power Mode, overnight recovery and battery acceptance remain pending.
+
+## Build 6 preparation
+
+Build **0.1.0 (6)** adds the default-on Quiet below speed limit setting and diagnostics. It bundles `2026-09-14-263679a7aa6b-9935f9b5` with **2,681 records** and 31 approved SFMTA speed limits. The local signed archive passed the release bundle check (minimum iOS 27.0), 20 Swift tests and 39 pipeline tests. Simulator compatibility UI checks verified the default on, persisted off after relaunch, and the Test warning button. The archive uses Xcode 26.6 / SDK 26.5 with the requested distribution minimum 27.0; simulator deployment overrides are never used for the distribution archive. TestFlight upload/availability is recorded separately after Apple confirms it.

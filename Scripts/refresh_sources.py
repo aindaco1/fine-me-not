@@ -6,6 +6,7 @@ from camera_data import ROOT, UTC, read, write, stamp
 from publish_cameras import fetch_sources, osm_records, QUERIES
 from agency_cameras import audit_metro_points, combine
 from source_watch import refresh
+from maintenance_report import generate
 
 
 def run(root=ROOT, now=None, if_stale=False):
@@ -19,6 +20,7 @@ def run(root=ROOT, now=None, if_stale=False):
     documents = [read(root/f'Data/Sources/osm-us-{name}.json') for name in QUERIES]
     audit_metro_points(root, documents, read(root/'Data/Overrides/metro.json', {}), dt.datetime.now(UTC))
     combine(root, osm_records(documents)[0], read(root/'Data/Published/cameras.json', {}), dt.datetime.now(UTC))
+    generate(root)
     result = {'completedAt': stamp(dt.datetime.now(UTC)), 'osmFetches': osm,
               'agencyAndPageChecksAt': report['checkedAt'], 'reviewRequired': report['reviewRequired']}
     write(root/'Data/Review/prepublication-check.json', result)

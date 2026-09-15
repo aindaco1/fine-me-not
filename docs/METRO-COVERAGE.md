@@ -77,7 +77,7 @@ Accepted county research references: BC-01/02, BC-04, BC-07, BC-09/10, BC-11/12,
 ## Weekly maintenance
 
 1. **Sunday 21:00 America/Denver:** GitHub runs `Scripts/refresh_sources.py`, fetching national OSM, eight agency coordinate sources, and 26 page/document monitors. It stages source data and review reports without deploying a database. Last good sources survive errors, incomplete pagination and implausible count drops.
-2. **Sunday 22:00 Denver:** the Codex task review checks changed pages, failed sources, new programs and pending geometry. The active automation is **Fine Me Not camera source review**. It reports actionable changes; local Codex availability is required for this review, while GitHub's source fetch does not depend on the Mac.
+2. **During that GitHub Actions run:** normalize feeds, geocode supported textual locations, reconcile identities, and save source changes/ambiguities in `Data/Review/maintenance.md` and a 30-day workflow artifact. No Codex recurring job is required; the former heartbeat was deleted. Unknown source formats still need a maintainer’s review.
 3. **Monday 00:00 America/Denver:** the existing publisher uses the staged inputs. If no source pass finished within 12 hours, it performs a catch-up query before publishing. GitHub queues and device downloads can be delayed. An urgent reviewed correction can still be published separately.
 
 The Albuquerque monitor compares the camera-location list independently of ordering and site banners. Added/removed/changed entries remain pending until explicitly reviewed and acknowledged with `python3 Scripts/source_watch.py --acknowledge abq-city`. Other pages compare visible content and linked map/document URLs; PDFs compare file hashes. A changed document behind an unchanged page link needs its own document monitor when that document becomes an accepted source.
@@ -85,3 +85,9 @@ The Albuquerque monitor compares the camera-location list independently of order
 `Data/Review/source-watch.json` records source checks/failures, `agency-reconciliation.json` records overlaps/relocations, and `metro-source-changes.json` flags moved or missing OSM points behind accepted metro overrides. No data is silently declared fresh after a failed request. Bernalillo County, NYC DOT, the Michigan FAQ and the Minneapolis report index returned HTTP 403 on the final local pass (Minneapolis had a successful earlier snapshot) to the automated client and remain visible review failures.
 
 Registry additions require a primary program source, current operational semantics, a stable identity, source-appropriate coordinate precision, and a repeatable fetch. Never treat traffic CCTV, ALPR/Flock cameras, school addresses, proposed locations, or a commercial camera map as an interchangeable feed. Review actual decommissioning evidence before adding a tombstone.
+
+## Build 6 update
+
+The release snapshot contains **2,681 warning records**: 29 additions and one redundant OSM warning removed since the 2,653-record expansion. Additions comprise 19 Philadelphia camera-block estimates, six Hillsborough red-light approaches, and four Chicago red-light approaches confirmed distinct by monitored direction. Nine of ten listed Hillsborough approaches have geocoded positions; three overlap unresolved existing records and are withheld, while Sligh/Habana remains unresolved after a road-query timeout. All 40 city-listed Albuquerque approaches remain represented.
+
+Thirty-eight sources are checked: ten normalized camera feeds/lists and 28 page/document monitors. See [maintenance](MAINTENANCE.md) and [coordinate/identity rules](GEOCODING-AND-IDENTITY.md). Coverage remains incomplete.

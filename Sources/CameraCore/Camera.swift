@@ -35,13 +35,16 @@ public struct Camera: Codable, Identifiable, Hashable, Sendable {
     public let sourceIDs: [String]
     public let evidence: String
     public let validUntil: Date?
+    public let speedLimit: SpeedLimit?
 
     public init(id: String, siteID: String? = nil, label: String, kind: CameraKind,
                 geometry: [Coordinate], travelBearing: Double? = nil,
-                sourceIDs: [String] = [], evidence: String = "", validUntil: Date? = nil) {
+                sourceIDs: [String] = [], evidence: String = "", validUntil: Date? = nil,
+                speedLimit: SpeedLimit? = nil) {
         self.id = id; self.siteID = siteID ?? id; self.label = label; self.kind = kind
         self.geometry = geometry; self.travelBearing = travelBearing
         self.sourceIDs = sourceIDs; self.evidence = evidence; self.validUntil = validUntil
+        self.speedLimit = speedLimit
     }
 }
 

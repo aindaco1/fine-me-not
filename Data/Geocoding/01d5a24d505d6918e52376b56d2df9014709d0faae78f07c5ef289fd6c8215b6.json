@@ -1,0 +1,24 @@
+{
+  "checkedAt": "2026-09-15T03:34:23Z",
+  "query": {
+    "city": "Philadelphia",
+    "provider": "census-address-v1",
+    "state": "PA",
+    "street": "1200 S. Broad Street"
+  },
+  "result": {
+    "evidence": "Census TIGER address-range interpolation; approximate listed block, not a camera survey.",
+    "geometry": [
+      {
+        "latitude": 39.935644792828,
+        "longitude": -75.167391175229
+      }
+    ],
+    "matchedAddress": "1200 S BROAD ST, PHILADELPHIA, PA, 19146",
+    "positionPrecision": "census-address-estimate",
+    "providerURL": "https://geocoding.geo.census.gov/geocoder/locations/address",
+    "roadNames": [
+      "S. Broad Street"
+    ]
+  }
+}
