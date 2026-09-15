@@ -64,3 +64,11 @@ The archive and exported distribution signed successfully using Xcode’s saved 
 ## Icon update — build 3
 
 Build 0.1.0 (3), source `9d975fd`, replaces the ticket with a speed camera and pale-blue prohibition overlay. The 1024 × 1024 opaque icon was checked on the simulator Home Screen, and the signed archive passed the bundle check. Apple confirmed the upload at 23:21 UTC on September 14, 2026. Apple finished processing and the First Drive group now shows build 0.1.0 (3) as Testing. The icon update notes were saved in TestFlight. [CI](https://github.com/aindaco1/fine-me-not/actions/runs/34908349722) passed. Installation of build 3 on the physical phone has not been checked.
+
+## Missed-warning fixes — build 4
+
+Build **0.1.0 (4)**, source `fd99484`, is **Testing** in the First Drive internal group. Apple accepted the upload at 00:29 UTC on September 15, 2026 (September 14 Mountain time), after a network timeout on the first export attempt. Processing completed, the build-specific test instructions were saved, and the existing group with one tester was assigned. No tester roles or access changed. Physical installation of build 4 has not been verified.
+
+This build requests continuous standard background location with automatic pauses disabled, infers movement when reported speed is unavailable, chooses the newest valid saved/bundled database, and adds local diagnostics. It bundles `2026-09-14-971a10f8454e-571f726e` with 1,758 warning records, including approximate Coors/St. Joseph NB/SB warning areas. The city confirms the site and directions, but exact device positions remain unverified.
+
+[CI for the app source](https://github.com/aindaco1/fine-me-not/actions/runs/34913290315) passed all 14 Swift and 10 publisher tests and the simulator bundle checks. The signed archive passed validation with minimum iOS 27.0. Both Coors directions produced one warning and recorded siren completion during locked-screen simulator replays. Real iOS 27 Low Power Mode, long idle recovery, car-audio audibility and battery use still require physical acceptance. See [DEBUGGING.md](DEBUGGING.md) for findings and the next phone test.

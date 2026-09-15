@@ -46,3 +46,9 @@ Monitoring is automatic after opt-in. A retained location service session, backg
 Xcode 26.6 with iOS 26.5 SDK currently compiles and signs the app with a 27.0 deployment minimum, with a warning that this minimum is outside that SDK's known range. This is **not** an iOS 27 runtime test. Xcode 27 / SDK 27 is the preferred release toolchain once available locally; see [Apple's system requirements](https://developer.apple.com/xcode/system-requirements).
 
 Apple's [current upload requirement](https://developer.apple.com/news/upcoming-requirements/) is Xcode 26 or later with the iOS 26 SDK or later. App Store validation, successful processing, TestFlight availability, and physical testing are separate release gates.
+
+## Build 4 background behavior
+
+Camera warnings now request continuous navigation-quality background location with automatic pausing disabled. Low Power Mode does not switch off monitoring in app code. This increases idle and driving battery use; real-device Low Power Mode and overnight reliability are still unverified. A heartbeat timer cannot guarantee execution after iOS suspends or terminates an app. Force-quitting, denied permissions, loss of GPS and unavailable audio output can still prevent a warning.
+
+After updating, open Fine Me Not once, confirm Always and Precise Location, and use Test warning while parked on the audio connection used in the car. The Diagnostics disclosure shows whether GPS is arriving, why the nearest mapped camera was accepted or rejected, and the most recent siren playback result. Copy diagnostics for a missed warning; review camera names before sharing because they can reveal a place you visited. The app does not automatically transmit this report.
