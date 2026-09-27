@@ -3,8 +3,16 @@ import Observation
 import CryptoKit
 import CameraCore
 
+@MainActor
+protocol MonitoringCameraStore: AnyObject {
+    var snapshot: CameraSnapshot? { get }
+    var index: CameraIndex { get }
+    var isDue: Bool { get }
+    func refresh(force: Bool) async -> Bool
+}
+
 @MainActor @Observable
-final class CameraStore {
+final class CameraStore: MonitoringCameraStore {
     private(set) var snapshot: CameraSnapshot?
     private(set) var index = CameraIndex(cameras: [])
     private(set) var isUpdating = false
