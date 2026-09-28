@@ -58,6 +58,12 @@ with zero failures or skips in [candidate CI](https://github.com/aindaco1/road-n
 The distinct GPS/audio checks and any failed attempts are recorded in
 [TESTING.md](TESTING.md).
 
+Private TestFlight preparation adds a separate database-channel isolation case,
+bringing the app-hosted suite to ten tests. The runner requires all ten to pass;
+the original nine wake contracts are unchanged. All **10/10 pass on each hosted
+iOS 17.5, 18.5 and 26.5 runtime** for the final app commit `17eac6e`, with no
+failures or skips in [final candidate CI](https://github.com/aindaco1/road-notice/actions/runs/36361637870).
+
 To reproduce with the installed runtime, build test products and run the bounded
 runner (replace `18.0` with an installed iOS runtime):
 
@@ -71,7 +77,7 @@ python3 Scripts/monitoring_smoke.py 18.0 build/Build/Products/*.xctestrun
 
 The runner creates a fresh simulator and saves Xcode's `.xcresult`, test summary
 and a result explicitly labeled **injected OS pause/resume contract** under
-`build/monitoring/`. It rejects failed, skipped or fewer than nine passing tests.
+`build/monitoring/`. It rejects failed, skipped or fewer than ten passing tests.
 No pause injection, mock service, test camera or forced power setting is exposed
 through the app UI or launch arguments; fixtures live in the separate test target.
 

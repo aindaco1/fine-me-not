@@ -8,6 +8,10 @@ and [automatic stationary pause/resume](BATTERY-MONITORING.md). Source is under
 recorded in [RELEASE.md](RELEASE.md). No public database deployment is performed
 as part of private candidate preparation.
 
+Apple has processed this candidate and the existing First Drive internal group
+shows **Testing**, with one tester and the phone checklist saved. Installation
+and the physical acceptance checks below remain unverified.
+
 - **40 Swift tests pass:** 34 CameraCore tests and 6 SupportCore tests, including
   the new road-matching and location-session cases. All 54 generated zones have
   a positive approach and reject opposite/distant traffic in the corpus replay.
@@ -66,8 +70,25 @@ check passed. The first iOS 26.5 background attempt failed before route injectio
 the Home-button action did not establish the required background state. The
 recording still showed the app visible; the journal contained no background
 transition before teardown. Its failed evidence is retained, and only that
-runtime job was rerun with unchanged source and assertions. Instructions and
-exact test boundaries are in [BATTERY-MONITORING.md](BATTERY-MONITORING.md).
+runtime job was rerun with unchanged source and assertions. That second attempt
+passed, including exactly one completed background warning, and the overall
+workflow passed. Instructions and exact test boundaries are in
+[BATTERY-MONITORING.md](BATTERY-MONITORING.md).
+
+Private candidate preparation adds a tenth app-hosted test for database-channel
+isolation: a newer cached public snapshot still loads in the normal channel but
+cannot replace the private candidate's bundled records. The nine wake contracts
+remain unchanged. The standard public cache directory is preserved for upgrades.
+
+The final app commit `17eac6e` passes **10/10 tests on each hosted iOS 17.5,
+18.5 and 26.5 runtime**, with no failures or skips. The same run passes the
+separate iOS 17.5/26.5 background approach checks (one siren start and completion
+each) and the iOS 18.5 foreground settings/audio check. The iOS 18.5 check does
+not replay moving GPS; the hosted runtime's documented limitation remains.
+[Final runtime CI](https://github.com/aindaco1/road-notice/actions/runs/36361637870)
+passes on its first attempt; [source CI](https://github.com/aindaco1/road-notice/actions/runs/36361637837)
+also passes all 40 Swift and 72 Python tests. Final downloaded results are in
+`work/release14/final-ci/`.
 
 Local evidence is under `work/battery-road-investigation-2026-09-27/wake-suite/`:
 `ios27-summary.json`, `ios18/`, and the core/pipeline logs. The original Xcode 27
