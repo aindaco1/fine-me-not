@@ -886,8 +886,8 @@
     },
     {
       "id": 2876762607,
-      "lat": 39.3175028,
-      "lon": -76.5556738,
+      "lat": 39.3174248,
+      "lon": -76.5558001,
       "tags": {
         "highway": "speed_camera",
         "note": "Speed camera measuring traffic in westbound direction at intersection of SINCLAIR LN & SHANNON DR",
@@ -908,8 +908,8 @@
     },
     {
       "id": 2876762610,
-      "lat": 39.3535402,
-      "lon": -76.5424943,
+      "lat": 39.3536304,
+      "lon": -76.5424777,
       "tags": {
         "highway": "speed_camera",
         "note": "Speed camera measuring traffic in northbound direction at intersection of WALTHER AVE & GLENMORE AVE",
@@ -1282,8 +1282,8 @@
     },
     {
       "id": 2876764002,
-      "lat": 39.3220361,
-      "lon": -76.5484526,
+      "lat": 39.321985,
+      "lon": -76.5487795,
       "tags": {
         "highway": "speed_camera",
         "note": "Speed camera measuring traffic in westbound direction at intersection of SINCLAIR LN & MORAVIA RD",
@@ -1293,8 +1293,8 @@
     },
     {
       "id": 2876764201,
-      "lat": 39.3680655,
-      "lon": -76.5478184,
+      "lat": 39.3681106,
+      "lon": -76.5477302,
       "tags": {
         "highway": "speed_camera",
         "note": "Speed camera measuring traffic in northbound direction at intersection of HARFORD RD & ROSALIE AVE",
@@ -1381,8 +1381,8 @@
     },
     {
       "id": 2876764503,
-      "lat": 39.3353085,
-      "lon": -76.5751846,
+      "lat": 39.3352938,
+      "lon": -76.5751878,
       "tags": {
         "highway": "speed_camera",
         "note": "Speed camera measuring traffic in southbound direction at intersection of HARFORD RD & WALTHER AVE",
@@ -12291,16 +12291,6 @@
       "type": "node"
     },
     {
-      "id": 13691575876,
-      "lat": 40.151478,
-      "lon": -74.2628737,
-      "tags": {
-        "fixme": "Not sure what this is, there are no speed cameras in this state",
-        "highway": "speed_camera"
-      },
-      "type": "node"
-    },
-    {
       "id": 13697353362,
       "lat": 47.3221356,
       "lon": -122.2397134,
@@ -14795,8 +14785,8 @@
   "generator": "Overpass API 0.7.62.4 2390de5a",
   "osm3s": {
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-    "timestamp_areas_base": "2026-09-21T06:25:28Z",
-    "timestamp_osm_base": "2026-09-21T08:46:42Z"
+    "timestamp_areas_base": "2026-09-28T08:07:47Z",
+    "timestamp_osm_base": "2026-09-28T09:34:10Z"
   },
   "version": 0.6
 }

@@ -1,6 +1,6 @@
 # Weekly camera maintenance
 
-Generated 2026-09-25T13:11:26Z
+Generated 2026-09-28T10:10:15Z
 
 47 registered sources checked; 2 evidence-based identity matches; 243 unresolved findings.
 
@@ -8,14 +8,19 @@ New unambiguous agency records and validated coordinate estimates are staged aut
 
 | Source or record | Finding |
 |---|---|
+| overture | 47 regions unavailable, retained or deferred; see regional results |
 | bernco | HTTP Error 403: Forbidden |
 | nyc | HTTP Error 403: Forbidden |
+| la | Source page changed |
 | long-beach | Source page changed |
+| philadelphia-red | Source page changed |
 | massachusetts | Source page changed |
 | michigan | HTTP Error 403: Forbidden |
 | minneapolis | HTTP Error 403: Forbidden |
+| iihs-speed | Source page changed |
 | prince-georges-red | HTTP Error 403: Forbidden |
-| wheat-ridge | HTTP Error 403: Forbidden |
+| wheat-ridge | Source page changed |
+| cdot-program | Source page changed |
 | nyc-datafeeds | HTTP Error 403: Forbidden |
 | agency-chicago-speed-chi003-270 | Nearby accepted record; identity/approach review required |
 | agency-chicago-speed-chi003-90 | Nearby accepted record; identity/approach review required |
@@ -195,7 +200,6 @@ New unambiguous agency records and validated coordinate estimates are staged aut
 | agency-arlington-acsp010 | Nearby accepted record; identity/approach review required |
 | agency-arlington-acsp011 | Nearby accepted record; identity/approach review required |
 | agency-arlington-acsp016 | Nearby accepted record; identity/approach review required |
-| agency-arlington-acsp018 | Nearby accepted record; identity/approach review required |
 | agency-arlington-acsp025 | Nearby accepted record; identity/approach review required |
 | agency-arlington-acsp026 | Nearby accepted record; identity/approach review required |
 | agency-arlington-acsp038 | Nearby accepted record; identity/approach review required |
@@ -231,26 +235,22 @@ New unambiguous agency records and validated coordinate estimates are staged aut
 | agency-hillsborough-intersections-fletcher-avenue-bruce-b-downs-boulevard-wb | Nearby accepted record; identity/approach review required |
 | osm-node-13261832160 | New OSM record overlaps accepted agency data; review identity |
 | chicago-school-park-policy | HTTP Error 403: Forbidden |
-| osm-roads-b1e878ce1fd9 | HTTP Error 504: Gateway Time-out |
-| osm-roads-8c405ad5e923 | HTTP Error 504: Gateway Timeout |
-| osm-roads-99ead47c9e29 | The read operation timed out |
-| osm-roads-ccbde924480a | HTTP Error 504: Gateway Timeout |
-| osm-roads-895f396fe557 | HTTP Error 504: Gateway Timeout |
-| osm-roads-5894601863b9 | The read operation timed out |
-| osm-roads-8aea36076191 | Run acquisition time budget reached |
-| osm-roads-9ec8c3090381 | Run acquisition time budget reached |
-| osm-roads-665023f4e552 | Run acquisition time budget reached |
-| osm-roads-a8348656f2b7 | Run acquisition time budget reached |
-| osm-roads-26c75e21932a | Run acquisition time budget reached |
-| osm-roads-f5fcf75d9642 | Run acquisition time budget reached |
-| osm-roads-a140902f7ae1 | Run acquisition time budget reached |
-| osm-roads-3c2e30bf5743 | Run acquisition time budget reached |
-| osm-roads-239baefdbd91 | Run acquisition time budget reached |
-| osm-roads-f4f4eb348e48 | Run acquisition time budget reached |
-| osm-roads-5f51cc0796ed | Run acquisition time budget reached |
-| osm-roads-c098690a8684 | Run acquisition time budget reached |
-| osm-roads-5b5b39a0367c | Run acquisition time budget reached |
-| osm-roads-daddc01b4db8 | Run acquisition time budget reached |
+| osm-roads-a99a21a912a2 | HTTP Error 504: Gateway Time-out |
+| osm-roads-04630dd7e1a6 | The read operation timed out |
+| osm-roads-6e2bace93b57 | HTTP Error 504: Gateway Timeout |
+| osm-roads-0b0a628102fb | HTTP Error 504: Gateway Timeout |
+| osm-roads-38733e4a312e | HTTP Error 504: Gateway Time-out |
+| osm-roads-c1c29bfe2f15 | Run acquisition time budget reached |
+| osm-roads-756cbaf85b3a | Run acquisition time budget reached |
+| osm-roads-d4a05d4df9b3 | Run acquisition time budget reached |
+| osm-roads-2c95746a1014 | Run acquisition time budget reached |
+| osm-roads-08280438fa6a | Run acquisition time budget reached |
+| osm-roads-35cb6bcf3fd9 | Run acquisition time budget reached |
+| osm-roads-737b9142063e | Run acquisition time budget reached |
+| osm-roads-362b357ca0da | Run acquisition time budget reached |
+| osm-roads-df850cd0bd36 | Run acquisition time budget reached |
+| osm-roads-69a5bc24c87d | Run acquisition time budget reached |
+| osm-roads-b78a8b6da55b | Run acquisition time budget reached |
 
 Full added/removed facts, nearby candidates, and evidence are in maintenance.json and the source-specific reports.
 

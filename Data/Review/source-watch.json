@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-09-21T08:49:37Z",
+  "checkedAt": "2026-09-28T09:37:48Z",
   "checks": [
     {
       "added": [],
       "changed": [],
-      "checkedAt": "2026-09-21T08:49:37Z",
+      "checkedAt": "2026-09-28T09:37:48Z",
       "id": "chicago-speed",
       "monitorOnly": false,
       "name": "Chicago speed cameras",
@@ -15,46 +15,35 @@
       "url": "https://data.cityofchicago.org/resource/4i42-qv3h.json"
     },
     {
-      "added": [
-        "agency-chicago-red-2359-n-clark-st-0",
-        "agency-chicago-red-5356-s-archer-ave-225"
-      ],
-      "changed": [
-        "agency-chicago-red-4791-n-elston-ave-315"
-      ],
-      "checkedAt": "2026-09-21T08:49:37Z",
+      "added": [],
+      "changed": [],
+      "checkedAt": "2026-09-28T09:37:48Z",
       "id": "chicago-red",
       "monitorOnly": false,
       "name": "Chicago red-light cameras",
       "records": 300,
-      "removed": [
-        "agency-chicago-red-2359-n-clark-st-315",
-        "agency-chicago-red-5356-s-archer-ave-270"
-      ],
+      "removed": [],
       "reviewRequired": false,
-      "status": "changed",
+      "status": "ok",
       "url": "https://data.cityofchicago.org/resource/thvf-6diy.json"
     },
     {
       "added": [],
-      "changed": [
-        "agency-dc-ate-0100",
-        "agency-dc-ate-0303"
-      ],
-      "checkedAt": "2026-09-21T08:49:37Z",
+      "changed": [],
+      "checkedAt": "2026-09-28T09:37:48Z",
       "id": "dc",
       "monitorOnly": false,
       "name": "DC automated safety cameras",
       "records": 268,
       "removed": [],
       "reviewRequired": false,
-      "status": "changed",
+      "status": "ok",
       "url": "https://maps2.dcgis.dc.gov/dcgis/rest/services/DCGIS_DATA/Public_Safety_WebMercator/MapServer/43"
     },
     {
       "added": [],
       "changed": [],
-      "checkedAt": "2026-09-21T08:49:37Z",
+      "checkedAt": "2026-09-28T09:37:48Z",
       "id": "seattle",
       "monitorOnly": false,
       "name": "Seattle active safety cameras",
@@ -67,20 +56,22 @@
     {
       "added": [],
       "changed": [],
-      "checkedAt": "2026-09-21T08:49:37Z",
+      "checkedAt": "2026-09-28T09:37:48Z",
       "id": "arlington",
       "monitorOnly": false,
       "name": "Arlington photo speed cameras",
-      "records": 32,
-      "removed": [],
+      "records": 31,
+      "removed": [
+        "agency-arlington-acsp018"
+      ],
       "reviewRequired": false,
-      "status": "ok",
+      "status": "changed",
       "url": "https://arlgis.arlingtonva.us/arcgis/rest/services/Open_Data/od_DES_Signal_PhotoSpeed_Cameras_pnt/FeatureServer/0"
     },
     {
       "added": [],
       "changed": [],
-      "checkedAt": "2026-09-21T08:49:37Z",
+      "checkedAt": "2026-09-28T09:37:48Z",
       "id": "tacoma",
       "monitorOnly": false,
       "name": "Tacoma automated enforcement",
@@ -93,7 +84,7 @@
     {
       "added": [],
       "changed": [],
-      "checkedAt": "2026-09-21T08:49:37Z",
+      "checkedAt": "2026-09-28T09:37:48Z",
       "id": "sf",
       "monitorOnly": false,
       "name": "San Francisco speed cameras",
@@ -106,7 +97,7 @@
     {
       "added": [],
       "changed": [],
-      "checkedAt": "2026-09-21T08:49:37Z",
+      "checkedAt": "2026-09-28T09:37:48Z",
       "id": "phoenix-points",
       "monitorOnly": false,
       "name": "Phoenix published photo safety deployment points",
@@ -118,7 +109,7 @@
     },
     {
       "added": [],
-      "checkedAt": "2026-09-21T08:49:37Z",
+      "checkedAt": "2026-09-28T09:37:48Z",
       "id": "abq-city",
       "monitorOnly": true,
       "name": "Albuquerque current camera list",
@@ -130,7 +121,7 @@
     },
     {
       "added": [],
-      "checkedAt": "2026-09-21T08:49:37Z",
+      "checkedAt": "2026-09-28T09:37:48Z",
       "id": "abq-documents",
       "monitorOnly": true,
       "name": "Albuquerque camera certificates",
@@ -141,7 +132,7 @@
       "url": "https://www.cabq.gov/automated-speed-enforcement/ase-documents"
     },
     {
-      "attemptedAt": "2026-09-21T08:49:37Z",
+      "attemptedAt": "2026-09-28T09:37:48Z",
       "error": "HTTP Error 403: Forbidden",
       "id": "bernco",
       "lastGoodAt": null,
@@ -152,7 +143,7 @@
     },
     {
       "added": [],
-      "checkedAt": "2026-09-21T08:49:37Z",
+      "checkedAt": "2026-09-28T09:37:48Z",
       "id": "rio-rancho",
       "monitorOnly": true,
       "name": "Rio Rancho rotating deployments",
@@ -163,7 +154,7 @@
       "url": "https://rrnm.gov/1584/STOP-Safe-Traffic-Operations-Program"
     },
     {
-      "attemptedAt": "2026-09-21T08:49:37Z",
+      "attemptedAt": "2026-09-28T09:37:48Z",
       "error": "HTTP Error 403: Forbidden",
       "id": "nyc",
       "lastGoodAt": null,
@@ -174,19 +165,19 @@
     },
     {
       "added": [],
-      "checkedAt": "2026-09-21T08:49:37Z",
+      "checkedAt": "2026-09-28T09:37:48Z",
       "id": "la",
       "monitorOnly": true,
       "name": "Los Angeles speed safety rollout",
       "records": 0,
       "removed": [],
-      "reviewRequired": false,
-      "status": "ok",
+      "reviewRequired": true,
+      "status": "changed",
       "url": "https://ladot.lacity.gov/speed-safety-system"
     },
     {
       "added": [],
-      "checkedAt": "2026-09-21T08:49:37Z",
+      "checkedAt": "2026-09-28T09:37:48Z",
       "id": "long-beach",
       "monitorOnly": true,
       "name": "Long Beach speed safety rollout",
@@ -198,7 +189,7 @@
     },
     {
       "added": [],
-      "checkedAt": "2026-09-21T08:49:37Z",
+      "checkedAt": "2026-09-28T09:37:48Z",
       "id": "culver-city",
       "monitorOnly": true,
       "name": "Culver City photo enforcement",
@@ -210,7 +201,7 @@
     },
     {
       "added": [],
-      "checkedAt": "2026-09-21T08:49:37Z",
+      "checkedAt": "2026-09-28T09:37:48Z",
       "id": "texas",
       "monitorOnly": true,
       "name": "Texas current photo enforcement reports and exceptions",
@@ -222,7 +213,7 @@
     },
     {
       "added": [],
-      "checkedAt": "2026-09-21T08:49:37Z",
+      "checkedAt": "2026-09-28T09:37:48Z",
       "id": "gwinnett",
       "monitorOnly": true,
       "name": "Gwinnett school camera locations",
@@ -234,7 +225,7 @@
     },
     {
       "added": [],
-      "checkedAt": "2026-09-21T08:49:37Z",
+      "checkedAt": "2026-09-28T09:37:48Z",
       "id": "miami-dade",
       "monitorOnly": true,
       "name": "Miami-Dade school camera locations",
@@ -246,7 +237,7 @@
     },
     {
       "added": [],
-      "checkedAt": "2026-09-21T08:49:37Z",
+      "checkedAt": "2026-09-28T09:37:48Z",
       "id": "boynton-beach",
       "monitorOnly": true,
       "name": "Boynton Beach photo enforcement",
@@ -258,7 +249,7 @@
     },
     {
       "added": [],
-      "checkedAt": "2026-09-21T08:49:37Z",
+      "checkedAt": "2026-09-28T09:37:48Z",
       "id": "philadelphia",
       "monitorOnly": true,
       "name": "Philadelphia speed camera locations",
@@ -270,19 +261,19 @@
     },
     {
       "added": [],
-      "checkedAt": "2026-09-21T08:49:37Z",
+      "checkedAt": "2026-09-28T09:37:48Z",
       "id": "philadelphia-red",
       "monitorOnly": true,
       "name": "Philadelphia red-light camera locations",
       "records": 0,
       "removed": [],
-      "reviewRequired": false,
-      "status": "ok",
+      "reviewRequired": true,
+      "status": "changed",
       "url": "https://philapark.org/red-light-cameras/"
     },
     {
       "added": [],
-      "checkedAt": "2026-09-21T08:49:37Z",
+      "checkedAt": "2026-09-28T09:37:48Z",
       "id": "phoenix",
       "monitorOnly": true,
       "name": "Phoenix current photo safety deployments",
@@ -294,7 +285,7 @@
     },
     {
       "added": [],
-      "checkedAt": "2026-09-21T08:49:37Z",
+      "checkedAt": "2026-09-28T09:37:48Z",
       "id": "massachusetts",
       "monitorOnly": true,
       "name": "Massachusetts traffic law status",
@@ -305,7 +296,7 @@
       "url": "https://www.mass.gov/info-details/massachusetts-law-about-traffic-violations"
     },
     {
-      "attemptedAt": "2026-09-21T08:49:37Z",
+      "attemptedAt": "2026-09-28T09:37:48Z",
       "error": "HTTP Error 403: Forbidden",
       "id": "michigan",
       "lastGoodAt": null,
@@ -315,7 +306,7 @@
       "url": "https://www.michigan.gov/msp/divisions/ohsp/traffic-safety-related-faqs"
     },
     {
-      "attemptedAt": "2026-09-21T08:49:37Z",
+      "attemptedAt": "2026-09-28T09:37:48Z",
       "error": "HTTP Error 403: Forbidden",
       "id": "minneapolis",
       "lastGoodAt": "2026-09-15T02:00:35Z",
@@ -326,7 +317,7 @@
     },
     {
       "added": [],
-      "checkedAt": "2026-09-21T08:49:37Z",
+      "checkedAt": "2026-09-28T09:37:48Z",
       "id": "tampa",
       "monitorOnly": true,
       "name": "Tampa red-light program",
@@ -338,7 +329,7 @@
     },
     {
       "added": [],
-      "checkedAt": "2026-09-21T08:49:37Z",
+      "checkedAt": "2026-09-28T09:37:48Z",
       "id": "hillsborough",
       "monitorOnly": true,
       "name": "Hillsborough red-light locations",
@@ -350,7 +341,7 @@
     },
     {
       "added": [],
-      "checkedAt": "2026-09-21T08:49:37Z",
+      "checkedAt": "2026-09-28T09:37:48Z",
       "id": "solana-beach",
       "monitorOnly": true,
       "name": "Solana Beach current red-light locations",
@@ -362,7 +353,7 @@
     },
     {
       "added": [],
-      "checkedAt": "2026-09-21T08:49:37Z",
+      "checkedAt": "2026-09-28T09:37:48Z",
       "id": "denver",
       "monitorOnly": true,
       "name": "Denver photo enforcement program",
@@ -374,7 +365,7 @@
     },
     {
       "added": [],
-      "checkedAt": "2026-09-21T08:49:37Z",
+      "checkedAt": "2026-09-28T09:37:48Z",
       "id": "orlando",
       "monitorOnly": true,
       "name": "Orlando red-light program",
@@ -386,7 +377,7 @@
     },
     {
       "added": [],
-      "checkedAt": "2026-09-21T08:49:37Z",
+      "checkedAt": "2026-09-28T09:37:48Z",
       "id": "orlando-map",
       "monitorOnly": true,
       "name": "Orlando red-light location map",
@@ -398,19 +389,19 @@
     },
     {
       "added": [],
-      "checkedAt": "2026-09-21T08:49:37Z",
+      "checkedAt": "2026-09-28T09:37:48Z",
       "id": "iihs-speed",
       "monitorOnly": true,
       "name": "US speed enforcement program discovery",
       "records": 0,
       "removed": [],
-      "reviewRequired": false,
-      "status": "ok",
+      "reviewRequired": true,
+      "status": "changed",
       "url": "https://www.iihs.org/research-areas/speed/speed-camera-communities"
     },
     {
       "added": [],
-      "checkedAt": "2026-09-21T08:49:37Z",
+      "checkedAt": "2026-09-28T09:37:48Z",
       "id": "iihs-red",
       "monitorOnly": true,
       "name": "US red-light enforcement program discovery",
@@ -422,7 +413,7 @@
     },
     {
       "added": [],
-      "checkedAt": "2026-09-21T08:49:37Z",
+      "checkedAt": "2026-09-28T09:37:48Z",
       "id": "montgomery-md",
       "monitorOnly": true,
       "name": "Montgomery County current camera location list",
@@ -434,7 +425,7 @@
     },
     {
       "added": [],
-      "checkedAt": "2026-09-21T08:49:37Z",
+      "checkedAt": "2026-09-28T09:37:48Z",
       "id": "maryland-safezones",
       "monitorOnly": true,
       "name": "Maryland highway work-zone camera deployments",
@@ -446,7 +437,7 @@
     },
     {
       "added": [],
-      "checkedAt": "2026-09-21T08:49:37Z",
+      "checkedAt": "2026-09-28T09:37:48Z",
       "id": "scottsdale",
       "monitorOnly": true,
       "name": "Scottsdale fixed photo enforcement",
@@ -458,7 +449,7 @@
     },
     {
       "added": [],
-      "checkedAt": "2026-09-21T08:49:37Z",
+      "checkedAt": "2026-09-28T09:37:48Z",
       "id": "mesa",
       "monitorOnly": true,
       "name": "Mesa photo safety intersections and school deployments",
@@ -470,7 +461,7 @@
     },
     {
       "added": [],
-      "checkedAt": "2026-09-21T08:49:37Z",
+      "checkedAt": "2026-09-28T09:37:48Z",
       "id": "fairfax",
       "monitorOnly": true,
       "name": "Fairfax County active and planned speed cameras",
@@ -481,7 +472,7 @@
       "url": "https://www.fairfaxcounty.gov/topics/speed-cameras"
     },
     {
-      "attemptedAt": "2026-09-21T08:49:37Z",
+      "attemptedAt": "2026-09-28T09:37:48Z",
       "error": "HTTP Error 403: Forbidden",
       "id": "prince-georges-red",
       "lastGoodAt": null,
@@ -492,7 +483,7 @@
     },
     {
       "added": [],
-      "checkedAt": "2026-09-21T08:49:37Z",
+      "checkedAt": "2026-09-28T09:37:48Z",
       "id": "snellville",
       "monitorOnly": true,
       "name": "Snellville school camera locations and posted limits",
@@ -503,18 +494,20 @@
       "url": "https://www.snellville.gov/police-department/school-zone-speed-cameras"
     },
     {
-      "attemptedAt": "2026-09-21T08:49:37Z",
-      "error": "HTTP Error 403: Forbidden",
+      "added": [],
+      "checkedAt": "2026-09-28T09:37:48Z",
       "id": "wheat-ridge",
-      "lastGoodAt": "2026-09-15T06:49:00Z",
+      "monitorOnly": true,
       "name": "Wheat Ridge fixed cameras and expansion",
+      "records": 0,
+      "removed": [],
       "reviewRequired": true,
-      "status": "failed",
+      "status": "changed",
       "url": "https://www.wheatridge.gov/222/Crash-and-Traffic-Team"
     },
     {
       "added": [],
-      "checkedAt": "2026-09-21T08:49:37Z",
+      "checkedAt": "2026-09-28T09:37:48Z",
       "id": "cdot-locations",
       "monitorOnly": true,
       "name": "CDOT state highway camera milepoints",
@@ -526,18 +519,18 @@
     },
     {
       "added": [],
-      "checkedAt": "2026-09-21T08:49:37Z",
+      "checkedAt": "2026-09-28T09:37:48Z",
       "id": "cdot-program",
       "monitorOnly": true,
       "name": "CDOT average-speed program applicability",
       "records": 0,
       "removed": [],
-      "reviewRequired": false,
-      "status": "ok",
+      "reviewRequired": true,
+      "status": "changed",
       "url": "https://www.codot.gov/programs/speedenforcement/faq"
     },
     {
-      "attemptedAt": "2026-09-21T08:49:37Z",
+      "attemptedAt": "2026-09-28T09:37:48Z",
       "error": "HTTP Error 403: Forbidden",
       "id": "nyc-datafeeds",
       "lastGoodAt": null,
@@ -549,7 +542,7 @@
     {
       "added": [],
       "changed": [],
-      "checkedAt": "2026-09-21T08:49:37Z",
+      "checkedAt": "2026-09-28T09:37:48Z",
       "id": "philadelphia-addresses",
       "monitorOnly": false,
       "name": "Philadelphia PPA current camera locations",
@@ -560,30 +553,32 @@
       "url": "https://philapark.org/speed-cameras/"
     },
     {
-      "added": [
-        "agency-hillsborough-intersections-sligh-avenue-habana-avenue-eb"
-      ],
+      "added": [],
       "changed": [],
-      "checkedAt": "2026-09-21T08:49:37Z",
+      "checkedAt": "2026-09-28T09:37:48Z",
       "id": "hillsborough-intersections",
       "monitorOnly": false,
       "name": "Hillsborough County red-light intersections",
       "records": 10,
       "removed": [],
       "reviewRequired": false,
-      "status": "changed",
+      "status": "ok",
       "url": "https://hcfl.gov/government/codes-and-ordinances/red-for-a-reason/red-light-cameras"
     }
   ],
   "reviewRequired": [
     "bernco",
     "nyc",
+    "la",
     "long-beach",
+    "philadelphia-red",
     "massachusetts",
     "michigan",
     "minneapolis",
+    "iihs-speed",
     "prince-georges-red",
     "wheat-ridge",
+    "cdot-program",
     "nyc-datafeeds"
   ]
 }

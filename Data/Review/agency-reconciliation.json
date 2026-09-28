@@ -12,7 +12,7 @@
       "targetID": "osm-node-13726188373"
     }
   ],
-  "checkedAt": "2026-09-25T13:11:05Z",
+  "checkedAt": "2026-09-28T10:10:08Z",
   "review": [
     {
       "id": "agency-chicago-speed-chi003-270",
@@ -2156,17 +2156,6 @@
         {
           "id": "osm-node-12580370398",
           "meters": 32.8
-        }
-      ],
-      "reason": "Nearby accepted record; identity/approach review required"
-    },
-    {
-      "id": "agency-arlington-acsp018",
-      "label": "1600 N VEITCH ST · NB · Innovation ES",
-      "nearby": [
-        {
-          "id": "osm-node-12578282471",
-          "meters": 2.9
         }
       ],
       "reason": "Nearby accepted record; identity/approach review required"
