@@ -53,8 +53,10 @@ retention, sensor wake-up, process suspension or relaunch delivery.
 All nine pass locally on **iOS 18.0 and 27.0**, with zero skipped tests. The 40
 Swift package tests and 72 Python tests also pass. The existing compatibility
 workflow now runs the nine contracts on **iOS 17.5, 18.5 and 26.5** before the
-separate real-location/UI scenario. The workflow changes are local; a new hosted
-CI run has not yet been executed.
+separate real-location/UI scenario. All nine passed on all three hosted runtimes
+with zero failures or skips in [candidate CI](https://github.com/aindaco1/road-notice/actions/runs/36359847376).
+The distinct GPS/audio checks and any failed attempts are recorded in
+[TESTING.md](TESTING.md).
 
 To reproduce with the installed runtime, build test products and run the bounded
 runner (replace `18.0` with an installed iOS runtime):

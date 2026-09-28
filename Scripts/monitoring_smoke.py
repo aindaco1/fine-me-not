@@ -39,7 +39,7 @@ def main():
         summary = json.loads(subprocess.check_output(
             ['xcrun', 'xcresulttool', 'get', 'test-results', 'summary', '--path', str(evidence)], text=True))
         (OUTPUT / 'test-summary.json').write_text(json.dumps(summary, indent=2) + '\n')
-        assert summary['passedTests'] >= 9 and summary['failedTests'] == 0 and summary['skippedTests'] == 0, summary
+        assert summary['passedTests'] >= 10 and summary['failedTests'] == 0 and summary['skippedTests'] == 0, summary
         result.write_text(json.dumps({'runtime': runtime['name'], 'runtimeBuild': runtime['buildversion'],
                                      'passedTests': summary['passedTests'], 'scenario': 'injected OS pause/resume contract',
                                      'realSystemStationaryPauseTested': False, 'physicalDeviceTest': False}, indent=2) + '\n')

@@ -2,10 +2,11 @@
 
 ## Road zones and stationary power candidate — September 27, 2026
 
-Local, unreleased changes implement [road-following zones](ROAD-ZONES.md) and
-[automatic stationary pause/resume](BATTERY-MONITORING.md). The existing source
-version remains 1.0.5 (13); no App Store upload or public database deployment was
-performed in this work.
+The private 1.0.6 (14) candidate implements [road-following zones](ROAD-ZONES.md)
+and [automatic stationary pause/resume](BATTERY-MONITORING.md). Source is under
+[PR #7](https://github.com/aindaco1/road-notice/pull/7); distribution progress is
+recorded in [RELEASE.md](RELEASE.md). No public database deployment is performed
+as part of private candidate preparation.
 
 - **40 Swift tests pass:** 34 CameraCore tests and 6 SupportCore tests, including
   the new road-matching and location-session cases. All 54 generated zones have
@@ -58,8 +59,15 @@ fix; no duplicate-position protection was relaxed.
 `Scripts/monitoring_smoke.py` runs the suite on a fresh simulator and rejects
 failed, skipped or missing tests. The compatibility workflow now includes it for
 iOS 17.5, 18.5 and 26.5, saving its evidence separately from real GPS/audio tests.
-These hosted changes have not yet run remotely. Instructions and exact boundaries
-are in [BATTERY-MONITORING.md](BATTERY-MONITORING.md).
+All nine passed on each hosted runtime with no failures or skips in
+[the candidate CI run](https://github.com/aindaco1/road-notice/actions/runs/36359847376).
+The separate iOS 17.5 background replay and iOS 18.5 foreground settings/audio
+check passed. The first iOS 26.5 background attempt failed before route injection:
+the Home-button action did not establish the required background state. The
+recording still showed the app visible; the journal contained no background
+transition before teardown. Its failed evidence is retained, and only that
+runtime job was rerun with unchanged source and assertions. Instructions and
+exact test boundaries are in [BATTERY-MONITORING.md](BATTERY-MONITORING.md).
 
 Local evidence is under `work/battery-road-investigation-2026-09-27/wake-suite/`:
 `ios27-summary.json`, `ios18/`, and the core/pipeline logs. The original Xcode 27

@@ -250,4 +250,24 @@ final class MonitoringWakeTests: XCTestCase {
         XCTAssertEqual(relaunched.matchDiagnostic.reason, .cooldown)
         relaunched.setEnabled(false); await r.close()
     }
+
+    func testCandidateChannelDoesNotReadNewerPublicCameraCache() throws {
+        let root = FileManager.default.temporaryDirectory.appending(path: UUID().uuidString)
+        let publicCache = root.appending(path: "FineMeNot")
+        try FileManager.default.createDirectory(at: publicCache, withIntermediateDirectories: true)
+        defer { try? FileManager.default.removeItem(at: root) }
+        let bundledURL = try XCTUnwrap(Bundle.main.url(forResource: "cameras", withExtension: "json"))
+        let data = try Data(contentsOf: bundledURL)
+        let bundled = try CameraSnapshot.decode(data)
+        var newer = try XCTUnwrap(JSONSerialization.jsonObject(with: data) as? [String: Any])
+        newer["version"] = "newer-public-snapshot"
+        newer["generatedAt"] = ISO8601DateFormatter().string(from: Date.now.addingTimeInterval(60))
+        try JSONSerialization.data(withJSONObject: newer).write(to: publicCache.appending(path: "cameras.json"))
+
+        let publicStore = CameraStore(baseURL: AppLinks.publicDatabase, supportDirectory: root)
+        XCTAssertEqual(publicStore.snapshot?.version, "newer-public-snapshot")
+        let candidate = CameraStore(baseURL: URL(string: "https://example.invalid/candidate/")!, supportDirectory: root)
+        XCTAssertEqual(candidate.snapshot?.version, bundled.version)
+        XCTAssertEqual(candidate.snapshot?.cameras, bundled.cameras)
+    }
 }
