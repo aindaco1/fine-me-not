@@ -1,19 +1,19 @@
 # Speed-limit coverage
 
-Snapshot 2026-09-21-f03293b9ac43-79004776
+Snapshot 2026-09-28-9efcc4c7358c-69938861
 
-1305 / 1768 speed-camera approaches have an approved posted limit or conservative suppression bound.
+1240 / 1768 speed-camera approaches have an approved posted limit or conservative suppression bound.
 
 | Census metro | Speed approaches | With limit/bound |
 |---|---:|---:|
-| Albuquerque, NM | 72 | 64 |
-| New York-Newark-Jersey City, NY-NJ | 88 | 52 |
+| Albuquerque, NM | 72 | 63 |
+| New York-Newark-Jersey City, NY-NJ | 88 | 51 |
 | Los Angeles-Long Beach-Anaheim, CA | 11 | 5 |
-| Chicago-Naperville-Elgin, IL-IN | 315 | 304 |
+| Chicago-Naperville-Elgin, IL-IN | 315 | 299 |
 | Dallas-Fort Worth-Arlington, TX | 85 | 69 |
 | Houston-Pasadena-The Woodlands, TX | 1 | 0 |
 | Atlanta-Sandy Springs-Roswell, GA | 28 | 20 |
-| Washington-Arlington-Alexandria, DC-VA-MD-WV | 415 | 325 |
+| Washington-Arlington-Alexandria, DC-VA-MD-WV | 415 | 295 |
 | Miami-Fort Lauderdale-West Palm Beach, FL | 12 | 4 |
 | Philadelphia-Camden-Wilmington, PA-NJ-DE-MD | 23 | 20 |
 | Phoenix-Mesa-Chandler, AZ | 33 | 14 |
@@ -21,7 +21,7 @@ Snapshot 2026-09-21-f03293b9ac43-79004776
 | Riverside-San Bernardino-Ontario, CA | 2 | 0 |
 | San Francisco-Oakland-Fremont, CA | 70 | 68 |
 | Detroit-Warren-Dearborn, MI | 0 | 0 |
-| Seattle-Tacoma-Bellevue, WA | 143 | 117 |
+| Seattle-Tacoma-Bellevue, WA | 143 | 114 |
 | Minneapolis-St. Paul-Bloomington, MN-WI | 15 | 1 |
 | Tampa-St. Petersburg-Clearwater, FL | 7 | 0 |
 | San Diego-Chula Vista-Carlsbad, CA | 7 | 7 |

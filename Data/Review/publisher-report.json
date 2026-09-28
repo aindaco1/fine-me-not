@@ -7,22 +7,22 @@
   },
   "fetches": [
     {
-      "checkedAt": "2026-09-21T08:48:51Z",
+      "checkedAt": "2026-09-28T09:37:29Z",
       "source": "speed",
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-09-21T08:49:11Z",
+      "checkedAt": "2026-09-28T09:37:47Z",
       "source": "enforcement",
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-09-21T08:49:37Z",
+      "error": "HTTP Error 504: Gateway Time-out",
       "source": "aliases",
-      "status": "downloaded"
+      "status": "retained"
     }
   ],
-  "generatedAt": "2026-09-25T13:11:05Z",
+  "generatedAt": "2026-09-28T12:19:41Z",
   "records": 2701,
   "review": [
     {
@@ -67,10 +67,6 @@
     },
     {
       "id": "osm-node-13448415652",
-      "reason": "Uncertain, removed, or unsupported tags"
-    },
-    {
-      "id": "osm-node-13691575876",
       "reason": "Uncertain, removed, or unsupported tags"
     },
     {
@@ -2215,17 +2211,6 @@
         {
           "id": "osm-node-12580370398",
           "meters": 32.8
-        }
-      ],
-      "reason": "Nearby accepted record; identity/approach review required"
-    },
-    {
-      "id": "agency-arlington-acsp018",
-      "label": "1600 N VEITCH ST · NB · Innovation ES",
-      "nearby": [
-        {
-          "id": "osm-node-12578282471",
-          "meters": 2.9
         }
       ],
       "reason": "Nearby accepted record; identity/approach review required"
