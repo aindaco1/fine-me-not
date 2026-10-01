@@ -17,10 +17,14 @@
 		6902E5715262B5351B4B7C02 /* cameras.json in Resources */ = {isa = PBXBuildFile; fileRef = 9372829467325A48A981C28E /* cameras.json */; };
 		805BDE0157010983D658E015 /* MonitoringController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D4BF80562A1AF4EAB94B80 /* MonitoringController.swift */; };
 		88EB6725C287529773086875 /* FineMeNotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769B1E84C52CF2C03A6B8904 /* FineMeNotApp.swift */; };
+		8B7C234CD2D52CB54CA1DC4C /* AlertHistoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FD83662755339FF487D5CF /* AlertHistoryTests.swift */; };
+		8BE1BB4097EC5C120B0EAB84 /* AlertHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE9245CE10D213126609FB6 /* AlertHistory.swift */; };
 		B6CE31146A9DB712D807D59C /* AlertPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A3B2801432BA9232F9E83E /* AlertPresenter.swift */; };
+		B7942325B371A4746ABBE266 /* Info 2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 87851A14F5A1367C4EDBB618 /* Info 2.plist */; };
 		B7A4CC7E81753796EBE4D2E8 /* SupportSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA63CF0C66A2ABA1851719ED /* SupportSnapshot.swift */; };
 		C2D5116C210A6A3AD6EB9677 /* AppLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159AFB1BAF8630A2BE9B1534 /* AppLinks.swift */; };
 		CEAE10CBC3F2EFEB62CF7E05 /* camera-approach.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C7B424A156523028F234A9C /* camera-approach.json */; };
+		CF889FFC6F1F462556FB0D1C /* AlertHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45194062933C1F65ED35123 /* AlertHistoryView.swift */; };
 		D05BF1093F023B7E7B2CC703 /* CameraCore in Frameworks */ = {isa = PBXBuildFile; productRef = 8CE4B92D3D67881308F0B880 /* CameraCore */; };
 		E1A4F36DFDB52B6D2AEC8D63 /* SupportCore in Frameworks */ = {isa = PBXBuildFile; productRef = C8C989D22EF81DBABC7C2B87 /* SupportCore */; };
 		E3688E6C69A9CD2C8B8CA070 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6D6C1C16AC3E69E9276718 /* SettingsView.swift */; };
@@ -56,16 +60,20 @@
 		3B14EC1D778E7D6554CB7F98 /* MonitoringTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = MonitoringTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C4F34067F13E7020E14E0CA /* MonitoringWakeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonitoringWakeTests.swift; sourceTree = "<group>"; };
 		4E6D6C1C16AC3E69E9276718 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		50FD83662755339FF487D5CF /* AlertHistoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertHistoryTests.swift; sourceTree = "<group>"; };
 		51732EB72BB997A6B1EDE637 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		626EAA8C2A9955CCD46F8BF8 /* CameraApproachTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraApproachTests.swift; sourceTree = "<group>"; };
 		6C7B424A156523028F234A9C /* camera-approach.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "camera-approach.json"; sourceTree = "<group>"; };
 		769B1E84C52CF2C03A6B8904 /* FineMeNotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FineMeNotApp.swift; sourceTree = "<group>"; };
+		87851A14F5A1367C4EDBB618 /* Info 2.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Info 2.plist"; sourceTree = "<group>"; };
 		8BFAAEF21C56DFDC051FC509 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8DE9245CE10D213126609FB6 /* AlertHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertHistory.swift; sourceTree = "<group>"; };
 		9372829467325A48A981C28E /* cameras.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = cameras.json; sourceTree = "<group>"; };
 		AA63CF0C66A2ABA1851719ED /* SupportSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportSnapshot.swift; sourceTree = "<group>"; };
 		B46111783B4D816B8A99A269 /* FineMeNot.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FineMeNot.entitlements; sourceTree = "<group>"; };
 		BBCF7A738632909C3248C414 /* ReportProblemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportProblemView.swift; sourceTree = "<group>"; };
 		C3378984DFB0CBA142A39FD6 /* SupportDiagnostics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportDiagnostics.swift; sourceTree = "<group>"; };
+		C45194062933C1F65ED35123 /* AlertHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertHistoryView.swift; sourceTree = "<group>"; };
 		C69C200025623524488FF443 /* siren.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = siren.wav; sourceTree = "<group>"; };
 		CB91157ED0519BE807494308 /* CompatibilityUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = CompatibilityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6EE77FEA81E70F52F513497 /* road-notice */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "road-notice"; path = .; sourceTree = SOURCE_ROOT; };
@@ -115,6 +123,7 @@
 		56AF94D247EFF816E45E91AE /* MonitoringTests */ = {
 			isa = PBXGroup;
 			children = (
+				50FD83662755339FF487D5CF /* AlertHistoryTests.swift */,
 				3C4F34067F13E7020E14E0CA /* MonitoringWakeTests.swift */,
 			);
 			path = MonitoringTests;
@@ -160,12 +169,15 @@
 		AE206C6C2188F398FE9A601F /* App */ = {
 			isa = PBXGroup;
 			children = (
+				8DE9245CE10D213126609FB6 /* AlertHistory.swift */,
+				C45194062933C1F65ED35123 /* AlertHistoryView.swift */,
 				22A3B2801432BA9232F9E83E /* AlertPresenter.swift */,
 				159AFB1BAF8630A2BE9B1534 /* AppLinks.swift */,
 				FBE827EF75FA4315E2612444 /* BrandHeader.swift */,
 				19E606E885B4EB83048AE48E /* CameraStore.swift */,
 				B46111783B4D816B8A99A269 /* FineMeNot.entitlements */,
 				769B1E84C52CF2C03A6B8904 /* FineMeNotApp.swift */,
+				87851A14F5A1367C4EDBB618 /* Info 2.plist */,
 				8BFAAEF21C56DFDC051FC509 /* Info.plist */,
 				25D4BF80562A1AF4EAB94B80 /* MonitoringController.swift */,
 				1C448575B14D486CE2AA4204 /* MonitoringLocationService.swift */,
@@ -310,6 +322,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				64A7A39D8C922DB6359BDB20 /* Assets.xcassets in Resources */,
+				B7942325B371A4746ABBE266 /* Info 2.plist in Resources */,
 				FA9EC1381339D65396A1F8B3 /* PrivacyInfo.xcprivacy in Resources */,
 				6902E5715262B5351B4B7C02 /* cameras.json in Resources */,
 				0846D2E658EE98E627FBB0A5 /* siren.wav in Resources */,
@@ -331,6 +344,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B7C234CD2D52CB54CA1DC4C /* AlertHistoryTests.swift in Sources */,
 				3B1FEC6B4654FBB231D142B4 /* MonitoringWakeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,6 +361,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BE1BB4097EC5C120B0EAB84 /* AlertHistory.swift in Sources */,
+				CF889FFC6F1F462556FB0D1C /* AlertHistoryView.swift in Sources */,
 				B6CE31146A9DB712D807D59C /* AlertPresenter.swift in Sources */,
 				C2D5116C210A6A3AD6EB9677 /* AppLinks.swift in Sources */,
 				FEF36A00E6B3A9AB817E4C1A /* BrandHeader.swift in Sources */,
@@ -469,7 +485,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 14;
+				CURRENT_PROJECT_VERSION = 15;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = PWT3Q52LZ2;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -591,7 +607,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 14;
+				CURRENT_PROJECT_VERSION = 15;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = PWT3Q52LZ2;
 				ENABLE_NS_ASSERTIONS = NO;

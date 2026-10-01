@@ -942,7 +942,7 @@
       "travelBearing": 270
     },
     {
-      "evidence": "City current list entries ABQ-37/38 establish fixed cameras in both travel directions, dated 2026-07-29, but give no device coordinates. OSM road geometry desk-reviewed 2026-09-14. This is an explicitly approximate warning area following about 750 m of Coors north of the mapped St Joseph intersection, not a camera point or official enforcement boundary. Exact hardware location and road-test acceptance remain pending.",
+      "evidence": "City entries ABQ-37/38 establish fixed speed cameras in both directions on Coors north of St. Joseph. On 2026-10-01 the project owner confirmed both speed cameras and the posted 45 mph limit during Albuquerque driving tests, and reported the existing alert locations work well. The existing OSM road geometry and warning extent are retained; these are warning areas, not surveyed hardware coordinates or official enforcement boundaries.",
       "geometry": [
         {
           "latitude": 35.1280454,
@@ -990,7 +990,7 @@
         }
       ],
       "id": "abq-coors-st-joseph-possible-nb",
-      "kind": "possibleSpeed",
+      "kind": "speed",
       "label": "Coors north of St. Joseph · NB · approximate area",
       "reviewReference": "ABQ-37",
       "siteID": "abq-coors-st-joseph",
@@ -998,10 +998,19 @@
         "https://www.cabq.gov/automated-speed-enforcement",
         "osm/way/182464508"
       ],
-      "travelBearing": 0
+      "travelBearing": 0,
+      "presenceVerifiedAt": "2026-10-01T06:00:00Z",
+      "speedLimitObservation": {
+        "value": 45,
+        "unit": "mph",
+        "verifiedAt": "2026-10-01T06:00:00Z",
+        "sourceID": "field/coors-st-joseph-2026-10-01/nb",
+        "sourceURL": "https://github.com/aindaco1/road-notice/blob/battery-road-zones/docs/COORS-FIELD-VERIFICATION.md",
+        "evidence": "Project owner field confirmation on 2026-10-01: posted 45 mph at this directional speed-camera approach. Existing warning geometry accepted; no surveyed device position supplied."
+      }
     },
     {
-      "evidence": "City current list entries ABQ-37/38 establish fixed cameras in both travel directions, dated 2026-07-29, but give no device coordinates. OSM road geometry desk-reviewed 2026-09-14. This is an explicitly approximate warning area following about 750 m of Coors north of the mapped St Joseph intersection, not a camera point or official enforcement boundary. Exact hardware location and road-test acceptance remain pending.",
+      "evidence": "City entries ABQ-37/38 establish fixed speed cameras in both directions on Coors north of St. Joseph. On 2026-10-01 the project owner confirmed both speed cameras and the posted 45 mph limit during Albuquerque driving tests, and reported the existing alert locations work well. The existing OSM road geometry and warning extent are retained; these are warning areas, not surveyed hardware coordinates or official enforcement boundaries.",
       "geometry": [
         {
           "latitude": 35.1347804,
@@ -1041,7 +1050,7 @@
         }
       ],
       "id": "abq-coors-st-joseph-possible-sb",
-      "kind": "possibleSpeed",
+      "kind": "speed",
       "label": "Coors north of St. Joseph · SB · approximate area",
       "reviewReference": "ABQ-38",
       "siteID": "abq-coors-st-joseph",
@@ -1049,7 +1058,16 @@
         "https://www.cabq.gov/automated-speed-enforcement",
         "osm/way/102368561"
       ],
-      "travelBearing": 180
+      "travelBearing": 180,
+      "presenceVerifiedAt": "2026-10-01T06:00:00Z",
+      "speedLimitObservation": {
+        "value": 45,
+        "unit": "mph",
+        "verifiedAt": "2026-10-01T06:00:00Z",
+        "sourceID": "field/coors-st-joseph-2026-10-01/sb",
+        "sourceURL": "https://github.com/aindaco1/road-notice/blob/battery-road-zones/docs/COORS-FIELD-VERIFICATION.md",
+        "evidence": "Project owner field confirmation on 2026-10-01: posted 45 mph at this directional speed-camera approach. Existing warning geometry accepted; no surveyed device position supplied."
+      }
     },
     {
       "evidence": "ABQ-09 desk reconciliation 2026-09-14: city current list establishes fixed-camera site and monitored direction; exact device coordinate is unverified. Uses 250 m of the monitored carriageway on each side of the reviewed cross-street anchor. Reviewed road length 500.0 m. This is an approximate app warning area, not a surveyed device position or official enforcement boundary. OSM road geometry and junction evidence are retained in Data/Review/albuquerque-road-areas.json. Physical acceptance remains pending.",

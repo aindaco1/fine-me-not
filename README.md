@@ -4,7 +4,7 @@ Formerly Fine Me Not. The app keeps its existing bundle identity and saved setti
 
 **Camera awareness. Follow posted limits.**
 
-Free, open-source camera warnings for iPhone. One switch, one brief siren. No maps, ads, subscriptions, accounts or trip history.
+Free, open-source camera warnings for iPhone. One switch, one brief siren, and a simple on-device alert log. No maps, ads, subscriptions, accounts or continuous trip history.
 
 Road Notice 1.0.4 targets **iOS 17+**, including iOS 18, 26 and 27. It automatically monitors after one-time opt-in, including permitted background operation. It never promises uninterrupted execution in every iPhone state. The owner has confirmed an audible real-camera warning over Bluetooth with the screen locked; other device checks remain documented in [the acceptance record](docs/TESTING.md). See [release status](docs/RELEASE.md) for Apple availability.
 
@@ -20,6 +20,7 @@ Available free on the **[U.S. App Store](https://apps.apple.com/us/app/road-noti
 - [App Review findings and approved resubmission](docs/APP-REVIEW.md)
 - [Jev integration plan](docs/JEV-PLAN.md)
 - [Tests and physical acceptance](docs/TESTING.md)
+- [On-device alert log](docs/ALERT-LOG.md)
 - [Research and implementation plan](docs/PLAN.md)
 - [Sources, privacy and support](https://finemenot.xyz/)
 

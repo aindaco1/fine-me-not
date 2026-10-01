@@ -69,3 +69,21 @@ private func fix(speed: Double = 10, uncertainty: Double? = 0.5, age: Double = 0
         }
     }
 }
+
+@Test func verifiedCoorsApproachesQuietAt40AndWarnAt45OrWithUnknownSpeedAccuracy() throws {
+    let root = URL(fileURLWithPath: #filePath).deletingLastPathComponent().deletingLastPathComponent().deletingLastPathComponent()
+    let snapshot = try CameraSnapshot.decode(Data(contentsOf: root.appending(path: "Data/Published/cameras.json")))
+    let cameras = snapshot.cameras.filter { $0.id.hasPrefix("abq-coors-st-joseph-") }
+    #expect(cameras.count == 2)
+    for camera in cameras {
+        #expect(camera.kind == .speed)
+        #expect(camera.speedLimit?.value == 45)
+        func observed(_ mph: Double, uncertainty: Double? = 0.5) -> LocationFix {
+            LocationFix(coordinate: camera.geometry[0], timestamp: snapshot.generatedAt,
+                accuracy: 5, speed: mph * 0.44704, course: camera.travelBearing, speedAccuracy: uncertainty)
+        }
+        #expect(SpeedCheck.shouldSuppress(camera, fix: observed(40), now: snapshot.generatedAt))
+        #expect(!SpeedCheck.shouldSuppress(camera, fix: observed(45), now: snapshot.generatedAt))
+        #expect(!SpeedCheck.shouldSuppress(camera, fix: observed(40, uncertainty: nil), now: snapshot.generatedAt))
+    }
+}

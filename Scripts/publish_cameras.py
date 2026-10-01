@@ -195,7 +195,7 @@ def validate(records):
         assert c['kind'] in ('speed', 'redLight', 'speedAndRedLight', 'possibleSpeed')
         g = c['geometry']; assert 1 <= len(g) <= 2000
         assert all(valid_point(p['latitude'], p['longitude']) for p in g)
-        assert len(g) == 1 or c['kind'] == 'possibleSpeed'
+        assert len(g) == 1 or c['kind'] in ('possibleSpeed', 'speed')
         assert all(distance(g[0], p) < 50_000 for p in g)
         if 'travelBearing' in c: assert 0 <= c['travelBearing'] < 360
         if 'roadZone' in c: validate_zone(c['roadZone'])

@@ -6,15 +6,16 @@
   "byBasis": {
     "agency-posted": 194,
     "conservative-lower-bound": 581,
+    "field-verified": 2,
     "osm-posted": 372,
-    "road-matched": 158
+    "road-matched": 156
   },
   "candidateOnly": 41,
   "coveragePercent": 73.8,
   "eligible": 1305,
-  "generatedAt": "2026-09-27T22:10:53Z",
+  "generatedAt": "2026-10-01T14:28:08Z",
   "speedCameras": 1768,
   "totalCameras": 2701,
   "unknown": 422,
-  "version": "2026-09-21-dc315dfa720e-79004776"
+  "version": "2026-09-28-f7d23a339024-c8ba0cd7"
 }

@@ -43,6 +43,13 @@ Review the public source and geometry, update `Data/Overrides/metro.json`, add a
 
 ## Coors correction — September 14, 2026
 
+**October 1 update:** the owner confirmed both cameras and the posted 45 mph limit
+in field testing. Build 15 classifies both as speed cameras, preserving their IDs,
+road areas and road zones. [Field evidence](COORS-FIELD-VERIFICATION.md) supplies
+the dated speed-limit observations. Speed-camera polylines are accepted by build
+15's validator; older apps reject this snapshot and retain their last good data.
+This candidate stays on its private channel pending public release coordination.
+
 The city lists Coors north of St. Joseph in both directions (entries 37/38, dated July 29, 2026). Those entries were inventoried but had no accepted geometry, so earlier bundles omitted them. This is a plausible explanation for the reported missed warning north of I-40, although the exact device passed has not been established.
 
 The correction includes the first approximately 750 m of the mapped Coors carriageways north of Saint Joseph Drive as two **possible speed camera / approximate area** records. The extent is a conservative app review buffer, not a published enforcement boundary. OSM ways 182464508 and 102368561 provide the actual road shape; the intersection is corroborated by way 171955155. The extracted road evidence is in `Data/Review/coors-st-joseph-road-geometry.json`. Exact hardware positions and physical route acceptance remain pending. The immutable snapshot is `2026-09-14-971a10f8454e-571f726e`, with 1,758 warning records.

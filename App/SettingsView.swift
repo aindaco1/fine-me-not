@@ -4,6 +4,10 @@ import CameraCore
 struct SettingsView: View {
     let services: AppServices
     @State private var showingReport = false
+    private enum Sheet: String, Identifiable {
+        case report, alerts
+        var id: String { rawValue }
+    }
     private let blue = Color(red: 10 / 255, green: 0, blue: 148 / 255)
     private let accent = Color(red: 174 / 255, green: 207 / 255, blue: 1)
     @Environment(\.openURL) private var openURL
@@ -69,6 +73,15 @@ struct SettingsView: View {
                         }
                     }
                     row {
+                        Button { services.presenter.history.show() } label: {
+                            HStack {
+                                Text("Alert log")
+                                Spacer()
+                                Image(systemName: "clock.arrow.circlepath")
+                            }.font(.system(.headline, design: .monospaced)).contentShape(Rectangle())
+                        }.accessibilityIdentifier("alert-log")
+                    }
+                    row {
                         VStack(alignment: .leading, spacing: 10) {
                             caption("CAMERA DATABASE")
                             if let snapshot = services.store.snapshot {
@@ -120,7 +133,17 @@ struct SettingsView: View {
                 }
             }.padding(24).frame(maxWidth: 560, alignment: .leading).frame(maxWidth: .infinity)
         }.background(blue.ignoresSafeArea()).foregroundStyle(.white)
-        .sheet(isPresented: $showingReport) { ReportProblemView(services: services) }
+        .sheet(item: Binding<Sheet?>(
+            get: { services.presenter.history.isPresented ? .alerts : showingReport ? .report : nil },
+            set: { value in
+                services.presenter.history.isPresented = value == .alerts
+                showingReport = value == .report
+            })) { sheet in
+            switch sheet {
+            case .report: ReportProblemView(services: services)
+            case .alerts: AlertHistoryView(history: services.presenter.history)
+            }
+        }
     }
 
     private func caption(_ text: String) -> some View {

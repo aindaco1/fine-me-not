@@ -90,7 +90,17 @@ final class AppDelegate: NSObject, UIApplicationDelegate, UNUserNotificationCent
 
     nonisolated func userNotificationCenter(_ center: UNUserNotificationCenter,
                                             willPresent notification: UNNotification) async -> UNNotificationPresentationOptions {
-        [.banner, .sound]
+        let entry = AlertLogEntry.decode(notification.request.content.userInfo[AlertLogEntry.payloadKey] as? String)
+        if let entry { await MainActor.run { AppServices.shared.presenter.history.record(entry) } }
+        return [.banner, .sound, .list]
+    }
+
+    nonisolated func userNotificationCenter(_ center: UNUserNotificationCenter,
+                                            didReceive response: UNNotificationResponse) async {
+        guard response.actionIdentifier == UNNotificationDefaultActionIdentifier,
+              let entry = AlertLogEntry.decode(response.notification.request.content.userInfo[AlertLogEntry.payloadKey] as? String)
+        else { return }
+        await MainActor.run { AppServices.shared.presenter.history.open(entry) }
     }
 }
 

@@ -81,7 +81,7 @@ public struct CameraSnapshot: Codable, Sendable {
             }
             if let zone = camera.roadZone, !zone.isValid { throw DatabaseError.invalidCamera(camera.id) }
             if camera.geometry.count > 1 {
-                guard camera.kind == .possibleSpeed else { throw DatabaseError.invalidCamera(camera.id) }
+                guard camera.kind == .possibleSpeed || camera.kind == .speed else { throw DatabaseError.invalidCamera(camera.id) }
                 let span = camera.geometry.dropFirst().reduce(0.0) { max($0, Geometry.distance(camera.geometry[0], $1)) }
                 guard span < 50_000 else { throw DatabaseError.invalidCamera(camera.id) }
             }

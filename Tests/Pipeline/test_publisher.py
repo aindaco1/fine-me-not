@@ -89,6 +89,24 @@ class PublisherTests(unittest.TestCase):
             for a, b in zip(area['geometry'], area['geometry'][1:]):
                 self.assertTrue(any(on_edge(a, x, y) and on_edge(b, x, y) for x, y in edges), area['id'])
 
+    def test_coors_field_verification_keeps_geometry_and_direction(self):
+        root = pathlib.Path(__file__).resolve().parents[2]
+        current = p.read(root/'Data/Published/cameras.json')
+        previous = p.read(root/'Data/Published/cameras-2026-09-21-dc315dfa720e-79004776.json')
+        old = {c['id']: c for c in previous['cameras']}
+        for suffix, bearing in [('nb',0),('sb',180)]:
+            identifier='abq-coors-st-joseph-possible-'+suffix
+            c=next(c for c in current['cameras'] if c['id']==identifier)
+            self.assertEqual(c['kind'],'speed')
+            self.assertEqual(c['travelBearing'],bearing)
+            self.assertEqual(c['geometry'],old[identifier]['geometry'])
+            self.assertEqual(c['roadZone'],old[identifier]['roadZone'])
+            self.assertEqual(c['speedLimit']['value'],45)
+            self.assertEqual(c['speedLimit']['unit'],'mph')
+            self.assertEqual(c['speedLimit']['verifiedAt'],'2026-10-01T06:00:00Z')
+            self.assertEqual(c['speedLimit']['basis'],'field-verified')
+        p.validate(current['cameras'])
+
     def test_publication_is_immutable_and_checksum_matches(self):
         with tempfile.TemporaryDirectory() as tmp:
             root=pathlib.Path(tmp)

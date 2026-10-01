@@ -337,6 +337,11 @@ def enrich(root,records,documents,now):
         c.pop('speedLimit',None)  # Recompute; removed/changed evidence must not survive as approval.
         if c['kind'] not in SPEED_KINDS:continue
         candidates=[];blocks=[]
+        observation=c.get('speedLimitObservation',{})
+        observed=numeric(observation.get('value'),observation.get('unit'))
+        if observed and observation.get('sourceID') and observation.get('sourceURL') and observation.get('evidence'):
+            candidates.append(evidence(observed,observation['sourceID'],observation['sourceURL'],
+                observation.get('verifiedAt'),'field-verified',observation['evidence']))
         for sid in c['sourceIDs']:
             e=nodes.get(sid)
             if not e or e['type']=='way':continue
@@ -401,13 +406,13 @@ def enrich(root,records,documents,now):
             selected=min(eligible,key=lambda x:(mps(x),x['sourceID'])).copy()
             different=len({round(mps(x),2) for x in eligible})>1
             if different:selected['basis']='conservative-lower-bound';selected['reason']+='; lower of credible alternatives'
-            at=min(x['checkedAt'] for x in eligible)
+            at=selected['checkedAt'] if selected['basis']=='field-verified' else min(x['checkedAt'] for x in eligible)
             end=dt.datetime.fromisoformat(at.replace('Z','+00:00'))+dt.timedelta(days=30)
             expiry=min([stamp(end)]+[x['expiresAt'] for x in eligible if x.get('expiresAt')])
             c['speedLimit']={k:selected[k] for k in ('value','unit','sourceID','basis')}
             c['speedLimit'].update(verifiedAt=at,validUntil=expiry,conditional=False,
                 semantics='conservative-suppression-bound' if selected['basis']=='conservative-lower-bound' else 'posted-limit',
-                confidence={'agency-posted':'agency','osm-posted':'community'}.get(selected['basis'],'inferred'),
+                confidence={'agency-posted':'agency','osm-posted':'community','field-verified':'field-verified'}.get(selected['basis'],'inferred'),
                 sourceURL=selected['sourceURL'])
             c['speedLimitEvidenceIDs']=sorted({x['sourceID'] for x in eligible})
             for x in eligible:

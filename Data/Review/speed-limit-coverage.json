@@ -6,13 +6,14 @@
   "byBasis": {
     "agency-posted": 194,
     "conservative-lower-bound": 581,
+    "field-verified": 2,
     "osm-posted": 372,
-    "road-matched": 158
+    "road-matched": 156
   },
   "candidateOnly": 41,
   "coveragePercent": 73.8,
   "eligible": 1305,
-  "generatedAt": "2026-09-27T22:10:53Z",
+  "generatedAt": "2026-10-01T14:28:08Z",
   "records": [
     {
       "candidates": [
@@ -1113,6 +1114,15 @@
     {
       "candidates": [
         {
+          "basis": "field-verified",
+          "checkedAt": "2026-10-01T06:00:00Z",
+          "reason": "Project owner field confirmation on 2026-10-01: posted 45 mph at this directional speed-camera approach. Existing warning geometry accepted; no surveyed device position supplied.",
+          "sourceID": "field/coors-st-joseph-2026-10-01/nb",
+          "sourceURL": "https://github.com/aindaco1/road-notice/blob/battery-road-zones/docs/COORS-FIELD-VERIFICATION.md",
+          "unit": "mph",
+          "value": 45.0
+        },
+        {
           "alternatives": [
             {
               "unit": "mph",
@@ -1135,27 +1145,15 @@
         }
       ],
       "id": "abq-coors-st-joseph-possible-nb",
-      "kind": "possibleSpeed",
+      "kind": "speed",
       "label": "Coors north of St. Joseph · NB · approximate area",
       "selected": {
-        "alternatives": [
-          {
-            "unit": "mph",
-            "value": 45.0
-          }
-        ],
-        "basis": "road-matched",
-        "checkedAt": "2026-09-21T08:57:50Z",
-        "conditional": false,
-        "expiresAt": null,
-        "lineage": null,
-        "matchDistanceMeters": 0.0,
-        "reason": "Camera member of road",
-        "sourceID": "osm/way/182464508",
-        "sourceURL": "https://www.openstreetmap.org/way/182464508",
-        "sourceUpdatedAt": "2025-10-19T22:59:22Z",
+        "basis": "field-verified",
+        "checkedAt": "2026-10-01T06:00:00Z",
+        "reason": "Project owner field confirmation on 2026-10-01: posted 45 mph at this directional speed-camera approach. Existing warning geometry accepted; no surveyed device position supplied.",
+        "sourceID": "field/coors-st-joseph-2026-10-01/nb",
+        "sourceURL": "https://github.com/aindaco1/road-notice/blob/battery-road-zones/docs/COORS-FIELD-VERIFICATION.md",
         "unit": "mph",
-        "unitBasis": null,
         "value": 45.0
       },
       "status": "eligible",
@@ -1163,6 +1161,15 @@
     },
     {
       "candidates": [
+        {
+          "basis": "field-verified",
+          "checkedAt": "2026-10-01T06:00:00Z",
+          "reason": "Project owner field confirmation on 2026-10-01: posted 45 mph at this directional speed-camera approach. Existing warning geometry accepted; no surveyed device position supplied.",
+          "sourceID": "field/coors-st-joseph-2026-10-01/sb",
+          "sourceURL": "https://github.com/aindaco1/road-notice/blob/battery-road-zones/docs/COORS-FIELD-VERIFICATION.md",
+          "unit": "mph",
+          "value": 45.0
+        },
         {
           "alternatives": [
             {
@@ -1186,27 +1193,15 @@
         }
       ],
       "id": "abq-coors-st-joseph-possible-sb",
-      "kind": "possibleSpeed",
+      "kind": "speed",
       "label": "Coors north of St. Joseph · SB · approximate area",
       "selected": {
-        "alternatives": [
-          {
-            "unit": "mph",
-            "value": 45.0
-          }
-        ],
-        "basis": "road-matched",
-        "checkedAt": "2026-09-21T08:57:50Z",
-        "conditional": false,
-        "expiresAt": null,
-        "lineage": null,
-        "matchDistanceMeters": 0.0,
-        "reason": "Camera member of road",
-        "sourceID": "osm/way/102368561",
-        "sourceURL": "https://www.openstreetmap.org/way/102368561",
-        "sourceUpdatedAt": "2026-08-21T14:28:56Z",
+        "basis": "field-verified",
+        "checkedAt": "2026-10-01T06:00:00Z",
+        "reason": "Project owner field confirmation on 2026-10-01: posted 45 mph at this directional speed-camera approach. Existing warning geometry accepted; no surveyed device position supplied.",
+        "sourceID": "field/coors-st-joseph-2026-10-01/sb",
+        "sourceURL": "https://github.com/aindaco1/road-notice/blob/battery-road-zones/docs/COORS-FIELD-VERIFICATION.md",
         "unit": "mph",
-        "unitBasis": null,
         "value": 45.0
       },
       "status": "eligible",
@@ -80628,5 +80623,5 @@
   "speedCameras": 1768,
   "totalCameras": 2701,
   "unknown": 422,
-  "version": "2026-09-21-dc315dfa720e-79004776"
+  "version": "2026-09-28-f7d23a339024-c8ba0cd7"
 }

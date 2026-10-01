@@ -161,7 +161,7 @@ private func fix(_ latitude: Double, lon: Double = -106, seconds: Double = 0, co
     let root = URL(fileURLWithPath: #filePath).deletingLastPathComponent().deletingLastPathComponent().deletingLastPathComponent()
     let snapshot = try CameraSnapshot.decode(Data(contentsOf: root.appending(path: "Data/Published/cameras.json")))
     let index = CameraIndex(cameras: snapshot.cameras)
-    let areas = snapshot.cameras.filter { ($0.id.hasPrefix("abq-") || $0.id.hasPrefix("bernco-")) && $0.kind == .possibleSpeed && $0.geometry.count > 1 }
+    let areas = snapshot.cameras.filter { ($0.id.hasPrefix("abq-") || $0.id.hasPrefix("bernco-")) && $0.geometry.count > 1 }
     #expect(areas.count == 29) // 20 city areas plus nine newly reviewed county segments.
     for area in areas {
         let heading = try #require(area.travelBearing)

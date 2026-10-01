@@ -42,8 +42,8 @@ Checked September 14, 2026, against the [city camera list](https://www.cabq.gov/
 | ABQ-34 | Central near 61st Street | WB | Approximate area |
 | ABQ-35 | Tramway near Lomas | SB | Approximate area |
 | ABQ-36 | Paseo del Norte west of Barstow | WB | Mapped camera point |
-| ABQ-37 | Coors north of St. Joseph | NB | Approximate area |
-| ABQ-38 | Coors north of St. Joseph | SB | Approximate area |
+| ABQ-37 | Coors north of St. Joseph | NB | Field-confirmed speed camera, 45 mph; existing road area |
+| ABQ-38 | Coors north of St. Joseph | SB | Field-confirmed speed camera, 45 mph; existing road area |
 | ABQ-39 | Central at Texas | WB | Approximate area |
 | ABQ-40 | Louisiana near Marquette | NB | Approximate area |
 
