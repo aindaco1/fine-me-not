@@ -46,8 +46,11 @@ final class AlertHistoryTests: XCTestCase {
         XCTAssertEqual(entry.cameras.first?.kind, .speed)
         let folder = root.appending(path: "AlertHistory")
         XCTAssertEqual(try folder.resourceValues(forKeys: [.isExcludedFromBackupKey]).isExcludedFromBackup, true)
+        // Simulator uses the Mac filesystem and does not implement iOS Data Protection.
+        #if !targetEnvironment(simulator)
         let attributes = try FileManager.default.attributesOfItem(atPath: folder.appending(path: "alerts.json").path)
         XCTAssertEqual(attributes[.protectionKey] as? FileProtectionType, .completeUntilFirstUserAuthentication)
+        #endif
     }
 
     func testDeniedAndFailedNotificationRequestsDoNotLog() async throws {
