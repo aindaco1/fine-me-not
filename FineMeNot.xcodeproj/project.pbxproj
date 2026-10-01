@@ -20,7 +20,6 @@
 		8B7C234CD2D52CB54CA1DC4C /* AlertHistoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FD83662755339FF487D5CF /* AlertHistoryTests.swift */; };
 		8BE1BB4097EC5C120B0EAB84 /* AlertHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE9245CE10D213126609FB6 /* AlertHistory.swift */; };
 		B6CE31146A9DB712D807D59C /* AlertPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A3B2801432BA9232F9E83E /* AlertPresenter.swift */; };
-		B7942325B371A4746ABBE266 /* Info 2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 87851A14F5A1367C4EDBB618 /* Info 2.plist */; };
 		B7A4CC7E81753796EBE4D2E8 /* SupportSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA63CF0C66A2ABA1851719ED /* SupportSnapshot.swift */; };
 		C2D5116C210A6A3AD6EB9677 /* AppLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159AFB1BAF8630A2BE9B1534 /* AppLinks.swift */; };
 		CEAE10CBC3F2EFEB62CF7E05 /* camera-approach.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C7B424A156523028F234A9C /* camera-approach.json */; };
@@ -65,7 +64,6 @@
 		626EAA8C2A9955CCD46F8BF8 /* CameraApproachTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraApproachTests.swift; sourceTree = "<group>"; };
 		6C7B424A156523028F234A9C /* camera-approach.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "camera-approach.json"; sourceTree = "<group>"; };
 		769B1E84C52CF2C03A6B8904 /* FineMeNotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FineMeNotApp.swift; sourceTree = "<group>"; };
-		87851A14F5A1367C4EDBB618 /* Info 2.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Info 2.plist"; sourceTree = "<group>"; };
 		8BFAAEF21C56DFDC051FC509 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8DE9245CE10D213126609FB6 /* AlertHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertHistory.swift; sourceTree = "<group>"; };
 		9372829467325A48A981C28E /* cameras.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = cameras.json; sourceTree = "<group>"; };
@@ -177,7 +175,6 @@
 				19E606E885B4EB83048AE48E /* CameraStore.swift */,
 				B46111783B4D816B8A99A269 /* FineMeNot.entitlements */,
 				769B1E84C52CF2C03A6B8904 /* FineMeNotApp.swift */,
-				87851A14F5A1367C4EDBB618 /* Info 2.plist */,
 				8BFAAEF21C56DFDC051FC509 /* Info.plist */,
 				25D4BF80562A1AF4EAB94B80 /* MonitoringController.swift */,
 				1C448575B14D486CE2AA4204 /* MonitoringLocationService.swift */,
@@ -322,7 +319,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				64A7A39D8C922DB6359BDB20 /* Assets.xcassets in Resources */,
-				B7942325B371A4746ABBE266 /* Info 2.plist in Resources */,
 				FA9EC1381339D65396A1F8B3 /* PrivacyInfo.xcprivacy in Resources */,
 				6902E5715262B5351B4B7C02 /* cameras.json in Resources */,
 				0846D2E658EE98E627FBB0A5 /* siren.wav in Resources */,
@@ -485,7 +481,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 15;
+				CURRENT_PROJECT_VERSION = 16;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = PWT3Q52LZ2;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -607,7 +603,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 15;
+				CURRENT_PROJECT_VERSION = 16;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = PWT3Q52LZ2;
 				ENABLE_NS_ASSERTIONS = NO;
