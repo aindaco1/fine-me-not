@@ -1,6 +1,6 @@
 # On-device alert log
 
-Build 1.0.6 (15) adds **Alert log** in Settings. A notification tap opens its
+Build 1.0.6 (16) adds **Alert log** in Settings. A notification tap opens its
 specific entry, even when the app starts from a terminated state. Entries show
 the notification time and each camera's name and type. Grouped warnings remain
 one entry per notification, preserving every camera in that warning.

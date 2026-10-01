@@ -1,5 +1,39 @@
 # Release and distribution
 
+## Private Coors verification and alert-log candidate — October 1, 2026
+
+**1.0.6 (16)** is **Testing** in the existing First Drive internal group, from [PR #7](https://github.com/aindaco1/road-notice/pull/7),
+app source `159a5e318c97a30ed5611e2b934fb16dbe8e91d3`. The owner reported successful
+Albuquerque field use of build 14's approach zones and Quiet below speed limit.
+The two Coors north of St. Joseph approaches now retain those same warning
+locations with confirmed speed-camera classification and field-verified 45 mph
+limits. The new [local alert log](ALERT-LOG.md) stores posted camera notifications
+and routes notification taps to their saved entries.
+
+Apple accepted the internal-only upload at **08:43 MDT (14:43 UTC) on October 1**.
+Processing is complete and build-specific test instructions are saved. A refreshed
+Helium App Store Connect view verifies **Build 16 Internal · Testing · First Drive · 1 invite**.
+Tester access and roles are unchanged; physical installation remains unverified. Apple build ID:
+`53261023-131d-45fc-88db-7d37cbccab6e`. This is not a public App Store submission or
+public database deployment. Build 15 was uploaded before a clean-checkout packaging
+fix; it remains unassigned. Build 16 excludes the pre-existing local `Info 2.plist`
+iCloud duplicate from XcodeGen resources, preserving that file on disk.
+
+The signed archive and dSYM are retained at
+`~/Library/Developer/Xcode/Archives/2026-10-01/RoadNotice-1.0.6-16-private.xcarchive`.
+Signature and release-bundle checks pass with iOS 17 minimum, 2,701 cameras and
+54 road zones. The immutable private feed is
+`https://raw.githubusercontent.com/aindaco1/road-notice/b751e4b7a832e08ef0700264520481b4241aab14/Data/Published/`.
+Snapshot `2026-09-28-f7d23a339024-c8ba0cd7` has SHA-256
+`923b6db9cf2feb5b00d2e2faefedee7fc3b484805a2d528e81ab70aec1a0e7e1`.
+The dated field limits expire October 31 under the existing freshness policy.
+Older public validators reject speed-camera polylines, so this snapshot stays on
+the private channel until a compatible public app rollout is coordinated.
+
+[Source CI](https://github.com/aindaco1/road-notice/actions/runs/36878134469) passes.
+See [the test record](TESTING.md) for app-hosted and runtime results. Local archive,
+upload and test-instruction evidence is retained in `work/release16/`.
+
 ## Private stationary-power and road-zone candidate — September 27, 2026
 
 **1.0.6 (14)** is **Testing** in the existing First Drive internal TestFlight group.

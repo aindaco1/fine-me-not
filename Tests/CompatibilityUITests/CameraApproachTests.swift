@@ -10,7 +10,7 @@ final class CameraApproachTests: XCTestCase {
     private func launchApp() -> XCUIApplication {
         continueAfterFailure = false
         let app = XCUIApplication()
-        app.launchArguments = ["-warnings.enabled", "YES"]
+        app.launchArguments = ["-warnings.enabled", "YES", "-warnings.encounters", ""]
         app.launch()
         XCTAssertTrue(app.switches["Camera warnings"].waitForExistence(timeout: 60))
         return app
@@ -67,5 +67,27 @@ final class CameraApproachTests: XCTestCase {
         Thread.sleep(forTimeInterval: 10)
         // The outer runner asserts exactly one completed background siren from
         // the app's persisted journal, independently of this route driver.
+    }
+
+    @MainActor
+    func testCameraNotificationPersistsInAlertLog() throws {
+        try testBackgroundCameraApproach()
+        let app = XCUIApplication()
+        app.terminate()
+        app.launch()
+        XCTAssertTrue(app.switches["Camera warnings"].waitForExistence(timeout: 60))
+        let log = app.buttons["alert-log"]
+        for _ in 0..<4 where !log.isHittable { app.swipeUp() }
+        log.tap()
+        XCTAssertTrue(app.navigationBars["Alert log"].waitForExistence(timeout: 10))
+        let item = app.buttons.matching(NSPredicate(format: "label CONTAINS %@", "Gibson between Carlisle and San Mateo")).firstMatch
+        XCTAssertTrue(item.waitForExistence(timeout: 10))
+        item.tap()
+        XCTAssertTrue(app.navigationBars["Camera alert"].waitForExistence(timeout: 10))
+        XCTAssertTrue(app.staticTexts["Gibson between Carlisle and San Mateo · EB"].exists)
+        let screenshot = XCTAttachment(screenshot: app.screenshot())
+        screenshot.name = "Saved camera alert details"
+        screenshot.lifetime = .keepAlways
+        add(screenshot)
     }
 }

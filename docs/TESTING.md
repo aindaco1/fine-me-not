@@ -1,5 +1,58 @@
 # Test and acceptance record
 
+## Coors verification and on-device alert log — October 1, 2026
+
+The owner reported that build 14's Albuquerque approach zones and Quiet below
+speed limit worked well, and verified both existing Coors north of St. Joseph
+cameras and their 45 mph limit. This field report does not measure battery use or
+establish every physical audio/wake scenario in the historical checklists below.
+Build 16 preserves their geometry, bearing, IDs and road zones. The dated source
+and expiry policy are in [COORS-FIELD-VERIFICATION.md](COORS-FIELD-VERIFICATION.md).
+
+- **41 Swift package tests pass** (35 CameraCore, 6 SupportCore), including Coors
+  below-limit suppression, near-limit warning, uncertain-speed warning and all
+  existing road-zone corpus cases.
+- **74 pipeline tests pass**, including fresh field observations, conflicts and
+  expiry, and preservation of the Coors warning geometry.
+- **14 app-hosted tests pass on local iOS 18.0**, including notification payload
+  persistence and deduplication, denied/failed requests, quiet approaches, the
+  500-entry cap, clearing and cold payload restoration. Backup exclusion is
+  asserted; the Data Protection assertion runs only on physical iOS because the
+  simulator uses the Mac filesystem.
+- The real Core Location Gibson eastbound replay on iOS 18.0 emitted a camera
+  notification, completed its background siren and saved one matching log entry.
+- The build 16 signed archive passes signature and private-channel bundle checks.
+  [Clean-checkout source CI](https://github.com/aindaco1/road-notice/actions/runs/36878134469)
+  also passes. Earlier build 15 CI exposed an accidentally included local iCloud
+  duplicate resource; build 16 excludes it. The initial runtime dispatch failed
+  fetching the shared submodule before tests and was replaced by a fresh run.
+
+[Runtime CI](https://github.com/aindaco1/road-notice/actions/runs/36878141832) at
+app source `159a5e3` passes **14/14 app-hosted tests on each of iOS 17.5, 18.5 and
+26.5**, plus iOS 17.5/26.5 background approach/siren replays and iOS 18.5 foreground
+settings/audio. The latter retains the documented hosted GPS limitation.
+
+The local iOS 18.0 UI test `testCameraNotificationPersistsInAlertLog` also passes:
+a real route posts a camera notification, the app terminates/relaunches, and the
+saved entry opens to its camera type, road label and time. Its screenshot is
+retained in `work/release16/ui-attachments/`. Encounter cooldown state is reset
+through test launch arguments so a reused simulator can replay the same route.
+
+**Notification Center cold-tap acceptance remains open.** The initial reused
+simulator attempt selected an older notification; the fresh-notification and
+post-reboot attempts both displayed the notification but the automated taps did
+not reopen the app. This is not a passing end-to-end cold-tap result. Payload
+restoration and navigation state pass in app-hosted tests, and the saved-entry
+screen passes the separate UI test; the physical tap from a closed app is explicit
+in the TestFlight checklist. The unsuccessful exploratory UI test and all failed
+results are preserved under `work/release16/notification-tap-investigation.swift`
+and `work/alert-log-cold-tap*`, rather than installed as a claimed passing gate.
+
+Local evidence is in `work/alert-log-*` and `work/release16/`. The initial
+XcodeBuildMCP iOS 27 test invocation timed out; it is not counted as passing.
+Physical testing of build 16 remains separate from the owner's successful build
+14 field report. Windows work is a subsequent scope after this iPhone test.
+
 ## Road zones and stationary power candidate — September 27, 2026
 
 The private 1.0.6 (14) candidate implements [road-following zones](ROAD-ZONES.md)
