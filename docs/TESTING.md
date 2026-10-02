@@ -1,5 +1,10 @@
 # Test and acceptance record
 
+Historical raw-artifact paths below are subject to the October 2
+[local retention cleanup](RELEASE.md#local-artifact-retention--october-2-2026).
+The latest passing results, transcripts, screenshots and crash evidence remain;
+superseded result bundles and duplicate videos were pruned.
+
 ## Notification crash and log styling — October 2, 2026
 
 The owner submitted TestFlight feedback for **1.0.6 (16)** on iPhone 16 Pro Max,

@@ -1,5 +1,27 @@
 # Release and distribution
 
+## Local artifact retention — October 2, 2026
+
+After build 17 delivery, obsolete local build caches, exports, repeated result
+bundles, test videos and generated site previews were removed at the owner's
+request. The complete signed build 17 archive remains in Xcode Archives. Older
+build 14–16 archives were replaced by their verified dSYMs and archive metadata
+in ignored `work/release-symbols/`; historical archive paths below describe what
+was retained at delivery and no longer imply the full older binaries exist.
+
+Current simulator development output (`/tmp/road-notice-fix17`), the Swift test
+cache (`/tmp/road-notice-core17`), and the final app-hosted and saved-entry UI
+results (`/tmp/road-notice-after17-unit.xcresult` and
+`/tmp/road-notice-after17-log-final.xcresult`) remain available. Test transcripts,
+selected screenshots and the original TestFlight crash report are preserved.
+Older raw result bundles and duplicate videos referenced in historical testing
+records were pruned. The local inventory is `work/cleanup-2026-10-02/inventory.json`.
+The generated project remains committed and can be reopened normally in Xcode.
+
+Only `main` and the active `battery-road-zones` branch exist locally and on origin;
+no stale branch needed deletion. Local `main` was fast-forwarded to `origin/main`.
+This cleanup did not expire or change any distributed TestFlight build.
+
 ## Notification-crash follow-up — October 2, 2026
 
 **1.0.6 (17)** is **Testing** in the existing **First Drive** internal group,
