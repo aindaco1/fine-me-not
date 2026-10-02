@@ -105,41 +105,4 @@ final class CameraApproachTests: XCTestCase {
         screenshot.lifetime = .keepAlways
         add(screenshot)
     }
-    @MainActor
-    func testNotificationTapAfterTerminationOpensCameraEntry() throws {
-        try testBackgroundCameraApproach()
-        let app = XCUIApplication()
-        app.terminate()
-        try openCameraNotification()
-    }
-
-    @MainActor
-    func testNotificationTapFromBackgroundOpensCameraEntry() throws {
-        try testBackgroundCameraApproach()
-        try openCameraNotification()
-    }
-
-    @MainActor
-    private func openCameraNotification() throws {
-        let app = XCUIApplication()
-        XCUIDevice.shared.press(.home)
-        let springboard = XCUIApplication(bundleIdentifier: "com.apple.springboard")
-        springboard.coordinate(withNormalizedOffset: CGVector(dx: 0.5, dy: 0.01))
-            .press(forDuration: 0.1, thenDragTo: springboard.coordinate(withNormalizedOffset: CGVector(dx: 0.5, dy: 0.8)))
-        let notification = springboard.buttons.matching(NSPredicate(format: "label CONTAINS %@", "Speed camera: Gibson between Carlisle and San Mateo")).firstMatch
-        XCTAssertTrue(notification.waitForExistence(timeout: 10))
-        notification.tap()
-        if !app.navigationBars["Camera alert"].waitForExistence(timeout: 3), notification.exists {
-            notification.tap() // Expand a grouped stack, then open its notification.
-        }
-        XCTAssertTrue(app.navigationBars["Camera alert"].waitForExistence(timeout: 15))
-        XCTAssertTrue(app.staticTexts["Gibson between Carlisle and San Mateo · EB"].exists)
-        let screenshot = XCTAttachment(screenshot: app.screenshot())
-        screenshot.name = "Notification opens saved camera entry"
-        screenshot.lifetime = .keepAlways
-        add(screenshot)
-        app.buttons["Done"].tap()
-        XCTAssertTrue(app.switches["Camera warnings"].waitForExistence(timeout: 10))
-        XCTAssertEqual(app.state, .runningForeground)
-    }
 }

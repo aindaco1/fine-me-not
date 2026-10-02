@@ -26,8 +26,13 @@ Raw feedback remains in ignored local `work/release17/testflight-feedback/`.
   were blocked by a location permission prompt; the test setup now handles the
   explicit simulator permission buttons before beginning its route.
 
-Notification navigation/UI acceptance and TestFlight distribution results are
-recorded below when complete. Physical confirmation remains the owner's next test.
+Notification Center automation remains an **unpassed gate** on both local runtimes.
+On iOS 27 a fresh notification was posted after fixing the permission setup, but
+its offscreen/scrolling behavior prevented the automated default-action check.
+The exploratory tests and failed results remain under `work/release17/` and are
+not included in the committed passing suite. This is separate from the actual
+TestFlight crash stack, whose off-main UIKit completion is corrected in build 17.
+Physical notification opening must be checked in First Drive.
 
 
 ## Coors verification and on-device alert log — October 1, 2026
