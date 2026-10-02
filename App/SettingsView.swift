@@ -8,8 +8,8 @@ struct SettingsView: View {
         case report, alerts
         var id: String { rawValue }
     }
-    private let blue = Color(red: 10 / 255, green: 0, blue: 148 / 255)
-    private let accent = Color(red: 174 / 255, green: 207 / 255, blue: 1)
+    private let blue = AppStyle.blue
+    private let accent = AppStyle.accent
     @Environment(\.openURL) private var openURL
 
     var body: some View {

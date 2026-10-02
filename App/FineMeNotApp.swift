@@ -89,18 +89,27 @@ final class AppDelegate: NSObject, UIApplicationDelegate, UNUserNotificationCent
     }
 
     nonisolated func userNotificationCenter(_ center: UNUserNotificationCenter,
-                                            willPresent notification: UNNotification) async -> UNNotificationPresentationOptions {
+                                            willPresent notification: UNNotification,
+                                            withCompletionHandler completionHandler: @escaping @Sendable (UNNotificationPresentationOptions) -> Void) {
         let entry = AlertLogEntry.decode(notification.request.content.userInfo[AlertLogEntry.payloadKey] as? String)
-        if let entry { await MainActor.run { AppServices.shared.presenter.history.record(entry) } }
-        return [.banner, .sound, .list]
+        Task { @MainActor in
+            if let entry { AppServices.shared.presenter.history.record(entry) }
+            completionHandler([.banner, .sound, .list])
+        }
     }
 
     nonisolated func userNotificationCenter(_ center: UNUserNotificationCenter,
-                                            didReceive response: UNNotificationResponse) async {
-        guard response.actionIdentifier == UNNotificationDefaultActionIdentifier,
-              let entry = AlertLogEntry.decode(response.notification.request.content.userInfo[AlertLogEntry.payloadKey] as? String)
-        else { return }
-        await MainActor.run { AppServices.shared.presenter.history.open(entry) }
+                                            didReceive response: UNNotificationResponse,
+                                            withCompletionHandler completionHandler: @escaping @Sendable () -> Void) {
+        let entry = response.actionIdentifier == UNNotificationDefaultActionIdentifier
+            ? AlertLogEntry.decode(response.notification.request.content.userInfo[AlertLogEntry.payloadKey] as? String) : nil
+        // UIKit's response completion updates its scene snapshot and must run on
+        // main too. The nonisolated async delegate's generated completion ran on
+        // a worker thread and crashed build 16 after notification taps.
+        Task { @MainActor in
+            if let entry { AppServices.shared.presenter.history.open(entry) }
+            completionHandler()
+        }
     }
 }
 

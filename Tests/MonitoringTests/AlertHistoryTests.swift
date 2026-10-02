@@ -53,6 +53,25 @@ final class AlertHistoryTests: XCTestCase {
         #endif
     }
 
+    func testLimitSnapshotAndBuild16EntriesRemainReadable() throws {
+        let entry = AlertLogEntry(warnings: warnings())
+        let restored = try XCTUnwrap(AlertLogEntry.decode(entry.payload))
+        XCTAssertEqual(restored.cameras.first?.speedLimit?.value, 45)
+        XCTAssertEqual(restored.cameras.first?.speedLimit?.unit, "mph")
+        var legacy = try XCTUnwrap(JSONSerialization.jsonObject(with: JSONEncoder().encode(entry)) as? [String: Any])
+        var cameras = try XCTUnwrap(legacy["cameras"] as? [[String: Any]])
+        for index in cameras.indices { cameras[index].removeValue(forKey: "speedLimit") }
+        legacy["cameras"] = cameras
+        let data = try JSONSerialization.data(withJSONObject: legacy)
+        let oldEntry = try XCTUnwrap(AlertLogEntry.decode(String(data: data, encoding: .utf8)))
+        XCTAssertEqual(oldEntry.id, entry.id)
+        XCTAssertNil(oldEntry.cameras.first?.speedLimit)
+        let root = try directory()
+        let history = AlertHistory(supportDirectory: root)
+        history.record(oldEntry)
+        XCTAssertEqual(AlertHistory(supportDirectory: root).entries, [oldEntry])
+    }
+
     func testDeniedAndFailedNotificationRequestsDoNotLog() async throws {
         for fails in [false, true] {
             let history = AlertHistory(supportDirectory: try directory())

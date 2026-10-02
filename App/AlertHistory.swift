@@ -8,6 +8,7 @@ struct AlertLogEntry: Codable, Identifiable, Hashable, Sendable {
         let id: String
         let label: String
         let kind: CameraKind
+        let speedLimit: SpeedLimit?
     }
     let id: UUID
     let date: Date
@@ -18,7 +19,8 @@ struct AlertLogEntry: Codable, Identifiable, Hashable, Sendable {
     init(warnings: [CameraWarning], date: Date = .now) {
         id = UUID()
         self.date = date
-        cameras = warnings.map { CameraItem(id: $0.camera.id, label: $0.camera.label, kind: $0.camera.kind) }
+        cameras = warnings.map { CameraItem(id: $0.camera.id, label: $0.camera.label,
+            kind: $0.camera.kind, speedLimit: $0.camera.speedLimit) }
     }
 
     var payload: String? {

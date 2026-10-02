@@ -270,4 +270,54 @@ final class MonitoringWakeTests: XCTestCase {
         XCTAssertEqual(candidate.snapshot?.version, bundled.version)
         XCTAssertEqual(candidate.snapshot?.cameras, bundled.cameras)
     }
+    final class BundledStore: MonitoringCameraStore {
+        let snapshot: CameraSnapshot?
+        let index: CameraIndex
+        var isDue = false
+        init() throws {
+            let url = try XCTUnwrap(Bundle.main.url(forResource: "cameras", withExtension: "json"))
+            let snapshot = try CameraSnapshot.decode(Data(contentsOf: url))
+            self.snapshot = snapshot
+            index = CameraIndex(cameras: snapshot.cameras)
+        }
+        func refresh(force: Bool) async -> Bool { false }
+    }
+
+    func testBundledCoorsLimitsThroughLocationControllerInBothDirections() async throws {
+        let store = try BundledStore()
+        for (direction, origin, sign, longitude, course) in [
+            ("nb", 35.124, 1.0, -106.70156, 0.0), ("sb", 35.139, -1.0, -106.70177, 180.0)
+        ] {
+            for (mph, uncertainty, quiet) in [(40.0, 0.5, true), (44.0, 0.5, false), (45.0, 0.5, false), (40.0, -1.0, false)] {
+                let suite = "coors-tests-\(UUID().uuidString)"
+                let defaults = try XCTUnwrap(UserDefaults(suiteName: suite))
+                defaults.set(true, forKey: "warnings.enabled")
+                let source = Source(), presenter = Presenter(), clock = Clock()
+                clock.date = try XCTUnwrap(store.snapshot?.generatedAt)
+                let controller = MonitoringController(store: store, presenter: presenter, defaults: defaults,
+                    locationService: source, now: { clock.date })
+                controller.start()
+                var sawQuietMatch = false
+                for second in 0..<90 {
+                    clock.advance(1)
+                    source.send(.init(stationary: false, location: CLLocation(
+                        coordinate: CLLocationCoordinate2D(latitude: origin + sign * Double(second) * mph * 0.44704 / 111_195,
+                            longitude: longitude), altitude: 0, horizontalAccuracy: 5, verticalAccuracy: 5,
+                        course: course, courseAccuracy: 1, speed: mph * 0.44704, speedAccuracy: uncertainty,
+                        timestamp: clock.date)))
+                    await eventually { controller.lastFixAt == clock.date }
+                    if controller.matchDiagnostic.reason == .belowSpeedLimit {
+                        sawQuietMatch = true
+                        XCTAssertEqual(controller.matchDiagnostic.speedLimit?.value, 45)
+                    }
+                }
+                let matches = presenter.warnings.filter { $0.camera.id == "abq-coors-st-joseph-possible-\(direction)" }
+                XCTAssertEqual(matches.count, quiet ? 0 : 1, "\(direction), \(mph) mph, uncertainty \(uncertainty)")
+                XCTAssertEqual(sawQuietMatch, quiet)
+                controller.setEnabled(false)
+                defaults.removePersistentDomain(forName: suite)
+            }
+        }
+    }
+
 }

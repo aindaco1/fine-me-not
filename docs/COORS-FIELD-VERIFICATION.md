@@ -25,3 +25,15 @@ expired limits and speeds inside the existing uncertainty margin still warn.
 
 This is the owner's field report, not an independent survey or a measured battery
 test. It does not establish physical acceptance for other cities or devices.
+
+## October 2 follow-up
+
+The owner questioned whether build 16 detects these limits. Inspection of the
+retained signed archive confirmed both 45 mph records and the intended private
+database URL. Their validity ends October 31, 2026 at 06:00 UTC. The existing
+GPS uncertainty rule is unchanged: measured speed plus at least 1 m/s
+(about 2.24 mph), or the reported uncertainty when larger, must be strictly
+below 45 mph. Thus a measured 44 mph still warns; 40 mph with good speed
+accuracy can be quiet. Unknown speed accuracy also warns. The report alone
+does not establish which condition occurred on the phone. New log entries
+show their saved speed-check limit to make the loaded data visible.

@@ -1,5 +1,35 @@
 # Test and acceptance record
 
+## Notification crash and log styling — October 2, 2026
+
+The owner submitted TestFlight feedback for **1.0.6 (16)** on iPhone 16 Pro Max,
+iOS 27.0.1: tapping a notification crashed the foregrounding app. The downloaded
+symbolicated report shows SIGABRT on thread 2 in UIKit's
+`_performBlockAfterCATransactionCommitSynchronizes:`, called by the compiler-generated
+completion for `AppDelegate.userNotificationCenter(_:didReceive:)`. Build 17
+uses explicit completion callbacks, with routing and completion on the main actor.
+Raw feedback remains in ignored local `work/release17/testflight-feedback/`.
+
+- **41 Swift package tests and 74 pipeline tests pass.** The local CloudDocs
+  scratch directory initially hit macOS resource-fork signing restrictions;
+  the successful Swift run uses `/tmp/road-notice-core17`.
+- **16 app-hosted tests pass on a clean iOS 27.0 simulator**, including old
+  build-16 log decoding and a full bundled Coors replay through
+  `MonitoringController` for both directions. At 40 mph with 0.5 m/s uncertainty
+  the approaches are quiet; 44/45 mph and unknown uncertainty each warn once.
+- The signed build 17 archive passes signature and bundle checks, with the
+  unchanged private database URL, 2,701 cameras, iOS 17 minimum and both 45 mph
+  field observations. No speed threshold, geometry or evidence expiry changed.
+- Initial iOS 18 notification-tap attempts did not open the app from Notification
+  Center and are retained as failures. Its combined app-hosted invocation stalled
+  before executing tests; it is not counted as a pass. Initial iOS 27 UI tests
+  were blocked by a location permission prompt; the test setup now handles the
+  explicit simulator permission buttons before beginning its route.
+
+Notification navigation/UI acceptance and TestFlight distribution results are
+recorded below when complete. Physical confirmation remains the owner's next test.
+
+
 ## Coors verification and on-device alert log — October 1, 2026
 
 The owner reported that build 14's Albuquerque approach zones and Quiet below

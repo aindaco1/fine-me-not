@@ -12,6 +12,7 @@
 		2B2E34C843E4B749B8768DFD /* ReportProblemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCF7A738632909C3248C414 /* ReportProblemView.swift */; };
 		2E7B86187A1CFEC9DC6BE648 /* SupportDiagnostics.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3378984DFB0CBA142A39FD6 /* SupportDiagnostics.swift */; };
 		3B1FEC6B4654FBB231D142B4 /* MonitoringWakeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4F34067F13E7020E14E0CA /* MonitoringWakeTests.swift */; };
+		40D4B8C8493E8EB0CE082AF6 /* AppStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5849A73F004EA1B34C544F /* AppStyle.swift */; };
 		569F6DE90A50E174D33C2B0D /* MonitoringLocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C448575B14D486CE2AA4204 /* MonitoringLocationService.swift */; };
 		64A7A39D8C922DB6359BDB20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26746EA45AB88B7E205BA8CB /* Assets.xcassets */; };
 		6902E5715262B5351B4B7C02 /* cameras.json in Resources */ = {isa = PBXBuildFile; fileRef = 9372829467325A48A981C28E /* cameras.json */; };
@@ -58,6 +59,7 @@
 		26746EA45AB88B7E205BA8CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B14EC1D778E7D6554CB7F98 /* MonitoringTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = MonitoringTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C4F34067F13E7020E14E0CA /* MonitoringWakeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonitoringWakeTests.swift; sourceTree = "<group>"; };
+		4E5849A73F004EA1B34C544F /* AppStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStyle.swift; sourceTree = "<group>"; };
 		4E6D6C1C16AC3E69E9276718 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		50FD83662755339FF487D5CF /* AlertHistoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertHistoryTests.swift; sourceTree = "<group>"; };
 		51732EB72BB997A6B1EDE637 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
@@ -171,6 +173,7 @@
 				C45194062933C1F65ED35123 /* AlertHistoryView.swift */,
 				22A3B2801432BA9232F9E83E /* AlertPresenter.swift */,
 				159AFB1BAF8630A2BE9B1534 /* AppLinks.swift */,
+				4E5849A73F004EA1B34C544F /* AppStyle.swift */,
 				FBE827EF75FA4315E2612444 /* BrandHeader.swift */,
 				19E606E885B4EB83048AE48E /* CameraStore.swift */,
 				B46111783B4D816B8A99A269 /* FineMeNot.entitlements */,
@@ -361,6 +364,7 @@
 				CF889FFC6F1F462556FB0D1C /* AlertHistoryView.swift in Sources */,
 				B6CE31146A9DB712D807D59C /* AlertPresenter.swift in Sources */,
 				C2D5116C210A6A3AD6EB9677 /* AppLinks.swift in Sources */,
+				40D4B8C8493E8EB0CE082AF6 /* AppStyle.swift in Sources */,
 				FEF36A00E6B3A9AB817E4C1A /* BrandHeader.swift in Sources */,
 				F1FF10099611FE15F35E05FB /* CameraStore.swift in Sources */,
 				88EB6725C287529773086875 /* FineMeNotApp.swift in Sources */,
@@ -481,7 +485,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 16;
+				CURRENT_PROJECT_VERSION = 17;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = PWT3Q52LZ2;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -603,7 +607,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 16;
+				CURRENT_PROJECT_VERSION = 17;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = PWT3Q52LZ2;
 				ENABLE_NS_ASSERTIONS = NO;
