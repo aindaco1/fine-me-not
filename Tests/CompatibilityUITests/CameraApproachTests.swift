@@ -105,4 +105,33 @@ final class CameraApproachTests: XCTestCase {
         screenshot.lifetime = .keepAlways
         add(screenshot)
     }
+
+    @MainActor
+    func testColdNotificationDefaultAction() throws {
+        try testBackgroundCameraApproach()
+        let app = XCUIApplication()
+        app.terminate()
+        let springboard = XCUIApplication(bundleIdentifier: "com.apple.springboard")
+        XCUIDevice.shared.press(.home)
+        springboard.coordinate(withNormalizedOffset: CGVector(dx: 0.5, dy: 0.01))
+            .press(forDuration: 0.1, thenDragTo: springboard.coordinate(withNormalizedOffset: CGVector(dx: 0.5, dy: 0.8)))
+        // Scroll the notification content; an edge swipe dismisses the shade.
+        springboard.coordinate(withNormalizedOffset: CGVector(dx: 0.5, dy: 0.745))
+            .press(forDuration: 0.1, thenDragTo: springboard.coordinate(withNormalizedOffset: CGVector(dx: 0.5, dy: 0.255)))
+        let matches = springboard.buttons.matching(NSPredicate(format: "label CONTAINS %@", "Speed camera: Gibson between Carlisle and San Mateo"))
+        let item = try XCTUnwrap(matches.allElementsBoundByIndex.first(where: { $0.isHittable }))
+        item.tap()
+        if !app.navigationBars["Camera alert"].waitForExistence(timeout: 3), item.exists {
+            // Some simulator Notification Center versions need swipe-to-open.
+            item.swipeRight()
+            let open = springboard.buttons["Open"]
+            if open.waitForExistence(timeout: 3) { open.tap() }
+        }
+        XCTAssertTrue(app.navigationBars["Camera alert"].waitForExistence(timeout: 15))
+        XCTAssertTrue(app.staticTexts["Gibson between Carlisle and San Mateo · EB"].exists)
+        let screenshot = XCTAttachment(screenshot: app.screenshot())
+        screenshot.name = "Opened notification after termination"
+        screenshot.lifetime = .keepAlways
+        add(screenshot)
+    }
 }

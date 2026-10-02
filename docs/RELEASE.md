@@ -1,5 +1,38 @@
 # Release and distribution
 
+## Notification-crash follow-up — October 2, 2026
+
+**1.0.6 (17)** is **Testing** in the existing **First Drive** internal group,
+with its one tester. Apple accepted the upload with symbols at **13:41 MDT**;
+processing, saved phone instructions, group assignment and the refreshed
+`Build 17 Internal · Testing · First Drive · 1 invite` row are verified.
+Apple build ID: `442b7b29-ab42-4a2b-b161-5e8b5e525182`.
+
+The binary corrects build 16's off-main notification completion identified by
+the owner's TestFlight crash report. Both log screens use the main app's styling,
+and new entries display their saved, eligible speed-check limit. Old entries
+remain readable. Coors data and warning thresholds are unchanged: the signed
+archive includes both verified 45 mph limits, and full controller replays verify
+below-limit suppression. The signed archive and dSYM are retained at
+`~/Library/Developer/Xcode/Archives/2026-10-02/RoadNotice-1.0.6-17-private.xcarchive`.
+The app source is `bb227d5`; `368f12d` only adjusts the test/acceptance record.
+The internal-only export retains build 16's immutable private database URL and
+cannot be used for App Store or external TestFlight distribution.
+
+[Source CI](https://github.com/aindaco1/road-notice/actions/runs/37055355209) and
+[runtime CI](https://github.com/aindaco1/road-notice/actions/runs/37055359022) pass,
+including all iOS 17.5, 18.5 and 26.5 jobs.
+Local 41 Swift, 74 pipeline and 16 app-hosted tests pass, as do signed-bundle checks.
+The saved-entry UI test opens the styled details after a real route and app
+relaunch. A separate iOS 27 check opens the matching entry from Notification
+Center after termination without crashing, using swipe-right opening. Its test
+body passes, but Xcode stalled finalizing that result bundle; the transcript and
+rendered screen are preserved. Normal notification taps must still be confirmed
+on the phone. The updated First Drive checklist is saved. See
+[the acceptance record](TESTING.md) for the evidence and limitations.
+No public database deployment, App Store submission or tester-access change was made.
+
+
 ## Private Coors verification and alert-log candidate — October 1, 2026
 
 **1.0.6 (16)** is **Testing** in the existing First Drive internal group, from [PR #7](https://github.com/aindaco1/road-notice/pull/7),

@@ -26,13 +26,34 @@ Raw feedback remains in ignored local `work/release17/testflight-feedback/`.
   were blocked by a location permission prompt; the test setup now handles the
   explicit simulator permission buttons before beginning its route.
 
-Notification Center automation remains an **unpassed gate** on both local runtimes.
-On iOS 27 a fresh notification was posted after fixing the permission setup, but
-its offscreen/scrolling behavior prevented the automated default-action check.
-The exploratory tests and failed results remain under `work/release17/` and are
-not included in the committed passing suite. This is separate from the actual
-TestFlight crash stack, whose off-main UIKit completion is corrected in build 17.
-Physical notification opening must be checked in First Drive.
+The final iOS 27 saved-entry UI test passes with a completed `.xcresult`: a real
+Core Location route posts the alert, then the app terminates/relaunches and opens
+the saved camera details. Its rendered screenshot confirms the blue styling,
+monospaced heading, Done button and saved 40 mph Gibson limit. Evidence is in
+`work/release17/log-final-attachments/` and `/tmp/road-notice-after17-log-final.xcresult`.
+An earlier successful test body stalled in Xcode result finalization; the fresh
+completed invocation is the acceptance result.
+
+The final iOS 27 Notification Center check **opens the matching entry after app
+termination without crashing**. `testColdNotificationDefaultAction` drives the
+real route, terminates the app, scrolls the notification into view and invokes
+its default action. The simulator required swipe-right opening after the initial
+tap; this does not establish single-tap behavior on a physical phone. XCTest
+reports one test with zero failures in 98.463 seconds, and the resulting screen
+was visually verified. Xcode then stalled during result-bundle finalization and
+was stopped after several minutes; this run is supported by its test transcript
+and screenshot, **not a completed `.xcresult`**. Evidence:
+`work/release17/cold-final.log` and `work/release17/cold-notification-opened.jpg`.
+Earlier failed exploratory attempts remain preserved locally.
+
+[Source CI](https://github.com/aindaco1/road-notice/actions/runs/37055355209) and
+[runtime CI](https://github.com/aindaco1/road-notice/actions/runs/37055359022)
+both pass for the shipped app source `bb227d5`. All three runtime jobs (iOS 17.5,
+18.5 and 26.5) pass, including app-hosted tests and the selected driving/audio
+checks. The documented hosted iOS 18 moving-GPS limitation remains separate.
+The new cold notification UI check is local evidence, not part of that CI run.
+Normal taps with the app backgrounded and terminated remain in the physical
+First Drive checklist for build 17.
 
 
 ## Coors verification and on-device alert log — October 1, 2026
