@@ -4,9 +4,8 @@
 
 The owner requested promotion of the latest candidate and publication. App Store
 Connect currently shows **1.0.5 (13), Ready for Distribution**. Internal-only
-build 17 cannot be promoted to App Review, so **1.0.6 (18)** repackages the same
-app features for standard App Store Connect distribution, with iOS 17 minimum.
-Submission and Apple approval are separate from local archive validation.
+build 17 cannot be promoted to App Review, so **1.0.6 (19)** packages its features
+for standard App Store Connect distribution, with iOS 17 minimum.
 
 The release uses `https://finemenot.xyz/data/v2/`, replacing the private pinned
 candidate feed. The normal local cache and saved user settings remain compatible.
@@ -16,17 +15,19 @@ preserving IDs, coordinates, directions, limits and all other camera fields.
 This avoids older validators rejecting the entire download. Each projection gets
 its own immutable filename and checksum; previously published bytes remain intact.
 
-Reconciliation with the September 28 source refresh retains **2,701 cameras** and
-both field-verified Coors 45 mph observations. Fresh source connectivity supports
-**38 current road zones**, versus 54 in the private candidate. Unsupported zones
-use the existing fallback matcher. The fixed 54-zone corpus remains tested
-alongside every currently published zone; no source-age or geometry requirement
-is relaxed. Camera geometry and direction remain unchanged; generated road zones
-follow the current source evidence. Physical battery, overnight departure and
-normal phone notification-tap checks remain open in the acceptance record.
+All **2,701 cameras and 54 road zones** are retained. Every zone is identical to
+build 17, including Coors, and both field-verified 45 mph observations remain.
+Release preparation found an incomplete September 28 road-source refresh had
+replaced the active cache index with a mostly unavailable query set. The fetcher
+now activates a replacement query set only when all its cached batches exist;
+otherwise it retains the last active set with its original dates and expiry.
+Build 18 was uploaded during preparation but is superseded and is not the release
+candidate. Its reduced 38-zone snapshot was never deployed to the public feed.
 
-Release evidence is retained in ignored `work/release18/`. The current signed
-archive is `~/Library/Developer/Xcode/Archives/2026-10-04/RoadNotice-1.0.6-18.xcarchive`.
+Source tests cover partial replacement, complete replacement and unrelated caches.
+Physical battery, overnight departure and normal phone notification-tap checks
+remain open in the acceptance record. Release evidence is in ignored
+`work/release19/`; the signed archive is retained in Xcode Archives after packaging.
 
 ## Local artifact retention — October 2, 2026
 

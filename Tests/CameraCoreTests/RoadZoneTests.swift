@@ -99,7 +99,7 @@ func everyPublishedZoneHasUsableApproachAndRejectsOffsetTraffic(filename: String
     // Keep the original 54-zone corpus as a fixed regression fixture. Current
     // coverage follows source freshness/connectivity and can legitimately shrink.
     if filename != "cameras.json" { #expect(zoned.count == 54) }
-    #expect(!zoned.isEmpty)
+    #expect(zoned.count >= 40)
     for c in zoned {
         let z = try #require(c.roadZone)
         var warned = false

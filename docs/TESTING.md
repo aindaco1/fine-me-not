@@ -1,24 +1,23 @@
 # Test and acceptance record
 
-## Public build 18 preparation — October 4, 2026
+## Public build 19 preparation — October 4, 2026
 
-Local 41 Swift package tests (including a second fixed-corpus case) and 75 Python
-pipeline tests pass. The first run exposed two assumptions tied to the private
-snapshot: a minimum current zone count of 40 and byte equality of a regenerated
-Coors road zone. The unchanged original 54-zone corpus and the field-edit snapshot
-now retain those exact regression assertions; current zones are replayed separately
-and current camera geometry, bearings and 45 mph field observations remain checked.
-The refreshed inputs produce 38 supported zones under the existing source rules.
+Local 41 Swift package tests (including a second fixed-corpus case) and 77 Python
+pipeline tests pass. The source-refresh regression is fixed: all 54 road zones
+are identical to build 17. Current Coors zone, geometry, bearing and verified
+45 mph assertions pass; no zone-count threshold was lowered.
 
-Both public feeds pass checksum, record-preservation and immutable-byte checks.
-The signed release archive passes codesign and resource checks with iOS 17 minimum,
-2,701 cameras and the default public channel. Further runtime and distribution
+Two new source tests cover retaining the previous active shard set when a newly
+hashed query set is incomplete, switching only after it is complete, preserving
+source dates and ignoring unrelated historical caches. Both distribution feeds
+pass checksum, camera-preservation and immutable-byte checks. The released 1.0.5
+validator accepted the staged legacy feed during preparation.
+
+Build 18 passed its signed archive checks and all 16 app-hosted tests. Its
+additional UI log replay failed before completion and remains recorded in
+`work/release18/` and `/tmp/road-notice-release18-log.xcresult`. Build 18 is
+superseded and was not selected for App Review. Build 19 distribution and runtime
 results are recorded after completion. Physical checks remain separate.
-
-Historical raw-artifact paths below are subject to the October 2
-[local retention cleanup](RELEASE.md#local-artifact-retention--october-2-2026).
-The latest passing results, transcripts, screenshots and crash evidence remain;
-superseded result bundles and duplicate videos were pruned.
 
 ## Notification crash and log styling — October 2, 2026
 

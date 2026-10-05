@@ -41,9 +41,11 @@ On Coors and Alameda, use normal lawful driving with Quiet configured as appropr
 
 ## October 4 public feed preparation
 
-The September 28 road-source refresh supports 38 zones from the same 71 reviewed
-approaches. Missing or ambiguous connected geometry falls back through the
-existing matcher; all 2,701 camera records remain. The original 54-zone immutable
-snapshot remains a fixed regression corpus in addition to current-data replays.
+The public candidate retains all 54 zones, byte-for-byte identical to build 17.
+An incomplete road-source refresh initially hid valid cached geometry because
+new query hashes replaced the entire active cache list. The fetcher now retains
+the last active set until every replacement batch is available. Dates and expiry
+remain unchanged; unrelated inactive shards are not reintroduced.
+
 Version 1.0.6 reads `/data/v2/`; the original feed retains classifications accepted
 by older validators. Both feeds are produced together from the same camera data.

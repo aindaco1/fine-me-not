@@ -6,7 +6,8 @@
 - Both Coors north of St. Joseph cameras confirmed in field testing, with a verified 45 mph limit for Quiet below speed limit.
 - A simple on-device log of camera notifications. Tapping a notification opens its entry; Quiet approaches are not logged. The latest 500 entries stay on the phone, with a Clear action and no uploads or backups.
 
-- Public build 18 uses a regularly updated feed supporting confirmed speed-camera areas; older releases retain a compatible feed.
+- Incomplete road-source refreshes retain the previous cache set and its original expiry.
+- Public build 19 uses a regularly updated feed supporting confirmed speed-camera areas; older releases retain a compatible feed.
 
 Apple review and availability are tracked in [the release record](docs/RELEASE.md).
 
