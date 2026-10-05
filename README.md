@@ -6,7 +6,7 @@ Formerly Fine Me Not. The app keeps its existing bundle identity and saved setti
 
 Free, open-source camera warnings for iPhone. One switch, one brief siren, and a simple on-device alert log. No maps, ads, subscriptions, accounts or continuous trip history.
 
-Road Notice 1.0.4 targets **iOS 17+**, including iOS 18, 26 and 27. It automatically monitors after one-time opt-in, including permitted background operation. It never promises uninterrupted execution in every iPhone state. The owner has confirmed an audible real-camera warning over Bluetooth with the screen locked; other device checks remain documented in [the acceptance record](docs/TESTING.md). See [release status](docs/RELEASE.md) for Apple availability.
+Road Notice targets **iOS 17+**, including iOS 18, 26 and 27. It automatically monitors after one-time opt-in, including permitted background operation. It never promises uninterrupted execution in every iPhone state. The owner has confirmed an audible real-camera warning over Bluetooth with the screen locked; other device checks remain documented in [the acceptance record](docs/TESTING.md). See [release status](docs/RELEASE.md) for Apple availability.
 
 Available free on the **[U.S. App Store](https://apps.apple.com/us/app/road-notice/id6812094105)**. Maintained by **Alonso Indacochea**. [Website and setup instructions](https://finemenot.xyz/) · [Release notes](CHANGELOG.md).
 
@@ -38,7 +38,7 @@ Build checks use the same iOS 17.0 minimum as distribution. The iOS runtime comp
 
 ## Background and audio
 
-The development candidate retains one automotive live-location stream through system-managed stationary pauses and automatic movement recovery. iOS 17 uses the two-step location-permission request; iOS 18 and later use a retained Core Location service session. A background activity session spans idle periods, and significant-change monitoring supports permitted relaunch/recovery. Physical battery savings and departure timing still need acceptance; see [battery monitoring](docs/BATTERY-MONITORING.md). Every fix uses one on-device alert engine. Alerts are one original 1.8-second siren, using the system-selected audio route and media volume, with brief audio ducking. No silent-audio keepalive, location uploads, or claimed critical-alert entitlement.
+Version 1.0.6 retains one automotive live-location stream through system-managed stationary pauses and automatic movement recovery. iOS 17 uses the two-step location-permission request; iOS 18 and later use a retained Core Location service session. A background activity session spans idle periods, and significant-change monitoring supports permitted relaunch/recovery. Physical battery savings and departure timing still need acceptance; see [battery monitoring](docs/BATTERY-MONITORING.md). Every fix uses one on-device alert engine. Alerts are one original 1.8-second siren, using the system-selected audio route and media volume, with brief audio ducking. No silent-audio keepalive, location uploads, or claimed critical-alert entitlement.
 
 ## Weekly database
 
