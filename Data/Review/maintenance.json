@@ -1,6 +1,11 @@
 {
-  "generatedAt": "2026-09-25T13:11:26Z",
+  "generatedAt": "2026-09-28T12:20:01Z",
   "items": [
+    {
+      "lastGoodAt": null,
+      "reason": "47 regions unavailable, retained or deferred; see regional results",
+      "source": "overture"
+    },
     {
       "added": [],
       "lastGoodAt": null,
@@ -22,8 +27,24 @@
       "lastGoodAt": null,
       "reason": "Source page changed",
       "removed": [],
+      "source": "la",
+      "url": "https://ladot.lacity.gov/speed-safety-system"
+    },
+    {
+      "added": [],
+      "lastGoodAt": null,
+      "reason": "Source page changed",
+      "removed": [],
       "source": "long-beach",
       "url": "https://longbeach.gov/pw/projects/automated-speed-enforcement-system/"
+    },
+    {
+      "added": [],
+      "lastGoodAt": null,
+      "reason": "Source page changed",
+      "removed": [],
+      "source": "philadelphia-red",
+      "url": "https://philapark.org/red-light-cameras/"
     },
     {
       "added": [],
@@ -52,6 +73,14 @@
     {
       "added": [],
       "lastGoodAt": null,
+      "reason": "Source page changed",
+      "removed": [],
+      "source": "iihs-speed",
+      "url": "https://www.iihs.org/research-areas/speed/speed-camera-communities"
+    },
+    {
+      "added": [],
+      "lastGoodAt": null,
       "reason": "HTTP Error 403: Forbidden",
       "removed": [],
       "source": "prince-georges-red",
@@ -59,11 +88,19 @@
     },
     {
       "added": [],
-      "lastGoodAt": "2026-09-15T06:49:00Z",
-      "reason": "HTTP Error 403: Forbidden",
+      "lastGoodAt": null,
+      "reason": "Source page changed",
       "removed": [],
       "source": "wheat-ridge",
       "url": "https://www.wheatridge.gov/222/Crash-and-Traffic-Team"
+    },
+    {
+      "added": [],
+      "lastGoodAt": null,
+      "reason": "Source page changed",
+      "removed": [],
+      "source": "cdot-program",
+      "url": "https://www.codot.gov/programs/speedenforcement/faq"
     },
     {
       "added": [],
@@ -2220,17 +2257,6 @@
       "reason": "Nearby accepted record; identity/approach review required"
     },
     {
-      "id": "agency-arlington-acsp018",
-      "label": "1600 N VEITCH ST · NB · Innovation ES",
-      "nearby": [
-        {
-          "id": "osm-node-12578282471",
-          "meters": 2.9
-        }
-      ],
-      "reason": "Nearby accepted record; identity/approach review required"
-    },
-    {
       "id": "agency-arlington-acsp025",
       "label": "1308 S GEORGE MASON DR · NB · Randolph ES",
       "nearby": [
@@ -2497,104 +2523,84 @@
       "source": "chicago-school-park-policy"
     },
     {
-      "lastGoodAt": "2026-09-15T06:08:20Z",
+      "lastGoodAt": null,
       "reason": "HTTP Error 504: Gateway Time-out",
-      "source": "osm-roads-b1e878ce1fd9"
+      "source": "osm-roads-a99a21a912a2"
     },
     {
-      "lastGoodAt": "2026-09-15T06:09:21Z",
-      "reason": "HTTP Error 504: Gateway Timeout",
-      "source": "osm-roads-8c405ad5e923"
-    },
-    {
-      "lastGoodAt": "2026-09-15T06:09:21Z",
+      "lastGoodAt": null,
       "reason": "The read operation timed out",
-      "source": "osm-roads-99ead47c9e29"
+      "source": "osm-roads-04630dd7e1a6"
     },
     {
-      "lastGoodAt": "2026-09-15T06:11:30Z",
+      "lastGoodAt": null,
       "reason": "HTTP Error 504: Gateway Timeout",
-      "source": "osm-roads-ccbde924480a"
+      "source": "osm-roads-6e2bace93b57"
     },
     {
-      "lastGoodAt": "2026-09-15T06:12:32Z",
+      "lastGoodAt": null,
       "reason": "HTTP Error 504: Gateway Timeout",
-      "source": "osm-roads-895f396fe557"
+      "source": "osm-roads-0b0a628102fb"
     },
     {
-      "lastGoodAt": "2026-09-15T06:12:32Z",
-      "reason": "The read operation timed out",
-      "source": "osm-roads-5894601863b9"
+      "lastGoodAt": null,
+      "reason": "HTTP Error 504: Gateway Time-out",
+      "source": "osm-roads-38733e4a312e"
     },
     {
-      "lastGoodAt": "2026-09-15T06:12:32Z",
+      "lastGoodAt": null,
       "reason": "Run acquisition time budget reached",
-      "source": "osm-roads-8aea36076191"
+      "source": "osm-roads-c1c29bfe2f15"
     },
     {
-      "lastGoodAt": "2026-09-15T06:13:36Z",
+      "lastGoodAt": null,
       "reason": "Run acquisition time budget reached",
-      "source": "osm-roads-9ec8c3090381"
+      "source": "osm-roads-756cbaf85b3a"
     },
     {
-      "lastGoodAt": "2026-09-15T06:21:35Z",
+      "lastGoodAt": null,
       "reason": "Run acquisition time budget reached",
-      "source": "osm-roads-665023f4e552"
+      "source": "osm-roads-d4a05d4df9b3"
     },
     {
-      "lastGoodAt": "2026-09-15T06:14:36Z",
+      "lastGoodAt": null,
       "reason": "Run acquisition time budget reached",
-      "source": "osm-roads-a8348656f2b7"
+      "source": "osm-roads-2c95746a1014"
     },
     {
-      "lastGoodAt": "2026-09-15T06:14:36Z",
+      "lastGoodAt": null,
       "reason": "Run acquisition time budget reached",
-      "source": "osm-roads-26c75e21932a"
+      "source": "osm-roads-08280438fa6a"
     },
     {
-      "lastGoodAt": "2026-09-15T06:15:35Z",
+      "lastGoodAt": null,
       "reason": "Run acquisition time budget reached",
-      "source": "osm-roads-f5fcf75d9642"
+      "source": "osm-roads-35cb6bcf3fd9"
     },
     {
-      "lastGoodAt": "2026-09-15T06:21:35Z",
+      "lastGoodAt": null,
       "reason": "Run acquisition time budget reached",
-      "source": "osm-roads-a140902f7ae1"
+      "source": "osm-roads-737b9142063e"
     },
     {
-      "lastGoodAt": "2026-09-15T06:15:35Z",
+      "lastGoodAt": null,
       "reason": "Run acquisition time budget reached",
-      "source": "osm-roads-3c2e30bf5743"
+      "source": "osm-roads-362b357ca0da"
     },
     {
-      "lastGoodAt": "2026-09-15T06:16:29Z",
+      "lastGoodAt": null,
       "reason": "Run acquisition time budget reached",
-      "source": "osm-roads-239baefdbd91"
+      "source": "osm-roads-df850cd0bd36"
     },
     {
-      "lastGoodAt": "2026-09-15T06:16:29Z",
+      "lastGoodAt": null,
       "reason": "Run acquisition time budget reached",
-      "source": "osm-roads-f4f4eb348e48"
+      "source": "osm-roads-69a5bc24c87d"
     },
     {
-      "lastGoodAt": "2026-09-15T06:17:34Z",
+      "lastGoodAt": null,
       "reason": "Run acquisition time budget reached",
-      "source": "osm-roads-5f51cc0796ed"
-    },
-    {
-      "lastGoodAt": "2026-09-15T06:17:34Z",
-      "reason": "Run acquisition time budget reached",
-      "source": "osm-roads-c098690a8684"
-    },
-    {
-      "lastGoodAt": "2026-09-15T06:18:32Z",
-      "reason": "Run acquisition time budget reached",
-      "source": "osm-roads-5b5b39a0367c"
-    },
-    {
-      "lastGoodAt": "2026-09-15T06:18:32Z",
-      "reason": "Run acquisition time budget reached",
-      "source": "osm-roads-daddc01b4db8"
+      "source": "osm-roads-b78a8b6da55b"
     }
   ],
   "reviewCount": 243

@@ -381,35 +381,6 @@
       "evidence": "Arlington photo speed cameras: published coordinates, not independently surveyed. Source: https://www.arcgis.com/home/item.html?id=eb99da63af414381852644a4a29fc224",
       "geometry": [
         {
-          "latitude": 38.89184351597667,
-          "longitude": -77.085833021354
-        }
-      ],
-      "id": "agency-arlington-acsp018",
-      "kind": "speed",
-      "label": "1600 N VEITCH ST · NB · Innovation ES",
-      "locationKey": "1600 N VEITCH ST",
-      "positionPrecision": "agency-published-point",
-      "roadNames": [
-        "N VEITCH ST"
-      ],
-      "siteID": "agency-arlington-acsp018",
-      "sourceIDs": [
-        "agency/arlington/ACSP018"
-      ],
-      "speedLimitCandidate": {
-        "conditional": true,
-        "sourceID": "agency/arlington/ACSP018",
-        "suppressionApproved": false,
-        "unit": "mph",
-        "value": 20.0
-      },
-      "travelBearing": 0
-    },
-    {
-      "evidence": "Arlington photo speed cameras: published coordinates, not independently surveyed. Source: https://www.arcgis.com/home/item.html?id=eb99da63af414381852644a4a29fc224",
-      "geometry": [
-        {
           "latitude": 38.86899738361563,
           "longitude": -77.09544065402817
         }
@@ -929,7 +900,7 @@
       "travelBearing": 90
     }
   ],
-  "checkedAt": "2026-09-21T08:49:37Z",
+  "checkedAt": "2026-09-28T09:37:48Z",
   "excluded": [
     {
       "reason": "Not active / retired",
@@ -938,10 +909,6 @@
     {
       "reason": "Not active / retired",
       "sourceRecord": "ACSP008"
-    },
-    {
-      "reason": "Not active / retired",
-      "sourceRecord": "ACSP013"
     },
     {
       "reason": "Not active / retired",
@@ -1001,6 +968,6 @@
     }
   ],
   "id": "arlington",
-  "rowCount": 49,
+  "rowCount": 47,
   "url": "https://arlgis.arlingtonva.us/arcgis/rest/services/Open_Data/od_DES_Signal_PhotoSpeed_Cameras_pnt/FeatureServer/0"
 }
