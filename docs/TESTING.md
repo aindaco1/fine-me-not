@@ -1,5 +1,20 @@
 # Test and acceptance record
 
+## Public build 18 preparation — October 4, 2026
+
+Local 41 Swift package tests (including a second fixed-corpus case) and 75 Python
+pipeline tests pass. The first run exposed two assumptions tied to the private
+snapshot: a minimum current zone count of 40 and byte equality of a regenerated
+Coors road zone. The unchanged original 54-zone corpus and the field-edit snapshot
+now retain those exact regression assertions; current zones are replayed separately
+and current camera geometry, bearings and 45 mph field observations remain checked.
+The refreshed inputs produce 38 supported zones under the existing source rules.
+
+Both public feeds pass checksum, record-preservation and immutable-byte checks.
+The signed release archive passes codesign and resource checks with iOS 17 minimum,
+2,701 cameras and the default public channel. Further runtime and distribution
+results are recorded after completion. Physical checks remain separate.
+
 Historical raw-artifact paths below are subject to the October 2
 [local retention cleanup](RELEASE.md#local-artifact-retention--october-2-2026).
 The latest passing results, transcripts, screenshots and crash evidence remain;

@@ -35,24 +35,26 @@ def check():
     icon = download('app-icon.png')
     expected_icon = ROOT / 'App/Resources/Assets.xcassets/AppIcon.appiconset/AppIcon.png'
     assert icon == expected_icon.read_bytes(), 'Website icon differs from the app icon'
-    manifest = json.loads(download('data/manifest.json'))
-    filename = manifest['file']
-    assert re.fullmatch(r'cameras-[A-Za-z0-9-]+\.json', filename), 'Invalid snapshot path'
-    raw = download('data/' + filename)
-    assert hashlib.sha256(raw).hexdigest() == manifest['sha256'], 'Snapshot digest mismatch'
-    database = json.loads(raw)
-    assert database['version'] == manifest['version'], 'Snapshot version mismatch'
-    assert len(database['cameras']) == manifest['recordCount'], 'Snapshot count mismatch'
-    assert json.loads(download('data/cameras.json')) == database, 'Public database differs from manifest'
-    summary = json.loads(download('data/speed-limit-coverage.json'))
-    speed = [c for c in database['cameras'] if c['kind'] in ('speed', 'possibleSpeed')]
-    approved = [c for c in database['cameras'] if c.get('speedLimit')]
-    assert all(c['kind'] in ('speed', 'possibleSpeed') for c in approved), 'Red-light suppression found'
-    assert summary['version'] == manifest['version'], 'Coverage report version mismatch'
-    assert summary['totalCameras'] == len(database['cameras']), 'Coverage total mismatch'
-    assert summary['speedCameras'] == len(speed) and summary['eligible'] == len(approved), 'Suppression count mismatch'
-    assert f"{len(approved):,} of {len(speed):,}" in page, 'Website coverage differs from database'
-    print(f"Verified {base} with {manifest['recordCount']} cameras and {len(approved)}/{len(speed)} suppression limits; version {manifest['version']}")
+    for prefix in ('data/', 'data/v2/'):
+        manifest = json.loads(download(prefix + 'manifest.json'))
+        filename = manifest['file']
+        assert re.fullmatch(r'cameras-[A-Za-z0-9-]+\.json', filename), 'Invalid snapshot path'
+        raw = download(prefix + filename)
+        assert hashlib.sha256(raw).hexdigest() == manifest['sha256'], 'Snapshot digest mismatch'
+        database = json.loads(raw)
+        assert database['version'] == manifest['version'], 'Snapshot version mismatch'
+        assert len(database['cameras']) == manifest['recordCount'], 'Snapshot count mismatch'
+        assert json.loads(download(prefix + 'cameras.json')) == database, 'Public database differs from manifest'
+        summary = json.loads(download(prefix + 'speed-limit-coverage.json'))
+        speed = [c for c in database['cameras'] if c['kind'] in ('speed', 'possibleSpeed')]
+        approved = [c for c in database['cameras'] if c.get('speedLimit')]
+        assert all(c['kind'] in ('speed', 'possibleSpeed') for c in approved), 'Red-light suppression found'
+        assert summary['version'] == manifest['version'], 'Coverage report version mismatch'
+        assert summary['totalCameras'] == len(database['cameras']), 'Coverage total mismatch'
+        assert summary['speedCameras'] == len(speed) and summary['eligible'] == len(approved), 'Suppression count mismatch'
+        assert f"{len(approved):,} of {len(speed):,}" in page, 'Website coverage differs from database'
+        print(f"Verified {base} with {manifest['recordCount']} cameras and {len(approved)}/{len(speed)} suppression limits; version {manifest['version']}")
+
 
 
 if __name__ == '__main__':

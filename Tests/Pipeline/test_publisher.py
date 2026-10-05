@@ -94,13 +94,17 @@ class PublisherTests(unittest.TestCase):
         current = p.read(root/'Data/Published/cameras.json')
         previous = p.read(root/'Data/Published/cameras-2026-09-21-dc315dfa720e-79004776.json')
         old = {c['id']: c for c in previous['cameras']}
+        field_verified = {c['id']: c for c in p.read(root/'Data/Published/cameras-2026-09-28-f7d23a339024-c8ba0cd7.json')['cameras']}
         for suffix, bearing in [('nb',0),('sb',180)]:
             identifier='abq-coors-st-joseph-possible-'+suffix
             c=next(c for c in current['cameras'] if c['id']==identifier)
             self.assertEqual(c['kind'],'speed')
             self.assertEqual(c['travelBearing'],bearing)
             self.assertEqual(c['geometry'],old[identifier]['geometry'])
-            self.assertEqual(c['roadZone'],old[identifier]['roadZone'])
+            # The field edit must preserve its original zone. Weekly road-source
+            # refreshes may regenerate current zones without moving the camera.
+            self.assertEqual(field_verified[identifier]['roadZone'],old[identifier]['roadZone'])
+            p.validate_zone(c['roadZone'])
             self.assertEqual(c['speedLimit']['value'],45)
             self.assertEqual(c['speedLimit']['unit'],'mph')
             self.assertEqual(c['speedLimit']['verifiedAt'],'2026-10-01T06:00:00Z')

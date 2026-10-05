@@ -1,5 +1,33 @@
 # Release and distribution
 
+## Public 1.0.6 preparation — October 4, 2026
+
+The owner requested promotion of the latest candidate and publication. App Store
+Connect currently shows **1.0.5 (13), Ready for Distribution**. Internal-only
+build 17 cannot be promoted to App Review, so **1.0.6 (18)** repackages the same
+app features for standard App Store Connect distribution, with iOS 17 minimum.
+Submission and Apple approval are separate from local archive validation.
+
+The release uses `https://finemenot.xyz/data/v2/`, replacing the private pinned
+candidate feed. The normal local cache and saved user settings remain compatible.
+One publisher supplies both public feeds. The original `/data/` feed projects
+confirmed speed-camera polylines to the older `possibleSpeed` classification,
+preserving IDs, coordinates, directions, limits and all other camera fields.
+This avoids older validators rejecting the entire download. Each projection gets
+its own immutable filename and checksum; previously published bytes remain intact.
+
+Reconciliation with the September 28 source refresh retains **2,701 cameras** and
+both field-verified Coors 45 mph observations. Fresh source connectivity supports
+**38 current road zones**, versus 54 in the private candidate. Unsupported zones
+use the existing fallback matcher. The fixed 54-zone corpus remains tested
+alongside every currently published zone; no source-age or geometry requirement
+is relaxed. Camera geometry and direction remain unchanged; generated road zones
+follow the current source evidence. Physical battery, overnight departure and
+normal phone notification-tap checks remain open in the acceptance record.
+
+Release evidence is retained in ignored `work/release18/`. The current signed
+archive is `~/Library/Developer/Xcode/Archives/2026-10-04/RoadNotice-1.0.6-18.xcarchive`.
+
 ## Local artifact retention — October 2, 2026
 
 After build 17 delivery, obsolete local build caches, exports, repeated result

@@ -1,6 +1,6 @@
 # Road-following warning zones
 
-September 27, 2026. Local implementation candidate; not released or field accepted.
+Introduced September 27, 2026; public release preparation October 4. See [release status](RELEASE.md).
 
 The alert engine now separates **distance along the monitored road** from **distance across to another road**. Faster travel extends the warning lead along the road, up to the existing 600 m maximum; it does not widen the corridor. This addresses the reproducible I-40 westbound / Menaul–Vassar false association without using uncertain phone altitude or adding a map SDK.
 
@@ -21,7 +21,7 @@ This is a compact local-road check, not a complete navigation map matcher. Ident
 
 Each zone is bounded to the useful approach and monitored area. Source checks expire after 30 days. Both publisher and app validate geometry, dimensions and dates. Weekly regeneration can remove an unsupported zone while retaining its camera record. The optional schema field is backward compatible with existing apps, which ignore it.
 
-The first rollout uses the existing reviewed Albuquerque metro register: **54 zones from 71 reviewed approaches**, within the unchanged **2,701 camera records**. All other camera fields, IDs, speed limits and source metadata remain unchanged. [Coverage report](../Data/Review/road-zone-coverage.json) lists each eligible approach and every fallback reason.
+The original candidate uses the existing reviewed Albuquerque metro register: **54 zones from 71 reviewed approaches**, within the unchanged **2,701 camera records**. All other camera fields, IDs, speed limits and source metadata remain unchanged. [Coverage report](../Data/Review/road-zone-coverage.json) lists each eligible approach and every fallback reason.
 
 The included zones cover **Coors north of St. Joseph in both directions**, **Alameda between Guadalupe Trail and Rio Grande**, and **Menaul west of Vassar westbound**. Coors at Montaño and Coors Bypass retain the existing matcher because this input set does not support an unambiguous connected approach.
 
@@ -38,3 +38,12 @@ Swift fixtures cover curved-road lead distance, GPS uncertainty, wrong direction
 Python tests cover source-node connectivity, direction, stale sources, ambiguous parallel candidates, same-name alternatives, complete area coverage and malformed geometry. The existing pipeline, camera and support suites also run. Build and simulator results are recorded in [TESTING.md](TESTING.md).
 
 On Coors and Alameda, use normal lawful driving with Quiet configured as appropriate for testing, and compare the warning with the actual monitored road/direction. Include the nearby-road negative case and an overnight parked-to-driving departure with the phone locked. The battery and recovery acceptance procedure is in [BATTERY-MONITORING.md](BATTERY-MONITORING.md). Physical wake timing, GPS accuracy on departure, battery savings and actual audibility remain unverified for this candidate.
+
+## October 4 public feed preparation
+
+The September 28 road-source refresh supports 38 zones from the same 71 reviewed
+approaches. Missing or ambiguous connected geometry falls back through the
+existing matcher; all 2,701 camera records remain. The original 54-zone immutable
+snapshot remains a fixed regression corpus in addition to current-data replays.
+Version 1.0.6 reads `/data/v2/`; the original feed retains classifications accepted
+by older validators. Both feeds are produced together from the same camera data.
