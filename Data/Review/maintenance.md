@@ -1,24 +1,28 @@
 # Weekly camera maintenance
 
-Generated 2026-10-05T01:31:08Z
+Generated 2026-10-05T10:40:46Z
 
-47 registered sources checked; 2 evidence-based identity matches; 243 unresolved findings.
+47 registered sources checked; 2 evidence-based identity matches; 267 unresolved findings.
 
 New unambiguous agency records and validated coordinate estimates are staged automatically. Ambiguous identities, source removals, changed page layouts, and failed checks retain previous coverage and remain in this queue until reviewed.
 
 | Source or record | Finding |
 |---|---|
-| overture | 47 regions unavailable, retained or deferred; see regional results |
+| overture | 34 regions unavailable, retained or deferred; see regional results |
 | bernco | HTTP Error 403: Forbidden |
 | nyc | HTTP Error 403: Forbidden |
 | la | Source page changed |
 | long-beach | Source page changed |
+| philadelphia | Source page changed |
 | philadelphia-red | Source page changed |
 | massachusetts | Source page changed |
 | michigan | HTTP Error 403: Forbidden |
 | minneapolis | HTTP Error 403: Forbidden |
+| hillsborough | Source page changed |
 | iihs-speed | Source page changed |
+| iihs-red | Source page changed |
 | prince-georges-red | HTTP Error 403: Forbidden |
+| snellville | Source page changed |
 | wheat-ridge | Source page changed |
 | cdot-program | Source page changed |
 | nyc-datafeeds | HTTP Error 403: Forbidden |
@@ -229,21 +233,41 @@ New unambiguous agency records and validated coordinate estimates are staged aut
 | Widener Memorial School: W. Olney Ave. (N. Broad to N. 16th) | Location needs review: Intersection/segment description needs review |
 | High School of the Future: W. Girard Ave. (N. 39th to N. 40th) | Location needs review: Intersection/segment description needs review |
 | William L. Sayre High School: Walnut St. (S. 58th to S. 59th) | Location needs review: Intersection/segment description needs review |
+| Northeast High School: Cottman Ave. (Glendale Ave & Algon Ave.) | Location needs review: Intersection/segment description needs review |
 | 2100 Robbins Street | Location needs review: Census changed the requested street/state; needs review |
 | agency-hillsborough-intersections-fletcher-avenue-bruce-b-downs-boulevard-nb | Nearby accepted record; identity/approach review required |
 | agency-hillsborough-intersections-fletcher-avenue-bruce-b-downs-boulevard-eb | Nearby accepted record; identity/approach review required |
 | agency-hillsborough-intersections-fletcher-avenue-bruce-b-downs-boulevard-wb | Nearby accepted record; identity/approach review required |
 | osm-node-13261832160 | New OSM record overlaps accepted agency data; review identity |
 | chicago-school-park-policy | HTTP Error 403: Forbidden |
+| nyc-roads--1485-810 | HTTP Error 503: Service Unavailable |
+| nyc-roads--1483-811 | HTTP Error 503: Service Unavailable |
+| nyc-roads--1483-812 | HTTP Error 503: Service Unavailable |
+| nyc-roads--1482-811 | HTTP Error 503: Service Unavailable |
+| nyc-roads--1480-811 | HTTP Error 503: Service Unavailable |
+| nyc-roads--1480-814 | HTTP Error 503: Service Unavailable |
+| nyc-roads--1479-817 | HTTP Error 503: Service Unavailable |
+| nyc-roads--1478-813 | HTTP Error 500: Server Error |
+| nyc-roads--1478-814 | HTTP Error 503: Service Unavailable |
+| nyc-roads--1477-814 | HTTP Error 500: Server Error |
+| nyc-roads--1477-816 | HTTP Error 503: Service Unavailable |
+| nyc-roads--1476-813 | HTTP Error 503: Service Unavailable |
+| osm-roads-b00739b47142 | HTTP Error 504: Gateway Time-out |
 | osm-roads-a99a21a912a2 | HTTP Error 504: Gateway Time-out |
-| osm-roads-04630dd7e1a6 | The read operation timed out |
-| osm-roads-6e2bace93b57 | HTTP Error 504: Gateway Timeout |
-| osm-roads-0b0a628102fb | HTTP Error 504: Gateway Timeout |
-| osm-roads-38733e4a312e | HTTP Error 504: Gateway Time-out |
+| osm-roads-5f0006db1e33 | HTTP Error 504: Gateway Time-out |
+| osm-roads-04630dd7e1a6 | HTTP Error 504: Gateway Time-out |
+| osm-roads-2ddc6a1b7a3a | The read operation timed out |
+| osm-roads-d86a748ada93 | Run acquisition time budget reached |
+| osm-roads-6e2bace93b57 | Run acquisition time budget reached |
+| osm-roads-041094a11eba | Run acquisition time budget reached |
+| osm-roads-49558e8c0c71 | Run acquisition time budget reached |
+| osm-roads-1263aa94d82c | Run acquisition time budget reached |
+| osm-roads-0b0a628102fb | Run acquisition time budget reached |
+| osm-roads-38733e4a312e | Run acquisition time budget reached |
 | osm-roads-c1c29bfe2f15 | Run acquisition time budget reached |
 | osm-roads-756cbaf85b3a | Run acquisition time budget reached |
 | osm-roads-d4a05d4df9b3 | Run acquisition time budget reached |
-| osm-roads-2c95746a1014 | Run acquisition time budget reached |
+| osm-roads-39c6e25f7536 | Run acquisition time budget reached |
 | osm-roads-08280438fa6a | Run acquisition time budget reached |
 | osm-roads-35cb6bcf3fd9 | Run acquisition time budget reached |
 | osm-roads-737b9142063e | Run acquisition time budget reached |

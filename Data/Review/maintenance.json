@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-05T01:31:08Z",
+  "generatedAt": "2026-10-05T10:40:46Z",
   "items": [
     {
       "lastGoodAt": null,
-      "reason": "47 regions unavailable, retained or deferred; see regional results",
+      "reason": "34 regions unavailable, retained or deferred; see regional results",
       "source": "overture"
     },
     {
@@ -43,6 +43,14 @@
       "lastGoodAt": null,
       "reason": "Source page changed",
       "removed": [],
+      "source": "philadelphia",
+      "url": "https://philapark.org/speed-cameras/"
+    },
+    {
+      "added": [],
+      "lastGoodAt": null,
+      "reason": "Source page changed",
+      "removed": [],
       "source": "philadelphia-red",
       "url": "https://philapark.org/red-light-cameras/"
     },
@@ -75,8 +83,24 @@
       "lastGoodAt": null,
       "reason": "Source page changed",
       "removed": [],
+      "source": "hillsborough",
+      "url": "https://hcfl.gov/government/codes-and-ordinances/red-for-a-reason/red-light-cameras"
+    },
+    {
+      "added": [],
+      "lastGoodAt": null,
+      "reason": "Source page changed",
+      "removed": [],
       "source": "iihs-speed",
       "url": "https://www.iihs.org/research-areas/speed/speed-camera-communities"
+    },
+    {
+      "added": [],
+      "lastGoodAt": null,
+      "reason": "Source page changed",
+      "removed": [],
+      "source": "iihs-red",
+      "url": "https://www.iihs.org/research-areas/red-light-running/red-light-camera-communities"
     },
     {
       "added": [],
@@ -85,6 +109,14 @@
       "removed": [],
       "source": "prince-georges-red",
       "url": "https://www.princegeorgescountymd.gov/departments-offices/police/online-services/red-light-enforcement/red-light-camera-locations"
+    },
+    {
+      "added": [],
+      "lastGoodAt": null,
+      "reason": "Source page changed",
+      "removed": [],
+      "source": "snellville",
+      "url": "https://www.snellville.gov/police-department/school-zone-speed-cameras"
     },
     {
       "added": [],
@@ -1717,7 +1749,7 @@
       "nearby": [
         {
           "id": "osm-node-12578283031",
-          "meters": 5.4
+          "meters": 5.5
         }
       ],
       "reason": "Nearby accepted record; identity/approach review required"
@@ -2436,6 +2468,11 @@
       "sourceRecord": "William L. Sayre High School: Walnut St. (S. 58th to S. 59th)"
     },
     {
+      "reason": "Location needs review: Intersection/segment description needs review",
+      "source": "philadelphia-addresses",
+      "sourceRecord": "Northeast High School: Cottman Ave. (Glendale Ave & Algon Ave.)"
+    },
+    {
       "reason": "Location needs review: Census changed the requested street/state; needs review",
       "source": "philadelphia-addresses",
       "sourceRecord": "2100 Robbins Street"
@@ -2523,28 +2560,123 @@
       "source": "chicago-school-park-policy"
     },
     {
+      "lastGoodAt": "2026-09-28T09:39:22Z",
+      "reason": "HTTP Error 503: Service Unavailable",
+      "source": "nyc-roads--1485-810"
+    },
+    {
+      "lastGoodAt": "2026-09-28T09:39:40Z",
+      "reason": "HTTP Error 503: Service Unavailable",
+      "source": "nyc-roads--1483-811"
+    },
+    {
+      "lastGoodAt": "2026-09-28T09:39:44Z",
+      "reason": "HTTP Error 503: Service Unavailable",
+      "source": "nyc-roads--1483-812"
+    },
+    {
+      "lastGoodAt": "2026-09-28T09:39:46Z",
+      "reason": "HTTP Error 503: Service Unavailable",
+      "source": "nyc-roads--1482-811"
+    },
+    {
+      "lastGoodAt": "2026-09-28T09:39:52Z",
+      "reason": "HTTP Error 503: Service Unavailable",
+      "source": "nyc-roads--1480-811"
+    },
+    {
+      "lastGoodAt": "2026-09-28T09:40:04Z",
+      "reason": "HTTP Error 503: Service Unavailable",
+      "source": "nyc-roads--1480-814"
+    },
+    {
+      "lastGoodAt": "2026-09-28T09:40:25Z",
+      "reason": "HTTP Error 503: Service Unavailable",
+      "source": "nyc-roads--1479-817"
+    },
+    {
+      "lastGoodAt": "2026-09-28T09:40:31Z",
+      "reason": "HTTP Error 500: Server Error",
+      "source": "nyc-roads--1478-813"
+    },
+    {
+      "lastGoodAt": "2026-09-28T09:40:38Z",
+      "reason": "HTTP Error 503: Service Unavailable",
+      "source": "nyc-roads--1478-814"
+    },
+    {
+      "lastGoodAt": "2026-09-28T09:40:54Z",
+      "reason": "HTTP Error 500: Server Error",
+      "source": "nyc-roads--1477-814"
+    },
+    {
+      "lastGoodAt": "2026-09-28T09:40:57Z",
+      "reason": "HTTP Error 503: Service Unavailable",
+      "source": "nyc-roads--1477-816"
+    },
+    {
+      "lastGoodAt": "2026-09-28T09:41:02Z",
+      "reason": "HTTP Error 503: Service Unavailable",
+      "source": "nyc-roads--1476-813"
+    },
+    {
+      "lastGoodAt": "2026-09-28T09:38:45Z",
+      "reason": "HTTP Error 504: Gateway Time-out",
+      "source": "osm-roads-b00739b47142"
+    },
+    {
       "lastGoodAt": null,
       "reason": "HTTP Error 504: Gateway Time-out",
       "source": "osm-roads-a99a21a912a2"
     },
     {
-      "lastGoodAt": null,
-      "reason": "The read operation timed out",
-      "source": "osm-roads-04630dd7e1a6"
-    },
-    {
-      "lastGoodAt": null,
-      "reason": "HTTP Error 504: Gateway Timeout",
-      "source": "osm-roads-6e2bace93b57"
-    },
-    {
-      "lastGoodAt": null,
-      "reason": "HTTP Error 504: Gateway Timeout",
-      "source": "osm-roads-0b0a628102fb"
+      "lastGoodAt": "2026-09-28T09:40:07Z",
+      "reason": "HTTP Error 504: Gateway Time-out",
+      "source": "osm-roads-5f0006db1e33"
     },
     {
       "lastGoodAt": null,
       "reason": "HTTP Error 504: Gateway Time-out",
+      "source": "osm-roads-04630dd7e1a6"
+    },
+    {
+      "lastGoodAt": "2026-09-28T09:43:06Z",
+      "reason": "The read operation timed out",
+      "source": "osm-roads-2ddc6a1b7a3a"
+    },
+    {
+      "lastGoodAt": "2026-09-28T09:44:32Z",
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-d86a748ada93"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-6e2bace93b57"
+    },
+    {
+      "lastGoodAt": "2026-09-28T09:46:50Z",
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-041094a11eba"
+    },
+    {
+      "lastGoodAt": "2026-09-28T09:46:50Z",
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-49558e8c0c71"
+    },
+    {
+      "lastGoodAt": "2026-09-28T09:47:56Z",
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-1263aa94d82c"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-0b0a628102fb"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
       "source": "osm-roads-38733e4a312e"
     },
     {
@@ -2565,7 +2697,7 @@
     {
       "lastGoodAt": null,
       "reason": "Run acquisition time budget reached",
-      "source": "osm-roads-2c95746a1014"
+      "source": "osm-roads-39c6e25f7536"
     },
     {
       "lastGoodAt": null,
@@ -2603,5 +2735,5 @@
       "source": "osm-roads-b78a8b6da55b"
     }
   ],
-  "reviewCount": 243
+  "reviewCount": 267
 }

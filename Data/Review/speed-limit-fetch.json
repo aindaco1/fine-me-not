@@ -25,16 +25,16 @@
     "osm-roads-5b5b39a0367c",
     "osm-roads-daddc01b4db8"
   ],
-  "checkedAt": "2026-09-28T09:38:03Z",
+  "checkedAt": "2026-10-05T10:17:27Z",
   "checks": [
     {
-      "checkedAt": "2026-09-28T09:38:04Z",
+      "checkedAt": "2026-10-05T10:17:28Z",
       "id": "abq-camera-limits",
       "records": 21,
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-09-28T09:38:05Z",
+      "checkedAt": "2026-10-05T10:17:28Z",
       "id": "seattle-school-policy",
       "records": 0,
       "status": "downloaded"
@@ -46,292 +46,292 @@
       "status": "retained"
     },
     {
-      "checkedAt": "2026-09-28T09:38:06Z",
+      "checkedAt": "2026-10-05T10:17:29Z",
       "id": "philadelphia-report-limits",
       "records": 15,
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-09-28T09:38:07Z",
+      "checkedAt": "2026-10-05T10:17:29Z",
       "id": "philadelphia-route13-limits",
       "records": 0,
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-09-28T09:38:08Z",
+      "checkedAt": "2026-10-05T10:17:31Z",
       "id": "tacoma-school-policy",
       "records": 0,
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-09-28T09:38:13Z",
+      "checkedAt": "2026-10-05T10:17:38Z",
       "id": "nmdot-roads",
       "records": 995,
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-09-28T09:38:18Z",
+      "checkedAt": "2026-10-05T10:17:45Z",
       "id": "nmdot-names",
       "records": 1003,
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-09-28T09:38:19Z",
+      "checkedAt": "2026-10-05T10:17:46Z",
       "id": "seattle-roads--2449-951",
       "records": 358,
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-09-28T09:38:23Z",
+      "checkedAt": "2026-10-05T10:17:50Z",
       "id": "seattle-roads--2448-950",
       "records": 1633,
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-09-28T09:38:26Z",
+      "checkedAt": "2026-10-05T10:17:53Z",
       "id": "seattle-roads--2448-951",
       "records": 1495,
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-09-28T09:38:33Z",
+      "checkedAt": "2026-10-05T10:18:01Z",
       "id": "seattle-roads--2448-953",
       "records": 3304,
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-09-28T09:38:35Z",
+      "checkedAt": "2026-10-05T10:18:03Z",
       "id": "seattle-roads--2448-954",
       "records": 929,
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-09-28T09:38:41Z",
+      "checkedAt": "2026-10-05T10:18:09Z",
       "id": "seattle-roads--2447-951",
       "records": 2392,
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-09-28T09:38:48Z",
+      "checkedAt": "2026-10-05T10:18:16Z",
       "id": "seattle-roads--2447-952",
       "records": 3553,
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-09-28T09:38:55Z",
+      "checkedAt": "2026-10-05T10:18:23Z",
       "id": "seattle-roads--2447-953",
       "records": 3287,
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-09-28T09:38:58Z",
+      "checkedAt": "2026-10-05T10:18:26Z",
       "id": "seattle-roads--2447-954",
       "records": 1502,
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-09-28T09:38:59Z",
+      "checkedAt": "2026-10-05T10:18:27Z",
       "id": "seattle-roads--2446-949",
       "records": 74,
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-09-28T09:39:03Z",
+      "checkedAt": "2026-10-05T10:18:31Z",
       "id": "seattle-roads--2446-950",
       "records": 1708,
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-09-28T09:39:06Z",
+      "checkedAt": "2026-10-05T10:18:35Z",
       "id": "seattle-roads--2446-951",
       "records": 1855,
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-09-28T09:39:10Z",
+      "checkedAt": "2026-10-05T10:18:44Z",
       "id": "seattle-roads--2446-953",
       "records": 1597,
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-09-28T09:39:11Z",
+      "checkedAt": "2026-10-05T10:18:49Z",
       "id": "seattle-roads--2446-954",
       "records": 682,
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-09-28T09:39:11Z",
+      "checkedAt": "2026-10-05T10:18:50Z",
       "id": "seattle-roads--2445-954",
       "records": 0,
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-09-28T09:39:22Z",
+      "error": "HTTP Error 503: Service Unavailable",
       "id": "nyc-roads--1485-810",
-      "records": 2005,
-      "status": "downloaded"
+      "lastGoodAt": "2026-09-28T09:39:22Z",
+      "status": "retained"
     },
     {
-      "checkedAt": "2026-09-28T09:39:25Z",
+      "checkedAt": "2026-10-05T10:20:05Z",
       "id": "nyc-roads--1484-810",
       "records": 1963,
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-09-28T09:39:31Z",
+      "checkedAt": "2026-10-05T10:20:36Z",
       "id": "nyc-roads--1484-811",
       "records": 2044,
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-09-28T09:39:34Z",
+      "checkedAt": "2026-10-05T10:20:38Z",
       "id": "nyc-roads--1484-812",
       "records": 1439,
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-09-28T09:39:35Z",
+      "checkedAt": "2026-10-05T10:20:43Z",
       "id": "nyc-roads--1484-819",
       "records": 0,
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-09-28T09:39:40Z",
+      "error": "HTTP Error 503: Service Unavailable",
       "id": "nyc-roads--1483-811",
-      "records": 2675,
-      "status": "downloaded"
+      "lastGoodAt": "2026-09-28T09:39:40Z",
+      "status": "retained"
     },
     {
-      "checkedAt": "2026-09-28T09:39:44Z",
+      "error": "HTTP Error 503: Service Unavailable",
       "id": "nyc-roads--1483-812",
-      "records": 3452,
-      "status": "downloaded"
+      "lastGoodAt": "2026-09-28T09:39:44Z",
+      "status": "retained"
     },
     {
-      "checkedAt": "2026-09-28T09:39:46Z",
+      "error": "HTTP Error 503: Service Unavailable",
       "id": "nyc-roads--1482-811",
-      "records": 1598,
-      "status": "downloaded"
+      "lastGoodAt": "2026-09-28T09:39:46Z",
+      "status": "retained"
     },
     {
-      "checkedAt": "2026-09-28T09:39:49Z",
+      "checkedAt": "2026-10-05T10:21:21Z",
       "id": "nyc-roads--1481-814",
       "records": 2412,
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-09-28T09:39:52Z",
+      "error": "HTTP Error 503: Service Unavailable",
       "id": "nyc-roads--1480-811",
-      "records": 2323,
-      "status": "downloaded"
+      "lastGoodAt": "2026-09-28T09:39:52Z",
+      "status": "retained"
     },
     {
-      "checkedAt": "2026-09-28T09:39:57Z",
+      "checkedAt": "2026-10-05T10:21:50Z",
       "id": "nyc-roads--1480-813",
       "records": 4404,
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-09-28T09:40:04Z",
+      "error": "HTTP Error 503: Service Unavailable",
       "id": "nyc-roads--1480-814",
-      "records": 5702,
-      "status": "downloaded"
+      "lastGoodAt": "2026-09-28T09:40:04Z",
+      "status": "retained"
     },
     {
-      "checkedAt": "2026-09-28T09:40:09Z",
+      "checkedAt": "2026-10-05T10:23:06Z",
       "id": "nyc-roads--1479-812",
       "records": 3715,
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-09-28T09:40:16Z",
+      "checkedAt": "2026-10-05T10:23:33Z",
       "id": "nyc-roads--1479-814",
       "records": 4877,
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-09-28T09:40:21Z",
+      "checkedAt": "2026-10-05T10:24:43Z",
       "id": "nyc-roads--1479-815",
       "records": 4258,
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-09-28T09:40:25Z",
+      "error": "HTTP Error 503: Service Unavailable",
       "id": "nyc-roads--1479-817",
-      "records": 2787,
-      "status": "downloaded"
+      "lastGoodAt": "2026-09-28T09:40:25Z",
+      "status": "retained"
     },
     {
-      "checkedAt": "2026-09-28T09:40:26Z",
+      "checkedAt": "2026-10-05T10:24:44Z",
       "id": "nyc-roads--1479-819",
       "records": 0,
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-09-28T09:40:31Z",
+      "error": "HTTP Error 500: Server Error",
       "id": "nyc-roads--1478-813",
-      "records": 4067,
-      "status": "downloaded"
+      "lastGoodAt": "2026-09-28T09:40:31Z",
+      "status": "retained"
     },
     {
-      "checkedAt": "2026-09-28T09:40:38Z",
+      "error": "HTTP Error 503: Service Unavailable",
       "id": "nyc-roads--1478-814",
-      "records": 5287,
-      "status": "downloaded"
+      "lastGoodAt": "2026-09-28T09:40:38Z",
+      "status": "retained"
     },
     {
-      "checkedAt": "2026-09-28T09:40:43Z",
+      "checkedAt": "2026-10-05T10:25:41Z",
       "id": "nyc-roads--1478-817",
       "records": 4045,
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-09-28T09:40:47Z",
+      "checkedAt": "2026-10-05T10:26:29Z",
       "id": "nyc-roads--1477-813",
       "records": 3926,
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-09-28T09:40:54Z",
+      "error": "HTTP Error 500: Server Error",
       "id": "nyc-roads--1477-814",
-      "records": 5127,
-      "status": "downloaded"
+      "lastGoodAt": "2026-09-28T09:40:54Z",
+      "status": "retained"
     },
     {
-      "checkedAt": "2026-09-28T09:40:57Z",
+      "error": "HTTP Error 503: Service Unavailable",
       "id": "nyc-roads--1477-816",
-      "records": 2608,
-      "status": "downloaded"
+      "lastGoodAt": "2026-09-28T09:40:57Z",
+      "status": "retained"
     },
     {
-      "checkedAt": "2026-09-28T09:41:02Z",
+      "error": "HTTP Error 503: Service Unavailable",
       "id": "nyc-roads--1476-813",
-      "records": 4111,
-      "status": "downloaded"
+      "lastGoodAt": "2026-09-28T09:41:02Z",
+      "status": "retained"
     },
     {
-      "checkedAt": "2026-09-28T09:41:07Z",
+      "checkedAt": "2026-10-05T10:28:19Z",
       "id": "nyc-roads--1476-814",
       "records": 4668,
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-09-28T09:41:11Z",
+      "checkedAt": "2026-10-05T10:28:33Z",
       "id": "nyc-roads--1475-814",
       "records": 3221,
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-09-28T09:38:45Z",
+      "checkedAt": "2026-10-05T10:26:51Z",
       "id": "osm-roads-e72ef6afce2b",
       "records": 1382,
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-09-28T09:38:45Z",
+      "error": "HTTP Error 504: Gateway Time-out",
       "id": "osm-roads-b00739b47142",
-      "records": 1472,
-      "status": "downloaded"
+      "lastGoodAt": "2026-09-28T09:38:45Z",
+      "status": "retained"
     },
     {
       "error": "HTTP Error 504: Gateway Time-out",
@@ -340,61 +340,61 @@
       "status": "unavailable"
     },
     {
-      "checkedAt": "2026-09-28T09:40:07Z",
+      "error": "HTTP Error 504: Gateway Time-out",
       "id": "osm-roads-5f0006db1e33",
-      "records": 378,
-      "status": "downloaded"
+      "lastGoodAt": "2026-09-28T09:40:07Z",
+      "status": "retained"
     },
     {
-      "error": "The read operation timed out",
+      "error": "HTTP Error 504: Gateway Time-out",
       "id": "osm-roads-04630dd7e1a6",
       "lastGoodAt": null,
       "status": "unavailable"
     },
     {
-      "checkedAt": "2026-09-28T09:43:06Z",
+      "error": "The read operation timed out",
       "id": "osm-roads-2ddc6a1b7a3a",
-      "records": 361,
-      "status": "downloaded"
+      "lastGoodAt": "2026-09-28T09:43:06Z",
+      "status": "retained"
     },
     {
-      "checkedAt": "2026-09-28T09:44:32Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-d86a748ada93",
-      "records": 680,
-      "status": "downloaded"
+      "lastGoodAt": "2026-09-28T09:44:32Z",
+      "status": "retained"
     },
     {
-      "error": "HTTP Error 504: Gateway Timeout",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-6e2bace93b57",
       "lastGoodAt": null,
       "status": "unavailable"
     },
     {
-      "checkedAt": "2026-09-28T09:46:50Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-041094a11eba",
-      "records": 351,
-      "status": "downloaded"
+      "lastGoodAt": "2026-09-28T09:46:50Z",
+      "status": "retained"
     },
     {
-      "checkedAt": "2026-09-28T09:46:50Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-49558e8c0c71",
-      "records": 191,
-      "status": "downloaded"
+      "lastGoodAt": "2026-09-28T09:46:50Z",
+      "status": "retained"
     },
     {
-      "checkedAt": "2026-09-28T09:47:56Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-1263aa94d82c",
-      "records": 1364,
-      "status": "downloaded"
+      "lastGoodAt": "2026-09-28T09:47:56Z",
+      "status": "retained"
     },
     {
-      "error": "HTTP Error 504: Gateway Timeout",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-0b0a628102fb",
       "lastGoodAt": null,
       "status": "unavailable"
     },
     {
-      "error": "HTTP Error 504: Gateway Time-out",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-38733e4a312e",
       "lastGoodAt": null,
       "status": "unavailable"
@@ -419,7 +419,7 @@
     },
     {
       "error": "Run acquisition time budget reached",
-      "id": "osm-roads-2c95746a1014",
+      "id": "osm-roads-39c6e25f7536",
       "lastGoodAt": null,
       "status": "unavailable"
     },
@@ -483,7 +483,7 @@
     "osm-roads-c1c29bfe2f15",
     "osm-roads-756cbaf85b3a",
     "osm-roads-d4a05d4df9b3",
-    "osm-roads-2c95746a1014",
+    "osm-roads-39c6e25f7536",
     "osm-roads-08280438fa6a",
     "osm-roads-35cb6bcf3fd9",
     "osm-roads-737b9142063e",

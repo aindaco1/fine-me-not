@@ -2084,6 +2084,7 @@
         "check_date": "2026-09-15",
         "enforcement": "traffic_signals",
         "man_made": "surveillance",
+        "manufacturer": "Verra Mobility",
         "operator": "The City of Frederick",
         "surveillance:type": "camera",
         "surveillance:zone": "traffic"
@@ -2313,6 +2314,28 @@
         "enforcement": "maxspeed",
         "highway": "speed_camera",
         "maxspeed": "20 mph"
+      },
+      "type": "node"
+    },
+    {
+      "id": 13533627601,
+      "lat": 47.7359965,
+      "lon": -117.4112245,
+      "tags": {
+        "direction": "350",
+        "enforcement": "traffic_signals",
+        "type": "enforcement"
+      },
+      "type": "node"
+    },
+    {
+      "id": 13533627701,
+      "lat": 47.7368042,
+      "lon": -117.411583,
+      "tags": {
+        "direction": "170",
+        "enforcement": "traffic_signals",
+        "type": "enforcement"
       },
       "type": "node"
     },
@@ -13963,6 +13986,72 @@
       "type": "relation"
     },
     {
+      "id": 21459643,
+      "members": [
+        {
+          "ref": 14232694614,
+          "role": "device",
+          "type": "node"
+        },
+        {
+          "ref": 6474488869,
+          "role": "from",
+          "type": "node"
+        }
+      ],
+      "tags": {
+        "enforcement": "traffic_signals",
+        "type": "enforcement"
+      },
+      "type": "relation"
+    },
+    {
+      "id": 21459644,
+      "members": [
+        {
+          "ref": 14232694615,
+          "role": "device",
+          "type": "node"
+        },
+        {
+          "ref": 6474499708,
+          "role": "from",
+          "type": "node"
+        }
+      ],
+      "tags": {
+        "enforcement": "traffic_signals",
+        "type": "enforcement"
+      },
+      "type": "relation"
+    },
+    {
+      "id": 21465330,
+      "members": [
+        {
+          "ref": 13136083768,
+          "role": "device",
+          "type": "node"
+        },
+        {
+          "ref": 14236011653,
+          "role": "from",
+          "type": "node"
+        },
+        {
+          "ref": 3355210158,
+          "role": "to",
+          "type": "node"
+        }
+      ],
+      "tags": {
+        "enforcement": "maxspeed",
+        "maxspeed": "35 mph",
+        "type": "enforcement"
+      },
+      "type": "relation"
+    },
+    {
       "id": 338171713,
       "lat": 37.4524701,
       "lon": -122.1806177,
@@ -20479,6 +20568,30 @@
       "type": "node"
     },
     {
+      "id": 6474488869,
+      "lat": 41.2619299,
+      "lon": -95.9022661,
+      "type": "node"
+    },
+    {
+      "id": 6474499708,
+      "lat": 41.2619307,
+      "lon": -95.9018392,
+      "type": "node"
+    },
+    {
+      "id": 14232694614,
+      "lat": 41.2620405,
+      "lon": -95.9015083,
+      "type": "node"
+    },
+    {
+      "id": 14232694615,
+      "lat": 41.2618276,
+      "lon": -95.9025667,
+      "type": "node"
+    },
+    {
       "id": 160798591,
       "lat": 41.2619425,
       "lon": -95.8818666,
@@ -22120,6 +22233,24 @@
       "id": 3205517371,
       "lat": 39.4387078,
       "lon": -77.4102651,
+      "type": "node"
+    },
+    {
+      "id": 3355210158,
+      "lat": 39.4447543,
+      "lon": -77.411168,
+      "type": "node"
+    },
+    {
+      "id": 13136083768,
+      "lat": 39.443972,
+      "lon": -77.4109816,
+      "type": "node"
+    },
+    {
+      "id": 14236011653,
+      "lat": 39.4439581,
+      "lon": -77.411037,
       "type": "node"
     },
     {
@@ -25464,8 +25595,8 @@
   "generator": "Overpass API 0.7.62.4 2390de5a",
   "osm3s": {
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-    "timestamp_areas_base": "2026-09-28T08:07:47Z",
-    "timestamp_osm_base": "2026-09-28T09:34:10Z"
+    "timestamp_areas_base": "2026-10-05T08:02:35Z",
+    "timestamp_osm_base": "2026-10-05T10:14:35Z"
   },
   "version": 0.6
 }

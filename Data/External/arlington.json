@@ -900,12 +900,8 @@
       "travelBearing": 90
     }
   ],
-  "checkedAt": "2026-09-28T09:37:48Z",
+  "checkedAt": "2026-10-05T10:17:08Z",
   "excluded": [
-    {
-      "reason": "Not active / retired",
-      "sourceRecord": "ACSP006"
-    },
     {
       "reason": "Not active / retired",
       "sourceRecord": "ACSP008"
@@ -968,6 +964,6 @@
     }
   ],
   "id": "arlington",
-  "rowCount": 47,
+  "rowCount": 46,
   "url": "https://arlgis.arlingtonva.us/arcgis/rest/services/Open_Data/od_DES_Signal_PhotoSpeed_Cameras_pnt/FeatureServer/0"
 }

@@ -457,7 +457,7 @@
       ]
     }
   ],
-  "checkedAt": "2026-09-28T09:37:48Z",
+  "checkedAt": "2026-10-05T10:17:08Z",
   "excluded": [
     {
       "reason": "Location needs review: Expected one Census address match, got 0",
@@ -520,6 +520,10 @@
       "sourceRecord": "William L. Sayre High School: Walnut St. (S. 58th to S. 59th)"
     },
     {
+      "reason": "Location needs review: Intersection/segment description needs review",
+      "sourceRecord": "Northeast High School: Cottman Ave. (Glendale Ave & Algon Ave.)"
+    },
+    {
       "reason": "Location needs review: Census changed the requested street/state; needs review",
       "sourceRecord": "2100 Robbins Street"
     },
@@ -569,6 +573,6 @@
     }
   ],
   "id": "philadelphia-addresses",
-  "rowCount": 46,
+  "rowCount": 47,
   "url": "https://philapark.org/speed-cameras/"
 }

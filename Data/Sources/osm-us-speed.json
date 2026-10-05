@@ -190,8 +190,8 @@
     },
     {
       "id": 452153948,
-      "lat": 36.9738041,
-      "lon": -121.9649981,
+      "lat": 36.9738032,
+      "lon": -121.9650149,
       "tags": {
         "highway": "speed_camera"
       },
@@ -1116,17 +1116,6 @@
       "type": "node"
     },
     {
-      "id": 2876763209,
-      "lat": 39.3119363,
-      "lon": -76.599358,
-      "tags": {
-        "highway": "speed_camera",
-        "note": "Speed camera measuring traffic in northbound direction at intersection of HARFORD RD & E NORTH AVE",
-        "source": "Open data of the city of Baltimore from data.baltimorecity.gov as of March 2014."
-      },
-      "type": "node"
-    },
-    {
       "id": 2876763210,
       "lat": 39.1999472,
       "lon": -76.5560609,
@@ -1543,16 +1532,6 @@
       "tags": {
         "direction": "235",
         "highway": "speed_camera"
-      },
-      "type": "node"
-    },
-    {
-      "id": 4134798728,
-      "lat": 41.2619296,
-      "lon": -95.9022262,
-      "tags": {
-        "highway": "speed_camera",
-        "maxspeed": "35 mph"
       },
       "type": "node"
     },
@@ -7575,8 +7554,8 @@
     },
     {
       "id": 12578283031,
-      "lat": 38.9012362,
-      "lon": -77.0192317,
+      "lat": 38.9012371,
+      "lon": -77.0192312,
       "tags": {
         "direction": "110",
         "highway": "speed_camera",
@@ -10507,6 +10486,19 @@
         "direction": "10",
         "highway": "speed_camera",
         "maxspeed": "25 mph"
+      },
+      "type": "node"
+    },
+    {
+      "id": 13136083768,
+      "lat": 39.443972,
+      "lon": -77.4109816,
+      "tags": {
+        "camera:type": "fixed",
+        "direction": "330",
+        "highway": "speed_camera",
+        "manufacturer": "Verra Mobility",
+        "maxspeed": "35 mph"
       },
       "type": "node"
     },
@@ -13872,7 +13864,8 @@
       "lon": -73.7754295,
       "tags": {
         "direction": "225",
-        "highway": "speed_camera"
+        "highway": "speed_camera",
+        "maxspeed": "25 mph"
       },
       "type": "node"
     },
@@ -14780,13 +14773,64 @@
         "highway": "speed_camera"
       },
       "type": "node"
+    },
+    {
+      "id": 14236737220,
+      "lat": 38.4524797,
+      "lon": -76.751363,
+      "tags": {
+        "direction": "280",
+        "highway": "speed_camera",
+        "maxspeed": "55 mph"
+      },
+      "type": "node"
+    },
+    {
+      "id": 14237822677,
+      "lat": 47.2356121,
+      "lon": -122.2964059,
+      "tags": {
+        "direction": "250",
+        "highway": "speed_camera"
+      },
+      "type": "node"
+    },
+    {
+      "id": 14237862353,
+      "lat": 47.235518,
+      "lon": -122.3008297,
+      "tags": {
+        "direction": "65",
+        "highway": "speed_camera"
+      },
+      "type": "node"
+    },
+    {
+      "id": 14237900504,
+      "lat": 47.2500926,
+      "lon": -122.2750004,
+      "tags": {
+        "direction": "245",
+        "highway": "speed_camera"
+      },
+      "type": "node"
+    },
+    {
+      "id": 14237926058,
+      "lat": 47.2499925,
+      "lon": -122.2822015,
+      "tags": {
+        "direction": "60",
+        "highway": "speed_camera"
+      },
+      "type": "node"
     }
   ],
   "generator": "Overpass API 0.7.62.4 2390de5a",
   "osm3s": {
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-    "timestamp_areas_base": "2026-09-28T08:07:47Z",
-    "timestamp_osm_base": "2026-09-28T09:34:10Z"
+    "timestamp_areas_base": "2026-10-05T08:43:31Z",
+    "timestamp_osm_base": "2026-10-05T10:14:35Z"
   },
   "version": 0.6
 }

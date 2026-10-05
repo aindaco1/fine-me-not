@@ -12,7 +12,7 @@
       "targetID": "osm-node-13726188373"
     }
   ],
-  "checkedAt": "2026-10-05T01:30:52Z",
+  "checkedAt": "2026-10-05T10:40:42Z",
   "review": [
     {
       "id": "agency-chicago-speed-chi003-270",
@@ -1621,7 +1621,7 @@
       "nearby": [
         {
           "id": "osm-node-12578283031",
-          "meters": 5.4
+          "meters": 5.5
         }
       ],
       "reason": "Nearby accepted record; identity/approach review required"
@@ -2338,6 +2338,11 @@
       "reason": "Location needs review: Intersection/segment description needs review",
       "source": "philadelphia-addresses",
       "sourceRecord": "William L. Sayre High School: Walnut St. (S. 58th to S. 59th)"
+    },
+    {
+      "reason": "Location needs review: Intersection/segment description needs review",
+      "source": "philadelphia-addresses",
+      "sourceRecord": "Northeast High School: Cottman Ave. (Glendale Ave & Algon Ave.)"
     },
     {
       "reason": "Location needs review: Census changed the requested street/state; needs review",
