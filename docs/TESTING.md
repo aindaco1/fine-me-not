@@ -1,6 +1,6 @@
 # Test and acceptance record
 
-## Public build 19 preparation — October 4, 2026
+## Public build 19 — October 4, 2026
 
 Local 41 Swift package tests (including a second fixed-corpus case) and 77 Python
 pipeline tests pass. The source-refresh regression is fixed: all 54 road zones
@@ -13,11 +13,37 @@ source dates and ignoring unrelated historical caches. Both distribution feeds
 pass checksum, camera-preservation and immutable-byte checks. The released 1.0.5
 validator accepted the staged legacy feed during preparation.
 
-Build 18 passed its signed archive checks and all 16 app-hosted tests. Its
-additional UI log replay failed before completion and remains recorded in
-`work/release18/` and `/tmp/road-notice-release18-log.xcresult`. Build 18 is
-superseded and was not selected for App Review. Build 19 distribution and runtime
-results are recorded after completion. Physical checks remain separate.
+Build 19's signed archive and complete bundle checks pass. All 16 app-hosted
+tests pass with no failures or skips. [Source CI](https://github.com/aindaco1/road-notice/actions/runs/37250068571)
+and [runtime CI](https://github.com/aindaco1/road-notice/actions/runs/37250068496)
+pass for `ce2a45d`, including every iOS 17.5, 18.5 and 26.5 job. The merge
+`0665f9e` has the same tree. Hosted iOS 18 uses its documented foreground/audio
+scenario; it is not claimed as moving-background-GPS acceptance.
+
+The same compiled build passes the saved-notification UI replay on local iOS
+18.0: a new Gibson alert is posted at **01:28:49 UTC on October 5**, the app
+terminates/relaunches, and the UI opens that new entry with its saved 40 mph
+limit. The completed result is `/tmp/road-notice-release19-log-ios18.xcresult`.
+The rendered attachment, new-entry timestamp and journal are in
+`work/release19/ios18-log-attachments/`, `ios18-posted-alert.json` and
+`ios18-journal.json`. The app-hosted result is
+`/tmp/road-notice-release19-unit.xcresult`.
+
+Additional local iOS 27 UI replays failed on fresh and retained simulators,
+including after reboot. Their routes complete one background siren, but system
+notification authorization/settings calls do not return and no alert is saved.
+System logs show accepted entitlement checks and forwarded requests without
+callbacks. The unchanged notification implementation works in the iOS 18 replay;
+this points to the local iOS 27 notification service, but does not establish
+physical iOS 27 acceptance. The failures are not counted as passes. Transcripts,
+system logs and result summaries remain in `work/release19/`; one raw failure
+bundle remains at `/tmp/road-notice-release19-log-after-reboot.xcresult`.
+
+Build 18 was superseded and not selected for App Review. Its initial UI failure
+summary remains in `work/release18/ui-failure-summary.json`; obsolete raw build
+and result bundles were pruned. Physical overnight battery/departure timing and
+normal phone notification taps remain open. See [release status](RELEASE.md) for
+the separate website deployment, Apple upload and submission boundaries.
 
 ## Notification crash and log styling — October 2, 2026
 

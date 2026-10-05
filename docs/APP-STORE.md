@@ -1,8 +1,9 @@
 # App Store listing — 1.0
 
-**Current release:** Road Notice 1.0.4 is available free on the
-[U.S. App Store](https://apps.apple.com/us/app/road-notice/id6812094105) as of
-September 25, 2026. See the [approved listing](APP-REVIEW.md#submitted-listing--version-104-12)
+**Current Apple status:** App Store Connect showed Road Notice **1.0.5 (13),
+Ready for Distribution**, on October 4, 2026. Standard build **1.0.6 (19)** has
+been uploaded, but its App Review submission is still pending. The website and
+GitHub release are published separately. See the [approved listing](APP-REVIEW.md#submitted-listing--version-104-12)
 and [release record](RELEASE.md). The copy below is retained as submission history.
 
 **Historical submitted copy.** Apple rejected 1.0.0 (8) on September 22, 2026

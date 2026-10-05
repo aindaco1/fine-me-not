@@ -1,9 +1,29 @@
 # Release and distribution
 
-## Public 1.0.6 preparation — October 4, 2026
+## Public 1.0.6 deployment — October 4, 2026
+
+[Version 1.0.6](https://github.com/aindaco1/road-notice/releases/tag/v1.0.6)
+is the latest GitHub release. [PR #7](https://github.com/aindaco1/road-notice/pull/7)
+merged as `0665f9e`; its tree matches tested source `ce2a45d`. The signed
+**1.0.6 (19)** archive passed signature and bundle checks, and Apple accepted its
+standard App Store Connect upload, including symbols, at **19:09:46 MDT**.
+
+The [website/database deployment](https://github.com/aindaco1/road-notice/actions/runs/37251699477)
+completed successfully. Both live feeds pass website, digest, immutable snapshot,
+count and speed-limit coverage checks. The `/data/v2/` snapshot
+`2026-09-28-161eb14e875c-1f615099` exactly matches the uploaded archive's camera
+bytes; the actual released 1.0.5 validator accepts all 2,701 legacy-feed records.
+
+**Apple submission remains pending.** The last verified App Store version is
+1.0.5 (13), Ready for Distribution. Upload success does not establish build 19's
+processing, selection for App Review, submission, or First Drive assignment.
+Prepared description, What's New, review notes and test instructions are in
+ignored `work/release19/`. Existing distributed betas remain available until the
+replacement is assigned. GitHub and website publication are separate from App
+Store availability.
 
 The owner requested promotion of the latest candidate and publication. App Store
-Connect currently shows **1.0.5 (13), Ready for Distribution**. Internal-only
+Connect was verified as **1.0.5 (13), Ready for Distribution**. Internal-only
 build 17 cannot be promoted to App Review, so **1.0.6 (19)** packages its features
 for standard App Store Connect distribution, with iOS 17 minimum.
 
@@ -28,6 +48,29 @@ Source tests cover partial replacement, complete replacement and unrelated cache
 Physical battery, overnight departure and normal phone notification-tap checks
 remain open in the acceptance record. Release evidence is in ignored
 `work/release19/`; the signed archive is retained in Xcode Archives after packaging.
+
+### Cleanup completed
+
+Only `main` remains locally and on origin; the merged `battery-road-zones` branch
+was removed. Obsolete local artifacts and three duplicate test simulators freed
+approximately **11.8 GB**. The superseded build 18 archive was removed only after
+its dSYMs and archive metadata were copied and UUID-verified. Older signed archives
+were already absent when this task began; historical retention entries below do
+not describe the current inventory.
+
+Kept: the complete build 19 signed archive, uploaded-build symbols, current
+simulator derived data (`/tmp/road-notice-sim19`), current Swift package cache
+(`/tmp/road-notice-core18`), build 19 prepared test products, final app-hosted and
+iOS 18 UI results, one iOS 27 failure result, and two simulators for local iOS 18
+and iOS 27 testing. Release logs, selected screenshots, source snapshots and
+immutable published camera files remain. The separate shared-support worktree
+was retained because it belongs to another task.
+
+The cleanup inventories are `work/release19/cleanup-inventory.json` and
+`work/release19/github-cleanup.json`. Current release CI/deployment artifacts are
+retained; **64** superseded GitHub Actions artifacts (**170 MB**) were removed.
+No App Store release
+or distributed TestFlight build was deleted or expired.
 
 ## Local artifact retention — October 2, 2026
 
