@@ -82,6 +82,25 @@ class Matching(unittest.TestCase):
         self.assertFalse(self.match([road(expiresAt='2026-09-01T00:00:00Z')])[0])
 
 class Enrichment(unittest.TestCase):
+    def test_field_observation_is_approach_specific_expires_and_respects_conflicts(self):
+        observation={'value':45,'unit':'mph','sourceID':'field/test/nb','sourceURL':'https://example.org/field',
+                     'verifiedAt':AT,'evidence':'Owner verified posted limit for this approach'}
+        with tempfile.TemporaryDirectory() as t:
+            root=pathlib.Path(t)
+            c=camera(speedLimitObservation=observation)
+            out=self.run_enrich(copy.deepcopy(c),{},root)
+            self.assertEqual(out['speedLimit']['value'],45)
+            self.assertEqual(out['speedLimit']['basis'],'field-verified')
+            self.assertEqual(out['speedLimit']['verifiedAt'],AT)
+            self.assertEqual(out['speedLimit']['validUntil'],'2026-10-14T00:00:00Z')
+            self.assertNotIn('speedLimit',self.run_enrich(camera(id='opposite'),{},root))
+            self.assertNotIn('speedLimit',self.run_enrich(copy.deepcopy(c),{},root,NOW+dt.timedelta(days=31)))
+            self.assertNotIn('speedLimit',self.run_enrich(copy.deepcopy(c),{},root,NOW-dt.timedelta(days=2)))
+            self.assertEqual(self.run_enrich(copy.deepcopy(c),{'maxspeed':'35 mph'},root)['speedLimit']['value'],35)
+            self.assertNotIn('speedLimit',self.run_enrich(copy.deepcopy(c),{'maxspeed':'signals'},root))
+            c['speedLimitObservation']['unit']='knots'
+            self.assertNotIn('speedLimit',self.run_enrich(c,{},root))
+
     def run_enrich(self,c,tags,root,now=NOW,roads=None):
         docs=[{'osm3s':{'timestamp_osm_base':AT},'elements':[{'type':'node','id':1,'tags':tags}]}]
         with patch.object(s,'load_roads',return_value=roads or []):return s.enrich(root,[c],docs,now)[0][0]

@@ -1,8 +1,8 @@
 {
   "counts": {
-    "possibleSpeed": 186,
+    "possibleSpeed": 184,
     "redLight": 738,
-    "speed": 1582,
+    "speed": 1584,
     "speedAndRedLight": 195
   },
   "fetches": [
@@ -22,7 +22,7 @@
       "status": "retained"
     }
   ],
-  "generatedAt": "2026-09-28T12:19:41Z",
+  "generatedAt": "2026-10-05T01:04:15Z",
   "records": 2701,
   "review": [
     {

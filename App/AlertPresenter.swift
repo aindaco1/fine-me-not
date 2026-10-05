@@ -5,8 +5,14 @@ import UserNotifications
 import CameraCore
 import UIKit
 
+@MainActor
+protocol MonitoringWarningPresenter: AnyObject {
+    func present(_ warnings: [CameraWarning])
+    func requestNotifications() async
+}
+
 @MainActor @Observable
-final class AlertPresenter: NSObject, AVAudioPlayerDelegate {
+final class AlertPresenter: NSObject, AVAudioPlayerDelegate, MonitoringWarningPresenter {
     private(set) var isPlaying = false
     private(set) var audioError: String?
     private(set) var route = "Current audio output"
@@ -33,8 +39,13 @@ final class AlertPresenter: NSObject, AVAudioPlayerDelegate {
     private var player: AVAudioPlayer?
     private var notificationObservers: [NSObjectProtocol] = []
     private let audio = AVAudioSession.sharedInstance()
+    let history: AlertHistory
+    private let sendNotification: @MainActor (UNNotificationRequest) async throws -> Bool
 
-    override init() {
+    init(history: AlertHistory = AlertHistory(),
+         sendNotification: @escaping @MainActor (UNNotificationRequest) async throws -> Bool = AlertPresenter.postToSystem) {
+        self.history = history
+        self.sendNotification = sendNotification
         super.init()
         for name in [AVAudioSession.routeChangeNotification, AVAudioSession.interruptionNotification,
                      AVAudioSession.mediaServicesWereResetNotification] {
@@ -91,16 +102,31 @@ final class AlertPresenter: NSObject, AVAudioPlayerDelegate {
         lastWarning = "\(title) · \(first.camera.label)"
         let didStart = playSiren(context: lastWarning ?? title)
         let content = UNMutableNotificationContent()
+        let entry = AlertLogEntry(warnings: warnings)
+        content.userInfo = [AlertLogEntry.payloadKey: entry.payload ?? ""]
         content.title = title; content.body = body
         content.interruptionLevel = .timeSensitive
         // Direct audio is the Silent-mode path. A soundless notification avoids
         // sounding twice; ordinary sound is only a degraded fallback.
         content.sound = didStart ? nil : .default
-        let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: nil)
-        Task {
-            do { try await UNUserNotificationCenter.current().add(request) }
-            catch { notificationStatus = "Could not post notification: \(error.localizedDescription)" }
-        }
+        let request = UNNotificationRequest(identifier: entry.id.uuidString, content: content, trigger: nil)
+        Task { await postNotification(request, entry: entry) }
+    }
+
+    static func postToSystem(_ request: UNNotificationRequest) async throws -> Bool {
+        let center = UNUserNotificationCenter.current()
+        let settings = await center.notificationSettings()
+        guard [.authorized, .provisional, .ephemeral].contains(settings.authorizationStatus),
+              settings.alertSetting == .enabled || settings.notificationCenterSetting == .enabled || settings.lockScreenSetting == .enabled
+        else { return false }
+        try await center.add(request)
+        return true
+    }
+
+    func postNotification(_ request: UNNotificationRequest, entry: AlertLogEntry) async {
+        do {
+            if try await sendNotification(request) { history.record(entry) }
+        } catch { notificationStatus = "Could not post notification: \(error.localizedDescription)" }
     }
 
     @discardableResult

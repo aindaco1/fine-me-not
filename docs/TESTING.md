@@ -1,5 +1,260 @@
 # Test and acceptance record
 
+## Public build 19 preparation — October 4, 2026
+
+Local 41 Swift package tests (including a second fixed-corpus case) and 77 Python
+pipeline tests pass. The source-refresh regression is fixed: all 54 road zones
+are identical to build 17. Current Coors zone, geometry, bearing and verified
+45 mph assertions pass; no zone-count threshold was lowered.
+
+Two new source tests cover retaining the previous active shard set when a newly
+hashed query set is incomplete, switching only after it is complete, preserving
+source dates and ignoring unrelated historical caches. Both distribution feeds
+pass checksum, camera-preservation and immutable-byte checks. The released 1.0.5
+validator accepted the staged legacy feed during preparation.
+
+Build 18 passed its signed archive checks and all 16 app-hosted tests. Its
+additional UI log replay failed before completion and remains recorded in
+`work/release18/` and `/tmp/road-notice-release18-log.xcresult`. Build 18 is
+superseded and was not selected for App Review. Build 19 distribution and runtime
+results are recorded after completion. Physical checks remain separate.
+
+## Notification crash and log styling — October 2, 2026
+
+The owner submitted TestFlight feedback for **1.0.6 (16)** on iPhone 16 Pro Max,
+iOS 27.0.1: tapping a notification crashed the foregrounding app. The downloaded
+symbolicated report shows SIGABRT on thread 2 in UIKit's
+`_performBlockAfterCATransactionCommitSynchronizes:`, called by the compiler-generated
+completion for `AppDelegate.userNotificationCenter(_:didReceive:)`. Build 17
+uses explicit completion callbacks, with routing and completion on the main actor.
+Raw feedback remains in ignored local `work/release17/testflight-feedback/`.
+
+- **41 Swift package tests and 74 pipeline tests pass.** The local CloudDocs
+  scratch directory initially hit macOS resource-fork signing restrictions;
+  the successful Swift run uses `/tmp/road-notice-core17`.
+- **16 app-hosted tests pass on a clean iOS 27.0 simulator**, including old
+  build-16 log decoding and a full bundled Coors replay through
+  `MonitoringController` for both directions. At 40 mph with 0.5 m/s uncertainty
+  the approaches are quiet; 44/45 mph and unknown uncertainty each warn once.
+- The signed build 17 archive passes signature and bundle checks, with the
+  unchanged private database URL, 2,701 cameras, iOS 17 minimum and both 45 mph
+  field observations. No speed threshold, geometry or evidence expiry changed.
+- Initial iOS 18 notification-tap attempts did not open the app from Notification
+  Center and are retained as failures. Its combined app-hosted invocation stalled
+  before executing tests; it is not counted as a pass. Initial iOS 27 UI tests
+  were blocked by a location permission prompt; the test setup now handles the
+  explicit simulator permission buttons before beginning its route.
+
+The final iOS 27 saved-entry UI test passes with a completed `.xcresult`: a real
+Core Location route posts the alert, then the app terminates/relaunches and opens
+the saved camera details. Its rendered screenshot confirms the blue styling,
+monospaced heading, Done button and saved 40 mph Gibson limit. Evidence is in
+`work/release17/log-final-attachments/` and `/tmp/road-notice-after17-log-final.xcresult`.
+An earlier successful test body stalled in Xcode result finalization; the fresh
+completed invocation is the acceptance result.
+
+The final iOS 27 Notification Center check **opens the matching entry after app
+termination without crashing**. `testColdNotificationDefaultAction` drives the
+real route, terminates the app, scrolls the notification into view and invokes
+its default action. The simulator required swipe-right opening after the initial
+tap; this does not establish single-tap behavior on a physical phone. XCTest
+reports one test with zero failures in 98.463 seconds, and the resulting screen
+was visually verified. Xcode then stalled during result-bundle finalization and
+was stopped after several minutes; this run is supported by its test transcript
+and screenshot, **not a completed `.xcresult`**. Evidence:
+`work/release17/cold-final.log` and `work/release17/cold-notification-opened.jpg`.
+Earlier failed exploratory attempts remain preserved locally.
+
+[Source CI](https://github.com/aindaco1/road-notice/actions/runs/37055355209) and
+[runtime CI](https://github.com/aindaco1/road-notice/actions/runs/37055359022)
+both pass for the shipped app source `bb227d5`. All three runtime jobs (iOS 17.5,
+18.5 and 26.5) pass, including app-hosted tests and the selected driving/audio
+checks. The documented hosted iOS 18 moving-GPS limitation remains separate.
+The new cold notification UI check is local evidence, not part of that CI run.
+Normal taps with the app backgrounded and terminated remain in the physical
+First Drive checklist for build 17.
+
+
+## Coors verification and on-device alert log — October 1, 2026
+
+The owner reported that build 14's Albuquerque approach zones and Quiet below
+speed limit worked well, and verified both existing Coors north of St. Joseph
+cameras and their 45 mph limit. This field report does not measure battery use or
+establish every physical audio/wake scenario in the historical checklists below.
+Build 16 preserves their geometry, bearing, IDs and road zones. The dated source
+and expiry policy are in [COORS-FIELD-VERIFICATION.md](COORS-FIELD-VERIFICATION.md).
+
+- **41 Swift package tests pass** (35 CameraCore, 6 SupportCore), including Coors
+  below-limit suppression, near-limit warning, uncertain-speed warning and all
+  existing road-zone corpus cases.
+- **74 pipeline tests pass**, including fresh field observations, conflicts and
+  expiry, and preservation of the Coors warning geometry.
+- **14 app-hosted tests pass on local iOS 18.0**, including notification payload
+  persistence and deduplication, denied/failed requests, quiet approaches, the
+  500-entry cap, clearing and cold payload restoration. Backup exclusion is
+  asserted; the Data Protection assertion runs only on physical iOS because the
+  simulator uses the Mac filesystem.
+- The real Core Location Gibson eastbound replay on iOS 18.0 emitted a camera
+  notification, completed its background siren and saved one matching log entry.
+- The build 16 signed archive passes signature and private-channel bundle checks.
+  [Clean-checkout source CI](https://github.com/aindaco1/road-notice/actions/runs/36878134469)
+  also passes. Earlier build 15 CI exposed an accidentally included local iCloud
+  duplicate resource; build 16 excludes it. The initial runtime dispatch failed
+  fetching the shared submodule before tests and was replaced by a fresh run.
+
+[Runtime CI](https://github.com/aindaco1/road-notice/actions/runs/36878141832) at
+app source `159a5e3` passes **14/14 app-hosted tests on each of iOS 17.5, 18.5 and
+26.5**, plus iOS 17.5/26.5 background approach/siren replays and iOS 18.5 foreground
+settings/audio. The latter retains the documented hosted GPS limitation.
+
+The local iOS 18.0 UI test `testCameraNotificationPersistsInAlertLog` also passes:
+a real route posts a camera notification, the app terminates/relaunches, and the
+saved entry opens to its camera type, road label and time. Its screenshot is
+retained in `work/release16/ui-attachments/`. Encounter cooldown state is reset
+through test launch arguments so a reused simulator can replay the same route.
+
+**Notification Center cold-tap acceptance remains open.** The initial reused
+simulator attempt selected an older notification; the fresh-notification and
+post-reboot attempts both displayed the notification but the automated taps did
+not reopen the app. This is not a passing end-to-end cold-tap result. Payload
+restoration and navigation state pass in app-hosted tests, and the saved-entry
+screen passes the separate UI test; the physical tap from a closed app is explicit
+in the TestFlight checklist. The unsuccessful exploratory UI test and all failed
+results are preserved under `work/release16/notification-tap-investigation.swift`
+and `work/alert-log-cold-tap*`, rather than installed as a claimed passing gate.
+
+Local evidence is in `work/alert-log-*` and `work/release16/`. The initial
+XcodeBuildMCP iOS 27 test invocation timed out; it is not counted as passing.
+Physical testing of build 16 remains separate from the owner's successful build
+14 field report. Windows work is a subsequent scope after this iPhone test.
+
+## Road zones and stationary power candidate — September 27, 2026
+
+The private 1.0.6 (14) candidate implements [road-following zones](ROAD-ZONES.md)
+and [automatic stationary pause/resume](BATTERY-MONITORING.md). Source is under
+[PR #7](https://github.com/aindaco1/road-notice/pull/7); distribution progress is
+recorded in [RELEASE.md](RELEASE.md). No public database deployment is performed
+as part of private candidate preparation.
+
+Apple has processed this candidate and the existing First Drive internal group
+shows **Testing**, with one tester and the phone checklist saved. Installation
+and the physical acceptance checks below remain unverified.
+
+- **40 Swift tests pass:** 34 CameraCore tests and 6 SupportCore tests, including
+  the new road-matching and location-session cases. All 54 generated zones have
+  a positive approach and reject opposite/distant traffic in the corpus replay.
+  The synthetic I-40/Menaul failure is rejected at both 55 and 65 mph, and the
+  correct-road control still warns.
+- **72 Python pipeline tests pass**, including automatic road-path validation,
+  actual source-node connectivity, stale and ambiguous fallback, and parallel
+  ways that share the monitored road's name.
+- Xcode 27 builds the combined simulator app with the actual **iOS 17.0 minimum**.
+  `check_bundle.py` verifies 2,701 camera records, siren, icon, privacy declaration,
+  background modes and support resources. The pinned support-package check and
+  `git diff --check` pass.
+- The snapshot contains 54 zones from 71 reviewed metro approaches. Comparing
+  every camera with the baseline confirms all non-zone fields remain unchanged.
+  The local immutable snapshot and manifest are
+  `2026-09-21-dc315dfa720e-79004776`; no nationwide rollout is implied.
+
+Command evidence is under the ignored local directory
+`work/battery-road-investigation-2026-09-27/` (`combined-swift.txt`,
+`combined-python.txt`, `combined-build.txt`). A fresh iPhone SE simulator running
+iOS 27.0 (24A434) completed the Gibson eastbound replay with Safari in front:
+exactly one background siren start and completion, with speed inferred from the
+timed location positions. Evidence is in `background-27/` and `simulator-27.txt`.
+Always access was pre-granted as a test fixture.
+
+### Repeatable wake regression suite
+
+The subsequent `MonitoringTests` target runs nine deterministic scenarios through
+`MonitoringController`, including its real async consumption/retry loop, fix
+filtering, engine and persistence. Only the OS service, time, camera input and
+warning output are replaced. All **9/9 pass on iOS 27.0 (24A434)** and **9/9 on
+iOS 18.0 (22A3351)**, with zero failures or skips. The 40 Swift package tests and
+72 pipeline tests still pass after introducing the service boundary.
+
+The same refactored app then passed a fresh **real Core Location** Gibson replay
+on iOS 27.0 with Safari in front: exactly one background siren start and
+completion, with no duplicate. That run uses Apple's live service, not the
+injected test source. Its result, journal and route are in
+`wake-suite/live-background-27/`. The complete bundle check also passes.
+
+The suite covers overnight pause/resume, missing/stale/coarse fixes, slow
+movement, off/on races, stream completion and failure, cancelled retries,
+permission loss/restoration, recovery-manager errors, and encounter persistence
+across controller recreation. The initial run's three failures came from fixtures
+reusing the parked timestamp after restart: the engine correctly rejected those
+as duplicate fixes. Corrected fixtures advance the clock before delivering a new
+fix; no duplicate-position protection was relaxed.
+
+`Scripts/monitoring_smoke.py` runs the suite on a fresh simulator and rejects
+failed, skipped or missing tests. The compatibility workflow now includes it for
+iOS 17.5, 18.5 and 26.5, saving its evidence separately from real GPS/audio tests.
+All nine passed on each hosted runtime with no failures or skips in
+[the candidate CI run](https://github.com/aindaco1/road-notice/actions/runs/36359847376).
+The separate iOS 17.5 background replay and iOS 18.5 foreground settings/audio
+check passed. The first iOS 26.5 background attempt failed before route injection:
+the Home-button action did not establish the required background state. The
+recording still showed the app visible; the journal contained no background
+transition before teardown. Its failed evidence is retained, and only that
+runtime job was rerun with unchanged source and assertions. That second attempt
+passed, including exactly one completed background warning, and the overall
+workflow passed. Instructions and exact test boundaries are in
+[BATTERY-MONITORING.md](BATTERY-MONITORING.md).
+
+Private candidate preparation adds a tenth app-hosted test for database-channel
+isolation: a newer cached public snapshot still loads in the normal channel but
+cannot replace the private candidate's bundled records. The nine wake contracts
+remain unchanged. The standard public cache directory is preserved for upgrades.
+
+The final app commit `17eac6e` passes **10/10 tests on each hosted iOS 17.5,
+18.5 and 26.5 runtime**, with no failures or skips. The same run passes the
+separate iOS 17.5/26.5 background approach checks (one siren start and completion
+each) and the iOS 18.5 foreground settings/audio check. The iOS 18.5 check does
+not replay moving GPS; the hosted runtime's documented limitation remains.
+[Final runtime CI](https://github.com/aindaco1/road-notice/actions/runs/36361637870)
+passes on its first attempt; [source CI](https://github.com/aindaco1/road-notice/actions/runs/36361637837)
+also passes all 40 Swift and 72 Python tests. Final downloaded results are in
+`work/release14/final-ci/`.
+
+Local evidence is under `work/battery-road-investigation-2026-09-27/wake-suite/`:
+`ios27-summary.json`, `ios18/`, and the core/pipeline logs. The original Xcode 27
+result is `test_sim_2026-09-27T22-44-06-077Z_pid16463_89fd2204.xcresult` under the
+XcodeBuildMCP workspace's `result-bundles` directory. This proves the app's response
+to simulated OS events; it does not force Core Location to pause the actual GPS
+hardware or wake a suspended physical phone.
+
+### Locked parked-to-driving simulation
+
+A fresh installation of the same candidate, with development-only location
+logging, ran on the iOS 27.0 simulator without an attached debugger. The simulator
+hardware Lock button was pressed; a screenshot confirmed the screen was off.
+It remained at the public Gibson fixture's starting position for **300 seconds**,
+then drove eastbound without opening the app or unlocking the phone.
+
+The parked journal contained **zero audio events** and `notMoving`. After departure
+the journal recorded **one siren start and one completion**, both in the background,
+with no repeat. The app stayed in the background throughout. Simulated fixes were
+accepted at 5 m horizontal accuracy. Notification permission was denied in this
+fixture; direct background siren playback still completed through the simulated
+speaker. This is not a physical audibility or notification-prompt test.
+
+**Stationary power-state acceptance is still open:** no live update reported
+`stationary=true` during the idle interval. The simulator continued supplying
+stationary-position fixes, so this run verifies locked idle-to-motion delivery
+and warning behavior, not wake-up from a real system stationary pause. Host
+`simctl` calls also introduced irregular delivery intervals; the route and log
+timestamps must not be presented as an iPhone wake-latency measurement.
+
+Evidence, including the setup, screen-off image, parked/departed journals, location
+log, route, reproduction script and result, is in
+`work/battery-road-investigation-2026-09-27/locked-departure/`.
+
+A source or simulator pass does not
+establish real-device stationary drain, movement wake latency, first-camera lead
+time or locked-screen audio. Those remain explicit physical acceptance checks.
+
 ## Public availability — September 25, 2026
 
 Apple's public product page and catalog confirm Road Notice 1.0.4 is available

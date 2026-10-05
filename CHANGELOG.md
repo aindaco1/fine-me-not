@@ -1,5 +1,16 @@
 # Release notes
 
+## 1.0.6 — October 4, 2026
+
+- Road-following camera approach zones and automatic stationary pause/recovery.
+- Both Coors north of St. Joseph cameras confirmed in field testing, with a verified 45 mph limit for Quiet below speed limit.
+- A simple on-device log of camera notifications. Tapping a notification opens its entry; Quiet approaches are not logged. The latest 500 entries stay on the phone, with a Clear action and no uploads or backups.
+
+- Incomplete road-source refreshes retain the previous cache set and its original expiry.
+- Public build 19 uses a regularly updated feed supporting confirmed speed-camera areas; older releases retain a compatible feed.
+
+Apple review and availability are tracked in [the release record](docs/RELEASE.md).
+
 ## 1.0.5 — September 25, 2026
 
 - Reuse shared support delivery and crash-report filtering while preserving the report preview, explicit submission, matching receipts and local privacy controls.

@@ -10,9 +10,24 @@ final class CameraApproachTests: XCTestCase {
     private func launchApp() -> XCUIApplication {
         continueAfterFailure = false
         let app = XCUIApplication()
-        app.launchArguments = ["-warnings.enabled", "YES"]
+        app.launchArguments = ["-warnings.enabled", "YES", "-warnings.encounters", ""]
         app.launch()
-        XCTAssertTrue(app.switches["Camera warnings"].waitForExistence(timeout: 60))
+        let springboard = XCUIApplication(bundleIdentifier: "com.apple.springboard")
+        for _ in 0..<4 {
+            let allowLocation = springboard.buttons["Allow While Using App"]
+            let allowNotifications = springboard.buttons["Allow"]
+            if allowLocation.exists { allowLocation.tap() }
+            else if allowNotifications.exists { allowNotifications.tap() }
+            else { break }
+        }
+        let warnings = app.switches["Camera warnings"]
+        XCTAssertTrue(warnings.waitForExistence(timeout: 60))
+        // Starting enabled via launch arguments doesn't request notification permission.
+        // Exercise the real opt-in UI on a fresh simulator before driving.
+        if warnings.value as? String == "1" { warnings.tap() }
+        warnings.tap()
+        let allow = springboard.buttons["Allow"]
+        if allow.waitForExistence(timeout: 3) { allow.tap() }
         return app
     }
 
@@ -67,5 +82,56 @@ final class CameraApproachTests: XCTestCase {
         Thread.sleep(forTimeInterval: 10)
         // The outer runner asserts exactly one completed background siren from
         // the app's persisted journal, independently of this route driver.
+    }
+
+    @MainActor
+    func testCameraNotificationPersistsInAlertLog() throws {
+        try testBackgroundCameraApproach()
+        let app = XCUIApplication()
+        app.terminate()
+        app.launch()
+        XCTAssertTrue(app.switches["Camera warnings"].waitForExistence(timeout: 60))
+        let log = app.buttons["alert-log"]
+        for _ in 0..<4 where !log.isHittable { app.swipeUp() }
+        log.tap()
+        XCTAssertTrue(app.navigationBars["Alert log"].waitForExistence(timeout: 10))
+        let item = app.buttons.matching(NSPredicate(format: "label CONTAINS %@", "Gibson between Carlisle and San Mateo")).firstMatch
+        XCTAssertTrue(item.waitForExistence(timeout: 10))
+        item.tap()
+        XCTAssertTrue(app.navigationBars["Camera alert"].waitForExistence(timeout: 10))
+        XCTAssertTrue(app.staticTexts["Gibson between Carlisle and San Mateo · EB"].exists)
+        let screenshot = XCTAttachment(screenshot: app.screenshot())
+        screenshot.name = "Saved camera alert details"
+        screenshot.lifetime = .keepAlways
+        add(screenshot)
+    }
+
+    @MainActor
+    func testColdNotificationDefaultAction() throws {
+        try testBackgroundCameraApproach()
+        let app = XCUIApplication()
+        app.terminate()
+        let springboard = XCUIApplication(bundleIdentifier: "com.apple.springboard")
+        XCUIDevice.shared.press(.home)
+        springboard.coordinate(withNormalizedOffset: CGVector(dx: 0.5, dy: 0.01))
+            .press(forDuration: 0.1, thenDragTo: springboard.coordinate(withNormalizedOffset: CGVector(dx: 0.5, dy: 0.8)))
+        // Scroll the notification content; an edge swipe dismisses the shade.
+        springboard.coordinate(withNormalizedOffset: CGVector(dx: 0.5, dy: 0.745))
+            .press(forDuration: 0.1, thenDragTo: springboard.coordinate(withNormalizedOffset: CGVector(dx: 0.5, dy: 0.255)))
+        let matches = springboard.buttons.matching(NSPredicate(format: "label CONTAINS %@", "Speed camera: Gibson between Carlisle and San Mateo"))
+        let item = try XCTUnwrap(matches.allElementsBoundByIndex.first(where: { $0.isHittable }))
+        item.tap()
+        if !app.navigationBars["Camera alert"].waitForExistence(timeout: 3), item.exists {
+            // Some simulator Notification Center versions need swipe-to-open.
+            item.swipeRight()
+            let open = springboard.buttons["Open"]
+            if open.waitForExistence(timeout: 3) { open.tap() }
+        }
+        XCTAssertTrue(app.navigationBars["Camera alert"].waitForExistence(timeout: 15))
+        XCTAssertTrue(app.staticTexts["Gibson between Carlisle and San Mateo · EB"].exists)
+        let screenshot = XCTAttachment(screenshot: app.screenshot())
+        screenshot.name = "Opened notification after termination"
+        screenshot.lifetime = .keepAlways
+        add(screenshot)
     }
 }

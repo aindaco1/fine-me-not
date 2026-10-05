@@ -27,7 +27,7 @@ All 40 current city-listed approaches are represented: 20 matched camera points 
 6. Failed, malformed, rollback or >25% source-count-drop responses retain the last good input. The phone verifies a SHA-256 manifest and schema before atomically replacing its offline database; it keeps a backup and bundled fallback.
 7. “Possible speed camera” means an identified deployment area with uncertain equipment presence or a documented fixed-camera site whose exact device point is unverified. Approximate fixed-site areas must follow reviewed road geometry, explicitly say approximate area, retain official direction evidence, and explain the chosen extent. A guessed point is never published as an exact camera. Sites without a defensible road segment remain excluded.
 
-The engine filters accuracy, freshness, movement, approaching direction and repeat encounters. It uses a spatial index and one geometry matcher for points and corridors. It does not perform full road/lane map matching; parallel-road false positives remain a physical-test concern.
+The engine filters accuracy, freshness, movement, approaching direction and repeat encounters. It uses a spatial index and one geometry matcher for points and corridors. The development candidate adds optional, source-connected road zones with separate lateral and along-road checks, plus nearby alternatives. The first rollout covers 54 reviewed metro approaches; missing or expired zones retain existing behavior. This is not full road/lane map matching. See [road-zone evidence, limits and coverage](ROAD-ZONES.md).
 
 ## Publishing
 
@@ -42,6 +42,13 @@ The workflow saves reproducible inputs/results, then deploys the static website 
 Review the public source and geometry, update `Data/Overrides/metro.json`, add a tombstone for a removed identity or stale alias, run tests and publish. Keep exact evidence and direction instead of a confidence score. Use GitHub review for changes; there is no separate admin interface.
 
 ## Coors correction — September 14, 2026
+
+**October 1 update:** the owner confirmed both cameras and the posted 45 mph limit
+in field testing. Build 15 classifies both as speed cameras, preserving their IDs,
+road areas and road zones. [Field evidence](COORS-FIELD-VERIFICATION.md) supplies
+the dated speed-limit observations. Speed-camera polylines are accepted by build
+15's validator; older apps reject this snapshot and retain their last good data.
+This candidate stays on its private channel pending public release coordination.
 
 The city lists Coors north of St. Joseph in both directions (entries 37/38, dated July 29, 2026). Those entries were inventoried but had no accepted geometry, so earlier bundles omitted them. This is a plausible explanation for the reported missed warning north of I-40, although the exact device passed has not been established.
 

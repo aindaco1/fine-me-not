@@ -184,6 +184,14 @@ def osm_roads(points):
     return value
 
 
+def active_osm_shards(root, requested, previous):
+    # Query hashes change when camera inputs change. A partial replacement set
+    # must not disconnect still-valid roads from the last complete source set.
+    complete = all(read(root / f'Data/SpeedLimits/{name}.json', {}).get('checkedAt')
+                   for name in requested)
+    return requested if complete else previous.get('activeOSMShards', requested)
+
+
 def refresh(root=ROOT, now=None, force=False, budget=900, osm_only=False):
     now=now or dt.datetime.now(UTC); checks=[]; started=time.monotonic()
     folder=root/'Data/SpeedLimits'; folder.mkdir(parents=True,exist_ok=True)
@@ -243,10 +251,12 @@ def refresh(root=ROOT, now=None, force=False, budget=900, osm_only=False):
             cached(name,OVERPASS,lambda ps=ps:osm_roads(ps))
             backoff=any(x in checks[-1].get('error','') for x in ('429','Connection refused','rate limit'))
             if checks[-1]['status']!='cached':time.sleep(10)
+    previous=read(root/'Data/Review/speed-limit-fetch.json',{})
     if osm_only:
-        previous=read(root/'Data/Review/speed-limit-fetch.json',{})
         checks=[x for x in previous.get('checks',[]) if not x['id'].startswith('osm-roads-')]+checks
-    report={'checkedAt':stamp(now),'activeOSMShards':shards,'checks':checks}
+    active=active_osm_shards(root,shards,previous)
+    report={'checkedAt':stamp(now),'activeOSMShards':active,'requestedOSMShards':shards,
+            'retainedPreviousOSMShards':active!=shards,'checks':checks}
     write(root/'Data/Review/speed-limit-fetch.json',report)
     return report
 

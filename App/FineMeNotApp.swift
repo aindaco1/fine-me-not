@@ -40,7 +40,8 @@ final class AppServices {
         Database: \(store.snapshot?.version ?? "unavailable")
         Status: \(monitoring.status(at: now))
         Always location: \(monitoring.authorization == .authorizedAlways ? "yes" : "no") · precise: \(monitoring.precise ? "yes" : "no")
-        Continuous GPS: \(monitoring.isTracking ? "requested" : "off") · automatic pauses: disabled
+        Location mode: \(monitoring.locationPowerStatus) · automatic stationary pause/resume
+        \(monitoring.locationResumeDiagnostic)
         Low Power Mode: \(ProcessInfo.processInfo.isLowPowerModeEnabled ? "on" : "off") · Background App Refresh: \(refresh)
         Latest GPS: \(age(monitoring.lastReceivedAt)) · accepted GPS: \(age(monitoring.lastFixAt))
         Accuracy: \(number(monitoring.lastAccuracy, unit: "m")) · reported speed: \(number(monitoring.lastReportedSpeed, unit: "m/s"))
@@ -88,8 +89,27 @@ final class AppDelegate: NSObject, UIApplicationDelegate, UNUserNotificationCent
     }
 
     nonisolated func userNotificationCenter(_ center: UNUserNotificationCenter,
-                                            willPresent notification: UNNotification) async -> UNNotificationPresentationOptions {
-        [.banner, .sound]
+                                            willPresent notification: UNNotification,
+                                            withCompletionHandler completionHandler: @escaping @Sendable (UNNotificationPresentationOptions) -> Void) {
+        let entry = AlertLogEntry.decode(notification.request.content.userInfo[AlertLogEntry.payloadKey] as? String)
+        Task { @MainActor in
+            if let entry { AppServices.shared.presenter.history.record(entry) }
+            completionHandler([.banner, .sound, .list])
+        }
+    }
+
+    nonisolated func userNotificationCenter(_ center: UNUserNotificationCenter,
+                                            didReceive response: UNNotificationResponse,
+                                            withCompletionHandler completionHandler: @escaping @Sendable () -> Void) {
+        let entry = response.actionIdentifier == UNNotificationDefaultActionIdentifier
+            ? AlertLogEntry.decode(response.notification.request.content.userInfo[AlertLogEntry.payloadKey] as? String) : nil
+        // UIKit's response completion updates its scene snapshot and must run on
+        // main too. The nonisolated async delegate's generated completion ran on
+        // a worker thread and crashed build 16 after notification taps.
+        Task { @MainActor in
+            if let entry { AppServices.shared.presenter.history.open(entry) }
+            completionHandler()
+        }
     }
 }
 

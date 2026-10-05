@@ -1,5 +1,170 @@
 # Release and distribution
 
+## Public 1.0.6 preparation — October 4, 2026
+
+The owner requested promotion of the latest candidate and publication. App Store
+Connect currently shows **1.0.5 (13), Ready for Distribution**. Internal-only
+build 17 cannot be promoted to App Review, so **1.0.6 (19)** packages its features
+for standard App Store Connect distribution, with iOS 17 minimum.
+
+The release uses `https://finemenot.xyz/data/v2/`, replacing the private pinned
+candidate feed. The normal local cache and saved user settings remain compatible.
+One publisher supplies both public feeds. The original `/data/` feed projects
+confirmed speed-camera polylines to the older `possibleSpeed` classification,
+preserving IDs, coordinates, directions, limits and all other camera fields.
+This avoids older validators rejecting the entire download. Each projection gets
+its own immutable filename and checksum; previously published bytes remain intact.
+
+All **2,701 cameras and 54 road zones** are retained. Every zone is identical to
+build 17, including Coors, and both field-verified 45 mph observations remain.
+Release preparation found an incomplete September 28 road-source refresh had
+replaced the active cache index with a mostly unavailable query set. The fetcher
+now activates a replacement query set only when all its cached batches exist;
+otherwise it retains the last active set with its original dates and expiry.
+Build 18 was uploaded during preparation but is superseded and is not the release
+candidate. Its reduced 38-zone snapshot was never deployed to the public feed.
+
+Source tests cover partial replacement, complete replacement and unrelated caches.
+Physical battery, overnight departure and normal phone notification-tap checks
+remain open in the acceptance record. Release evidence is in ignored
+`work/release19/`; the signed archive is retained in Xcode Archives after packaging.
+
+## Local artifact retention — October 2, 2026
+
+After build 17 delivery, obsolete local build caches, exports, repeated result
+bundles, test videos and generated site previews were removed at the owner's
+request. The complete signed build 17 archive remains in Xcode Archives. Older
+build 14–16 archives were replaced by their verified dSYMs and archive metadata
+in ignored `work/release-symbols/`; historical archive paths below describe what
+was retained at delivery and no longer imply the full older binaries exist.
+
+Current simulator development output (`/tmp/road-notice-fix17`), the Swift test
+cache (`/tmp/road-notice-core17`), and the final app-hosted and saved-entry UI
+results (`/tmp/road-notice-after17-unit.xcresult` and
+`/tmp/road-notice-after17-log-final.xcresult`) remain available. Test transcripts,
+selected screenshots and the original TestFlight crash report are preserved.
+Older raw result bundles and duplicate videos referenced in historical testing
+records were pruned. The local inventory is `work/cleanup-2026-10-02/inventory.json`.
+The generated project remains committed and can be reopened normally in Xcode.
+
+Only `main` and the active `battery-road-zones` branch exist locally and on origin;
+no stale branch needed deletion. Local `main` was fast-forwarded to `origin/main`.
+This cleanup did not expire or change any distributed TestFlight build.
+
+## Notification-crash follow-up — October 2, 2026
+
+**1.0.6 (17)** is **Testing** in the existing **First Drive** internal group,
+with its one tester. Apple accepted the upload with symbols at **13:41 MDT**;
+processing, saved phone instructions, group assignment and the refreshed
+`Build 17 Internal · Testing · First Drive · 1 invite` row are verified.
+Apple build ID: `442b7b29-ab42-4a2b-b161-5e8b5e525182`.
+
+The binary corrects build 16's off-main notification completion identified by
+the owner's TestFlight crash report. Both log screens use the main app's styling,
+and new entries display their saved, eligible speed-check limit. Old entries
+remain readable. Coors data and warning thresholds are unchanged: the signed
+archive includes both verified 45 mph limits, and full controller replays verify
+below-limit suppression. The signed archive and dSYM are retained at
+`~/Library/Developer/Xcode/Archives/2026-10-02/RoadNotice-1.0.6-17-private.xcarchive`.
+The app source is `bb227d5`; `368f12d` only adjusts the test/acceptance record.
+The internal-only export retains build 16's immutable private database URL and
+cannot be used for App Store or external TestFlight distribution.
+
+[Source CI](https://github.com/aindaco1/road-notice/actions/runs/37055355209) and
+[runtime CI](https://github.com/aindaco1/road-notice/actions/runs/37055359022) pass,
+including all iOS 17.5, 18.5 and 26.5 jobs.
+Local 41 Swift, 74 pipeline and 16 app-hosted tests pass, as do signed-bundle checks.
+The saved-entry UI test opens the styled details after a real route and app
+relaunch. A separate iOS 27 check opens the matching entry from Notification
+Center after termination without crashing, using swipe-right opening. Its test
+body passes, but Xcode stalled finalizing that result bundle; the transcript and
+rendered screen are preserved. Normal notification taps must still be confirmed
+on the phone. The updated First Drive checklist is saved. See
+[the acceptance record](TESTING.md) for the evidence and limitations.
+No public database deployment, App Store submission or tester-access change was made.
+
+
+## Private Coors verification and alert-log candidate — October 1, 2026
+
+**1.0.6 (16)** is **Testing** in the existing First Drive internal group, from [PR #7](https://github.com/aindaco1/road-notice/pull/7),
+app source `159a5e318c97a30ed5611e2b934fb16dbe8e91d3`. The owner reported successful
+Albuquerque field use of build 14's approach zones and Quiet below speed limit.
+The two Coors north of St. Joseph approaches now retain those same warning
+locations with confirmed speed-camera classification and field-verified 45 mph
+limits. The new [local alert log](ALERT-LOG.md) stores posted camera notifications
+and routes notification taps to their saved entries.
+
+Apple accepted the internal-only upload at **08:43 MDT (14:43 UTC) on October 1**.
+Processing is complete and build-specific test instructions are saved. A refreshed
+Helium App Store Connect view verifies **Build 16 Internal · Testing · First Drive · 1 invite**.
+Tester access and roles are unchanged; physical installation remains unverified. Apple build ID:
+`53261023-131d-45fc-88db-7d37cbccab6e`. This is not a public App Store submission or
+public database deployment. Build 15 was uploaded before a clean-checkout packaging
+fix; it remains unassigned. Build 16 excludes the pre-existing local `Info 2.plist`
+iCloud duplicate from XcodeGen resources, preserving that file on disk.
+
+The signed archive and dSYM are retained at
+`~/Library/Developer/Xcode/Archives/2026-10-01/RoadNotice-1.0.6-16-private.xcarchive`.
+Signature and release-bundle checks pass with iOS 17 minimum, 2,701 cameras and
+54 road zones. The immutable private feed is
+`https://raw.githubusercontent.com/aindaco1/road-notice/b751e4b7a832e08ef0700264520481b4241aab14/Data/Published/`.
+Snapshot `2026-09-28-f7d23a339024-c8ba0cd7` has SHA-256
+`923b6db9cf2feb5b00d2e2faefedee7fc3b484805a2d528e81ab70aec1a0e7e1`.
+The dated field limits expire October 31 under the existing freshness policy.
+Older public validators reject speed-camera polylines, so this snapshot stays on
+the private channel until a compatible public app rollout is coordinated.
+
+[Source CI](https://github.com/aindaco1/road-notice/actions/runs/36878134469) passes.
+See [the test record](TESTING.md) for app-hosted and runtime results. Local archive,
+upload and test-instruction evidence is retained in `work/release16/`.
+
+## Private stationary-power and road-zone candidate — September 27, 2026
+
+**1.0.6 (14)** is **Testing** in the existing First Drive internal TestFlight group.
+Source is [PR #7](https://github.com/aindaco1/road-notice/pull/7), app commit
+`17eac6ebf6c45f5ccae02b7d706e3f5cd24b9e67`. This is a private candidate, not an
+App Store submission or a public database deployment. At preparation time,
+App Store Connect lists the preceding 1.0.5 (13) as Ready for Distribution.
+
+Apple accepted the upload at **18:32 MDT on September 27 (00:32 UTC September
+28)**. Processing completed, the build-specific phone checklist was saved, and
+First Drive was assigned with its existing one tester. A refreshed TestFlight
+record verifies **Build 14 Internal · Testing · First Drive · 1 invite**.
+No tester roles or access changed. Apple build ID:
+`73a1a59c-ff56-4757-925d-893cc70b4a06`. Physical installation remains unverified.
+
+The Xcode 27 signed archive passes signature and release bundle checks with the
+existing iOS 17 minimum, 2,701 cameras, and 54 reviewed road zones. It contains no
+test bundles. Its matching dSYM is retained in
+`~/Library/Developer/Xcode/Archives/2026-09-27/RoadNotice-1.0.6-14-private.xcarchive`.
+The bundled snapshot is `2026-09-21-dc315dfa720e-79004776`, SHA-256
+`0b8937317ddb88f8b52446cc12164d33492ad63afce027757fd3a5a56f2cfebe`.
+
+[Hosted source checks](https://github.com/aindaco1/road-notice/actions/runs/36361637837)
+pass: 40 Swift core tests, 72 pipeline tests, the support-package check and app
+build. [Final runtime CI](https://github.com/aindaco1/road-notice/actions/runs/36361637870)
+passes all ten app-hosted tests on iOS 17.5, 18.5 and 26.5, the iOS 17.5/26.5
+background approach replays, and iOS 18.5 foreground settings/audio. The ten
+tests include the nine wake contracts and private database-channel isolation.
+Earlier attempts and the simulator's physical limits are recorded in
+[TESTING.md](TESTING.md). The exported IPA is 2,479,791 bytes; this is not Apple's
+processed download size. The export enables `testFlightInternalTestingOnly`, which makes this
+binary ineligible for external TestFlight or App Store distribution.
+
+Physical installation, overnight locked departure, Low Power Mode, battery use,
+and Coors/Alameda/I-40 road checks remain open. This private archive pins
+`CAMERA_DATABASE_URL` to the immutable candidate directory at
+`https://raw.githubusercontent.com/aindaco1/road-notice/231a1ad9cef6a3bb2cc08ab65de99a48b8dd3af6/Data/Published/`.
+It uses the normal downloader and checksum validation, but a weekly public update
+cannot remove the candidate zones during a field test. Normal builds leave this
+setting empty and use the existing public feed. The bundle checker requires an
+explicit `--database-url` for a custom channel, preventing an accidental candidate
+channel in a standard release. Road zones still expire according to source age;
+this test build does not freeze the clock or relax expiry validation.
+Local archive, CI, upload and test-instruction evidence is in `work/release14/`.
+
+## Earlier release records
+
 **September 25, 2026:** **Road Notice 1.0.4 is available free on the
 [U.S. App Store](https://apps.apple.com/us/app/road-notice/id6812094105)** for
 iPhone running iOS 17 or later. Automatic release after approval published the
