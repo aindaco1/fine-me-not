@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T01:30:52Z",
+  "generatedAt": "2026-10-05T12:59:20Z",
   "metros": [
     {
       "agencyPoints": 0,
@@ -557,9 +557,9 @@
       "population2025": 6465724,
       "possibleAreas": 0,
       "rank": 7,
-      "speedCameraApproaches": 415,
-      "warningRecords": 511,
-      "withSuppressionLimit": 325
+      "speedCameraApproaches": 416,
+      "warningRecords": 512,
+      "withSuppressionLimit": 326
     },
     {
       "agencyPoints": 0,
@@ -817,8 +817,8 @@
       "population2025": 4161883,
       "possibleAreas": 0,
       "rank": 15,
-      "speedCameraApproaches": 143,
-      "warningRecords": 195,
+      "speedCameraApproaches": 147,
+      "warningRecords": 199,
       "withSuppressionLimit": 117
     },
     {

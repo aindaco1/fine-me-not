@@ -1,29 +1,29 @@
 {
   "counts": {
     "possibleSpeed": 184,
-    "redLight": 738,
-    "speed": 1584,
+    "redLight": 742,
+    "speed": 1590,
     "speedAndRedLight": 195
   },
   "fetches": [
     {
-      "checkedAt": "2026-09-28T09:37:29Z",
+      "checkedAt": "2026-10-05T10:16:36Z",
       "source": "speed",
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-09-28T09:37:47Z",
+      "checkedAt": "2026-10-05T10:16:53Z",
       "source": "enforcement",
       "status": "downloaded"
     },
     {
-      "error": "HTTP Error 504: Gateway Time-out",
+      "checkedAt": "2026-10-05T10:17:08Z",
       "source": "aliases",
-      "status": "retained"
+      "status": "downloaded"
     }
   ],
-  "generatedAt": "2026-10-05T01:30:52Z",
-  "records": 2701,
+  "generatedAt": "2026-10-05T12:59:20Z",
+  "records": 2711,
   "review": [
     {
       "id": "osm-relation-545916",
@@ -1676,7 +1676,7 @@
       "nearby": [
         {
           "id": "osm-node-12578283031",
-          "meters": 5.4
+          "meters": 5.5
         }
       ],
       "reason": "Nearby accepted record; identity/approach review required"
@@ -2395,6 +2395,11 @@
       "sourceRecord": "William L. Sayre High School: Walnut St. (S. 58th to S. 59th)"
     },
     {
+      "reason": "Location needs review: Intersection/segment description needs review",
+      "source": "philadelphia-addresses",
+      "sourceRecord": "Northeast High School: Cottman Ave. (Glendale Ave & Algon Ave.)"
+    },
+    {
       "reason": "Location needs review: Census changed the requested street/state; needs review",
       "source": "philadelphia-addresses",
       "sourceRecord": "2100 Robbins Street"
@@ -2729,22 +2734,32 @@
       "reason": "Metro source requires explicit reconciliation"
     },
     {
-      "consecutiveAbsences": 1,
+      "consecutiveAbsences": 2,
       "id": "agency-chicago-red-2359-n-clark-st-315",
       "reason": "Missing from complete fetch; retained pending review"
     },
     {
-      "consecutiveAbsences": 1,
+      "consecutiveAbsences": 2,
       "id": "agency-chicago-red-5356-s-archer-ave-270",
       "reason": "Missing from complete fetch; retained pending review"
     },
     {
       "consecutiveAbsences": 1,
-      "id": "osm-node-8918090831",
+      "id": "osm-node-2876763209",
       "reason": "Missing from complete fetch; retained pending review"
     },
     {
       "consecutiveAbsences": 1,
+      "id": "osm-node-4134798728",
+      "reason": "Missing from complete fetch; retained pending review"
+    },
+    {
+      "consecutiveAbsences": 2,
+      "id": "osm-node-8918090831",
+      "reason": "Missing from complete fetch; retained pending review"
+    },
+    {
+      "consecutiveAbsences": 2,
       "id": "osm-node-9332882501",
       "reason": "Missing from complete fetch; retained pending review"
     },
@@ -5664,6 +5679,11 @@
       "reason": "Nearby records; no automatic proximity merge"
     },
     {
+      "id": "osm-node-13533627701",
+      "near": "osm-node-13533627601",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
       "id": "osm-node-13608486607",
       "near": "osm-node-13608486606",
       "reason": "Nearby records; no automatic proximity merge"
@@ -6206,6 +6226,11 @@
     {
       "id": "osm-node-14183659850",
       "near": "osm-node-14152341948",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-14232694615",
+      "near": "osm-node-14232694614",
       "reason": "Nearby records; no automatic proximity merge"
     },
     {
@@ -6771,6 +6796,16 @@
     {
       "id": "osm-node-409219979",
       "near": "osm-node-40410711",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-4134798728",
+      "near": "osm-node-14232694615",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-4134798728",
+      "near": "osm-node-14232694614",
       "reason": "Nearby records; no automatic proximity merge"
     },
     {

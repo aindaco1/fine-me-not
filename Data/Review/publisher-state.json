@@ -1,9 +1,11 @@
 {
   "missing": {
-    "agency-chicago-red-2359-n-clark-st-315": 1,
-    "agency-chicago-red-5356-s-archer-ave-270": 1,
-    "osm-node-8918090831": 1,
-    "osm-node-9332882501": 1
+    "agency-chicago-red-2359-n-clark-st-315": 2,
+    "agency-chicago-red-5356-s-archer-ave-270": 2,
+    "osm-node-2876763209": 1,
+    "osm-node-4134798728": 1,
+    "osm-node-8918090831": 2,
+    "osm-node-9332882501": 2
   },
-  "sourceVersion": "2026-09-28T09:34:10Z-2026-09-28T09:34:10Z-2026-09-21T08:47:49Z"
+  "sourceVersion": "2026-10-05T10:14:35Z-2026-10-05T10:14:35Z-2026-10-05T10:14:35Z"
 }

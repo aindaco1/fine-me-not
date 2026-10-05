@@ -1,6 +1,6 @@
 {
   "eligible": 54,
-  "generatedAt": "2026-10-05T01:30:52Z",
+  "generatedAt": "2026-10-05T12:59:20Z",
   "records": [
     {
       "id": "abq-98th-tower-central-nb",
@@ -502,5 +502,5 @@
   ],
   "reviewed": 71,
   "scope": "Existing reviewed Albuquerque metro register",
-  "totalCameras": 2701
+  "totalCameras": 2711
 }

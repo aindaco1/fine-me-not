@@ -1,8 +1,8 @@
 # Speed-limit coverage
 
-Snapshot 2026-09-28-161eb14e875c-1f615099
+Snapshot 2026-10-05-e87d3c801055-75d804e1
 
-1307 / 1768 speed-camera approaches have an approved posted limit or conservative suppression bound.
+1309 / 1774 speed-camera approaches have an approved posted limit or conservative suppression bound.
 
 | Census metro | Speed approaches | With limit/bound |
 |---|---:|---:|
@@ -13,7 +13,7 @@ Snapshot 2026-09-28-161eb14e875c-1f615099
 | Dallas-Fort Worth-Arlington, TX | 85 | 69 |
 | Houston-Pasadena-The Woodlands, TX | 1 | 0 |
 | Atlanta-Sandy Springs-Roswell, GA | 28 | 20 |
-| Washington-Arlington-Alexandria, DC-VA-MD-WV | 415 | 325 |
+| Washington-Arlington-Alexandria, DC-VA-MD-WV | 416 | 326 |
 | Miami-Fort Lauderdale-West Palm Beach, FL | 12 | 4 |
 | Philadelphia-Camden-Wilmington, PA-NJ-DE-MD | 23 | 20 |
 | Phoenix-Mesa-Chandler, AZ | 33 | 14 |
@@ -21,7 +21,7 @@ Snapshot 2026-09-28-161eb14e875c-1f615099
 | Riverside-San Bernardino-Ontario, CA | 2 | 0 |
 | San Francisco-Oakland-Fremont, CA | 70 | 68 |
 | Detroit-Warren-Dearborn, MI | 0 | 0 |
-| Seattle-Tacoma-Bellevue, WA | 143 | 117 |
+| Seattle-Tacoma-Bellevue, WA | 147 | 117 |
 | Minneapolis-St. Paul-Bloomington, MN-WI | 15 | 1 |
 | Tampa-St. Petersburg-Clearwater, FL | 7 | 0 |
 | San Diego-Chula Vista-Carlsbad, CA | 7 | 7 |
